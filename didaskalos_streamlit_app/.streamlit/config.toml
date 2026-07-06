@@ -7,3 +7,5 @@ textColor = "#212529"
 
 [server]
 headless = true
+port = 8080
+enableCORS = false
