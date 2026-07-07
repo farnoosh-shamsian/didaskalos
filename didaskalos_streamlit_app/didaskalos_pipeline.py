@@ -4,6 +4,7 @@ import os
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
+from collections import Counter
 from pathlib import Path
 from typing import Any, Mapping
 
@@ -204,7 +205,272 @@ def is_greek_lemma(lemma: str) -> bool:
     return isinstance(lemma, str) and bool(GREEK_MARK_RE.search(lemma))
 
 
-def build_combined_df(folder: str | Path, selected_files: list[str]) -> pd.DataFrame:
+# ---------------------------------------------------------------------------
+# Declension classification (declension-based textbook mode)
+# ---------------------------------------------------------------------------
+
+# AGDT 9-position postag indices.
+POSTAG_NUMBER_INDEX = 2
+POSTAG_GENDER_INDEX = 6
+POSTAG_CASE_INDEX = 7
+
+NOUN_DECLENSION_LABELS = {
+    "N1": "N1 first declension feminine nouns",
+    "N2": "N2 first declension masculine nouns",
+    "N3": "N3 second declension masculine nouns",
+    "N4": "N4 second declension neuter nouns",
+    "N5": "N5 third declension consonant stem nouns",
+    "N6": "N6 third declension iota upsilon stem nouns",
+    "N7": "N7 third declension nasal liquid stem nouns",
+    "N8": "N8 other third declension and irregular nouns",
+}
+
+ADJECTIVE_DECLENSION_LABELS = {
+    "ADJ1": "ADJ1 first second declension adjectives",
+    "ADJ2": "ADJ2 third declension adjectives",
+    "ADJ3": "ADJ3 other adjectives",
+}
+
+DECLENSION_LABELS = {**NOUN_DECLENSION_LABELS, **ADJECTIVE_DECLENSION_LABELS}
+
+# Keys are diacritic-stripped, lowercased, with final sigma normalized to σ
+# (the output of _classification_key). Only lemmas whose nominative-singular
+# ending points to the wrong class need to be listed here.
+IRREGULAR_NOUN_LEXICON = {
+    "γυνη": "N5",  # γυναικός: consonant stem despite ending in -η
+    "παισ": "N5",  # παιδός: dental stem despite ending in -ις
+    "ελπισ": "N5",  # ἐλπίδος
+    "χαρισ": "N5",  # χάριτος
+    "ορνισ": "N5",  # ὄρνιθος
+    "ερισ": "N5",  # ἔριδος
+    "κλεισ": "N5",  # κλειδός
+    "νουσ": "N3",  # second declension contract
+    "πλουσ": "N3",
+    "ζευσ": "N8",
+    "γραυσ": "N8",
+    "γηρασ": "N8",
+    "κερασ": "N8",
+    "τερασ": "N8",
+    "κρεασ": "N8",
+    "υδωρ": "N7",
+}
+
+IRREGULAR_ADJECTIVE_LEXICON = {
+    "πολυσ": "ADJ3",  # mixed 2nd/3rd declension paradigm
+    "μεγασ": "ADJ3",  # mixed 2nd/3rd declension paradigm
+}
+
+
+def _classification_key(text: str) -> str:
+    normalized = normalize_greek_lemma(text)
+    normalized = re.sub(r"\d+$", "", normalized)
+    return normalized.replace("ς", "σ")  # final sigma -> sigma
+
+
+def _genitive_singular_signal(forms: list[str]) -> str | None:
+    """Vote on the declension using the genitive-singular forms attested in the corpus.
+
+    Returns one of: "d12" (-ου: 1st masc / 2nd decl), "d1" (-ης/-ας: 1st decl),
+    "d3i" (-εως: 3rd decl iota stem), "d3s" (-ους: 3rd decl sigma stem),
+    "d3" (-ος: other 3rd decl), or None when no genitive singular is attested.
+    """
+    counts: Counter[str] = Counter()
+    for form in forms:
+        key = _classification_key(form)
+        if key.endswith("εωσ"):
+            counts["d3i"] += 1
+        elif key.endswith("ουσ"):
+            counts["d3s"] += 1
+        elif key.endswith("οσ"):
+            counts["d3"] += 1
+        elif key.endswith("ου"):
+            counts["d12"] += 1
+        elif key.endswith(("ησ", "ασ")):
+            counts["d1"] += 1
+    if not counts:
+        return None
+    return counts.most_common(1)[0][0]
+
+
+def classify_noun_declension(lemma: str, gender: str = "-", genitive_signal: str | None = None) -> str:
+    """Classify a noun lemma into N1..N8.
+
+    ``gender`` is the AGDT postag gender character ("m", "f", "n" or "-"),
+    ideally the majority gender of the lemma across the corpus.
+    ``genitive_signal`` is the output of _genitive_singular_signal for the lemma.
+    """
+    key = _classification_key(lemma)
+    if not key:
+        return "N8"
+    if key in IRREGULAR_NOUN_LEXICON:
+        return IRREGULAR_NOUN_LEXICON[key]
+
+    third_declension_evidence = genitive_signal in {"d3", "d3s", "d3i"}
+
+    # Unambiguously third-declension nominative endings.
+    if key.endswith(("ευσ", "αυσ", "ουσ", "ω")):
+        return "N8"  # βασιλεύς, ναῦς, βοῦς, πειθώ
+    if key.endswith(("ην", "ων", "ηρ", "ωρ")):
+        return "N7"  # ποιμήν, δαίμων, πατήρ, ῥήτωρ
+    if key.endswith("ισ"):
+        # πόλις (-εως, iota stem) vs. ἐλπίς (-ίδος, dental stem).
+        if genitive_signal == "d3":
+            return "N5"
+        return "N6"
+    if key.endswith(("υσ", "υ")):
+        return "N6"  # ἰχθύς, ἄστυ
+
+    # -μα, -ματος neuters are consonant (dental) stems: σῶμα, πρᾶγμα.
+    if gender == "n" and key.endswith("μα"):
+        return "N5"
+
+    if gender == "f" and key.endswith(("α", "η")):
+        return "N5" if third_declension_evidence else "N1"
+    if gender == "m" and key.endswith(("ασ", "ησ")):
+        # πολίτης (-ου, 1st decl) vs. Σωκράτης (-ους, sigma stem) vs. γίγας (-αντος).
+        if genitive_signal == "d3s":
+            return "N8"
+        if genitive_signal == "d3":
+            return "N5"
+        return "N2"
+
+    if key.endswith("οσ"):
+        if gender == "n":
+            return "N8"  # γένος, τεῖχος: sigma-stem neuters
+        if third_declension_evidence:
+            return "N5"
+        return "N3"  # masc λόγος (rare feminines like ὁδός also land here)
+    if gender == "n" and key.endswith("ον"):
+        return "N4"
+
+    # Remaining lemmas ending in a consonant: φύλαξ, νύξ, Ἑλλάς, χείρ, ...
+    if key.endswith(("ξ", "ψ", "ρ", "ν", "σ")):
+        return "N5"
+
+    return "N8"
+
+
+def classify_adjective_declension(lemma: str) -> str:
+    key = _classification_key(lemma)
+    if not key:
+        return "ADJ3"
+    if key in IRREGULAR_ADJECTIVE_LEXICON:
+        return IRREGULAR_ADJECTIVE_LEXICON[key]
+    if key.endswith(("οσ", "ουσ")):
+        return "ADJ1"  # ἀγαθός, δίκαιος, contract χρυσοῦς
+    if key.endswith(("υσ", "εισ", "ασ")):
+        return "ADJ2"  # three-ending 3rd decl: ταχύς, χαρίεις, πᾶς, μέλας
+    return "ADJ3"  # two-ending 3rd decl (-ης, -ων), comparatives, irregulars
+
+
+def add_declension_features(combined_df: pd.DataFrame) -> pd.DataFrame:
+    """Add declension_code / declension_label columns for noun and adjective rows."""
+    out = combined_df.copy()
+    out["declension_code"] = ""
+    out["declension_label"] = ""
+
+    if out.empty or "postag" not in out.columns or "lemma" not in out.columns:
+        return out
+
+    postag = out["postag"].astype(str)
+    greek_lemma_mask = out["lemma"].apply(is_greek_lemma)
+    noun_mask = postag.str.startswith("n") & greek_lemma_mask
+    adjective_mask = postag.str.startswith("a") & greek_lemma_mask
+
+    if noun_mask.any():
+        noun_rows = out.loc[noun_mask, ["lemma", "form", "postag"]].copy()
+        noun_rows["key"] = noun_rows["lemma"].apply(_classification_key)
+        noun_rows["gender"] = noun_rows["postag"].astype(str).str.slice(
+            POSTAG_GENDER_INDEX, POSTAG_GENDER_INDEX + 1
+        )
+
+        gendered = noun_rows[noun_rows["gender"].isin(["m", "f", "n"])]
+        majority_gender = (
+            gendered.groupby("key")["gender"].agg(lambda genders: genders.value_counts().idxmax()).to_dict()
+            if not gendered.empty
+            else {}
+        )
+
+        genitive_singular_mask = (
+            noun_rows["postag"].astype(str).str.slice(POSTAG_CASE_INDEX, POSTAG_CASE_INDEX + 1).eq("g")
+            & noun_rows["postag"].astype(str).str.slice(POSTAG_NUMBER_INDEX, POSTAG_NUMBER_INDEX + 1).eq("s")
+        )
+        genitive_signals = {
+            key: _genitive_singular_signal(group["form"].astype(str).tolist())
+            for key, group in noun_rows[genitive_singular_mask].groupby("key")
+        }
+
+        code_by_key = {
+            row["key"]: classify_noun_declension(
+                row["lemma"],
+                majority_gender.get(row["key"], "-"),
+                genitive_signals.get(row["key"]),
+            )
+            for _, row in noun_rows.drop_duplicates("key").iterrows()
+        }
+        out.loc[noun_mask, "declension_code"] = noun_rows["key"].map(code_by_key)
+
+    if adjective_mask.any():
+        adjective_code_cache: dict[str, str] = {}
+
+        def adjective_code(lemma: str) -> str:
+            key = _classification_key(lemma)
+            if key not in adjective_code_cache:
+                adjective_code_cache[key] = classify_adjective_declension(lemma)
+            return adjective_code_cache[key]
+
+        out.loc[adjective_mask, "declension_code"] = out.loc[adjective_mask, "lemma"].map(adjective_code)
+
+    out["declension_label"] = out["declension_code"].map(DECLENSION_LABELS).fillna("")
+    return out
+
+
+def apply_declension_syllabus(combined_df: pd.DataFrame) -> pd.DataFrame:
+    """Replace the case-based syllabus of noun/adjective rows with declension labels."""
+    out = combined_df if "declension_label" in combined_df.columns else add_declension_features(combined_df)
+    out = out.copy()
+
+    noun_adjective_mask = out["postag"].astype(str).str.startswith(("n", "a"))
+    has_label = out["declension_label"].astype(str).ne("")
+
+    out.loc[noun_adjective_mask, "syllabus"] = "NA"
+    out.loc[noun_adjective_mask & has_label, "syllabus"] = out.loc[
+        noun_adjective_mask & has_label, "declension_label"
+    ]
+    return out
+
+
+def build_declension_summary(combined_df: pd.DataFrame) -> pd.DataFrame:
+    """Per-category token counts, lemma counts and example lemmas, sorted by frequency."""
+    columns = ["declension_code", "declension_label", "tokens", "distinct_lemmas", "example_lemmas"]
+    if combined_df is None or combined_df.empty:
+        return pd.DataFrame(columns=columns)
+
+    df = combined_df if "declension_code" in combined_df.columns else add_declension_features(combined_df)
+    classified = df[df["declension_code"].astype(str).ne("")]
+    if classified.empty:
+        return pd.DataFrame(columns=columns)
+
+    summary_rows = []
+    for code, label in DECLENSION_LABELS.items():
+        subset = classified[classified["declension_code"] == code]
+        if subset.empty:
+            continue
+        lemma_counts = subset["lemma"].value_counts()
+        summary_rows.append(
+            {
+                "declension_code": code,
+                "declension_label": label,
+                "tokens": int(len(subset)),
+                "distinct_lemmas": int(lemma_counts.size),
+                "example_lemmas": ", ".join(lemma_counts.head(5).index.astype(str).tolist()),
+            }
+        )
+
+    return pd.DataFrame(summary_rows, columns=columns).sort_values("tokens", ascending=False, ignore_index=True)
+
+
+def build_combined_df(folder: str | Path, selected_files: list[str], syllabus_mode: str = "case") -> pd.DataFrame:
     xml_paths = [Path(folder) / filename for filename in selected_files]
     all_dfs = []
 
@@ -223,6 +489,10 @@ def build_combined_df(folder: str | Path, selected_files: list[str]) -> pd.DataF
         lambda row: parse_verb_subcategory(row["lemma"], row["postag"]) if row["pos_category"] == "verb" else "",
         axis=1,
     )
+
+    if syllabus_mode == "declension":
+        combined_df = add_declension_features(combined_df)
+        combined_df = apply_declension_syllabus(combined_df)
 
     return combined_df
 
@@ -761,15 +1031,24 @@ def generate_textbook_markdown(
     grammar_folder: str | Path,
     lesson_count: int = 35,
     combined_df: pd.DataFrame | None = None,
+    syllabus_mode: str = "case",
 ) -> str:
     starter_modules = ["about", "alphabet", "introduction_nouns", "introduction_adjectives", "introduction_verbs"]
     lesson_separator = "════════════════════ ⟡ ════════════════════"
     lesson_separator_markup = f"<div align=\"center\" style=\"font-size: 200%; line-height: 1.2;\">{lesson_separator}</div>"
 
+    if syllabus_mode == "declension":
+        intro_text = (
+            "This syllabus organizes grammar lessons by frequency of occurrence in the selected treebanks, "
+            "with noun and adjective lessons grouped by declension class."
+        )
+    else:
+        intro_text = "This syllabus organizes grammar lessons by frequency of occurrence in the selected treebanks."
+
     markdown_content = []
     markdown_content.append("# A Frequency-Based Textbook for Ancient Greek Grammar")
     markdown_content.append("")
-    markdown_content.append("This syllabus organizes grammar lessons by frequency of occurrence in the selected treebanks.")
+    markdown_content.append(intro_text)
     markdown_content.append("")
     markdown_content.append("## Table of Contents")
     markdown_content.append("")
@@ -891,12 +1170,14 @@ def generate_textbook_html(
         lesson_count: int = 35,
         doc_title: str = "A Frequency-Based Textbook for Ancient Greek Grammar",
     combined_df: pd.DataFrame | None = None,
+    syllabus_mode: str = "case",
 ) -> str:
         markdown_content = generate_textbook_markdown(
                 frequency_syllabus=frequency_syllabus,
                 grammar_folder=grammar_folder,
                 lesson_count=lesson_count,
         combined_df=combined_df,
+        syllabus_mode=syllabus_mode,
         )
         body_html = markdown_to_html(markdown_content, extensions=["extra", "toc", "tables"])
 

@@ -1,5 +1,7 @@
-.git
-__pycache__
+__pycache__/
 *.pyc
+.git
+.gitignore
 .env
-.streamlit/secrets.toml
+.venv
+venv

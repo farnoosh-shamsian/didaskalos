@@ -33,6 +33,7 @@ _force_utf8_stdio()
 
 from didaskalos_pipeline import (
     build_combined_df,
+    build_declension_summary,
     build_frequency_syllabus,
     generate_textbook_html,
     generate_textbook_markdown,
@@ -80,8 +81,11 @@ st.markdown(
             words are.
         </p>
         <p>
-            This is still an early version and mostly a starting point. For example, noun lessons don't go declension by declension yet;
-            instead, they explain things case-by-case (like the accusative across all declensions). More features coming soon!
+            You can now choose between two textbook types. The original case-based textbook explains nouns and adjectives
+            case-by-case (like the accusative across all declensions). The new declension-based textbook first classifies every
+            noun and adjective in your treebanks into declension classes (first declension feminine, second declension masculine,
+            common third declension stem types, and so on), counts how often each class occurs, and arranges the lessons by that
+            frequency. This is still an early version and mostly a starting point. More features coming soon!
         </p>
     </div>
     """,
@@ -95,6 +99,8 @@ GITHUB_TREE_API = f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/gi
 GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{GITHUB_BRANCH}"
 TREEBANK_PREFIX = "treebanks/perseus/"
 LESSON_PREFIX = "lessons-no-decl/"
+DECLENSION_LESSON_PREFIX = "lessons-decl/"
+LESSON_PREFIXES = (LESSON_PREFIX, DECLENSION_LESSON_PREFIX)
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STARTER_LESSON_FILES = [
     "about.md",
@@ -235,7 +241,7 @@ def load_github_tree_urls(prefix: str) -> list[str]:
             continue
         if prefix == TREEBANK_PREFIX and not path.lower().endswith(".xml"):
             continue
-        if prefix == LESSON_PREFIX and not path.lower().endswith(".md"):
+        if prefix in LESSON_PREFIXES and not path.lower().endswith(".md"):
             continue
         urls.append(f"{GITHUB_RAW_BASE}/{path}")
 
@@ -281,24 +287,28 @@ def _ensure_starter_lesson_urls(urls: list[str]) -> list[str]:
     return unique_urls
 
 
-def _list_local_lesson_urls() -> list[str]:
-    lesson_dir = REPO_ROOT / LESSON_PREFIX
+def _list_local_lesson_urls(prefix: str = LESSON_PREFIX) -> list[str]:
+    lesson_dir = REPO_ROOT / prefix
     if not lesson_dir.exists() or not lesson_dir.is_dir():
         return []
 
     urls: list[str] = []
     for path in sorted(lesson_dir.glob("*.md")):
         # Keep URL format consistent with GitHub raw sources for downstream handling.
-        urls.append(f"{GITHUB_RAW_BASE}/{LESSON_PREFIX}{path.name}")
+        urls.append(f"{GITHUB_RAW_BASE}/{prefix}{path.name}")
     return urls
 
 
-def _resolve_default_lesson_urls() -> list[str]:
-    remote_urls = load_github_tree_urls(LESSON_PREFIX)
-    local_urls = _list_local_lesson_urls()
+def _resolve_default_lesson_urls(syllabus_mode: str = "case") -> list[str]:
+    # In declension mode, list the declension lesson modules first so they keep
+    # their canonical filenames if a module exists in both folders.
+    prefixes = [DECLENSION_LESSON_PREFIX, LESSON_PREFIX] if syllabus_mode == "declension" else [LESSON_PREFIX]
 
-    # Merge remote and local so transient GitHub API gaps do not hide available lessons.
-    merged = list(remote_urls) + list(local_urls)
+    merged: list[str] = []
+    for prefix in prefixes:
+        # Merge remote and local so transient GitHub API gaps do not hide available lessons.
+        merged.extend(load_github_tree_urls(prefix))
+        merged.extend(_list_local_lesson_urls(prefix))
     return _ensure_starter_lesson_urls(merged)
 
 
@@ -358,6 +368,18 @@ with st.sidebar:
 
     st.header("Inputs")
 
+    textbook_type = st.radio(
+        "Textbook type",
+        options=["Case-based (original)", "Declension-based (new)"],
+        index=0,
+        help=(
+            "Case-based arranges noun/adjective lessons by case (one lesson for accusative, one for genitive, ...). "
+            "Declension-based first classifies every noun and adjective in the treebanks into declension classes "
+            "(N1-N8, ADJ1-ADJ3) and arranges the lessons by how frequent each class is in the corpus."
+        ),
+    )
+    syllabus_mode = "declension" if textbook_type.startswith("Declension") else "case"
+
     input_mode = st.radio(
         "Input source",
         options=["Use GitHub repo URLs", "Upload files"],
@@ -377,7 +399,7 @@ with st.sidebar:
 
     if input_mode == "Use GitHub repo URLs":
         default_treebank_urls = load_github_tree_urls(TREEBANK_PREFIX)
-        default_lesson_urls = _resolve_default_lesson_urls()
+        default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode)
 
         treebank_url_input = st.text_area(
             "Treebank XML URL(s)",
@@ -396,7 +418,7 @@ with st.sidebar:
             accept_multiple_files=True,
             help="Upload one or more XML files.",
         )
-        default_lesson_urls = _resolve_default_lesson_urls()
+        default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode)
         treebank_records = _build_records_from_uploads(uploaded_treebanks)
         lesson_records = _build_records_from_urls(default_lesson_urls)
 
@@ -450,19 +472,21 @@ if build_clicked:
             st.stop()
 
     with st.spinner("Parsing treebanks and building the syllabus..."):
-        combined_df = build_combined_df(treebank_dir, selected_treebank_files)
+        combined_df = build_combined_df(treebank_dir, selected_treebank_files, syllabus_mode=syllabus_mode)
         frequency_syllabus = build_frequency_syllabus(combined_df)
         textbook_markdown = generate_textbook_markdown(
             frequency_syllabus=frequency_syllabus,
             grammar_folder=lesson_dir,
             lesson_count=lesson_count,
             combined_df=combined_df,
+            syllabus_mode=syllabus_mode,
         )
         textbook_html = generate_textbook_html(
             frequency_syllabus=frequency_syllabus,
             grammar_folder=lesson_dir,
             lesson_count=lesson_count,
             combined_df=combined_df,
+            syllabus_mode=syllabus_mode,
         )
 
     c1, c2, c3 = st.columns(3)
@@ -472,6 +496,21 @@ if build_clicked:
 
     st.subheader("Frequency Syllabus")
     st.dataframe(frequency_syllabus, use_container_width=True, height=420)
+
+    if syllabus_mode == "declension":
+        declension_summary = build_declension_summary(combined_df)
+        st.subheader("Declension Categories")
+        if declension_summary.empty:
+            st.info("No nouns or adjectives could be classified in the selected treebanks.")
+        else:
+            st.dataframe(declension_summary, use_container_width=True, height=420)
+            st.download_button(
+                label="Download declension_summary.csv",
+                data=declension_summary.to_csv(index=False).encode("utf-8"),
+                file_name="declension_summary.csv",
+                mime="text/csv",
+                use_container_width=True,
+            )
 
     st.download_button(
         label="Download frequency_syllabus.csv",
