@@ -368,18 +368,6 @@ with st.sidebar:
 
     st.header("Inputs")
 
-    textbook_type = st.radio(
-        "Textbook type",
-        options=["Case-based (original)", "Declension-based (new)"],
-        index=0,
-        help=(
-            "Case-based arranges noun/adjective lessons by case (one lesson for accusative, one for genitive, ...). "
-            "Declension-based first classifies every noun and adjective in the treebanks into declension classes "
-            "(N1-N8, ADJ1-ADJ3) and arranges the lessons by how frequent each class is in the corpus."
-        ),
-    )
-    syllabus_mode = "declension" if textbook_type.startswith("Declension") else "case"
-
     input_mode = st.radio(
         "Input source",
         options=["Use GitHub repo URLs", "Upload files"],
@@ -396,6 +384,18 @@ with st.sidebar:
             step=1,
         )
     )
+
+    textbook_type = st.radio(
+        "Textbook type",
+        options=["Case-based", "Declension-based (recommended)"],
+        index=0,
+        help=(
+            "Case-based arranges noun/adjective lessons by case (one lesson for accusative, one for genitive, ...). "
+            "Declension-based first classifies every noun and adjective in the treebanks into declension classes "
+            "(N1-N8, ADJ1-ADJ3) and arranges the lessons by how frequent each class is in the corpus."
+        ),
+    )
+    syllabus_mode = "declension" if textbook_type.startswith("Declension") else "case"
 
     if input_mode == "Use GitHub repo URLs":
         default_treebank_urls = load_github_tree_urls(TREEBANK_PREFIX)
