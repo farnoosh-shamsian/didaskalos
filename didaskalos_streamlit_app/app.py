@@ -38,9 +38,18 @@ from didaskalos_pipeline import (
     generate_textbook_html,
     generate_textbook_markdown,
 )
+from i18n import AVAILABLE_LANGS, DEFAULT_LANG, LANG_NAMES, is_rtl, rtl_css, t
 
 
 st.set_page_config(page_title="Didaskalos", page_icon="DB", layout="wide")
+
+# Active UI language. The selector widget (rendered in the sidebar) owns the
+# "lang" session key; reading it here makes the choice available before the
+# title is drawn, so the whole page renders in the selected language.
+lang = st.session_state.get("lang", DEFAULT_LANG)
+if is_rtl(lang):
+    st.markdown(rtl_css(), unsafe_allow_html=True)
+
 APP_DIR = Path(__file__).resolve().parent
 HEADER_IMAGE_PATH = APP_DIR / "assets" / "electroplato.png"
 LOGO_IMAGE_PATH = APP_DIR / "assets" / "englishdark.png"
@@ -53,42 +62,18 @@ if HEADER_IMAGE_PATH.exists():
         'alt="Didaskalos header image" />'
     )
 
-st.title("Didaskalos: Frequency-Based Greek Grammar Textbook Builder")
+st.title(t("app_title", lang))
 st.markdown(
-    """
+    f"""
     <p style="font-size: 1.2rem; font-weight: 600; margin-top: -0.3rem; margin-bottom: 1rem;">
-        A tool in the making for a frequency-based Ancient Greek grammar textbook from treebanks by someone obsessed with frequency.
+        {t("subtitle", lang)}
     </p>
     """,
     unsafe_allow_html=True,
 )
 
 st.markdown(
-    f"""
-    <div style="line-height: 1.6; font-size: 1rem; text-align: left;">
-        {header_image_html}
-        <p>Didaskalos builds a frequency-based Ancient Greek grammar textbook from treebanks and modular lessons. You can either use sample XML treebanks (like the ones I uploaded from the Perseus Digital Library) or upload your own.
-            The app parses the treebanks, pulls out grammatical features, and ranks them by frequency. Based on that, it generates
-            lessons that focus on the structures that actually show up most in the texts.
-        </p>
-        <p>
-            Right now, the lessons are LLM-generated using a RAG setup with sources like Smyth's Greek Grammar and Crosby &amp; Schaefer.
-            They're basically a first draft. I plan to clean them up manually later.
-        </p>
-        <p>
-            You can download the generated textbook as Markdown or HTML, so it's easy to tweak or restyle. There are also generated
-            exercises from your chosen texts, where the sentences are ranked by difficulty based on their length and how frequent their
-            words are.
-        </p>
-        <p>
-            You can now choose between two textbook types. The original case-based textbook explains nouns and adjectives
-            case-by-case (like the accusative across all declensions). The new declension-based textbook first classifies every
-            noun and adjective in your treebanks into declension classes (first declension feminine, second declension masculine,
-            common third declension stem types, and so on), counts how often each class occurs, and arranges the lessons by that
-            frequency. This is still an early version and mostly a starting point. More features coming soon!
-        </p>
-    </div>
-    """,
+    t("intro_html", lang).replace("{header_image}", header_image_html),
     unsafe_allow_html=True,
 )
 
@@ -348,7 +333,7 @@ def _build_treebank_display_table(records: list[dict]) -> pd.DataFrame:
     return df[["file", "title", "author", "source_url"]]
 
 
-def _format_treebank_option(file_name: str, records_df: pd.DataFrame) -> str:
+def _format_treebank_option(file_name: str, records_df: pd.DataFrame, lang: str = DEFAULT_LANG) -> str:
     if records_df.empty or "file" not in records_df.columns:
         return file_name
 
@@ -357,8 +342,8 @@ def _format_treebank_option(file_name: str, records_df: pd.DataFrame) -> str:
         return file_name
 
     row = match.iloc[0]
-    title = row.get("title") or "Untitled"
-    author = row.get("author") or "Unknown author"
+    title = row.get("title") or t("untitled", lang)
+    author = row.get("author") or t("unknown_author", lang)
     return f"{file_name} | {title} | {author}"
 
 
@@ -366,18 +351,28 @@ with st.sidebar:
     if LOGO_IMAGE_PATH.exists():
         st.image(str(LOGO_IMAGE_PATH), use_container_width=True)
 
-    st.header("Inputs")
+    st.selectbox(
+        t("language_label", lang),
+        options=AVAILABLE_LANGS,
+        format_func=lambda code: LANG_NAMES[code],
+        key="lang",
+    )
 
+    st.header(t("sidebar_inputs", lang))
+
+    # Stable option keys keep the branching logic language-independent; only the
+    # displayed labels are translated via format_func.
     input_mode = st.radio(
-        "Input source",
-        options=["Use GitHub repo URLs", "Upload files"],
+        t("input_source_label", lang),
+        options=["github", "upload"],
         index=0,
-        help="Use the repository defaults or upload files directly.",
+        format_func=lambda code: t(f"input_source_opt_{code}", lang),
+        help=t("input_source_help", lang),
     )
 
     lesson_count = int(
         st.number_input(
-            "Lesson count",
+            t("lesson_count_label", lang),
             min_value=1,
             max_value=200,
             value=35,
@@ -385,27 +380,23 @@ with st.sidebar:
         )
     )
 
-    textbook_type = st.radio(
-        "Textbook type",
-        options=["Case-based", "Declension-based (recommended)"],
+    syllabus_mode = st.radio(
+        t("textbook_type_label", lang),
+        options=["case", "declension"],
         index=0,
-        help=(
-            "Case-based arranges noun/adjective lessons by case (one lesson for accusative, one for genitive, ...). "
-            "Declension-based first classifies every noun and adjective in the treebanks into declension classes "
-            "(N1-N8, ADJ1-ADJ3) and arranges the lessons by how frequent each class is in the corpus."
-        ),
+        format_func=lambda code: t(f"textbook_type_opt_{code}", lang),
+        help=t("textbook_type_help", lang),
     )
-    syllabus_mode = "declension" if textbook_type.startswith("Declension") else "case"
 
-    if input_mode == "Use GitHub repo URLs":
+    if input_mode == "github":
         default_treebank_urls = load_github_tree_urls(TREEBANK_PREFIX)
         default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode)
 
         treebank_url_input = st.text_area(
-            "Treebank XML URL(s)",
+            t("treebank_url_label", lang),
             value="\n".join(default_treebank_urls),
             height=220,
-            help="One URL per line or comma-separated. Defaults are loaded from Didaskalos/treebanks/perseus.",
+            help=t("treebank_url_help", lang),
         )
 
         treebank_records = _build_records_from_urls(_parse_list_input(treebank_url_input), extract_xml_metadata=True)
@@ -413,10 +404,10 @@ with st.sidebar:
         uploaded_treebanks = []
     else:
         uploaded_treebanks = st.file_uploader(
-            "Upload treebank XML files",
+            t("upload_label", lang),
             type=["xml"],
             accept_multiple_files=True,
-            help="Upload one or more XML files.",
+            help=t("upload_help", lang),
         )
         default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode)
         treebank_records = _build_records_from_uploads(uploaded_treebanks)
@@ -427,37 +418,37 @@ available_treebanks = _build_treebank_display_table(treebank_records)
 available_lessons = pd.DataFrame(lesson_records)
 
 if available_treebanks.empty:
-    st.warning("No treebanks available. Provide treebank URLs or upload XML files.")
+    st.warning(t("no_treebanks_warning", lang))
     st.stop()
 
-st.subheader("Available Treebanks")
+st.subheader(t("available_treebanks_header", lang))
 st.dataframe(available_treebanks, use_container_width=True, height=240)
 
 selected_treebank_files = st.multiselect(
-    "Select treebank files",
+    t("select_treebank_label", lang),
     options=available_treebanks["file"].tolist(),
     default=[],
-    format_func=lambda file_name: _format_treebank_option(file_name, available_treebanks),
+    format_func=lambda file_name: _format_treebank_option(file_name, available_treebanks, lang),
 )
 
 if available_lessons.empty:
-    st.warning("No lesson modules available from the default lesson set.")
+    st.warning(t("no_lessons_warning", lang))
     st.stop()
 
 selected_lesson_files = available_lessons["file"].tolist()
 
-build_clicked = st.button("Build Syllabus", type="primary", use_container_width=True)
+build_clicked = st.button(t("build_button", lang), type="primary", use_container_width=True)
 
 if build_clicked:
     if not selected_treebank_files:
-        st.warning("Select at least one treebank file before building.")
+        st.warning(t("select_at_least_one_warning", lang))
         st.stop()
 
     selected_treebank_records = [row for row in treebank_records if row["file"] in selected_treebank_files]
     selected_lesson_records = [row for row in lesson_records if row["file"] in selected_lesson_files]
 
-    with st.spinner("Preparing selected treebanks and lesson modules..."):
-        if input_mode == "Use GitHub repo URLs":
+    with st.spinner(t("spinner_preparing", lang)):
+        if input_mode == "github":
             treebank_dir, selected_treebank_records = _download_url_records_to_dir(selected_treebank_records, "treebanks")
         else:
             treebank_dir = _materialize_uploaded_records(uploaded_treebanks, selected_treebank_records, "treebanks")
@@ -465,13 +456,13 @@ if build_clicked:
         lesson_dir, selected_lesson_records = _download_url_records_to_dir(selected_lesson_records, "lessons")
 
         if treebank_dir is None:
-            st.error("Could not prepare the selected treebank files.")
+            st.error(t("error_prepare_treebanks", lang))
             st.stop()
         if lesson_dir is None:
-            st.error("Could not prepare the selected lesson modules.")
+            st.error(t("error_prepare_lessons", lang))
             st.stop()
 
-    with st.spinner("Parsing treebanks and building the syllabus..."):
+    with st.spinner(t("spinner_parsing", lang)):
         combined_df = build_combined_df(treebank_dir, selected_treebank_files, syllabus_mode=syllabus_mode)
         frequency_syllabus = build_frequency_syllabus(combined_df)
         textbook_markdown = generate_textbook_markdown(
@@ -490,22 +481,22 @@ if build_clicked:
         )
 
     c1, c2, c3 = st.columns(3)
-    c1.metric("Selected treebanks", len(selected_treebank_files))
-    c2.metric("Token rows", int(len(combined_df)))
-    c3.metric("Frequency rows", int(len(frequency_syllabus)))
+    c1.metric(t("metric_selected_treebanks", lang), len(selected_treebank_files))
+    c2.metric(t("metric_token_rows", lang), int(len(combined_df)))
+    c3.metric(t("metric_frequency_rows", lang), int(len(frequency_syllabus)))
 
-    st.subheader("Frequency Syllabus")
+    st.subheader(t("frequency_syllabus_header", lang))
     st.dataframe(frequency_syllabus, use_container_width=True, height=420)
 
     if syllabus_mode == "declension":
         declension_summary = build_declension_summary(combined_df)
-        st.subheader("Declension Categories")
+        st.subheader(t("declension_categories_header", lang))
         if declension_summary.empty:
-            st.info("No nouns or adjectives could be classified in the selected treebanks.")
+            st.info(t("no_classified_info", lang))
         else:
             st.dataframe(declension_summary, use_container_width=True, height=420)
             st.download_button(
-                label="Download declension_summary.csv",
+                label=t("download_declension_summary", lang),
                 data=declension_summary.to_csv(index=False).encode("utf-8"),
                 file_name="declension_summary.csv",
                 mime="text/csv",
@@ -513,7 +504,7 @@ if build_clicked:
             )
 
     st.download_button(
-        label="Download frequency_syllabus.csv",
+        label=t("download_frequency_syllabus", lang),
         data=frequency_syllabus.to_csv(index=False).encode("utf-8"),
         file_name="frequency_syllabus.csv",
         mime="text/csv",
@@ -521,7 +512,7 @@ if build_clicked:
     )
 
     st.download_button(
-        label="Download combined_treebank_rows.csv",
+        label=t("download_combined_rows", lang),
         data=combined_df.to_csv(index=False).encode("utf-8"),
         file_name="combined_treebank_rows.csv",
         mime="text/csv",
@@ -529,7 +520,7 @@ if build_clicked:
     )
 
     st.download_button(
-        label="Download textbook.md",
+        label=t("download_textbook_md", lang),
         data=textbook_markdown.encode("utf-8"),
         file_name="textbook.md",
         mime="text/markdown",
@@ -537,21 +528,18 @@ if build_clicked:
     )
 
     st.download_button(
-        label="Download textbook.html",
+        label=t("download_textbook_html", lang),
         data=textbook_html.encode("utf-8"),
         file_name="textbook.html",
         mime="text/html",
         use_container_width=True,
     )
 
-    st.subheader("Textbook Markdown Preview")
+    st.subheader(t("textbook_md_preview_header", lang))
     st.code(textbook_markdown[:6000], language="markdown")
 
-    st.subheader("Textbook HTML Preview")
+    st.subheader(t("textbook_html_preview_header", lang))
     components.html(textbook_html, height=800, scrolling=True)
 
 st.markdown("---")
-st.caption(
-    "Didaskalos is an open-source project. Contributions and feedback are welcome! "
-    "Visit the GitHub repository for more information."
-)
+st.caption(t("footer_caption", lang))

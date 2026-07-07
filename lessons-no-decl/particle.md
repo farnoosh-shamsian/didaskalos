@@ -1,96 +1,64 @@
-## Lesson: Ancient Greek Particles
+# Particles
 
-### 1. What Are Particles?
+## 1. What Particles Are
 
-Particles are **small, uninflected words** that help organize and nuance
-a sentence.
+Particles are **small, uninflected words** that organize and color a sentence. They connect ideas, add emphasis, mark contrast or continuation, and signal the speaker's attitude. They rarely translate one-to-one into English — often their "translation" is a tone of voice or a punctuation mark — but Greek without them is like speech without intonation.
 
-They usually: - connect ideas - add emphasis - show contrast or
-continuation
+Three facts hold across the family:
 
-They often don't translate cleanly into English, but they shape how a
-sentence should be understood.
+- they **never change form**,
+- they are usually **very short** (δέ, γε, δή),
+- they are **astonishingly frequent** — δέ alone can appear in nearly every sentence of a narrative.
 
----
+## 2. Position: the Postpositives
 
-### 2. Common Features
+Many particles cannot stand first in their clause; they take **second position** ("postpositive"). δέ, γάρ, μέν, οὖν, γε, τε are all postpositive:
 
-- Particles do **not change form** (no endings)
-- They are often **very short** (e.g. δέ, μέν, γάρ)
-- They are extremely **frequent** in Greek texts
+- ὁ **δὲ** βασιλεὺς ἀπέθανεν. — "And the king died."
+- σοφὸς **γὰρ** ἦν. — "For he was wise."
 
----
+When you see one of these words second in a clause, the clause has just begun — an invaluable signpost when reading.
 
-### 3. Position in the Sentence
+## 3. The Essential Particles
 
-Particles tend to appear in specific positions:
+| Particle | Function | Example |
+|---|---|---|
+| δέ | connective, mild contrast: "and, but" | ὁ δὲ οὐκ ἐπείθετο. "But he would not obey." |
+| μέν | anticipates a contrast, paired with δέ | see §4 |
+| γάρ | explanation: "for, you see" | μὴ θαύμαζε· νέος γάρ ἐστιν. "Don't be surprised — he's young." |
+| οὖν | inference, resumption: "therefore, so then" | τί οὖν ποιῶμεν; "So what should we do?" |
+| γε | limiting emphasis: "at least, at any rate" | ἐγώ γε "I, at least" |
+| δή | emphasis, often ironic: "indeed, of course" | νῦν δή "now indeed, right now" |
+| ἄν | marks potentiality or indefiniteness | λέγοι ἄν "he might say" |
+| ἆρα | introduces a question | ἆρα σοφός ἐστιν; "Is he wise?" |
+| τοι | appeals to the listener: "you know, mark you" | καλόν τοι τὸ ἀληθές. "Truth, you know, is a fine thing." |
+| μέντοι | "however; certainly" | — |
+| τε | "and" (enclitic, attaches to its word) | see §4 |
 
-### Second position ("postpositive")
+**ἄν** is a special case: it is not a connective but a grammatical operator. With the optative it makes a potential ("could/would/might"), with past indicatives an unreal ("would have"), and with the subjunctive in subordinate clauses an indefinite ("whoever, whenever"). Whenever you meet ἄν, ask what mood it is working with.
 
-Many particles cannot stand first in a clause and instead come
-**second**.
+## 4. Particle Pairs
 
-Example idea: - \[word\] + particle + rest of sentence
+**μέν … δέ** is the single most important pattern in Greek prose — it lays out a contrast or a list in advance:
 
-This is very common with particles like: - δέ - γάρ
+- οἱ μὲν ἔμενον, οἱ δὲ ἔφευγον. — "Some stood their ground, others fled."
+- πρῶτον μὲν …, ἔπειτα δέ … — "first …, and then …"
 
----
+μέν tells you a δέ-clause is coming; when you see μέν, start looking for its partner.
 
-### 4. Typical Meanings
+**τε … καί** and **καὶ … καί** bind items tightly together: ἄνδρες τε καὶ γυναῖκες "men and women alike"; καὶ λόγῳ καὶ ἔργῳ "in both word and deed".
 
-Particles usually have **general functions**, not fixed translations.
+## 5. Negation: οὐ and μή
 
-Some common ones:
+The negatives behave like particles and follow a clean division of labor:
 
-- **δέ** → "and / but" (mild contrast or continuation)
-- **γάρ** → "for" (gives explanation)
-- **μέν** → "on the one hand" (often paired with δέ)
-- **οὖν** → "therefore / then"
-- **ἄν** → adds potential or indefiniteness
+- **οὐ** (οὐκ, οὐχ) negates **facts** — statements in the indicative: οὐκ ἦλθεν "he did not come".
+- **μή** negates everything else — commands, wishes, conditions, purposes: μὴ φεῦγε "don't flee!"; εἰ μὴ λέγει "if he does not say".
 
-Important: \> Their meaning depends heavily on context.
+Compounds follow the same split: οὐδείς / μηδείς "no one", οὐδέ / μηδέ "and not, not even", οὔποτε / μήποτε "never".
 
----
+## 6. Why Particles Matter
 
-### 5. Particle Combinations
+Particles are the **logical glue** of Greek. They tell you whether a sentence continues (δέ), explains (γάρ), concludes (οὖν), or contrasts (μέν … δέ) — before you have even parsed the verb. Experienced readers navigate by them; beginners who skip them lose the thread of the argument.
 
-Particles are often used **together**:
-
-- μέν ... δέ → contrast ("on the one hand ... on the other")
-- καὶ ... καί → emphasis ("both ... and")
-
-These combinations help structure arguments and narrative flow.
-
----
-
-### 6. Why They Matter
-
-Particles are essential for: - following arguments - understanding
-tone - seeing how sentences connect
-
-Even when untranslated, they guide interpretation.
-
----
-
-### 7. The Main Difficulty (Very Brief)
-
-Particles are tricky because:
-
-- they often **don't translate directly**
-- their meaning is **context-dependent**
-- they can be **subtle rather than explicit**
-
-Beginners often ignore them, but advanced reading depends on them.
-
----
-
-### Summary
-
-Ancient Greek particles are small but powerful words that:
-
-- appear frequently
-- often occupy second position
-- shape meaning rather than carry it alone
-
-They are best learned through **reading and exposure**, not strict
-definitions.
+Do not memorize dictionary translations. Instead, watch each particle in context, sentence after sentence, and let its function settle in. They are learned by exposure — and this textbook's corpus-based exercises will give you plenty.

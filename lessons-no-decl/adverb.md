@@ -1,126 +1,91 @@
-# Ancient Greek Adverbs
+# Adverbs
 
-## 1. What Is an Adverb?
+## 1. What an Adverb Is
 
-| Feature            | Ancient Greek                                                 | Example                               |
-| ------------------ | ------------------------------------------------------------- | ------------------------------------- |
-| **Part of Speech** | Adverb (ἐπίρρημα)                                             | _γρήγορα_ “quickly”                   |
-| **Declension**     | None – adverbs are **indeclinable**                           | –                                     |
-| **Function**       | Modifies verbs, adjectives, or other adverbs                  | _ἔπραξεν ἰσχυρῶς_ “he acted strongly” |
-| **Position**       | Usually before the word it modifies, but can appear elsewhere | _γρήγορα ἔπραξεν_ “quickly he acted”  |
+An **adverb** (ἐπίρρημα) modifies a verb, an adjective, or another adverb. Adverbs are **indeclinable** — one fixed form, no case endings — which makes them a welcome rest from paradigms.
 
-Adverbs answer questions such as **how?** (πῶς), **when?** (πότε), **where?** (πῶς), **to what extent?** (ἕως).
+They answer questions like:
 
----
+| Question | Greek | Sample answers |
+|---|---|---|
+| how? | πῶς; | καλῶς "well", κακῶς "badly", ταχέως "quickly" |
+| when? | πότε; | νῦν "now", τότε "then", ἀεί "always" |
+| where? | ποῦ; | ἐνθάδε "here", ἐκεῖ "there", πανταχοῦ "everywhere" |
+| how much? | πόσον; | μάλα "very", σφόδρα "exceedingly", ὀλίγον "a little" |
 
-## 2. How Are Adverbs Formed?
+## 2. Forming Adverbs from Adjectives
 
-### 2.1 From Adjectives
+The regular rule is beautifully simple:
 
-Most adverbs come from adjectives by adding a suffix. The most common suffixes are **‑ως** and **‑εως** (pronounced _‑os_ and _‑eos_ respectively).
+> **Take the genitive plural of the adjective and change -ων to -ως.**
 
-| Adjective          | Adverb (‑ως) | Adverb (‑εως) | Transliteration | Meaning    |
-| ------------------ | ------------ | ------------- | --------------- | ---------- |
-| ὁ γρήγορς (quick)  | γρήγορα      | γρήγορα       | _grēgora_       | quickly    |
-| ὁ ἰσχυρός (strong) | ἰσχυρῶς      | ἰσχυρῶς       | _ischyros_      | strongly   |
-| ὁ ἀγαθός (good)    | ἀγαθῶς       | ἀγαθῶς        | _agathōs_       | well, good |
+| Adjective | Gen. pl. | Adverb | Meaning |
+|---|---|---|---|
+| σοφός "wise" | σοφῶν | σοφῶς | wisely |
+| δίκαιος "just" | δικαίων | δικαίως | justly |
+| καλός "beautiful" | καλῶν | καλῶς | well, finely |
+| ταχύς "swift" | ταχέων | ταχέως | quickly |
+| ἀληθής "true" | ἀληθῶν | ἀληθῶς | truly |
+| πᾶς "all" | πάντων | πάντως | in every way |
 
-> **Rule** – Add **‑ως** or **‑εως** to the adjective stem.  
-> **Exception** – Some adjectives have irregular adverbial forms (see §4).
+The accent of the genitive plural carries over — which is why so many adverbs end in a circumflexed -ῶς.
 
-### 2.2 From Nouns
+**Important exception:** the adverb of ἀγαθός "good" is not ἀγαθῶς but **εὖ** "well": εὖ πράττειν "to fare well".
 
-A few adverbs are derived from nouns, usually by adding a particle or by using the noun in a special form.
+## 3. Comparison of Adverbs
 
-| Noun             | Adverb   | Transliteration | Meaning             |
-| ---------------- | -------- | --------------- | ------------------- |
-| ὁ ἥλιος (sun)    | ἥλιον    | _hēlion_        | “by the sun” (rare) |
-| ὁ ἄνθρωπος (man) | ἄνθρωπον | _anthrōpon_     | “by a man” (rare)   |
+Adverbs borrow their comparative and superlative from the adjective:
 
-> These are uncommon; most adverbs come from adjectives.
+> **Comparative adverb = neuter accusative singular** of the comparative adjective.
+> **Superlative adverb = neuter accusative plural** of the superlative adjective.
 
-### 2.3 From Verbs (Participial Adverbs)
+| Positive | Comparative | Superlative |
+|---|---|---|
+| σοφῶς "wisely" | σοφώτερον "more wisely" | σοφώτατα "most wisely" |
+| ταχέως "quickly" | θᾶττον "more quickly" | τάχιστα "most quickly" |
+| εὖ "well" | ἄμεινον / βέλτιον "better" | ἄριστα / βέλτιστα "best" |
+| μάλα "very" | μᾶλλον "more, rather" | μάλιστα "most, especially" |
 
-Some adverbs are formed from participles, often with the suffix **‑ταί** or **‑ταί**.
+μᾶλλον and μάλιστα are everywhere in Greek prose and worth learning immediately. ὡς + superlative = "as ... as possible": ὡς τάχιστα "as quickly as possible".
 
-| Verb              | Participial Adverb | Transliteration | Meaning                     |
-| ----------------- | ------------------ | --------------- | --------------------------- |
-| ἔρχομαι (to come) | ἐρχόμενος          | _erchomenos_    | “coming” (used adverbially) |
+## 4. Other Common Adverbs
 
-> These are more advanced and usually appear in literary texts.
+Not every adverb comes from an adjective. High-frequency independents include:
 
----
+| Adverb | Meaning |
+|---|---|
+| νῦν | now |
+| τότε | then, at that time |
+| ἀεί | always |
+| αὖθις | again |
+| ἔτι | still, yet |
+| ἤδη | already, by now |
+| οὔπω | not yet |
+| ἐνταῦθα | here, there; at that point |
+| ὧδε / οὕτως | in this way, thus |
+| μόνον | only |
 
-## 3. Comparative and Superlative Adverbs
+**Negatives:** οὐ (οὐκ before smooth breathing, οὐχ before rough) negates statements of fact; **μή** negates commands, wishes, and most non-indicative constructions: οὐ λέγει "he does not say" vs. μὴ λέγε "don't say!"
 
-Adverbs can be compared just like adjectives. The comparative and superlative are formed by adding the appropriate endings to the adverb stem.
+## 5. Placement
 
-| Form            | Example       | Transliteration | Meaning      |
-| --------------- | ------------- | --------------- | ------------ |
-| **Positive**    | γρήγορα       | _grēgora_       | quickly      |
-| **Comparative** | γρηγορέστερον | _grēgorēsteren_ | more quickly |
-| **Superlative** | γρηγορέστερον | _grēgorēsteren_ | most quickly |
+Adverbs usually stand **before the word they modify**, but Greek allows freedom:
 
-> **Rule** – Add **‑στερον** for comparative and superlative.  
-> **Note** – The comparative and superlative adverbs are still indeclinable.
+- ταχέως ἦλθεν / ἦλθε ταχέως — "he came quickly"
+- μάλα σοφός — "very wise" (adverb + adjective)
+- πάνυ καλῶς — "very well indeed" (adverb + adverb)
 
----
+The article can even turn an adverb into a noun or adjective: οἱ νῦν "the people of today", ἡ ἄνω πόλις "the upper city".
 
-## 4. Irregular Adverbs and Exceptions
+## 6. Points to Watch
 
-| Adverb | Origin          | Transliteration | Meaning                 |
-| ------ | --------------- | --------------- | ----------------------- |
-| ἄν     | particle + verb | _an_            | “if” (used adverbially) |
-| οὐ     | particle        | _ou_            | “not”                   |
-| ἔτι    | particle        | _eti_           | “still”                 |
-| ἄρα    | particle        | _ara_           | “then”                  |
+- Do not confuse the **adverb in -ως** with the **genitive/accusative forms of the adjective**; the adverb never changes.
+- ὡς is a chameleon: "as", "that", "how", and with superlatives "as ... as possible". Let context decide.
+- The neuter accusative of an adjective often serves as an adverb on its own: πολύ "much, far", πρῶτον "first", ὀλίγον "a little".
 
-These words are not derived from adjectives but function as adverbs or particles. They are **indeclinable** and have fixed meanings.
+## 7. Example Sentences
 
----
-
-## 5. Adverbial Particles – Words That Act Like Adverbs
-
-| Particle | Transliteration | Function     | Example                            |
-| -------- | --------------- | ------------ | ---------------------------------- |
-| ἄν       | _an_            | Conditional  | _ἔλθοις ἄν_ “if you came”          |
-| οὐ       | _ou_            | Negation     | _οὐκ ἔλαβεν_ “he did not receive”  |
-| ἔτι      | _eti_           | Continuation | _ἔτι ἔρχεται_ “he is still coming” |
-| ἄρα      | _ara_           | Conclusion   | _ἄρα ἀκούετε_ “then listen”        |
-
-These particles are placed before the verb they modify and are essential for expressing nuance.
-
----
-
-## 6. Placement of Adverbs in a Sentence
-
-| Position                  | Typical Use                   | Example                                 |
-| ------------------------- | ----------------------------- | --------------------------------------- |
-| **Before the verb**       | Most common                   | _γρήγορα ἔπραξεν_ “he acted quickly”    |
-| **After the verb**        | Emphasis or poetic style      | _ἔπραξεν γρήγορα_ “he acted quickly”    |
-| **Before an adjective**   | Modifies the adjective        | _ἰσχυρῶς ἀγαθός_ “strongly good” (rare) |
-| **Before another adverb** | Intensifies the second adverb | _πολύ γρήγορα_ “very quickly”           |
-
-> **Rule** – Adverbs are free in position but usually precede the word they modify.
-
----
-
-## 7. Key Rules Summarized
-
-1. **Adverbs are indeclinable** – they do not change for case, number, or gender.
-2. **Most adverbs come from adjectives** by adding **‑ως** or **‑εως**.
-3. **Comparatives and superlatives** use the suffix **‑στερον**.
-4. **Irregular adverbs** (e.g., _ἄν_, _οὐ_, _ἔτι_, _ἄρα_) are particles with fixed meanings.
-5. **Adverb placement** is flexible but usually before the word it modifies.
-
----
-
-## 8. Example Sentences
-
-| Sentence                   | Translation                 | Adverb(s)          |
-| -------------------------- | --------------------------- | ------------------ |
-| ἔπραξεν γρήγορα.           | He acted quickly.           | γρήγορα            |
-| ἔπραξεν ἰσχυρῶς.           | He acted strongly.          | ἰσχυρῶς            |
-| ἔπραξεν γρηγορέστερον.     | He acted more quickly.      | γρηγορέστερον      |
-| ἔπραξεν γρηγορέστερον ἔτι. | He acted even more quickly. | γρηγορέστερον, ἔτι |
-| ἔπραξεν ἄν.                | He would act (if).          | ἄ                  |
+- οἱ στρατιῶται ταχέως ἐπορεύοντο. — "The soldiers marched quickly."
+- εὖ λέγεις. — "You speak well / well said."
+- μάλιστα πάντων τοῦτο θαυμάζω. — "This I wonder at most of all."
+- ὡς τάχιστα ἦλθον. — "They came as quickly as possible."

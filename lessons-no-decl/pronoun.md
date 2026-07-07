@@ -4,176 +4,130 @@ pos: pronoun
 frequency: 34682
 ---
 
-# Lesson: Ancient Greek Pronouns  
+# Pronouns
 
-*Prepared for beginner‑intermediate students of Classical Greek*  
+## 1. What Pronouns Do
 
----
+A **pronoun** stands in for a noun or noun phrase. Greek pronouns decline — they show case and number, and most show gender — and they are among the most frequent words in any text. The main families:
 
-## 1. What Are Pronouns?
+| Family | English counterpart | Greek examples |
+|---|---|---|
+| Personal | I, you, we | ἐγώ, σύ, ἡμεῖς, ὑμεῖς |
+| αὐτός | him/her/it; self; the same | αὐτός, αὐτή, αὐτό |
+| Demonstrative | this, that | οὗτος, ὅδε, ἐκεῖνος |
+| Relative | who, which | ὅς, ἥ, ὅ |
+| Interrogative | who? what? | τίς, τί |
+| Indefinite | someone, something | τις, τι |
+| Reflexive | myself, himself | ἐμαυτοῦ, ἑαυτοῦ |
+| Possessive | my, our | ἐμός, σός, ἡμέτερος, ὑμέτερος |
 
-A **pronoun** (Greek: *ἀντωνυμία*) is a word that stands in for a noun or a noun phrase.  
-Pronouns function like nouns in the sense that they are **declined** (change case, number, gender) and they can be the subject, object, or possessive in a clause.  
+## 2. Personal Pronouns (1st and 2nd Person)
 
-In Ancient Greek the main groups of pronouns are:
+| Case | I | you (sg.) | we | you (pl.) |
+|---|---|---|---|---|
+| Nominative | ἐγώ | σύ | ἡμεῖς | ὑμεῖς |
+| Genitive | ἐμοῦ / μου | σοῦ / σου | ἡμῶν | ὑμῶν |
+| Dative | ἐμοί / μοι | σοί / σοι | ἡμῖν | ὑμῖν |
+| Accusative | ἐμέ / με | σέ / σε | ἡμᾶς | ὑμᾶς |
 
-| Group | Typical English counterpart | Greek label |
-|-------|----------------------------|-------------|
-| Personal | I, you, he/she/it, we, you (pl.) | *προσωπικές* |
-| Demonstrative | this, that, these, those | *δείκτες* |
-| Relative | who, which, that | *συγγενικές* |
-| Interrogative / Indefinite | who?, what?, any, some | *ερωτηματικές / αόριστες* |
-| Reflexive | oneself | *αυτοαναφορικές* |
-| Possessive | my, your, his, etc. | *κτητικές* |
-| Intensive (emphatic) | **himself**, **themselves** | *εντείνουσες* |
+- The singular has two sets: **accented forms** (ἐμοῦ, ἐμοί, ἐμέ) for emphasis and after prepositions, and unstressed **enclitic forms** (μου, μοι, με) for everyday use: τὸ βιβλίον μου "my book".
+- Because the verb ending already shows the person, the **nominative is used only for emphasis or contrast**: ἐγὼ μὲν λέγω, σὺ δὲ σιγᾷς "*I* am speaking, but *you* are silent."
 
-All of these pronouns are **substantives** (they belong to the part of speech “noun”) and therefore follow the regular noun declension patterns (first, second, or third declension) with a few irregularities that we will meet below.
+## 3. αὐτός — Three Uses
 
----
+αὐτός, αὐτή, αὐτό declines like ἀγαθός (except neuter sg. nom./acc. αὐτό, without -ν). Its meaning depends on how it is used:
 
-## 2. Forms and Patterns  
+| Use | Pattern | Example |
+|---|---|---|
+| **"him, her, it, them"** | oblique cases, standing alone | ὁρῶ αὐτόν "I see him" |
+| **"-self"** (intensive) | predicate position | αὐτὸς ὁ βασιλεύς "the king himself" |
+| **"the same"** | attributive position | ὁ αὐτὸς βασιλεύς "the same king" |
 
-Below are the full paradigms for the most frequently used pronoun families.  
-When a pronoun has a **different stem** for the genitive or dative, the table shows the stem in parentheses.
+This is the standard 3rd-person pronoun of Attic prose — but **only in the oblique cases**. As a subject, Greek either uses no pronoun at all or a demonstrative.
 
-### 2.1 Personal Pronouns  
+## 4. Demonstratives
 
-| Case | 1st sg. (I) | 2nd sg. (you) | 3rd sg. masc. | 3rd sg. fem. | 3rd sg. neut. | 1st pl. (we) | 2nd pl. (you) | 3rd pl. masc. | 3rd pl. fem. | 3rd pl. neut. |
-|------|-------------|--------------|---------------|--------------|--------------|--------------|--------------|---------------|--------------|--------------|
-| **Nominative** | ἐγώ | σύ | ἐκεῖνος / ὁ (masc.) | ἐκείνη / ἡ (fem.) | ἐκεῖνο / τό (neut.) | ἡμεῖς | ὑμεῖς | οἱ (masc.) | αἱ (fem.) | τὰ (neut.) |
-| **Genitive** | (μου) | (σου) | (αὐτοῦ) | (αὐτῆς) | (αὐτοῦ) | (ἡμῶν) | (ὑμῶν) | (αὐτῶν) | (αὐτῶν) | (αὐτῶν) |
-| **Dative** | (μοι) | (σοι) | (αὐτῷ) | (αὐτῇ) | (αὐτῷ) | (ἡμῖν) | (ὑμῖν) | (αὐτοῖς) | (αὐταῖς) | (αὐτοῖς) |
-| **Accusative** | (με) | (σέ) | (αὐτόν) | (αὐτήν) | (αὐτό) | (ἡμᾶς) | (ὑμᾶς) | (αὐτούς) | (αὐτάς) | (αὐτά) |
-| **Vocative** | ὦ ἐγώ | ὦ σύ | — | — | — | ὦ ἡμεῖς | ὦ ὑμεῖς | — | — | — |
+Three stems, three distances: **ὅδε** "this here" (pointing forward), **οὗτος** "this, that" (near, or pointing back), **ἐκεῖνος** "that (over there)".
 
-*Notes*  
+οὗτος "this/that":
 
-* The enclitic forms in parentheses are the ordinary unstressed forms used after a verb or preposition (e.g., **μου** “my”, **σου** “your”).  
-* The demonstrative‑type personal pronouns **ἐγώ, σύ, ἡμεῖς, ὑμεῖς** have a special **strong** form (shown in the nominative) used for emphasis or after the particle **ὦ**.  
+| Case | M. sg. | F. sg. | N. sg. | M. pl. | F. pl. | N. pl. |
+|---|---|---|---|---|---|---|
+| Nominative | οὗτος | αὕτη | τοῦτο | οὗτοι | αὗται | ταῦτα |
+| Genitive | τούτου | ταύτης | τούτου | τούτων | τούτων | τούτων |
+| Dative | τούτῳ | ταύτῃ | τούτῳ | τούτοις | ταύταις | τούτοις |
+| Accusative | τοῦτον | ταύτην | τοῦτο | τούτους | ταύτας | ταῦτα |
 
----
+- The stem alternates ου/αυ following the vowel of the ending; the neuter sg./pl. ταῦτα is extremely common ("these things").
+- ἐκεῖνος declines like αὐτός; ὅδε is simply the article + -δε (τοῦδε, τῇδε...).
+- With a noun, demonstratives take **predicate position**, with the article present: οὗτος ὁ ἀνήρ "this man".
 
-### 2.2 Demonstrative Pronouns  
+## 5. The Relative Pronoun
 
-Greek has three basic demonstrative stems: **οὗτος** (this, near the speaker), **ἐκεῖνος** (that, far from the speaker), and **ὅδε** (this, near the addressee). The most common textbook paradigm is **οὗτος**; the others follow the same pattern.
+ὅς, ἥ, ὅ "who, which":
 
-| Case | Masculine | Feminine | Neuter |
-|------|-----------|----------|--------|
-| **Nominative** | οὗτος | αὕτη | τοῦτο |
-| **Genitive** | τούτου | ταύτης | τούτου |
-| **Dative** | τῷ (τοῦ) | τῇ (ταύ) | τῷ (τοῦ) |
-| **Accusative** | τοῦτον | ταύτην | τοῦτο |
-| **Vocative** | οὗτε | αὕτη· (rare) | τοῦτο |
+| Case | M. sg. | F. sg. | N. sg. | M. pl. | F. pl. | N. pl. |
+|---|---|---|---|---|---|---|
+| Nominative | ὅς | ἥ | ὅ | οἵ | αἵ | ἅ |
+| Genitive | οὗ | ἧς | οὗ | ὧν | ὧν | ὧν |
+| Dative | ᾧ | ᾗ | ᾧ | οἷς | αἷς | οἷς |
+| Accusative | ὅν | ἥν | ὅ | οὕς | ἅς | ἅ |
 
-*Key points*  
+It looks like the article without τ- (and with accents and rough breathing everywhere).
 
-* The **genitive** and **accusative** of neuter are identical to the masculine forms.  
-* The **dative** uses the article‑like endings **‑ῳ / ‑ῃ / ‑ῳ** (often written **‑ῳ** for all genders).  
+**The agreement rule:** the relative takes its **gender and number from its antecedent**, but its **case from its own clause**:
 
----
+- ἡ γυνὴ **ἣν** εἶδον — "the woman **whom** I saw": feminine singular because of γυνή, accusative because it is the object of εἶδον.
 
-### 2.3 Relative Pronoun  
+## 6. Interrogative and Indefinite τις
 
-The relative pronoun **ὅς, ἥ, ὅ** (“who, which, that”) is declined like a **third‑declension adjective** but with a special set of endings.
+The same forms serve two words, distinguished **by accent**:
 
-| Case | Masculine | Feminine | Neuter |
-|------|-----------|----------|--------|
-| **Nominative** | ὅς | ἥ | ὅ |
-| **Genitive** | οὗ | ἧς | οὗ |
-| **Dative** | ᾧ | ᾗ | ᾧ |
-| **Accusative** | ὅν | ἥν | ὅ |
-| **Vocative** | — | — | — |
+| Case | Interrogative "who? what?" | Indefinite "some(one), a certain" |
+|---|---|---|
+| Nominative | τίς / τί | τις / τι |
+| Genitive | τίνος | τινός (or του) |
+| Dative | τίνι | τινί (or τῳ) |
+| Accusative | τίνα / τί | τινά / τι |
 
-*Important*  
+- The **interrogative always keeps its acute on the first syllable**: τίς λέγει; "who is speaking?"
+- The **indefinite is enclitic** (unstressed, leaning on the previous word) and can never stand first: λέγει τις "someone is speaking"; ἄνθρωπός τις "a certain man".
+- Plural: τίνες/τινές, τίνα/τινά, etc.
 
-* The relative pronoun **agrees in gender, number, and case** with its antecedent (the noun it refers to).  
-* In poetry the **dual** forms (e.g., **οὗ** for neuter dual) may appear, but they are rare in prose.
+## 7. Reflexives
 
----
+Reflexives refer back to the subject — and therefore **have no nominative**:
 
-### 2.4 Interrogative Pronoun  
+| Person | M. sg. gen. | Example |
+|---|---|---|
+| 1st | ἐμαυτοῦ | γιγνώσκω ἐμαυτόν "I know myself" |
+| 2nd | σεαυτοῦ | γνῶθι σεαυτόν "know yourself!" |
+| 3rd | ἑαυτοῦ | ἑαυτὸν παιδεύει "he educates himself" |
 
-The interrogative pronoun **τίς, τί** (“who?, what?”) follows the same pattern as the relative pronoun.
+They decline like αὐτός in the oblique cases (ἑαυτοῦ, ἑαυτῷ, ἑαυτόν; f. ἑαυτῆς...; pl. ἑαυτῶν, ἑαυτοῖς, ἑαυτούς). The 3rd person is often contracted: αὑτοῦ, αὑτόν (note the rough breathing — do not confuse with αὐτοῦ "of him").
 
-| Case | Masculine/Feminine | Neuter |
-|------|-------------------|--------|
-| **Nominative** | τίς | τί |
-| **Genitive** | τίνος | τίνος |
-| **Dative** | τίνι | τίνι |
-| **Accusative** | τίνα | τί |
-| **Vocative** | — | — |
+Related: the **reciprocal** ἀλλήλων "each other" (also no nominative): φιλοῦσιν ἀλλήλους "they love one another".
 
-*Note*: The interrogative can also appear as **πότε** (when?) and **πῶς** (how?), which are adverbs rather than pronouns.
+## 8. Possessives
 
----
+| Person | Forms | Example |
+|---|---|---|
+| 1st sg. | ἐμός, ἐμή, ἐμόν | ὁ ἐμὸς πατήρ "my father" |
+| 2nd sg. | σός, σή, σόν | τὸ σὸν βιβλίον "your book" |
+| 1st pl. | ἡμέτερος, -α, -ον | ἡ ἡμετέρα πόλις "our city" |
+| 2nd pl. | ὑμέτερος, -α, -ον | οἱ ὑμέτεροι νόμοι "your laws" |
 
-### 2.5 Possessive Pronouns  
+These decline and agree like ordinary adjectives. Just as common is the plain **genitive of the personal pronoun**: ὁ πατήρ μου "my father". For the 3rd person, Greek uses αὐτοῦ/αὐτῆς/αὐτῶν: ὁ πατὴρ αὐτοῦ "his father".
 
-Possessive adjectives are formed from the personal pronoun stems plus the endings of the **first‑ and second‑declension adjectives**. The most common forms are:
+## 9. Points to Watch
 
-| Person | Masculine | Feminine | Neuter |
-|--------|-----------|----------|--------|
-| 1st sg. | ἐμός, ἐμή, ἐμόν | — | — |
-| 2nd sg. | σός, σή, σόν | — | — |
-| 3rd sg. masc. | αὐτοῦ (gen.) → **αὐτοῦ** (adj. **αὐτοῦ**) – rarely used as adjective; instead we use **αὐτοῦ** as genitive of **αὐτός** |
-| 3rd sg. fem. | — | αὐτῆς | — |
-| 3rd sg. neut. | — | — | αὐτοῦ |
-| 1st pl. | ἡμῶν (gen.) → **ἡμέτερος**, **ἡμετέρα**, **ἡμέτερον** |
-| 2nd pl. | ὑμῶν → **ὑμέτερος**, **ὑμετέρα**, **ὑμέτερον** |
-| 3rd pl. | αὐτῶν → **αὐτῶν** (gen.) – rarely as adjective; we use **αὐτοῦ** etc. |
+- **Breathings and accents distinguish look-alikes:** αὕτη "this (f.)" vs. αὐτή "she/herself"; ἥ (relative) vs. ἡ (article); τίς; "who?" vs. τις "someone".
+- **A neuter plural subject takes a singular verb** with pronouns too: ταῦτα καλά ἐστιν "these things are beautiful."
+- The genitive of a demonstrative or of αὐτός sits in **predicate position**: ἡ τούτου γυνή or ἡ γυνὴ αὐτοῦ "his wife".
 
-*Simplified table for the adjective forms*  
+## 10. Example Sentences
 
-| Person | Masculine | Feminine | Neuter |
-|--------|-----------|----------|--------|
-| 1st sg. | ἐμός | ἐμή | ἐμόν |
-| 2nd sg. | σός | σή | σόν |
-| 1st pl. | ἡμέτερος | ἡμετέρα | ἡμέτερον |
-| 2nd pl. | ὑμέτερος | ὑμετέρα | ὑμέτερον |
-
-*Key rule*: Possessive adjectives **agree** with the noun they modify in gender, number, and case, just like any other adjective.
-
----
-
-### 2.6 Reflexive Pronoun  
-
-The reflexive pronoun **ἑαυτός** (“himself, herself, itself, themselves”) is a **first‑person** adjective that behaves like a **third‑declension adjective**.
-
-| Case | Masculine | Feminine | Neuter |
-|------|-----------|----------|--------|
-| **Nominative** | ἑαυτός | ἑαυτή | ἑαυτό |
-| **Genitive** | ἑαυτοῦ | ἑαυτῆς | ἑαυτοῦ |
-| **Dative** | ἑαυτῷ | ἑαυτῇ | ἑαυτῷ |
-| **Accusative** | ἑαυτόν | ἑαυτήν | ἑαυτό |
-| **Vocative** | — | — | — |
-
-*Usage*: The reflexive is used when the subject and object of a verb are the same person or thing (e.g., **ἔλεξεν ἑαυτόν** “he spoke to himself”).
-
----
-
-### 2.7 Indefinite Pronouns  
-
-Indefinite pronouns have many forms; the most common are **τις, τι, τις, τινα** (someone, something, any). They decline like the interrogative pronoun.
-
-| Case | Masculine/Feminine | Neuter |
-|------|-------------------|--------|
-| Nominative | τις | τι |
-| Genitive | τινός | τινός |
-| Dative | τινι | τινι |
-| Accusative | τινα | τι |
-| Vocative | — | — |
-
-Other indefinite pronouns (e.g., **πᾶς, οὐδείς, ἄλλος**) follow regular adjective or noun declensions and are treated in later chapters.
-
----
-
-## 3. Key Rules & Common Exceptions  
-
-| Rule | Explanation | Example |
-|------|-------------|---------|
-| **Agreement** | Pronouns must agree with the noun they replace or modify in **gender, number, case**. | *ὁ ἀνὴρ* → *αὐτός* (masc. nom. sg.) |
-| **Enclitic vs. Strong Forms** | Personal pronouns have a **strong** (stressed) form in the nominative (ἐγώ, σύ, ἡμεῖς, ὑμεῖς) and a **weak** enclitic form in other cases (μου, σου, ἡμῶν, ὑμῶν). | *ἔστιν ἐγώ* (strong) vs. *ἔστιν μοι* (enclitic) |
-| **Genitive of Possession** | The genitive of a personal pronoun (μου, σου, ἡμῶν, ὑμῶν) can express **possession** without a separate possessive adjective. | *τὸ βιβλίον μου* “my book” |
-| **Demonstrative vs. Personal** | Demonstratives (οὗτος, ἐκεῖνος) can function as **personal pronouns** when the referent is clear, especially in narrative. | *οὗτος ἦλθεν* “He (this one) came.” |
-| **Relative Pronoun Agreement** | The relative pronoun **always matches the antecedent** in gender, number, and case, **not** the case required by its function in the relative clause. | *ἡ γυνὴ ἣν ἔβλεψα* – “the woman **whom** I saw” (accusative because of the verb *ἔβλεψα*, but the pronoun is feminine singular because the antecedent *γυνή* is feminine). |
-| **Interrogative Pronoun Position** | In questions, the interrogative pronoun often appears **
+- τίς ταῦτα ἐποίησεν; — "Who did these things?"
+- ὁ ἀνὴρ ὃν εἶδες φίλος ἐμός ἐστιν. — "The man whom you saw is my friend."
+- αὐτὸς ἔφη. — "He himself said it." (the famous *ipse dixit*)
+- γνῶθι σεαυτόν. — "Know yourself."
