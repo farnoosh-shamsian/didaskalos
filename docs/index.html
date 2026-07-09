@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Didaskalos is a frequency-based Ancient Greek grammar textbook builder."
+    />
+    <meta name="theme-color" content="#111827" />
+    <meta property="og:title" content="Didaskalos" />
+    <meta
+      property="og:description"
+      content="A minimal bilingual landing page for the Didaskalos app."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://didaskalos.github.io/" />
+    <meta name="twitter:card" content="summary" />
+    <title>Didaskalos</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/app.js"></script>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Didaskalos home">
+          <span class="brand-mark">D</span>
+          <span>
+            <strong>Didaskalos</strong>
+            <small>Frequency-Based Greek Grammar Textbook Builder</small>
+          </span>
+        </a>
+
+        <div class="lang-switch" role="tablist" aria-label="Language switch">
+          <button
+            class="lang-btn is-active"
+            type="button"
+            data-lang-button="en"
+          >
+            English
+          </button>
+          <button class="lang-btn" type="button" data-lang-button="fa">
+            فارسی
+          </button>
+        </div>
+      </header>
+
+      <section class="hero-card" id="top">
+        <article class="lang-panel" data-lang-panel="en" lang="en">
+          <p class="eyebrow">Didaskalos</p>
+          <h1>Frequency-based Ancient Greek grammar textbook builder.</h1>
+          <p>
+            Didaskalos builds a grammar textbook from treebanks and modular
+            lessons. It can use sample XML treebanks or your own uploads, then
+            ranks grammatical structures by frequency to focus the lessons on
+            what appears most in the texts.
+          </p>
+          <ul class="simple-list">
+            <li>Upload treebanks or use the bundled samples</li>
+            <li>Generate case-based or declension-based lessons</li>
+            <li>Download the result as Markdown or HTML</li>
+          </ul>
+          <div class="actions">
+            <a
+              class="button button-primary"
+              href="https://didaskalos-app-11551311398.europe-west1.run.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open live app
+            </a>
+            <a class="button button-secondary" href="README.md"
+              >Project notes</a
+            >
+          </div>
+        </article>
+
+        <article
+          class="lang-panel"
+          data-lang-panel="fa"
+          lang="fa"
+          dir="rtl"
+          hidden
+        >
+          <p class="eyebrow">دیداسکالوس</p>
+          <h1>سازندهٔ کتاب‌درسی دستور یونانیِ باستان بر پایهٔ فراوانی.</h1>
+          <p>
+            دیداسکالوس از درخت‌بانک‌ها و درس‌های ماژولار برای ساخت یک کتاب دستور
+            استفاده می‌کند. می‌توانید از فایل‌های XML نمونه یا درخت‌بانک خودتان
+            استفاده کنید و سپس ساختارهای دستوری را بر اساس فراوانی مرتب کنید تا
+            درس‌ها روی الگوهای پرتکرار تمرکز کنند.
+          </p>
+          <ul class="simple-list">
+            <li>درخت‌بانک‌های نمونه یا فایل‌های خودتان را بارگذاری کنید</li>
+            <li>درس‌های مبتنی بر حالت یا صرف را تولید کنید</li>
+            <li>خروجی را به صورت Markdown یا HTML دانلود کنید</li>
+          </ul>
+          <div class="actions actions-rtl">
+            <a
+              class="button button-primary"
+              href="https://didaskalos-app-11551311398.europe-west1.run.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              باز کردن برنامه
+            </a>
+            <a class="button button-secondary" href="README.md"
+              >توضیحات فنی پروژه</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <p>Didaskalos GitHub Pages site.</p>
+        <p>© <span id="year"></span> Didaskalos</p>
+      </footer>
+    </main>
+  </body>
+</html>
