@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://farnoosh-shamsian.github.io/Didaskalos/sitemap.xml
+Sitemap: https://farnoosh-shamsian.github.io/didaskalos/sitemap.xml
