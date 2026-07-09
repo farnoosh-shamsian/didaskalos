@@ -85,7 +85,20 @@ GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REP
 TREEBANK_PREFIX = "treebanks/perseus/"
 LESSON_PREFIX = "lessons-no-decl/"
 DECLENSION_LESSON_PREFIX = "lessons-decl/"
-LESSON_PREFIXES = (LESSON_PREFIX, DECLENSION_LESSON_PREFIX)
+# Per-language lesson folders. Files keep the same names as the English
+# originals so the pipeline's filename-based lesson lookup works unchanged; a
+# translated file shadows its English counterpart, missing ones fall back.
+LOCALIZED_LESSON_PREFIXES = {
+    "fa": {
+        LESSON_PREFIX: "lessons-no-decl-fa/",
+        DECLENSION_LESSON_PREFIX: "lessons-decl-fa/",
+    },
+}
+LESSON_PREFIXES = (LESSON_PREFIX, DECLENSION_LESSON_PREFIX) + tuple(
+    localized_prefix
+    for mapping in LOCALIZED_LESSON_PREFIXES.values()
+    for localized_prefix in mapping.values()
+)
 REPO_ROOT = Path(__file__).resolve().parent.parent
 STARTER_LESSON_FILES = [
     "about.md",
@@ -284,17 +297,35 @@ def _list_local_lesson_urls(prefix: str = LESSON_PREFIX) -> list[str]:
     return urls
 
 
-def _resolve_default_lesson_urls(syllabus_mode: str = "case") -> list[str]:
+def _dedupe_lesson_urls_by_filename(urls: list[str]) -> list[str]:
+    # First URL wins per filename, so a localized lesson listed earlier shadows
+    # the English file of the same name and only one copy gets downloaded.
+    seen_names: set[str] = set()
+    deduped: list[str] = []
+    for url in urls:
+        name = Path(urlparse(url).path).name
+        if name not in seen_names:
+            seen_names.add(name)
+            deduped.append(url)
+    return deduped
+
+
+def _resolve_default_lesson_urls(syllabus_mode: str = "case", lang: str = DEFAULT_LANG) -> list[str]:
     # In declension mode, list the declension lesson modules first so they keep
     # their canonical filenames if a module exists in both folders.
-    prefixes = [DECLENSION_LESSON_PREFIX, LESSON_PREFIX] if syllabus_mode == "declension" else [LESSON_PREFIX]
+    base_prefixes = [DECLENSION_LESSON_PREFIX, LESSON_PREFIX] if syllabus_mode == "declension" else [LESSON_PREFIX]
+
+    # Localized folders come first so translated modules shadow the English
+    # originals; untranslated modules still resolve via the English folders.
+    localized = LOCALIZED_LESSON_PREFIXES.get(lang, {})
+    prefixes = [localized[prefix] for prefix in base_prefixes if prefix in localized] + base_prefixes
 
     merged: list[str] = []
     for prefix in prefixes:
         # Merge remote and local so transient GitHub API gaps do not hide available lessons.
         merged.extend(load_github_tree_urls(prefix))
         merged.extend(_list_local_lesson_urls(prefix))
-    return _ensure_starter_lesson_urls(merged)
+    return _dedupe_lesson_urls_by_filename(_ensure_starter_lesson_urls(merged))
 
 
 def _build_records_from_uploads(uploaded_files) -> list[dict]:
@@ -382,7 +413,7 @@ with st.sidebar:
 
     syllabus_mode = st.radio(
         t("textbook_type_label", lang),
-        options=["case", "declension"],
+        options=["declension","case"],
         index=0,
         format_func=lambda code: t(f"textbook_type_opt_{code}", lang),
         help=t("textbook_type_help", lang),
@@ -390,7 +421,7 @@ with st.sidebar:
 
     if input_mode == "github":
         default_treebank_urls = load_github_tree_urls(TREEBANK_PREFIX)
-        default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode)
+        default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode, lang)
 
         treebank_url_input = st.text_area(
             t("treebank_url_label", lang),
@@ -409,7 +440,7 @@ with st.sidebar:
             accept_multiple_files=True,
             help=t("upload_help", lang),
         )
-        default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode)
+        default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode, lang)
         treebank_records = _build_records_from_uploads(uploaded_treebanks)
         lesson_records = _build_records_from_urls(default_lesson_urls)
 

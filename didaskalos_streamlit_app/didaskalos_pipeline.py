@@ -214,21 +214,25 @@ POSTAG_NUMBER_INDEX = 2
 POSTAG_GENDER_INDEX = 6
 POSTAG_CASE_INDEX = 7
 
+# Label text drives the lesson filename via normalize_frequency_row_name
+# (e.g. "first declension feminine nouns" -> first_declension_feminine_nouns.md),
+# so it must stay in sync with the lessons-decl/ file names. The short code
+# (N1..N8, ADJ1..ADJ3) is kept only as the dict key / declension_code column.
 NOUN_DECLENSION_LABELS = {
-    "N1": "N1 first declension feminine nouns",
-    "N2": "N2 first declension masculine nouns",
-    "N3": "N3 second declension masculine nouns",
-    "N4": "N4 second declension neuter nouns",
-    "N5": "N5 third declension consonant stem nouns",
-    "N6": "N6 third declension iota upsilon stem nouns",
-    "N7": "N7 third declension nasal liquid stem nouns",
-    "N8": "N8 other third declension and irregular nouns",
+    "N1": "first declension feminine nouns",
+    "N2": "first declension masculine nouns",
+    "N3": "second declension masculine nouns",
+    "N4": "second declension neuter nouns",
+    "N5": "third declension consonant stem nouns",
+    "N6": "third declension iota upsilon stem nouns",
+    "N7": "third declension nasal liquid stem nouns",
+    "N8": "other third declension and irregular nouns",
 }
 
 ADJECTIVE_DECLENSION_LABELS = {
-    "ADJ1": "ADJ1 first second declension adjectives",
-    "ADJ2": "ADJ2 third declension adjectives",
-    "ADJ3": "ADJ3 other adjectives",
+    "ADJ1": "first second declension adjectives",
+    "ADJ2": "third declension adjectives",
+    "ADJ3": "other adjectives",
 }
 
 DECLENSION_LABELS = {**NOUN_DECLENSION_LABELS, **ADJECTIVE_DECLENSION_LABELS}
