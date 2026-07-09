@@ -14,9 +14,9 @@ This folder contains the Streamlit web app for Didaskalos. I'm just testing out 
 
 ## GitHub sources used by default
 
-- Treebanks: [treebanks/perseus](https://github.com/farnoosh-shamsian/Didaskalos/tree/main/treebanks/perseus)
-- Lesson modules: [lessons-no-decl](https://github.com/farnoosh-shamsian/Didaskalos/tree/main/lessons-no-decl)
-- App folder: [didaskalos_streamlit_app](https://github.com/farnoosh-shamsian/Didaskalos/tree/main/didaskalos_streamlit_app)
+- Treebanks: [treebanks/perseus](https://github.com/farnoosh-shamsian/didaskalos/tree/main/treebanks/perseus)
+- Lesson modules: [lessons-no-decl](https://github.com/farnoosh-shamsian/didaskalos/tree/main/lessons-no-decl)
+- App folder: [didaskalos_streamlit_app](https://github.com/farnoosh-shamsian/didaskalos/tree/main/didaskalos_streamlit_app)
 
 ## Project layout
 

@@ -78,7 +78,7 @@ st.markdown(
 )
 
 GITHUB_OWNER = "farnoosh-shamsian"
-GITHUB_REPO = "Didaskalos"
+GITHUB_REPO = "didaskalos"
 GITHUB_BRANCH = "main"
 GITHUB_TREE_API = f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/git/trees/{GITHUB_BRANCH}?recursive=1"
 GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{GITHUB_BRANCH}"
@@ -502,6 +502,7 @@ if build_clicked:
             lesson_count=lesson_count,
             combined_df=combined_df,
             syllabus_mode=syllabus_mode,
+            lang=lang,
         )
         textbook_html = generate_textbook_html(
             frequency_syllabus=frequency_syllabus,
@@ -509,6 +510,7 @@ if build_clicked:
             lesson_count=lesson_count,
             combined_df=combined_df,
             syllabus_mode=syllabus_mode,
+            lang=lang,
         )
 
     c1, c2, c3 = st.columns(3)

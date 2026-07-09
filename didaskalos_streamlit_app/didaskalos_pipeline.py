@@ -11,6 +11,11 @@ from typing import Any, Mapping
 import pandas as pd
 from markdown import markdown as markdown_to_html
 
+try:
+    from i18n import DEFAULT_LANG, is_rtl, t
+except ImportError:  # imported as part of a package rather than as a flat module
+    from .i18n import DEFAULT_LANG, is_rtl, t
+
 
 def _force_utf8_stdio() -> None:
     os.environ.setdefault("PYTHONUTF8", "1")
@@ -577,6 +582,62 @@ PERSON_MAP = {"1": "1st person", "2": "2nd person", "3": "3rd person", "-": "not
 NUMBER_MAP = {"s": "singular", "p": "plural", "d": "dual", "-": "not marked"}
 
 
+# Bidi handling for RTL output languages (e.g. Persian). Greek is strongly
+# left-to-right; inside an RTL paragraph the Unicode bidi algorithm misplaces
+# neutral characters (hyphens, punctuation) that sit at the edges of a Greek
+# run, so Greek runs get isolated explicitly.
+_GREEK_LETTER = "Ͱ-Ͽἀ-῿"
+_GREEK_MARKS = "̀-ͯ᾽᾿’'"
+_GREEK_TOKEN = f"[{_GREEK_LETTER}][{_GREEK_LETTER}{_GREEK_MARKS}]*"
+_GREEK_SEP = "[  ,;.··‐‑-]+"
+# A tag-free phrase: Greek tokens joined by spaces/neutral punctuation.
+_GREEK_PHRASE = f"{_GREEK_TOKEN}(?:{_GREEK_SEP}{_GREEK_TOKEN})*"
+# A phrase wrapped in one balanced inline element (e.g. <strong>δέ</strong>,
+# rendered from **δέ**), so emphasis inside a Greek sentence does not split
+# the run into separate isolates and reverse the word order.
+_GREEK_ELEM = "(?:" + "|".join(
+    f"<{tag}>{_GREEK_PHRASE}</{tag}>" for tag in ("u", "em", "strong", "b", "i")
+) + ")"
+_GREEK_ATOM = f"(?:{_GREEK_PHRASE}|{_GREEK_ELEM})"
+# A run: atoms joined by separators, with optional attached hyphens
+# (endings like "-η", stems like "λυ-").
+_GREEK_RUN_RE = re.compile(f"-?{_GREEK_ATOM}(?:{_GREEK_SEP}{_GREEK_ATOM})*-?")
+
+
+def wrap_greek_runs_in_html(html: str) -> str:
+    """Wrap runs of Greek text in ``<bdi dir="ltr">`` isolates.
+
+    Safe to apply to rendered HTML because Greek characters only ever occur in
+    text content, never inside tag markup.
+    """
+    return _GREEK_RUN_RE.sub(
+        lambda match: f'<bdi lang="grc" dir="ltr">{match.group(0)}</bdi>',
+        html,
+    )
+
+
+def _ltr_isolate(text: str, rtl: bool) -> str:
+    """Wrap a fully-Greek fragment (possibly containing inline tags such as
+    ``<u>``) in an LTR span so word order survives an RTL paragraph."""
+    if not rtl:
+        return text
+    return f'<span lang="grc" dir="ltr">{text}</span>'
+
+
+def _pos_label(lesson_pos_category: str, lang: str) -> str:
+    key = "pos_label_" + re.sub(r"[^a-z0-9]+", "_", str(lesson_pos_category).lower()).strip("_")
+    value = t(key, lang)
+    if value == key:
+        return POS_LABEL_FOR_PROMPT.get(lesson_pos_category, "target form")
+    return value
+
+
+def _feature_label(feature_value: str, lang: str) -> str:
+    key = "feat_" + re.sub(r"[^a-z0-9]+", "_", str(feature_value).lower()).strip("_")
+    value = t(key, lang)
+    return feature_value if value == key else value
+
+
 def split_syllabus_label_and_bucket(syllabus_label: str) -> tuple[str, str | None]:
     if not isinstance(syllabus_label, str):
         return syllabus_label, None
@@ -804,19 +865,26 @@ def get_topic_sentences(
     return topic_sentences.sort_values("difficulty_score").head(num_sentences)
 
 
-def format_exercise_set1(topic_words: pd.DataFrame, lesson_pos_category: str) -> str:
+def format_exercise_set1(topic_words: pd.DataFrame, lesson_pos_category: str, lang: str = DEFAULT_LANG) -> str:
     if topic_words is None or topic_words.empty:
         return ""
 
-    pos_label = POS_LABEL_FOR_PROMPT.get(lesson_pos_category, "target form")
+    rtl = is_rtl(lang)
+    pos_label = _pos_label(lesson_pos_category, lang)
     lines = [
-        "### Exercise Type 1: Word List",
+        f"### {t('tb_ex1_header', lang)}",
         "",
-        f"Explain each {pos_label} below in relation to this lesson.",
+        t("tb_ex1_prompt", lang, pos_label=pos_label),
         "",
     ]
     for idx, (_, row) in enumerate(topic_words.iterrows(), 1):
-        lines.append(f"{idx}. {row['form']} (lemma: {row['lemma']})")
+        item = t(
+            "tb_ex1_item",
+            lang,
+            form=_ltr_isolate(str(row["form"]), rtl),
+            lemma=_ltr_isolate(str(row["lemma"]), rtl),
+        )
+        lines.append(f"{idx}. {item}")
     lines.append("")
     return "\n".join(lines)
 
@@ -911,26 +979,31 @@ def _format_exercise_nonverb(
     lesson_pos_category: str,
     exercise_sentences: pd.DataFrame,
     sentence_form_lookup: dict[object, list[str]],
+    lang: str = DEFAULT_LANG,
 ) -> str:
     if exercise_sentences is None or exercise_sentences.empty:
         return ""
 
-    pos_label = POS_LABEL_FOR_PROMPT.get(lesson_pos_category, "target form")
+    rtl = is_rtl(lang)
+    pos_label = _pos_label(lesson_pos_category, lang)
     lines = [
-        "### Exercise Type 2: Sentences",
+        f"### {t('tb_ex2_header', lang)}",
         "",
-        f"In each sentence, identify the {pos_label}(s) related to this lesson.",
+        t("tb_ex2_prompt", lang, pos_label=pos_label),
         "",
     ]
     for idx, (_, row) in enumerate(exercise_sentences.iterrows(), 1):
-        lines.append(f"{idx}. {row['sentence_text']}")
+        lines.append(f"{idx}. {_ltr_isolate(str(row['sentence_text']), rtl)}")
     lines.append("")
-    lines.append("#### Answer Key for Exercise Type 2")
+    lines.append(f"#### {t('tb_answer_key_header', lang)}")
     lines.append("")
 
     for idx, (_, row) in enumerate(exercise_sentences.iterrows(), 1):
         targets = sentence_form_lookup.get(row["sentence_index"], [])
-        answer = ", ".join(targets) if targets else "No target form found"
+        if targets:
+            answer = _ltr_isolate(", ".join(targets), rtl)
+        else:
+            answer = t("tb_no_target_form", lang)
         lines.append(f"{idx}. {answer}")
 
     lines.append("")
@@ -940,14 +1013,16 @@ def _format_exercise_nonverb(
 def _format_exercise_verb(
     exercise_sentences: pd.DataFrame,
     sentence_verb_rows: Mapping[Any, pd.DataFrame],
+    lang: str = DEFAULT_LANG,
 ) -> str:
     if exercise_sentences is None or exercise_sentences.empty:
         return ""
 
+    rtl = is_rtl(lang)
     lines = [
-        "### Exercise Type 2: Sentences (Verbs)",
+        f"### {t('tb_ex2_verb_header', lang)}",
         "",
-        "What is the person and number of the marked verbs in each sentence?",
+        t("tb_ex2_verb_prompt", lang),
         "",
     ]
 
@@ -957,25 +1032,33 @@ def _format_exercise_verb(
         if sentence_rows is not None and not sentence_rows.empty:
             forms = set(sentence_rows["form"].tolist())
         marked = mark_topic_words_in_sentence(row["sentence_text"], forms)
-        lines.append(f"{idx}. {marked}")
+        lines.append(f"{idx}. {_ltr_isolate(marked, rtl)}")
 
     lines.append("")
-    lines.append("#### Answer Key for Exercise Type 2")
+    lines.append(f"#### {t('tb_answer_key_header', lang)}")
     lines.append("")
 
     for idx, (_, row) in enumerate(exercise_sentences.iterrows(), 1):
         sentence_rows = sentence_verb_rows.get(row["sentence_index"])
         if sentence_rows is None or sentence_rows.empty:
-            lines.append(f"{idx}. No marked verbs found")
+            lines.append(f"{idx}. " + t("tb_no_marked_verbs", lang))
             continue
 
         sentence_answers = []
         for _, verb_row in sentence_rows.iterrows():
             features = decode_marked_verb_features(verb_row.get("postag", ""))
             sentence_answers.append(
-                f"{verb_row.get('form', '')} ({verb_row.get('lemma', '')}): "
-                f"person: {features['person']}; number: {features['number']}; "
-                f"tense: {features['tense']}; voice: {features['voice']}; mood: {features['mood']}"
+                t(
+                    "tb_verb_answer",
+                    lang,
+                    form=_ltr_isolate(str(verb_row.get("form", "")), rtl),
+                    lemma=_ltr_isolate(str(verb_row.get("lemma", "")), rtl),
+                    person=_feature_label(features["person"], lang),
+                    number=_feature_label(features["number"], lang),
+                    tense=_feature_label(features["tense"], lang),
+                    voice=_feature_label(features["voice"], lang),
+                    mood=_feature_label(features["mood"], lang),
+                )
             )
 
         lines.append(f"{idx}. " + " | ".join(sentence_answers))
@@ -990,11 +1073,12 @@ def generate_exercises_for_topic(
     combined_df: pd.DataFrame,
     sentences_df: pd.DataFrame,
     num_sentences: int = 20,
+    lang: str = DEFAULT_LANG,
 ) -> str:
     exercise_blocks = []
 
     topic_words = get_topic_words(syllabus_label, lesson_pos_category, combined_df, num_words=15)
-    words_exercise = format_exercise_set1(topic_words, lesson_pos_category)
+    words_exercise = format_exercise_set1(topic_words, lesson_pos_category, lang=lang)
     if words_exercise:
         exercise_blocks.append(words_exercise)
 
@@ -1019,15 +1103,42 @@ def generate_exercises_for_topic(
                 return "\n".join(exercise_blocks)
 
             if lesson_pos_category == "verb":
-                exercise_blocks.append(_format_exercise_verb(selected_sentences, selected_targets_by_sentence))
+                exercise_blocks.append(_format_exercise_verb(selected_sentences, selected_targets_by_sentence, lang=lang))
             else:
                 sentence_form_lookup: dict[object, list[str]] = {}
                 for sent_idx, grp in selected_targets_by_sentence.items():
                     ordered_forms = list(dict.fromkeys(grp["form"].tolist()))
                     sentence_form_lookup[sent_idx] = ordered_forms
-                exercise_blocks.append(_format_exercise_nonverb(lesson_pos_category, selected_sentences, sentence_form_lookup))
+                exercise_blocks.append(_format_exercise_nonverb(lesson_pos_category, selected_sentences, sentence_form_lookup, lang=lang))
 
     return "\n".join(exercise_blocks)
+
+
+def _split_lesson_title(lesson_text: str) -> tuple[str | None, str]:
+    """Return ``(title, body)`` where ``title`` is the lesson file's leading
+    heading (if any) and ``body`` is the remaining markdown.
+
+    Leading YAML frontmatter is dropped so its metadata does not leak into the
+    rendered textbook.
+    """
+    lines = lesson_text.splitlines()
+    start = 0
+    if lines and lines[0].strip() == "---":
+        for index in range(1, len(lines)):
+            if lines[index].strip() in ("---", "..."):
+                start = index + 1
+                break
+    for index in range(start, len(lines)):
+        stripped = lines[index].strip()
+        if not stripped:
+            continue
+        match = re.match(r"#{1,6}\s+(.+)", stripped)
+        if match:
+            title = match.group(1).strip()
+            body = "\n".join(lines[index + 1:]).lstrip("\n")
+            return (title or None), body
+        break
+    return None, "\n".join(lines[start:]).lstrip("\n")
 
 
 def generate_textbook_markdown(
@@ -1036,26 +1147,17 @@ def generate_textbook_markdown(
     lesson_count: int = 35,
     combined_df: pd.DataFrame | None = None,
     syllabus_mode: str = "case",
+    lang: str = DEFAULT_LANG,
 ) -> str:
     starter_modules = ["about", "alphabet", "introduction_nouns", "introduction_adjectives", "introduction_verbs"]
     lesson_separator = "════════════════════ ⟡ ════════════════════"
     lesson_separator_markup = f"<div align=\"center\" style=\"font-size: 200%; line-height: 1.2;\">{lesson_separator}</div>"
 
+    rtl = is_rtl(lang)
     if syllabus_mode == "declension":
-        intro_text = (
-            "This syllabus organizes grammar lessons by frequency of occurrence in the selected treebanks, "
-            "with noun and adjective lessons grouped by declension class."
-        )
+        intro_text = t("tb_intro_declension", lang)
     else:
-        intro_text = "This syllabus organizes grammar lessons by frequency of occurrence in the selected treebanks."
-
-    markdown_content = []
-    markdown_content.append("# A Frequency-Based Textbook for Ancient Greek Grammar")
-    markdown_content.append("")
-    markdown_content.append(intro_text)
-    markdown_content.append("")
-    markdown_content.append("## Table of Contents")
-    markdown_content.append("")
+        intro_text = t("tb_intro_case", lang)
 
     lesson_rows = frequency_syllabus[
         frequency_syllabus["syllabus"].notna() & (frequency_syllabus["syllabus"] != "NA")
@@ -1067,18 +1169,16 @@ def generate_textbook_markdown(
     # Always prepend core starter modules in this fixed order.
     for module_name in starter_modules:
         rank += 1
-        filename = f"{module_name}.md"
         lesson_data.append(
             {
                 "rank": rank,
                 "label": module_name,
                 "pos_category": "module",
                 "frequency": "core",
-                "filename": filename,
+                "filename": f"{module_name}.md",
                 "is_starter": True,
             }
         )
-        markdown_content.append(f"{rank}. {module_name}")
 
     for _, row in lesson_rows.iterrows():
         rank += 1
@@ -1100,13 +1200,42 @@ def generate_textbook_markdown(
                 "is_starter": False,
             }
         )
-        markdown_content.append(f"{rank}. {label}")
+
+    grammar_folder = Path(grammar_folder)
+
+    # Load lesson bodies up front so the table of contents can use each file's
+    # own H1 title (localized in translated lesson folders) instead of the raw
+    # syllabus label.
+    for lesson in lesson_data:
+        lesson["display_label"] = lesson["label"]
+        lesson_path = grammar_folder / lesson["filename"]
+        if not lesson_path.exists():
+            lesson["body"] = f"*{t('tb_module_not_found', lang, filename=lesson['filename'])}*"
+            continue
+        try:
+            title, body = _split_lesson_title(lesson_path.read_text(encoding="utf-8"))
+        except Exception as exc:
+            lesson["body"] = f"*{t('tb_error_reading', lang, error=exc)}*"
+            continue
+        if title:
+            lesson["display_label"] = title
+        lesson["body"] = body
+
+    markdown_content = []
+    markdown_content.append(f"# {t('tb_doc_title', lang)}")
+    markdown_content.append("")
+    markdown_content.append(intro_text)
+    markdown_content.append("")
+    markdown_content.append(f"## {t('tb_toc_header', lang)}")
+    markdown_content.append("")
+
+    for lesson in lesson_data:
+        markdown_content.append(f"{lesson['rank']}. {lesson['display_label']}")
 
     markdown_content.append("")
     markdown_content.append(lesson_separator_markup)
     markdown_content.append("")
 
-    grammar_folder = Path(grammar_folder)
     working_combined_df = None
     working_sentences_df = None
 
@@ -1125,26 +1254,18 @@ def generate_textbook_markdown(
             working_sentences_df = add_sentence_scores(working_sentences_df, working_combined_df)
 
     for lesson in lesson_data:
-        markdown_content.append(f"## {lesson['rank']}. {lesson['label']}")
+        markdown_content.append(f"## {lesson['rank']}. {lesson['display_label']}")
         if lesson.get("is_starter"):
-            markdown_content.append("**Module Type:** Core starter module")
+            markdown_content.append(t("tb_module_type_core", lang))
         else:
-            markdown_content.append(f"**Part of Speech Family:** {lesson['pos_category']}")
-            markdown_content.append(f"**Frequency:** {lesson['frequency']}")
+            markdown_content.append(t("tb_pos_family", lang, pos=_pos_label(lesson["pos_category"], lang)))
+            markdown_content.append(t("tb_frequency", lang, frequency=lesson["frequency"]))
         markdown_content.append("")
-
-        lesson_path = grammar_folder / lesson["filename"]
-        if lesson_path.exists():
-            try:
-                markdown_content.append(lesson_path.read_text(encoding="utf-8"))
-            except Exception as exc:
-                markdown_content.append(f"*Error reading file: {exc}*")
-        else:
-            markdown_content.append(f"*Module file not found: {lesson['filename']}*")
+        markdown_content.append(lesson["body"])
 
         if not lesson.get("is_starter"):
             markdown_content.append("")
-            markdown_content.append("### Exercises")
+            markdown_content.append(f"### {t('tb_exercises_header', lang)}")
             markdown_content.append("")
 
             if working_combined_df is not None and working_sentences_df is not None and not working_sentences_df.empty:
@@ -1153,44 +1274,83 @@ def generate_textbook_markdown(
                     lesson["pos_category"],
                     working_combined_df,
                     working_sentences_df,
+                    lang=lang,
                 )
                 if exercises:
                     markdown_content.append(exercises)
                 else:
-                    markdown_content.append(f"*No exercises available for {lesson['label']}.*")
+                    markdown_content.append(f"*{t('tb_no_exercises', lang, label=lesson['display_label'])}*")
             else:
-                markdown_content.append("*Exercises are unavailable because combined treebank data was not provided.*")
+                markdown_content.append(f"*{t('tb_exercises_unavailable', lang)}*")
 
         markdown_content.append("")
         markdown_content.append(lesson_separator_markup)
         markdown_content.append("")
 
-    return "\n".join(markdown_content)
+    document = "\n".join(markdown_content)
+
+    if rtl:
+        # Set the base paragraph direction for the whole document. The blank
+        # lines make renderers such as GitHub keep parsing the inner markdown;
+        # markdown="1" does the same for python-markdown's md_in_html.
+        document = f'<div dir="rtl" markdown="1">\n\n{document}\n\n</div>\n'
+
+    return document
 
 
 def generate_textbook_html(
-        frequency_syllabus: pd.DataFrame,
-        grammar_folder: str | Path,
-        lesson_count: int = 35,
-        doc_title: str = "A Frequency-Based Textbook for Ancient Greek Grammar",
+    frequency_syllabus: pd.DataFrame,
+    grammar_folder: str | Path,
+    lesson_count: int = 35,
+    doc_title: str | None = None,
     combined_df: pd.DataFrame | None = None,
     syllabus_mode: str = "case",
+    lang: str = DEFAULT_LANG,
 ) -> str:
-        markdown_content = generate_textbook_markdown(
-                frequency_syllabus=frequency_syllabus,
-                grammar_folder=grammar_folder,
-                lesson_count=lesson_count,
+    rtl = is_rtl(lang)
+    if doc_title is None:
+        doc_title = t("tb_doc_title", lang)
+
+    markdown_content = generate_textbook_markdown(
+        frequency_syllabus=frequency_syllabus,
+        grammar_folder=grammar_folder,
+        lesson_count=lesson_count,
         combined_df=combined_df,
         syllabus_mode=syllabus_mode,
-        )
-        body_html = markdown_to_html(markdown_content, extensions=["extra", "toc", "tables"])
+        lang=lang,
+    )
+    # "extra" bundles md_in_html, which keeps parsing the markdown inside the
+    # <div dir="rtl" markdown="1"> document wrapper.
+    body_html = markdown_to_html(markdown_content, extensions=["extra", "toc", "tables"])
 
-        return f"""<!doctype html>
-<html lang=\"grc\">
+    if rtl:
+        body_html = wrap_greek_runs_in_html(body_html)
+
+    dir_attr = "rtl" if rtl else "ltr"
+    rtl_font_link = ""
+    rtl_style = ""
+    if rtl:
+        rtl_font_link = (
+            '\n    <link rel="stylesheet" '
+            'href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700&display=swap">'
+        )
+        rtl_style = """
+        body {
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+        }
+        /* Code blocks stay left-to-right even in an RTL document. */
+        pre, code {
+            direction: ltr;
+            text-align: left;
+        }
+"""
+
+    return f"""<!doctype html>
+<html lang=\"{lang}\" dir=\"{dir_attr}\">
 <head>
     <meta charset=\"utf-8\">
     <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">
-    <title>{doc_title}</title>
+    <title>{doc_title}</title>{rtl_font_link}
     <style>
         body {{
             margin: 0;
@@ -1219,12 +1379,12 @@ def generate_textbook_html(
         th, td {{
             border: 1px solid #ccc;
             padding: 0.5rem;
-            text-align: left;
+            text-align: start;
         }}
         th {{
             background: #f0f0f0;
         }}
-    </style>
+{rtl_style}    </style>
 </head>
 <body>
 {body_html}
