@@ -52,7 +52,7 @@ if is_rtl(lang):
 
 APP_DIR = Path(__file__).resolve().parent
 HEADER_IMAGE_PATH = APP_DIR / "assets" / "electroplato.png"
-LOGO_IMAGE_PATH = APP_DIR / "assets" / "englishdark.png"
+LOGO_IMAGE_PATH = APP_DIR / "assets" / "english.png"
 header_image_html = ""
 if HEADER_IMAGE_PATH.exists():
     encoded_image = base64.b64encode(HEADER_IMAGE_PATH.read_bytes()).decode("ascii")
