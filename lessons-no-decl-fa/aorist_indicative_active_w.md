@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, active (ω)
 pos: verb
-frequency: 8510
 ---
 
 # درس: آئوریست اخباری معلوم

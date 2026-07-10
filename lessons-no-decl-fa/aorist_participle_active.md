@@ -2,8 +2,6 @@
 syllabus_order: 7
 morph_type: ω-verb — aorist + participle + active
 pos: verb
-token_count: 2553
-pct: 6.0
 ---
 
 ## درآمدی بر فعل‌های ω: آئوریست، وجه وصفی و جهت معلوم

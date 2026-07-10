@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (wn_onos)
 pos: noun
-token_count: 823
-pct: 1.6
 ---
 
 # The 3rd Declension (wn_onos) – A Complete Lesson

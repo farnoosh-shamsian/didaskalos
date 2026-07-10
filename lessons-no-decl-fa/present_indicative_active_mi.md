@@ -1,7 +1,6 @@
 ---
 topic: present, indicative, active (μι)
 pos: verb
-frequency: 3423
 ---
 
 # درس: حال اخباری معلوم فعل‌های ‑μι در یونانی باستان

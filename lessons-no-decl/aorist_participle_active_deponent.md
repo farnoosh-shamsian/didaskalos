@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, active (deponent)
 pos: verb
-frequency: 491
 ---
 
 # Lesson: The Aorist Active Participle (including Deponent Verbs)

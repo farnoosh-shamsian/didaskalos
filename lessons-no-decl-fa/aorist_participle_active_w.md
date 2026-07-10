@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, active (ω)
 pos: verb
-frequency: 5121
 ---
 
 # درس: وجه وصفی آئوریست معلوم (‑ας، ‑ασα، ‑αν)

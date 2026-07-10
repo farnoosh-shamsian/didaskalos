@@ -1,7 +1,6 @@
 ---
 topic: perfect, participle, active (irregulars)
 pos: verb
-frequency: 443
 ---
 
 # Lesson: The Perfect Active Participle (Irregular Forms)

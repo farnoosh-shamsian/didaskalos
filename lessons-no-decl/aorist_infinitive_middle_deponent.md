@@ -1,7 +1,6 @@
 ---
 topic: aorist, infinitive, middle (deponent)
 pos: verb
-frequency: 450
 ---
 
 # Lesson: The Aorist Infinitive – Middle (Deponent) Voice  

@@ -1,7 +1,6 @@
 ---
 topic: present, infinitive, active (μι)
 pos: verb
-frequency: 1176
 ---
 
 # Lesson: The Present Active Infinitive in **‑μι**  

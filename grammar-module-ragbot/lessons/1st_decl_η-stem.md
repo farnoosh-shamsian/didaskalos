@@ -2,8 +2,6 @@
 syllabus_order: 3
 morph_type: 1st decl. (η-stem)
 pos: noun
-token_count: 5907
-pct: 11.5
 ---
 
 ### Introduction to 1st Declension (η-stem)

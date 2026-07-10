@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — aorist + infinitive + middle
 pos: verb
-token_count: 414
-pct: 1.0
 ---
 
 ## درآمدی بر فعل‌های ω: مصدر آئوریست میانه

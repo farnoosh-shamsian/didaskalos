@@ -6,6 +6,12 @@
       "runtimeExecutable": "py",
       "runtimeArgs": ["-3", "-m", "http.server", "8123", "--directory", "docs"],
       "port": 8123
+    },
+    {
+      "name": "didaskalos-app",
+      "runtimeExecutable": ".venv\\Scripts\\streamlit.exe",
+      "runtimeArgs": ["run", "didaskalos_streamlit_app/app.py", "--server.port", "8501", "--server.headless", "true"],
+      "port": 8501
     }
   ]
 }

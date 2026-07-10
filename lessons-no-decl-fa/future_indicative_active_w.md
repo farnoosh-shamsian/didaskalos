@@ -1,7 +1,6 @@
 ---
 topic: future, indicative, active (ω)
 pos: verb
-frequency: 1192
 ---
 
 # آیندهٔ اخباری معلوم (فعل‌های ‑ω)

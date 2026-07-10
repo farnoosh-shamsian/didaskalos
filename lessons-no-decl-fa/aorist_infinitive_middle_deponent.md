@@ -1,7 +1,6 @@
 ---
 topic: aorist, infinitive, middle (deponent)
 pos: verb
-frequency: 450
 ---
 
 # درس: مصدر آئوریست میانه — فعل‌های دِپوننت

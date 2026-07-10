@@ -1,7 +1,6 @@
 ---
 topic: present, infinitive, middle/passive (ω)
 pos: verb
-frequency: 773
 ---
 
 # Lesson: The Present Infinitive – Middle/Passive (‑εσθαι)

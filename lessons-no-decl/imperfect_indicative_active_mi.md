@@ -1,7 +1,6 @@
 ---
 topic: imperfect, indicative, active (μι)
 pos: verb
-frequency: 2555
 ---
 
 # Lesson: The Imperfect – Indicative – Active (μι)

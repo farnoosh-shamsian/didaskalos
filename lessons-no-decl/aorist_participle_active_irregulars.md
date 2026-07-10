@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, active (irregulars)
 pos: verb
-frequency: 533
 ---
 
 # Lesson: The Aorist Active Participle – Irregular Forms  

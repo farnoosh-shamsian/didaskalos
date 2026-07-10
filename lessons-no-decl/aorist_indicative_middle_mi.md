@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, middle (μι)
 pos: verb
-frequency: 451
 ---
 
 # Lesson: The Aorist Indicative Middle – Forms in **‑μι**

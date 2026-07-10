@@ -1,7 +1,6 @@
 ---
 topic: imperfect, indicative, active (μι)
 pos: verb
-frequency: 2555
 ---
 
 # درس: ماضی استمراری اخباری معلوم فعل‌های ‑μι

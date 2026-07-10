@@ -1,7 +1,6 @@
 ---
 topic: aorist, infinitive, active (ω)
 pos: verb
-frequency: 2153
 ---
 
 # Lesson: The Aorist Infinitive Active **‑ω**

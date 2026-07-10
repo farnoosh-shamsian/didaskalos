@@ -1,7 +1,6 @@
 ---
 topic: imperfect, indicative, middle/passive (μι)
 pos: verb
-frequency: 605
 ---
 
 # درس: ماضی استمراری اخباری میانه/مجهول فعل‌های **‑μι**

@@ -1,7 +1,6 @@
 ---
 topic: perfect, indicative, middle/passive (ω)
 pos: verb
-frequency: 435
 ---
 
 # درس: ماضی نقلی اخباری میانه/مجهول (فعل‌های ‑ω)

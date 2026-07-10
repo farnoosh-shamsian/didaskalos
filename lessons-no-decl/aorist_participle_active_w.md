@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, active (ω)
 pos: verb
-frequency: 5121
 ---
 
 # Lesson: The Aorist Active Participle (‑ων, ‑ουσα, ‑ον)

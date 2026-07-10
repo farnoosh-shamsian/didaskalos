@@ -1,7 +1,6 @@
 ---
 topic: perfect, participle, active (ω)
 pos: verb
-frequency: 641
 ---
 
 # درس: وجه وصفی ماضی نقلی معلوم (‑ώς، ‑υῖα، ‑ός)

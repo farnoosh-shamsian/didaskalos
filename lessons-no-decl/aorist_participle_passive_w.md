@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, passive (ω)
 pos: verb
-frequency: 1162
 ---
 
 # Lesson: The Aorist Passive Participle (‑θ‑) in Ancient Greek  

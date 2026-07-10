@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, active (irregulars)
 pos: verb
-frequency: 1051
 ---
 
 # Lesson: The Aorist – Indicative – Active (Irregular Forms)

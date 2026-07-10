@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, active (irregulars)
 pos: verb
-frequency: 533
 ---
 
 # درس: وجه وصفی آئوریست معلوم — صورت‌های بی‌قاعده

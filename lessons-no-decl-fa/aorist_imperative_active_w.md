@@ -1,7 +1,6 @@
 ---
 topic: aorist, imperative, active (ω)
 pos: verb
-frequency: 564
 ---
 
 # درس: امر آئوریست معلوم (پایانهٔ ‑σον / ‑σατε)

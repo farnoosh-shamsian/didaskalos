@@ -1,7 +1,6 @@
 ---
 topic: perfect, indicative, active (ω)
 pos: verb
-frequency: 548
 ---
 
 # Lesson: The Perfect Indicative Active (‑ω) in Ancient Greek  

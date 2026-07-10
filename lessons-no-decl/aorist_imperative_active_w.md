@@ -1,7 +1,6 @@
 ---
 topic: aorist, imperative, active (ω)
 pos: verb
-frequency: 564
 ---
 
 # Lesson: The Aorist Imperative Active (ending ‑σον / ‑σατε)

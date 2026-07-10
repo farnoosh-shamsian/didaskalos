@@ -1,8 +1,6 @@
 ---
 morph_type: 1st decl. (α/η-stem)
 pos: noun
-token_count: 1253
-pct: 2.4
 ---
 
 ### Introduction to 1st Declension (α/η-stem)

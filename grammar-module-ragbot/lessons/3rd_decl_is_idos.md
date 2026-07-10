@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (is_idos)
 pos: noun
-token_count: 601
-pct: 1.2
 ---
 
 # The Greek 3rd Declension (is_idos)

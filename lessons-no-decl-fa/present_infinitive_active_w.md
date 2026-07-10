@@ -1,7 +1,6 @@
 ---
 topic: present, infinitive, active (ω)
 pos: verb
-frequency: 3820
 ---
 
 # درس: مصدر حال معلوم (پایانه‌های ‑ειν، ‑ᾶν، ‑εῖν، ‑οῦν)

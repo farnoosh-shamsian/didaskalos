@@ -2,8 +2,6 @@
 syllabus_order: 10
 morph_type: ω-verb — aorist + indicative + middle
 pos: verb
-token_count: 1990
-pct: 4.6
 ---
 
 ## Introduction to ω-Verb: Aorist + Indicative + Middle

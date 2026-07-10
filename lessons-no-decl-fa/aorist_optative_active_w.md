@@ -1,7 +1,6 @@
 ---
 topic: aorist, optative, active (ω)
 pos: verb
-frequency: 750
 ---
 
 # درس: تمنایی آئوریست معلوم (فعل‌های ‑ω)

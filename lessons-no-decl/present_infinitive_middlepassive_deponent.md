@@ -1,7 +1,6 @@
 ---
 topic: present, infinitive, middle/passive (deponent)
 pos: verb
-frequency: 684
 ---
 
 # Lesson: The Present Tense, Present Infinitive, and Middle/Passive (Deponent) Forms  

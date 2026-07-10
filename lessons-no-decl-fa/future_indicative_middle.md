@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — future + indicative + middle
 pos: verb
-token_count: 442
-pct: 1.0
 ---
 
 ## درآمدی بر فعل‌های ω: آینده + اخباری + میانه

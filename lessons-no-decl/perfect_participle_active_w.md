@@ -1,7 +1,6 @@
 ---
 topic: perfect, participle, active (ω)
 pos: verb
-frequency: 641
 ---
 
 # Lesson: The Perfect Active Participle – Adjectival Form **‑ω**

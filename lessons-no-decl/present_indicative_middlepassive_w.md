@@ -1,7 +1,6 @@
 ---
 topic: present, indicative, middle/passive (ω)
 pos: verb
-frequency: 1235
 ---
 
 # Lesson: The Present‑Indicative Middle/Passive (‑ω) in Ancient Greek  

@@ -2,8 +2,6 @@
 syllabus_order: 6
 morph_type: ω-verb (thematic) — imperfect + indicative + active
 pos: verb
-token_count: 3189
-pct: 7.4
 ---
 
 ## Introduction to ω-Verbs (Thematic) — Imperfect + Indicative + Active

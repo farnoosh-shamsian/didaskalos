@@ -1,7 +1,6 @@
 ---
 topic: aorist, subjunctive, active (ω)
 pos: verb
-frequency: 1172
 ---
 
 # درس: التزامی آئوریست معلوم (فعل‌های ‑ω)

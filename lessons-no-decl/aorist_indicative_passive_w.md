@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, passive (ω)
 pos: verb
-frequency: 922
 ---
 
 # Lesson: The Aorist Indicative Passive (ending ‑ω)

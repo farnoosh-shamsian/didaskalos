@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb (thematic) — imperfect + indicative + medio-passive
 pos: verb
-token_count: 1371
-pct: 3.2
 ---
 
 ## Introduction to ω-Verbs

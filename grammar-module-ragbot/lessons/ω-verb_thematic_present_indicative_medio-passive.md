@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb (thematic) — present + indicative + medio-passive
 pos: verb
-token_count: 767
-pct: 1.8
 ---
 
 # ω‑Verbs (Thematic) – Present Indicative Medio‑Passive  

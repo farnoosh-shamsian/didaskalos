@@ -1,7 +1,6 @@
 ---
 topic: present, indicative, active (ω)
 pos: verb
-frequency: 6058
 ---
 
 # درس: حال اخباری معلوم فعل‌های ‑ω در یونانی باستان

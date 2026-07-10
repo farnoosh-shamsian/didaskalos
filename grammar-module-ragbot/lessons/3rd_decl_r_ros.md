@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (r_ros)
 pos: noun
-token_count: 888
-pct: 1.7
 ---
 
 # Lesson 3: The Third Declension (r_ros) – Nouns in Greek

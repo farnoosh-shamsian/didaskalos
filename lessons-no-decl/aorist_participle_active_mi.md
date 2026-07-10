@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, active (μι)
 pos: verb
-frequency: 574
 ---
 
 # Lesson: The Aorist Active Participle (‑μι)  

@@ -2,8 +2,6 @@
 syllabus_order: 4
 morph_type: 3rd decl. (indecl)
 pos: noun
-token_count: 5782
-pct: 11.3
 ---
 
 ### Introduction to 3rd Declension (Indeclinable) Nouns

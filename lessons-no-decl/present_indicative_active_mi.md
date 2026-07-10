@@ -1,7 +1,6 @@
 ---
 topic: present, indicative, active (μι)
 pos: verb
-frequency: 3423
 ---
 
 # Lesson: The Present Indicative Active (μι) in Ancient Greek  

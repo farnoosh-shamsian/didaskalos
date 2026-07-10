@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (wr_oros)
 pos: noun
-token_count: 765
-pct: 1.5
 ---
 
 # The 3rd‑Declension (wr_oros) in Classical Greek  

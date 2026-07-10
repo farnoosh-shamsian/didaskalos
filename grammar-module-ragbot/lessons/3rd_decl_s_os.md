@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (s_os)
 pos: noun
-token_count: 986
-pct: 1.9
 ---
 
 # Lesson: 3rd‑Declension Masculine Nouns Ending in **‑ος** (s_os)

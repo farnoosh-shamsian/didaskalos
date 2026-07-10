@@ -1,7 +1,6 @@
 ---
 topic: imperfect, indicative, middle/passive (μι)
 pos: verb
-frequency: 605
 ---
 
 # Lesson: The Imperfect — Indicative — Middle/Passive (μι)

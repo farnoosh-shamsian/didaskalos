@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, middle (ω)
 pos: verb
-frequency: 1273
 ---
 
 # درس: آئوریست · اخباری · میانه (فعل‌های ‑ω)

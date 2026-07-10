@@ -1,7 +1,6 @@
 ---
 topic: perfect, participle, middle/passive (ω)
 pos: verb
-frequency: 1117
 ---
 
 # Perfect Participle (Middle/Passive) ‑ ‑ω  

@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (ι/εω-stem)
 pos: noun
-token_count: 763
-pct: 1.5
 ---
 
 # Lesson: 3rd Declension – ι/εω‑Stem Nouns  

@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, active (μι)
 pos: verb
-frequency: 574
 ---
 
 # درس: وجه وصفی آئوریست معلوم فعل‌های **‑μι**

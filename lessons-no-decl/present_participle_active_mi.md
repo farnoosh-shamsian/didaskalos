@@ -1,7 +1,6 @@
 ---
 topic: present, participle, active (μι)
 pos: verb
-frequency: 2022
 ---
 
 # Lesson: The Present Active Participle (‑μι)  

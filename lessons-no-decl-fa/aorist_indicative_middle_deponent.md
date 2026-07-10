@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, middle (deponent)
 pos: verb
-frequency: 1261
 ---
 
 # درس: آئوریست اخباری میانه (فعل‌های دِپوننت)

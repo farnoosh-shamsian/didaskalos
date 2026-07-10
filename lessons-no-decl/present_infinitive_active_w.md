@@ -1,7 +1,6 @@
 ---
 topic: present, infinitive, active (ω)
 pos: verb
-frequency: 3820
 ---
 
 # Lesson: The Present‑Active Infinitive (ending ‑ειν, ‑ᾶν, ‑εῖν, ‑οῦν)  

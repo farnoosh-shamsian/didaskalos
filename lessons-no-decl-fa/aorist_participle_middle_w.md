@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, middle (ω)
 pos: verb
-frequency: 760
 ---
 
 # درس: وجه وصفی آئوریست میانه (فعل‌های ‑ω)

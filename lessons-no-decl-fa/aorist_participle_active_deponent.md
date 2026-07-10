@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, active (deponent)
 pos: verb
-frequency: 491
 ---
 
 # درس: وجه وصفی آئوریست معلوم (و فعل‌های دِپوننت)

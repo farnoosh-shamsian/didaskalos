@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — aorist + participle + middle
 pos: verb
-token_count: 452
-pct: 1.1
 ---
 
 ## درآمدی بر فعل‌های ω: وجه وصفی آئوریست میانه

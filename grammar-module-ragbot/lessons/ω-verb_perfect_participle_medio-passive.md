@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — perfect + participle + medio-passive
 pos: verb
-token_count: 448
-pct: 1.0
 ---
 
 ## Introduction to ω-Verbs: Perfect + Participle + Medio-Passive

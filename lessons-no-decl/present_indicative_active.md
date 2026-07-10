@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — present + indicative + active
 pos: verb
-token_count: 1489
-pct: 3.5
 ---
 
 ### Introduction to ω-Verbs

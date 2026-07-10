@@ -1,7 +1,6 @@
 ---
 topic: present, participle, middle/passive (deponent)
 pos: verb
-frequency: 1665
 ---
 
 # Lesson: The Present Participle – Middle/Passive (Deponent)  

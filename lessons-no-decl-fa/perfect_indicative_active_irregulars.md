@@ -1,7 +1,6 @@
 ---
 topic: perfect, indicative, active (irregulars)
 pos: verb
-frequency: 545
 ---
 
 # درس: ماضی نقلی اخباری معلوم — فعل‌های بی‌قاعده

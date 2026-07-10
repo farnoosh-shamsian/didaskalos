@@ -1,7 +1,6 @@
 ---
 topic: future, indicative, middle (ω)
 pos: verb
-frequency: 488
 ---
 
 # درس: آیندهٔ اخباری میانه (فعل‌های ‑ω)

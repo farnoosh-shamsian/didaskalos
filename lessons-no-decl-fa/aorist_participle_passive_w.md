@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, passive (ω)
 pos: verb
-frequency: 1162
 ---
 
 # درس: وجه وصفی آئوریست مجهول (‑θείς) در یونانی باستان

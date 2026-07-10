@@ -1,7 +1,6 @@
 ---
 topic: present, participle, middle/passive (ω)
 pos: verb
-frequency: 2134
 ---
 
 # Lesson: The Present Middle/Passive Participle (‑ω)

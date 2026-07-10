@@ -1,7 +1,6 @@
 ---
 topic: present, subjunctive, active (ω)
 pos: verb
-frequency: 799
 ---
 
 # درس: التزامی حال معلوم (فعل‌های ‑ω)

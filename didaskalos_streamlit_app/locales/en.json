@@ -40,6 +40,8 @@
   "download_combined_rows": "Download combined_treebank_rows.csv",
   "download_textbook_md": "Download textbook.md",
   "download_textbook_html": "Download textbook.html",
+  "download_textbook_pdf": "Download textbook.pdf",
+  "pdf_unavailable": "PDF export is unavailable on this machine (WeasyPrint's native libraries are missing). It works on the deployed app; locally you can open textbook.html in a browser and print to PDF.",
   "textbook_md_preview_header": "Textbook Markdown Preview",
   "textbook_html_preview_header": "Textbook HTML Preview",
   "footer_caption": "Didaskalos is an open-source project. Contributions and feedback are welcome! Visit the GitHub repository for more information.",

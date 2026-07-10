@@ -1,7 +1,6 @@
 ---
 topic: present, indicative, active (ω)
 pos: verb
-frequency: 6058
 ---
 
 # Lesson: The Present‑Indicative‑Active (‑ω) in Ancient Greek  

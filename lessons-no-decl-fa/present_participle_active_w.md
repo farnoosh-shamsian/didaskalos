@@ -1,7 +1,6 @@
 ---
 topic: present, participle, active (ω)
 pos: verb
-frequency: 7608
 ---
 
 # درس: وجه وصفی حال معلوم (فعل‌های ‑ω)

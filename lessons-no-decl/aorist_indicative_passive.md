@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — aorist + indicative + passive
 pos: verb
-token_count: 529
-pct: 1.2
 ---
 
 ## Introduction to ω-Verbs in the Aorist Indicative Passive

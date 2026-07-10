@@ -1,7 +1,6 @@
 ---
 topic: present, indicative, middle/passive (deponent)
 pos: verb
-frequency: 1548
 ---
 
 # Lesson: The Present‑Indicative Middle/Passive (including Deponent Verbs)

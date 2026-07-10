@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, middle (deponent)
 pos: verb
-frequency: 645
 ---
 
 # درس: وجه وصفی آئوریست میانه — فعل‌های دِپوننت

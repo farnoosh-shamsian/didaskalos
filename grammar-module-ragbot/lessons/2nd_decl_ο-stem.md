@@ -2,8 +2,6 @@
 syllabus_order: 1
 morph_type: 2nd decl. (ο-stem)
 pos: noun
-token_count: 16621
-pct: 32.5
 ---
 
 # The Second Declension (ο‑stem) – Masculine Nouns  

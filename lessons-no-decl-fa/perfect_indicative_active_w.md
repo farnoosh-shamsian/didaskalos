@@ -1,7 +1,6 @@
 ---
 topic: perfect, indicative, active (ω)
 pos: verb
-frequency: 548
 ---
 
 # درس: ماضی نقلی اخباری معلوم (فعل‌های ‑ω) در یونانی باستان

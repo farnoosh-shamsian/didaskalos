@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — perfect + indicative + active
 pos: verb
-token_count: 533
-pct: 1.2
 ---
 
 ### درآمدی بر فعل‌های ω — ماضی نقلی + اخباری + معلوم

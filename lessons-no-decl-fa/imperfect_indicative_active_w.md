@@ -1,7 +1,6 @@
 ---
 topic: imperfect, indicative, active (ω)
 pos: verb
-frequency: 6485
 ---
 
 # درس: ماضی استمراری اخباری معلوم (فعل‌های ‑ω)

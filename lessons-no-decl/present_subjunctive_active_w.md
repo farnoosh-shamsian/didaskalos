@@ -1,7 +1,6 @@
 ---
 topic: present, subjunctive, active (ω)
 pos: verb
-frequency: 799
 ---
 
 # Lesson: The Present Subjunctive Active (‑ω)  

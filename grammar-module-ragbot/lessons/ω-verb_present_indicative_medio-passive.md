@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — present + indicative + medio-passive
 pos: verb
-token_count: 389
-pct: 0.9
 ---
 
 ## Introduction to ω-Verbs: Present Indicative Medio-Passive

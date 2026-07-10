@@ -1,7 +1,6 @@
 ---
 topic: present, imperative, active (ω)
 pos: verb
-frequency: 1087
 ---
 
 # Lesson: The Present‑Active Imperative (and the Present‑Active Indicative ‑ ω)

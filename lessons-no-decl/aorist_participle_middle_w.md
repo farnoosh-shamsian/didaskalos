@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, middle (ω)
 pos: verb
-frequency: 760
 ---
 
 # Lesson: The Aorist Participle in the Middle Voice (‑ω / ‑αμεν‑)

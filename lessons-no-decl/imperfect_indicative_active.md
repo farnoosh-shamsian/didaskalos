@@ -2,8 +2,6 @@
 syllabus_order: 8
 morph_type: ω-verb — imperfect + indicative + active
 pos: verb
-token_count: 2437
-pct: 5.7
 ---
 
 ### Introduction to ω-Verbs: Imperfect, Indicative, Active

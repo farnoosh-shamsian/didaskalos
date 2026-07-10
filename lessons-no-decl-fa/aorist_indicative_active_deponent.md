@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, active (deponent)
 pos: verb
-frequency: 680
 ---
 
 # درس: آئوریست اخباری معلوم (و فعل‌های دِپوننت)

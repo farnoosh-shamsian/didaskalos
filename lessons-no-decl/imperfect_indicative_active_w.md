@@ -1,7 +1,6 @@
 ---
 topic: imperfect, indicative, active (ω)
 pos: verb
-frequency: 6485
 ---
 
 # Lesson: The Imperfect – Indicative – Active (ω‑type)

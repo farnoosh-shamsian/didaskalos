@@ -1,7 +1,6 @@
 ---
 topic: imperfect, indicative, middle/passive (deponent)
 pos: verb
-frequency: 1400
 ---
 
 # درس: ماضی استمراری اخباری میانه/مجهول — فعل‌های دِپوننت

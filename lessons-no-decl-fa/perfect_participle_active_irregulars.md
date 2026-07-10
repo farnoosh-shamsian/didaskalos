@@ -1,7 +1,6 @@
 ---
 topic: perfect, participle, active (irregulars)
 pos: verb
-frequency: 443
 ---
 
 # درس: وجه وصفی ماضی نقلی معلوم — صورت‌های بی‌قاعده

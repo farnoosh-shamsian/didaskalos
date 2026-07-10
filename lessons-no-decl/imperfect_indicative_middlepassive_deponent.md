@@ -1,7 +1,6 @@
 ---
 topic: imperfect, indicative, middle/passive (deponent)
 pos: verb
-frequency: 1400
 ---
 
 # Lesson: The Imperfect Indicative – Middle/Passive (Deponent)  

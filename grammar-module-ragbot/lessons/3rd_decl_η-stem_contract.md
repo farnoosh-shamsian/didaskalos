@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (η-stem, contract)
 pos: noun
-token_count: 1761
-pct: 3.4
 ---
 
 # 3rd‑Declension η‑Stem Contract Nouns  

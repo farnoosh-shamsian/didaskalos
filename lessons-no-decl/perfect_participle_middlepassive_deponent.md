@@ -1,7 +1,6 @@
 ---
 topic: perfect, participle, middle/passive (deponent)
 pos: verb
-frequency: 458
 ---
 
 # Lesson: The Perfect Participle in the Middle/Passive (Deponent) Voice  

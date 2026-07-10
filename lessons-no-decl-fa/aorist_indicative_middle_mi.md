@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, middle (μι)
 pos: verb
-frequency: 451
 ---
 
 # درس: آئوریست اخباری میانهٔ فعل‌های **‑μι**

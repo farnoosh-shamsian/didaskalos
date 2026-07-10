@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (hr_eros)
 pos: noun
-token_count: 540
-pct: 1.1
 ---
 
 ### Introduction to 3rd Declension (ἥρως)

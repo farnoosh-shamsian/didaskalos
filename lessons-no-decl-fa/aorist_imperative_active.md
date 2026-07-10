@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — aorist + imperative + active
 pos: verb
-token_count: 589
-pct: 1.4
 ---
 
 ## درآمدی بر فعل‌های ω: آئوریست + امری + معلوم

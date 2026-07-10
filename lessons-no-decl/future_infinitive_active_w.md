@@ -1,7 +1,6 @@
 ---
 topic: future, infinitive, active (ω)
 pos: verb
-frequency: 433
 ---
 
 # Lesson: The Future Active Infinitive (‑ω)  

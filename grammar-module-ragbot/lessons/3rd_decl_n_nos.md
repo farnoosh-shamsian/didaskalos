@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (n_nos)
 pos: noun
-token_count: 802
-pct: 1.6
 ---
 
 # Lesson: 3rd‑Declension Neuter Nouns (n_nos)

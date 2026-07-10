@@ -1,7 +1,6 @@
 ---
 topic: present, imperative, active (ω)
 pos: verb
-frequency: 1087
 ---
 
 # درس: امر حال معلوم (فعل‌های ‑ω)

@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, active (deponent)
 pos: verb
-frequency: 680
 ---
 
 # Lesson: The Aorist – Indicative – Active (and Deponent)  

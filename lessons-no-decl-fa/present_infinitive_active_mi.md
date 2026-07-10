@@ -1,7 +1,6 @@
 ---
 topic: present, infinitive, active (μι)
 pos: verb
-frequency: 1176
 ---
 
 # درس: مصدر حال معلوم فعل‌های ‑μι

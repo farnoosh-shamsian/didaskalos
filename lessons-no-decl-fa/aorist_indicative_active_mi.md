@@ -1,7 +1,6 @@
 ---
 topic: aorist, indicative, active (μι)
 pos: verb
-frequency: 1707
 ---
 
 # درس: آئوریست اخباری معلوم فعل‌های **‑μι**

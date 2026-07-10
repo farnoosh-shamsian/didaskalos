@@ -1390,3 +1390,26 @@ def generate_textbook_html(
 {body_html}
 </body>
 </html>"""
+
+
+def generate_textbook_pdf(
+    frequency_syllabus: pd.DataFrame,
+    grammar_folder: str | Path,
+    lesson_count: int = 35,
+    doc_title: str | None = None,
+    combined_df: pd.DataFrame | None = None,
+    syllabus_mode: str = "case",
+    lang: str = DEFAULT_LANG,
+) -> bytes:
+    from weasyprint import HTML
+
+    html_content = generate_textbook_html(
+        frequency_syllabus=frequency_syllabus,
+        grammar_folder=grammar_folder,
+        lesson_count=lesson_count,
+        doc_title=doc_title,
+        combined_df=combined_df,
+        syllabus_mode=syllabus_mode,
+        lang=lang,
+    )
+    return HTML(string=html_content).write_pdf()

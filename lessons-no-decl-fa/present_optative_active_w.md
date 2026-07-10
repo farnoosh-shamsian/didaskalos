@@ -1,7 +1,6 @@
 ---
 topic: present, optative, active (ω)
 pos: verb
-frequency: 574
 ---
 
 # درس: تمنایی حال معلوم (فعل‌های ‑ω)

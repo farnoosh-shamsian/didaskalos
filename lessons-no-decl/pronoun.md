@@ -1,7 +1,6 @@
 ---
 topic: pronouns
 pos: pronoun
-frequency: 34682
 ---
 
 # Pronouns

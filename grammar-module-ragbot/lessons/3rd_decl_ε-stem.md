@@ -2,8 +2,6 @@
 syllabus_order: 5
 morph_type: 3rd decl. (ε-stem)
 pos: noun
-token_count: 3549
-pct: 6.9
 ---
 
 ### Introduction to 3rd Declension (ε-stem)

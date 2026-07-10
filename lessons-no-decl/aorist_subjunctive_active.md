@@ -1,8 +1,6 @@
 ---
 morph_type: ω-verb — aorist + subjunctive + active
 pos: verb
-token_count: 1170
-pct: 2.7
 ---
 
 ## Introduction to ω-Verb Conjugation

@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (s_tos)
 pos: noun
-token_count: 485
-pct: 0.9
 ---
 
 ### Introduction to 3rd Declension (στος)

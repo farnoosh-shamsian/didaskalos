@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (wn_ontos)
 pos: noun
-token_count: 600
-pct: 1.2
 ---
 
 ### Introduction to 3rd Declension (ὄντος)

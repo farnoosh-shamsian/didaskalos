@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (ma_matos)
 pos: noun
-token_count: 1057
-pct: 2.1
 ---
 
 ### Introduction to 3rd Declension (μάματος)

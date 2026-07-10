@@ -1,7 +1,6 @@
 ---
 topic: aorist, participle, middle (deponent)
 pos: verb
-frequency: 645
 ---
 
 # Lesson: The Aorist Participle in the Middle (Deponent) Voice  

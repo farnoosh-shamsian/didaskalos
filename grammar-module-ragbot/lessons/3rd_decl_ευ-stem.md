@@ -1,8 +1,6 @@
 ---
 morph_type: 3rd decl. (ευ-stem)
 pos: noun
-token_count: 1630
-pct: 3.2
 ---
 
 ### Introduction to 3rd Declension (ευ-stem)
