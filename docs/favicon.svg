@@ -1,11 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Didaskalos logo">
-  <defs>
-    <linearGradient id="g" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0f766e" />
-      <stop offset="1" stop-color="#1d4ed8" />
-    </linearGradient>
-  </defs>
-  <rect x="4" y="4" width="56" height="56" rx="18" fill="url(#g)" />
-  <path d="M22 20h12.2c7.8 0 12.4 4.4 12.4 12s-4.6 12-12.4 12H22z" fill="#fff8ed" opacity="0.95" />
-  <path d="M28 26h5.4c4.6 0 7 2.3 7 6s-2.4 6-7 6H28z" fill="#0f766e" opacity="0.22" />
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="#530707" />
+  <path d="M22 20h12.2c7.8 0 12.4 4.4 12.4 12s-4.6 12-12.4 12H22z" fill="#c4bca9" opacity="0.95" />
+  <path d="M28 26h5.4c4.6 0 7 2.3 7 6s-2.4 6-7 6H28z" fill="#5b0000" opacity="0.35" />
 </svg>

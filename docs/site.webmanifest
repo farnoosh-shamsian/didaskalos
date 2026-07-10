@@ -1,12 +1,12 @@
 {
   "name": "Didaskalos",
   "short_name": "Didaskalos",
-  "description": "A focused learning companion and GitHub Pages landing page.",
+  "description": "A frequency-based Ancient Greek textbook builder from authentic texts.",
   "start_url": "/didaskalos/",
   "scope": "/didaskalos/",
   "display": "standalone",
-  "background_color": "#f6f1e8",
-  "theme_color": "#0f172a",
+  "background_color": "#c4bca9",
+  "theme_color": "#530707",
   "icons": [
     {
       "src": "favicon.svg",

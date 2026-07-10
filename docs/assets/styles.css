@@ -1,14 +1,18 @@
+/* Didaskalos GitHub Pages site.
+   Styled after farnoosh-shamsian.github.io (same palette, fonts, and card style). */
+
 :root {
-  color-scheme: light;
-  --bg: #f5f5f3;
-  --surface: #ffffff;
-  --surface-soft: #fafaf9;
-  --text: #111827;
-  --muted: #4b5563;
-  --line: rgba(17, 24, 39, 0.08);
-  --accent: #111827;
-  --shadow: 0 18px 48px rgba(17, 24, 39, 0.08);
-  --radius: 22px;
+  --primary-color: #30261e;
+  --article-header-color: #2d0101;
+  --secondary-color: #b3ab9a;
+  --footer-color: #b3ab9a;
+  --background-color: #c4bca9;
+  --text-color: #1f1c16;
+  --link-color: #2b2116;
+  --hero-text-color: #ebdfc8;
+  --accent-gold: #d6ab7b;
+  --header-font-size: clamp(26px, 2.4vw, 38px);
+  --nav--font-size: clamp(16px, 1vw, 20px);
 }
 
 * {
@@ -20,221 +24,388 @@ html {
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: var(--text);
-  background: var(--bg);
-}
-
-a {
-  color: inherit;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Cambria", Georgia, "Times New Roman", serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 [hidden] {
   display: none !important;
 }
 
-.page-shell {
-  width: min(880px, calc(100% - 32px));
-  margin: 0 auto;
-  padding: 22px 0 28px;
+/* Persian panels: readable Persian font stack, generous line height. */
+[lang="fa"] {
+  font-family: "Cambria", Georgia, "Times New Roman", serif;
+  line-height: 1.9;
 }
 
-.topbar {
+/* Header & Navigation: horizontal bar — brand left, nav and language switch right. */
+
+header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 18px;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  padding: 18px 5vw;
+  border-bottom: 1px solid rgba(31, 28, 22, 0.15);
 }
 
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
+header h1 {
+  order: 1;
+  margin: 0;
+  font-family: "Playfair Display", "Cambria", Georgia, serif;
+  font-size: var(--header-font-size);
+}
+
+header h1 a {
+  color: var(--primary-color);
   text-decoration: none;
 }
 
-.brand strong {
-  display: block;
-  font-size: 1rem;
-  font-weight: 700;
+.menu-icon {
+  display: none;
+  order: 3;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 4px 10px;
+  color: var(--text-color);
+  transition: all ease-in-out 0.2s;
 }
 
-.brand small {
-  display: block;
-  margin-top: 2px;
-  color: var(--muted);
-  font-size: 0.88rem;
+.menu-icon:hover {
+  color: var(--primary-color);
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 14px;
-  background: var(--accent);
-  color: #fff;
-  font-weight: 700;
+nav {
+  order: 2;
+  margin-inline-start: auto;
+  overflow: hidden;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 8px 14px;
+}
+
+nav ul li a {
+  display: block;
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: var(--nav--font-size);
+  transition: all ease-in-out 0.2s;
+}
+
+nav ul li a:hover {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 950px) {
+  .menu-icon {
+    display: block;
+    margin-inline-start: auto;
+  }
+
+  nav {
+    order: 4;
+    flex-basis: 100%;
+    margin-inline-start: 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+
+  nav ul.show {
+    max-height: 400px;
+  }
+
+  nav ul li {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+/* Language switch */
 
 .lang-switch {
-  display: inline-flex;
-  gap: 8px;
-  padding: 4px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.7);
+  order: 3;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.lang-btn,
-.button {
-  border: 0;
-  font: inherit;
+@media screen and (max-width: 950px) {
+  .lang-switch {
+    order: 2;
+    margin-inline-start: auto;
+  }
+
+  .menu-icon {
+    margin-inline-start: 0;
+  }
 }
 
 .lang-btn {
-  padding: 0.55rem 0.9rem;
-  border-radius: 999px;
+  font-family: inherit;
+  font-size: 1em;
+  padding: 6px 18px;
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
   background: transparent;
-  color: var(--muted);
+  color: var(--text-color);
   cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.lang-btn:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 
 .lang-btn.is-active {
-  background: var(--text);
-  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--hero-text-color);
 }
 
-.hero-card {
-  padding: 28px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: var(--surface);
-  box-shadow: var(--shadow);
+/* Hero: solid deep-red band with the Didaskalos logo — no photo. */
+
+.hero {
+  background-color: var(--primary-color);
+  padding: 60px 10vw 70px;
+  text-align: center;
 }
 
-.lang-panel {
-  max-width: 62ch;
+.hero-logo {
+  width: min(340px, 75vw);
+  height: auto;
+  margin-bottom: 28px;
 }
 
-.eyebrow {
-  margin: 0 0 12px;
-  color: var(--muted);
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-h1 {
+.hero-content h2 {
+  font-family: "Playfair Display", "Cambria", Georgia, serif;
+  font-size: clamp(1.8em, 4vw, 3em);
+  color: var(--hero-text-color);
   margin: 0;
-  font-size: clamp(2.4rem, 6vw, 4rem);
-  line-height: 1.05;
-  letter-spacing: -0.04em;
 }
 
-p,
-li,
-.footer p {
-  line-height: 1.7;
+[lang="fa"] .hero-content h2 {
+  font-family: inherit;
 }
 
-.lang-panel p {
-  margin: 16px 0 0;
-  color: var(--muted);
-  font-size: 1.03rem;
+.hero-content p {
+  font-size: clamp(1.15em, 2vw, 1.5em);
+  color: var(--hero-text-color);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.simple-list {
-  margin: 18px 0 0;
-  padding-left: 20px;
-  color: var(--muted);
-}
-
-.simple-list li + li {
-  margin-top: 8px;
-}
+/* Buttons */
 
 .actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 22px;
-}
-
-.actions-rtl {
-  justify-content: flex-end;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
 }
 
 .button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 46px;
-  padding: 0.75rem 1rem;
-  border-radius: 999px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 1.1em;
   text-decoration: none;
-  font-weight: 600;
-  transition:
-    transform 160ms ease,
-    background 160ms ease,
-    color 160ms ease,
-    border-color 160ms ease;
-}
-
-.button:hover {
-  transform: translateY(-1px);
+  transition: all ease-in-out 0.2s;
 }
 
 .button-primary {
-  background: var(--text);
-  color: #fff;
+  background-color: var(--primary-color);
+  color: var(--hero-text-color);
+  border: 2px solid var(--primary-color);
+}
+
+.button-primary:hover {
+  background-color: var(--article-header-color);
+  transform: scale(1.03);
+}
+
+/* On the dark-red hero, the primary button switches to the logo's gold. */
+.hero .button-primary {
+  background-color: var(--accent-gold);
+  border-color: var(--accent-gold);
+  color: #3f0505;
+}
+
+.hero .button-primary:hover {
+  background-color: #e2bd92;
+  border-color: #e2bd92;
 }
 
 .button-secondary {
-  border: 1px solid var(--line);
-  background: var(--surface-soft);
-  color: var(--text);
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+  background: transparent;
 }
 
-.footer {
+.button-secondary:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: scale(1.03);
+}
+
+.hero .button-secondary {
+  border-color: var(--hero-text-color);
+  color: var(--hero-text-color);
+}
+
+.hero .button-secondary:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Patience note */
+
+.note {
+  max-width: 760px;
+  margin: 36px auto 0;
+  padding: 16px 22px;
+  background-color: rgba(196, 188, 169, 0.92);
+  color: var(--text-color);
+  border-inline-start: 6px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1.05em;
+  text-align: start;
+}
+
+.note strong {
+  color: var(--article-header-color);
+}
+
+/* Sections & cards (same look as the "posts" cards on the personal page) */
+
+.section {
+  padding: 50px 20px 10px;
+  text-align: center;
+}
+
+.section h2,
+.section-heading {
+  font-family: "Playfair Display", "Cambria", Georgia, serif;
+  font-size: 2.2em;
+  color: var(--primary-color);
+  margin: 0 0 10px;
+}
+
+[lang="fa"] .section h2 {
+  font-family: inherit;
+}
+
+.section-intro {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.15em;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--primary-color);
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.posts {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 18px 2px 0;
-  color: var(--muted);
-  font-size: 0.95rem;
+  justify-content: center;
+  padding: 20px 20px 40px;
 }
 
-@media (max-width: 720px) {
-  .page-shell {
-    width: min(100% - 20px, 880px);
-  }
+.posts article {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  margin: 1%;
+  width: 30%;
+  min-width: 320px;
+  max-width: 480px;
+  text-align: center;
+  font-size: 1.2em;
+  border-radius: 5px;
+  flex-basis: 30%;
+  opacity: 0.7;
+  transition: all ease-in-out 0.5s;
+}
 
-  .topbar,
-  .footer {
-    flex-direction: column;
-    align-items: stretch;
-  }
+.posts article:hover {
+  opacity: 1;
+  transform: scale(1.02);
+}
 
-  .lang-switch {
-    width: fit-content;
-  }
-
-  .hero-card {
-    padding: 22px;
-  }
-
-  .actions,
-  .actions-rtl {
-    justify-content: stretch;
-  }
-
-  .button {
+@media (max-width: 1200px) {
+  .posts article {
+    flex-basis: 50%;
     width: 100%;
   }
+}
+
+.posts article h3 {
+  color: var(--article-header-color);
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.posts article p {
+  font-size: 0.95em;
+  color: var(--text-color);
+  text-align: start;
+}
+
+/* About block */
+
+.about-block {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+  font-size: 1.1em;
+  text-align: start;
+}
+
+.about-block a,
+.note a {
+  color: var(--link-color);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--footer-color);
+  padding: 20px;
+  text-align: center;
+  font-size: 1em;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+footer a {
+  color: var(--link-color);
 }

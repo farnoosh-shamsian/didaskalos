@@ -5,118 +5,389 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Didaskalos is a frequency-based Ancient Greek grammar textbook builder."
+      content="Didaskalos generates personalized Ancient Greek textbooks from the texts you choose — frequency-based lessons, authentic examples, and difficulty-ranked exercises."
     />
-    <meta name="theme-color" content="#111827" />
+    <meta name="theme-color" content="#350404" />
     <meta property="og:title" content="Didaskalos" />
     <meta
       property="og:description"
-      content="A minimal bilingual landing page for the Didaskalos app."
+      content="A corpus-driven pipeline for personalized Ancient Greek textbooks, built from authentic texts."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://didaskalos.github.io/" />
+    <meta
+      property="og:url"
+      content="https://farnoosh-shamsian.github.io/didaskalos/"
+    />
     <meta name="twitter:card" content="summary" />
     <title>Didaskalos</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/styles.css" />
     <script defer src="assets/app.js"></script>
   </head>
-  <body>
-    <main class="page-shell">
-      <header class="topbar">
-        <a class="brand" href="#top" aria-label="Didaskalos home">
-          <span class="brand-mark">D</span>
-          <span>
-            <strong>Didaskalos</strong>
-            <small>Frequency-Based Greek Grammar Textbook Builder</small>
-          </span>
-        </a>
+  <body id="top">
+    <header>
+      <h1><a href="#top">Didaskalos</a></h1>
+      <div class="menu-icon" id="menu-icon">&#9776;</div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#top" data-en="Home" data-fa="خانه">Home</a>
+          </li>
+          <li>
+            <a
+              href="https://didaskalos-app-11551311398.europe-west1.run.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-en="Open the App"
+              data-fa="باز کردن برنامه"
+              >Open the App</a
+            >
+          </li>
+          <li>
+            <a href="#how" data-en="How It Works" data-fa="روش کار"
+              >How It Works</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              data-en="About the Lessons"
+              data-fa="دربارهٔ درس‌ها"
+              >About the Lessons</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/farnoosh-shamsian/didaskalos"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-en="GitHub"
+              data-fa="گیت‌هاب"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="lang-switch" role="tablist" aria-label="Language switch">
+        <button class="lang-btn is-active" type="button" data-lang-button="en">
+          English
+        </button>
+        <button class="lang-btn" type="button" data-lang-button="fa">
+          فارسی
+        </button>
+      </div>
+    </header>
 
-        <div class="lang-switch" role="tablist" aria-label="Language switch">
-          <button
-            class="lang-btn is-active"
-            type="button"
-            data-lang-button="en"
-          >
-            English
-          </button>
-          <button class="lang-btn" type="button" data-lang-button="fa">
-            فارسی
-          </button>
-        </div>
-      </header>
-
-      <section class="hero-card" id="top">
-        <article class="lang-panel" data-lang-panel="en" lang="en">
-          <p class="eyebrow">Didaskalos</p>
-          <h1>Frequency-based Ancient Greek grammar textbook builder.</h1>
+    <!-- English -->
+    <div class="lang-panel" data-lang-panel="en" lang="en">
+      <section class="hero">
+        <div class="hero-content">
+          <img
+            class="hero-logo"
+            src="assets/logo-en.png"
+            alt="Didaskalos — a Greek column above an open book"
+          />
+          <h2>
+            A personalized Ancient Greek textbook, built from the texts you
+            choose.
+          </h2>
           <p>
-            Didaskalos builds a grammar textbook from treebanks and modular
-            lessons. It can use sample XML treebanks or your own uploads, then
-            ranks grammatical structures by frequency to focus the lessons on
-            what appears most in the texts.
+            Didaskalos is a corpus-driven pipeline that generates personalized
+            Ancient Greek textbooks from the linguistic features of your
+            selected texts. Instead of a fixed curriculum, lessons follow the
+            vocabulary, morphology, and syntax actually attested in your corpus
+            — and every example and exercise comes directly from authentic
+            Greek.
           </p>
-          <ul class="simple-list">
-            <li>Upload treebanks or use the bundled samples</li>
-            <li>Generate case-based or declension-based lessons</li>
-            <li>Download the result as Markdown or HTML</li>
-          </ul>
           <div class="actions">
             <a
               class="button button-primary"
               href="https://didaskalos-app-11551311398.europe-west1.run.app/"
               target="_blank"
               rel="noopener noreferrer"
+              >Open the live app</a
             >
-              Open live app
-            </a>
-            <a class="button button-secondary" href="README.md"
-              >Project notes</a
+            <a
+              class="button button-secondary"
+              href="https://github.com/farnoosh-shamsian/didaskalos"
+              target="_blank"
+              rel="noopener noreferrer"
+              >View on GitHub</a
             >
           </div>
-        </article>
+          <div class="note">
+            <strong>A note on speed:</strong> Didaskalos does a lot of work on
+            your texts before it generates anything — parsing every treebank,
+            extracting grammatical features, and ranking them by frequency. So
+            the app can feel a little slow at times. Please be patient with it;
+            a good textbook takes a moment.
+          </div>
+        </div>
+      </section>
 
-        <article
-          class="lang-panel"
-          data-lang-panel="fa"
-          lang="fa"
-          dir="rtl"
-          hidden
-        >
-          <p class="eyebrow">دیداسکالوس</p>
-          <h1>سازندهٔ کتاب‌درسی دستور یونانیِ باستان بر پایهٔ فراوانی.</h1>
+      <section class="section" id="how">
+        <h2>How It Works</h2>
+        <p class="section-intro">
+          The system integrates three main components, all driven by the
+          frequency and distribution of linguistic features in your texts.
+        </p>
+      </section>
+      <section class="posts">
+        <article>
+          <h3>Corpus Analysis</h3>
           <p>
-            دیداسکالوس از درخت‌بانک‌ها و درس‌های ماژولار برای ساخت یک کتاب دستور
-            استفاده می‌کند. می‌توانید از فایل‌های XML نمونه یا درخت‌بانک خودتان
-            استفاده کنید و سپس ساختارهای دستوری را بر اساس فراوانی مرتب کنید تا
-            درس‌ها روی الگوهای پرتکرار تمرکز کنند.
+            The pipeline processes annotated Ancient Greek treebanks — sample
+            texts from the Perseus Digital Library or your own XML uploads — and
+            extracts lexical frequencies, morphological patterns, and syntactic
+            constructions.
           </p>
-          <ul class="simple-list">
-            <li>درخت‌بانک‌های نمونه یا فایل‌های خودتان را بارگذاری کنید</li>
-            <li>درس‌های مبتنی بر حالت یا صرف را تولید کنید</li>
-            <li>خروجی را به صورت Markdown یا HTML دانلود کنید</li>
-          </ul>
-          <div class="actions actions-rtl">
+        </article>
+        <article>
+          <h3>Curriculum Generation</h3>
+          <p>
+            Frequency data drives the syllabus: grammatical structures are
+            ranked by how often they appear in your corpus, so the lessons focus
+            on what actually shows up most in the texts you want to read.
+          </p>
+        </article>
+        <article>
+          <h3>Textbook Assembly</h3>
+          <p>
+            The textbook is composed of self-contained modules covering
+            grammatical and morphological categories, with examples and
+            exercises drawn straight from the source texts.
+          </p>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>In the App</h2>
+      </section>
+      <section class="posts">
+        <article>
+          <h3>Bring Your Own Corpus</h3>
+          <p>
+            Start from the bundled Perseus treebanks, paste treebank URLs, or
+            upload your own XML files. The app builds a combined token table and
+            computes a frequency-based syllabus from whatever you give it.
+          </p>
+        </article>
+        <article>
+          <h3>Two Textbook Types</h3>
+          <p>
+            Choose a case-based textbook that explains nouns and adjectives case
+            by case, or a declension-based one that classifies every noun and
+            adjective into declension classes and orders the lessons by how
+            frequent each class is in your corpus.
+          </p>
+        </article>
+        <article>
+          <h3>Exercises &amp; Downloads</h3>
+          <p>
+            Exercises are generated exclusively from authentic sentences, ranked
+            by difficulty using sentence length and word frequency. Download the
+            finished textbook as Markdown or HTML, easy to tweak or restyle.
+          </p>
+        </article>
+      </section>
+
+      <section class="section" id="about">
+        <h2>About the Lessons</h2>
+      </section>
+      <div class="about-block">
+        <p>
+          The grammar explanations are currently LLM-generated first drafts,
+          produced with a Retrieval-Augmented Generation (RAG) pipeline over
+          standard reference grammars, including Smyth's
+          <em>Greek Grammar</em> and Crosby &amp; Schaeffer. I plan to refine
+          them manually over time.
+        </p>
+        <p>
+          The generation pipeline is language-independent: the interface and the
+          generated textbooks are available in English and Persian, and more
+          languages mainly require translating the grammar modules.
+        </p>
+        <p>
+          The core infrastructure is still being built, so expect rough edges —
+          and more features soon. The project is released under
+          <a
+            href="https://creativecommons.org/licenses/by-nc/4.0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CC BY-NC 4.0</a
+          >.
+        </p>
+      </div>
+    </div>
+
+    <!-- Persian -->
+    <div class="lang-panel" data-lang-panel="fa" lang="fa" dir="rtl" hidden>
+      <section class="hero">
+        <div class="hero-content">
+          <img
+            class="hero-logo"
+            src="assets/logo-el.png"
+            alt="دیداسکالوس — ستون یونانی بر فراز کتابی گشوده"
+          />
+          <h2>
+            کتاب درسی شخصی‌سازی‌شدهٔ یونانی باستان، ساخته‌شده از متن‌هایی که
+            خودتان انتخاب می‌کنید.
+          </h2>
+          <p>
+            دیداسکالوس یک ابزار پیکره‌بنیاد است که بر پایهٔ ویژگی‌های زبانی
+            متن‌های انتخابی شما، کتاب‌های درسی شخصی‌سازی‌شده تولید می‌کند. در
+            نتیجه، برنامه‌ی درسی شما تنها شامل واژگان، تمرینات، صرف و نحوی خواهد
+            بود که واقعاً در پیکرهٔ شما آمده‌اند — و همهٔ مثال‌ها و تمرین‌ها
+            مستقیماً از همان متونی که انتخاب کرده‌اید برگرفته شده و به ترتیب
+            بسامد واژگانی و صرفی مرتب می‌شوند.
+          </p>
+          <div class="actions">
             <a
               class="button button-primary"
               href="https://didaskalos-app-11551311398.europe-west1.run.app/"
               target="_blank"
               rel="noopener noreferrer"
+              >باز کردن برنامه</a
             >
-              باز کردن برنامه
-            </a>
-            <a class="button button-secondary" href="README.md"
-              >توضیحات فنی پروژه</a
+            <a
+              class="button button-secondary"
+              href="https://github.com/farnoosh-shamsian/didaskalos"
+              target="_blank"
+              rel="noopener noreferrer"
+              >مشاهده‌ی کد در گیت‌هاب</a
             >
           </div>
+          <div class="note">
+            <strong>نکته‌ای دربارهٔ سرعت:</strong> دیداسکالوس پیش از تولید هر
+            چیزی کارهای زیادی روی متن‌ها انجام می‌دهد — تجزیهٔ همهٔ پیکره‌های
+            درختی، استخراج ویژگی‌های دستوری و رتبه‌بندی آن‌ها بر اساس بسامد.
+            بنابراین برنامه گاهی کمی کند به نظر می‌رسد. لطفاً شکیبا باشید؛ ساختن
+            یک کتاب خوب کمی زمان می‌برد.
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>روش کار</h2>
+        <p class="section-intro">
+          دیداسکالوس سه وجه اصلی را در هم می‌آمیزد و همهٔ آن‌ها بر پایهٔ بسامد و
+          توزیع ویژگی‌های زبانی در متن‌های شما کار می‌کنند.
+        </p>
+      </section>
+      <section class="posts">
+        <article>
+          <h3>تحلیل پیکره</h3>
+          <p>
+            پردازش پیکره‌های درختی حاشیه‌گذاری‌شدهٔ یونانی باستان را پردازش
+            می‌کند — نمونه‌متن‌های کتابخانهٔ دیجیتال Perseus یا فایل‌های XML
+            خودتان — و بسامد واژگان، الگوهای صرفی و ساخت‌های نحوی را استخراج
+            می‌کند.
+          </p>
+        </article>
+        <article>
+          <h3>تولید برنامهٔ درسی</h3>
+          <p>
+            داده‌های بسامدی برنامهٔ درسی را شکل می‌دهند: ساختارهای دستوری بر
+            اساس میزان حضورشان در پیکرهٔ شما رتبه‌بندی می‌شوند تا درس‌ها بر آنچه
+            واقعاً در متن‌های موردعلاقهٔ شما بیشتر دیده می‌شود تمرکز کنند.
+          </p>
+        </article>
+        <article>
+          <h3>مونتاژ کتاب درسی</h3>
+          <p>
+            کتاب از ماژول‌های مستقل تشکیل می‌شود که مقوله‌های دستوری و صرفی را
+            پوشش می‌دهند، همراه با مثال‌ها و تمرین‌هایی که مستقیماً از متن‌های
+            اصلی گرفته شده‌اند.
+          </p>
         </article>
       </section>
 
-      <footer class="footer">
-        <p>Didaskalos GitHub Pages site.</p>
-        <p>© <span id="year"></span> Didaskalos</p>
-      </footer>
-    </main>
+      <section class="section">
+        <h2>در برنامه</h2>
+      </section>
+      <section class="posts">
+        <article>
+          <h3>پیکرهٔ خودتان را بیاورید</h3>
+          <p>
+            از پیکره‌های درختی Perseus که همراه برنامه است شروع کنید، نشانی
+            پیکره‌ها را وارد کنید، یا فایل‌های XML خودتان را بارگذاری کنید.
+            برنامه جدول واژه‌ها را می‌سازد و برنامهٔ درسی بسامدمحور را از هر
+            آنچه به آن بدهید محاسبه می‌کند.
+          </p>
+        </article>
+        <article>
+          <h3>دو نوع کتاب درسی</h3>
+          <p>
+            کتاب مبتنی بر حالت را انتخاب کنید که اسم‌ها و صفت‌ها را حالت‌به‌حالت
+            توضیح می‌دهد، یا کتاب مبتنی بر صرف را که هر اسم و صفت را در رده‌های
+            صرفی دسته‌بندی می‌کند و درس‌ها را بر پایهٔ بسامد هر رده در پیکرهٔ
+            شما مرتب می‌سازد.
+          </p>
+        </article>
+        <article>
+          <h3>تمرین‌ها و دانلود</h3>
+          <p>
+            تمرین‌ها تنها از جمله‌های اصیل ساخته می‌شوند و بر اساس دشواری — یعنی
+            طول جمله و بسامد واژه‌ها — رتبه‌بندی می‌شوند. کتاب نهایی را با فرمت
+            Markdown یا HTML دانلود کنید تا ویرایش یا تغییر ظاهر آن آسان باشد.
+          </p>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>دربارهٔ درس‌ها</h2>
+      </section>
+      <div class="about-block">
+        <p>
+          توضیح‌های دستوری در حال حاضر پیش‌نویس‌های اولیه‌ای هستند که با یک مدل
+          زبانی (LLM) و در قالب RAG بر پایهٔ دستورهای مرجع، از جمله دستور زبان
+          یونانی Smyth و Crosby &amp; Schaeffer، تولید شده‌اند. قصد دارم به مرور
+          آن‌ها را دستی ویرایش و پاک‌سازی کنم.
+        </p>
+        <p>
+          خط لولهٔ تولید مستقل از زبان است: رابط برنامه و کتاب‌های تولیدشده به
+          انگلیسی و فارسی در دسترس‌اند و افزودن زبان‌های دیگر بیشتر به ترجمهٔ
+          ماژول‌های دستوری نیاز دارد.
+        </p>
+        <p>
+          زیرساخت اصلی هنوز در حال ساخت است، پس منتظر کاستی‌هایی باشید — و
+          به‌زودی امکانات بیشتر. این پروژه با مجوز
+          <a
+            href="https://creativecommons.org/licenses/by-nc/4.0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >CC BY-NC 4.0</a
+          >
+          منتشر می‌شود.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        © <span id="year"></span> Farnoosh Shamsian ·
+        <a
+          href="https://farnoosh-shamsian.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >farnoosh-shamsian.github.io</a
+        >
+      </p>
+      <p>
+        <a
+          href="https://creativecommons.org/licenses/by-nc/4.0/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CC BY-NC 4.0</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
