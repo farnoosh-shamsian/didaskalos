@@ -3,141 +3,134 @@ topic: present, infinitive, middle/passive (ω)
 pos: verb
 ---
 
-# Lesson: The Present Infinitive – Middle/Passive (‑εσθαι)
+# Lesson: The Present Infinitive Middle/Passive (‑εσθαι)
 
 ---
 
-## 1. What the Present Infinitive Is  
+## 1. What the Present Infinitive Is
 
-The **infinitive** is the “dictionary form” of a verb. It is non‑finite, i.e. it does **not** show person, number, or mood.  
-In Ancient Greek the present infinitive expresses a **present‑time** or **continuous** action (e.g. “to be loving”, “to be being taught”).  
+The **infinitive** is the non-finite form of the verb: it shows no person, number, or mood. The **present** infinitive expresses the aspect of an action in progress or repeated ("to be loosing"), not necessarily present time.
 
-Greek has **two** present infinitive stems:
+Greek has two infinitives in the present system:
 
-| Stem | Meaning | Ending |
+| Voice | Meaning | Ending |
 |------|---------|--------|
-| **Active** | “to do X” (the subject performs the action) | **‑ειν** (e.g. λύειν “to loosen”) |
-| **Middle / Passive** | “to do X for oneself / to be Xed” (the subject is affected or acts on itself) | **‑εσθαι** (e.g. λύεσθαι “to be loosened / to loosen oneself”) |
+| **Active** | "to do X" — the subject performs the action | **‑ειν** (λύειν "to loose") |
+| **Middle/Passive** | "to do X for oneself" or "to be Xed" | **‑εσθαι** (λύεσθαι "to be loosed / to loose for oneself") |
 
-This lesson focuses on the **middle/passive** present infinitive, whose characteristic ending is **‑εσθαι**.  
+This lesson focuses on the **middle/passive** infinitive, whose marker is **‑εσθαι**.
 
-> **Why “‑εσθαι” and not “‑αι” ?**  
-> The middle/passive infinitive is historically a combination of the present stem + the old infinitive particle *‑σθαι* (the same particle that gives the present middle/passive endings in the indicative).  
+> **Why ‑εσθαι?** The ending combines the thematic vowel ‑ε‑ with the old middle infinitive ending ‑σθαι — the same σθ that appears in the second person plural middle/passive (‑εσθε).
 
 ---
 
-## 2. Forming the Present Middle/Passive Infinitive  
+## 2. Forming the Present Middle/Passive Infinitive
 
-### 2.1 The Basic Pattern  
+### 2.1 The Basic Pattern
 
-1. **Take the present stem** of the verb (the same stem used for the present indicative).  
-2. **Add the suffix** **‑εσθαι**.  
+1. **Take the present stem** of the verb (the same stem used for the present indicative).
+2. **Add the ending** **‑εσθαι**.
 
 ```
-present stem  +  εσθαι  →  present middle/passive infinitive
+present stem + εσθαι → present middle/passive infinitive
 ```
 
-### 2.2 Regular (thematic) verbs  
+### 2.2 Regular Thematic Verbs
 
 | Verb (1st sg. present) | Present stem | Middle/Passive infinitive |
 |------------------------|--------------|---------------------------|
-| λύω “I loosen”        | λυ‑          | λύεσθαι “to be loosened / to loosen oneself” |
-| τιμάω “I honor”        | τιμα‑        | τιμᾶσθαι “to be honored / to honor oneself” |
-| παιδεύω “I teach”      | παιδευ‑      | παιδεύεσθαι “to be taught / to teach oneself” |
+| λύω "to loose" | λυ‑ | **λύεσθαι** "to be loosed / to loose for oneself" |
+| παιδεύω "to educate" | παιδευ‑ | **παιδεύεσθαι** "to be educated" |
+| γράφω "to write" | γραφ‑ | **γράφεσθαι** "to be written" |
 
-### 2.3 Contract verbs (‑αω, ‑εω, ‑οω)  
+### 2.3 Contract Verbs (‑άω, ‑έω, ‑όω)
 
-Contract verbs shorten the vowel before the ending.
+The final vowel of the stem contracts with the ε of the ending:
 
-| Verb (1st sg.) | Present stem | Middle/Passive infinitive |
+| Verb | Stem | Contraction | Middle/Passive infinitive |
+|----------------|--------------|---------|---------------------------|
+| τιμάω "to honor" | τιμα‑ | α + ε → α | **τιμᾶσθαι** |
+| φιλέω "to love" | φιλε‑ | ε + ε → ει | **φιλεῖσθαι** |
+| δηλόω "to show" | δηλο‑ | ο + ε → ου | **δηλοῦσθαι** |
+
+### 2.4 μι-Verbs and Irregulars
+
+In μι-verbs the ending ‑σθαι attaches **directly to the stem, without the thematic vowel**:
+
+| Verb | Present stem | Middle/Passive infinitive |
 |----------------|--------------|---------------------------|
-| φιλεῖν → **φιλέω** “I love” | φιλε‑ | **φιλέσθαι** “to be loved / to love oneself” |
-| δηλόω “I show” | δηλο‑ | δηλόσθαι “to be shown / to show oneself” |
-| ἀγοράζω “I buy” (‑αω) | ἀγορα‑ | ἀγοράσθαι “to be bought / to buy oneself” |
+| δίδωμι "to give" | διδο‑ | **δίδοσθαι** |
+| τίθημι "to place" | τιθε‑ | **τίθεσθαι** |
+| ἵστημι "to set up" | ἱστα‑ | **ἵστασθαι** |
 
-*Note*: The vowel of the stem contracts with the **‑ε** of **‑εσθαι**:
-
-- **‑αω** → **‑ασθαι** (e.g. ἀγοράζω → ἀγοράσθαι)  
-- **‑εω** → **‑εσθαι** (e.g. φιλέω → φιλέσθαι)  
-- **‑οω** → **‑οσθαι** (e.g. δηλόω → δηλόσθαι)
-
-### 2.4 A‑thematic (irregular) verbs  
-
-Some verbs have irregular present stems, but the rule is the same.
-
-| Verb (1st sg.) | Present stem | Middle/Passive infinitive |
-|----------------|--------------|---------------------------|
-| εἰμί “I am”    | ἐσ‑ / ἔσ‑   | εἶναι (active) – **no middle/passive** infinitive (the verb is copular) |
-| φημί “I say”   | φη‑          | **φησθαι** “to be said / to say oneself” |
-| ἔρχομαι “I come (mid.)” | ἐρχ‑ | **ἐρχεσθαι** “to come (mid.)” (used rarely; more common is the aorist infinitive) |
-
-> **Important:** Not every verb has a middle/passive present infinitive. Verbs that are inherently **active only** (e.g. *εἰμί*, *ἔχω* in the sense “to have”) lack a middle/passive infinitive.
+> **Note:** the verb εἰμί "to be" has only an active infinitive, **εἶναι**; it has no middle/passive infinitive.
 
 ---
 
-## 3. Full Paradigm (Present Middle/Passive Infinitive)
-
-Below is a **template** you can fill for any verb. The columns show the infinitive for the three main verb classes.
+## 3. Reference Table
 
 | Verb type | Present stem | Active infinitive (‑ειν) | Middle/Passive infinitive (‑εσθαι) |
 |-----------|--------------|--------------------------|-----------------------------------|
-| **Thematic** (‑ω) | λυ‑ | λύειν | λύεσθαι |
-| **Contract –αω** | ἀγορα‑ | ἀγοράζειν | ἀγοράσθαι |
-| **Contract –εω** | φιλε‑ | φιλεῖν | φιλέσθαι |
-| **Contract –οω** | δηλο‑ | δηλοῦν | δηλόσθαι |
-| **Irregular** | φη‑ | φηεῖν (rare) | φησθαι |
-| **Middle‑only** | ἐρχε‑ | — | ἐρχεσθαι |
+| **Plain thematic** | λυ‑ | λύειν | λύεσθαι |
+| **α-contract** | τιμα‑ | τιμᾶν | τιμᾶσθαι |
+| **ε-contract** | φιλε‑ | φιλεῖν | φιλεῖσθαι |
+| **ο-contract** | δηλο‑ | δηλοῦν | δηλοῦσθαι |
+| **Deponent (middle only)** | ἐρχ‑ | — | ἔρχεσθαι |
 
-*Tip*: When you meet a new verb, locate its **present stem** (usually the 1st‑person singular present indicative without the ending ‑ω, ‑ομαι, or ‑μαι) and simply add **‑εσθαι**.
+*Tip: when you meet a new verb, isolate the present stem (the headword minus ‑ω or ‑ομαι) and simply add ‑εσθαι.*
 
 ---
 
-## 4. Key Rules & Common Exceptions  
+## 4. Key Rules & Common Exceptions
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **1. Add ‑εσθαι to the present stem** | Works for regular thematic and contract verbs. | λυ‑ → λύεσθαι |
-| **2. Contraction before ‑εσθαι** | The vowel of a contract verb merges with the **ε** of the suffix. | ἀγορα‑ + εσθαι → ἀγοράσθαι |
-| **3. No middle/passive infinitive for pure active verbs** | Verbs that never appear in the middle/passive (e.g. *εἰμί*, *ἔχω*) lack this form. | — |
-| **4. Verbs ending in ‑μαι (present middle) still use the same stem** | The **‑μαι** ending is stripped before adding ‑εσθαι. | ἀποκρίνομαι → ἀποκρίνεσθαι |
-| **5. The infinitive can be used with prepositions** | Prepositions governing the infinitive (e.g. *πρὸς*, *εἰς*) take the infinitive in the same case (accusative) as the governing noun. | πρὸς λύεσθαι “in order to be loosened”. |
-| **6. The infinitive can function as a noun** | It can be the subject or object of another verb, just like a verbal noun. | Ἀρέσκει τὸ **φιλεῖν** τῶν φίλων. “He likes **loving** his friends.” |
-| **7. The middle/passive infinitive often expresses a **reflexive** or **passive** sense** | When the action is done to the subject or the subject acts for its own benefit. | λύεσθαι “to be loosened / to loosen oneself”. |
+| **1. Present stem + ‑εσθαι** | Works for all thematic verbs. | λυ‑ → λύεσθαι |
+| **2. Contraction before ‑εσθαι** | The stem vowel of a contract verb merges with the ε of the ending. | φιλε‑ + εσθαι → φιλεῖσθαι |
+| **3. One form, two voices** | ‑εσθαι is both middle and passive; context decides. | λύεσθαι "to be loosed" or "to loose for oneself" |
+| **4. Verbs in ‑ομαι use the same stem** | Strip ‑ομαι and add ‑εσθαι. | ἀποκρίνομαι → ἀποκρίνεσθαι |
+| **5. Accent of the infinitive** | In ‑εσθαι infinitives the accent is recessive. | παιδεύεσθαι, not *παιδευέσθαι* |
+| **6. Articular infinitive** | The infinitive can be used with τό as a noun. | τὸ παιδεύεσθαι "being educated" |
+| **7. Negation of the infinitive** | The infinitive is normally negated with μή, not οὐ. | μὴ λύεσθαι "not to be loosed" |
 
-### Exceptions & Irregularities  
+### Exceptions & Notes
 
-| Verb | Irregularity | Correct Form |
+| Verb | Note | Correct form |
 |------|--------------|--------------|
-| **φημί** | The active infinitive is rare; the middle/passive is regular. | **φησθαι** |
-| **ἔρχομαι** | The present infinitive is rarely used; the aorist infinitive *ἔρχεσθαι* is more common. | **ἔρχεσθαι** (aorist) |
-| **εἰμί** | No middle/passive infinitive; the verb is copular. | — |
+| **εἰμί** | No middle/passive infinitive. | Only εἶναι |
+| **φημί** | Its infinitive is active. | φάναι |
+| **Deponents** | Have infinitives in ‑εσθαι but translate actively. | ἔρχεσθαι "to come," βούλεσθαι "to want" |
 
 ---
 
-## 5. Example Sentences  
+## 5. Example Sentences
 
-| Greek (with transliteration) | Translation |
-|------------------------------|-------------|
-| **1.** Ἀνὴρ **λύεται** τὸν δεσμὸν. <br> *Anēr **lyetai** ton desmon.* | The man **is being loosened** from the bond. |
-| **2.** Ἐπιθυμῶ **φιλεῖν** τὸν ἥλιον. <br> *Epithymō **philein** ton hēlion.* | I desire **to love** the sun. |
-| **3.** Διδάσκει τὸν παῖδα **παιδεύεσθαι**. <br> *Didaskēi ton paida **paideuesthai**.* | He teaches the child **to be taught** (i.e., to learn). |
-| **4.** Ἐπιδέχομαι **ἀγοράσθαι** τὰ ἐσθίητα. <br> *Epidéchomai **agorastai** ta esthīta.* | I am willing **to buy** the food. |
-| **5.** Ὁ στρατηγὸς ἐκέλευσεν **ἀποκρίνεσθαι** ταχέως. <br> *Ho stratēgos ekeleusen **apokrinesthai** tachéōs.* | The general ordered **to answer** quickly. |
-
----
-
-## 6. Usage & Context  
-
-1. **Complement of verbs of desire, command, or perception** – *βούλομαι, ἐθέλω, ἀκούω, ὁρῶ* often take a present infinitive when the action is ongoing.  
-2. **After prepositions** – *πρὸς, ἐν, ἀπό* + infinitive (accusative) to express purpose or circumstance.  
-3. **In indirect speech** – The infinitive can replace a finite verb when the subject is the same as the main clause’s subject.  
-4. **Reflexive sense** – Many middle infinitives convey “to do something for oneself”.  
-5. **Passive sense** – When the subject undergoes the action, the middle/passive infinitive is used (e.g., *λύεσθαι* “to be loosened”).  
-
-**Stylistic note:** In **poetry** the middle/passive infinitive is frequent because it allows a compact expression of a state or ongoing action without a finite verb. In **prose**, the active infinitive is more common for simple purpose clauses.
+| Greek | Transliteration | Translation |
+|------------------------------|-------------|-------------|
+| **ὁ στρατηγὸς κελεύει τοὺς ἵππους λύεσθαι.** | ho stratēgòs keleúei toùs híppous lýesthai | The general orders the horses to be untied. |
+| **ὁ παῖς βούλεται λούεσθαι.** | ho paîs boúletai loúesthai | The boy wants to wash himself. (middle) |
+| **καλόν ἐστι τιμᾶσθαι ὑπὸ τῶν πολιτῶν.** | kalón esti timâsthai hypò tôn politôn | It is a fine thing to be honored by the citizens. (passive) |
+| **ὁ διδάσκαλος κελεύει τὸν παῖδα παιδεύεσθαι.** | ho didáskalos keleúei tòn paîda paideúesthai | The teacher orders the child to be educated. |
+| **ὁ στρατηγὸς ἐκέλευσεν ἀποκρίνεσθαι ταχέως.** | ho stratēgòs ekéleusen apokrínesthai takhéōs | The general ordered them to answer quickly. (deponent, active meaning) |
 
 ---
 
-## 7. Historical Development & Etymology  
+## 6. Usage & Context
 
-- The suffix **‑εσθαι** goes back to Proto‑Indo‑European *‑s‑‑tó* (a reflexive
+1. **Complement of verbs of wishing and commanding** — βούλομαι, ἐθέλω, κελεύω and the like often take a present infinitive when the action in view is ongoing or repeated.
+2. **Articular infinitive** — τὸ λύεσθαι sits in the sentence like a noun and can even take a preposition.
+3. **Indirect statement** — after verbs of saying and thinking, the infinitive replaces a finite verb.
+4. **Middle sense** — many ‑εσθαι infinitives mean "for oneself": παρασκευάζεσθαι "to prepare oneself."
+5. **Passive sense** — when the logical subject receives the action: λύεσθαι "to be loosed"; the agent takes ὑπό + genitive.
+6. **Aspectual contrast** — present infinitive (action in progress) vs. aorist infinitive (single event): λύεσθαι vs. λύσασθαι/λυθῆναι.
+
+---
+
+## 7. Historical Development & Etymology
+
+| Aspect | Details |
+|--------|---------|
+| **Origin of infinitives** | Greek infinitives are fossilized verbal nouns; ‑σθαι is the old ending of the middle/passive infinitive. |
+| **The shape ‑εσθαι** | Thematic vowel ‑ε‑ + ‑σθαι; the same σθ appears in the ending ‑εσθε (2nd person plural). |
+| **Contraction** | The forms τιμᾶσθαι, φιλεῖσθαι, and δηλοῦσθαι result from the regular Attic vowel contractions. |
+| **Continuity** | The ending survived from Homer into the Koine; ‑εσθαι infinitives abound in the New Testament as well. |

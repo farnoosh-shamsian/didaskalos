@@ -4,54 +4,57 @@ pos: verb
 ---
 
 ### Introduction to ω-Verbs
-The Greek language categorizes verbs based on their ending patterns, and one significant category is the ω-verb. Understanding the conjugation of ω-verbs in the present indicative active is essential for mastering Greek grammar. In this lesson, we will explore the forms, patterns, and rules of ω-verbs in the present indicative active.
+Greek categorizes verbs by the patterns of their endings, and the largest and most important category is the ω-verb. Mastering the conjugation of ω-verbs in the present indicative active is the foundation of Greek grammar. In this lesson we will explore the forms, patterns, and rules of this conjugation.
 
 ### Explanation of the Grammatical Concept
-The present indicative active is used to describe actions that are currently happening or are generally true. ω-Verbs are characterized by their theme vowel ω (omega) in the first person singular of the present indicative active. This theme vowel combines with personal endings to form the different persons of the verb.
+The present indicative active describes actions that are currently happening or are generally true. ω-Verbs are identified by the ending of their first person singular: ‑ω (omega). This ending combines a thematic vowel (ε/ο) with the personal endings, which mark the person and number of the subject; all other forms are built on the same present stem.
 
 ### Forms and Patterns
-The conjugation of ω-verbs in the present indicative active follows a predictable pattern. The basic structure of an ω-verb in the present tense is as follows:
+The conjugation of ω-verbs in the present indicative active follows a predictable pattern. The endings are:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | -ω | -ουμε |
-| 2nd | -εις | -ετε |
-| 3rd | -ει | -ουν |
+| 1st | ‑ω | ‑ομεν |
+| 2nd | ‑εις | ‑ετε |
+| 3rd | ‑ει | ‑ουσι(ν) |
 
-For example, the verb γράφω (graphō), which means "to write," follows this pattern:
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 1st | γράφω (graphō) | γράφουμε (graphoume) |
-| 2nd | γράφεις (grapheis) | γράφετε (grapheite) |
-| 3rd | γράφει (graphei) | γράφουν (graphoun) |
-
-Another example is the verb λύω (lyō), which means "to loose":
+For example, the verb γράφω, "to write," is conjugated as follows:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | λύω (lyō) | λύομεν (lyomen) |
-| 2nd | λύεις (lyeis) | λύετε (lyete) |
-| 3rd | λύει (lyei) | λύουσιν (lyousin) |
+| 1st | γράφω (gráphō) | γράφομεν (gráphomen) |
+| 2nd | γράφεις (grápheis) | γράφετε (gráphete) |
+| 3rd | γράφει (gráphei) | γράφουσι(ν) (gráphousi(n)) |
+
+Another example is the verb λύω, "to loose":
+
+| Person | Singular | Plural |
+| --- | --- | --- |
+| 1st | λύω (lýō) | λύομεν (lýomen) |
+| 2nd | λύεις (lýeis) | λύετε (lýete) |
+| 3rd | λύει (lýei) | λύουσι(ν) (lýousi(n)) |
 
 ### Key Rules and Exceptions
-One key rule to remember is that the stress pattern of ω-verbs can change depending on the person and number. Generally, the stress falls on the syllable before the theme vowel ω in the first person singular, but this can shift in other forms.
-
-An exception to note is that some ω-verbs have irregular forms, especially in the third person singular. For instance, the verb εἰμί (eimi), "to be," has an irregular present indicative active conjugation:
+- **Accent**: the accent of finite verb forms is *recessive* — it moves as far toward the beginning of the word as the rules of accentuation allow (γράφομεν, not *γραφόμεν*).
+- **Thematic vowel**: it appears as **ο** before μ and ν (γράφ‑ο‑μεν) and as **ε** elsewhere (γράφ‑ε‑τε).
+- The final ν of ‑ουσι(ν) is the **movable ν**: it is added before a word beginning with a vowel and at the end of a sentence.
+- The most important exception is the verb **εἰμί**, "to be," which is not an ω-verb at all (it belongs to the μι-family) and is irregular:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | εἰμί (eimi) | εἰμέν (eimen) |
-| 2nd | εἶ (ei) | εἶτε (eite) |
-| 3rd | ἐστί (esti) | εἰσίν (eisin) |
+| 1st | εἰμί (eimí) | ἐσμέν (esmén) |
+| 2nd | εἶ (eî) | ἐστέ (esté) |
+| 3rd | ἐστί(ν) (estí(n)) | εἰσί(ν) (eisí(n)) |
+
+Most forms of εἰμί are enclitic — they surrender their accent to the preceding word.
 
 ### Example Sentences with Translations
-1. Γράφω ένα γράμμα. (Graphō ena gramma.) - I am writing a letter.
-2. Οι μαθητές γράφουν τις εργασίες τους. (Oi mathitēs graphoun tis ergasies tous.) - The students are writing their assignments.
-3. Η María λύει την άσκηση. (I Maria lyei tin askisi.) - María is solving the exercise.
+1. **γράφω ἐπιστολήν.** (gráphō epistolḗn) — I am writing a letter.
+2. **οἱ μαθηταὶ γράφουσι τοὺς λόγους.** (hoi mathētaì gráphousi toùs lógous) — The students are writing the speeches.
+3. **ἡ κόρη λύει τὸν ἵππον.** (hē kórē lýei tòn híppon) — The girl unties the horse.
 
 ### Notes on Usage and Context
-ω-Verbs are very common in Greek, and mastering their conjugation is essential for effective communication. The present indicative active is used for actions that are happening now or are generally true. For example, "Εγώ γράφω ένα βιβλίο" (Ego graphō ena vivlio) means "I am writing a book," indicating an action that is currently in progress.
+ω-Verbs are the most numerous class of Greek verbs, and command of their conjugation is essential for reading any text. The present indicative active is used for actions in progress ("I am writing now"), general truths ("the sun rises"), and habitual actions ("he writes every day"). Historians also frequently narrate past events in the "historical present" to make the scene more vivid.
 
 ### Historical Development and Etymology
-The ω-verb conjugation has its roots in ancient Greek, where verbs were categorized based on their thematic vowels. Over time, the conjugation patterns have evolved, but the basic structure of ω-verbs has remained relatively consistent. Understanding the historical development of ω-verbs can provide insights into the grammar and syntax of modern Greek. Many ω-verbs have cognates in other languages, reflecting the shared Indo-European roots of Greek and other European languages. For example, the verb γράφω is related to the English verb "graph," both deriving from the same ancient root.
+The thematic conjugation (with its linking vowel) is part of Greek's Indo-European inheritance, and the ending ‑ω continues the old first-person-singular ending of that parent language. The ω-verb pattern remained remarkably stable throughout the history of Greek, and in later periods the μι-verbs gradually migrated into it. Many ω-verbs have left traces in other languages; for example, the English words *graph* and *graphic* are borrowed from the same root as γράφω.

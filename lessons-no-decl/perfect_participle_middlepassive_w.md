@@ -3,80 +3,112 @@ topic: perfect, participle, middle/passive (ω)
 pos: verb
 ---
 
-# Perfect Participle (Middle/Passive) ‑ ‑ω  
+# Lesson: The Perfect Middle/Passive Participle of ω-Verbs
 
-*Lesson for beginner‑intermediate students of Ancient Greek*  
+*For beginner–intermediate students of Ancient Greek*
 
 ---
 
-## 1. What the Perfect Middle/Passive Participle Is  
+## 1. What the Perfect Middle/Passive Participle Is
 
 | Term | Meaning | Typical English rendering |
 |------|---------|---------------------------|
-| **Perfect** | An aspect that expresses a **completed action whose result still holds** in the present. | “has‑/have‑…ed”, “having …” |
-| **Participle** | A verbal adjective that can modify a noun, stand in place of a noun, or be used with a verb of being. | “the man **having written** the letter” |
-| **Middle/Passive** | The voice of the participle. In the perfect it is always **middle‑passive** (the same form serves both). | “written (by him)”, “having been written” |
+| **Perfect** | An aspect expressing a **completed action whose result still holds**. | "has written," "written" |
+| **Participle** | A verbal adjective; it modifies a noun or stands in place of one. | "the **written** book" |
+| **Middle/Passive** | The subject either receives the action or has performed it on/for itself. | "written (by him)" |
 
-The **perfect middle/passive participle** therefore means *“having (been) …”* and is formed from the **perfect stem** of a verb plus the participial suffix **‑ω** (masc. ‑ώς, fem. ‑υῖα, neut. ‑υῖον).  
+The perfect middle/passive participle means "**…ed (and still in that state)**" and is formed from the **perfect middle/passive stem** plus the suffix **‑μένος, ‑μένη, ‑μένον**: λελυμένος "loosed, freed," γεγραμμένος "written."
 
-> **Why does it matter?**  
-> The participle lets you pack a whole clause (“he has written the letter”) into a single adjective, which is useful for compact narrative, relative clauses, and attributive description.
-
----
-
-## 2. Forming the Perfect Participle  
-
-1. **Find the perfect stem** (the one that appears in the perfect indicative, e.g. *γέγραψα* → **γεγραμ‑**).  
-2. **Add the participial suffix** **‑ω** and then the appropriate gender/number ending:  
-
-| Gender / Number | Suffix (added to perfect stem) | Example with *γέγραψα* (to write) |
-|-----------------|--------------------------------|-----------------------------------|
-| Masculine Singular Nominative | **‑ώς** | **γεγραμ‑** + **‑ώς** → **γεγραμώς** “having written” |
-| Feminine Singular Nominative | **‑υῖα** | **γεγραμ‑** + **‑υῖα** → **γεγραμυῖα** |
-| Neuter Singular Nominative | **‑υῖον** | **γεγραμ‑** + **‑υῖον** → **γεγραμυῖον** |
-| Masculine Plural Nominative | **‑ότες** | **γεγραμ‑** + **‑ότες** → **γεγραμότες** |
-| Feminine Plural Nominative | **‑υῖαι** | **γεγραμ‑** + **‑υῖαι** → **γεγραμυῖαι** |
-| Neuter Plural Nominative | **‑υῖα** | **γεγραμ‑** + **‑υῖα** → **γεγραμυῖα** |
-| Dual (all genders) | **‑ώ** (masc./neut.) / **‑υῖ** (fem.) | **γεγραμώ**, **γεγραμυῖ** |
-
-*The endings follow the regular **‑ω**‑type participle paradigm (see the full table below).*
+> **Why does it matter?** This participle compresses the state resulting from a completed action into a single word — "a door that has been opened (and still stands open)" — and replaces an entire clause when describing states and results.
 
 ---
 
-## 3. Full Paradigm (Perfect Stem **λῡ‑** “to loose”)  
+## 2. Forming the Perfect Middle/Passive Participle
 
-| Case | Masc. Sing. | Fem. Sing. | Neut. Sing. | Masc. Dual | Fem. Dual | Neut. Dual | Masc. Pl. | Fem. Pl. | Neut. Pl. |
-|------|-------------|------------|-------------|-----------|-----------|------------|-----------|----------|-----------|
-| **Nominative** | λῡ‑**κ**‑**ώς** → **λῡκώς** | λῡ‑**κ**‑**υῖα** → **λῡκυῖα** | λῡ‑**κ**‑**υῖον** → **λῡκυῖον** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**υῖ** → **λῡκυῖ** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**ότες** → **λῡκότες** | λῡ‑**κ**‑**υῖαι** → **λῡκυῖαι** | λῡ‑**κ**‑**υῖα** → **λῡκυῖα** |
-| **Genitive** | λῡ‑**κ**‑**οῦ** → **λῡκοῦ** | λῡ‑**κ**‑**οῦ** → **λῡκοῦ** | λῡ‑**κ**‑**οῦ** → **λῡκοῦ** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**ῶν** → **λῡκῶν** | λῡ‑**κ**‑**ῶν** → **λῡκῶν** | λῡ‑**κ**‑**ῶν** → **λῡκῶν** |
-| **Dative** | λῡ‑**κ**‑**ῷ** → **λῡκῷ** | λῡ‑**κ**‑**ῇ** → **λῡκῇ** | λῡ‑**κ**‑**ῷ** → **λῡκῷ** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**οῖς** → **λῡκοῖς** | λῡ‑**κ**‑**οῖς** → **λῡκοῖς** | λῡ‑**κ**‑**οῖς** → **λῡκοῖς** |
-| **Accusative** | λῡ‑**κ**‑**όντα** → **λῡκόντα** | λῡ‑**κ**‑**υῖαν** → **λῡκυῖαν** | λῡ‑**κ**‑**υῖον** → **λῡκυῖον** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**υῖ** → **λῡκυῖ** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**οὺς** → **λῡκοὺς** | λῡ‑**κ**‑**υῖας** → **λῡκυῖας** | λῡ‑**κ**‑**υῖα** → **λῡκυῖα** |
-| **Vocative** | λῡ‑**κ**‑**ώ** → **λῡκώ** | λῡ‑**κ**‑**υῖα** → **λῡκυῖα** | λῡ‑**κ**‑**υῖον** → **λῡκυῖον** | — | — | — | — | — | — |
+1. **Find the perfect middle/passive stem**: take the fifth principal part (λέλυμαι) and strip the ending ‑μαι: λελυ‑.
+2. **Add the suffix ‑μένος / ‑μένη / ‑μένον.** The accent always falls on the syllable **before the ending** (‑μέ‑).
 
-> **Note:** The dual forms are rarely used in Attic prose; the table shows them for completeness.
+| Step | Example with λύω "to loose" | Example with γράφω "to write" |
+|-----------------|-----------------------------------|-----------------------------------|
+| Perfect middle/passive (5th principal part) | λέλυμαι | γέγραμμαι |
+| Stem | λελυ‑ | γεγραμ‑ |
+| Participle | **λελυμένος, λελυμένη, λελυμένον** | **γεγραμμένος, γεγραμμένη, γεγραμμένον** |
 
-The same pattern applies to any perfect stem; just replace **λῡκ‑** with the appropriate stem (e.g., **γεγραμ‑**, **ἐδιδάκ‑**, **ἔσχ‑**).
+More examples:
+
+| Verb | Perfect m/p | Participle (masc. nom. sg.) | Meaning |
+|------|--------------|--------------------------|------|
+| παιδεύω "to educate" | πεπαίδευμαι | **πεπαιδευμένος** | educated |
+| τιμάω "to honor" | τετίμημαι | **τετιμημένος** | honored |
+| δηλόω "to show" | δεδήλωμαι | **δεδηλωμένος** | shown |
+| πείθω "to persuade" | πέπεισμαι | **πεπεισμένος** | persuaded |
+| τάττω "to arrange, station" | τέταγμαι | **τεταγμένος** | stationed |
 
 ---
 
-## 4. Key Rules & Common Exceptions  
+## 3. Full Paradigm (Example: **λελυμένος** "loosed")
+
+The declension is exactly that of a first/second-declension adjective (‑ος/‑η/‑ον):
+
+| Case | Masculine | Feminine | Neuter |
+|------|-----------|----------|--------|
+| **Singular** | | | |
+| Nominative | λελυμένος | λελυμένη | λελυμένον |
+| Genitive | λελυμένου | λελυμένης | λελυμένου |
+| Dative | λελυμένῳ | λελυμένῃ | λελυμένῳ |
+| Accusative | λελυμένον | λελυμένην | λελυμένον |
+| Vocative | λελυμένε | λελυμένη | λελυμένον |
+| **Plural** | | | |
+| Nominative | λελυμένοι | λελυμέναι | λελυμένα |
+| Genitive | λελυμένων | λελυμένων | λελυμένων |
+| Dative | λελυμένοις | λελυμέναις | λελυμένοις |
+| Accusative | λελυμένους | λελυμένας | λελυμένα |
+
+The same pattern works for any perfect stem; simply replace λελυ‑ with the stem of the verb in question (γεγραμ‑, πεπαιδευ‑, etc.).
+
+---
+
+## 4. Key Rules & Common Exceptions
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **1. Use the perfect stem** | The participle is built on the *perfect* stem, not the aorist or present stem. | *γέγραψα* → stem **γεγραμ‑** → **γεγραμώς** |
-| **2. Accent** | The accent always falls on the **ending**: ‑**ώ**ς, ‑**υῖα**, ‑**υῖον**. | **λῡκ**‑**ώ**ς, **λῡκ**‑**υῖα** |
-| **3. Middle/Passive meaning** | The participle can be interpreted either as “having (done) something to oneself/for oneself” (middle) or “having (been) done” (passive). Context decides. | **γεγραμώς** = “having written (it)” (active sense) or “having been written” (passive) |
-| **4. Agreement** | Like any adjective, the participle **agrees** with the noun it modifies in gender, number, and case. | **ἡ γυνὴ λῡκυῖα τὸν δεσμὸν** “the woman having loosed the bond”. |
-| **5. Substantive use** | With the article, the participle can stand as a noun: **ὁ λῡκῶν** “the one who has loosed”. | **ὁ λῡκῶν τὸν δεσμὸν** “the one who has loosed the bond”. |
-| **6. With *εἰμί*** | The participle can serve as a predicate adjective: **ἦλθον γεγραμώς** “I came having written”. | **ἦλθον γεγραμώς** |
-| **7. Rare verbs** | Some verbs lack a perfect stem (e.g., many *-μι* verbs). They cannot form a perfect participle. | *τίθημι* → no perfect participle. |
-| **8. Contracted stems** | If the perfect stem ends in a vowel, the participial suffix may contract: **ἔλαβον → εἰληφ-** → **εἰληφώς** (rare). | **εἰληφώς** “having taken”. |
-| **9. Irregular forms** | A few high‑frequency verbs have irregular perfect participles: **εἰμί** → **ἐσθῆναι** (no participle), **ἔρχομαι** → **ἐλήλυθως** (rare). | — |
+| **1. Perfect stem, not present or aorist** | The participle is built on the fifth principal part. | γέγραμμαι → γεγραμμένος, not *γραφόμενος* |
+| **2. Reduplication is kept** | The initial reduplication (λε‑, γε‑) is part of the stem and remains in the participle. | **λε**λυμένος, **γε**γραμμένος |
+| **3. No augment** | The augment ἐ‑ belongs only to past tenses of the indicative. | λελυμένος, not *ἐλελυμένος* |
+| **4. Fixed accent on ‑μέ‑** | Unlike the present participle (λυόμενος, recessive), the perfect always accents the syllable before the ending — a good recognition cue. | λελυ**μέ**νος vs. λυ**ό**μενος |
+| **5. Consonant changes before μ** | The final consonant of the stem assimilates to μ: labial + μ → μμ; dental + μ → σμ; velar + μ → γμ. | γεγρα**μμ**ένος, πεπει**σμ**ένος, τετα**γμ**ένος |
+| **6. Periphrastic constructions** | With εἰμί it forms periphrastic tenses; the 3rd person plural perfect of consonant-stem verbs is expressed only this way. | γεγραμμένοι εἰσί(ν) "they have been written" |
+| **7. Stative meaning** | It expresses the **resulting state** more than the action itself. | κεκλῃμένη θύρα "a closed door" |
 
 ---
 
-## 5. Example Sentences  
+## 5. Example Sentences
 
-| Greek (with transliteration) | Literal translation | Natural English |
-|------------------------------|---------------------|-----------------|
-| **1.** Ἡ γυνὴ **λῡκυῖα** τὸν δεσμὸν 
+| Greek | Transliteration | Translation |
+|------------------------------|----------------|-------------|
+| **τὸ βιβλίον γεγραμμένον ἐστίν.** | tò biblíon gegramménon estín | The book has been written. (periphrastic) |
+| **ὁ ἵππος ὁ λελυμένος φεύγει.** | ho híppos ho lelyménos pheúgei | The horse that has been untied runs away. |
+| **οἱ πεπαιδευμένοι σοφοί εἰσιν.** | hoi pepaideuménoi sophoí eisin | The educated are wise. (substantive use) |
+| **τὰ γεγραμμένα ἀναγιγνώσκομεν.** | tà gegramména anagignṓskomen | We read the things that have been written. |
+| **ἡ πόλις τεταγμένη ὑπὸ τοῦ ἄρχοντος εὖ ἔχει.** | hē pólis tetagménē hypò toû árkhontos eû ékhei | The city that has been set in order by its ruler fares well. |
+
+---
+
+## 6. Usage & Context
+
+1. **Describing states** — this participle describes an abiding result and often corresponds to an English adjective: γεγραμμένος "written."
+2. **Substantive use** — with the article: τὰ γεγραμμένα "the writings," οἱ πεπαιδευμένοι "the educated."
+3. **Periphrasis with εἰμί** — replaces finite forms: λελυμένος ἐστί "he has been freed."
+4. **Aspectual contrast** — compare the present participle (λυόμενος "in the process of being loosed") and the aorist (λυθείς "loosed, in a single event"): the perfect emphasizes the **present state** of the result.
+5. **Style** — frequent in formal prose, documents, and legal language; also very common in the New Testament: ὁ γεγραμμένος λόγος "the written word."
+
+---
+
+## 7. Historical Development & Etymology
+
+| Aspect | Details |
+|--------|---------|
+| **Origin of the perfect** | In Proto-Indo-European it was a stative category ("to be in the state of …"); Greek preserved this meaning in the perfect. |
+| **The suffix ‑μένος** | The same Indo-European middle suffix seen in the present participle; in the perfect it attaches directly to the stem, without a thematic vowel, and carries a fixed accent. |
+| **Reduplication** | An ancient marker of the perfect with parallels in Sanskrit; in Greek it became an inseparable part of the stem. |
+| **Later period** | In the Koine and the New Testament this participle remained alive and productive: γεγραμμένος "written" is among its most frequent forms. |

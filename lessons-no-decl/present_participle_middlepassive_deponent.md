@@ -3,130 +3,133 @@ topic: present, participle, middle/passive (deponent)
 pos: verb
 ---
 
-# Lesson: The Present Participle – Middle/Passive (Deponent)  
+# Lesson: The Present Middle/Passive Participle — Deponent Verbs
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisite: knowledge of the Greek alphabet, basic noun declension, and the concept of voice (active, middle, passive).*
+*Target audience: beginner–intermediate students who know the Greek alphabet, basic noun declension, and the concept of voice (active, middle, passive).*
 
 ---
 
-## 1. What is the Present Participle (Middle/Passive)?
+## 1. What the Present Middle/Passive Participle Is
 
-A **participle** is a verb form that functions like an adjective: it agrees with a noun in case, number, and gender.  
-The **present** participle expresses an action **simultaneous** with the main verb (or a general, ongoing state).  
+A **participle** is a verb form that behaves like an adjective: it agrees with its noun in case, number, and gender. The **present** participle expresses an action **simultaneous** with the main verb (or an ongoing state).
 
-Greek has three voices for the present participle:
+The present participle has a pattern for each voice:
 
-| Voice | Typical ending pattern (singular) |
+| Voice | Typical marker (nominative singular) |
 |-------|-----------------------------------|
-| **Active** | ‑ων (masc.), ‑οῦσα (fem.), ‑ον (neut.) |
-| **Middle / Passive** | ‑όμενος (masc.), ‑ομένη (fem.), ‑όμενον (neut.) |
-| **Deponent** | Uses the middle/passive form **but the meaning is active** (e.g., ἐρχόμενος “coming”). |
+| **Active** | ‑ων (masc.), ‑ουσα (fem.), ‑ον (neut.) |
+| **Middle/Passive** | **‑όμενος** (masc.), **‑ομένη** (fem.), **‑όμενον** (neut.) |
+| **Deponent** | The same middle/passive form, but with an **active meaning** (ἐρχόμενος "coming") |
 
-In this lesson we focus on the **middle/passive** form and on **deponent verbs**, which only have middle/passive morphology while retaining an active sense.
+This lesson focuses on the **middle/passive** form and on **deponent verbs** — verbs that have only middle/passive morphology but translate actively.
 
 ---
 
-## 2. How the Present Middle/Passive Participle is Formed  
+## 2. Forming the Present Middle/Passive Participle
 
-1. **Start with the present stem** of the verb (the same stem used for the present indicative).  
-2. **Add the thematic vowel** *‑ο‑* (for most verbs) or *‑ε‑* (for contract verbs).  
-3. **Attach the middle/passive participial endings** shown in the tables below.  
+1. **Take the present stem** of the verb (the same stem as the present indicative).
+2. **Add the thematic vowel ‑ο‑**.
+3. **Attach the suffix ‑μενος / ‑μένη / ‑μενον**.
 
-### 2.1. Regular (non‑contract) verbs  
+### 2.1 Plain (Non-Contract) Verbs
 
-| Person/Number | Active ending | Middle/Passive ending |
+| Gender/Number | Active marker (comparison) | Middle/Passive marker |
 |---------------|---------------|-----------------------|
-| Masculine Singular | ‑ων | **‑όμενος** |
-| Feminine Singular  | ‑οῦσα | **‑ομένη** |
-| Neuter Singular    | ‑ον | **‑όμενον** |
-| Masculine Plural   | ‑οντες | **‑όμενοι** |
-| Feminine Plural    | ‑ουσαι | **‑ομέναι** |
-| Neuter Plural      | ‑οντα | **‑όμενα** |
-| Masculine Gen. Pl. | ‑οντων | **‑ομένων** |
-| Feminine Gen. Pl.  | ‑ουσῶν | **‑ομένων** |
-| Neuter Gen. Pl.    | ‑οντων | **‑ομένων** |
+| Masculine singular | ‑ων | **‑όμενος** |
+| Feminine singular | ‑ουσα | **‑ομένη** |
+| Neuter singular | ‑ον | **‑όμενον** |
+| Masculine plural | ‑οντες | **‑όμενοι** |
+| Feminine plural | ‑ουσαι | **‑όμεναι** |
+| Neuter plural | ‑οντα | **‑όμενα** |
 
-> **Note:** The middle/passive endings are the same for all declensions; the only difference is the **stem** to which they attach (see the paradigms below).
+> **Note:** unlike the active participle (whose masculine and neuter follow the third declension), the middle/passive participle declines entirely like a first/second-declension adjective (‑ος/‑η/‑ον).
 
-### 2.2. Contract verbs  
+### 2.2 Contract Verbs
 
-Contract verbs lose a vowel when the thematic vowel meets the stem vowel. The endings are the same, but the stem may appear as **‑α‑, ‑ε‑, ‑ο‑** etc.
+The final vowel of the stem contracts with the thematic vowel:
 
-*Example:* **φιλέω** → present stem **φιλε‑** → middle/passive participle **φιλούμενος** “being loved”.
+*Example:* **φιλέω** "to love" → stem φιλε‑ → middle/passive participle **φιλούμενος** "being loved"; **τιμάω** → **τιμώμενος**; **δηλόω** → **δηλούμενος**.
 
 ---
 
-## 3. Full Paradigms  
+## 3. Full Paradigms
 
-Below are the complete declensions for the present middle/passive participle of a **regular verb** in each of the three principal noun declensions.  
-The paradigm is the same for any verb; only the **stem** changes.
+### 3.1 A Regular Verb: **λυόμενος** "being loosed" (from λύω)
 
-### 3.1. First‑declension (mostly feminine) – example: *παιδεύ‑* “to educate”
-
-| Case | Singular | Plural |
-|------|----------|--------|
-| **Nominative** | **παιδευομένη** (fem.) | **παιδευόμεναι** |
-| **Genitive**   | **παιδευομένης** | **παιδευομένων** |
-| **Dative**     | **παιδευομένῃ** | **παιδευομένοις** |
-| **Accusative** | **παιδευομένην** | **παιδευομένας** |
-| **Vocative**   | **παιδευομένη** | **παιδευόμεναι** |
-
-*(Masculine forms would be *παιδευόμενος* etc.; neuter *παιδευόμενον*.)*
-
----
-
-### 3.2. Second‑declension (masc./neut.) – example: *φιλε‑* “to love”
-
-| Case | Masculine Singular | Neuter Singular | Masculine Plural | Neuter Plural |
-|------|-------------------|----------------|------------------|---------------|
-| **Nominative** | **φιλούμενος** | **φιλούμενον** | **φιλούμενοι** | **φιλούμενα** |
-| **Genitive**   | **φιλουμένου** | **φιλουμένου** | **φιλουμένων** | **φιλουμένων** |
-| **Dative**     | **φιλουμένῳ**   | **φιλουμένῳ**   | **φιλουμένοις** | **φιλουμένοις** |
-| **Accusative** | **φιλούμενον** | **φιλούμενον** | **φιλοῦντας** (masc.) | **φιλούμενα** |
-| **Vocative**   | **φιλούμενε**   | **φιλούμενε**   | **φιλούμενοι** | **φιλούμενα** |
-
----
-
-### 3.3. Third‑declension (mixed stems) – example: *λαμβάν‑* “to take”
-
-| Case | Masculine Singular | Feminine Singular | Neuter Singular | Masculine Plural | Feminine Plural | Neuter Plural |
+| Case | Masc. sg. | Fem. sg. | Neut. sg. | Masc. pl. | Fem. pl. | Neut. pl. |
 |------|-------------------|-------------------|----------------|------------------|----------------|---------------|
-| **Nominative** | **λαμβανόμενος** | **λαμβανομένη** | **λαμβανόμενον** | **λαμβανόμενοι** | **λαμβανόμεναι** | **λαμβανόμενα** |
-| **Genitive**   | **λαμβανομένου** | **λαμβανομένης** | **λαμβανομένου** | **λαμβανομένων** | **λαμβανομένων** | **λαμβανομένων** |
-| **Dative**     | **λαμβανομένῳ**   | **λαμβανομένῃ**   | **λαμβανομένῳ**   | **λαμβανομένοις** | **λαμβανομένοις** | **λαμβανομένοις** |
-| **Accusative** | **λαμβανόμενον** | **λαμβανόμενην** | **λαμβανόμενον** | **λαμβανοῦντας** (masc.) | **λαμβανοῦσας** (fem.) | **λαμβανόμενα** |
-| **Vocative**   | **λαμβανόμενε**   | **λαμβανόμενη**   | **λαμβανόμενε**   | **λαμβανόμενοι** | **λαμβανόμεναι** | **λαμβανόμενα** |
+| **Nominative** | λυόμενος | λυομένη | λυόμενον | λυόμενοι | λυόμεναι | λυόμενα |
+| **Genitive** | λυομένου | λυομένης | λυομένου | λυομένων | λυομένων | λυομένων |
+| **Dative** | λυομένῳ | λυομένῃ | λυομένῳ | λυομένοις | λυομέναις | λυομένοις |
+| **Accusative** | λυόμενον | λυομένην | λυόμενον | λυομένους | λυομένας | λυόμενα |
+| **Vocative** | λυόμενε | λυομένη | λυόμενον | λυόμενοι | λυόμεναι | λυόμενα |
 
-*The same pattern works for any third‑declension verb; replace **λαμβαν‑** with the appropriate stem.*
+### 3.2 A Contract Verb: **φιλούμενος** "being loved" (from φιλέω)
+
+| Case | Masc. sg. | Neut. sg. | Masc. pl. | Neut. pl. |
+|------|-------------------|----------------|------------------|---------------|
+| **Nominative** | φιλούμενος | φιλούμενον | φιλούμενοι | φιλούμενα |
+| **Genitive** | φιλουμένου | φιλουμένου | φιλουμένων | φιλουμένων |
+| **Dative** | φιλουμένῳ | φιλουμένῳ | φιλουμένοις | φιλουμένοις |
+| **Accusative** | φιλούμενον | φιλούμενον | φιλουμένους | φιλούμενα |
+
+*(Feminine: φιλουμένη, φιλουμένης, etc., like λυομένη above.)*
+
+### 3.3 A Deponent Verb: **ἐρχόμενος** "coming" (from ἔρχομαι)
+
+Declined exactly like λυόμενος — the only difference is that the meaning is active:
+
+| Case | Masc. sg. | Fem. sg. | Neut. sg. |
+|------|-------------------|-------------------|----------------|
+| **Nominative** | ἐρχόμενος | ἐρχομένη | ἐρχόμενον |
+| **Genitive** | ἐρχομένου | ἐρχομένης | ἐρχομένου |
+| **Dative** | ἐρχομένῳ | ἐρχομένῃ | ἐρχομένῳ |
+| **Accusative** | ἐρχόμενον | ἐρχομένην | ἐρχόμενον |
+
+Other common deponent participles: **βουλόμενος** "wishing" (βούλομαι), **γιγνόμενος** "becoming" (γίγνομαι), **ἀποκρινόμενος** "answering" (ἀποκρίνομαι), **φοβούμενος** "fearing" (φοβέομαι), **ἡγούμενος** "leading" (ἡγέομαι).
 
 ---
 
-## 4. Key Rules & Common Exceptions  
+## 4. Key Rules & Common Exceptions
 
 | Rule | Explanation |
 |------|-------------|
-| **Agreement** | The participle must match the noun it modifies in **case, number, gender**. |
-| **Middle vs. Passive Meaning** | In the present, the middle and passive forms are **identical** in shape. Context decides whether the sense is reflexive/middle (“for oneself”) or true passive (“by someone”). |
-| **Deponent Verbs** | Verbs that lack active forms (e.g., **ἔρχομαι**, **ἀποκρίνομαι**) use the middle/passive participle **with an active meaning**. |
-| **Contract Verbs** | When the stem ends in a vowel, the thematic vowel contracts (e.g., **φιλέω → φιλο‑** → **φιλούμενος**). |
-| **Irregular Stems** | Some verbs have a **different present stem** from the infinitive (e.g., **εἰμί → ἐσ‑** → **εἴς** → **εἴς**). Their participles follow the regular endings but with the irregular stem (e.g., **εἴς → ἐσ-** → **ἐσόμενος** “being”). |
-| **Spurious Diphthongs** | In some forms the diphthong **ει** or **ου** may be “spurious” (pronounced long). This does not affect spelling of the participle. |
-| **Accent Placement** | The accent falls on the **penult** if it is long; otherwise on the **antepenult**. Example: **φιλοῦντες** (penult long). |
-| **Negative Particle** | The particle **οὐ** (or **μή**) precedes the participle when it functions as a predicate adjective: **οὐ φιλούμενος** “not being loved”. |
+| **Agreement** | The participle must match its noun in **case, number, and gender**. |
+| **Middle or passive?** | The forms are identical; context decides: reflexive/self-benefit (middle) or action done to the subject (passive). |
+| **Deponent verbs** | Verbs without active forms (ἔρχομαι, ἀποκρίνομαι) use the middle/passive participle **with an active meaning**. |
+| **Contract verbs** | The stem vowel merges with the thematic vowel: φιλε + ό → φιλούμενος. |
+| **The verb εἰμί** | Its present participle is active and irregular: ὤν, οὖσα, ὄν; there is no middle/passive form. |
+| **Accent** | In ‑όμενος the accent falls on the syllable before ‑μεν: λυόμενος, ἐρχόμενοι; in contract verbs on the contracted syllable: φιλούμενος. |
+| **Negation** | Generic or conditional negation takes μή, factual negation οὐ: ὁ μὴ φιλούμενος "whoever is not loved." |
 
 ---
 
-## 5. Example Sentences  
+## 5. Example Sentences
 
-| Greek (with transliteration) | Translation |
-|------------------------------|-------------|
-| **ὁ ἀνὴρ τὸν λόγον λύων ἐστίν.**<br>*(ho anēr ton logon lyōn estin)* | “The man **is loosening** the word.” (active present participle) |
-| **ὁ ἀνὴρ τὸν λόγον λύομενος ἔρχεται.**<br>*(ho anēr ton logon lyoménos érchetai)* | “The man **who is loosening** the word is coming.” (middle‑passive form used attributively) |
-| **ἡ γυνὴ ἐρχομένη εἰς τὴν οἰκίαν ἐστὶν.**<br>*(hē gynē erchoménē eis tēn oikian estin)* | “The woman **who is coming** into the house is here.” (deponent verb ἔρχομαι) |
-| **οἱ μαθηταί, ἀκούοντες τὸν διδάσκαλον, ἔχουσιν εὐδαιμονίαν.**<br>*(hoi mathētai, akouontes ton didaskalon, échousin eudaimonian)* | “The students, **listening** to the teacher, have happiness.” (middle‑passive participle used circumstantially) |
-| **οὐ φιλούμενος ὁ ἄνθρωπος ἀποδιδράσκει.**<br>*(ou philouménos ho anthrōpos apodidrāskei)* | “The man **who is not being loved** runs away.” (negative middle/passive participle) |
+| Greek | Transliteration | Translation |
+|------------------------------|----------------|-------------|
+| **ὁ ἀνὴρ ὁ λύων τὸν ἵππον χαίρει.** | ho anḕr ho lýōn tòn híppon khaírei | The man who is untying the horse rejoices. (active, for comparison) |
+| **ὁ ἵππος ὁ λυόμενος ὑπὸ τοῦ ἀνδρὸς φεύγει.** | ho híppos ho lyómenos hypò toû andròs pheúgei | The horse that is being untied by the man runs away. (passive) |
+| **ἡ γυνὴ ἐρχομένη εἰς τὴν οἰκίαν χαίρει.** | hē gynḕ erkhoménē eis tḕn oikían khaírei | The woman rejoices as she comes into the house. (deponent ἔρχομαι) |
+| **οἱ μαθηταὶ ἀποκρινόμενοι τῷ διδασκάλῳ σοφοί εἰσιν.** | hoi mathētaì apokrinómenoi tôi didaskálōi sophoí eisin | The students who answer the teacher are wise. (deponent) |
+| **ὁ μὴ φιλούμενος ἄνθρωπος λυπεῖται.** | ho mḕ philoúmenos ánthrōpos lypeîtai | A person who is not loved grieves. (negated passive) |
 
 ---
 
-##
+## 6. Usage & Context
+
+1. **Attributive use** — with the article, like an adjective: ὁ λυόμενος ἵππος.
+2. **Substantive use** — with the article alone, in place of a noun: οἱ ἐρχόμενοι "those who are coming," τὰ γιγνόμενα "events."
+3. **Circumstantial participle** — without the article, expressing time, cause, or manner: ἐρχόμενος εἶδε "while coming, he saw."
+4. **Translate deponents actively** — the shape is middle/passive but the meaning is active: βουλόμενος "wishing," not "being wished."
+5. **In narrative prose** these participles are a compact substitute for subordinate clauses, sparing Greek an endless chain of "who/which" clauses.
+
+---
+
+## 7. Historical Development & Etymology
+
+| Aspect | Details |
+|--------|---------|
+| **Origin of ‑μενος** | Continues the middle-participle suffix of Proto-Indo-European; cognate with Sanskrit ‑māna‑ and Avestan ‑mna‑. |
+| **Deponents** | Originally middle verbs whose active meaning prevailed while the active paradigm disappeared; their participles preserve the same duality of "middle form, active meaning." |
+| **Stability** | The ‑όμενος formation did not change from Homer to the Koine; ἐρχόμενος appears in texts of every period, from tragedy to the New Testament. |

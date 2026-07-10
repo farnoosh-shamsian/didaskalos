@@ -5,49 +5,53 @@ pos: verb
 
 ## Introduction to ω-Verbs: Present Indicative Medio-Passive
 ### Overview
-In the Greek language, verbs are categorized into several groups based on their conjugation patterns. One of these groups is the ω-verbs, which follow specific rules for contraction and formation of their various tenses. This lesson focuses on the present indicative medio-passive forms of ω-verbs, aiming to provide a clear understanding of their conjugation, usage, and context.
+In Greek, verbs are grouped by their conjugation patterns, and the ω-verbs form the largest group. This lesson focuses on the present indicative **medio-passive** forms of ω-verbs, aiming to give a clear picture of their conjugation, usage, and context.
 
 ## Explanation of the Grammatical Concept
-The medio-passive voice in Greek is used to indicate actions where the subject is either performing the action on itself (middle voice) or is having the action performed on it by an unspecified agent (passive voice). The present indicative tense describes actions that are currently happening. Understanding the conjugation of ω-verbs in the present indicative medio-passive is essential for effective communication in Greek.
+The medio-passive voice packs two uses into one set of forms: either the subject performs the action on itself or in its own interest (**middle**), or the action is performed on the subject (**passive**). The present tense describes an action in progress. In the present system the middle and the passive share **identical endings**; only the context of the sentence decides which reading is correct.
 
 ## Forms and Patterns
-The conjugation of ω-verbs in the present indicative medio-passive follows a specific pattern. The verb stem is used as the base, and various endings are added to indicate the person and number. The following tables illustrate the conjugation patterns for regular ω-verbs:
+The forms are built on the present stem, to which the medio-passive endings are attached.
 
 ### General Pattern for ω-Verbs
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | -ομαι | -ομεθα |
-| 2nd | -σαι | -εσθε |
-| 3rd | -ται | -ονται |
+| 1st | ‑ομαι | ‑όμεθα |
+| 2nd | ‑ῃ / ‑ει | ‑εσθε |
+| 3rd | ‑εται | ‑ονται |
 
-### Example with λυω (to loose)
+*The second person singular goes back to older ‑εσαι: the σ dropped out between vowels, and the resulting contraction gave ‑ῃ (also spelled ‑ει in later Attic).*
+
+### Example with λύω ("to loose")
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | λυομαι | λυομεθα |
-| 2nd | λυει | λυεσθε |
-| 3rd | λυεται | λυονται |
+| 1st | λύομαι (lýomai) | λυόμεθα (lyómetha) |
+| 2nd | λύῃ / λύει (lýēi / lýei) | λύεσθε (lýesthe) |
+| 3rd | λύεται (lýetai) | λύονται (lýontai) |
 
-### Another Example with γραφω (to write)
+### Another Example with γράφω ("to write")
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | γραφομαι | γραφομεθα |
-| 2nd | γραφει | γραφεσθε |
-| 3rd | γραφεται | γραφονται |
+| 1st | γράφομαι (gráphomai) | γραφόμεθα (graphómetha) |
+| 2nd | γράφῃ / γράφει (gráphēi / gráphei) | γράφεσθε (gráphesthe) |
+| 3rd | γράφεται (gráphetai) | γράφονται (gráphontai) |
 
 ## Key Rules and Exceptions
-- **Contraction Rule**: In the present indicative medio-passive, the thematic vowel ε contracts with the omega (ω) in the stem to form ω.
-- **Accent Rule**: The accent in the present indicative medio-passive of ω-verbs follows the general rules of accentuation in Greek, typically on the penult (the syllable before the last).
-- **Vowel Lengthening**: In some cases, the vowel of the present stem is lengthened when forming the medio-passive.
-- **Consonant Changes**: Certain consonant changes can occur at the end of the verb stem before adding the medio-passive endings, such as a final ν (nu) being replaced by σ (sigma).
+- **Thematic vowel**: it appears as ο before μ (λυ‑ό‑μεθα) and as ε elsewhere (λύ‑ε‑σθε).
+- **Second person singular**: both spellings ‑ῃ and ‑ει are correct; classical texts mostly use ‑ῃ.
+- **Middle or passive?** The forms are identical; if an agent is expressed with ὑπό + genitive, the reading is almost always passive.
+- **Agent and instrument**: a personal agent is expressed with ὑπό + genitive (ὑπὸ τοῦ διδασκάλου, "by the teacher"); an inanimate instrument with the plain dative.
+- **Contract verbs** merge the stem vowel with the ending: φιλέομαι → **φιλοῦμαι**, τιμάομαι → **τιμῶμαι**, δηλόομαι → **δηλοῦμαι**.
+- **Deponent verbs** (such as ἔρχομαι, "to come") have only these medio-passive forms but an active meaning; they are treated in a separate lesson.
 
 ## Example Sentences with Translations
-1. Ο φοιτητής γραφεται. (The student is being written, i.e., the student is writing himself.)
-2. Η οδός καθαριζεται. (The street is being cleaned.)
-3. Λύεται ὁ σάκος. (The sack is being loosened.)
-4. Λυόμεθα ὑπὸ τοῦ διδασκάλου. (We are being taught by the teacher.)
+1. **ὁ παῖς λούεται.** (ho paîs loúetai) — The boy washes himself. (middle)
+2. **τὸ βιβλίον γράφεται ὑπὸ τοῦ μαθητοῦ.** (tò biblíon gráphetai hypò toû mathētoû) — The book is being written by the student. (passive)
+3. **λύεται ὁ ἵππος.** (lýetai ho híppos) — The horse is being untied.
+4. **παιδευόμεθα ὑπὸ τοῦ διδασκάλου.** (paideuómetha hypò toû didaskálou) — We are being educated by the teacher.
 
 ## Notes on Usage and Context
-The medio-passive voice is used to indicate actions where the subject is either the recipient of the action or is performing the action on itself. Understanding the context in which the verb is used is crucial for correctly interpreting its meaning. ω-Verbs are used in various contexts, including formal and informal writing, literature, poetry, and everyday conversation.
+The medio-passive voice is used when the subject either receives the action or performs it on or for itself. Interpreting it correctly requires attention to context: λύεται can mean both "is being untied" and "unties for himself." These forms are frequent in every kind of text — historical prose, philosophy, poetry, and conversation.
 
 ## Historical Development and Etymology
-The ω-verbs have their roots in ancient Greek, where the contraction of the thematic vowel ε with the omega (ω) in the stem was a common phenomenon. Over time, the ω-verbs have evolved and been influenced by various linguistic and cultural factors, resulting in the complex system of conjugation and contraction seen in modern Greek. The medio-passive voice in Greek has its origins in the Proto-Indo-European language, where a similar distinction between active and middle voices existed. This historical development has led to the rich and nuanced system of verb conjugation in Greek, with ω-verbs playing a significant role in expressing a wide range of actions and states.
+The middle voice reached Greek from its Proto-Indo-European ancestor, where the basic opposition was between active and middle and no independent passive existed. Greek, too, developed the passive out of the middle, creating separate passive forms (with the marker ‑θη‑) only in the aorist and the future; in the present and imperfect the same middle forms serve both functions. The loss of σ in the second person singular (‑εσαι → ‑ῃ) is one of the regular sound changes that shaped these endings.

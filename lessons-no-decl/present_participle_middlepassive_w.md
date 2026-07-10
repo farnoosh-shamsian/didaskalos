@@ -3,147 +3,133 @@ topic: present, participle, middle/passive (ω)
 pos: verb
 ---
 
-# Lesson: The Present Middle/Passive Participle (‑ω)
+# Lesson: The Present Middle/Passive Participle of ω-Verbs
 
 ---
 
-## 1. What the Present Middle/Passive Participle Is  
+## 1. What the Present Middle/Passive Participle Is
 
-| Term | Greek name | Function |
-|------|------------|----------|
-| **Present participle** | *παράρρημα* (literally “present‑thing”) | A verbal adjective that expresses an **ongoing, simultaneous** action. |
-| **Middle/Passive voice** | *μέσος* / *παθητικός* | Shows that the subject is **acting on itself, for its own benefit, or is acted upon**. In the present middle/passive the ending is **‑ω** (masc. nom. sg.). |
+| Term | Function |
+|------|------------|
+| **Present participle** | A verbal adjective expressing an action **in progress and simultaneous** with the main verb. |
+| **Middle/Passive voice** | Shows that the subject acts **on itself or for its own benefit** (middle) or **is acted upon** (passive). |
 
-The present middle/passive participle therefore means **“being … (by oneself / for oneself / being …)”** and can be translated in English with:
+The marker of this participle is the suffix **‑όμενος, ‑ομένη, ‑όμενον**: λυόμενος "being loosed / loosing for oneself." Typical English renderings:
 
-* “who is/are …ing (for himself/herself/itself)”
-* “being … (by/with) …”
-* “while …ing” (temporal)
-* “because …ing” (causal)
+* "who is being …" (attributive): "the horse that is being untied"
+* "while …" (temporal)
+* "because …" (causal)
 
 It behaves like an adjective: it is declined for **case, number, and gender** and agrees with the noun it modifies.
 
 ---
 
-## 2. Forming the Present Middle/Passive Participle  
+## 2. Forming the Present Middle/Passive Participle
 
-### 2.1 The Stem  
+### 2.1 The Basic Pattern
 
-1. **Take the present‑stem of the verb** (the same stem used for the present indicative).  
-2. **Add the thematic vowel** *‑ο‑* (or the contracted vowel for contract verbs).  
-3. **Attach the participial suffix** *‑ω* (masc. nom. sg.).  
+1. **Take the present stem** of the verb (the same stem as the present indicative).
+2. **Add the thematic vowel ‑ο‑**.
+3. **Attach the suffix ‑μενος / ‑μένη / ‑μενον**.
 
-> **Example:** λυ‑ (from λύω “to loose”) → λυ‑ο‑ + ‑ω = **λύων** “loosening, freeing (himself)”.
+> **Example:** λυ‑ (from λύω "to loose") → λυ‑ό‑μενος = **λυόμενος** "being loosed."
 
-### 2.2 Contract Verbs  
+### 2.2 Contract Verbs
 
-Verbs whose present stem ends in a vowel contract the *‑ο‑* with that vowel:
+The final vowel of the stem contracts with the thematic vowel:
 
-| Verb type | Present stem | Contracted form before ‑ω | Participle (masc. nom. sg.) |
-|-----------|--------------|---------------------------|-----------------------------|
-| **‑αω** (e.g., τιμάω) | τιμα‑ | τιμα‑ + ‑ω → **τιμῶ** |
-| **‑εω** (e.g., ποιέω) | ποιε‑ | ποιε‑ + ‑ω → **ποιῶ** |
-| **‑οω** (e.g., δηλόω) | δηλο‑ | δηλο‑ + ‑ω → **δηλῶ** |
-| **‑υω** (rare) (e.g., ἀγγέλλω) | ἀγγελλ‑ | ἀγγελλ‑ + ‑ω → **ἀγγέλλω** (no contraction) |
+| Verb type | Present stem | Middle/Passive participle (masc. nom. sg.) |
+|-----------|--------------|-----------------------------|
+| **‑άω** (τιμάω "to honor") | τιμα‑ | **τιμώμενος** |
+| **‑έω** (φιλέω "to love") | φιλε‑ | **φιλούμενος** |
+| **‑όω** (δηλόω "to show") | δηλο‑ | **δηλούμενος** |
 
-### 2.3 Irregular Participles  
-
-Some verbs have **suppletive** or irregular participles:
+### 2.3 Deponent and Irregular Verbs
 
 | Verb | Present indicative | Present middle/passive participle |
 |------|--------------------|-----------------------------------|
-| εἰμί “to be” | εἰμί | **ὤν** (masc. nom. sg.) |
-| ἔρχομαι “to come” | ἔρχομαι | **ἐρχόμενος** (regular) |
-| ἔχω “to have” | ἔχω | **ἔχων** (regular) |
-| δίδωμι “to give” | δίδωμι | **διδόμενος** (regular) |
+| ἔρχομαι "to come" (deponent) | ἔρχομαι | **ἐρχόμενος** (active meaning: "coming") |
+| βούλομαι "to want" (deponent) | βούλομαι | **βουλόμενος** |
+| γίγνομαι "to become" (deponent) | γίγνομαι | **γιγνόμενος** |
+| εἰμί "to be" | εἰμί | — (has only an active participle: ὤν, οὖσα, ὄν) |
 
 ---
 
-## 3. Full Declension Table  
+## 3. Full Declension Table
 
-The present middle/passive participle follows the **first‑/second‑declension adjective** pattern (‑ος/‑η/‑ον). Below is the complete paradigm for a **masculine‑feminine‑neuter** participle (using **λύων** as the model).  
+The present middle/passive participle declines like a **first/second-declension adjective** (‑ος/‑η/‑ον). Complete paradigm of **λυόμενος**:
 
 | Case | Masculine | Feminine | Neuter |
 |------|-----------|----------|--------|
 | **Singular** | | | |
-| Nominative | λύων | λύουσα | λύον |
-| Genitive | λύοντος | λυούσης | λύοντος |
-| Dative | λύοντι | λυούσῃ | λύοντι |
-| Accusative | λύοντα | λυούσαν | λύον |
-| Vocative | λύων | λύουσα | λύον |
-| **Dual** (rare) | λύοντον | λυούσαν | λύοντον |
+| Nominative | λυόμενος | λυομένη | λυόμενον |
+| Genitive | λυομένου | λυομένης | λυομένου |
+| Dative | λυομένῳ | λυομένῃ | λυομένῳ |
+| Accusative | λυόμενον | λυομένην | λυόμενον |
+| Vocative | λυόμενε | λυομένη | λυόμενον |
 | **Plural** | | | |
-| Nominative | λύοντες | λυούσαι | λύοντα |
-| Genitive | λυόντων | λυουσῶν | λυόντων |
-| Dative | λυοῦσι(ν) | λυούσαις | λυοῦσι(ν) |
-| Accusative | λυοῦντας | λυούσας | λυόντα |
-| Vocative | λύοντες | λυούσαι | λύοντα |
+| Nominative | λυόμενοι | λυόμεναι | λυόμενα |
+| Genitive | λυομένων | λυομένων | λυομένων |
+| Dative | λυομένοις | λυομέναις | λυομένοις |
+| Accusative | λυομένους | λυομένας | λυόμενα |
 
-> **Note:** The **dual** forms are rarely used in later Greek and are shown only for completeness.
+*Dual forms (λυομένω, λυομένοιν) are rare in later prose and are mentioned only for completeness.*
 
-### 3.1 Quick Reference for Regular Endings  
+### 3.1 Quick Reference for the Endings
 
-| Gender | Nom. sg. | Gen. sg. | Dat. sg. | Acc. sg. | Nom. pl. | Gen. pl. | Dat. pl. | Acc. pl. |
-|--------|----------|----------|----------|----------|----------|----------|----------|----------|
-| **Masculine** | ‑ων | ‑οντος | ‑οντι | ‑οντα | ‑οντες | ‑οντων | ‑ουσι(ν) | ‑οντας |
-| **Feminine** | ‑ουσα | ‑ουσης | ‑ουσῃ | ‑ουσαν | ‑ουσαι | ‑ουσῶν | ‑ουσαις | ‑ουσας |
-| **Neuter** | ‑ον | ‑οντος | ‑οντι | ‑ον | ‑οντα | ‑οντων | ‑ουσι(ν) | ‑οντα |
+| Gender | Nom. sg. | Gen. sg. | Nom. pl. | Gen. pl. |
+|--------|----------|----------|----------|----------|
+| **Masculine** | ‑όμενος | ‑ομένου | ‑όμενοι | ‑ομένων |
+| **Feminine** | ‑ομένη | ‑ομένης | ‑όμεναι | ‑ομένων |
+| **Neuter** | ‑όμενον | ‑ομένου | ‑όμενα | ‑ομένων |
 
-These endings are the same for **all regular present middle/passive participles** (e.g., **ποιῶν, ποιοῦσα, ποιόν**; **τιμῶν, τιμοῦσα, τιμόν**, etc.).
+These endings are the same for every present middle/passive participle (γραφόμενος, φιλούμενος, τιμώμενος, etc.).
 
 ---
 
-## 4. Key Rules & Common Exceptions  
+## 4. Key Rules & Common Exceptions
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **1. Use the present stem** | Do **not** use the aorist or perfect stem. | λυ‑ → λύων, not λυθ‑. |
-| **2. Add ‑ω after the thematic vowel** | The thematic vowel is *‑ο‑* (or contracted). | ποιε‑ + ‑ω → **ποιῶ** → **ποιῶν**. |
-| **3. Contract verbs** | The *‑ο‑* contracts with the stem vowel. | τιμα‑ + ‑ω → **τιμῶ** → **τιμῶν**. |
-| **4. Gender agreement** | The participle must match the noun it modifies in gender, number, case. | ὁ **λύων** ἀνήρ “the man who is freeing”. |
-| **5. No separate middle/passive endings** | The same set of adjective endings serves both middle and passive meanings. Context decides the voice. | λύων (middle) “freeing himself”; λύων (passive) “being freed”. |
-| **6. Irregular participles** | Some verbs have unique forms (e.g., **ὤν** from εἰμί). Memorise them. | ὤν, ὦσα, ὄν. |
-| **7. Use with the article** | When the participle functions as a **noun** (substantive), it normally takes the article. | ὁ **παιδεύων** “the one who is teaching”. |
-| **8. Temporal vs. Causal** | Present participles often express **simultaneity** (while) or **cause** (because). | Ἀκούων τὸν λόγον, ἐγὼ ἀποκρίνεσθαι. “While hearing the speech, I answered.” |
-| **9. No future meaning** | The present participle never denotes future time; use the future participle (‑σων) for that. | **Incorrect:** *ἔρχομαι* → *ἐρχόμενος* “will come”. (Use *ἐρχόμενος* only for “coming now”.) |
-| **10. Passive meaning often requires a **by‑agent** expressed with the dative or a preposition.** | The agent may be omitted if obvious. | ὁ ἀνὴρ **παιδευόμενος** (by the teacher) – “the man being taught”. |
+| **1. Present stem** | Do not use the aorist or perfect stem. | λυ‑ → λυόμενος, not λυθ‑ or λελυ‑ |
+| **2. Thematic vowel ο** | Always ο before ‑μενος. | γραφ‑ό‑μενος |
+| **3. Contract verbs** | The stem vowel merges with ο. | φιλε + ό → φιλού‑: φιλούμενος |
+| **4. Agreement** | Gender, number, and case must match the noun. | ἡ λυομένη ἵππος |
+| **5. One form, two voices** | Middle and passive are identical; context decides. | λυόμενος "being loosed" or "loosing for himself" |
+| **6. Deponents translate actively** | Middle form, active meaning. | ἐρχόμενος "coming" |
+| **7. Substantive use with the article** | The participle with the article stands in for a noun. | τὰ λεγόμενα "the things being said" |
+| **8. Agent of the passive** | Expressed with ὑπό + genitive. | παιδευόμενος ὑπὸ τοῦ διδασκάλου |
+| **9. Relative, not absolute, time** | The present participle marks simultaneity, not necessarily "now." | ἐρχόμενος εἶδε "while coming, he saw" |
 
 ---
 
-## 5. Example Sentences  
+## 5. Example Sentences
 
-| Greek (with parsing) | Translation |
+| Greek | Translation |
 |----------------------|-------------|
-| **1.** Ὁ **παιδεύων** τὸν παῖδα ἀκούει τὴν ἀλήθειαν.<br>*ὁ* (art.) **παιδεύων** (masc. nom. sg. pres. mid./pass. part.) *τὸν παῖδα* (acc.) *ἀκούει* (pres. ind.) *τὴν ἀλήθειαν* (acc.) | “The one who is teaching the child hears the truth.” |
-| **2.** Ἡ γυνὴ **πλενόμενη** ἐν τῷ ποταμῷ ἐστίν.<br>*ἡ* (art.) **πλενόμενη** (fem. nom. sg. pres. mid./pass. part.) *ἐν τῷ ποταμῷ* (prep. + dat.) *ἐστίν* (pres. ind.) | “The woman who is washing (herself) is in the river.” |
-| **3.** **Λύοντες** τὰ δεσμὰ, οἱ ἄνδρες ἔφυγον.<br>**Λύοντες** (masc. nom. pl. pres. part.) *τὰ δεσμὰ* (acc.) *οἱ ἄνδρες* (nom.) *ἔφυγον* (aor. ind.) | “Freeing the bonds, the men fled.” |
-| **4.** Ἀκούων τὸν λόγον, ἐγὼ ἀποκρίνεσθαι ἠθέλησα.<br>**Ἀκούων** (masc. nom. sg. pres. part.) *τὸν λόγον* (acc.) *ἐγὼ* (nom.) *ἀποκρίνεσθαι* (inf.) *ἠθέλησα* (aor. ind.) | “Having heard the speech, I wanted to answer.” (temporal) |
-| **5.** Ὁ ἀνὴρ **παιδευόμενος** ὑπὸ τῶν διδασκάλων ἀνέβη τὸν λόφον.<br>*ὁ* (art.) **παιδευόμενος** (masc. nom. sg. pres. pass. part.) *ὑπὸ τῶν διδασκάλων* (prep. + gen.) *ἀνέβη* (aor. ind.) *τὸν λόφον* (acc.) | “The man being taught by the teachers climbed the hill.” |
+| **ὁ παιδευόμενος παῖς σοφὸς γίγνεται.** | The child who is being educated becomes wise. |
+| **ἡ γυνὴ λουομένη ἐν τῷ ποταμῷ ἐστιν.** | The woman is washing herself in the river. (middle) |
+| **λυόμενοι οἱ ἵπποι φεύγουσιν.** | As they are being untied, the horses run away. |
+| **ὁ ἀνὴρ ὁ παιδευόμενος ὑπὸ τῶν διδασκάλων εὐτυχής ἐστιν.** | The man who is being educated by the teachers is happy. (passive) |
+| **τὰ λεγόμενα ἀληθῆ ἐστιν.** | The things being said are true. (substantive; a neuter plural subject takes a singular verb.) |
 
 ---
 
-## 6. Usage & Context  
+## 6. Usage & Context
 
-1. **Descriptive adjectives** – Often used like English “‑ing” adjectives:  
-   *ὁ **πλεῖων** ἰχθὺς* – “the swimming fish”.
-
-2. **Circumstantial participles** – Provide background information:  
-   *Ἀνέβαινεν ὁ ἥρως, **ὁρῶν** τὸν ἀγῶνα* – “The hero was going up, seeing the contest.”
-
-3. **Causal participles** – Express cause:  
-   *Ἀγρυπνῶν, **ὑπνήσας** ἔσται* – “Being awake, he will fall asleep” (i.e., because he is awake).
-
-4. **Substantive participles** – Function as nouns, usually with the article:  
-   *ὁ **παιδευόμενος** ἔσται ὁ ἄριστος* – “The one who is being taught will be the best.”
-
-5. **Poetic license** – In epic and lyric poetry, the middle sense (self‑action) is common, while in prose the passive sense dominates.
-
-6. **Agreement** – Always match the noun it modifies in **case, number, gender**. If the participle stands alone as a noun, it still follows the normal adjective declension.
+1. **Attributive use** — with the article, it modifies a noun: ὁ λυόμενος ἵππος "the horse that is being untied."
+2. **Circumstantial participle** — without the article, it supplies background to the main action: time ("while"), cause ("because"), manner.
+3. **Substantive use** — with the article it replaces a noun: τὰ γιγνόμενα "events," τὰ λεγόμενα "sayings."
+4. **Middle or passive?** — if the agent appears with ὑπό, it is passive; if the sense is "for/on oneself," it is middle.
+5. **Deponents** — form very common participles: βουλόμενος "wishing," ἡγούμενος "leading."
 
 ---
 
-## 7. Historical Development & Etymology  
+## 7. Historical Development & Etymology
 
 | Aspect | Details |
 |--------|---------|
-| **Proto‑Indo‑European origin
+| **Origin of the suffix** | ‑μενος continues the middle-participle suffix of Proto-Indo-European; the same suffix appears in Sanskrit ‑māna‑ and Avestan ‑mna‑. |
+| **Thematic formation** | The vowel ‑ο‑ before ‑μενος is the thematic vowel of the present system. |
+| **Historical stability** | The formation remained unchanged from Homer to the Koine; forms like ἐρχόμενος and λεγόμενος abound in the New Testament. |
+| **Lexicalization** | Some forms became fixed expressions: τὰ λεγόμενα "sayings," and λεγόμενος in the sense "so-called." |

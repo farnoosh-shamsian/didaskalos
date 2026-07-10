@@ -5,55 +5,56 @@ pos: verb
 
 ## Introduction to ω-Verbs (Thematic) — Present + Participle + Medio-Passive
 ### Overview
-In the Greek language, verbs are categorized into several types based on their conjugation patterns. One of these categories is the ω-verbs, also known as thematic verbs, which are characterized by the presence of the thematic vowel ω (omega) in their conjugation. This lesson will focus on the present tense, participle, and medio-passive forms of ω-verbs, providing a comprehensive understanding of their conjugation and usage.
+Greek verbs are grouped by their conjugation patterns. One of these groups is the ω-verbs, also called thematic verbs, which insert a thematic vowel (ε/ο) between stem and ending. This lesson examines the present tense, the participle, and the medio-passive voice of these verbs.
 
 ## Forms and Patterns
-The present tense of ω-verbs follows a specific pattern. The verb stem is combined with the thematic vowel ω and then the appropriate endings are added to form the different persons. The table below illustrates the conjugation of a regular ω-verb in the present tense:
+The present indicative active of ω-verbs follows a fixed pattern: the stem combines with the thematic vowel and the personal endings. Example with γράφω, "to write":
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | γράφω (graphō) | γράφουμε (graphoume) |
-| 2nd | γράφεις (grapheis) | γράφετε (graphete) |
-| 3rd | γράφει (graphei) | γράφουν (graphoun) |
+| 1st | γράφω (gráphō) | γράφομεν (gráphomen) |
+| 2nd | γράφεις (grápheis) | γράφετε (gráphete) |
+| 3rd | γράφει (gráphei) | γράφουσι(ν) (gráphousi(n)) |
 
-The participle form of ω-verbs is used to describe an action that is happening at the same time as the main verb. The present participle active of ω-verbs is formed by adding the suffix -ων to the verb stem for the masculine singular, -ουσα for the feminine singular, and -ων for the neuter singular. The plural forms add -οντες for the masculine, -ουσαι for the feminine, and -οντα for the neuter.
-
-| Gender | Singular | Plural |
-| --- | --- | --- |
-| Masculine | γράφων (graphōn) | γράφοντες (graphontes) |
-| Feminine | γράφουσα (graphousa) | γράφουσαι (graphousai) |
-| Neuter | γράφον (graphon) | γράφοντα (graphonta) |
-
-The present participle passive of ω-verbs is formed by adding the suffix -όμενος to the verb stem for the masculine singular, -ομένη for the feminine singular, and -όμενον for the neuter singular. The plural forms add -όμενοι for the masculine, -όμεναι for the feminine, and -όμενα for the neuter.
+The present **active** participle (for comparison) is formed with the markers ‑ων (masculine), ‑ουσα (feminine), and ‑ον (neuter):
 
 | Gender | Singular | Plural |
 | --- | --- | --- |
-| Masculine | γραφόμενος (graphomenos) | γραφόμενοι (graphomenoi) |
-| Feminine | γραφομένη (graphomenē) | γραφόμεναι (graphomenai) |
-| Neuter | γραφόμενον (graphomenon) | γραφόμενα (graphomena) |
+| Masculine | γράφων (gráphōn) | γράφοντες (gráphontes) |
+| Feminine | γράφουσα (gráphousa) | γράφουσαι (gráphousai) |
+| Neuter | γράφον (gráphon) | γράφοντα (gráphonta) |
 
-The medio-passive voice in Greek is used to express actions where the subject is also the recipient of the action, or where the action is performed for the benefit of the subject. The medio-passive forms of ω-verbs are similar to the active forms but with different endings.
+The present **medio-passive** participle is formed with the marker **‑όμενος** (masculine), **‑ομένη** (feminine), **‑όμενον** (neuter) and declines exactly like a first/second-declension adjective:
+
+| Gender | Singular | Plural |
+| --- | --- | --- |
+| Masculine | γραφόμενος (graphómenos) | γραφόμενοι (graphómenoi) |
+| Feminine | γραφομένη (graphoménē) | γραφόμεναι (graphómenai) |
+| Neuter | γραφόμενον (graphómenon) | γραφόμενα (graphómena) |
+
+The medio-passive voice of the present indicative also has its own endings:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | γράφωμαι (graphōmai) | γράφομαι (graphometha) |
-| 2nd | γράφῃ (graphēi) | γράφεσθε (graphesthe) |
-| 3rd | γράφεται (graphetai) | γράφονται (graphontai) |
+| 1st | γράφομαι (gráphomai) | γραφόμεθα (graphómetha) |
+| 2nd | γράφῃ / γράφει (gráphēi / gráphei) | γράφεσθε (gráphesthe) |
+| 3rd | γράφεται (gráphetai) | γράφονται (gráphontai) |
 
 ## Key Rules and Exceptions
-- **Rule 1:** The thematic vowel ω is used in the present tense of ω-verbs.
-- **Rule 2:** The participle form is used to form various tenses and aspects.
-- **Rule 3:** The medio-passive voice is used to express actions directed towards the subject or performed by the subject on itself.
-- **Exception 1:** Some ω-verbs may have irregular forms, such as ἄγω (agō, "I lead"), which has an irregular participle form ἄγων (agōn).
-- **Exception 2:** The verb εἰμί (eimi, "I am") is an irregular ω-verb with unique forms.
+- **Rule 1:** The medio-passive participle is always built on the present stem + thematic vowel ο + ‑μενος and declines like adjectives in ‑ος/‑η/‑ον.
+- **Rule 2:** The participle agrees with its noun in gender, number, and case.
+- **Rule 3:** Middle and passive are identical in form in the present: γραφόμενος can mean "writing for oneself" or "being written"; context decides.
+- **Exception 1:** Contract verbs merge the stem vowel with the thematic vowel: φιλεόμενος → **φιλούμενος** "being loved"; τιμαόμενος → **τιμώμενος**; δηλοόμενος → **δηλούμενος**.
+- **Exception 2:** The verb εἰμί, "to be," is not an ω-verb and has only an active participle: ὤν, οὖσα, ὄν.
+- **Exception 3:** Deponent verbs (such as ἔρχομαι) have only the medio-passive participle but translate actively: ἐρχόμενος "coming."
 
 ## Example Sentences with Translations
-1. Γράφω μια επιστολή. (Graphō mia epistolē.) - I am writing a letter.
-2. Ο μαθητής γράφει μια εργασία. (O mathētēs graphē ergasia.) - The student is writing an essay.
-3. Η γυναίκα γράφεται στο πανεπιστήμιο. (H gynaika graphetai sto panepistīmio.) - The woman is enrolled in the university.
+1. **γράφω ἐπιστολήν.** (gráphō epistolḗn) — I am writing a letter.
+2. **τὸ βιβλίον τὸ γραφόμενον ὑπὸ τοῦ μαθητοῦ καλόν ἐστιν.** (tò biblíon tò graphómenon hypò toû mathētoû kalón estin) — The book being written by the student is beautiful.
+3. **ἡ γυνὴ λουομένη ἐν τῷ ποταμῷ ᾄδει.** (hē gynḕ louoménē en tôi potamôi áidei) — The woman sings while washing herself in the river.
 
 ## Notes on Usage and Context
-ω-Verbs are commonly used in everyday Greek to express actions and states. The present tense is used to describe ongoing or habitual actions, while the participle form is used to form various tenses and aspects. The medio-passive voice is used to express actions directed towards the subject or performed by the subject on itself.
+The present medio-passive participle expresses an action simultaneous with the main verb that is either done to the subject (passive) or done by the subject on or for itself (middle). With the article it serves attributive or substantive functions (τὰ λεγόμενα "the things being said, sayings"); without the article it is usually circumstantial, expressing time, cause, or manner. If an agent is expressed (ὑπό + genitive), the passive reading is almost certain.
 
 ## Historical Development and Etymology
-The ω-verb conjugation has its roots in ancient Greek, where the thematic vowel ω was used to form the present tense of verbs. Over time, the conjugation has evolved, but the basic principles remain the same. The use of ω-verbs is still prevalent in modern Greek, and understanding their conjugation is essential for effective communication. The etymology of individual verbs can also reveal their original meanings and how they have evolved over time, contributing to a deeper understanding of the Greek language.
+The suffix ‑μενος descends from the middle-participle suffix of Proto-Indo-European and has cognates in the related languages (Sanskrit ‑māna‑/‑āna‑, Avestan ‑mna‑). In Greek this suffix remained unchanged from Homer to the Koine; forms such as γραφόμενος and λεγόμενος are frequent in texts of every period, and some of them (like τὰ λεγόμενα "sayings") became fixed expressions.
