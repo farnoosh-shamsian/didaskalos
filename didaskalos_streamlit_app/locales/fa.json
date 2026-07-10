@@ -40,8 +40,6 @@
   "download_combined_rows": "دانلود combined_treebank_rows.csv",
   "download_textbook_md": "دانلود textbook.md",
   "download_textbook_html": "دانلود textbook.html",
-  "download_textbook_pdf": "دانلود textbook.pdf",
-  "pdf_unavailable": "خروجی PDF روی این دستگاه در دسترس نیست (کتابخانه‌های بومی WeasyPrint نصب نیستند). در نسخهٔ منتشرشده کار می‌کند؛ به‌صورت محلی می‌توانید textbook.html را در مرورگر باز کرده و به PDF چاپ کنید.",
   "textbook_md_preview_header": "پیش‌نمایش Markdown کتاب",
   "textbook_html_preview_header": "پیش‌نمایش HTML کتاب",
   "footer_caption": "دیداسکالوس یک پروژهٔ متن‌باز است. مشارکت‌ها و بازخوردها خوش‌آمدند! برای اطلاعات بیشتر به مخزن گیت‌هاب مراجعه کنید.",

@@ -37,7 +37,6 @@ from didaskalos_pipeline import (
     build_frequency_syllabus,
     generate_textbook_html,
     generate_textbook_markdown,
-    generate_textbook_pdf,
 )
 from i18n import AVAILABLE_LANGS, DEFAULT_LANG, LANG_NAMES, is_rtl, rtl_css, t
 
@@ -523,20 +522,6 @@ if build_clicked:
             syllabus_mode=syllabus_mode,
             lang=lang,
         )
-        # WeasyPrint needs native Pango/Cairo libraries; they are present in the
-        # deployed Docker image but usually absent on Windows dev machines, so
-        # PDF export degrades gracefully instead of crashing the whole app.
-        try:
-            textbook_pdf = generate_textbook_pdf(
-                frequency_syllabus=frequency_syllabus,
-                grammar_folder=lesson_dir,
-                lesson_count=lesson_count,
-                combined_df=combined_df,
-                syllabus_mode=syllabus_mode,
-                lang=lang,
-            )
-        except (ImportError, OSError):
-            textbook_pdf = None
 
     c1, c2, c3 = st.columns(3)
     c1.metric(t("metric_selected_treebanks", lang), len(selected_treebank_files))
@@ -592,17 +577,6 @@ if build_clicked:
         mime="text/html",
         use_container_width=True,
     )
-
-    if textbook_pdf is not None:
-        st.download_button(
-            label=t("download_textbook_pdf", lang),
-            data=textbook_pdf,
-            file_name="textbook.pdf",
-            mime="application/pdf",
-            use_container_width=True,
-        )
-    else:
-        st.caption(t("pdf_unavailable", lang))
 
     st.subheader(t("textbook_md_preview_header", lang))
     st.code(textbook_markdown[:6000], language="markdown")
