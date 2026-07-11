@@ -3,71 +3,65 @@ topic: aorist, participle, active (ω)
 pos: verb
 ---
 
-# Lesson: The Aorist Active Participle (‑ων, ‑ουσα, ‑ον)
+# Lesson: The Aorist Active Participle (‑ας, ‑ασα, ‑αν)
 
 ---
 
-## 1. What is the Aorist Active Participle?
+## 1. What Is the Aorist Active Participle?
 
-The **aorist active participle** is a non‑finite verb form that:
+The **aorist active participle** is a non-finite form that:
 
-* **Shows the action as a completed event** (aorist aspect) rather than an ongoing one (present) or a repeated/habitual one (imperfect).
-* **Acts like an adjective**: it agrees with a noun in gender, number, and case.
-* **Retains the active voice**, i.e., the subject of the participle is the doer of the action.
+* Presents the action as a **complete event** (aorist aspect), not one in progress (present).
+* **Behaves like an adjective**: it agrees with its noun in gender, number, and case.
+* **Has active voice**: the noun it modifies is the doer of the action.
 
-In English it is often rendered with a **‑ing** or **‑ed** clause, or with a simple past participle used adjectivally:
+In English it is usually rendered with "having …ed," "after …ing," or a relative clause:
 
-* *λόγος γράψας* – “the man **who wrote** …”  
-* *τὰ δένδρα πεπτωκέντα* – “the trees **that have fallen**” (note: this is a perfect participle; the aorist would be *πεσόντα* “that fell”).
+* *ὁ γράψας ἀνήρ* — "the man **who wrote**"
+* *τὰ πεσόντα δένδρα* — "the trees **that fell**"
 
-The aorist active participle is therefore a **“completed‑action adjective.”** It can be used:
+The aorist participle can be used:
 
-* **Attributively** (directly before or after a noun).  
-* **Predicatively** with a copular verb (εἰμί, γίγνομαι, γέγονα, etc.).  
-* **Circumstantially** (as a subordinate clause) to indicate cause, time, condition, concession, etc.
+* **Attributively** (with the article, in adjective position).
+* **Predicatively** (with copular verbs).
+* **Circumstantially** (in place of a subordinate clause: time, cause, condition, concession).
 
 ---
 
 ## 2. Formation (Paradigm)
 
-### 2.1. Basic Morphology
+### 2.1 Basic Morphology
 
-|                     | Masculine | Feminine | Neuter |
+First aorist participle = **aorist stem (without the augment) + ‑σα‑ + the suffix ‑ντ‑ + endings**:
+
+| | Masculine | Feminine | Neuter |
 |---------------------|-----------|----------|--------|
-| **Singular**        | ‑ων       | ‑ουσα    | ‑ον    |
-| **Plural**          | ‑οντες    | ‑ουσαι   | ‑οντα  |
+| **Singular (nom.)** | **‑σας** | **‑σασα** | **‑σαν** |
+| **Plural (nom.)** | **‑σαντες** | **‑σασαι** | **‑σαντα** |
 
-The participle is built from the **aorist active stem** + the **suffix ‑σ‑** (or directly ‑ν‑ for some verbs) + the appropriate **adjectival ending**.
+> **Note:** the endings ‑ων/‑ουσα/‑ον belong to the **present** participle (and the second aorist); the first aorist always has ‑ας/‑ασα/‑αν.
 
-**General pattern:**  
+### 2.2 Full Declension Table (example verb: **γράφω** "to write")
 
-```
-aorist‑active‑stem + σ + (masc. ‑ων / fem. ‑ουσα / neut. ‑ον)   →  singular
-aorist‑active‑stem + σ + (masc. ‑οντες / fem. ‑ουσαι / neut. ‑οντα) → plural
-```
-
-### 2.2. Full Declension Table (example verb **γράφω** “to write”)
-
-| Case / Number | Masculine Singular | Feminine Singular | Neuter Singular | Masculine Plural | Feminine Plural | Neuter Plural |
+| Case | Masc. sg. | Fem. sg. | Neut. sg. | Masc. pl. | Fem. pl. | Neut. pl. |
 |---------------|--------------------|-------------------|-----------------|------------------|-----------------|---------------|
-| **Nominative** | γράψας            | γράψασα           | γράψαν          | γράψαντες        | γράψασαι        | γράψαντα      |
-| **Genitive**   | γράψαντος         | γράψασας          | γράψαντος       | γράψαντων        | γράψασῶν        | γράψαντων     |
-| **Dative**     | γράψαντι          | γράψασῃ           | γράψαντι        | γράψασιν         | γράψασι(ν)      | γράψασιν      |
-| **Accusative** | γράψαντα          | γράψασαν          | γράψαν         | γράψαντας        | γράψασας        | γράψαντα      |
-| **Vocative**   | — (rare)          | —                 | —               | —                | —               | —             |
+| **Nominative** | γράψας | γράψασα | γράψαν | γράψαντες | γράψασαι | γράψαντα |
+| **Genitive** | γράψαντος | γραψάσης | γράψαντος | γραψάντων | γραψασῶν | γραψάντων |
+| **Dative** | γράψαντι | γραψάσῃ | γράψαντι | γράψασι(ν) | γραψάσαις | γράψασι(ν) |
+| **Accusative** | γράψαντα | γράψασαν | γράψαν | γράψαντας | γραψάσας | γράψαντα |
 
-> **Note:** The aorist active participle is rarely used in the vocative; when needed, the nominative form is used.
+> Masculine and neuter follow the third declension (ντ-stem), the feminine the first declension. The vocative is rare and identical to the nominative.
 
-### 2.3. Irregularities & Special Stems
+### 2.3 Other Types
 
-| Verb type | Stem for aorist active | Participial form |
+| Verb type | Aorist | Participle (masc. nom.) |
 |-----------|------------------------|------------------|
-| **‑μι verbs** (e.g., *τίθημι*) | aorist stem *ἔθηκ‑* | *ἔθηκ‑* + ‑σ‑ → *ἔθηκ‑* (no ‑σ‑) → *ἔθηκ‑* + endings: *ἔθηκ‑* (masc. ‑ων) → *ἔθηκ‑*?* (rare) |
-| **Contract verbs** (e.g., *φιλέω*) | aorist stem *ἔφιλ‑* | *ἔφιλ‑* + ‑σ‑ → *ἔφιλ‑* + endings: *ἔφιλ‑* (masc. ‑ων) → *ἔφιλ‑*?* (→ *ἔφιλ‑*?*). In practice the participle is **ἔφιλ‑** + endings: *ἔφιλ‑* (masc. ‑ων) → *ἔφιλ‑*?* (→ *ἔφιλ‑*?*). |
-| **Verbs with a‑stem** (e.g., *ἔρχομαι* – middle) | not applicable (no aorist active) | — |
-| **Verbs whose aorist stem ends in ‑ν** (e.g., *διδάσκω* → aorist *ἐδίδαξα*) | aorist stem *διδάξ‑* | *διδάξ‑* + ‑σ‑ → *διδάξ‑* (the ‑σ‑ is often omitted) → *διδάξ‑* + endings: *διδάξ‑* (masc. ‑ων) → *διδάξ‑*?* → *διδάξ‑*?* (→ *διδάξ‑*?*). In practice we get **διδάξας** (masc. sg). |
+| **Regular** | ἔγραψα | **γράψας** |
+| **Contract** (lengthened vowel) | ἐφίλησα, ἐτίμησα | **φιλήσας**, **τιμήσας** |
+| **Second aorist** (endings in ‑ών) | ἔλαβον, εἶδον, ἦλθον | **λαβών**, **ἰδών**, **ἐλθών** (genitive: λαβόντος) |
+| **μι-Verbs** | ἔδωκα, ἔθηκα | **δούς**, **θείς** (in the μι lesson) |
 
-> **Practical tip:** For most regular verbs the pattern **stem‑σ‑** + endings works without difficulty. When you encounter a verb that seems irregular, consult a dictionary for the aorist active participle form.
+> **Practical tip:** for most regular verbs the pattern "stem + σας" works without trouble; for irregular verbs, find the participle from the dictionary (the third principal part).
 
 ---
 
@@ -75,37 +69,38 @@ aorist‑active‑stem + σ + (masc. ‑οντες / fem. ‑ουσαι / neut. 
 
 | Rule | Explanation |
 |------|-------------|
-| **Agreement** | The participle must match the noun it modifies in **gender, number, and case**. |
-| **Aspect** | The aorist participle denotes a **single, completed action** that is prior to or simultaneous with the main verb, depending on context. |
-| **Voice** | Active participles always have the **subject as the agent** of the action. |
-| **Position** | It can appear **before** the noun (especially in poetry) or **after** it (more common in prose). |
-| **With the verb *εἰμί*** | When used predicatively, the participle often takes the **nominative** (subject) case: *ὁ ἀνὴρ γράψας ἐστὶ σοφός* – “the man who wrote is wise.” |
-| **With verbs of perception, knowledge, or speech** | The aorist participle frequently follows verbs like *ὁρῶ, λέγω, φημί*: *ὁρῶ τὸν ἀνθρώπον γράψαντα* – “I see the man who wrote.” |
-| **Temporal vs. Causal use** | As a **temporal** clause it can mean “when/after”: *ἔλθων ὁ ἄνθρωπος* – “when the man came.” As a **causal** clause it can mean “because”: *παιδεύσας, ἐγένετο σοφός* – “having been educated, he became wise.” |
-| **Exception – verbs with a‑stem** | Verbs whose aorist active stem ends in **‑α** (e.g., *πράσσω* → aorist *ἔπραξα*) form the participle **without the extra ‑σ‑**: *πράξας* (masc. sg). |
-| **Exception – contract verbs** | For verbs whose aorist stem ends in a vowel, the **‑σ‑** may be dropped or merged: *ἔφη* → *ἔφη* (no participle). Such verbs simply lack an aorist active participle. |
-| **Exception – verbs with *‑μι* (present) but aorist *‑σα* (e.g., *τίθημι* → *ἔθηκα*)** | The participle is formed from the aorist stem *ἔθηκ‑*: *ἔθηκας* (masc. sg). |
+| **Agreement** | The participle agrees with its noun in **gender, number, and case**. |
+| **Aspect** | It conveys a **single, complete** action, usually **prior to** the main verb. |
+| **No augment** | ἔγραψα but γράψας — the augment belongs to the indicative alone. |
+| **Position** | With the article = attributive/relative (ὁ γράψας); without the article = circumstantial. |
+| **With verbs of perception** | After ὁρῶ, ἀκούω and the like, it expresses the perceived action: ὁρῶ αὐτὸν γράψαντα "I see that he wrote." |
+| **Temporal and causal** | "when/after he wrote" or "since he wrote" — context decides; particles such as ἅτε (cause) and καίπερ (concession) make the sense explicit. |
+| **Second aorist** | Endings ‑ών/‑οῦσα/‑όν with the accent on the ending; distinguished from the present participle by the stem: λαμβάνων (present) ≠ λαβών (aorist). |
 
 ---
 
 ## 4. Example Sentences
 
-| Greek (with transliteration) | English translation |
+| Greek (with transliteration) | Translation |
 |------------------------------|---------------------|
-| **1.** Ὁ ἀνὴρ **γράψας** τὸν λόγον ἀπῆλθεν.<br>*(Ho anēr **grapsas** ton logon apēlthen.)* | “The man **who wrote** the speech left.” |
-| **2.** Ἡ γυνὴ **παιδεύσασα** τὸν παῖδα ἐγένετο εὐγενής.<br>*(Hē gynē **paideusas** ton paida egeneto eugenēs.)* | “The woman **who educated** the child became noble.” |
-| **3.** Ἐγὼ **ἔλυσα** τὸν δεσμὸν καὶ ἀπῆλθον.<br>*(Ego **elusa** ton desmon kai apēlthon.)* – Here **ἔλυσα** is a finite aorist, but a participial version would be **λῦσας**: *λῦσας τὸν δεσμὸν, ἀπῆλθον* – “Having **loosened** the bond, I went away.” |
-| **4.** Ὁ στρατηγὸς **προῆλθεν** τὴν πόλιν, **ἰδὼν** τὸν ἐχθρὸν ἐξέπνευσε.<br>*(Ho stratēgos **proēlthen** tēn polin, **idōn** ton echthon exepneuse.)* – Note the **present** participle **ἰδὼν** (aorist active participle of *ὁράω* is **ἰδὼν**, showing a completed seeing). |
-| **5.** Ἀκούων τὸν λόγον, ὁ ἀκούων **ἔγραψεν** τὴν ἀπάντησιν.<br>*(Akouōn ton logon, ho akouōn **egrapsen** tēn apantēsin.)* – The participle **ἀκούων** (present) modifies the subject; the aorist active participle would be **ἀκούσας**: *ἀκούσας τὸν λόγον, ἔγραψεν…* – “Having **heard** the speech, he wrote the answer.” |
+| **ὁ ἀνὴρ γράψας τὸν λόγον ἀπῆλθεν.** (ho anḗr grápsas ton lógon apêlthen) | The man who wrote the speech left. |
+| **ἡ γυνὴ παιδεύσασα τὸν παῖδα εὐδαίμων ἦν.** (hē gynḕ paideúsasa ton paîda…) | The woman who educated the child was happy. |
+| **λύσας τὸν δεσμόν, ἀπῆλθον.** (lýsas ton desmón, apêlthon) | Having loosed the bond, I went away. |
+| **ἰδὼν τὸν ἐχθρόν, ὁ στρατηγὸς ἐβόησεν.** (idṑn ton ekhthrón…) | When he saw the enemy, the general shouted. |
+| **ἀκούσας τὸν λόγον, ἔγραψε τὴν ἀπόκρισιν.** (akoúsas ton lógon…) | Having heard the speech, he wrote the reply. |
 
 ---
 
 ## 5. Usage & Contextual Notes
 
-1. **Temporal Sequence** – The aorist participle often **precedes** the main verb in time:  
-   *ἔλθων ὁ ἄνθρωπος, ἔλαβον τὸν δῶρον.* – “When the man **came**, I took the gift.”
+1. **Temporal sequence** — the aorist participle usually reports an action **prior to** the main verb: *ἀκούσας ταῦτα, ἀπῆλθεν* "having heard this, he left."
+2. **Causal meaning** — "because…": *γνοὺς τὸν κίνδυνον, ἔφυγεν* "realizing the danger, he fled"; ἅτε + participle makes the cause explicit.
+3. **Condition and concession** — without the article it can be conditional ("if…") or, with καίπερ, concessive ("although…"): *καίπερ γράψας* "although he wrote."
+4. **The genitive absolute** — a subject detached from the main clause stands in the genitive: *τούτων λεχθέντων* "when these things had been said" — a pattern you will meet in the syntax lessons.
+5. **Frequency** — the aorist participle is among the most frequent constructions of Greek prose; chains of "participle + main verb" are the backbone of narrative.
 
-2. **Causal Meaning** – It can express cause, especially with verbs of **saying, thinking, feeling**:  
-   *Ἀγνοῶν τὸν νόμον, ἔπραξα τὸ ἀδίκημα.* – “Not knowing the law, I committed the crime.”
+---
 
-3. **Conditional / Concessive** – In poetry, the
+## 6. Historical Note
+
+The suffix ‑ντ‑ (visible in γράψαντος) is the ancient Indo-European active participle suffix; combined with the sigmatic marker ‑σα‑ it produced ‑σας (from *‑σαντς). The feminine ‑σασα arose from *‑σαντ-ya by regular sound change. The same suffix appears in Latin (‑nt‑: *amans, amantis*) and in other related languages.

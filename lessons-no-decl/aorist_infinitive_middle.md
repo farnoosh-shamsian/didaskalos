@@ -3,57 +3,49 @@ morph_type: ω-verb — aorist + infinitive + middle
 pos: verb
 ---
 
-## Introduction to ω-Verbs
-### Overview of ω-Verbs
-ω-Verbs, also known as contract verbs, are a group of verbs in Greek that exhibit specific patterns of contraction when forming different tenses. This lesson focuses on the aorist tense of ω-verbs, specifically when used with the infinitive and in the middle voice.
+## Introduction to ω-Verbs: The Aorist Middle Infinitive
+### Overview
+ω-Verbs are the class of Greek verbs whose first person singular present ends in ‑ω. This lesson treats their **aorist middle infinitive**: a non-finite form expressing a **single, complete** action with **middle** meaning (for oneself / on oneself) — or, in deponent verbs, an effectively active meaning.
 
 ## Forms and Patterns
-The ω-verb conjugation in the aorist tense, infinitive form, and middle voice involves specific endings that are added to the verb stem. The following tables illustrate the forms and patterns for the ω-verb in these contexts:
+The infinitive has no person or number; each verb has just one form. The base is the **aorist stem without the augment**.
 
-### Aorist Tense
-| Person | Singular | Plural |
+### The First (Sigmatic) Aorist Middle Infinitive: **‑σασθαι**
+| Verb (present) | Aorist middle (indicative) | Aorist middle infinitive |
 | --- | --- | --- |
-| 1st | -ω | -αμεν |
-| 2nd | -ες | -ατε |
-| 3rd | -ε | -αν |
+| λύω "to loose" | ἐλυσάμην | **λύσασθαι** "to loose for oneself, to ransom" |
+| παιδεύω "to educate" | ἐπαιδευσάμην | **παιδεύσασθαι** "to educate for oneself" |
+| δέχομαι "to receive" (deponent) | ἐδεξάμην | **δέξασθαι** "to receive" |
 
-### Infinitive Form
-The infinitive form of the ω-verb ends in -ειν.
-
-### Middle Voice
-In the middle voice, the ω-verb takes the following endings:
-| Person | Singular | Plural |
+### The Second (Thematic) Aorist Middle Infinitive: **‑έσθαι**
+| Verb (present) | Aorist middle (indicative) | Aorist middle infinitive |
 | --- | --- | --- |
-| 1st | -ομαι | -ομεθα |
-| 2nd | -σαι | -εσθε |
-| 3rd | -ετο | -οντο |
+| γίγνομαι "to become" | ἐγενόμην | **γενέσθαι** "to become" |
+| λαμβάνομαι "to take hold of" | ἐλαβόμην | **λαβέσθαι** "to take hold of" |
+| πυνθάνομαι "to inquire" | ἐπυθόμην | **πυθέσθαι** "to inquire" |
+
+*For comparison: the present middle/passive infinitive in ‑εσθαι is built on the present stem (γίγνεσθαι); the aorist infinitive on the aorist stem (γενέσθαι). The difference lies in the stem, not the ending.*
 
 ## Key Rules and Exceptions
-- The aorist tense is used to describe completed actions in the past.
-- The infinitive form is used to express purpose, intention, or possibility.
-- The middle voice is used to indicate that the subject is performing the action on themselves or that the action is reciprocal.
-- In the middle voice, the verb agrees with the subject in number and person.
-
-A key rule for ω-verbs in the aorist tense is that the verb stem often undergoes contraction with the aorist suffixes. For example, the verb φιλέω (to love) in the aorist middle is ἐφίλην, where the ε of the stem contracts with the η of the aorist middle suffix to form η.
-
-The following table shows the paradigm for the aorist middle of φιλέω:
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 1st | ἐφίλην | ἐφιλήμεθα |
-| 2nd | ἐφίλου | ἐφιλήσθε |
-| 3rd | ἐφίλητο | ἐφίλαντο |
+- **No augment:** the augment ἐ‑ belongs to the indicative alone: ἐλυσάμην but λύσασθαι.
+- **First aorist: ‑σασθαι**, accented on the syllable before ‑σα: παιδεύσασθαι.
+- **Second aorist: ‑έσθαι**, accented on the ε: γενέσθαι, λαβέσθαι.
+- **Middle meaning:** action for oneself or with self-involvement: λύσασθαι "to ransom (a captive for oneself)."
+- **Deponents:** verbs with no active forms have exactly this aorist infinitive, with active meaning: δέξασθαι "to receive," γενέσθαι "to become."
+- **Do not confuse with the passive:** the aorist passive infinitive is a separate formation: **λυθῆναι** "to be loosed."
+- **Aspect, not time:** the aorist infinitive does not refer to the past; it conveys a single event (in contrast with the present infinitive for action in progress).
 
 ## Example Sentences with Translations
-1. Ἐγώ ἔγραψα τὸ γράμμα. (I wrote the letter.) - Example of ω-verb in the aorist tense.
-2. Θέλω να γράψω τὸ γράμμα. (I want to write the letter.) - Example of ω-verb in the infinitive form.
-3. Ἐγώ γράφομαι. (I am writing to myself.) - Example of ω-verb in the middle voice.
+1. **βούλομαι δέξασθαι τὰ δῶρα.** — I want to receive the gifts.
+2. **ἐκέλευσεν αὐτὸν λύσασθαι τὸν αἰχμάλωτον.** — He ordered him to ransom the captive.
+3. **ἔφη τὸν παῖδα βασιλέα γενέσθαι.** — He said that the boy became king.
+4. **ἦλθον πυθέσθαι τὰ γενόμενα.** — They came to inquire about what had happened.
 
 ## Notes on Usage and Context
-- The ω-verb is commonly used in everyday conversations and written texts.
-- The choice of tense, voice, and mood depends on the context and the intended meaning.
-- Pay attention to the verb endings to ensure correct conjugation and agreement with the subject.
-- ω-Verbs are used in various contexts, including to express emotions, actions, and states of being. The aorist tense specifically is used to describe completed actions in the past. The middle voice often indicates that the subject is performing the action on themselves or that the action has a reflexive aspect.
+- The aorist middle infinitive is very common after verbs of **wishing, ordering, being able**: βούλομαι γενέσθαι "I want to become."
+- In **indirect statement** (accusative + infinitive) it conveys an event prior to the main verb: ἔφη αὐτὸν δέξασθαι "he said that he (had) received."
+- With the **article** it becomes a noun: τὸ γενέσθαι "the coming-to-be."
+- The choice between present and aorist infinitive is **aspectual**: γίγνεσθαι "to be (in the process of) becoming" vs. γενέσθαι "to become (once)." The infinitive is negated with **μή**.
 
 ## Historical Development and Etymology
-The ω-verbs have their roots in ancient Greek, where the contraction patterns were more pronounced due to the phonetic characteristics of the language. Over time, these patterns have been retained and are still studied today as part of the Greek language's complex grammar system. The verb φιλέω, for example, comes from the root φιλ-, which is related to the concept of love or friendship, and has cognates in other languages that reflect similar meanings. Understanding the historical development of the ω-verb can provide valuable insights into the language's structure and syntax.
+The middle ending **‑σθαι** is Greek's continuation of the ancient Indo-European middle/passive infinitive ending and recurs in every tense (present ‑εσθαι, aorist ‑σασθαι/‑έσθαι, perfect ‑σθαι); what separates the tenses is the stem. The verb φιλέω, which appears throughout these lessons' vocabulary, comes from the root φιλ‑ "friendship, affection" and has cognates of similar meaning in the related languages. Attending to these infinitive formations is essential for reading classical prose, which uses the infinitive far more than modern languages do.

@@ -5,58 +5,54 @@ pos: verb
 
 ## Introduction to ω-Verbs: Future + Indicative + Middle
 ### Overview
-In Greek, verbs are conjugated to reflect various aspects of tense, mood, voice, person, and number. The future indicative middle voice is used to describe an action that will be performed by the subject on itself. In this lesson, we will explore the conjugation of ω-verbs in the future indicative middle voice.
+In Greek, verbs are conjugated for tense, mood, voice, person, and number. The **future indicative middle** expresses an action that the subject will perform in the future **for itself or with self-involvement**. In this lesson we examine the conjugation of ω-verbs in this formation.
 
 ## Forms and Patterns
-The future indicative middle voice of ω-verbs is formed by adding specific suffixes to the verb stem. The verb stem is the base form of the verb without any inflectional endings.
+The future indicative middle is built from the **verb stem + the future marker ‑σ‑ + the primary middle endings**. In contract verbs the stem vowel lengthens before σ (hence ‑ήσομαι in ποιήσομαι):
 
-| Verb Stem | Future Indicative Middle Suffix | Example |
+| Verb stem | Future middle (1st sg.) | Note |
 | --- | --- | --- |
-| γράφ- (write) | -ησομαι | γράψομαι |
-| λυ- (loosen) | -ησομαι | λυσομαι |
-| ποι- (make) | -ησομαι | ποιησομαι |
+| γραφ‑ "to write" | **γράψομαι** | φ + σ → ψ |
+| λυ‑ "to loose" | **λύσομαι** | σ attaches directly |
+| ποιε‑ "to make" | **ποιήσομαι** | ε → η before σ |
 
-The following tables illustrate the conjugation of ω-verbs in the future indicative middle voice:
+The following tables show the full conjugation:
 
-### Conjugation of ἀγαπάω (to love)
+### Conjugation of ἀγαπάω ("to love")
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | ἀγαπησομαι | ἀγαπησόμεθα |
-| 2nd | ἀγαπησῇ | ἀγαπησέσθε |
-| 3rd | ἀγαπησεται | ἀγαπησονται |
+| 1st | ἀγαπήσομαι | ἀγαπησόμεθα |
+| 2nd | ἀγαπήσῃ (ἀγαπήσει) | ἀγαπήσεσθε |
+| 3rd | ἀγαπήσεται | ἀγαπήσονται |
 
-### Conjugation of γράφω (write)
+### Conjugation of γράφω ("to write")
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | γράψομαι | γράψομεθα |
-| 2nd | γράψῃ | γράψεσθε |
+| 1st | γράψομαι | γραψόμεθα |
+| 2nd | γράψῃ (γράψει) | γράψεσθε |
 | 3rd | γράψεται | γράψονται |
 
 ## Key Rules and Exceptions
-When conjugating ω-verbs in the future indicative middle voice, the following rules apply:
-* The verb stem is used as the base for conjugation.
-* The suffix -ησομαι is added to the verb stem to form the 1st person singular.
-* The suffix -ησῃ is added to the verb stem to form the 2nd person singular.
-* The suffix -ησεται is added to the verb stem to form the 3rd person singular.
-* The suffix -ησομεθα is added to the verb stem to form the 1st person plural.
-* The suffix -ησεσθε is added to the verb stem to form the 2nd person plural.
-* The suffix -ησονται is added to the verb stem to form the 3rd person plural.
-
-The paradigm for the future indicative middle of ω-verbs is as follows:
+The general pattern of endings:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | -σομαι | -σόμεθα |
-| 2nd | -σῇ | -σέσθε |
-| 3rd | -σεται | -σονται |
+| 1st | **‑σομαι** | **‑σόμεθα** |
+| 2nd | **‑σῃ / ‑σει** | **‑σεσθε** |
+| 3rd | **‑σεται** | **‑σονται** |
+
+* The 2nd person singular comes from *‑σεσαι with loss of intervocalic σ and contraction: ‑σῃ (in later Attic spelling ‑σει).
+* No augment — the future is not a past tense.
+* **A very important point:** many common active verbs have a **middle-form future with active meaning**: ἀκούω → **ἀκούσομαι** "I will hear," ὁράω → **ὄψομαι** "I will see," λαμβάνω → **λήψομαι** "I will take," εἰμί → **ἔσομαι** "I will be." Do not translate these as passives!
+* Deponent verbs naturally have middle futures as well: γενήσομαι "I will become," δέξομαι "I will receive."
 
 ## Example Sentences with Translations
-1. Γράψομαι τὸ γράμμα αὔριον. (I will write the letter tomorrow.)
-2. Λύσεσθε τὰς δυσκολίας. (You will loosen the difficulties.)
-3. ἀγαπησομαι τὴν γυναῖκα μου. (I will love my wife)
+1. **γράψομαι τὴν ἐπιστολὴν αὔριον.** — I will write the letter (for myself) tomorrow / I will have it registered.
+2. **λύσεσθε τοὺς αἰχμαλώτους.** — You will ransom the captives.
+3. **ἀκούσομαι τῶν σοφῶν.** — I will listen to the wise.
 
 ## Notes on Usage and Context
-The future indicative middle voice is used to describe an action that will be performed by the subject on itself. It is often used to express intention or plan. For example, "Γράψομαι τὸ γράμμα αὔριον" implies that the subject will write the letter tomorrow, emphasizing the subject's involvement in the action.
+The future middle either (1) carries genuine middle meaning — a future action in one's own interest: γράψομαι in a legal context, "I will file a suit" — or (2) is simply the future shape of verbs whose future happens to be middle (ἀκούσομαι, ὄψομαι). When reading, always check the dictionary first: does this verb have an active or a middle future?
 
 ## Historical Development and Etymology
-The future indicative middle voice of ω-verbs has its roots in ancient Greek. The suffix -ησομαι is derived from the combination of the future tense suffix -σ- and the middle voice suffix -ομαι. Over time, the conjugation of ω-verbs has evolved, but the basic principles of forming the future indicative middle voice have remained relatively consistent. Understanding the historical development and etymology of the ω-verbs can provide valuable insights into the structure and usage of the Greek language.
+The ‑σομαι formation arose from the combination of the future marker **‑σ‑** (from the Indo-European desiderative suffix) with the middle endings in **‑ομαι**. The tendency of verbs of perception and motion toward middle futures is an ancient phenomenon, showing that Greek speakers felt the future of these actions to be inherently "self-involving." In the Koine these distinctions faded, and in Modern Greek the inflected future gave way to the θα + verb construction.

@@ -4,49 +4,51 @@ pos: verb
 ---
 
 ## Introduction to ω-Verbs in the Aorist Indicative Passive
-The ω-verbs, also known as omega verbs, are a class of verbs in Greek that form their present tense stems with the vowel combination ω (omega). Understanding the conjugation of these verbs in different tenses, including the aorist indicative passive, is crucial for effective communication in Greek.
+The ω-verbs (omega verbs) are the class of Greek verbs whose first person singular present ends in ‑ω. Understanding their conjugation in the various tenses — including the aorist indicative passive — is essential for reading and understanding Greek.
 
 ## Explanation of the Grammatical Concept
-The aorist tense is used to describe completed actions in the past. When combined with the indicative mood, which states facts or asks questions, and the passive voice, where the subject receives the action, the aorist indicative passive provides a way to express actions that were completed in the past and were done to the subject.
+The aorist describes a completed action in the past. Combined with the indicative mood (stating facts) and the passive voice (the subject receives the action), the aorist indicative passive expresses things that were done **to** the subject in the past: "I was loosed," "it was written."
 
 ## Forms and Patterns
-The aorist indicative passive of ω-verbs follows specific patterns. The verb λυω (luō), meaning "to loose," will be used as an example to illustrate these patterns.
+The aorist indicative passive of ω-verbs follows a clear pattern: **augment ἐ‑ + stem + the marker ‑θη‑ + secondary endings**. The verb λύω, "to loose," serves as our example.
 
-### Conjugation Table for λυω
+### Conjugation Table for λύω
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | λυθην (luthēn) | λυθημεν (luthēmen) |
-| 2nd | λυθης (luthēs) | λυθητε (luthēte) |
-| 3rd | λυθη (luthē) | λυθησαν (luthēsan) |
+| 1st | ἐλύθην (elýthēn) | ἐλύθημεν (elýthēmen) |
+| 2nd | ἐλύθης (elýthēs) | ἐλύθητε (elýthēte) |
+| 3rd | ἐλύθη (elýthē) | ἐλύθησαν (elýthēsan) |
 
 ### General Pattern for ω-Verbs
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | -ηθην | -ηθημεν |
-| 2nd | -ηθης | -ηθητε |
-| 3rd | -ηθη | -ηθησαν |
+| 1st | (augment) + stem + ‑θην | (augment) + stem + ‑θημεν |
+| 2nd | (augment) + stem + ‑θης | (augment) + stem + ‑θητε |
+| 3rd | (augment) + stem + ‑θη | (augment) + stem + ‑θησαν |
 
-The stem of the verb is obtained by removing the -ω from the first person singular of the present tense. For example, the verb λύω (luō) has the stem λυ-.
+The stem is obtained by removing the ‑ω from the first person singular of the present: λύω → stem λυ‑.
 
 ## Key Rules and Exceptions
-The key rule to remember is that the aorist indicative passive of ω-verbs is formed by adding the passive endings to the aorist stem of the verb. The aorist stem is usually the same as the present stem, but there are some exceptions.
+The basic rule: aorist indicative passive = augment + stem + ‑θη‑ + ending. But note the following:
 
-### Present and Aorist Stems of ω-Verbs
-| Verb | Present Stem | Aorist Stem |
+- In contract verbs the stem vowel lengthens before ‑θη‑: φιλέω → ἐφιλήθην, τιμάω → ἐτιμήθην.
+- The final consonant of the stem may change before θ: πέμπω → ἐπέμφθην, ἄγω → ἤχθην.
+- A group of verbs has a "**second aorist passive**": instead of ‑θη‑ they take plain ‑η‑: ἐγράφην "I was written," ἐφάνην "I appeared."
+
+### Present Stems and Aorist Passives of ω-Verbs
+| Verb | Present stem | Aorist passive |
 | --- | --- | --- |
-| λύω (luō) | λυ- | λυ- |
-| γράφω (graphō) | γραφ- | γραψ- |
-
-As you can see from the table above, the verb γράφω (graphō) has a different aorist stem (γραψ-) than its present stem (γραφ-).
+| λύω (lýō) | λυ‑ | ἐλύθην |
+| γράφω (gráphō) | γραφ‑ | ἐγράφην |
 
 ## Example Sentences with Translations
-Here are a few example sentences to illustrate the use of the aorist indicative passive of ω-verbs:
+A few examples of the aorist indicative passive of ω-verbs in use:
 
-* Λυθην ὑπὸ τοῦ διδασκάλου. (I was loosed by the teacher.)
-* Λυθησαν οἱ δεσμιοι. (The prisoners were loosed.)
+* **ἐλύθην ὑπὸ τοῦ διδασκάλου.** — I was set free by the teacher.
+* **ἐλύθησαν οἱ δέσμιοι.** — The prisoners were set free.
 
 ## Notes on Usage and Context
-The aorist indicative passive is used to describe completed actions in the past that had a direct impact on the subject. It is particularly useful in narratives and historical accounts to convey actions that were done to the subject without emphasizing who performed the action.
+The aorist indicative passive describes completed actions that directly affected the subject. It is particularly useful in narrative and historical writing, since it reports the action without emphasizing who performed it; when the agent does matter, it is expressed with **ὑπό + genitive**: ἐπαιδεύθη ὑπὸ τοῦ διδασκάλου "he was educated by the teacher."
 
 ## Historical Development and Etymology
-The ω-verbs are a class of verbs that originated from the Proto-Indo-European language. The aorist tense is thought to have developed from the perfect tense, which was used to describe completed actions. Over time, the aorist tense evolved to become a distinct tense with its own set of endings and uses. The passive voice is also thought to have developed from the middle voice, which was used to describe actions that were performed for the benefit of the subject. Understanding the etymology and historical development of these forms can provide insights into the structure and evolution of the Greek language.
+The ω-verbs reached Greek from Proto-Indo-European. The marker ‑θη‑, however, is an innovation within Greek itself: originally it expressed a change of state and only gradually took on the role of a full passive. The passive voice as a whole grew out of the middle — the middle, which described action in the subject's interest, came to be used also for action done to the subject, and eventually the distinct ‑θην formation arose in the aorist. Awareness of this development helps in understanding the structure and evolution of Greek.

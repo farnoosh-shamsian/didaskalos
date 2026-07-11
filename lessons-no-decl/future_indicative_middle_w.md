@@ -3,165 +3,155 @@ topic: future, indicative, middle (ω)
 pos: verb
 ---
 
-# Lesson: The Future Indicative Middle (‑ω)  
+# Lesson: The Future Indicative Middle (ω-Verbs)
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic noun declension, present‑tense active and middle endings, concept of voice.*
+*Target level: Beginner–Intermediate*
+*Prerequisites: Greek alphabet, basic noun declension, present active and middle endings, the concept of voice.*
 
 ---
 
-## 1. What the Future Indicative Middle Is  
+## 1. What the Future Indicative Middle Is
 
-| Term | Meaning in English | Greek terminology |
+| Term | Meaning | Greek terminology |
 |------|-------------------|-------------------|
-| **Future** | An action that will happen **later** than the moment of speaking. | *μέλλων χρόνος* |
-| **Indicative** | The “statement” mood – used for ordinary facts, questions, or predictions. | *ἐνδεικτική* |
-| **Middle** | The verb’s voice that shows the subject acting **for its own benefit**, **with a reflexive sense**, or **in a self‑directed way**. In the future, the middle often has a **‑ω** ending (the same shape as the active future). | *μέσος* |
+| **Future** | An action that will happen **after** the moment of speaking. | *μέλλων χρόνος* |
+| **Indicative** | The "statement" mood — facts, questions, predictions. | *ὁριστική* |
+| **Middle** | The subject acts **for its own benefit**, **reflexively**, or **with involvement**; in many verbs it is simply the inherited shape of the future. | *μέση* |
 
-The **future indicative middle** therefore expresses a **future action** in which the subject is **involved personally** (reflexive, benefactive, or reciprocal).  
+The **future indicative middle** therefore expresses a future action in which the subject is personally involved — or belongs to a verb that has no other future at all.
 
-> **Example** – *ἁρπάσωμαι* “I will seize (for myself)”.  
+> **Example** — *λύσομαι* "I will loose (for myself); I will ransom."
 
-In the future, the middle and active share the same **‑ω** endings; the difference is shown by the **middle marker** **‑σ‑** (or by the lack of a **‑σ‑** in the active).  
+The middle shape (‑σομαι) is **entirely distinct** from the active (‑σω) — and unlike the present, the future also has a separate passive formation.
 
 ---
 
-## 2. Forms and Patterns  
+## 2. Forms and Patterns
 
-### 2.1. The Basic Ending Set  
+### 2.1 The Ending Set
 
-| Person | Active Future | Middle Future (‑σ‑) |
+| Person | Future active | Future middle |
 |--------|---------------|---------------------|
-| 1st sg. | ‑σω          | ‑σομαι (or ‑σω) |
-| 2nd sg. | ‑σεις        | ‑σῃ/‑σῃς |
-| 3rd sg. | ‑σει          | ‑σεται |
-| 1st pl. | ‑σομεν        | ‑σόμεθα |
-| 2nd pl. | ‑σετε        | ‑σέσθε |
-| 3rd pl. | ‑σουσι(ν)    | ‑σονται |
+| 1 sg. | ‑σω | **‑σομαι** |
+| 2 sg. | ‑σεις | **‑σῃ / ‑σει** |
+| 3 sg. | ‑σει | **‑σεται** |
+| 1 pl. | ‑σομεν | **‑σόμεθα** |
+| 2 pl. | ‑σετε | **‑σεσθε** |
+| 3 pl. | ‑σουσι(ν) | **‑σονται** |
 
-> **Note:** In many printed editions the middle endings are shown without the **‑σ‑** (e.g., *‑σομαι*). The **‑σ‑** is historically present and appears in the contracted forms *‑σομαι* → *‑σομαι* (no change). For clarity we will keep the **‑σ‑** in the tables.
+> The 2nd person singular comes from *‑σεσαι: loss of intervocalic σ and contraction → ‑σῃ (later Attic spelling ‑σει).
 
-### 2.2. Regular Conjugations  
+### 2.2 Regular Conjugations
 
-#### 2.2.1. Thematic (‑ω) Verbs – e.g., *φιλέω* “to love”  
+#### 2.2.1 A Contract Verb: *φιλέω* "to love"
 
-|          | Active Future | Middle Future |
+| | Future active | Future middle |
 |----------|---------------|---------------|
-| **1 sg.** | φιλήσω        | φιλήσομαι |
-| **2 sg.** | φιλήσεις      | φιλήσῃ |
-| **3 sg.** | φιλήσει       | φιλήσεται |
-| **1 pl.** | φιλήσομεν     | φιλήσόμεθα |
-| **2 pl.** | φιλήσετε      | φιλήσέσθε |
-| **3 pl.** | φιλήσουσι(ν)  | φιλήσονται |
+| **1 sg.** | φιλήσω | **φιλήσομαι** |
+| **2 sg.** | φιλήσεις | **φιλήσῃ** |
+| **3 sg.** | φιλήσει | **φιλήσεται** |
+| **1 pl.** | φιλήσομεν | **φιλησόμεθα** |
+| **2 pl.** | φιλήσετε | **φιλήσεσθε** |
+| **3 pl.** | φιλήσουσι(ν) | **φιλήσονται** |
 
-*Construction*: **stem + future marker ‑σ‑ + personal ending**.  
-The future marker **‑σ‑** is inserted **before** the personal ending (the same as in the active).  
+*Construction: stem (with lengthened vowel) + ‑σ‑ + middle ending.*
 
-#### 2.2.2. Contract Verbs – e.g., *πράττω* → *πράξω* “to do”  
+#### 2.2.2 A Consonant-Stem Verb: *πράττω* → stem *πραγ‑*
 
-|          | Active Future | Middle Future |
+| | Future active | Future middle |
 |----------|---------------|---------------|
-| **1 sg.** | πράξω         | πράξομαι |
-| **2 sg.** | πράξεις       | πράξῃ |
-| **3 sg.** | πράξει        | πράξεται |
-| **1 pl.** | πράξομεν      | πράξόμεθα |
-| **2 pl.** | πράξετε       | πράξέσθε |
-| **3 pl.** | πράξουσι(ν)   | πράξονται |
+| **1 sg.** | πράξω | **πράξομαι** |
+| **2 sg.** | πράξεις | **πράξῃ** |
+| **3 sg.** | πράξει | **πράξεται** |
+| **1 pl.** | πράξομεν | **πραξόμεθα** |
+| **2 pl.** | πράξετε | **πράξεσθε** |
+| **3 pl.** | πράξουσι(ν) | **πράξονται** |
 
-*Contract rule*: The **‑σ‑** attaches to the contracted stem (here *πρακ‑* → *πρακ‑σ‑* → *πράξ‑*).  
+*Velar + σ → ξ: πραγ-σ‑ → πραξ‑.*
 
-#### 2.2.3. A‑thematic (strong) Verbs – e.g., *ἔρχομαι* “to come” (deponent)  
+#### 2.2.3 A Deponent Verb: *ἔρχομαι* "to come"
 
-|          | Middle Future (deponent) |
+| | Future middle (deponent) |
 |----------|--------------------------|
 | **1 sg.** | ἐλεύσομαι |
 | **2 sg.** | ἐλεύσῃ |
 | **3 sg.** | ἐλεύσεται |
-| **1 pl.** | ἐλεύσομεν |
+| **1 pl.** | ἐλευσόμεθα |
 | **2 pl.** | ἐλεύσεσθε |
 | **3 pl.** | ἐλεύσονται |
 
-*Deponent verbs* have **no active** forms; the future middle is the only future form.  
+*Deponent verbs have no active forms; the future middle is their only future. (In Attic prose, "I will go" is usually εἶμι.)*
 
-### 2.3. Irregular / Suppletive Futures  
+### 2.3 Irregular and "Middle-Shaped" Futures
 
-| Verb (infinitive) | Future Indicative Middle |
-|-------------------|--------------------------|
-| εἰμί (to be)      | ἔσομαι, ἔσῃ, ἔσται, ἐσόμεθα, ἐσέσθε, ἔσονται |
-| ἔρχομαι (to come) | ἐλεύσομαι, ἐλεύσῃ, ἐλεύσεται, … |
-| δίδωμι (to give)  | δώσω, δώσῃ, δώσει, … (active only; middle not used) |
-| ὁράω (to see)    | ὄψομαι, ὄψῃ, ὄψεται, … (future middle of a **‑ω** verb) |
+| Verb | Future | Note |
+|-------------------|--------------------------|------|
+| εἰμί "to be" | **ἔσομαι, ἔσῃ, ἔσται, ἐσόμεθα, ἔσεσθε, ἔσονται** | 3rd singular ἔσται without the thematic vowel! |
+| ὁράω "to see" | **ὄψομαι** | middle future with active meaning |
+| ἀκούω "to hear" | **ἀκούσομαι** | likewise |
+| λαμβάνω "to take" | **λήψομαι** | likewise |
+| γιγνώσκω "to recognize" | **γνώσομαι** | likewise |
+| φεύγω "to flee" | **φεύξομαι** | likewise |
 
-*Note*: Some verbs have a **future middle** that is essentially the same as the **future active** (e.g., *ὄψομαι*). The distinction is semantic, not morphological.
+*A large group of active verbs has middle-shaped futures with active meaning — mostly verbs of perception and motion. Do **not** translate them as passives.*
 
 ---
 
-## 3. Key Rules & Exceptions  
+## 3. Key Rules & Exceptions
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **Future marker –σ‑** | Insert **‑σ‑** between the stem and the personal ending. For contract verbs the **‑σ‑** attaches to the contracted stem. | *φιλέω* → *φιλή‑σ‑ομαι* → *φιλήσομαι* |
-| **No augment** | Unlike the imperfect, the future **does not** take the augment (ε‑). | *λύω* → *λύσω* (not *ἐλύσω*) |
-| **Middle vs. Active meaning** | Same form, different meaning. The middle often implies “for oneself”, “reflexively”, or “reciprocally”. | *ἀποκρίνεσθαι* → *ἀποκριθήσομαι* “I will answer (for myself)”. |
-| **Deponent verbs** | Have only middle (or passive) forms; the future middle is the only future. | *ἔρχομαι* → *ἐλεύσομαι* |
-| **Suppletion** | Some verbs use a completely different stem in the future. | *εἰμί* → *ἔσομαι* |
-| **Contracted endings** | In the 1st sg. and 3rd pl., **‑σ‑** + **‑ομαι** → **‑σομαι**; **‑σ‑** + **‑ονται** → **‑σονται** (no extra vowel). | *πράττω* → *πράξομαι* (1 sg.) |
-| **Spurious diphthongs** | When the stem ends in a vowel that would create a diphthong with **‑σ‑**, the diphthong is usually **spurious** (e.g., *βλέπω* → *βλέψομαι*). | *βλέπω* → *βλέψομαι* |
-| **Irregular middle forms** | Verbs like *ἔρχομαι* have a **different** future stem (*ἐλ‑* → *ἐλεύ‑*). | — |
-| **Passive vs. Middle** | The future passive uses **‑θησ-** (e.g., *λύσωμαι* is middle, *λύθησομαι* is passive). Do not confuse. | — |
+| **The marker ‑σ‑** | Sits between the stem and the middle ending; in contract verbs the vowel lengthens first. | φιλέω → φιλή-σ-ομαι |
+| **No augment** | The future takes no augment. | λύσομαι, not *ἐλυσόμην |
+| **Middle ≠ active in form** | ‑σομαι versus ‑σω — the distinction is entirely formal. | λύσω / λύσομαι |
+| **Middle ≠ passive in the future** | The passive has a separate formation: **‑θήσομαι**. | λυθήσομαι "I will be set free" |
+| **Deponents** | Have only the middle future. | ἐλεύσομαι, γενήσομαι, δέξομαι |
+| **Middle-shaped futures of active verbs** | Active in meaning; memorize them. | ἀκούσομαι, ὄψομαι, λήψομαι |
+| **Liquid verbs** | The σ drops and contraction gives ‑οῦμαι. | μένω → μενοῦμαι; ἀγγέλλω → ἀγγελοῦμαι |
 
 ---
 
-## 4. Example Sentences  
+## 4. Example Sentences
 
 | Greek (future middle) | Transliteration | English |
 |-----------------------|----------------|---------|
-| **1.** Ἀσπάζομαι τὸν φίλον. → **Ἀσπασθήσομαι** τὸν φίλον. | *Aspasthēsomai* ton philon. | “I will greet my friend (for my own sake).” |
-| **2.** Ὁ μαθητὴς **παιδεύσεται** ἐν τῇ ἀγορᾷ. | *Ho mathētēs paideusetai en tē agorā.* | “The student will be taught in the marketplace.” (future middle of *παιδεύω*.) |
-| **3.** Ἐγὼ **ἐλεύσομαι** εἰς τὴν πόλιν. | *Ego eleusomai eis tēn polin.* | “I will come to the city.” (deponent future middle.) |
-| **4.** Ἡ γυνὴ **προσελεύσεται** εἰς τὸν ναόν. | *Hē gynē proseleusetai eis ton naon.* | “The woman will go to the temple (for herself).” |
-| **5.** Ἀνὴρ **ἀποκριθήσεται** τῷ ἀνθρώπῳ. | *Anēr apokritēsetai tō anthrōpō.* | “The man will answer the man (reciprocally).” |
+| **λύσομαι τὸν αἰχμάλωτον.** | lýsomai ton aikhmálōton | I will ransom the captive. |
+| **ὁ παῖς παιδεύσεται ὑπὸ σοφοῦ διδασκάλου.** | ho paîs paideúsetai… | The boy will be educated by a wise teacher. |
+| **ἐλεύσομαι εἰς τὴν πόλιν.** | eleúsomai eis tēn pólin | I will come to the city. |
+| **ὄψεσθε τὰ ἔργα τῶν θεῶν.** | ópsesthe ta érga tōn theôn | You will see the works of the gods. |
+| **ταῦτα ἔσται.** | taûta éstai | So it will be. |
 
 ---
 
-## 5. Usage & Context  
+## 5. Usage & Context
 
-1. **Reflexive actions** – When the subject does something to or for itself.  
-   *Example*: *Ἀποκρίνεσθαι* → *ἀποκριθήσομαι* “I will answer (for myself).”
-
-2. **Benefactive** – The action benefits the subject.  
-   *Example*: *Ἀσπάζομαι* → *ἀσπασθήσομαι* “I will greet (for my own benefit).”
-
-3. **Reciprocal** – Two or more subjects act on each other.  
-   *Example*: *Λαλεῖν* → *λαλήσομαι* can be used reciprocally in some contexts: “We will speak (to each other).”
-
-4. **Deponent verbs** – Many verbs that are middle in the present (e.g., *ἔρχομαι, ἀποκρίνομαι*) have only a future middle.  
-
-5. **Literary style** – In epic poetry, the future middle is often used for **prophetic** or **dramatic** statements, especially when the speaker emphasizes personal involvement.  
-
-6. **Contrast with future active** – The same morphological form can be interpreted as active when the meaning is clearly non‑reflexive. Context decides.  
+1. **Self-benefit** — the subject profits from the future action: λύσομαι "I will ransom."
+2. **The future of deponent verbs** — γενήσεται "it will happen," δέξεται "he will receive."
+3. **Middle-shaped futures** — ὄψομαι, ἀκούσομαι and the like; simply "I will see/hear."
+4. **Occasionally passive in sense** — in Classical Greek the future middle sometimes carries passive meaning (παιδεύσεται "he will be educated"); the explicit passive formation ‑θήσομαι is also available.
+5. **Context decides** — always ask the dictionary: is this verb's future active or middle, and what does it mean?
 
 ---
 
-## 6. Historical Development & Etymology  
+## 6. Historical Development & Etymology
 
 | Aspect | Details |
 |--------|---------|
-| **Proto‑Indo‑European origin** | The future marker **‑σ‑** derives from the PIE *‑s‑* suffix used to form future or desiderative meanings. |
-| **Middle voice** | The middle voice in Greek developed from an earlier **reflexive** construction in PIE, where the subject performed the action on itself. |
-| **Fusion of forms** | By the Classical period, the **future active** and **future middle** had become formally identical (both ending in **‑ω**). The distinction is therefore semantic, not phonological. |
-| **Suppletion** | Verbs like *εἰμί* (to be) use a suppletive future stem *ἔσ‑* (from PIE *h₁es‑*). This reflects an older, more irregular development. |
-| **Deponent verbs** | The deponent future middle (e.g., *ἐλεύσομαι*) shows the loss of the active voice in certain verbs, a process that began in early Greek and continued into Koine. |
-| **Middle marker –σ‑** | In earlier Greek (e.g., Homeric), the **‑σ‑** was sometimes omitted in the 1st sg. (e.g., *ἔσομαι* vs. *ἔσομαι*). By the Classical period the **‑σ‑** was standard, though it merged with the vowel of the ending, giving the appearance of a simple **‑ω**. |
+| **Origin of ‑σ‑** | From the desiderative suffix *‑s(y)e/o‑ of Proto-Indo-European (compare Sanskrit ‑sya‑). |
+| **The middle voice** | From the ancient reflexive construction; it remained a living category in Greek. |
+| **ἔσται** | The 3rd singular without a thematic vowel, a relic of the old athematic inflection of the root *h₁es‑ "to be." |
+| **Middle-shaped futures** | The ancient tendency of perception/motion verbs toward middle futures; in the Koine many were "corrected" to active shape (ἀκούσω). |
+| **Aftermath** | The inflected future disappeared in Modern Greek, replaced by θα + subjunctive. |
 
 ---
 
-## 7. Quick Reference Summary  
+## 7. Quick Reference
 
-| Person | Future Middle Ending (‑σ‑) | Example with *φιλέω* |
+| Person | Future middle ending | Example with *φιλέω* |
 |--------|---------------------------|-----------------------|
-| 1 sg. | ‑σομαι / ‑σόμεθα (rare) | **φιλήσομαι** |
-| 2 sg. | ‑σῃ / ‑σῃς | **φιλήσῃ** |
+| 1 sg. | ‑σομαι | **φιλήσομαι** |
+| 2 sg. | ‑σῃ / ‑σει | **φιλήσῃ** |
 | 3 sg. | ‑σεται | **φιλήσεται** |
-| 1 pl. | ‑σόμεθα | **φιλήσόμεθα** |
-| 2 pl. | ‑σέ
+| 1 pl. | ‑σόμεθα | **φιλησόμεθα** |
+| 2 pl. | ‑σεσθε | **φιλήσεσθε** |
+| 3 pl. | ‑σονται | **φιλήσονται** |

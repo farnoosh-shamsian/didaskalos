@@ -3,78 +3,71 @@ topic: imperfect, indicative, active (ω)
 pos: verb
 ---
 
-# Lesson: The Imperfect – Indicative – Active (ω‑type)
+# Lesson: The Imperfect Indicative Active (ω-Verbs)
 
-**Target:** Beginner‑intermediate students of Ancient Greek  
-**Focus:** How to form and use the imperfect indicative active for verbs of the **ω‑type** (the regular “present‑stem” verbs that end in **‑ω** in the present system).
+**Target:** Beginner–intermediate students of Ancient Greek
+**Focus:** How to form and use the imperfect indicative active of regular ω-verbs.
 
 ---
 
-## 1. What is the Imperfect?
+## 1. What Is the Imperfect?
 
-| Term | Meaning in Greek | Rough English equivalent |
+| Term | Meaning | Rough English equivalent |
 |------|------------------|--------------------------|
-| **Imperfect** | A past‑time, **continuous** or **repeated** action. | “was doing”, “used to do”, “kept doing”. |
-| **Indicative** | The ordinary mood of statement (as opposed to subjunctive, optative, etc.). |
-| **Active** | The subject performs the action (as opposed to middle or passive). |
+| **Imperfect** | A past action **in progress** or **repeated**. | "was doing," "used to do" |
+| **Indicative** | The ordinary mood of statement (as opposed to subjunctive, optative, etc.). | — |
+| **Active** | The subject performs the action (as opposed to middle or passive). | — |
 
-The imperfect therefore describes an action that was **in progress** or **habitual** in the past, without implying that it is finished.
+The imperfect describes an action that **was going on** or was **habitual** in the past, without saying that it came to an end.
 
-> **Example (English):** “I was walking home.”  
-> **Greek (imperfect):** ἔβαιον τὴν οἰκίαν.
+> **English:** "I was walking home."
+> **Greek:** οἴκαδε ἔβαινον.
 
 ---
 
-## 2. The ω‑type Verb
+## 2. The ω-Verbs
 
-A **ω‑type** verb has a present‑stem ending in **‑ω** (or **‑ο‑** after the augment).  
-Typical examples:  
+An ω-verb is one whose first person singular present ends in ‑ω:
 
-| Verb | Meaning | Present‑stem | Imperfect stem |
+| Verb | Meaning | Present stem | Imperfect stem |
 |------|---------|--------------|----------------|
-| λύω | “to loose, release” | λυ‑ | λυ‑ |
-| παίω | “to strike” | παι‑ | παι‑ |
-| τίθημι (irregular) – not ω‑type | – | – | – |
+| λύω | to loose | λυ‑ | the same λυ‑ (+ augment) |
+| γράφω | to write | γραφ‑ | the same γραφ‑ (+ augment) |
 
-In this lesson we will use **λῦω** (to loose) as our model verb.
+*The imperfect has no special stem of its own — it uses the present stem.* Our model verb is **λύω**.
 
 ---
 
-## 3. Forming the Imperfect (Active, Indicative)
+## 3. Forming the Imperfect Indicative Active
 
 ### 3.1 The Augment
 
-- The imperfect **always** receives an **augment** at the beginning of the verb.
-- For verbs whose first syllable begins with a vowel, the augment is **ε‑** (the *e‑augment*).  
-  - If the vowel is long, the augment **replaces** it (e.g., *ἦν* from *εἰμί*).  
-- For verbs that start with a consonant, the augment is **ε‑** placed before the first consonant.
+- The imperfect **always** takes an augment.
+- **Consonant-initial verbs**: the syllabic augment **ἐ‑** is prefixed: λύω → **ἔ**λυον.
+- **Vowel-initial verbs**: the initial vowel is **lengthened**: ἀκούω → **ἤ**κουον; ὁρίζω → **ὥ**ριζον.
 
 ### 3.2 The Endings
 
-The imperfect active uses the **‑ον** series of endings (the same as the present, but with a long *‑ο‑* before the personal ending).  
+The secondary endings with the thematic vowel (ο before μ/ν, otherwise ε):
 
-| Person | Ending (after the stem) | Full form for λῦω |
+| Person | Ending (after the stem) | Full form of λύω |
 |--------|------------------------|-------------------|
 | 1st sg. | **‑ον** | **ἔλυον** |
-| 2nd sg. | **‑ες** | **ἔλυσας** |
+| 2nd sg. | **‑ες** | **ἔλυες** |
 | 3rd sg. | **‑ε(ν)** | **ἔλυε(ν)** |
 | 1st pl. | **‑ομεν** | **ἐλύομεν** |
 | 2nd pl. | **‑ετε** | **ἐλύετε** |
 | 3rd pl. | **‑ον** | **ἔλυον** |
-| 1st/2nd dual* | **‑ετον / ‑ετον** | **ἔλυετον / ἔλυετον** |
-| 3rd dual* | **‑ετον** | **ἔλυετον** |
 
-\*The dual is rare in prose but appears in poetry and early Greek.
+### 3.3 Full Paradigm (with the dual)
 
-### 3.3 Full Paradigm (Active, Indicative, Imperfect)
-
-|          | Singular | Dual | Plural |
+| | Singular | Dual | Plural |
 |----------|----------|------|--------|
-| **1st**  | ἔλυον   | ἔλυετον | ἐλύομεν |
-| **2nd**  | ἔλυσας | ἔλυετον | ἐλύετε |
-| **3rd**  | ἔλυε(ν) | ἔλυετον | ἔλυον |
+| **1st** | ἔλυον | — | ἐλύομεν |
+| **2nd** | ἔλυες | ἐλύετον | ἐλύετε |
+| **3rd** | ἔλυε(ν) | ἐλυέτην | ἔλυον |
 
-> **Note:** The 3rd‑sg. ending **‑ε(ν)** may appear with or without **ν** in poetry; the **ν** is the normal prose form.
+> **Note:** the dual is rare in prose. The final ν of the 3rd singular is the "movable ν": it appears before a vowel and at the end of a sentence.
 
 ---
 
@@ -82,66 +75,57 @@ The imperfect active uses the **‑ον** series of endings (the same as the pre
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **A. Augment** | Add **ε‑** before the stem. If the stem begins with a vowel, the augment may replace a long vowel. | λῦ‑ → **ἔ**λυ‑ → ἔλυον |
-| **B. Vowel contraction** | When the augment **ε‑** meets a preceding vowel, they may contract (e.g., *ε + ι → ει*). In the ω‑type this rarely creates a diphthong because the stem begins with a consonant. | — |
-| **C. Lengthening of the thematic vowel** | The thematic vowel **‑ο‑** of the imperfect is long; it is written **‑ο‑** (not **‑ε‑**) before the personal endings. | ἐ‑λύ‑**ο**μεν |
-| **D. Irregular verbs** | Some verbs have special imperfect stems: <br>• **εἰμί** → ἦν, ἦσθα, ἦν, ἦμεν, ἦτε, ἦσαν (no **‑ον** series). <br>• **ἔχω** → ἔεχον, ἔεχες, ἔεχε(ν), ἐεχόμεν, ἐεχετε, ἔεχον (the stem changes). | — |
-| **E. Dual forms** | The dual uses **‑ετον** for all persons; it is largely literary. | ἔλυετον (you two were loosing) |
-| **F. Spurious diphthongs** | In some verbs the stem ends in **‑ει‑** or **‑ου‑**; the imperfect still uses the **‑ον** endings (e.g., *φιλεῖν* → ἔφιλον). | — |
+| **A. Augment** | ἐ‑ for consonant-initial verbs; vowel lengthening for vowel-initial verbs (α/ε → η, ο → ω). | ἄγω → ἦγον; ὁρίζω → ὥριζον |
+| **B. 1st singular = 3rd plural** | Both are ἔλυον; context decides. | — |
+| **C. Contract verbs** | The stem vowel merges with the thematic vowel. | φιλέω → **ἐφίλουν**; τιμάω → **ἐτίμων**; δηλόω → **ἐδήλουν** |
+| **D. Irregular augments** | A few verbs take an unexpected augment. | ἔχω → **εἶχον**; ἕπομαι → εἱπόμην |
+| **E. εἰμί** | Has a special imperfect: ἦν, ἦσθα, ἦν, ἦμεν, ἦτε, ἦσαν. | — |
+| **F. In compound verbs, the augment follows the prefix** | ἀπο-λύω → ἀπ-**έ**-λυον. | προσέγραφον |
 
 ---
 
 ## 5. Example Sentences
 
-| Greek (Imperfect) | Transliteration | English |
+| Greek (imperfect) | Transliteration | English |
 |-------------------|----------------|---------|
-| 1. ἔλυον τὸν δεσμὸν ἡμέρας πολλὰς. | **éluon** tòn desmòn hēméras pollàs. | “I was loosening the bond for many days.” |
-| 2. ἐλύομεν τὰς ἀγγέλας ἐν τῇ ἀγορᾷ. | **elúomen** tàs ángélas en têi agorâi. | “We were delivering the messages in the marketplace.” |
-| 3. ἔλυσας τὸν πόλεμον ταχέως. | **élusas** tòn pólemon tachéōs. | “You (sg.) were ending the war quickly.” |
-| 4. ἔλυε τὰ παιδία ὁ διδάσκαλος. | **élue** tà paidía ho didáskalo̱s. | “The teacher was freeing the children.” |
+| **ἔλυον τὸν δεσμὸν ἡμέρας πολλάς.** | élyon ton desmòn hēméras pollás | I was loosening the bond for many days. |
+| **ἐλύομεν τοὺς ἵππους ἐν τῇ ἀγορᾷ.** | elýomen tous híppous en têi agorâi | We were untying the horses in the marketplace. |
+| **ἔγραφες τὴν ἐπιστολήν.** | égraphes tēn epistolḗn | You were writing the letter. |
+| **ὁ διδάσκαλος ἐπαίδευε τὰ παιδία.** | ho didáskalos epaídeue ta paidía | The teacher was educating the children. |
 
 ---
 
 ## 6. Usage & Context
 
-1. **Narrative past** – The imperfect is the default past tense for background actions in stories, especially when a later **aorist** or **perfect** marks a specific event.  
-   - *ἔλυον* (I was loosening) → background; *ἔλυσα* (I loosed) → completed action.
-
-2. **Repeated / habitual actions** – When an action occurs repeatedly or habitually in the past, the imperfect is preferred.  
-   - *ἔλυον τὰς θύρας ἑκάστην ἡμέραν* – “I used to open the doors every day.”
-
-3. **Descriptive scenes** – In epic poetry and drama, the imperfect paints a vivid picture of ongoing activity.  
-   - *ἔλυε τὸν ἥλιον ὁ Ἀπόλλων* – “Apollo was drawing the sun.”
-
-4. **Contrast with other past tenses** –  
-   - **Imperfect vs. Aorist:** *ἔλυον* (was loosening) vs. *ἔλυσα* (loosed).  
-   - **Imperfect vs. Perfect:** *ἔλυον* (ongoing) vs. *λελύκα* (have loosed).
+1. **Background past** — the imperfect builds the setting of a story, while the aorist reports the specific event: *ἔλυον* "I was loosening" (background) vs. *ἔλυσα* "I loosed" (event).
+2. **Repeated / habitual action** — *ἔλυον τὰς θύρας ἑκάστην ἡμέραν* "I used to open the doors every day."
+3. **Conative imperfect** — an unfinished attempt: *ἔπειθον αὐτόν* "I was trying to persuade him (but…)."
+4. **Contrast with other tenses** — imperfect (in progress) / aorist (single event) / perfect (completed with abiding result): ἔλυον / ἔλυσα / λέλυκα.
 
 ---
 
 ## 7. Historical Development & Etymology
 
-- The **imperfect** goes back to Proto‑Indo‑European (PIE) *‑nt‑* and *‑s‑* series, expressing continuous past.  
-- The **augment** (*e‑*) is a Greek innovation (also found in Sanskrit *a‑* augment) that marks past time. It likely originated as a preverb meaning “before” that became a grammatical marker.  
-- The **‑ον** endings derive from the PIE *‑ont‑* suffix, which also gave the present‑active endings in Greek. The lengthening of the thematic vowel (‑ο‑) distinguishes the imperfect from the present.  
-- The **dual** forms survive from an older Indo‑European dual number, preserved only in a few Greek constructions.
+- The imperfect = **augment + present stem + secondary endings** — a formation inherited directly from Proto-Indo-European, which Sanskrit shares as well.
+- The **augment** (*e‑) was originally a past-marking particle that became grammaticalized; it survives only in Greek, Indo-Iranian, Armenian, and Phrygian.
+- The **secondary endings** (‑ν, ‑ς, ‑∅, …) are shortened variants of the primary endings and recur in all past indicatives.
+- The imperfect is alive in Modern Greek (παρατατικός) — one of the most stable formations in the language.
 
 ---
 
 ## 8. Quick Reference Sheet
 
-| Person | Imperfect Active (ω‑type) | Transliteration |
+| Person | Imperfect active (ω-verb) | Transliteration |
 |--------|---------------------------|-----------------|
-| 1st sg. | ἔ + stem + **‑ον** | **é‑…‑on** |
-| 2nd sg. | ἔ + stem + **‑ες** | **é‑…‑es** |
-| 3rd sg. | ἔ + stem + **‑ε(ν)** | **é‑…‑e(n)** |
-| 1st pl. | ἐ + stem + **‑ομεν** | **e‑…‑omen** |
-| 2nd pl. | ἐ + stem + **‑ετε** | **e‑…‑ete** |
-| 3rd pl. | ἔ + stem + **‑ον** | **é‑…‑on** |
-| Dual (all) | ἔ + stem + **‑ετον** | **é‑…‑eton** |
+| 1st sg. | ἐ + stem + **‑ον** | é-…-on |
+| 2nd sg. | ἐ + stem + **‑ες** | é-…-es |
+| 3rd sg. | ἐ + stem + **‑ε(ν)** | é-…-e(n) |
+| 1st pl. | ἐ + stem + **‑ομεν** | e-…-omen |
+| 2nd pl. | ἐ + stem + **‑ετε** | e-…-ete |
+| 3rd pl. | ἐ + stem + **‑ον** | é-…-on |
 
-*Stem* = present‑stem without the final **‑ω** (e.g., λυ‑ for λῦω).
+*Stem = the present stem without ‑ω (e.g., λυ‑ for λύω).*
 
 ---
 
-**End of Lesson** – You now know how to form and use the imperfect indicative active for regular ω‑type verbs in Ancient Greek!
+**End of Lesson** — You now know how to form and use the imperfect indicative active of regular ω-verbs in Ancient Greek!

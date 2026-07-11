@@ -3,79 +3,58 @@ morph_type: ω-verb — aorist + participle + middle
 pos: verb
 ---
 
-## Introduction to ω-Verbs
+## Introduction to ω-Verbs: The Aorist Middle Participle
 ### What are ω-Verbs?
-In Greek, verbs are classified into several categories based on their ending patterns. One such category is the ω-verb, which includes verbs that end in -ω in the first person singular of the present tense. Understanding ω-verbs is crucial for effective communication in Greek.
+In Greek, verbs are classified by the patterns of their endings. The ω-verbs are those whose first person singular present ends in ‑ω (λύω). This lesson introduces their **aorist middle participle**: a verbal adjective that describes a **single, complete** action with **middle** meaning (for oneself / on oneself).
 
 ## Forms and Patterns
-### Aorist Tense
-The aorist tense is used to describe completed actions in the past. The aorist tense of ω-verbs is formed by adding specific endings to the verb stem. The following table illustrates the aorist tense endings for ω-verbs:
+### Aorist Indicative Middle (for comparison)
+The aorist expresses a completed past action. The indicative middle conjugation of λύω, "to loose":
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | -α | -αμεν |
-| 2nd | -ας | -ατε |
-| 3rd | -ε | -αν |
+| 1st | ἐλυσάμην (elysámēn) | ἐλυσάμεθα (elysámetha) |
+| 2nd | ἐλύσω (elýsō) | ἐλύσασθε (elýsasthe) |
+| 3rd | ἐλύσατο (elýsato) | ἐλύσαντο (elýsanto) |
 
-For example, the verb λυω (luō) "to loose" has the following aorist forms:
+### The Aorist Middle Participle
+The aorist middle participle is built from the **aorist stem (without the augment) + ‑σάμενος, ‑σαμένη, ‑σάμενον** and declines like adjectives of the καλός type:
 
-| Person | Singular | Plural |
+| Case | Masculine | Feminine | Neuter |
+| --- | --- | --- | --- |
+| Nom. sg. | λυσάμενος | λυσαμένη | λυσάμενον |
+| Gen. sg. | λυσαμένου | λυσαμένης | λυσαμένου |
+| Dat. sg. | λυσαμένῳ | λυσαμένῃ | λυσαμένῳ |
+| Acc. sg. | λυσάμενον | λυσαμένην | λυσάμενον |
+| Nom. pl. | λυσάμενοι | λυσάμεναι | λυσάμενα |
+| Gen. pl. | λυσαμένων | λυσαμένων | λυσαμένων |
+
+*Meaning: "having loosed (for oneself); having ransomed" — an action the modified noun performed for itself, prior to the main verb.*
+
+### Second Aorists
+Verbs with a second aorist take the suffix ‑όμενος on the aorist stem:
+
+| Verb | Aorist middle | Participle |
 | --- | --- | --- |
-| 1st | λυσα (lusā) | λυσαμεν (lusamen) |
-| 2nd | λυσας (lusas) | λυσατε (lusate) |
-| 3rd | λυσε (luse) | λυσαν (lusān) |
-
-### Participle
-The participle form of ω-verbs is used to describe an ongoing or continuous action. The participle is formed by adding specific endings to the verb stem. The following table illustrates the participle endings for ω-verbs:
-
-| Case | Singular | Plural |
-| --- | --- | --- |
-| Nominative | -ων | -οντες |
-| Genitive | -οντος | -οντων |
-| Dative | -οντι | -ουσιν |
-| Accusative | -οντα | -οντας |
-
-For example, the verb λυω (luō) "to loose" has the following participle forms:
-
-| Case | Singular | Plural |
-| --- | --- | --- |
-| Nominative | λυων (luōn) | λυοντες (luontes) |
-| Genitive | λυοντος (luontos) | λυοντων (luontōn) |
-| Dative | λυοντι (luonti) | λυουσιν (luousin) |
-| Accusative | λυοντα (luonta) | λυοντας (luontas) |
-
-### Middle Voice
-The middle voice of ω-verbs is used to describe an action that is performed by the subject for their own benefit. The middle voice is formed by adding specific endings to the verb stem. The following table illustrates the middle voice endings for ω-verbs:
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 1st | -ομαι | -ομεθα |
-| 2nd | -σαι | -εσθε |
-| 3rd | -ετο | -οντο |
-
-For example, the verb λυω (luō) "to loose" has the following middle forms:
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 1st | λυομαι (luomai) | λυομεθα (luometha) |
-| 2nd | λυσαι (lusai) | λυεσθε (luesthe) |
-| 3rd | λυετο (lueto) | λυοντο (luonto) |
+| γίγνομαι "to become" | ἐγενόμην | **γενόμενος** "having become" |
+| λαμβάνομαι "to take hold of" | ἐλαβόμην | **λαβόμενος** "having taken hold" |
+| πυνθάνομαι "to inquire" | ἐπυθόμην | **πυθόμενος** "having inquired" |
 
 ## Key Rules and Exceptions
-* The aorist tense is used to describe completed actions in the past.
-* The participle form is used to describe an ongoing or continuous action.
-* The middle voice is used to describe an action that is performed by the subject for their own benefit.
-* The verb stem is the base form of the verb, without any endings.
+* The aorist participle is formed **without the augment**: ἐλυσάμην, but λυσάμενος.
+* The suffix ‑μενος marks all middle/passive participles; what distinguishes the aorist from the present is the **stem**: λυόμενος (present) ≠ λυσάμενος (aorist).
+* The middle meaning: action for oneself or with personal involvement; in **deponent** verbs the meaning is effectively active: γενόμενος "having become," δεξάμενος "having received."
+* The aorist middle participle ≠ passive: "having been loosed" (action done to the subject) is expressed by the passive formation λυθείς.
 
 ## Example Sentences with Translations
-* Λυσας τον δεσμον, ελευθερωθη ο αιχμαλωτος. (Lusas ton desmon, eleutherōthē o aichmalōtos.) "Having loosed the bond, the captive was freed."
-* Ο λυων τον δεσμον ην ο ιατρος. (O luōn ton desmon ēn o iatros.) "The one loosing the bond was the doctor."
-* Λυομαι τον δεσμον. (Luomai ton desmon.) "I am loosing the bond for myself."
+* **λυσάμενος τὸν αἰχμάλωτον, ἀπῆλθεν.** (lysámenos ton aikhmálōton, apêlthen) — Having ransomed the captive, he departed.
+* **ὁ δεξάμενος τὰ δῶρα ἔχαιρεν.** (ho dexámenos ta dôra ékhairen) — The one who had received the gifts rejoiced.
+* **γενόμενος βασιλεύς, εἰρήνην ἦγεν.** (genómenos basileús, eirḗnēn êgen) — Having become king, he kept the peace.
 
 ## Notes on Usage and Context
-* The aorist tense is often used in narrative to describe completed actions in the past.
-* The participle form is often used to describe an ongoing or continuous action in the present or past.
-* The middle voice is often used to describe an action that is performed by the subject for their own benefit.
+* In narrative, the aorist middle participle compactly expresses the prior action: "he did this, and then…"
+* With the article it replaces a relative clause: ὁ λυσάμενος "the one who ransomed."
+* In high-frequency deponents (γενόμενος, πυθόμενος, δεξάμενος) you will meet this form constantly in texts.
 
 ## Historical Development and Etymology
-The ω-verb conjugation is one of the oldest and most common conjugations in Greek. The aorist tense is thought to have developed from the perfect tense, which was used to describe completed actions in the past. The participle form is thought to have developed from the present tense, which was used to describe ongoing or continuous actions. The middle voice is thought to have developed from the active voice, which was used to describe actions performed by the subject on another person or thing. Understanding the historical development and etymology of ω-verbs can provide valuable insights into the structure and evolution of the Greek language.
+The suffix **‑μενος** continues the middle/passive participle suffix of Proto-Indo-European (*‑m(e)no‑) and has parallels in the related languages. Combined with the sigmatic aorist stem (‑σα‑) it produced ‑σάμενος, and with the thematic stem of the second aorist, ‑όμενος. The middle voice itself arose from ancient reflexive constructions — action for oneself — and remained a living, meaningful category in Greek. Knowing this development aids in understanding the structure and evolution of the language.

@@ -3,76 +3,103 @@ topic: aorist, participle, middle (deponent)
 pos: verb
 ---
 
-# Lesson: The Aorist Participle in the Middle (Deponent) Voice  
+# Lesson: The Aorist Middle Participle — Deponent Verbs
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic noun declension, present‑tense verb forms.*
+*Target level: Beginner–Intermediate*
+*Prerequisites: Greek alphabet, basic noun declension, present-tense verb forms.*
 
 ---
 
-## 1. What Is the Aorist Participle (Middle/Deponent)?
+## 1. What Is the Aorist Middle Participle of a Deponent Verb?
 
 | Term | Meaning in Greek grammar | Rough English equivalent |
 |------|--------------------------|--------------------------|
-| **Aorist** | A “perfect‑view” aspect that presents an action as a single, complete event, without reference to its duration. | “did / have done” (simple past) |
-| **Participle** | A verbal adjective that can modify a noun or stand in a clause. It carries tense, voice, gender, number, case. | “having done …”, “to do …” |
-| **Middle voice** | The subject is both acting and affected, or the action is performed for the subject’s own benefit. In Attic Greek the aorist participle exists only in the **middle** (or passive) form. | “I did it for myself”, “he was seen doing it” |
-| **Deponent verb** | A verb that has **no active forms**; its middle‑/passive‑form paradigms are used with an **active meaning**. The aorist participle of a deponent verb is therefore a **middle‑form** that functions like an active participle. | ἔρχομαι “I come” (no active *ἔρχω*) |
+| **Aorist** | The aspect presenting the action as a single, complete event, without reference to duration. | "did / having done" |
+| **Participle** | A verbal adjective that modifies a noun or replaces a clause; it has tense/aspect, voice, gender, number, and case. | "having done…," "the one who did" |
+| **Middle voice** | The subject is both doer and beneficiary; the action is in its own interest. | "did for oneself" |
+| **Deponent** | A verb without active forms; middle shape, active meaning. | ἔρχομαι "I come" (there is no *ἔρχω) |
 
-**Why is this important?**  
-The aorist participle lets you pack a whole clause into a single word, often to express cause, time, condition, or attendant circumstance. When it appears in the middle (or deponent) voice, it can convey an action performed **by** the noun itself, sometimes with a reflexive or “for one’s own sake” nuance.
+**Why does it matter?**
+The aorist participle packs a whole clause into one word — the cause, time, condition, or circumstances of the main action. Since the most frequent deponents (become, receive, answer, inquire) have middle aorists, their participles are in front of you on every page of Greek prose.
 
 ---
 
-## 2. Forms & Patterns  
+## 2. Forms and Patterns
 
-### 2.1. Endings of the Aorist Participle (Middle/Passive)
+### 2.1 The Endings
 
-The aorist participle is declined like a **first‑/second‑declension adjective** (the “‑ων” stem). The stem ends in **‑θ‑** (or sometimes **‑σ‑**) plus the participial suffix **‑ο‑**; the nominative masculine singular ends in **‑ων**.
+The aorist middle participle is formed with the suffix **‑μενος** and declines like first/second-declension adjectives (καλός):
+
+- **First aorist (sigmatic):** ‑σάμενος, ‑σαμένη, ‑σάμενον
+- **Second aorist (thematic):** ‑όμενος, ‑ομένη, ‑όμενον
+
+### 2.2 Building the Stem — the Main Deponents
+
+| Verb (present) | Aorist indicative | Aorist participle (masc. nom.) | Meaning |
+|-----------|-------------|------------------------|----------------|
+| **γίγνομαι** "to become" | ἐγενόμην | **γενόμενος** | having become |
+| **δέχομαι** "to receive" | ἐδεξάμην | **δεξάμενος** | having received |
+| **ἀποκρίνομαι** "to answer" | ἀπεκρινάμην | **ἀποκρινάμενος** | having answered |
+| **πυνθάνομαι** "to inquire" | ἐπυθόμην | **πυθόμενος** | having inquired |
+| **αἰσθάνομαι** "to perceive" | ᾐσθόμην | **αἰσθόμενος** | having perceived |
+| **ἡγέομαι** "to lead" | ἡγησάμην | **ἡγησάμενος** | having led |
+
+> **Two important exceptions:** (1) **ἔρχομαι** has an active aorist → participle **ἐλθών** (not *ἐλθόμενος). (2) **Passive deponents** (φοβέομαι, βούλομαι, πορεύομαι) form their aorist participle with ‑θείς: **φοβηθείς** "having feared," **πορευθείς** "having traveled."
+
+### 2.3 Full Paradigm (Example: **γενόμενος** "having become")
 
 | Case | Masculine | Feminine | Neuter |
-|------|-----------|----------|--------|
-| **Singular** | **‑ων** (nom.)<br>‑οῦ (gen.)<br>‑ῳ (dat.)<br>‑ον (acc.)<br>‑ε (voc.) | **‑ουσα** (nom.)<br>‑οῦς (gen.)<br>‑ῷ (dat.)<br>‑ουσαν (acc.)<br>‑ουσα (voc.) | **‑ον** (nom./acc./voc.)<br>‑οῦ (gen.)<br>‑ῳ (dat.) |
-| **Dual** | **‑ον** (nom./acc./voc.)<br>‑οιν (gen.)<br>‑οιν (dat.) | **‑οντ** (nom./acc./voc.)<br>‑οιν (gen.)<br>‑οιν (dat.) | **‑ον** (nom./acc./voc.)<br>‑οιν (gen.)<br>‑οιν (dat.) |
-| **Plural** | **‑οντες** (nom.)<br>‑οντων (gen.)<br>‑οσι(ν) (dat.)<br>‑οντας (acc.)<br>‑οντες (voc.) | **‑ουσαι** (nom.)<br>‑ουσῶν (gen.)<br>‑ουσῖ(ν) (dat.)<br>‑ουσας (acc.)<br>‑ουσαι (voc.) | **‑οντα** (nom./acc./voc.)<br>‑οντων (gen.)<br>‑οσι(ν) (dat.) |
-
-> **Note:** The **‑οντες / ‑ουσαι / ‑οντα** endings are the same as those of a regular first‑/second‑declension adjective in the **present** participle, but the stem is different (‑θ‑/‑σ‑ + ‑ο‑).
-
-### 2.2. Building the Stem
-
-| Verb type | Aorist stem | Middle participle stem | Example (verb) | Aorist participle (masc. nom. sg.) |
-|-----------|-------------|------------------------|----------------|------------------------------------|
-| **-ω** (regular) | ‑σ‑ (or ‑θ‑) | ‑σ‑ + ‑ο‑ | λύω “to loosen” | **λυθὼν** (from λυθ‑) |
-| **-μι** (middle) | ‑σ‑ | ‑σ‑ + ‑ο‑ | ἀποκρίνομαι “to answer” | **ἀποκριθείς** (from ἀποκριθ‑) |
-| **Deponent** (no active) | ‑σ‑ (same) | ‑σ‑ + ‑ο‑ | ἔρχομαι “to come” | **ἐλθών** (from ἐλθ‑) |
-| **Irregular** (contract) | ‑σ‑ (often with vowel change) | ‑σ‑ + ‑ο‑ | δίδωμι “to give” → διδόναι (present) → **διδὼν** (aorist participle) |
-
-*The aorist participle of a regular **‑ω** verb is formed with the **‑θ‑** (or **‑σ‑**) aorist passive marker plus the participial suffix **‑ο‑**. The resulting form looks like a middle participle.*
-
-### 2.3. Full Paradigm (example: λύω “to loosen”)
-
-|               | Masculine | Feminine | Neuter |
 |---------------|-----------|----------|--------|
-| **Nom. sg.**  | λυθὼν      | λυθεῖσα   | λυθὸν   |
-| **Gen. sg.**  | λυθοῦ     | λυθεῖσας  | λυθοῦ   |
-| **Dat. sg.**  | λυθῷ      | λυθεῖσῃ   | λυθῷ    |
-| **Acc. sg.**  | λυθόν     | λυθεῖσαν  | λυθόν   |
-| **Voc. sg.**  | λυθὼν      | λυθεῖσα   | λυθὸν   |
-| **Nom. pl.**  | λυθόντες  | λυθεῖσαι  | λυθά    |
-| **Gen. pl.**  | λυθόντων  | λυθεῖσῶν  | λυθόντων |
-| **Dat. pl.**  | λυθοῖ(ν)   | λυθεῖσῐ(ν) | λυθοῖ(ν) |
-| **Acc. pl.**  | λυθόντας  | λυθεῖσας  | λυθά    |
-| **Voc. pl.**  | λυθόντες  | λυθεῖσαι  | λυθά    |
+| Nom. sg. | γενόμενος | γενομένη | γενόμενον |
+| Gen. sg. | γενομένου | γενομένης | γενομένου |
+| Dat. sg. | γενομένῳ | γενομένῃ | γενομένῳ |
+| Acc. sg. | γενόμενον | γενομένην | γενόμενον |
+| Nom. pl. | γενόμενοι | γενόμεναι | γενόμενα |
+| Gen. pl. | γενομένων | γενομένων | γενομένων |
+| Dat. pl. | γενομένοις | γενομέναις | γενομένοις |
+| Acc. pl. | γενομένους | γενομένας | γενόμενα |
 
-*(The neuter plural nominative/accusative ends in **‑α** for many aorist participles, e.g., λυθά “having been loosed”.)*
+*Exactly like the adjective καλός, καλή, καλόν — no new endings to learn.*
 
 ---
 
-## 3. Key Rules & Common Exceptions  
+## 3. Key Rules & Common Exceptions
 
-| Rule | Explanation | Example / Note |
+| Rule | Explanation | Example |
 |------|-------------|----------------|
-| **1. No active aorist participle in Attic Greek** | The aorist participle exists only in the middle/passive form. If you need an “active” sense, you use the middle form of a middle/deponent verb or a **perfect** participle. | λυθὼν = “having been loosed” (passive in meaning). |
-| **2. Middle aorist participle can have active meaning** | For middle‑voice verbs (including deponents) the aorist participle is interpreted actively: “having done X (for oneself)”. | ἀποκριθείς = “having answered”. |
-| **3. Agreement** | The participle agrees with the noun it modifies in **case, number, gender** exactly as any adjective. | ὁ λυθὼν δοῦλος “the slave who has been set free”. |
-| **4. Use of the aorist participle** | Often expresses **cause, time, condition, attendant circumstance**.
+| **1. No augment** | The augment belongs only to the indicative. | ἐγενόμην → **γενόμενος** |
+| **2. ‑μενος = middle/passive** | The constant mark of middle participles; in deponents the meaning is active. | δεξάμενος "having received" |
+| **3. The stem makes the distinction** | Present: γιγνόμενος "becoming"; aorist: γενόμενος "having become." | — |
+| **4. Full agreement** | Case, number, gender with the modified noun. | τῇ γενομένῃ μάχῃ "in the battle that took place" |
+| **5. Priority in time** | Usually an action prior to the main verb. | πυθόμενος ταῦτα, ἀπῆλθεν "on learning this, he left" |
+| **6. Passive deponents → ‑θείς** | βουληθείς, φοβηθείς, πορευθείς. | φοβηθεὶς ἔφυγεν "in fear, he fled" |
+
+---
+
+## 4. Example Sentences
+
+| Greek | Translation |
+|--------------------------|-------------|
+| **γενόμενος βασιλεύς, εἰρήνην ἦγεν.** | Having become king, he kept the peace. |
+| **δεξάμενοι τοὺς ξένους, εἱστίασαν αὐτούς.** | Having received the guests, they feasted them. |
+| **ἀποκρινάμενος οὐδέν, ἀπῆλθεν.** | Making no answer, he left. |
+| **πυθόμενοι τὰ γενόμενα, ἐβούλευον.** | On learning what had happened, they deliberated. |
+| **ἡ μάχη ἡ γενομένη** | the battle that took place |
+
+*τὰ γενόμενα "the events, what happened" is itself an idiom that the historians use constantly.*
+
+---
+
+## 5. Usage & Context
+
+1. **Compressing narrative** — "he did/became X, and then…": the chain of participle + main verb.
+2. **Replacing a relative clause** — with the article: οἱ γενόμενοι ἄρχοντες "those who became rulers."
+3. **Standing in for a noun** — τὰ γενόμενα "events"; οἱ παραγενόμενοι "those present."
+4. **Cause and time** — αἰσθόμενος τὸν κίνδυνον "perceiving the danger…"
+5. **Lexical alertness** — do not let the middle shape mislead you: these participles have active meaning; the dictionary and the principal parts are your guides.
+
+---
+
+## 6. Historical Note
+
+The suffix **‑μενος** continues the Indo-European middle/passive participle suffix (*‑m(e)no‑). Deponents are old middle forms whose active meaning prevailed; their middle participles remained Greek's chief device for compressing narrative. In the Koine, some of these participles migrated to the passive shape (ἀποκριθείς for ἀποκρινάμενος) — a point that helps when reading later texts.

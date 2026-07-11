@@ -3,60 +3,48 @@ morph_type: ω-verb — perfect + indicative + active
 pos: verb
 ---
 
-### Introduction to ω-Verb — Perfect + Indicative + Active
-The perfect tense in Greek is used to describe an action that started in the past and continues up to the present moment, or an action that happened in the past and has a connection to the present. The ω-verbs, also known as the omega verbs, are a group of verbs that have the letter ω (omega) in their stem. In this lesson, we will explore the perfect indicative active of ω-verbs.
+### Introduction to ω-Verbs — Perfect + Indicative + Active
+The **perfect** tense in Greek describes an action completed in the past whose **result still holds now**: γέγραφα "I have written (and the writing exists)." ω-Verbs are those whose first person present ends in ‑ω. In this lesson we examine their perfect indicative active.
 
 ### Forms and Patterns
-The perfect indicative active of ω-verbs follows a specific pattern. The verb stem is formed by adding a prefix to the root of the verb, and then the perfect active endings are added. The perfect active endings for ω-verbs are as follows:
+The perfect active is built as follows: **reduplication + stem + (κ) + the perfect endings**. The endings:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | -α | -μεν |
-| 2nd | -ας | -τε |
-| 3rd | -εν | -ασι |
+| 1st | ‑α | ‑αμεν |
+| 2nd | ‑ας | ‑ατε |
+| 3rd | ‑ε(ν) | ‑ασι(ν) |
 
-Here is an example of the verb ἀγαπάω (to love) in the perfect indicative active:
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 1st | ἠγάπακα | ἠγαπάμεθα |
-| 2nd | ἠγάπακας | ἠγαπάτε |
-| 3rd | ἠγάπακεν | ἠγάπακαν |
-
-Another example of the verb ἀγαπάω in the perfect indicative active, with a different conjugation pattern, is as follows:
+Example: the verb **λύω** "to loose" → perfect **λέλυκα**:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | ἠγάγακα | ἠγάγαμεν |
-| 2nd | ἠγάγας | ἠγάγατε |
-| 3rd | ἠγάγαν | ἠγάγασιν |
+| 1st | λέλυκα | λελύκαμεν |
+| 2nd | λέλυκας | λελύκατε |
+| 3rd | λέλυκε(ν) | λελύκασι(ν) |
+
+A contract-verb example: **ἀγαπάω** "to love" → **ἠγάπηκα** (the initial vowel is lengthened in place of reduplication, and the stem vowel lengthens to η before the κ):
+
+| Person | Singular | Plural |
+| --- | --- | --- |
+| 1st | ἠγάπηκα | ἠγαπήκαμεν |
+| 2nd | ἠγάπηκας | ἠγαπήκατε |
+| 3rd | ἠγάπηκε(ν) | ἠγαπήκασι(ν) |
 
 ### Key Rules and Exceptions
-One key rule to note is that the perfect indicative active of ω-verbs uses the augment, which is a prefix added to the beginning of the verb stem. The augment is either ε- (epsilon) or η- (eta), depending on the verb.
-
-Another important rule is that the perfect indicative active of ω-verbs uses the reduplication of the initial consonant of the verb root. This means that the initial consonant is repeated at the beginning of the verb stem.
-
-The paradigm of the verb ἀγαπάω in the perfect indicative active is as follows:
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 1st | ἠγάπακα | ἠγαπάμεθα |
-| 2nd | ἠγάπακας | ἠγαπάτε |
-| 3rd | ἠγάπακεν | ἠγάπακαν |
+- **Reduplication**: consonant-initial verbs repeat their first consonant with ε: λύω → **λέ**λυκα; παιδεύω → **πε**παίδευκα.
+- **Vowel-initial verbs** lengthen the vowel instead of reduplicating (it looks like the augment): ἀγαπάω → **ἠ**γάπηκα.
+- **Reduplication ≠ augment**: the augment appears only in past indicatives and drops in the other moods; reduplication is part of the perfect stem and stays in every mood.
+- The **first perfect** has the marker **‑κα** (λέλυκα); the **second perfect** lacks the κ and often shows consonant/vowel changes: γράφω → **γέγραφα**, λείπω → **λέλοιπα**, πέμπω → **πέπομφα**.
+- Verbs beginning with φ, χ, θ reduplicate with π, κ, τ: θύω → **τέ**θυκα; φαίνω → **πέ**φηνα.
 
 ### Example Sentences with Translations
-Here are a few example sentences using the perfect indicative active of ω-verbs:
-
-* ἠγάπακα τὴν γυναῖκα μου (I have loved my wife)
-* ἠγάπακας τὸν ἀδελφὸν σου (You have loved your brother)
-* ἠγάπακεν τὴν πόλιν (He has loved the city)
+* **λέλυκα τὸν ἵππον.** — I have untied the horse (and it is now free).
+* **ἠγάπηκας τὸν ἀδελφόν σου.** — You have loved your brother.
+* **γέγραφε τὴν ἐπιστολήν.** — He has written the letter (and it now exists).
 
 ### Notes on Usage and Context
-The perfect indicative active of ω-verbs is used to describe an action that started in the past and continues up to the present moment, or has a connection to the present. It is often used to describe a state or condition that has resulted from a past action.
-
-For example, the sentence ἠγάπακα τὴν γυναῖκα μου (I have loved my wife) implies that the speaker has loved their wife from the past up to the present moment, and that this love is still ongoing.
+The Greek perfect is less a "past" than a **present arising from the past**: it stresses the present result of the action. Several very common perfects have practically present meaning: **οἶδα** "I know," **ἕστηκα** "I stand," **τέθνηκε** "he is dead," **μέμνημαι** "I remember." In English "have done" usually works as a translation, but always ask: what is the present result?
 
 ### Historical Development and Etymology
-The perfect indicative active of ω-verbs has its roots in ancient Greek. The use of the augment and reduplication of the initial consonant of the verb root are features that date back to the earliest forms of the Greek language.
-
-The ω-verbs are a group of verbs that have a specific set of conjugation patterns, and the perfect indicative active is just one of the many tenses and moods that these verbs can be conjugated in. Understanding the historical development and etymology of the Greek language can help to shed light on the complexities of the language and provide a deeper appreciation for its structure and syntax.
+Reduplication is an ancient Indo-European feature (compare Sanskrit). The perfect originally expressed the **state** arising from an action (λέλοιπα "I am in a state of having left"), and the κ of the first perfect is a Greek innovation. In the Koine the boundary between perfect and aorist blurred, and in Modern Greek the old perfect disappeared, replaced by the periphrasis έχω + infinitive. Knowing this development helps in reading texts of different periods.

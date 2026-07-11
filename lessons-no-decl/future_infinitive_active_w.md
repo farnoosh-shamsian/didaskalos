@@ -3,80 +3,101 @@ topic: future, infinitive, active (ω)
 pos: verb
 ---
 
-# Lesson: The Future Active Infinitive (‑ω)  
+# Lesson: The Future Active Infinitive (ω-Verbs)
 
-**Topic:** *Future, infinitive, active* – the form ending in **‑ω** (e.g., **λῦσῃν**, **γράψῆν**, **τιμήσω**)  
+**Topic:** *Future, infinitive, active* — the form ending in **‑σειν** (e.g., **λύσειν**, **γράψειν**, **τιμήσειν**)
 
 ---
 
-## 1. What the Future Active Infinitive Is  
+## 1. What the Future Active Infinitive Is
 
-| Term | Meaning in English | Typical English Equivalent |
+| Term | Meaning | Typical English equivalent |
 |------|-------------------|----------------------------|
-| **Future** | Action that will happen **later** than the moment of speaking. | “will …”, “shall …” |
-| **Infinitive** | The “bare” verb form that does not show person or number. | “to …” |
-| **Active** | The subject of the verb performs the action (as opposed to middle/passive). | “to write”, not “to be written”. |
+| **Future** | An action that will happen **after** the moment of speaking. | "will …" |
+| **Infinitive** | The "bare" verb form, without person or number. | "to …" |
+| **Active** | The (logical) subject performs the action. | "to write," not "to be written" |
 
-The **future active infinitive** therefore means **“to be about to do something”** or **“to intend/plan to do something”**. In Ancient Greek it is used mainly in **indirect statements** after verbs of saying, thinking, perceiving, etc., and in certain purpose or result clauses.
+The **future active infinitive** therefore means "to be going to do…," "that … will do." Its main uses are in **indirect statement** after verbs of saying and thinking, and with the verb **μέλλω** "to intend, to be about to."
 
-> **Greek:** *ἔφη λῦσῃν τὸν δεσμὸν.*  
-> **Literal:** “He said that he would loosen the bond.”  
-> **English:** “He said he would loosen the bond.”
+> **Greek:** *ἔφη λύσειν τὸν δεσμόν.*
+> **Literal:** "He said that he would loose the bond."
 
 ---
 
-## 2. How It Is Formed  
+## 2. How It Is Formed
 
-### 2.1 The Future Stem  
+### 2.1 The Future Stem
 
-1. **Take the present stem** (the part you find in the present indicative).  
-2. **Add the future‑marker** **‑σ‑** (or **‑ψ‑** after a vowel).  
-   * For most **‑ω** verbs: **‑σ‑** (e.g., λυ‑ → **λυσ‑**).  
-   * For verbs whose present stem ends in a vowel: **‑ψ‑** (e.g., γράφ‑ → **γράψ‑**).  
-3. **Contract** if the verb is a contract verb (‑άω, ‑έω, ‑όω).  
+1. **Take the present stem** (the part before ‑ω).
+2. **Add the future marker ‑σ‑**; a final consonant merges with σ: labial + σ → ψ (γραφ‑ → γραψ‑), velar + σ → ξ.
+3. In **contract verbs** the stem vowel lengthens first: τιμα‑ → τιμησ‑, ποιε‑ → ποιησ‑.
 
-### 2.2 The Infinitive Ending  
+### 2.2 The Infinitive Ending
 
-The active future infinitive ending is **‑ῆν** (long eta + nu).  
-Thus the complete form = **future‑stem + ‑ῆν**.
+The ending of the future active infinitive is the same **‑ειν** as the present infinitive — but on the future stem: **future stem + ‑ειν = ‑σειν**.
 
-> **λυσ‑ + ‑ῆν → λῦσῃν**  
-> **γράψ‑ + ‑ῆν → γράψῆν**  
-> **τιμ‑ + ‑ῆν → τιμήσω** (contract verb, see §2.3)
+> **λυσ‑ + ‑ειν → λύσειν**
+> **γραψ‑ + ‑ειν → γράψειν**
+> **τιμησ‑ + ‑ειν → τιμήσειν**
 
-### 2.3 Special Cases  
+### 2.3 Special Cases
 
 | Verb type | Future stem formation | Future active infinitive |
 |-----------|----------------------|--------------------------|
-| **Regular ‑ω** (e.g., *λύω*) | present stem + **‑σ‑** | **λῦσῃν** |
-| **‑εω / ‑οω** (e.g., *ποιέω*) | present stem + **‑σ‑** (no contraction) | **ποιήσω** |
-| **Contract ‑άω** (e.g., *τιμάω*) | present stem + **‑σ‑**, then contract **‑α‑** → **‑α‑** becomes **‑α‑** (no lengthening) | **τιμήσω** |
-| **Contract ‑έω** (e.g., *φιλέω*) | present stem + **‑σ‑**, contract **‑ε‑** → **‑η‑** | **φιλήσω** |
-| **Contract ‑όω** (e.g., *διδάσκομαι* – not a contract, ignore) | – | – |
-| **Verbs ending in ‑μι** (e.g., *ἵστημι*) | irregular: **‑σ‑** is inserted after the stem | **στήσω** (future indicative) → **στήσῃν** (future infinitive) |
-| **Irregular verbs** (e.g., *εἰμί*) | **εἰ** → **ἔσομαι** (future indicative) → **ἔσεσθαι** (future **middle/passive** infinitive; active infinitive does not exist) | — |
+| **Regular ‑ω** (*λύω*) | stem + ‑σ‑ | **λύσειν** |
+| **‑έω contract** (*ποιέω*) | ε → η + ‑σ‑ | **ποιήσειν** |
+| **‑άω contract** (*τιμάω*) | α → η + ‑σ‑ | **τιμήσειν** |
+| **‑όω contract** (*δηλόω*) | ο → ω + ‑σ‑ | **δηλώσειν** |
+| **Liquid (λ, ρ, μ, ν)** (*ἀγγέλλω*) | no σ, contracted future | **ἀγγελεῖν** |
+| **‑μι** (*ἵστημι*) | στησ‑ | **στήσειν** |
+| **εἰμί** "to be" | middle future ἔσομαι | **ἔσεσθαι** (middle; there is no future active infinitive) |
 
-> **Note:** The active future infinitive **does not exist** for the verb *εἰμί* (to be). Instead, the future middle/passive infinitive **ἔσεσθαι** is used.
+> **Note:** verbs with middle-shaped futures also have middle future infinitives: ὁράω → ὄψεσθαι, ἀκούω → ἀκούσεσθαι, εἰμί → ἔσεσθαι.
 
 ---
 
-## 3. Full Paradigm for a Regular ‑ω Verb  
+## 3. Comparison with the Other Infinitives
 
-Below is the complete future active infinitive paradigm for the verb **λῦω** “to loosen, release”. Only the infinitive is shown, but the same future stem (**λυσ‑**) is used for all persons in the future indicative.
+The infinitive has no person or number; each verb has just one form:
 
-| Person/Number | Future Active Infinitive |
-|---------------|--------------------------|
-| **1st sg.** (the infinitive is neuter, no person) | **λῦσῃν** |
-| **2nd sg.** – (not applicable) | — |
-| **3rd sg.** – (not applicable) | — |
-| **Plural** – (not applicable) | — |
-
-Because the infinitive is a **non‑personal** form, there is only **one** shape: **λῦσῃν**.
-
-### 3.1 Comparison with Other Tenses  
-
-| Form | Greek | English gloss |
+| Form | Greek | Gloss |
 |------|-------|---------------|
-| Present infinitive (active) | λῦειν | “to loosen” |
-| Aorist infinitive (active) | λῦσαι | “to have loosened / to loosen (once)” |
-| Future infinitive (active)
+| Present infinitive active | λύειν | "to be loosing" |
+| Aorist infinitive active | λῦσαι | "to loose (once)" |
+| **Future infinitive active** | **λύσειν** | "to be going to loose; that … will loose" |
+
+*A visual trap: λύειν and λύσειν differ only in the σ — train your eye on that σ.*
+
+---
+
+## 4. Key Rules
+
+1. **The future infinitive conveys relative time** — it is the only infinitive that genuinely preserves "futurity": in indirect statement, an event **after** the main verb.
+2. **With μέλλω** — the most common companion: μέλλω γράψειν "I intend to write / am about to write." (μέλλω also takes the present infinitive.)
+3. **No augment** — like all infinitives.
+4. **Negation with μή** — though in indirect statement the οὐ of the original assertion is often retained.
+
+---
+
+## 5. Example Sentences
+
+| Greek | English |
+|-------|---------------|
+| **ἔφη λύσειν τὸν δεσμόν.** | He said that he would loose the bond. |
+| **μέλλομεν γράψειν τὴν ἐπιστολήν.** | We intend to write the letter. |
+| **ἐνόμιζον τοὺς συμμάχους ἥξειν.** | They thought the allies would come. |
+| **ὑπέσχετο δώσειν τὰ χρήματα.** | He promised to give the money. |
+
+---
+
+## 6. Usage & Context
+
+1. **Indirect statement** — after φημί, νομίζω, ἐλπίζω, ὑπισχνέομαι: hopes, promises, and expectations about the future naturally take the future infinitive.
+2. **μέλλω + future infinitive** — the standard construction for "to be about to / to intend."
+3. **Rare but distinctive** — outside these two contexts the future infinitive is uncommon; meeting it almost always signals indirect statement or μέλλω.
+
+---
+
+## 7. Historical Note
+
+The future infinitive is a specifically Greek formation: the present infinitive ending (‑ειν) on the sigmatic future stem. It declined in the Koine — the New Testament has only a handful of examples — replaced by μέλλω + infinitive and later by ὅτι/ἵνα clauses; in Modern Greek the infinitive has disappeared entirely.

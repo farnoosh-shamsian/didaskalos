@@ -4,65 +4,73 @@ pos: verb
 ---
 
 ## Introduction to ω-Verb Conjugation
-The ω-verb conjugation is a fundamental concept in the Greek language, essential for effective communication. In this lesson, we will explore the aorist, subjunctive, and active forms of ω-verbs, providing a comprehensive understanding of their usage and application.
+The conjugation of ω-verbs is a fundamental concept of the Greek language. In this lesson we examine the aorist subjunctive active forms of these verbs to clarify their use and place in the system.
 
 ## Explanation of the Grammatical Concept
-The aorist subjunctive active form of ω-verbs is used to describe completed actions in the past with uncertainty or possibility. This grammatical concept is crucial for expressing doubt, uncertainty, or possibility about an action that occurred in the past. The aorist subjunctive active is formed using the aorist stem of the verb, which for ω-verbs, typically involves adding specific suffixes to the verb stem.
+The **aorist subjunctive active** expresses possibility, purpose, condition, and exhortation — with **aoristic aspect**, that is, an action conceived as single and complete. The crucial point: outside the indicative mood, the aorist **does not refer to past time**; ἐὰν γράψῃς means "if you write (this)," not "if you wrote in the past." The aorist subjunctive is built on the **unaugmented aorist stem**, and the long vowels are the mark of the mood.
 
 ## Forms and Patterns
-The conjugation of ω-verbs in the aorist subjunctive active can be illustrated with the following tables:
+The following tables illustrate the conjugation of ω-verbs:
 
-### Aorist Active
-The aorist active form of ω-verbs is used to describe completed actions in the past. The conjugation pattern is as follows:
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 1st | ἔγραψα (I wrote) | ἔγραψαμεν (we wrote) |
-| 2nd | ἔγραψας (you wrote) | ἔγραψατε (you wrote) |
-| 3rd | ἔγραψεν (he/she/it wrote) | ἔγραψαν (they wrote) |
-
-### Subjunctive Active
-The subjunctive active form of ω-verbs is used to express uncertainty, possibility, or potentiality. The conjugation pattern is as follows:
+### Aorist Indicative Active (for comparison)
+The aorist indicative reports a completed past action:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | γράφω (I may write) | γράφωμεν (we may write) |
-| 2nd | γράφῃς (you may write) | γράφητε (you may write) |
-| 3rd | γράφῃ (he/she/it may write) | γράφωσιν (they may write) |
+| 1st | ἔγραψα "I wrote" | ἐγράψαμεν "we wrote" |
+| 2nd | ἔγραψας "you wrote" | ἐγράψατε "you wrote" |
+| 3rd | ἔγραψε(ν) "he/she/it wrote" | ἔγραψαν "they wrote" |
+
+### Present Subjunctive Active (for comparison)
+The present subjunctive conveys the same possibility/purpose with in-progress aspect:
+
+| Person | Singular | Plural |
+| --- | --- | --- |
+| 1st | γράφω | γράφωμεν |
+| 2nd | γράφῃς | γράφητε |
+| 3rd | γράφῃ | γράφωσι(ν) |
 
 ### Aorist Subjunctive Active
-The aorist subjunctive active form of ω-verbs is used to describe completed actions in the past with uncertainty or possibility. The conjugation pattern is as follows:
+**Aorist stem (without the augment) + long mood vowel + endings:**
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | γράψω (I may have written) | γράψωμεν (we may have written) |
-| 2nd | γράψῃς (you may have written) | γράψητε (you may have written) |
-| 3rd | γράψῃ (he/she/it may have written) | γράψωσιν (they may have written) |
+| 1st | γράψω | γράψωμεν |
+| 2nd | γράψῃς | γράψητε |
+| 3rd | γράψῃ | γράψωσι(ν) |
 
-Using the verb λύω (to loose), the aorist subjunctive active is formed by adding the appropriate suffixes to the aorist stem λυ-.
+With the verb λύω, "to loose" (aorist stem λυσ‑):
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | λύω (λυσω) | λύωμεν (λυσωμεν) |
-| 2nd | λύῃς (λυσης) | λύητε (λυσητε) |
-| 3rd | λύῃ (λυση) | λύωσι(ν) (λυσωσι(ν)) |
+| 1st | λύσω | λύσωμεν |
+| 2nd | λύσῃς | λύσητε |
+| 3rd | λύσῃ | λύσωσι(ν) |
+
+*Note: the only thing separating the aorist subjunctive from the present subjunctive is the **σ of the stem** (γράψῃς vs. γράφῃς); and the only things separating it from the indicative are the **absence of the augment and the long vowel**.*
 
 ## Key Rules and Exceptions
-The following rules and exceptions are essential to keep in mind when conjugating ω-verbs:
-* The aorist active form is used to describe completed actions in the past.
-* The subjunctive active form is used to express uncertainty, possibility, or potentiality.
-* The aorist subjunctive active form is used to describe completed actions in the past with uncertainty or possibility.
-* The verb stem remains the same for all forms, but the endings change according to the person, number, and tense.
-* **Aorist Stem Formation**: For ω-verbs, the aorist stem is usually formed by adding -σα- or -σαμε- to the present stem for the singular and plural first person respectively.
-* **Subjunctive Suffixes**: The subjunctive mood is indicated by specific suffixes added to the aorist stem, as shown in the tables above.
-* **Accentuation**: The accent in the aorist subjunctive can vary, often following the pattern of the verb's present tense accentuation but with adjustments due to the subjunctive suffixes.
+* The subjunctive always has the **long mood vowel**: ω/η instead of ο/ε.
+* **It takes no augment**: ἔλυσα but λύσω (subjunctive).
+* The 1st person singular of the aorist subjunctive (λύσω) is **identical in form to the future indicative**; context (ἐάν, ἵνα, μή) decides.
+* Verbs with a **second aorist** take the same vowels on their own stem: λαμβάνω → **λάβω, λάβῃς, λάβῃ…**; ἔρχομαι → **ἔλθω**.
+* Contract verbs lengthen the stem vowel before σ: ποιέω → **ποιήσω, ποιήσῃς…**
+* The accent is normally recessive and stays on the stem.
 
 ## Example Sentences with Translations
-1. **Ἐάν λύῃς τὴν σφραγῖδα, εὑρήσεις τὸ μυστήριον.** - If you loose the seal, you will find the mystery.
-2. **Λύωμεν τὰς πόρτας, ἵνα εἰσέλθωμεν.** - Let us loose the doors, so that we may enter.
+1. **ἐὰν λύσῃς τὴν σφραγῖδα, εὑρήσεις τὸ μυστήριον.** — If you loose the seal, you will find the mystery.
+2. **λύσωμεν τὰς θύρας, ἵνα εἰσέλθωμεν.** — Let us open the doors, so that we may enter.
+3. **μὴ γράψῃς ταῦτα.** — Do not write these things! (one-time prohibition)
 
 ## Notes on Usage and Context
-The aorist subjunctive is used in clauses beginning with Ἐάν (if), Ἵνα (so that), or in relative clauses to express a condition or a purpose. It's essential to understand the context in which the aorist subjunctive is used, as it often implies a past potentiality or a hypothetical situation.
+The aorist subjunctive appears in these contexts:
+- **Condition with ἐάν**: ἐὰν λύσῃ… "if he looses…"
+- **Purpose with ἵνα/ὅπως**: ἵνα λύσῃ "so that he may loose"
+- **Exhortation (1st person plural)**: λύσωμεν "let us loose!"
+- **Prohibition with μή**: μὴ λύσῃς "do not loose!" — the standard way of forbidding a single act
+- **Fear clauses with μή**: φοβοῦμαι μὴ λύσῃ "I fear he may loose it"
+
+Choosing the aorist (rather than the present) in all of these is an **aspectual** choice: a single act versus an act in progress.
 
 ## Historical Development and Etymology
-The use of the aorist subjunctive in Greek reflects the language's complex system of expressing tense, mood, and aspect. Historically, the development of the aorist subjunctive is tied to the evolution of the Greek verb system, with influences from other ancient languages. The ω-verbs, in particular, show a pattern of conjugation that is distinct yet consistent within the broader context of Greek grammar. Understanding the etymology and historical development of these forms can provide deeper insights into the structure and usage of the language.
+The long mood vowel of the subjunctive reached Greek from Proto-Indo-European and has a parallel in Sanskrit. The formal identity of the aorist subjunctive (λύσω) and the future indicative is no accident: the Greek future grew out of old subjunctive/desiderative formations. In Koine Greek the subjunctive absorbed the optative's territory, and in Modern Greek (with the marker να) it remains the backbone of the mood system — so mastering it pays off both for classical texts and for understanding the language's development.

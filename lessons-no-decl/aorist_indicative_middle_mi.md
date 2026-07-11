@@ -3,128 +3,138 @@ topic: aorist, indicative, middle (μι)
 pos: verb
 ---
 
-# Lesson: The Aorist Indicative Middle – Forms in **‑μι**
+# Lesson: The Aorist Indicative Middle of **‑μι** Verbs
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic idea of tense, mood, voice, and the regular present‑active‑indicative endings.*
+*Target level: Beginner–Intermediate*
+*Prerequisites: Greek alphabet, basic notions of tense, mood, and voice, and the present indicative active endings.*
 
 ---
 
-## 1. What is the Aorist Indicative Middle?
+## 1. What Is the Aorist Indicative Middle?
 
 | Term | Meaning in Greek grammar |
 |------|--------------------------|
-| **Aorist** | A “simple past” tense that presents an action as a whole, without reference to its duration or repetition. |
-| **Indicative** | The “statement” mood – used for ordinary factual sentences. |
-| **Middle** | One of the three voices (active, middle, passive). The middle expresses the subject acting **for or upon itself**, or a reflexive, reciprocal, or self‑beneficial action. In many verbs the middle also carries a **deponent** sense (the verb has only middle/passive forms). |
+| **Aorist** | The Greek "simple past": it presents the action as a whole, without reference to duration or repetition. |
+| **Indicative** | The "statement" mood — for ordinary factual sentences. |
+| **Middle** | One of the three voices (active, middle, passive): the subject acts **for itself or on itself** — reflexive, reciprocal, or self-benefiting. In many verbs it has a **deponent** sense. |
 
-When we combine these three categories we get **the aorist indicative middle**: a past‑tense statement where the subject is acting on itself or in a self‑directed way.
+Combining the three: a statement about the past in which the subject acted with some self-involvement.
 
-### The special **‑μι** ending
+### What Is Special about **‑μι** Verbs
 
-Most aorist middle forms use the endings **‑μην, ‑σο, ‑το, ‑μεν, ‑τε, ‑ντο** (e.g., *ἔλυσα* → *ἐλυσάμην*).  
-A small group of verbs, however, attach the middle ending **‑μι** directly to the aorist stem, giving forms such as **ἔσθιμι** “I ate (for myself)”.  
-
-These **‑μι** forms are historically older and survive in a limited set of verbs, many of which are **deponent** (they have no active aorist).  
+ω-Verbs form the aorist middle on the sigmatic stem: *ἔλυσα* → **ἐλυσάμην**.
+The **μι-verbs** (δίδωμι, τίθημι, ἵημι) attach the middle endings **directly, without a thematic vowel**, to the short aorist stem: τίθημι → **ἐθέμην** "I placed for myself," δίδωμι → **ἐδόμην** "I gave (of my own)." This linking-vowel-free ("athematic") formation is the older one — which is exactly why it survived in the most frequent verbs.
 
 ---
 
-## 2. Forms and Patterns  
+## 2. Forms and Patterns
 
-### 2.1 Regular Aorist Middle (‑μην) Paradigm  
+### 2.1 The Sigmatic Aorist Middle (for comparison)
 
 | Person | Singular | Plural |
 |--------|----------|--------|
-| 1st | ‑ **μην** (e.g., *ἐλυσάμην*) | ‑ **μεν** (e.g., *ἐλυσάμεν*) |
-| 2nd | ‑ **σο** (e.g., *ἐλυσάσο*) | ‑ **τε** (e.g., *ἐλυσάτε*) |
-| 3rd | ‑ **το** (e.g., *ἐλυσάτο*) | ‑ **ντο** (e.g., *ἐλυσάντο*) |
+| 1st | **ἐλυσάμην** | **ἐλυσάμεθα** |
+| 2nd | **ἐλύσω** | **ἐλύσασθε** |
+| 3rd | **ἐλύσατο** | **ἐλύσαντο** |
 
-*Stem*: aorist stem (often with a **σ** or **τ** augment in the indicative active, but the middle uses the same stem without augment).  
+*(The verb λύω "to loose"; the secondary middle endings: ‑μην, ‑σο, ‑το, ‑μεθα, ‑σθε, ‑ντο.)*
 
-*Example*: **λῡ́ω** “to loosen” → aorist stem **λῡσ‑** →  
-- 1st sg. **ἐλυσάμην** “I loosed (for myself)”
+### 2.2 The Aorist Middle of μι-Verbs — Full Paradigms
 
----
-
-### 2.2 Aorist Middle in **‑μι**  
+**τίθημι "to place" → ἐθέμην (short stem θε‑):**
 
 | Person | Singular | Plural |
 |--------|----------|--------|
-| 1st | **‑μι** (e.g., *ἔσθιμι*) | **‑μεν** (e.g., *ἔσθιμεν*) |
-| 2nd | **‑ς** (e.g., *ἔσθις*) | **‑τε** (e.g., *ἔσθιτε*) |
-| 3rd | **‑** (no ending) (e.g., *ἔσθι*) | **‑ν** (e.g., *ἔσθιν*) |
+| 1st | **ἐθέμην** | **ἐθέμεθα** |
+| 2nd | **ἔθου** | **ἔθεσθε** |
+| 3rd | **ἔθετο** | **ἔθεντο** |
 
-*Stem*: aorist stem that ends in a vowel (often **‑ι** or **‑υ**) to which **‑μι** attaches directly.  
+**δίδωμι "to give" → ἐδόμην (short stem δο‑):**
 
-**Key point:** The 1st‑person singular ends in **‑μι**, not **‑μην**. The other persons follow the regular middle endings (‑ς, ‑, ‑τε, ‑ν) but without the **‑μ** of the regular paradigm.
+| Person | Singular | Plural |
+|--------|----------|--------|
+| 1st | **ἐδόμην** | **ἐδόμεθα** |
+| 2nd | **ἔδου** | **ἔδοσθε** |
+| 3rd | **ἔδοτο** | **ἔδοντο** |
 
----
+*2nd singular: ἔθε(σ)ο → ἔθου and ἔδο(σ)ο → ἔδου — the σ drops between vowels and the vowels contract.*
 
-### 2.3 Verbs that use the **‑μι** pattern  
+### 2.3 The Textbook Example: **ἐπριάμην** "I bought"
 
-| Verb (present) | Meaning | Aorist middle (‑μι) |
+The verb πρίαμαι "to buy" is used only in the aorist and has a perfectly athematic conjugation:
+
+| Person | Singular | Plural |
+|--------|----------|--------|
+| 1st | **ἐπριάμην** | **ἐπριάμεθα** |
+| 2nd | **ἐπρίω** | **ἐπρίασθε** |
+| 3rd | **ἐπρίατο** | **ἐπρίαντο** |
+
+### 2.4 Verbs That Follow This Pattern
+
+| Verb (present) | Meaning | Aorist middle |
 |----------------|---------|----------------------|
-| **ἔσθιω** (ἔσθι‑) | “to eat” (deponent) | **ἔσθιμι** “I ate (for myself)” |
-| **ἀποδιδάσκομαι** → *ἀποδιδάσκομαι* (rare) | “to teach back” | **ἀποδιδάσκομαι** (same) – note many deponents keep the same form |
-| **προσαγορεύω** (rare) | “to call” (deponent) | **προσαγορεύσω** (active) – not a true ‑μι case |
-| **ἁμαρτάνω** (deponent) | “to err” | **ἁμάρτημι** (aorist middle) |
-| **ἀποκρίνεσθαι** (deponent) | “to answer” | **ἀποκρίνομαι** (present) – aorist **ἀποκρίνομαι** (same) |
-
-*The most common textbook example is **ἔσθιμι**.*
+| **τίθημι** | to place | **ἐθέμην**; in compounds: συνεθέμην "I agreed" |
+| **δίδωμι** | to give | **ἐδόμην**; in compounds: ἀπεδόμην "I sold" |
+| **ἵημι** | to send, let go | **εἵμην**; almost always in compounds: ἀφείμην, προείμην |
+| **πρίαμαι** | to buy | **ἐπριάμην** (aorist only) |
 
 ---
 
-## 3. Key Rules & Exceptions  
+## 3. Key Rules & Exceptions
 
 | Rule | Explanation |
 |------|-------------|
-| **1. Identify the aorist stem** | For regular verbs, the aorist stem is found in the aorist active (e.g., *λῡσ‑*). For ‑μι verbs the stem already ends in a vowel (e.g., *ἔσθι‑*). |
-| **2. Use the correct ending** | If the verb belongs to the **‑μι** class, attach **‑μι** for 1st sg.; otherwise use **‑μην**. |
-| **3. No augment in the middle** | Unlike the aorist active indicative, the aorist middle **does not take the augment** (the “ε‑” that appears in the active aorist). |
-| **4. Deponent verbs** | Many ‑μι verbs are **deponent**: they have no active aorist at all, only middle (or passive) forms. Treat them as middle in meaning. |
-| **5. 3rd‑person singular has no ending** | In the ‑μι paradigm the 3rd‑sg. is just the stem (e.g., *ἔσθι*). |
-| **6. Plural endings** | The plural follows the regular middle endings **‑μεν, ‑τε, ‑ν** (no extra **‑μ**). |
-| **7. Spelling change** | When the stem ends in **‑ι** and the ending begins with **‑σ**, the **‑σ** is dropped (e.g., *ἔσθις* not *ἔσθιςσ*). |
-| **8. Exception – verbs with **‑σ** in the stem** | Some verbs keep the **‑σ** before the ending (e.g., *προσέρχομαι* → aorist *προσελήλυθα* – not a ‑μι case). |
+| **1. The short stem** | The μι aorist middle is built on the short stem: θε‑, δο‑, ἑ‑ — not on the long stem of the active singular (θηκ‑, δωκ‑). |
+| **2. The augment stays** | As in every past indicative, the augment ἐ‑ appears: **ἐ**θέμην, **ἐ**δόμην. |
+| **3. No thematic vowel** | The endings attach directly to the stem: ἔθε‑ντο (not *ἐθέ-ο-ντο). |
+| **4. Loss of σ in the 2nd singular** | ‑σο after a vowel simplifies to ‑ου/‑ω: ἔθου, ἔδου, ἐπρίω. |
+| **5. The middle meaning is often lexical** | ἐθέμην νόμους "I enacted laws (for my city)," ἀπεδόμην "I sold" (gave and got the price). |
+| **6. Watch for compounds** | These forms mostly occur in prefixed verbs: συν-εθέμην, ἀπ-εδόμην, ἀφ-είμην — the augment sits after the prefix. |
+| **7. Do not confuse with the passive** | The aorist passive of these verbs uses ‑θη‑: ἐδόθην "I was given," ἐτέθην "I was placed." |
 
 ---
 
-## 4. Example Sentences  
+## 4. Example Sentences
 
-| Greek (aorist middle ‑μι) | Transliteration | English |
+| Greek (μι aorist middle) | Transliteration | English |
 |---------------------------|----------------|---------|
-| **ἔσθιμι τὸν ἄρτον.** | *ésthimi tòn árton.* | “I ate the bread (for myself).” |
-| **ἔσθις τὸν ἄρτον.** | *ésthis tòn árton.* | “You ate the bread (for yourself).” |
-| **ἔσθι τὸν ἄρτον.** | *ésthi tòn árton.* | “He/She ate the bread (for himself/herself).” |
-| **ἔσθιμεν τὸν ἄρτον.** | *ésthimen tòn árton.* | “We ate the bread (for ourselves).” |
-| **ἔσθιτε τὸν ἄρτον.** | *ésthite tòn árton.* | “You (pl.) ate the bread (for yourselves).” |
-| **ἔσθιν τὸν ἄρτον.** | *ésthin tòn árton.* | “They ate the bread (for themselves).” |
+| **ἔθετο τὸ ξίφος ἐπὶ τὴν τράπεζαν.** | *étheto to xíphos…* | He laid his sword on the table. |
+| **οἱ πολῖται νόμους ἔθεντο.** | *hoi polîtai nómous éthento* | The citizens enacted laws for themselves. |
+| **ἀπέδοτο τὸν ἀγρόν.** | *apédoto ton agrón* | He sold the field. |
+| **ἐπριάμην βιβλίον ἐν τῇ ἀγορᾷ.** | *epriámēn biblíon…* | I bought a book in the marketplace. |
+| **συνέθεντο εἰρήνην.** | *synéthento eirḗnēn* | They agreed on a peace. |
 
-*Note:* The same forms can also convey a **reflexive** sense: “He washed himself” → *ἔπλυνεν ἑαυτόν* (active) vs. *ἔπλυντο* (middle). In the ‑μι class the reflexive meaning is built‑in.
-
----
-
-## 5. Usage & Context  
-
-1. **Self‑beneficial actions** – The middle often indicates that the subject does something **for its own benefit** (e.g., *ἔσθιμι* “I ate (so that I might be nourished)”).  
-2. **Reciprocal or mutual actions** – In some contexts the middle can imply a reciprocal sense (“they met each other”).  
-3. **Deponent verbs** – Many verbs that are middle‑only in all tenses (e.g., *ἁμαρτάνω* → *ἁμάρτημι*) use the ‑μι pattern for the aorist.  
-4. **Literary style** – The aorist middle is common in narrative prose and epic when the author wants to present a past action as a single, self‑directed event.  
-5. **Contrast with active aorist** – The active aorist (*ἔφαγον*) simply states “I ate”. The middle (*ἔσθιμι*) adds the nuance “I ate (for myself / with a personal interest)”.
+*Note the short stem, the augment, and the endings ‑μην, ‑το, ‑ντο.*
 
 ---
 
-## 6. Historical Development & Etymology  
+## 5. Usage & Context
 
-- **Proto‑Indo‑European roots**: The middle voice derives from an early reflexive construction in PIE, where the subject acted upon itself. The **‑mi** ending is a direct continuation of the PIE *‑mi* first‑person singular ending for the middle/passive.  
-- **Old Greek**: In Homeric Greek the middle was often expressed with the **‑μαι** (present) and **‑μην** (aorist). The **‑μι** aorist appears already in early lyric poetry and becomes fossilised in a handful of verbs.  
-- **Classical period**: By the Classical era the **‑μι** aorist was limited to a small, mostly deponent set of verbs. Grammarians (e.g., Apollonius Dyscolus) noted it as a “special” aorist middle.  
-- **Later Greek**: In Koine and Byzantine Greek the **‑μι** forms survive mainly in the verb *ἔσθιμι* and a few others, often replaced by periphrastic constructions (*ἔφαγον ἐμαυτῷ*).  
+1. **Self-benefiting action** — the middle often means the subject acted in its own interest: νόμους θέσθαι "to enact laws (for one's own community)."
+2. **Fixed idioms** — many of these forms are idiomatic and should be learned as vocabulary: ἀποδόσθαι "to sell," συνθέσθαι "to make an agreement."
+3. **Legal and historical prose** — lawgiving, treaty-making, buying and selling: these domains are full of μι aorist middles.
+4. **Contrast with the active** — ἔθηκε "he placed" (neutral) vs. ἔθετο "he placed for himself"; ἔδωκε "he gave" vs. ἀπέδοτο "he sold."
 
 ---
 
-## 7. Quick Reference Table  
+## 6. Historical Development & Etymology
 
-| Person | Regular aorist middle (‑μην) | Aorist middle **‑μι** |
+- **Indo-European roots**: athematic inflection (endings attached directly to the root) is the oldest layer of the Indo-European verb; the μι aorist middles preserve it intact.
+- **Homeric Greek**: these forms abound in epic (θέτο, δόσθαι), sometimes without the augment — an old poetic liberty.
+- **The Classical period**: the forms became fixed in Attic prose, and legal idioms (νόμους θέσθαι) flourished.
+- **Later Greek**: in the Koine the athematic formations were gradually rebuilt on the analogy of ω-verbs; in Modern Greek nothing survives of them except fossilized words.
+
+---
+
+## 7. Quick Reference Table
+
+| Person | Sigmatic (λύω) | Athematic ‑μι (τίθημι) |
 |--------|-----------------------------|------------------------|
-| 1st sg. | ‑ **μη
+| 1 sg. | ἐλυσάμην | ἐθέμην |
+| 2 sg. | ἐλύσω | ἔθου |
+| 3 sg. | ἐλύσατο | ἔθετο |
+| 1 pl. | ἐλυσάμεθα | ἐθέμεθα |
+| 2 pl. | ἐλύσασθε | ἔθεσθε |
+| 3 pl. | ἐλύσαντο | ἔθεντο |
+
+**Closing tip:** whenever you meet a middle form whose ending sits directly on a short stem like θε‑ or δο‑, you are looking at the aorist middle of a μι-verb.

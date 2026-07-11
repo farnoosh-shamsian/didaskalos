@@ -3,198 +3,191 @@ topic: aorist, indicative, active (deponent)
 pos: verb
 ---
 
-# Lesson: The Aorist – Indicative – Active (and Deponent)  
+# Lesson: The Aorist Indicative Active (and Deponent Verbs)
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic noun declension, present‑tense indicative active*  
+*Target level: Beginner–Intermediate*
+*Prerequisites: Greek alphabet, basic noun declension, present indicative active*
 
 ---
 
-## 1. What is the Aorist?
+## 1. What Is the Aorist?
 
-The **aorist** is one of the three primary tenses of the Ancient Greek verb system (present, imperfect, aorist, perfect, pluperfect, future).  
+The **aorist** is one of the principal tenses of the Ancient Greek verb system (present, imperfect, aorist, perfect, pluperfect, future).
 
-| Aspect | Typical English equivalent | Greek “time‑view” |
+| Tense | Typical English equivalent | The Greek "view" of the action |
 |--------|----------------------------|-------------------|
-| **Present** | “is doing” (ongoing) | continuous / habitual |
-| **Imperfect** | “was doing” (ongoing in the past) | past continuous |
-| **Aorist** | “did” (simple past) | a *single* action, without reference to duration or completion |
-| **Perfect** | “has done / is having the result” | completed action with present result |
-| **Future** | “will do” | simple future |
+| **Present** | "is doing" | in progress / habitual |
+| **Imperfect** | "was doing" | in progress in the past |
+| **Aorist** | "did" (simple past) | a *single* action, without reference to duration or process |
+| **Perfect** | "has done" | completed action with present result |
+| **Future** | "will do" | simple future |
 
-The aorist **does not** express a perfective aspect (i.e. “has finished”) – it simply presents the action as a whole, without internal structure. In narrative it is the default “past tense”.
+The aorist presents the action **as a whole, without internal structure** — it concerns itself neither with the process nor with the result. In narrative it is the default "past tense."
 
 ---
 
 ## 2. The Indicative Mood
 
-The **indicative** is the “statement” mood. It is used for ordinary factual or neutral statements, questions, and most narrative.  
+The **indicative** is the "statement" mood: for factual or neutral assertions, questions, and most narrative.
 
-*Contrast*:  
-- **Subjunctive** – potential, purpose, condition.  
-- **Optative** – wish, potential in past.  
-- **Imperative** – command.  
+*Contrast*:
+- **Subjunctive** — possibility, purpose, condition.
+- **Optative** — wish, remote possibility.
+- **Imperative** — command.
 
 In this lesson we focus on the **indicative** of the aorist.
 
 ---
 
-## 3. Active Voice vs. Deponent Verbs  
+## 3. Active Voice vs. Deponent Verbs
 
-### 3.1 Active Voice  
-In the **active** voice the subject **does** the action. The aorist active forms are built on the **aorist stem** (often the same as the present stem, but sometimes different).
+### 3.1 Active Voice
+In the **active** voice the subject performs the action. Aorist active forms are built on the **aorist stem** (sometimes like the present stem, sometimes different).
 
-### 3.2 Deponent Verbs  
-**Deponent verbs** have **no active forms**; they use **middle or passive endings** but retain an **active meaning**.  
+### 3.2 Deponent Verbs
+**Deponent verbs** have **no active forms in the present system**; they conjugate with middle/passive endings but have an active meaning: ἔρχομαι "I come," γίγνομαι "I become."
 
-- In the aorist, a deponent verb appears in the **aorist middle** (or sometimes passive) but translates as an active simple past.  
-- Example: *ἔλθον* (I came) is active; the deponent *ἦλθον* (I came) uses the middle form *-ον* but means “I came”.
+In the aorist, two behaviors occur:
 
-We will give a full paradigm for a regular active aorist and a parallel deponent paradigm.
+- Most have a **middle** aorist: γίγνομαι → ἐγενόμην "I became."
+- Some — above all **ἔρχομαι** — have an aorist that is **fully active in form**: ἦλθον "I came" (a second aorist on the suppletive stem ἐλθ‑). That group is the subject of this lesson.
+
+Below we give the full paradigm of a regular active aorist alongside the paradigm of ἦλθον.
 
 ---
 
-## 4. Forming the Aorist Active Indicative  
+## 4. Forming the Aorist Indicative Active
 
-### 4.1 Regular (‑ω) Verbs – “First‑aorist”  
+### 4.1 Regular ω-Verbs — the "First Aorist" (sigmatic)
 
-Most verbs form the aorist by adding the **augment** (ε‑) to the beginning of the aorist stem and then attaching the **active endings**.  
+Most verbs form the aorist with the **augment** ἐ‑ at the start of the aorist stem plus the **active endings**.
 
-**Active endings (aorist indicative)**  
+**Endings of the first aorist (indicative active)**
 
 | Person | Singular | Plural |
 |--------|----------|--------|
-| 1st | ‑α (or ‑ον after augment) | ‑αμε |
+| 1st | ‑α | ‑αμεν |
 | 2nd | ‑ας | ‑ατε |
 | 3rd | ‑ε(ν) | ‑αν |
 
-*Note*: The 1st‑sg ending is **‑α** (or ‑ον after the augment). The 3rd‑sg ending is **‑ε** (or ‑εν).  
+**Typical pattern** (the verb *λύω* "to loose")
 
-**Typical pattern** (verb *λύω* “to loose”)  
-
-|          | Singular | Plural |
+| | Singular | Plural |
 |----------|----------|--------|
 | **1st** | ἔλυσα | ἐλύσαμεν |
 | **2nd** | ἔλυσας | ἐλύσατε |
 | **3rd** | ἔλυσε(ν) | ἔλυσαν |
 
-### 4.2 “Second‑aorist” (‑μι verbs)  
+### 4.2 The "Second Aorist" (thematic)
 
-Verbs whose present stem ends in **‑μι** (e.g., *φημί* “to say”) form the aorist with a **different stem** (often a **thematic vowel** + **‑σ‑**) and the same active endings.
+A group of very common verbs forms the aorist not with ‑σα but with an **altered stem** and the thematic secondary endings (the same endings as the imperfect).
 
-**Example: φημί → εἶπον**  
+**Example: λέγω/φημί → εἶπον "I said"**
 
-|          | Singular | Plural |
+| | Singular | Plural |
 |----------|----------|--------|
-| **1st** | εἶπον | εἰπόνμεν |
-| **2nd** | εἶπες | εἰπόντε |
-| **3rd** | εἶπεν | εἶπον |
+| **1st** | εἶπον | εἴπομεν |
+| **2nd** | εἶπες | εἴπετε |
+| **3rd** | εἶπε(ν) | εἶπον |
 
-### 4.3 Contract Verbs  
+### 4.3 Contract Verbs
 
-Verbs whose stem ends in a vowel + *‑ω* contract in the aorist.  
+Contract verbs do not contract in the aorist; the final stem vowel **lengthens** before ‑σα (α/ε → η, ο → ω).
 
-**Example: τιμάω → ἐτίμησα**  
+**Example: τιμάω → ἐτίμησα "I honored"**
 
-|          | Singular | Plural |
+| | Singular | Plural |
 |----------|----------|--------|
 | **1st** | ἐτίμησα | ἐτιμήσαμεν |
 | **2nd** | ἐτίμησας | ἐτιμήσατε |
 | **3rd** | ἐτίμησε(ν) | ἐτίμησαν |
 
-### 4.4 Irregular Aorist Stems  
+### 4.4 Irregular Aorist Stems
 
-Some verbs have **suppletive** aorist stems (completely different).  
+Some verbs have a **suppletive** aorist stem (from a different root):
 
-| Present | Aorist Stem | Example |
+| Present | Aorist stem | Aorist (1st sg.) |
 |---------|-------------|---------|
-| εἰμί (to be) | ἦ- | ἦν (was) – note: this is the imperfect, not aorist. |
-| εἶδον (to see) – present *ὁράω* → aorist *εἶδον* (different stem). |
-| λαμβάνω → ἔλαβον (stem *λαβ‑*). |
+| ὁράω "to see" | ἰδ‑ | **εἶδον** "I saw" |
+| λαμβάνω "to take" | λαβ‑ | **ἔλαβον** "I took" |
+| ἔρχομαι "to come" | ἐλθ‑ | **ἦλθον** "I came" |
+
+*Reminder:* εἰμί "to be" has no aorist; ἦν "was" is its imperfect.
 
 ---
 
-## 5. Deponent Aorist (Middle Form with Active Meaning)
+## 5. The Active Aorist of Deponent Verbs
 
-Deponent verbs use the **middle endings** in the aorist indicative. The endings are the same as the active ones, but the **middle vowel** *‑ο‑* appears before them.
+**ἔρχομαι** has only middle forms in the present, but its aorist — **ἦλθον** — is a **fully active second aorist**: the augment ἦ‑ (lengthening of the ε in ἐλθ‑) + the stem ἐλθ‑ + thematic endings.
 
-**Middle endings (aorist indicative)**  
+### Conjugation of ἦλθον "I came"
 
-| Person | Singular | Plural |
-|--------|----------|--------|
-| 1st | ‑ον | ‑ομεν |
-| 2nd | ‑ου | ‑ετε |
-| 3rd | ‑ε(ν) | ‑ον |
-
-### Example Deponent: *ἔρχομαι* “to come, go” (aorist middle)
-
-|          | Singular | Plural |
+| | Singular | Plural |
 |----------|----------|--------|
-| **1st** | ἦλθον | ἐλθόμεν |
-| **2nd** | ἦλθες | ἐλθότε |
+| **1st** | ἦλθον | ἤλθομεν |
+| **2nd** | ἦλθες | ἤλθετε |
 | **3rd** | ἦλθε(ν) | ἦλθον |
 
-*Notice*: The 1st‑sg form *ἦλθον* looks like a regular active aorist, but it is historically the **middle** form of a deponent verb.
+*Note:* a "deponent" verb can thus have an active form in the aorist — the tense systems are independent of one another. By contrast, γίγνομαι has a middle aorist (ἐγενόμην); that pattern is treated in the aorist middle lesson.
 
 ---
 
-## 6. Key Rules & Common Exceptions  
+## 6. Key Rules & Common Exceptions
 
 | Rule | Explanation |
 |------|-------------|
-| **Augment** | Add **ε‑** to the beginning of the aorist stem for past indicative (except in verbs beginning with a vowel, where the augment is a lengthening of the initial vowel: *ἀκούω → ἤκουσα*). |
-| **Reduplication** | Not used in the aorist (only in perfect). |
-| **Contract verbs** | The vowel of the stem contracts with the augment (e.g., *τιμάω → ἐτίμησα*). |
-| **‑μι verbs** | Form aorist with a **different stem** (often *‑σ‑*). |
-| **Irregular stems** | Memorise (e.g., *λαμβάνω → ἔλαβον*, *γίγνομαι → ἐγένοντο*). |
-| **Deponent** | No active aorist forms; use middle endings with active meaning. |
-| **Spurious diphthongs** (ει, ου) | In aorist they behave like regular vowels; the augment is added before them (e.g., *ποιέω → ἐποίησα*). |
-| **Passive aorist** | Formed with **‑θην** endings; not covered here but important to distinguish from deponent middle. |
+| **Augment** | ἐ‑ is prefixed to the stem and marks the past indicative. Vowel-initial verbs lengthen the initial vowel instead: *ἀκούω → ἤκουσα*. |
+| **Reduplication** | Not used in the aorist (it belongs to the perfect). |
+| **Contract verbs** | The stem vowel lengthens before ‑σα: *τιμάω → ἐτίμησα*, *ποιέω → ἐποίησα*. |
+| **μι-Verbs** | Often have a "root aorist" or a ‑κα aorist: δίδωμι → ἔδωκα, ἵστημι → ἔστην. |
+| **Irregular stems** | Must be memorized: *λαμβάνω → ἔλαβον*, *ὁράω → εἶδον*, *ἔρχομαι → ἦλθον*. |
+| **Deponents** | Most have a middle aorist (ἐγενόμην); some an active aorist (ἦλθον). The meaning is active either way. |
+| **Aorist passive** | Formed with the marker **‑θη‑** (ἐλύθην); not covered here, but do not confuse it with the aorist of deponents. |
 
 ---
 
-## 7. Example Sentences  
+## 7. Example Sentences
 
-| Greek (Aorist Indicative) | Translation | Notes |
+| Greek (aorist indicative) | Translation | Notes |
 |---------------------------|-------------|-------|
-| **ἔλυσα τὸν δεσμὸν.** | “I loosed the bond.” | Regular active aorist of *λύω*. |
-| **εἶπον τὸν λόγον.** | “I said the word.” | Second‑aorist of *φημί*. |
-| **ἐτίμησα τὸν ἥρωα.** | “I honored the hero.” | Contract verb *τιμάω*. |
-| **ἦλθον εἰς τὴν πόλιν.** | “I came into the city.” | Deponent *ἔρχομαι* in aorist middle, active meaning. |
-| **ἔλαβον τὸ βιβλίον.** | “I took the book.” | Suppletive aorist stem *λαβ‑*. |
+| **ἔλυσα τὸν δεσμόν.** | I loosed the bond. | Regular first aorist of *λύω*. |
+| **εἶπον τὸν λόγον.** | I said the word. | Second aorist (serving λέγω/φημί). |
+| **ἐτίμησα τὸν ἥρωα.** | I honored the hero. | Contract verb *τιμάω*. |
+| **ἦλθον εἰς τὴν πόλιν.** | I came into the city. | The active aorist of the deponent *ἔρχομαι*. |
+| **ἔλαβον τὸ βιβλίον.** | I took the book. | Suppletive stem *λαβ‑*. |
 
 ---
 
-## 8. Usage & Context  
+## 8. Usage & Context
 
-1. **Narrative Past** – The aorist is the default past tense in storytelling, especially in epic and prose.  
-2. **Simple Completed Action** – Use when the action is viewed as a single event, not as a process.  
-3. **Sequence of Tenses** – In subordinate clauses after a past verb, the aorist often appears in the **indicative** (e.g., *ἔφη ὅτι ἦλθον* “he said that he came”).  
-4. **Deponent Verbs** – Even though they lack active forms, they are used exactly like active verbs in meaning; the middle endings simply signal the deponent nature.  
-
----
-
-## 9. Historical Development & Etymology  
-
-- The term **aorist** (Greek **ἀόριστος** “indefinite”) comes from the idea of an “indefinite” or “unbounded” aspect, contrasting with the “defined” aspect of the present.  
-- The **augment** (ε‑) is a relic of Proto‑Indo‑European past‑tense formation; many IE languages show a similar vowel lengthening for past tenses.  
-- **Deponent verbs** originated in early Greek as **middle‑voice** forms that gradually lost their passive meaning, leaving only the middle morphology but an active semantics. The phenomenon is common across the Indo‑European family (e.g., Latin *loquor* “I speak”).  
-- The **second‑aorist** (‑σ‑) reflects an older **s‑suffix** used for past tense in Proto‑Greek; it survived mainly in verbs whose present stem ends in ‑μι.  
+1. **Narrative past** — the aorist is the default storytelling tense, especially in epic and prose.
+2. **A single complete action** — used when the action is viewed as one event, not as a process.
+3. **Sequence of tenses** — in subordinate clauses after a past verb, the aorist indicative is frequent: *ἔφη ὅτι ἦλθον* "he said that they came."
+4. **Deponent verbs** — used exactly like active verbs in meaning; whether the form is middle or active is a fact of the dictionary and the principal parts.
 
 ---
 
-## 10. Quick Reference Table  
+## 9. Historical Development & Etymology
 
-| Verb type | Aorist Stem | Augmented Stem | 1st‑sg Active | 1st‑sg Deponent (Middle) |
-|-----------|-------------|----------------|---------------|--------------------------|
-| Regular ‑ω | stem + ‑σ‑ (or same) | ε‑ + stem | ἔλυσα | — |
-| ‑μι (2nd aorist) | stem + ‑σ‑ | ε‑ + stem | εἶπον | — |
-| Contract | contracted stem | ε‑ + contracted | ἐτίμησα | — |
-| Suppletive | irregular | irregular | ἔλαβον | — |
-| Deponent | (no active) | ε‑ + stem (middle) | — | ἦλθον |
+- The term **aorist** (Greek **ἀόριστος**, "unbounded, undefined") reflects the idea of an "indefinite" aspect, in contrast with the in-progress aspect of the present.
+- The **augment** ἐ‑ is a relic of Indo-European past-tense formation with parallels in the related languages.
+- **Deponent verbs** are ancient middle forms whose middle/passive meaning faded, leaving the middle shape with an active sense — a phenomenon common across the Indo-European family (Latin *loquor* "I speak").
+- The **first aorist** reflects the ancient s-suffix (sigmatic); the **second aorist** preserves the older root/thematic formation — which is why the most frequent verbs so often have second aorists.
 
 ---
 
-**End of Lesson**  
+## 10. Quick Reference Table
 
-You now have a complete picture of how the aorist indicative active works, how deponent verbs behave in the aorist, the patterns you must memorize, and the contexts in which the aorist is used. Happy reading of the Greek classics!
+| Verb type | Aorist stem | With augment | 1st sg. |
+|-----------|-------------|----------------|---------------|
+| Regular ‑ω | stem + ‑σ‑ | ἐ‑ + stem | ἔλυσα |
+| Second aorist | altered stem | ἐ‑/lengthening | εἶπον |
+| Contract | lengthened vowel + ‑σ‑ | ἐ‑ + stem | ἐτίμησα |
+| Suppletive | different root | ἐ‑/lengthening | ἔλαβον |
+| Deponent with active aorist | different root | lengthening | ἦλθον |
+
+---
+
+**End of Lesson**
+
+You now have a complete picture of how the aorist indicative active is formed, how deponent verbs behave in the aorist, which patterns must be memorized, and the contexts in which the aorist is used. Happy reading of the Greek classics!

@@ -3,80 +3,68 @@ topic: aorist, indicative, passive (ω)
 pos: verb
 ---
 
-# Lesson: The Aorist Indicative Passive (ending ‑ω)
+# Lesson: The Aorist Indicative Passive (ω-Verbs)
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic knowledge of verbs, present‑active indicative.*
+*Target level: Beginner–Intermediate*
+*Prerequisites: Greek alphabet, basic knowledge of verbs, present indicative active.*
 
 ---
 
-## 1. What is the Aorist Indicative Passive?
+## 1. What Is the Aorist Indicative Passive?
 
 | Term | Meaning in Greek grammar |
 |------|--------------------------|
-| **Aorist** | A “simple past” aspect: the action is viewed as a single, complete event, without reference to duration or repetition. |
+| **Aorist** | The "simple past" aspect: the action is viewed as a single, complete event, without reference to duration or repetition. |
 | **Indicative** | The mood of ordinary statements of fact (as opposed to subjunctive, optative, etc.). |
-| **Passive** | The subject receives the action rather than performs it. |
+| **Passive** | The subject receives the action rather than performing it. |
 
 The **aorist indicative passive** therefore expresses a completed action **done to** the subject, stated as a fact.
 
-> **Example (English):** “The city **was destroyed**.”  
-> **Greek:** ἡ πόλις **ἐδυσχάρη**. (aorist passive)
+> **Example (English):** "The city **was destroyed**."
+> **Greek:** ἡ πόλις **διεφθάρη**.
 
-> **Note on “‑ω”** – In the **present** passive the first‑person singular ends in **‑ω** (e.g., λύω → λύομαι). The aorist passive does **not** end in ‑ω; its regular first‑person singular ending is **‑θην** (or **‑ην** for irregular verbs). The “‑ω” in the lesson title is therefore a reminder that the aorist passive is built on the **passive voice** (the same stem that yields ‑ω in the present).
+> **A note on "‑ω"** — the lesson title means that this formation belongs to ω-verbs (verbs whose first person present ends in ‑ω). The aorist passive itself does not end in ‑ω; its first person singular is **‑θην** (or **‑ην** in the second aorist passive).
 
 ---
 
 ## 2. Forms and Patterns
 
-Greek has two main ways to form the aorist passive:
+Greek has two main ways of forming the aorist passive:
 
-| Type | Stem formation | Typical endings (Indicative) |
+| Type | Stem formation | Indicative endings |
 |------|----------------|------------------------------|
-| **Thematic (regular) aorist passive** | Add the **‑θη‑** suffix to the verb stem (often after a vowel change). | 1 sg ‑θην, 2 sg ‑θης, 3 sg ‑θη, 1 pl ‑θημεν, 2 pl ‑θητε, 3 pl ‑θησαν |
-| **A‑thematic (irregular) aorist passive** | Add the **‑η‑** suffix (or use a suppletive stem). | 1 sg ‑ην, 2 sg ‑ης, 3 sg ‑ετο, 1 pl ‑ημεν, 2 pl ‑ητε, 3 pl ‑ησαν |
+| **First aorist passive** | The marker **‑θη‑** after the stem (often with vowel lengthening). | ‑θην, ‑θης, ‑θη, ‑θημεν, ‑θητε, ‑θησαν |
+| **Second aorist passive** | Plain **‑η‑**, without θ. | ‑ην, ‑ης, ‑η, ‑ημεν, ‑ητε, ‑ησαν |
 
-Both types require the **augment** (a short **ε‑**) in indicative forms (except in poetry where the augment may be omitted).
+Both types take the **augment** ἐ‑ in the indicative (occasionally dropped in poetry). The endings are the secondary **active** endings — one of the surprises of this formation!
 
-### 2.1. Thematic Aorist Passive Paradigm
+### 2.1 The First Aorist Passive Paradigm
 
-| Person | Singular | Plural |
-|--------|----------|--------|
-| 1st | **ἐ‑** + **stem** + **‑θην** | **ἐ‑** + **stem** + **‑θημεν** |
-| 2nd | **ἐ‑** + **stem** + **‑θης** | **ἐ‑** + **stem** + **‑θητε** |
-| 3rd | **ἐ‑** + **stem** + **‑θη** | **ἐ‑** + **stem** + **‑θησαν** |
-
-*The augment **ἐ‑** is placed before the **‑θη‑** suffix.*
-
-**Example with λύω (to loose, “to release”)**
+**Example with λύω "to loose, set free"**
 
 | Person | Form | Transliteration | Gloss |
 |--------|------|----------------|-------|
-| 1 sg | ἐλῦθην | elûthēn | “I was loosed” |
-| 2 sg | ἐλῦθης | elûthēs | “you were loosed” |
-| 3 sg | ἐλῦθη | elûthē | “he/she/it was loosed” |
-| 1 pl | ἐλῦθημεν | elûthēmen | “we were loosed” |
-| 2 pl | ἐλῦθητε | elûthēte | “you (pl.) were loosed” |
-| 3 pl | ἐλῦθησαν | elûthēsan | “they were loosed” |
+| 1 sg | ἐλύθην | elýthēn | I was set free |
+| 2 sg | ἐλύθης | elýthēs | you were set free |
+| 3 sg | ἐλύθη | elýthē | he/she/it was set free |
+| 1 pl | ἐλύθημεν | elýthēmen | we were set free |
+| 2 pl | ἐλύθητε | elýthēte | you (pl.) were set free |
+| 3 pl | ἐλύθησαν | elýthēsan | they were set free |
 
-### 2.2. A‑thematic (Irregular) Aorist Passive Paradigm
+### 2.2 The Second Aorist Passive Paradigm
 
-| Person | Singular | Plural |
-|--------|----------|--------|
-| 1st | **ἐ‑** + **stem** + **‑ην** | **ἐ‑** + **stem** + **‑ημεν** |
-| 2nd | **ἐ‑** + **stem** + **‑ης** | **ἐ‑** + **stem** + **‑ητε** |
-| 3rd | **ἐ‑** + **stem** + **‑ετο** | **ἐ‑** + **stem** + **‑ησαν** |
-
-**Example with γράφω (to write) → *γέγραψα* (aorist active) → passive *ἐγράφη* (3 sg)**  
+**Example with γράφω "to write" → ἐγράφην "I was written"**
 
 | Person | Form | Transliteration | Gloss |
 |--------|------|----------------|-------|
-| 1 sg | ἐγέγραψα | egégrapsa | “I wrote” (active) – not passive |
-| 3 sg (passive) | ἐγράφη | egráphē | “it was written” |
-| 1 pl | ἐγράφημεν | egráphēmen | “we were written (of) …” (rare) |
-| 3 pl | ἐγράφησαν | egráphēsan | “they were written” |
+| 1 sg | ἐγράφην | egráphēn | I was written |
+| 2 sg | ἐγράφης | egráphēs | you were written |
+| 3 sg | ἐγράφη | egráphē | it was written |
+| 1 pl | ἐγράφημεν | egráphēmen | we were written |
+| 2 pl | ἐγράφητε | egráphēte | you (pl.) were written |
+| 3 pl | ἐγράφησαν | egráphēsan | they were written |
 
-*Note:* The a‑thematic passive often appears only in the 3 sg and 3 pl; the other forms are rare or literary.
+*The second aorist passive belongs to verbs such as γράφω (ἐγράφην), φαίνω (ἐφάνην "I appeared"), and κόπτω (ἐκόπην "I was cut"); apart from the missing θ its conjugation is identical to the first type.*
 
 ---
 
@@ -84,13 +72,13 @@ Both types require the **augment** (a short **ε‑**) in indicative forms (exce
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **1. Augment** | In indicative aorist (both active & passive) prepend **ε‑** (or **η‑** after a vowel) to the verb. Poets may drop it. | ἐ‑ + λῦ‑ + ‑θην → **ἐλῦθην** |
-| **2. Passive suffix** | Use **‑θη‑** for regular (thematic) aorist passive; **‑η‑** for irregular (a‑thematic). | λύω → λυ‑ + ‑θη‑ → **ἐλῦθη** |
-| **3. Contract verbs** | If the verb ends in **‑εω** (e.g., φιλέω), the aorist passive uses **‑εθην** → **ἐφίληθην**. | φιλέω → ἐφίληθην |
-| **4. Verbs with a **‑σ‑** in the aorist active** | The passive often drops the **‑σ‑** and adds **‑θη‑** (e.g., ποιέω → ἐποιήθη). | ποιέω → ἐποιήθη |
-| **5. Suppletion** | Some verbs have completely different stems in the aorist passive (e.g., *ἔρχομαι* → *ἐλήφθη* “was taken”). | ἔρχομαι → ἐλήφθη |
-| **6. Middle‑passive confusion** | In some contexts the aorist middle (‑σ‑) can be interpreted as passive; be aware of lexical meanings. | ἀκούω → ἀκούσθη (passive) vs. ἀκούσῃ (middle) |
-| **7. Loss of augment in poetry** | Epic and lyric poetry often omit the augment, giving forms like **λῦθη** instead of **ἐλῦθη**. | λῦθη (poetic) = “was loosed” |
+| **1. Augment** | In the indicative, ἐ‑ precedes the stem; vowel-initial verbs lengthen the vowel. Poets sometimes drop the augment. | ἐ + λυ + θην → **ἐλύθην**; poetic: λύθη |
+| **2. The passive marker** | ‑θη‑ for the first type; ‑η‑ for the second. | ἐλύθη / ἐγράφη |
+| **3. Contract verbs** | The stem vowel lengthens before ‑θη‑. | φιλέω → **ἐφιλήθην**; τιμάω → **ἐτιμήθην** |
+| **4. Consonant changes before θ** | Labials become φ, velars become χ, dentals become σ. | πέμπω → **ἐπέμφθην**; ἄγω → **ἤχθην**; πείθω → **ἐπείσθην** |
+| **5. Suppletive stems** | Some verbs build the passive from a different root. | λέγω → **ἐρρήθη** "it was said"; φέρω → **ἠνέχθη** "it was brought" |
+| **6. Passive deponents** | Several common verbs have a ‑θην aorist with **active** meaning: do not translate them as passives! | ἐφοβήθην "I feared," ἐβουλήθην "I wanted," ἐπορεύθην "I traveled" |
+| **7. The agent with ὑπό + genitive** | When the agent is named, it takes ὑπό. | ἐλύθη **ὑπὸ τοῦ βασιλέως** "he was set free by the king" |
 
 ---
 
@@ -98,20 +86,22 @@ Both types require the **augment** (a short **ε‑**) in indicative forms (exce
 
 | Greek (aorist passive) | Transliteration | English |
 |------------------------|----------------|---------|
-| ἡ πόλις **ἐδυσχάρη** ὑπὸ τῶν ἐχθρῶν. | hē pólis **edyskhárē** hypò tōn ekhthrōn. | “The city **was destroyed** by the enemies.” |
-| τὰ δένδρα **ἐκόπηντο** ὑπὸ τῶν ξυλοκόμων. | tà déntra **ekópēnto** hypò tōn xylokómōn. | “The trees **were cut down** by the woodcutters.” |
-| ὁ ἀνὴρ **ἐλῦθη** ἀπὸ τῆς ἀδικίας. | ho anḗr **elûthē** apò tês adikías. | “The man **was loosed** from injustice.” |
-| τὰ ἔργα **ἐγράφησαν** ὑπὸ τῶν γραμματέων. | tà érga **egráphēsan** hypò tōn grammateōn. | “The deeds **were recorded** by the secretaries.” |
+| ἡ πόλις **διεφθάρη** ὑπὸ τῶν πολεμίων. | hē pólis **diephthárē**… | The city was destroyed by the enemy. |
+| τὰ δένδρα **ἐκόπη** ὑπὸ τῶν γεωργῶν. | ta déndra **ekópē**… | The trees were cut down by the farmers. |
+| ὁ ἀνὴρ **ἐλύθη** ἐκ τῶν δεσμῶν. | ho anḗr **elýthē**… | The man was freed from his bonds. |
+| τὰ ἔργα **ἐγράφη** ὑπὸ τῶν γραμματέων. | ta érga **egráphē**… | The deeds were recorded by the secretaries. |
+
+*Reminder: a neuter plural subject (τὰ δένδρα, τὰ ἔργα) takes a singular verb.*
 
 ---
 
 ## 5. Usage & Context
 
-1. **Narrative prose** – The aorist passive is the default way to report completed actions done to a subject (e.g., historical accounts, myths).  
-2. **Legal/official language** – Often used for formal statements of what “was done” to a person or object.  
-3. **Poetry** – Augment may be omitted; the passive may appear in unusual word order for metrical reasons.  
-4. **Contrast with middle** – Some verbs have a middle meaning that looks like a passive (e.g., *ἀποκρίνομαι* “I answer”). Always check the dictionary.  
-5. **Passive of non‑action verbs** – Verbs that normally describe a state can still take a passive aorist to indicate a change of state (e.g., *γίγνομαι* → *ἐγένετο* “it happened”).  
+1. **Narrative prose** — the aorist passive is the default way of reporting what was done to someone or something (historiography, myth).
+2. **Legal and official language** — for formal statements of what "was done": ἐψηφίσθη "it was decreed."
+3. **Poetry** — the augment may be dropped and word order rearranged for meter.
+4. **The passive-deponent trap** — do not translate ἐφοβήθην as "I was frightened by someone"; it means "I feared." The dictionary is your guide.
+5. **Versus the middle** — the aorist is the only tense where middle and passive have distinct forms: ἐλυσάμην "I loosed for myself" ≠ ἐλύθην "I was loosed."
 
 ---
 
@@ -119,5 +109,7 @@ Both types require the **augment** (a short **ε‑**) in indicative forms (exce
 
 | Aspect | Details |
 |--------|---------|
-| **Proto‑Indo‑European (PIE)** | The passive voice developed from a **mediopassive** suffix *‑to‑* (later Greek **‑θ‑**). The aorist passive suffix **‑θη‑** reflects this older formation. |
-| **Early Greek** | The augment **ε‑** (or
+| **Proto-Indo-European** | The marker ‑θη‑ is a Greek innovation; its likely source is the stative suffix *‑dʰeh₁‑ (cognate with τίθημι "to place"). |
+| **Early Greek** | The ‑η‑ type (second passive) is older and originally expressed a change of state: ἐφάνην "I appeared," ἐμάνην "I went mad." |
+| **Classical period** | ‑θη‑ became productive and spread to most verbs; its active endings are a relic of that stative origin, not of a true passive. |
+| **Later Greek** | In the Koine, ‑θην swallowed the middle's territory as well (ἀπεκρίθη "he answered"), and its descendant (‑θηκα) is still alive in Modern Greek. |

@@ -3,130 +3,130 @@ topic: aorist, indicative, middle (deponent)
 pos: verb
 ---
 
-# Lesson: The Aorist Indicative Middle (Deponent)  
+# Lesson: The Aorist Indicative Middle (Deponent Verbs)
 
-*Target level: Beginner‑Intermediate*  
+*Target level: Beginner–Intermediate*
 
 ---
 
-## 1. What is the Aorist Indicative Middle (Deponent)?
+## 1. What Is the Aorist Indicative Middle of a Deponent Verb?
 
-| Term | Meaning in Greek grammar | Typical English gloss |
+| Term | Meaning in Greek grammar | Typical gloss |
 |------|--------------------------|-----------------------|
-| **Aorist** | A past‑time (perfective) aspect that presents an action as a simple whole, without reference to its duration or completion. | “did / was …” |
-| **Indicative** | The “statement” mood – used for real, factual statements, questions, or simple narration. | – |
-| **Middle** | One of the three voices (active, middle, passive). The middle voice shows the subject acting **with reference to himself/herself**, often with a sense of “for oneself”, “involved”, or “self‑directed”. | “I wash **myself**”, “I take part in …” |
-| **Deponent** | Verbs that **have only middle (or middle‑passive) forms** but **carry an active meaning**. They never appear in the active voice. | “I fear”, “I rejoice”, “I am willing” etc. |
+| **Aorist** | A past aspect that presents the action as a simple whole, without reference to duration. | "did" |
+| **Indicative** | The "statement" mood — for factual statements, simple questions, and narration. | — |
+| **Middle** | One of the three voices (active, middle, passive): the subject acts **with reference to itself** — "for oneself," "on oneself," "with involvement." | "I wash myself," "I take part in…" |
+| **Deponent** | Verbs that **have only middle (or middle/passive) forms** but an **active meaning**; they never take active endings. | "I become," "I receive," "I answer" |
 
-Putting the three together, the **aorist indicative middle** of a **deponent** verb is the form we use when we want to state a **simple past** action that is **self‑directed or reflexive** (or otherwise middle‑type) and the verb is **deponent** (i.e., it has no active counterpart).
+The **aorist indicative middle** of a **deponent** verb is thus the form for reporting a simple past action when the verb has no forms other than the middle — and its meaning is, for us, entirely "active": ἐγενόμην "I became," ἐδεξάμην "I received."
 
 ---
 
-## 2. Forms and Patterns  
+## 2. Forms and Patterns
 
-### 2.1 General Aorist Middle Endings (Active‑Voice Endings are NOT used for Deponents)
+### 2.1 The Secondary Middle Endings (in the aorist indicative)
 
 | Person | Singular | Plural |
 |--------|----------|--------|
-| 1st | ‑ **μην** (or ‑ **σά** after a vowel) | ‑ **μεν** |
-| 2nd | ‑ **ς** (‑ **σ** after a vowel) | ‑ **τε** |
-| 3rd | ‑ **το** (or ‑ **το** after a vowel) | ‑ **ντο** |
+| 1st | **‑μην** | **‑μεθα** |
+| 2nd | **‑σο** (after loss of σ and contraction: ‑ω in the sigmatic, ‑ου in the thematic aorist) | **‑σθε** |
+| 3rd | **‑το** | **‑ντο** |
 
-> **Note:** The middle endings are the same for regular (non‑deponent) verbs. Deponent verbs simply lack the active set.
+> **Note:** these endings are the same for non-deponent middle verbs; deponents simply lack the active set.
 
-### 2.2 Typical Aorist Stem Formation  
+### 2.2 Aorist Stem Formation
 
-| Type of verb | Aorist stem (example) | How to get it |
+| Verb type | Example | Aorist middle |
 |--------------|-----------------------|---------------|
-| **Root aorist** (no augment, no suffix) | **φοβ‑** (from *φοβέω* “to fear”) | Use the present root directly. |
-| **S‑aorist** (adds ‑σ‑) | **προσκυνε‑** → **προσκυνεσ‑** (from *προσκυνέω* “to worship”) | Insert ‑σ‑ before the endings; augment is added in the indicative. |
-| **Irregular aorist** (different stem) | **ἔλαβ‑** (from *λαμβάνω* “to take”) | Memorise the stem. |
+| **Sigmatic (first aorist)** | δέχομαι "to receive" | **ἐδεξάμην** (stem δεξ‑ + ‑α‑) |
+| **Thematic (second aorist)** | γίγνομαι "to become" | **ἐγενόμην** (stem γεν‑ + thematic vowel) |
+| **Liquid (without σ)** | ἀποκρίνομαι "to answer" | **ἀπεκρινάμην** (stem κριν‑) |
 
-For deponent verbs the **stem** is the same as for the active counterpart (if one existed), but only the middle endings are attached.
+In the indicative, the **augment ἐ‑** (or lengthening of the initial vowel) is prefixed to the stem.
 
-### 2.3 Full Paradigm: Example with the Deponent Verb **φοβέω** (to fear) – Aorist Indicative Middle  
+### 2.3 Full Paradigm: **δέχομαι** "to receive" — First Aorist Middle
 
-|          | **Singular** | **Plural** |
+| | **Singular** | **Plural** |
 |----------|--------------|------------|
-| **1st**  | **ἐφοβήμην** | **ἐφοβήμεν** |
-| **2nd**  | **ἐφοβήσο**  | **ἐφοβήτε** |
-| **3rd**  | **ἐφοβήτο**  | **ἐφοβήντο** |
+| **1st** | **ἐδεξάμην** | **ἐδεξάμεθα** |
+| **2nd** | **ἐδέξω** | **ἐδέξασθε** |
+| **3rd** | **ἐδέξατο** | **ἐδέξαντο** |
 
-*Explanation of the forms*  
+*2nd singular: ἐδέξα(σ)ο → ἐδέξω (loss of σ between vowels and contraction).*
 
-* **Augment** – The aorist indicative adds an **ε‑** (or lengthens the initial vowel) before the stem: *ἐ‑* + *φοβ‑* → *ἐφοβ‑*.  
-* **Middle endings** – As shown in the table above.  
+### 2.4 Full Paradigm: **γίγνομαι** "to become" — Second Aorist Middle
 
-### 2.4 Another Example: Deponent Verb **ἁδρόω** (to rejoice) – Aorist Indicative Middle  
-
-|          | **Singular** | **Plural** |
+| | **Singular** | **Plural** |
 |----------|--------------|------------|
-| **1st**  | **ἠδρόμην** | **ἠδρόμεν** |
-| **2nd**  | **ἠδρόσω**  | **ἠδρότε** |
-| **3rd**  | **ἠδρότο**  | **ἠδρόντο** |
+| **1st** | **ἐγενόμην** | **ἐγενόμεθα** |
+| **2nd** | **ἐγένου** | **ἐγένεσθε** |
+| **3rd** | **ἐγένετο** | **ἐγένοντο** |
+
+*ἐγένετο "it happened, it came to pass" is among the most frequent verb forms in all Greek texts.*
 
 ---
 
-## 3. Key Rules & Exceptions  
+## 3. Key Rules & Exceptions
 
 | Rule | Explanation |
 |------|-------------|
-| **1. Augment** | In the indicative aorist (active, middle, or passive) an **ε‑** is prefixed to the stem (or the initial vowel is lengthened). Deponent verbs follow the same rule. |
-| **2. No Active Forms** | Deponent verbs **never** appear with active endings. If you need an active meaning, you must use a different verb (e.g., *φοβέω* is active, but *φοβέομαι* is the deponent middle). |
-| **3. Middle vs. Passive** | Some deponents are **middle‑passive** (e.g., *ἀποκρίνομαι* “to answer”). In the aorist indicative they take the **middle** endings shown above; the **passive** endings are not used for deponents. |
-| **4. Contract Verbs** | If the verb’s stem ends in a vowel, the middle endings contract: e.g., *πείθομαι* → aorist *ἐπείσθην* (1st sg). The pattern is the same as for regular middle verbs. |
-| **5. Irregular Stems** | Some deponents have irregular aorist stems (e.g., *ἔλαβ‑* from *λαμβάνω* is not deponent, but *ἔλαβ‑* would be the aorist of a regular verb). For deponents, memorize the stem (e.g., *ἔσχον* is active, but *ἐσχόμην* is the deponent middle of *σχέω* “to have”). |
-| **6. Negation** | The particle **οὐ** (or **μή** in non‑indicative moods) precedes the aorist indicative middle: *οὐ ἐφοβήμην* “I did not fear”. |
-| **7. Subjunctive & Optative** | Deponent verbs also have middle forms in the subjunctive and optative, but those are **not** aorist; they belong to other tenses (present, perfect). This lesson focuses only on the aorist indicative. |
+| **1. Augment** | The aorist indicative takes ἐ‑ or lengthens the initial vowel: αἰσθάνομαι → **ᾐσθόμην**. |
+| **2. No active forms** | Deponents never take active endings; the dictionary lists them in ‑ομαι: δέχομαι, γίγνομαι, μάχομαι. |
+| **3. Middle deponents vs. passive deponents** | Some deponents form the aorist with **middle** morphology (ἐδεξάμην) — the subject of this lesson — and others with the **‑θην passive**: φοβέομαι → **ἐφοβήθην** "I feared," βούλομαι → **ἐβουλήθην** "I wanted." The second group belongs to the aorist passive lesson. |
+| **4. Second aorists are common** | Many high-frequency deponents have second aorists: ἐγενόμην, ᾐσθόμην, ἐλαβόμην, ἑσπόμην (from ἕπομαι "to follow"). |
+| **5. Memorize the stems** | As with all aorists, the stem is learned from the principal parts: γίγνομαι, γενήσομαι, **ἐγενόμην**, … |
+| **6. Negation** | In the indicative with **οὐ** (οὐκ before a smooth-breathing vowel, οὐχ before rough): **οὐκ ἐγένετο** "it did not happen." μή belongs to the other moods. |
+| **7. In all moods** | These verbs also have aorist middle forms in the subjunctive, optative, imperative, and infinitive (γενέσθαι, γενοῦ, …); this lesson treats only the indicative. |
 
 ---
 
-## 4. Example Sentences  
+## 4. Example Sentences
 
-| Greek (Aorist Indicative Middle) | Transliteration | English |
+| Greek (aorist indicative middle) | Transliteration | English |
 |-----------------------------------|----------------|---------|
-| **ἐφοβήμην τὸν ἥλιον.** | *ephobḗmēn tòn hḗlion.* | “I feared the sun.” |
-| **οὐ ἠδρόμην ἐπὶ τῇ νίκῃ.** | *ou ēdrómēn epì têi níkēi.* | “I did not rejoice at the victory.” |
-| **ἠγγέλθην τῇ πόλει.** (from *ἀγγέλλομαι* “to announce”) | *ēngélthēn têi pólei.* | “I announced (made an announcement) to the city.” |
-| **ἐπείσθην τὸν διδάσκαλον.** (from *πείθω* “to persuade”) | *epeísthēn tòn didáskalon.* | “I was persuaded by the teacher.” |
+| **ἐγένετο νύξ.** | *egéneto nýx* | Night fell. |
+| **ἐδεξάμην τὰ δῶρα.** | *edexámēn ta dôra* | I received the gifts. |
+| **ἀπεκρίνατο τῷ βασιλεῖ.** | *apekrínato tōi basileî* | He answered the king. |
+| **ᾐσθόμεθα τοῦ κινδύνου.** | *ēisthómetha tou kindýnou* | We perceived the danger. |
+| **οὐκ ἐμαχέσαντο οἱ σύμμαχοι.** | *ouk emakhésanto hoi sýmmakhoi* | The allies did not fight. |
 
-*Notice* the augment **ἐ‑** (or lengthened vowel) and the middle endings **‑μην, ‑το, ‑ντο** etc.
-
----
-
-## 5. Usage & Context  
-
-1. **Narrative Past** – The aorist indicative middle is the normal way to tell a story about a past, self‑directed action: *ἔδραμον* (active) vs. *ἐπιδέχομην* (middle, “I received”).  
-2. **Reflexive or Benefactive** – Many deponents convey a reflexive sense (“I feared myself”) or a benefactive sense (“I took part in …”).  
-3. **Idiomatic Meanings** – Some deponents have meanings that are not obviously “middle” in English, e.g., *φοβέομαι* = “to fear”, *ἁδρόομαι* = “to rejoice”. Treat them as lexical items; the middle morphology is a historical relic.  
-4. **Literary Style** – In Homeric and Classical prose the aorist indicative middle is common for verbs of feeling, perception, and volition.  
-5. **Negation** – Use **οὐ** before the aorist indicative middle; **μή** is used only in non‑indicative moods (subjunctive, optative, imperative).  
+*Notice the augment (ἐ‑ or lengthened vowel) and the middle endings **‑μην, ‑το, ‑ντο**.*
 
 ---
 
-## 6. Historical Development & Etymology  
+## 5. Usage & Context
+
+1. **Narrative past** — this is the normal way to report past events with these verbs; καὶ ἐγένετο… "and it came to pass…" is a familiar opener of narrative.
+2. **Lexical meaning** — the meaning of many deponents does not feel "middle" to us (receive, answer, fight); learn them as vocabulary items — the middle shape is a historical relic.
+3. **Verbs of perception, will, and speech** — deponents cluster in these semantic fields: αἰσθάνομαι, βούλομαι, ἡγέομαι, ἀποκρίνομαι.
+4. **Literary style** — in classical prose and epic, the aorist of these verbs is the backbone of narration.
+5. **Negation** — with οὐ(κ/χ) in the indicative; μή only in the non-indicative moods.
+
+---
+
+## 6. Historical Development & Etymology
 
 | Aspect | Details |
 |--------|---------|
-| **Origin of the Middle Voice** | The middle voice developed from an early **reflexive** construction in Proto‑Indo‑European, where the subject acted upon itself. Over time it acquired a broader range of “self‑involved” meanings (benefactive, reciprocal, etc.). |
-| **Deponent Verbs** | In the earliest Greek (Homeric) many verbs appeared only in the middle or passive forms, even when the meaning was active. These forms were retained as **deponents** because the active forms either fell out of use or never existed. |
-| **Aorist Formation** | The aorist tense originally expressed a **simple, punctual** action. The augment (ε‑) was added in the indicative to mark past time, a development shared by all Greek tenses. |
-| **Etymology of “Deponent”** | From Latin *deponere* “to lay aside”, referring to verbs that “lay aside” the active voice. |
-| **Shift in Meaning** | Many deponent verbs have meanings that are now purely lexical (e.g., *φοβέομαι* “to fear”). The middle morphology survives as a fossil of the older reflexive use. |
+| **Origin of the middle voice** | The middle arose from an ancient reflexive construction in Proto-Indo-European — the subject acting on itself — and then took on a wider semantic range (benefactive, reciprocal, etc.). |
+| **Deponent verbs** | In the earliest Greek (Homeric), many verbs appeared only in middle/passive forms even with active meaning; these forms survived as deponents. |
+| **Aorist formation** | The aorist has always expressed a simple, punctual action; the augment ἐ‑ marks past time in the indicative. |
+| **Etymology of "deponent"** | From Latin *dēpōnere* "to lay aside": verbs that have "laid aside" the active voice. |
+| **The spread of ‑θην** | Over the history of Greek, ‑θην passives gradually replaced some middle aorists (ἀπεκρίθη for ἀπεκρίνατο in the Koine) — a useful point for reading later texts. |
 
 ---
 
-## 7. Quick Reference Summary  
+## 7. Quick Reference Summary
 
-| Feature | Form | Example (φοβέω) |
+| Feature | Form | Example (δέχομαι) |
 |---------|------|-----------------|
-| **Tense** | Aorist (simple past) | **ἐφοβ‑** (stem) |
-| **Mood** | Indicative (statement) | **ἐφοβή‑** + ending |
-| **Voice** | Middle (self‑directed) – deponent | **‑μην, ‑ς, ‑το, ‑μεν, ‑τε, ‑ντο** |
-| **Augment** | ε‑ (or lengthening) | **ἐ‑** |
-| **Negation** | οὐ + verb | **οὐ ἐφοβήμην** |
-| **Typical meaning** | “I (self‑involved) …” (often active) | “I feared” |
+| **Tense** | Aorist (simple past) | stem **δεξ‑** |
+| **Mood** | Indicative (statement) | **ἐδεξα‑** + ending |
+| **Voice** | Middle (deponent) | **‑μην, ‑ω, ‑το, ‑μεθα, ‑σθε, ‑ντο** |
+| **Augment** | ἐ‑ (or lengthening) | **ἐ‑** |
+| **Negation** | οὐ(κ) + verb | **οὐκ ἐδεξάμην** |
+| **Typical meaning** | Active in translation | "I received" |
 
 ---
 
-**End of Lesson** – You now know how to recognise, form, and translate the aorist indicative middle of deponent verbs in Ancient Greek. Use the tables above as a cheat‑sheet when you encounter new deponents in reading!
+**End of Lesson** — You can now recognize, form, and translate the aorist indicative middle of deponent verbs. Keep the tables above as a cheat sheet when you meet new deponents in your reading!

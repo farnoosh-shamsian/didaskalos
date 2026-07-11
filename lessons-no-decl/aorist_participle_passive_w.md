@@ -3,78 +3,93 @@ topic: aorist, participle, passive (ω)
 pos: verb
 ---
 
-# Lesson: The Aorist Passive Participle (‑θ‑) in Ancient Greek  
+# Lesson: The Aorist Passive Participle (‑θείς) in Ancient Greek
 
-*Target level: Beginner‑Intermediate*  
+*Target level: Beginner–Intermediate*
 
 ---
 
-## 1. What is the Aorist Passive Participle?
+## 1. What Is the Aorist Passive Participle?
 
 | Term | Meaning in Greek | English gloss |
 |------|------------------|---------------|
-| **Aorist** | A “simple past” aspect that presents an action as a whole, without reference to its duration or repetition. | “did / was …ed” |
-| **Passive** | The subject receives the action rather than performs it. | “was …ed” |
-| **Participle** | A verbal adjective that can be declined like a noun and used attributively, predicatively, or in absolute constructions. | “having been …ed”, “the …ed …” |
+| **Aorist** | The "single event" aspect: the action is viewed as a whole, without reference to duration or repetition. | "was …ed" |
+| **Passive** | The subject receives the action rather than performing it. | "…ed" |
+| **Participle** | A verbal adjective that declines like an adjective and is used attributively, predicatively, or in absolute constructions. | "having been …ed," "after being …ed" |
 
-The **aorist passive participle** therefore expresses a **completed, passive** action and behaves like an adjective. It is most often translated with English perfect‑passive participles (“having been …ed”) or simple past passive adjectives (“the …ed …”).
-
-> **Example** – *λύθει* “he/she/it is loosed” (present passive) → *λύθεις* “having been loosed”.
+The **aorist passive participle** therefore describes a **completed action undergone** by its noun: *λυθείς* "loosed; after being set free."
 
 ---
 
-## 2. How is it Formed?
+## 2. How Is It Formed?
 
-1. **Find the aorist passive stem** of the verb.  
-   - For regular verbs the aorist passive stem is the **aorist active stem + ‑θ‑** (the *‑θ‑* is the passive marker).  
-   - If the aorist active stem ends in **‑σ‑**, the **‑σ‑** is replaced by **‑θ‑**.  
+1. **Find the aorist passive stem** of the verb: stem + the marker **‑θε‑** (without the augment!): ἐλύθην → stem **λυθε‑**.
+2. **Add the participial suffix ‑ντ‑** and the endings. In the masculine nominative the cluster *‑θεντς simplifies to **‑θείς**:
 
-2. **Add the participial suffix** **‑ς / ‑σα / ‑ν** (masc./fem./neut.) and then the ordinary adjective endings of the first/second declension.
-
-### Basic pattern  
-
-| Person/Number | Masculine | Feminine | Neuter |
+| | Masculine | Feminine | Neuter |
 |---------------|----------|----------|--------|
-| Nominative SG | ‑ **θ** **εῖς** | ‑ **θ** **εῖσα** | ‑ **θ** **έν** |
-| Genitive SG   | ‑ **θ** **εῖ** **ς** | ‑ **θ** **εῖ** **ς** | ‑ **θ** **εῖ** **ς** |
-| Dative SG     | ‑ **θ** **εῖ** **ι** | ‑ **θ** **εῖ** **ι** | ‑ **θ** **εῖ** **ι** |
-| Accusative SG | ‑ **θ** **εῖ** **ν** | ‑ **θ** **εῖ** **ν** | ‑ **θ** **εῖ** **ν** |
-| Vocative SG   | ‑ **θ** **εῖ** **ς** | ‑ **θ** **εῖ** **σα** | ‑ **θ** **εῖ** **ν** |
+| Nom. sg. | **‑θείς** | **‑θεῖσα** | **‑θέν** |
+| Gen. sg. | **‑θέντος** | **‑θείσης** | **‑θέντος** |
 
-*The endings after the stem are exactly those of a regular first‑/second‑declension adjective.*
+*The masculine and neuter decline like the third declension (ντ-stem) and the feminine like the first — the same pattern as θείς and δούς.*
 
 ---
 
-## 3. Full Paradigm (example verb **λῦω** “to loose”)  
+## 3. Full Paradigm (Example Verb: **λύω** "to loose")
 
-The aorist passive stem is **λυθ‑** (from λυ‑ + ‑θ‑).  
+The aorist passive stem: **λυθε‑**.
 
 | Case | Masculine | Feminine | Neuter |
 |------|-----------|----------|--------|
-| **Singular** |
-| Nominative | λυθ**εῖς** | λυθ**εῖσα** | λυθ**έν** |
-| Genitive   | λυθ**εῖ** **ς** | λυθ**εῖ** **ς** | λυθ**εῖ** **ς** |
-| Dative     | λυθ**εῖ** **ι** | λυθ**εῖ** **ι** | λυθ**εῖ** **ι** |
-| Accusative | λυθ**εῖ** **ν** | λυθ**εῖ** **ν** | λυθ**εῖ** **ν** |
-| Vocative   | λυθ**εῖς** | λυθ**εῖσα** | λυθ**έν** |
-| **Plural** |
-| Nominative | λυθ**εῖ** **ς** | λυθ**εῖ** **σαι** | λυθ**εῖ** **α** |
-| Genitive   | λυθ**εῖ** **ν** **ων** | λυθ**εῖ** **ν** **ων** | λυθ**εῖ** **ν** **ων** |
-| Dative     | λυθ**εῖ** **σι(ν)** | λυθ**εῖ** **σι(ν)** | λυθ**εῖ** **σι(ν)** |
-| Accusative | λυθ**εῖ** **ς** | λυθ**εῖ** **σας** | λυθ**εῖ** **α** |
-| Vocative   | λυθ**εῖ** **ς** | λυθ**εῖ** **σαι** | λυθ**εῖ** **α** |
-
-*The plural endings follow the regular first/second declension pattern (‑ι, ‑ων, ‑σι(ν), ‑ας/‑α).*
+| **Singular** | | | |
+| Nominative | λυθείς | λυθεῖσα | λυθέν |
+| Genitive | λυθέντος | λυθείσης | λυθέντος |
+| Dative | λυθέντι | λυθείσῃ | λυθέντι |
+| Accusative | λυθέντα | λυθεῖσαν | λυθέν |
+| **Plural** | | | |
+| Nominative | λυθέντες | λυθεῖσαι | λυθέντα |
+| Genitive | λυθέντων | λυθεισῶν | λυθέντων |
+| Dative | λυθεῖσι(ν) | λυθείσαις | λυθεῖσι(ν) |
+| Accusative | λυθέντας | λυθείσας | λυθέντα |
 
 ---
 
-## 4. Key Rules & Common Exceptions  
+## 4. Key Rules & Common Exceptions
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **A. Stem formation** | aorist passive stem = aorist active stem + ‑θ‑ (or replace ‑σ‑ with ‑θ‑). | *γράφω* → aorist active *ἔγραψα* → passive stem *γραφθ‑* → participle *γραφθέν* |
-| **B. Contract verbs** | If the present stem ends in a vowel, the aorist passive stem may contract before ‑θ‑ (e.g., *πείθω* → *πείσθην* → *πείσθεις*). | *πείθω* → *πείσθην* → *πείσθεις* |
-| **C. Irregular stems** | Some verbs have suppletive aorist passive stems (e.g., *ἔρχομαι* → *ἐλήλυθα* has no aorist passive participle). | No participle for *ἔρχομαι*. |
-| **D. Verbs with no aorist passive** | Verbs that are inherently intransitive or have only middle voice lack a true aorist passive participle. | *ἔρχομαι*, *γίγνομαι* |
-| **E. Use with the article** | When the participle functions as a noun (e.g., “the one who was …ed”), it normally takes the definite article. | *ὁ λυθεὶς* “the one who was loosed”. |
-| **F. Agreement** | The participle must agree with the noun it modifies in gender, number, and case. | *ἡ λυθεῖσα γυνή* “
+| **A. Stem formation** | The aorist passive stem comes from the verb's sixth principal part, without the augment: ἐλύθην → λυθε‑. | *παιδεύω* → ἐπαιδεύθην → **παιδευθείς** |
+| **B. Consonant changes before θ** | Labials → φ; velars → χ; dentals → σ. | πέμπω → **πεμφθείς**; πείθω → **πεισθείς** |
+| **C. The second aorist passive (without θ)** | Some verbs have plain ‑ε‑; the participle is ‑είς without θ. | γράφω → **γραφείς**; φαίνω → **φανείς** |
+| **D. Verbs without a passive** | ἔρχομαι and γίγνομαι have no aorist passive. | — |
+| **E. Passive deponents** | ‑θείς shape, active meaning! | **πορευθείς** "having traveled," **φοβηθείς** "having feared" |
+| **F. Agreement** | With the noun in gender, number, and case. | *ἡ λυθεῖσα γυνή* "the freed woman" |
+| **G. With the article = noun/relative** | *ὁ λυθείς* "the one who was freed." | οἱ ληφθέντες "those who were captured" |
+
+---
+
+## 5. Example Sentences
+
+| Greek | Translation |
+|---------------------------|-------------|
+| **λυθεὶς ἐκ τῶν δεσμῶν, ἀπῆλθεν.** | Freed from his bonds, he departed. |
+| **ἡ πόλις ληφθεῖσα ὑπὸ τῶν πολεμίων διεφθάρη.** | The city, taken by the enemy, was destroyed. |
+| **ταῦτα λεχθέντα πάντες ἐπῄνεσαν.** | When these things had been said, all praised them. |
+| **πορευθεὶς εἰς τὴν κώμην, εὗρε τὸν φίλον.** | He went to the village and found his friend. (passive deponent — active meaning) |
+| **οἱ πεισθέντες τῷ ῥήτορι ἐψηφίσαντο.** | Those persuaded by the orator cast their votes. |
+
+---
+
+## 6. Usage & Context
+
+1. **Circumstantial/temporal** — the prior action undergone: λυθείς… "after being freed…"
+2. **The genitive absolute** — a detached subject in the genitive: **τούτων λεχθέντων** "these things having been said" — one of the most frequent constructions of prose.
+3. **The agent with ὑπό + genitive** — ληφθεὶς ὑπὸ τῶν πολεμίων "captured by the enemy."
+4. **The deponent trap** — translate πορευθείς and φοβηθείς actively ("having gone," "having feared"); the shape is passive, the meaning is not.
+5. **Recognition** — every ‑θείς/‑θεῖσα/‑θέν (or θ-less ‑είς on an aorist stem) is an aorist passive participle; do not confuse it with the present middle/passive participle (‑όμενος).
+
+---
+
+## 7. Historical Note
+
+The marker ‑θη‑/‑θε‑ is a Greek innovation and originally expressed a change of state; the suffix ‑ντ‑ is the same ancient active-participle suffix — which is why the aorist passive participle, unlike the other passive formations, declines with "active-looking" endings (λυθείς like θείς). The formation flourished in the Koine, where forms such as ἀποκριθείς "having answered" displaced the middle participles.

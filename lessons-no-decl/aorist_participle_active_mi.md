@@ -3,122 +3,125 @@ topic: aorist, participle, active (μι)
 pos: verb
 ---
 
-# Lesson: The Aorist Active Participle (‑μι)  
+# Lesson: The Aorist Active Participle of **‑μι** Verbs
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic noun declension, present‑active indicative endings*  
-
----
-
-## 1. What is the Aorist Active Participle?
-
-A **participle** is a verbal adjective – it has the meaning of a verb but behaves like an adjective, taking case, number and gender.  
-
-The **aorist** expresses a *simple, completed* action, without reference to duration or repetition.  
-
-The **active** voice means the subject of the participle is the *doer* of the action (as opposed to middle or passive).
-
-Putting these together, the **aorist active participle** means “the one who **has** (or **did**) …” and is used to describe a *completed* action performed by the noun it modifies.
-
-> **English equivalents** – “who/which …ed”, “having …ed”, “the … that …ed”.
-
-In Smyth’s terminology the aorist active participle is labelled **(μι)** because its *present‑active* counterpart ends in **‑μι** (e.g., λύω → λύω με). The aorist participle, however, uses a different set of endings (‑ντ‑, ‑σ‑, ‑ν) that we will learn below.
+*Target level: Beginner–Intermediate*
+*Prerequisites: Greek alphabet, basic noun declension, present indicative active endings*
 
 ---
 
-## 2. Forming the Aorist Active Participle  
+## 1. What Is the Aorist Active Participle?
 
-### 2.1. The Stem
+A **participle** is a verbal adjective: it has the meaning of a verb but behaves like an adjective, taking case, number, and gender.
 
-1. **Start with the aorist active stem** of the verb (the same stem that gives the aorist indicative).  
-   - For regular verbs: take the aorist **‑σ‑** (or **‑θ‑**) and drop the **‑σ‑/‑θ‑**.  
-   - Example: λύσω (aorist of λύω) → stem **λυ‑**.  
+The **aorist** expresses a *simple, complete* action, without reference to duration or repetition.
 
-2. **Add the participial suffix** **‑ντ‑** (or **‑σ‑** after a vowel).  
-   - After a vowel the **‑ντ‑** contracts to **‑σ‑** (e.g., ἀγγέλλω → ἀγγέλ- → ἀγγέλ-σ‑).  
+**Active** means the noun modified by the participle is the *doer* of the action.
 
-3. **Attach the case‑gender‑number endings** (see the tables).
+So the **aorist active participle** means "the one who did (once)," "having done." The label **(μι)** signals that this lesson concerns the μι-verbs — δίδωμι, τίθημι, ἵημι, ἵστημι — whose athematic aorists (without the thematic vowel) give the participle a distinctive shape.
 
-### 2.2. The Endings  
+> **English equivalents** — "having given," "having placed," "the one who gave," "after placing."
 
-The aorist active participle has **three sets of endings** (masculine/feminine/neuter) that are the same as those of the **present active participle** (‑ων, ‑ουσα, ‑ον) but with the **‑ντ‑/‑σ‑** stem instead of the **‑ον‑** stem.
+---
+
+## 2. Forming the Aorist Active Participle of μι-Verbs
+
+### 2.1 The Stem
+
+The participle is built on the **short, unaugmented aorist stem** — the same stem you saw in the plural of the indicative:
+
+| Verb | Aorist indicative | Participle stem |
+|------|-------------|-----------------------------------|
+| δίδωμι "to give" | ἔδωκα / ἔδομεν | **δο‑** |
+| τίθημι "to place" | ἔθηκα / ἔθεμεν | **θε‑** |
+| ἵημι "to send" | ἧκα / εἷμεν | **ἑ‑** |
+| ἵστημι "to stand" | ἔστην | **στα‑** |
+
+### 2.2 The Endings
+
+The active participle suffix **‑ντ‑** attaches directly to the vowel stem; in the masculine nominative the cluster *‑ντς simplifies, producing the forms in ‑είς/‑ούς/‑άς:
+
+| Verb | Masculine | Feminine | Neuter | Masc. genitive |
+|------|-----------|----------|--------|--------|
+| δίδωμι | **δούς** | **δοῦσα** | **δόν** | δόντος |
+| τίθημι | **θείς** | **θεῖσα** | **θέν** | θέντος |
+| ἵημι | **εἵς** (in compounds: ἀφείς) | **εἷσα** | **ἕν** | ἕντος |
+| ἵστημι | **στάς** | **στᾶσα** | **στάν** | στάντος |
+
+*Other root aorists follow the same pattern: γιγνώσκω → **γνούς**, βαίνω → **βάς**.*
+
+---
+
+## 3. Full Paradigms
+
+### 3.1 **θείς** "having placed" (from τίθημι)
 
 | Case | Masculine | Feminine | Neuter |
-|------|-----------|----------|--------|
-| Nominative | ‑ **ντ**‑ **ς** | ‑ **ντ**‑ **α** | ‑ **ντ**‑ **ον** |
-| Genitive   | ‑ **ντ**‑ **ου** | ‑ **ντ**‑ **ης** | ‑ **ντ**‑ **ου** |
-| Dative     | ‑ **ντ**‑ **ῃ** | ‑ **ντ**‑ **ῃ** | ‑ **ντ**‑ **ῃ** |
-| Accusative | ‑ **ντ**‑ **α** | ‑ **ντ**‑ **αν** | ‑ **ντ**‑ **ον** |
-| Vocative   | ‑ **ντ**‑ **ε** | ‑ **ντ**‑ **α** | ‑ **ντ**‑ **ον** |
-
-*The dual forms (rare in prose) are shown in the full paradigm below.*
-
----
-
-## 3. Full Paradigm (example with **λῦσ‑** “to loose”)  
-
-|                | **Masculine** | **Feminine** | **Neuter** |
 |----------------|---------------|--------------|------------|
-| **Singular**   |               |              |            |
-| Nominative     | λύσας        | λύσασα      | λύσαν      |
-| Genitive       | λύσαντος     | λύσασας     | λύσαντος   |
-| Dative         | λύσαντι      | λύσασῃ      | λύσαντι    |
-| Accusative     | λύσαντα      | λύσασαν     | λύσαν      |
-| Vocative       | λύσας        | λύσασα      | λύσαν      |
-| **Dual**       |               |              |            |
-| Nominative/Acc.| λύσαντ᾽       | λύσασ᾽      | λύσαντ᾽    |
-| Genitive/Dative| λύσαντῳ       | λύσασῳ      | λύσαντῳ    |
-| **Plural**     |               |              |            |
-| Nominative     | λύσαντες     | λύσασαι     | λύσαντα   |
-| Genitive       | λύσαντων     | λύσασῶν     | λύσαντων   |
-| Dative         | λύσασι(ν)     | λύσασι(ν)    | λύσασι(ν)   |
-| Accusative     | λύσασας      | λύσασας     | λύσαντα   |
-| Vocative       | λύσαντες     | λύσασαι     | λύσαντα   |
+| **Singular** | | | |
+| Nominative | θείς | θεῖσα | θέν |
+| Genitive | θέντος | θείσης | θέντος |
+| Dative | θέντι | θείσῃ | θέντι |
+| Accusative | θέντα | θεῖσαν | θέν |
+| **Plural** | | | |
+| Nominative | θέντες | θεῖσαι | θέντα |
+| Genitive | θέντων | θεισῶν | θέντων |
+| Dative | θεῖσι(ν) | θείσαις | θεῖσι(ν) |
+| Accusative | θέντας | θείσας | θέντα |
 
-> **Note:** The **‑σ‑** variant appears after a vowel (e.g., ἀγγέλλω → ἀγγέλ‑σ‑). In such cases the participle looks like **ἀγγέλσας**, **ἀγγέλσασα**, **ἀγγέλσαν** etc.
+### 3.2 **δούς** "having given" (from δίδωμι)
 
-### Irregular / Special Stems
+| Case | Masculine | Feminine | Neuter |
+|----------------|---------------|--------------|------------|
+| Nom. sg. | δούς | δοῦσα | δόν |
+| Gen. sg. | δόντος | δούσης | δόντος |
+| Dat. sg. | δόντι | δούσῃ | δόντι |
+| Acc. sg. | δόντα | δοῦσαν | δόν |
+| Nom. pl. | δόντες | δοῦσαι | δόντα |
+| Gen. pl. | δόντων | δουσῶν | δόντων |
+| Dat. pl. | δοῦσι(ν) | δούσαις | δοῦσι(ν) |
+| Acc. pl. | δόντας | δούσας | δόντα |
 
-| Verb | Aorist Stem | Participial Form (Masc. Nom. Sg.) |
-|------|-------------|-----------------------------------|
-| εἰμί (to be) | — (no aorist) | **—** (no aorist active participle) |
-| ἔρχομαι (to come) | ἐλθ- | **ἐλθών** (present‑active participle) – aorist active participle **—** (rare) |
-| ἔδωκα (to give) | δώσ- | **δῶσας** (masc. nom. sg.) |
-
-Some verbs have **contracted aorist stems** (e.g., ἀκούω → ἤκουσα). Their participles contract accordingly: **ἀκούσας**, **ἀκούσασα**, **ἀκούσαν**.
+*Masculine and neuter: third declension (ντ-stem); feminine: first declension.*
 
 ---
 
-## 4. Key Rules & Common Exceptions  
+## 4. Key Rules & Common Exceptions
 
 | Rule | Explanation |
 |------|-------------|
-| **1. Use the aorist stem** | Do **not** use the present stem. The aorist stem is the one that appears in the aorist indicative (often ending in ‑σ‑ or ‑θ‑). |
-| **2. Add ‑ντ‑ (or ‑σ‑ after a vowel)** | The participial suffix is ‑ντ‑; after a vowel it contracts to ‑σ‑. |
-| **3. Follow the regular case endings** | The endings are the same for all aorist active participles, regardless of the verb. |
-| **4. No aorist active participle for “to be”** | The verb εἰμί lacks an aorist active participle. Use other constructions (e.g., ἦν). |
-| **5. Irregular stems** | Some verbs have aorist stems that differ markedly from the infinitive (e.g., ἔρχομαι → ἐλθ-). Memorise these individually. |
-| **6. Periphrastic aorist** | **Aorist participle + εἰμί** forms a periphrastic aorist meaning “I have …” (e.g., **λελυκώς εἰμι** “I have loosed”). This construction is more common in later Greek. |
-| **7. Dual forms** | The dual is rarely used in Attic prose; you will mostly encounter the singular and plural. |
-| **8. Spelling changes** | When the stem ends in a vowel, the **‑ντ‑** may cause contraction (e.g., **ἀγγέλλω → ἀγγέλσας**). |
+| **1. Short stem, no augment** | Of ἔθηκα only θε‑ remains: **θείς** (not *ἐθηκώς or *θηκάς). |
+| **2. The masculine nominative is compressed** | *δο-ντ-ς → δούς; *θε-ντ-ς → θείς; *στα-ντ-ς → στάς. The other cases reveal the ‑ντ‑. |
+| **3. The dative plural loses the ν** | *θε-ντ-σι → θεῖσι(ν); *δο-ντ-σι → δοῦσι(ν). |
+| **4. ἵστημι has two participles** | Root **στάς** "having stood" (intransitive); sigmatic **στήσας** "having set up" (transitive). |
+| **5. εἰμί has no aorist participle** | It has no aorist; its present participle is ὤν, οὖσα, ὄν. |
+| **6. Do not confuse with the perfect** | ἑστηκώς "standing (and still standing)" is a perfect participle, not an aorist. |
+| **7. Compounds abound** | ἀποδούς "having given back," συνθείς "having put together," ἀφείς "having released," ἀναστάς "having risen." |
 
 ---
 
-## 5. Example Sentences  
+## 5. Example Sentences
 
-| Greek (with transliteration) | Translation |
+| Greek | Translation |
 |------------------------------|-------------|
-| **Λύσας τὸν δεσμῶν, ἦλθεν εἰς τὴν ἀγορὰν.**<br>_Lysas ton desmōn, ēlthen eis tēn agora._ | “Having loosed the bonds, he went to the market.” |
-| **Ἡ γυνὴ ἀγγέλσασα τὸν λόγον ἔφυγεν.**<br>_Hē gynē angelssasa ton logon ephugen._ | “The woman who announced the news fled.” |
-| **Τὰ δένδρα πεπτωκότα ὑπὸ τῆς καταιγίδος ἔδειξαν τὴν ἀσθενείαν.**<br>_Ta dendra peptōkota hypo tēs kataigidos edeixan tēn astheneian._ | “The trees that had fallen because of the storm showed the weakness.” |
-| **Λελυκώς εἰμι.** (periphrastic aorist) <br>_Lelukōs eimi._ | “I have loosed.” (literally “I am having loosed”) |
+| **δοὺς τὰ χρήματα ἀπῆλθεν.** | Having given the money, he left. |
+| **θεῖσα τὸ βιβλίον ἐπὶ τὴν τράπεζαν, ἐξῆλθεν.** | Having laid the book on the table, she went out. |
+| **ἀναστὰς εἶπεν.** | He rose and spoke. |
+| **οἱ δόντες τὰ δῶρα ἐπῃνέθησαν.** | Those who gave the gifts were praised. |
+| **τοὺς νόμους θέντες, οἱ πολῖται εἰρήνην ἦγον.** | Having established their laws, the citizens lived in peace. |
 
 ---
 
-## 6. Usage & Context  
+## 6. Usage & Context
 
-1. **Temporal clause** – Often used to indicate a *prior* action:  
-   - **λῦσας** (having loosed) → action completed before the main verb.  
+1. **A compressed temporal clause** — the prior action: **δούς** "after giving"; the main verb carries the following action.
+2. **A substitute for a relative clause** — **ὁ δούς** "the one who gave," **οἱ θέντες** "those who established."
+3. **The narrative idiom ἀναστάς** — "he rose and…" at the start of speech and action, extremely frequent.
+4. **Aspect, not time** — the aorist participle marks priority or a single act; the present participle (διδούς "while giving") marks simultaneity.
+5. **Frequency** — these forms teem in historical and legal prose: giving, enacting, rising, releasing.
 
-2. **Relative clause** – Replaces a relative clause with a participle:  
-   - **ὁ λῦσας** = “the one who loosed”.
+---
+
+## 7. Historical Note
+
+The suffix ‑ντ‑ is the oldest Indo-European active participle suffix. In the μι-verbs it sits directly on the vowel root, and the compressed nominatives (δούς, θείς, στάς) arose from the simplification of the cluster *‑ντς — the same process you see in the aorist passive participle (λυθείς). These short shapes are among the most frequent words in Greek prose, and knowing them is a key to fluent reading.

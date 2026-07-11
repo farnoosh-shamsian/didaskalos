@@ -5,74 +5,77 @@ pos: verb
 
 ## Introduction to ω-Verbs: Aorist + Imperative + Active
 ### Overview
-In this lesson, we will explore the conjugation of ω-verbs in the aorist imperative active voice. This is a crucial aspect of the Greek language, as it allows speakers to give commands or instructions for actions to be completed in the past. Understanding the aorist imperative active of ω-verbs is essential for effective communication in Greek.
+In this lesson we explore the conjugation of ω-verbs in the aorist imperative active. The aorist imperative is used to command a **single, complete** action — "do this (and be done with it)." Despite what the name "aorist" may suggest, this form says nothing about past time: outside the indicative mood, the aorist expresses only **aspect**.
 
-## Clear Explanation of the Grammatical Concept
-The aorist tense is used to describe completed actions in the past, while the imperative mood is used to give commands or instructions. When combined, the aorist imperative active voice allows speakers to command or instruct someone to complete an action in the past. This grammatical concept is vital in Greek, as it enables speakers to express themselves with precision and nuance.
+## Explanation of the Grammatical Concept
+In the indicative mood the aorist describes a completed event in the past, and the imperative mood is used for commands and requests. When the two combine, the result is a command with **aoristic aspect**: the performance of one single, complete action. The essential contrast is with the **present imperative**, which commands an ongoing or repeated action:
+
+- **Present imperative**: γράφε "write (continually / as a habit)"
+- **Aorist imperative**: γράψον "write (this once, this thing)"
 
 ## Forms and Patterns
-The conjugation of ω-verbs in the aorist imperative active voice follows specific patterns. The verb stem is used as the base, and specific endings are added to indicate the person and number of the subject.
+The forms are built on the **aorist stem** (for λύω, the stem λυσ‑) — but **without the augment ἐ‑**, because the augment belongs to the indicative mood alone.
 
-### Present Active Indicative
-To understand the aorist imperative active, it's helpful to first see the present active indicative conjugation of an ω-verb. The verb λυω (I loose) will be used as an example.
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 1st | λυω (lyō) | λυομεν (lyomen) |
-| 2nd | λυεις (lyeis) | λυετε (lyete) |
-| 3rd | λυει (lyei) | λυουσι(ν) (lyousi(n)) |
-
-### Aorist Active Indicative
-The aorist active indicative of ω-verbs is formed by adding specific endings to the verb stem. For λυω, the aorist stem is λυσ-.
+### Present Indicative Active (for comparison)
+The present indicative active of the model verb **λύω**, "to loose":
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 1st | ελυσα (elysa) | ελυσαμεν (elysamen) |
-| 2nd | ελυσας (elysas) | ελυσατε (elysate) |
-| 3rd | ελυσε(ν) (elyse(n)) | ελυσαν (elysan) |
+| 1st | λύω (lýō) | λύομεν (lýomen) |
+| 2nd | λύεις (lýeis) | λύετε (lýete) |
+| 3rd | λύει (lýei) | λύουσι(ν) (lýousi(n)) |
 
-### Imperative Active
-The imperative active mood is used for commands or requests. The endings for the imperative active of ω-verbs are as follows:
+### Aorist Indicative Active
+The aorist indicative active is formed with the augment ἐ‑ and the aorist stem:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 2nd | λυε (lye) | λυετε (lyete) |
-| 3rd | λυετω (lyetō) | λυετωσαν (lyetōsan) |
+| 1st | ἔλυσα (élysa) | ἐλύσαμεν (elýsamen) |
+| 2nd | ἔλυσας (élysas) | ἐλύσατε (elýsate) |
+| 3rd | ἔλυσε(ν) (élyse(n)) | ἔλυσαν (élysan) |
+
+### Present Imperative Active (for comparison)
+| Person | Singular | Plural |
+| --- | --- | --- |
+| 2nd | λῦε (lŷe) | λύετε (lýete) |
+| 3rd | λυέτω (lyétō) | λυόντων / λυέτωσαν (lyóntōn / lyétōsan) |
 
 ### Aorist Imperative Active
-The aorist imperative active of ω-verbs is formed by using specific endings that indicate the person and number of the subject.
+The endings of the sigmatic (first) aorist imperative:
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 2nd | -ον | -οτε |
-| 3rd | -οτω | -οτωσαν |
+| 2nd | **‑σον** | **‑σατε** |
+| 3rd | **‑σάτω** | **‑σάντων** (classical) / **‑σάτωσαν** (later) |
 
-For example, the verb λυω (to loose) in the aorist imperative active would be:
-
-| Person | Singular | Plural |
-| --- | --- | --- |
-| 2nd | λυον | λυοτε |
-| 3rd | λυοτω | λυοτωσαν |
-
-Another example with the verb ποιεω (to make) in the aorist imperative active:
+For the verb **λύω**, "to loose":
 
 | Person | Singular | Plural |
 | --- | --- | --- |
-| 2nd | ποιησον | ποιησατε |
-| 3rd | ποιησατω | ποιησατωσαν |
+| 2nd | **λῦσον** (lŷson) | **λύσατε** (lýsate) |
+| 3rd | **λυσάτω** (lysátō) | **λυσάντων / λυσάτωσαν** |
+
+Another example, the verb **ποιέω**, "to do, make":
+
+| Person | Singular | Plural |
+| --- | --- | --- |
+| 2nd | **ποίησον** (poíēson) | **ποιήσατε** (poiḗsate) |
+| 3rd | **ποιησάτω** (poiēsátō) | **ποιησάντων / ποιησάτωσαν** |
 
 ## Key Rules and Exceptions
-- The formation of the aorist imperative active involves adding specific endings to the verb stem. For ω-verbs, the stem often ends in ω, and the endings are added directly to this stem.
-- The 2nd person singular ending is -ον, the 2nd person plural ending is -οτε, the 3rd person singular ending is -οτω, and the 3rd person plural ending is -οτωσαν.
-- Some verbs may have irregular forms or additional rules for their conjugation in the aorist imperative active.
+- The aorist imperative is built on the **unaugmented aorist stem**: ἔλυσα → stem λυσ‑ → λῦσον.
+- The endings of the first (sigmatic) aorist: 2nd singular **‑σον**, 3rd singular **‑σάτω**, 2nd plural **‑σατε**, 3rd plural **‑σάντων/‑σάτωσαν**.
+- Verbs with a **second aorist** take the present-imperative endings on the aorist stem: λαμβάνω → **λαβέ** "take!"; λέγω → **εἰπέ** "say!". Five famous imperatives accent the final syllable: εἰπέ, ἐλθέ, εὑρέ, ἰδέ, λαβέ.
+- The imperative has no first person; for "let us …" Greek uses the hortatory subjunctive.
+- A **prohibition of a single act** is normally expressed not by the aorist imperative but by **μή + aorist subjunctive**: μὴ λύσῃς "do not loose!"
 
 ## Example Sentences with Translations
-1. Λυον τα δεσμα. (Lyōn ta desma) - Loose the bonds.
-2. Ποιησατω ο αρχων. (Poīēsatō o archōn) - Let the ruler make (it).
-3. Λυοτε τας θυρας. (Lyote tas thyras) - You (plural) loose the doors.
+1. **λῦσον τὰ δεσμά.** (lŷson ta desmá) — Loose the bonds!
+2. **ποιησάτω ὁ ἄρχων.** (poiēsátō ho árkhōn) — Let the ruler act.
+3. **λύσατε τὰς θύρας.** (lýsate tas thýras) — Open the doors!
 
 ## Notes on Usage and Context
-The aorist imperative active is used to give commands or instructions for actions to be completed. It is often used in formal or written contexts, such as in literature, official documents, or when addressing someone in a formal manner. Understanding the context in which these forms are used can significantly affect the meaning and interpretation of the sentence.
+The aorist imperative commands a specific, single action and is very common in prayers and formal requests (prayers almost always use the aorist: "give us this day…"). Its contrast with the present imperative is one of **aspect**, not time: present imperative = "keep doing this / always do this"; aorist imperative = "do this (once)." Attending to this contrast makes the force of a command much more precise when reading texts.
 
 ## Historical Development and Etymology
-The Greek language has evolved over time, and its verb conjugation system reflects this evolution. The aorist tense, in particular, has its roots in ancient Greek, where it was used to describe completed actions without reference to the present. The imperative mood, when combined with the aorist, allows for a nuanced expression of command or instruction, reflecting the complex social and cultural contexts in which ancient Greek was spoken. Understanding the historical development and etymology of these forms can provide deeper insight into their usage and meaning.
+The aorist is one of the oldest aspectual categories of Indo-European, and its Greek marker ‑σ(α)‑ goes back to the sigmatic suffix of the parent language. The 3rd person plural ending ‑τωσαν is a later development that replaced classical ‑ντων in Koine Greek; this is why classical Attic texts show λυσάντων while later texts (including the New Testament) show λυσάτωσαν. Knowing this development helps in reading texts from different periods.

@@ -3,139 +3,122 @@ topic: aorist, infinitive, middle (deponent)
 pos: verb
 ---
 
-# Lesson: The Aorist Infinitive – Middle (Deponent) Voice  
+# Lesson: The Aorist Middle Infinitive — Deponent Verbs
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic noun declension, present‑active infinitive.*
-
----
-
-## 1. What is the Aorist Infinitive?
-
-The **infinitive** is a non‑finite verb form that does not show person or number.  
-The **aorist** tense expresses a simple, completed action without reference to duration or repetition.  
-
-When the infinitive is in the **middle** (or middle‑passive) voice it normally carries a **reflexive, reciprocal, or “for‑one‑self”** sense.  
-A **deponent** verb is a verb that has only middle‑passive forms (including the infinitive) but **means an active** action. Therefore a *deponent aorist infinitive* looks middle‑passive in shape but translates with an active meaning.
-
-> **Key idea:** *aorist infinitive = “to do (something) once, completely”*  
-> **Middle voice = “to do (something) for oneself / to each other”**  
-> **Deponent = middle‑passive form with active meaning**  
+*Target level: Beginner–Intermediate*
+*Prerequisites: Greek alphabet, basic noun declension, present active infinitive.*
 
 ---
 
-## 2. Forms and Patterns  
+## 1. What Is the Aorist Infinitive?
 
-### 2.1 Regular (non‑deponent) verbs  
+The **infinitive** is the non-finite form of the verb: it has no person or number.
+The **aorist** conveys a simple, complete action, without reference to duration or repetition — and in the infinitive it **carries no reference to past time**; it gives only the aspect of "once and done."
 
-| Voice | Ending (after the aorist stem) | Example verb: **λύω** “to loose” |
+The **middle** infinitive usually has the sense "for oneself / on oneself / reciprocally."
+A **deponent** verb has only middle (or middle/passive) forms but an **active** meaning. So the *aorist infinitive of a deponent verb* looks middle but translates actively.
+
+> **Key idea:** aorist infinitive = "to do (once, completely)"
+> Middle voice = "for oneself / with self-involvement"
+> Deponent = middle shape, active meaning
+
+---
+
+## 2. Forms and Patterns
+
+### 2.1 The Three Aorist Infinitives of a Regular Verb (for comparison)
+
+| Voice | Ending (after the aorist stem) | Example: **λύω** "to loose" |
 |-------|--------------------------------|-----------------------------------|
-| **Active** | **‑ναι** | **λῦσναι** “to loose (once)” |
-| **Middle / Passive** | **‑σθαι** | **λῦσθαι** “to be loosed / to loose oneself” |
-| **Passive (aorist) – rare in infinitive** | **‑θῆναι** | **λῦθῆναι** “to be loosed” |
+| **Active** | **‑σαι** | **λῦσαι** "to loose (once)" |
+| **Middle** | **‑σασθαι** | **λύσασθαι** "to loose for oneself, to ransom" |
+| **Passive** | **‑θῆναι** | **λυθῆναι** "to be loosed" |
 
-*The aorist stem of λύω is **λυσ‑** (with the augment ε‑ in the indicative, but not in the infinitive).*
+*The aorist stem of λύω is **λυσ‑**; the augment ἐ‑ appears only in the indicative, never in the infinitive.*
 
-### 2.2 Contract verbs (‑άω, ‑έω, ‑όω)  
+### 2.2 The Aorist Infinitive of Middle Deponents
 
-| Voice | Ending | Example: **φιλέω** “to love” |
-|-------|--------|------------------------------|
-| Active | ‑ναι → **φιλεῖν** (contracted) |
-| Middle/Passive | ‑σθαι → **φιλεῖσθαι** |
-| Passive (rare) | ‑θῆναι → **φιληθῆναι** |
+Deponents whose aorist is **middle** have infinitives in ‑σασθαι (first aorist) or ‑έσθαι (second aorist):
 
-*Note:* The vowel of the stem contracts before the infinitive endings (α + ν → *αν* → *α* → *ε* etc.).  
+| Verb (present) | Aorist indicative | Aorist infinitive | Meaning |
+|-------|--------|------------------------------|------|
+| **δέχομαι** "to receive" | ἐδεξάμην | **δέξασθαι** | to receive |
+| **ἀποκρίνομαι** "to answer" | ἀπεκρινάμην | **ἀποκρίνασθαι** | to answer |
+| **γίγνομαι** "to become" | ἐγενόμην | **γενέσθαι** | to become |
+| **πυνθάνομαι** "to inquire" | ἐπυθόμην | **πυθέσθαι** | to inquire |
+| **αἰσθάνομαι** "to perceive" | ᾐσθόμην | **αἰσθέσθαι** | to perceive |
 
-### 2.3 Verbs with **reduplication** (aorist‑active)  
+### 2.3 Passive Deponents
 
-| Voice | Ending | Example: **διδάσκω** “to teach” (aorist **ἐδίδαξα**) |
-|-------|--------|------------------------------------------------------|
-| Active | ‑ναι → **διδάξαι** |
-| Middle/Passive | ‑σθαι → **διδαχθῆναι** (rare) |
-| Passive | ‑θῆναι → **διδαχθῆναι** |
+A group of deponents forms its aorist with the **passive** formation (‑θη‑); their infinitive ends in ‑θῆναι but still translates actively:
 
-### 2.4 Deponent verbs (middle‑passive form, active meaning)
+| Verb (present) | Aorist indicative | Aorist infinitive | Meaning |
+|-------|--------|------------------------------|------|
+| **βούλομαι** "to want" | ἐβουλήθην | **βουληθῆναι** | to want |
+| **φοβέομαι** "to fear" | ἐφοβήθην | **φοβηθῆναι** | to fear |
+| **πορεύομαι** "to travel" | ἐπορεύθην | **πορευθῆναι** | to travel |
 
-| Voice (form) | Ending | Example: **ἔρχομαι** “to come” (present deponent) |
-|--------------|--------|---------------------------------------------------|
-| **Aorist infinitive** (middle/passive) | **‑σθαι** → **ἐλθόντα**? Actually aorist infinitive of ἔρχομαι is **ἐλθεῖν** (active) – but many deponents have a true aorist infinitive middle: **ἀποκριθῆναι** “to answer” (from ἀποκρίνομαι). |
-| **Typical pattern** | **‑σθαι** (or **‑θῆναι** for passive) | **ἀποκριθῆναι** “to answer (once)” |
+### 2.4 The Famous Exception
 
-**Paradigm of a regular deponent aorist infinitive** (using **ἀποκρίνομαι** “to answer”):
-
-| Person/Number | Form (aorist infinitive) | Meaning |
-|---------------|--------------------------|---------|
-| — | **ἀποκριθῆναι** | “to answer (once)” |
-| — | **ἀποκριθῆσθαι** (rare) | “to be answered” (passive) |
-
-Because the infinitive has no person/number, the table simply shows the single form.
+**ἔρχομαι** "to come" is deponent in the present, but its aorist is **active**: the infinitive is **ἐλθεῖν** (not *ἐλθέσθαι*). Learn each verb's tense systems separately.
 
 ---
 
-## 3. Key Rules & Exceptions  
+## 3. Key Rules & Exceptions
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **1. No augment in the infinitive** | The augment (ε‑) that appears in the aorist indicative is **omitted** in the infinitive. | *ἔλυσα* → **λῦσναι**, not *ἐλῦσναι*. |
-| **2. Stem selection** | Use the **aorist stem** (often with a dental suffix ‑σ‑ or ‑ψ‑, or a reduplicated stem). | *διδάσκω* → aorist stem **διδαξ‑** → **διδάξαι**. |
-| **3. Middle ending –σθαι** | The middle infinitive ends in **‑σθαι** (or **‑θῆναι** for passive). | **λῦσθαι**, **φιλεῖσθαι**. |
-| **4. Contract verbs** | The vowel of the stem contracts with the infinitive ending. | **φιλεῖν**, **φιλεῖσθαι**. |
-| **5. Deponent verbs** | Only middle/passive forms exist, but they translate actively. The aorist infinitive is formed like any middle infinitive. | **ἀποκριθῆναι** “to answer”. |
-| **6. Irregular infinitives** | Some verbs have irregular aorist infinitives (e.g., *εἰμί* → **εἶναι** (present), no aorist infinitive). | *εἰμί* has no aorist infinitive. |
-| **7. Passive infinitive** | The true passive aorist infinitive ends in **‑θῆναι** and is rare; it appears mainly in perfect‑passive participles with infinitive of *εἰμί*. | **λῦθῆναι** “to be loosed”. |
-| **8. Verbs with aorist‑active in –α** | For verbs whose aorist active ends in –α (e.g., *ἔλαβον*), the infinitive is **‑ναι** after the stem **λαβ‑** → **λαβεῖν** (contracted). | **λαβεῖν** “to take”. |
+| **1. No augment in the infinitive** | The indicative's augment is dropped. | ἐδεξάμην → **δέξασθαι** (not *ἐδέξασθαι*) |
+| **2. Stem selection** | Take the aorist stem from the third principal part. | ἐγενόμην → γεν‑ → **γενέσθαι** |
+| **3. Middle endings ‑σασθαι / ‑έσθαι** | First aorist ‑σασθαι; second aorist ‑έσθαι with the accent on the ε. | δέξασθαι; γενέσθαι |
+| **4. Passive deponents take ‑θῆναι** | Verbs such as βούλομαι and φοβέομαι. | **βουληθῆναι** |
+| **5. Active meaning** | The shape is middle/passive, the translation active. | ἀποκρίνασθαι "to answer" |
+| **6. Irregular infinitives** | εἰμί has no aorist: only εἶναι (present). | — |
+| **7. Contrast with the present infinitive** | Present = in progress; aorist = single event. | γίγνεσθαι ≠ γενέσθαι |
+| **8. Negation with μή** | The infinitive is always negated with μή. | **μὴ γενέσθαι** "not to happen" |
 
 ---
 
-## 4. Example Sentences  
+## 4. Example Sentences
 
-| Greek (aorist infinitive) | Gloss | Translation |
+| Greek (aorist infinitive) | Note | Translation |
 |---------------------------|-------|-------------|
-| **ἔδει αὐτῷ λῦσναι τὸν δεσμὸν.** | *edei* = “it was necessary for him” | “It was necessary for him **to loose** the bond.” |
-| **ἔφη ἀποκριθῆναι τῷ ἀνθρώπῳ.** | *ephē* = “he said” | “He said **to answer** the man.” |
-| **ἔσται ἡμῖν φιλεῖσθαι τὸν θεόν.** | *estai* = “it will be” | “It will be for us **to love** the god.” |
-| **ἔδει μὴ ἀποδιδράξαι.** | *mē* = “not” | “It was necessary **not to flee**.” |
-| **ἔσχον ἀποκρῖναι τὸν λόγον.** (rare) | *eschon* = “I had” | “I had **to answer** the speech.” |
+| **ἔδει αὐτὸν ἀποκρίνασθαι τῷ ἀνθρώπῳ.** | ἔδει = "it was necessary" | He had to answer the man. |
+| **βούλομαι δέξασθαι τὰ δῶρα.** | complement of a verb of wishing | I want to receive the gifts. |
+| **ἔφη ταῦτα γενέσθαι.** | indirect statement | He said that these things happened. |
+| **ἦλθον πυθέσθαι τὰ γενόμενα.** | infinitive of purpose | They came to inquire about what had happened. |
+| **ἐφοβοῦντο πορευθῆναι διὰ νυκτός.** | passive deponent | They were afraid to travel by night. |
 
-*Note:* In the second example the deponent infinitive **ἀποκριθῆναι** looks middle/passive but means “to answer” (active).
-
----
-
-## 5. Usage & Context  
-
-1. **Purpose / Result** – The aorist infinitive often expresses a purpose after verbs like *ἔδει, ἀξιόω, ἐθέλω, ἐπιτρέπω* etc.  
-   - *ἔδει αὐτῷ ἀποκριθῆναι* “He needed **to answer**.”  
-
-2. **Indirect Statement** – After *λέγω, φημί, ὁρῶ* etc., the infinitive can stand for a clause.  
-   - *λέγω αὐτῷ λῦσναι τὸν δεσμὸν* “I say to him **to loose** the bond.”  
-
-3. **After Prepositions** – Certain prepositions (e.g., *πρὸ* + gen., *πρὸς* + acc.) take the infinitive to indicate intention.  
-   - *πρὸ τῆς μάχης ἀποκρίνεσθαι* “to answer before the battle.”  
-
-4. **Middle/Deponent Nuance** – The middle infinitive can convey a **reflexive** or **reciprocal** sense:  
-   - *ἔδει αὐτὸν ἀποδιδράξαι* “He needed **to flee for himself**.”  
-
-5. **Negation** – The infinitive is negated with *μὴ* (for non‑indicative) or *οὐ* (in indirect statements).  
-   - *ἔδει μὴ λῦσναι* “It was necessary **not to loose**.”  
+*Note: in every example the apparently middle/passive infinitive has an active meaning.*
 
 ---
 
-## 6. Historical Development & Etymology  
+## 5. Usage & Context
+
+1. **Complement of verbs of necessity, wishing, commanding** — ἔδει, βούλομαι, κελεύω, ἀξιόω + infinitive: ἔδει ἀποκρίνασθαι "he had to answer."
+2. **Indirect statement** — after φημί, λέγω, νομίζω the infinitive replaces a declarative clause, and its aorist marks priority in time: ἔφη ταῦτα γενέσθαι "he said these things happened."
+3. **Articular infinitive** — τὸ γενέσθαι "the coming-to-be"; πρὸ τοῦ πυθέσθαι "before inquiring."
+4. **The middle nuance** — in non-deponent verbs the middle infinitive conveys the subject's benefit or involvement: λύσασθαι "to ransom for oneself."
+5. **Negation** — the infinitive takes **μή**: ἔδοξε μὴ πορευθῆναι "they decided not to travel."
+
+---
+
+## 6. Historical Development & Etymology
 
 | Aspect | Details |
 |--------|---------|
-| **Proto‑Indo‑European (PIE) origin** | The infinitive derives from a **verbal noun** in *‑ti*/*‑t*; the Greek *‑ναι* reflects the PIE *‑nt* suffix. |
-| **Middle voice** | Developed from reflexive constructions in PIE (*‑s‑* suffix). In Greek it became a distinct voice expressing the subject’s involvement. |
-| **Deponent verbs** | Originally **passive** forms used with an **active** meaning (perhaps because the action was performed for the subject’s benefit). Over time, many such verbs lost their active forms entirely, becoming “deponent.” |
-| **Aorist formation** | The aorist stem often contains a **suffix** (*‑σ‑, ‑ψ‑, ‑κ‑*) that marks the perfect‑like aspect of a single, completed event. The infinitive inherited this stem without the augment. |
-| **Morphological change** | The middle infinitive ending *‑σθαι* is a contraction of *‑σ* (middle marker) + *‑θαι* (infinitive suffix). The passive *‑θῆναι* shows a lengthened *‑η* before *‑ναι*, a later development in Koine. |
+| **Indo-European origin** | Infinitives are fossilized verbal nouns; ‑σθαι is the old ending of Greek middle/passive infinitives. |
+| **The middle voice** | Arose from the reflexive constructions of Proto-Indo-European and became an independent voice in Greek, expressing the subject's involvement. |
+| **Deponent verbs** | Middle forms whose active meaning prevailed while their active forms disappeared or never existed. |
+| **The aorist formation** | The aorist stem (with ‑σ‑ or an altered stem) marks the aspect of a single event; the infinitive inherits that stem without the augment. |
+| **Development in the Koine** | The ‑θῆναι forms took over the middle's territory: instead of classical ἀποκρίνασθαι, the New Testament has ἀποκριθῆναι. |
 
 ---
 
-## 7. Quick Reference Summary  
+## 7. Quick Reference
 
-| Voice | Infinitive ending | Typical meaning | Example (λύω) |
+| Voice | Aorist infinitive ending | Typical meaning | Example |
 |-------|-------------------|----------------|---------------|
-| **Active** | **‑ναι** | “to do (once)” | **λῦσναι** |
-| **Middle** | **‑σθαι** | “to do for oneself / to be done” | **λῦσθαι** |
-| **Passive** | **‑θῆναι** (rare) | “to be done
+| **Active** | ‑σαι / ‑εῖν | "to do (once)" | λῦσαι, λαβεῖν |
+| **Middle (and middle deponents)** | ‑σασθαι / ‑έσθαι | "to do for oneself" / active | δέξασθαι, γενέσθαι |
+| **Passive (and passive deponents)** | ‑θῆναι | "to be done" / active | λυθῆναι, βουληθῆναι |

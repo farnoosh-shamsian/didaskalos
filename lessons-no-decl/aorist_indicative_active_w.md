@@ -3,145 +3,133 @@ topic: aorist, indicative, active (ω)
 pos: verb
 ---
 
-# Lesson: The Aorist – Indicative – Active Voice  
+# Lesson: The Aorist Indicative Active
 
-*(Target: beginner‑intermediate students of Ancient Greek)*  
+*(Target: beginner–intermediate students of Ancient Greek)*
 
 ---
 
-## 1. What the Aorist Is  
+## 1. What the Aorist Is
 
-The **aorist** is one of the three basic tenses of the Greek verb (present, aorist, perfect).  
-It expresses a **simple, completed action** in the past, present, or future, without reference to its duration or repetition. In English it is often rendered by a simple past (“*he went*”, “*they saw*”) or by a perfect (“*he has gone*”) when the aorist is used with a future meaning.
+The **aorist** is one of the fundamental tenses of the Greek verb.
+It expresses a **simple, complete action**, without reference to its duration or repetition. In English it is usually rendered by the simple past: "he went," "they saw," "I loosed."
 
-The **indicative mood** is the “statement” mood – it is used for ordinary factual sentences.  
+The **indicative mood** is the "statement" mood — for ordinary factual sentences.
 
 The **active voice** means the subject of the verb performs the action (as opposed to middle or passive).
 
-So **aorist‑indicative‑active** = “a simple, completed action performed by the subject, stated as a fact”.
+So **aorist indicative active** = "a simple, complete action performed by the subject, stated as a fact."
 
 ---
 
-## 2. Two Main Types of Aorist  
+## 2. The Two Main Types of Aorist
 
 Greek has **two morphological families** for the aorist:
 
 | Type | Typical formation | Example verb | Meaning of the aorist |
 |------|-------------------|--------------|-----------------------|
-| **First‑aorist** (also called *regular* aorist) | Add **‑σ‑** (or **‑θ‑** for some verbs) to the verb stem, then attach the aorist endings. | λυ‑ (stem of *λύω* “to loose”) → **λυσ‑** → *ἔλυσα* “I loosed” | Simple past action |
-| **Second‑aorist** (also called *strong* aorist) | No **‑σ‑**; the aorist stem is often a modified version of the present stem (often with a lengthened vowel, a different consonant, or a reduplication). | γι‑ (stem of *γίγνομαι* “to become”) → **ἐγένε‑** → *ἐγένετο* “he became” | Simple past action, often with a more “perfect‑like” nuance |
+| **First aorist** (sigmatic, "regular") | Add **‑σ(α)‑** to the verb stem, then the aorist endings. | λύω "to loose" → stem **λυσ‑** → *ἔλυσα* "I loosed" | Simple past action |
+| **Second aorist** ("strong") | No **‑σ‑**; the aorist stem is an altered form of the root (changed vowel, different consonant, occasionally reduplication). | λαμβάνω "to take" → stem **λαβ‑** → *ἔλαβον* "I took" | Simple past action |
 
-Both types share the **same set of active indicative endings** (see below).  
+The meaning is the same in both; the difference is purely formal — like regular and irregular verbs in English.
 
 ---
 
-## 3. Active Indicative Aorist Endings  
+## 3. The Endings of the Aorist Indicative Active
 
-| Person | Singular | Plural |
+| Person | First aorist | Second aorist |
 |--------|----------|--------|
-| 1st | **‑α** (or **‑ον** after a vowel) | **‑αμεν** |
-| 2nd | **‑ας** (or **‑ας** after a vowel) | **‑ατε** |
-| 3rd | **‑ε(ν)** (or **‑ε** after a vowel) | **‑αν** |
+| 1 sg. | **‑α** | **‑ον** |
+| 2 sg. | **‑ας** | **‑ες** |
+| 3 sg. | **‑ε(ν)** | **‑ε(ν)** |
+| 1 pl. | **‑αμεν** | **‑ομεν** |
+| 2 pl. | **‑ατε** | **‑ετε** |
+| 3 pl. | **‑αν** | **‑ον** |
 
-> **Note:** The endings are the same for both first‑ and second‑aorist stems. The difference lies in the stem itself.
+> **Note:** the second-aorist endings are the same as the imperfect's; the distinction rests on the **stem**.
 
-### 3.1. The “‑ω” Ending – a Quick Comparison  
+### 3.1 A Quick Comparison with "‑ω"
 
-The **present active indicative** uses the ending **‑ω** in the 1st‑person singular (e.g., *λύω* “I loose”).  
-The aorist **does not** use **‑ω**; its 1st‑person singular ending is **‑α** (or **‑ον**).  
-We include the present table here for contrast, because many students initially confuse the two.
+The present indicative active has the ending **‑ω** in the first person singular (*λύω* "I loose"); the aorist never takes ‑ω:
 
-| Tense | 1st‑sg. active indicative |
+| Tense | 1st sg. indicative active |
 |-------|--------------------------|
 | Present | **‑ω** (e.g., *λύω*) |
-| Aorist  | **‑α** (e.g., *ἔλυσα*) |
+| Aorist | **‑α** or **‑ον** (e.g., *ἔλυσα*, *ἔλαβον*) |
 
 ---
 
-## 4. Full Paradigms  
+## 4. Full Paradigms
 
-Below are complete active‑indicative aorist tables for a **regular first‑aorist** verb (*λύω* “to loose”) and a **second‑aorist** verb (*γίγνομαι* “to become”).  
-
-### 4.1. First‑Aorist Active Indicative (λύω)  
+### 4.1 First Aorist Indicative Active (λύω "to loose")
 
 | Person | Form | Transliteration | Gloss |
 |--------|------|----------------|-------|
-| 1st sg. | **ἔλυσα** | *élusa* | I loosed |
-| 2nd sg. | **ἔλυσας** | *élusas* | you (sg.) loosed |
-| 3rd sg. | **ἔλυσε(ν)** | *éluse* / *élusen* | he/she/it loosed |
-| 1st pl. | **ἐλύσαμεν** | *elúsamen* | we loosed |
-| 2nd pl. | **ἐλύσατε** | *elúsate* | you (pl.) loosed |
-| 3rd pl. | **ἔλυσαν** | *élusan* | they loosed |
+| 1st sg. | **ἔλυσα** | *élysa* | I loosed |
+| 2nd sg. | **ἔλυσας** | *élysas* | you (sg.) loosed |
+| 3rd sg. | **ἔλυσε(ν)** | *élyse(n)* | he/she/it loosed |
+| 1st pl. | **ἐλύσαμεν** | *elýsamen* | we loosed |
+| 2nd pl. | **ἐλύσατε** | *elýsate* | you (pl.) loosed |
+| 3rd pl. | **ἔλυσαν** | *élysan* | they loosed |
 
-*The augment **ἐ‑** (or **ἔ‑**) is added to the stem in the aorist indicative to mark past time.*
+*The augment **ἐ‑** at the start of the indicative forms marks past time.*
 
-### 4.2. Second‑Aorist Active Indicative (γίγνομαι)  
+### 4.2 Second Aorist Indicative Active (λαμβάνω "to take")
 
 | Person | Form | Transliteration | Gloss |
 |--------|------|----------------|-------|
-| 1st sg. | **ἐγένετο** | *egéneto* | I became |
-| 2nd sg. | **ἐγένεσθαι** (middle/passive) – *active* uses **ἐγένεσας**? Actually *γίγνομαι* is deponent; active aorist is rare. For illustration we use *ἔλαβον* (second‑aorist of *λαμβάνω*). | | |
-| 3rd sg. | **ἔλαβεν** | *élaben* | he/she/it took |
-| 1st pl. | **ἐλάβομεν** | *elábomen* | we took |
-| 2nd pl. | **ἐλάβετε** | *elábete* | you (pl.) took |
-| 3rd pl. | **ἔλαβον** | *élabon* | they took |
+| 1st sg. | **ἔλαβον** | *élabon* | I took |
+| 2nd sg. | **ἔλαβες** | *élabes* | you (sg.) took |
+| 3rd sg. | **ἔλαβε(ν)** | *élabe(n)* | he/she/it took |
+| 1st pl. | **ἐλάβομεν** | *elábomen* | we took |
+| 2nd pl. | **ἐλάβετε** | *elábete* | you (pl.) took |
+| 3rd pl. | **ἔλαβον** | *élabon* | they took |
 
-*(The verb *λαμβάνω* “to take” is a classic second‑aorist; its aorist stem is *λαβ‑*.)*
+*(The aorist stem of λαμβάνω is the shortened form **λαβ‑** — the classic second aorist.)*
 
 ---
 
-## 5. Key Rules & Common Exceptions  
+## 5. Key Rules & Common Exceptions
 
 | Rule | Explanation |
 |------|-------------|
-| **Augment** | In the indicative aorist (both first and second), a **temporal augment** is prefixed to the verb: **ἐ‑** before a consonant, **ἔ‑** before a vowel. This marks past time. |
-| **Reduplication** | Some second‑aorist verbs show **reduplication** (e.g., *ἔδωκα* from *δίδωμι*). The reduplicated syllable is usually a short vowel + the same consonant (e.g., *ε‑*). |
-| **Contract verbs** | Verbs whose stems end in a vowel (e.g., *φιλέω*) contract in the aorist: *ἔφιλον* → *ἔφιλον*? Actually first‑aorist of *φιλέω* is *ἔφιλσα* (rare). Many contract verbs have **second‑aorist** forms with **‑ε‑** (e.g., *ἔδωκα* from *δίδωμι*). |
-| **Irregular stems** | Some verbs have irregular aorist stems: *εἰμί* → *ἦν* (imperfect), *ἔσομαι* (future), *ἦλθον* (from *ἔρχομαι*). These are memorised individually. |
-| **Spurious diphthongs** | In the aorist, the diphthongs **ει** and **ου** can be “spurious” (i.e., they represent a long vowel, not a true diphthong). Example: *ἔδει* (it was necessary) from *δεῖ*. |
-| **Middle‑passive forms** | The aorist also has middle and passive voices, but this lesson focuses on the active. Remember that many verbs are **deponent** (they have only middle/passive forms). |
+| **Augment** | In the aorist indicative (first and second), **ἐ‑** is prefixed before a consonant; vowel-initial verbs lengthen the initial vowel instead: ἀκούω → **ἤκουσα**. |
+| **Contract verbs** | The final stem vowel lengthens before ‑σα: φιλέω → **ἐφίλησα**, τιμάω → **ἐτίμησα**, δηλόω → **ἐδήλωσα**. |
+| **Irregular stems** | Some verbs have an entirely different aorist stem and must be memorized: ἔρχομαι → **ἦλθον**, ὁράω → **εἶδον**, φέρω → **ἤνεγκα**. |
+| **Reduplication in the second aorist** | A few second aorists show reduplication: ἄγω → **ἤγαγον** (stem ἀγ-αγ‑). |
+| **1st singular and 3rd plural of the second aorist are identical** | ἔλαβον = "I took" or "they took"; context decides. |
+| **Middle and passive** | The aorist middle and passive have their own endings and are treated in separate lessons; remember that many verbs are **deponent**. |
 
 ---
 
-## 6. Example Sentences  
+## 6. Example Sentences
 
-| Greek (aorist, active, indicative) | Transliteration | English |
+| Greek (aorist indicative active) | Transliteration | English |
 |-----------------------------------|----------------|---------|
-| **ἔλυσα τὸν δεσμὸν.** | *élusa tòn desmòn.* | I loosed the bond. |
-| **ἔλαβον τὰ δῶρα.** | *élabon tà dôra.* | They took the gifts. |
-| **ἔγραψεν τὸν λόγον.** | *égrapsen tòn lógon.* | He wrote the word. |
-| **ἐβούλεσθε ἰδεῖν τὸν πόλεμον.** | *ebóulesthe ideîn tòn pólemon.* | You (pl.) wanted to see the war. |
-| **ἔσπευδον εἰς τὴν πόλιν.** | *éspeudon eis tḕn pólīn.* | I hurried to the city. |
+| **ἔλυσα τὸν δεσμόν.** | *élysa ton desmón* | I loosed the bond. |
+| **ἔλαβον τὰ δῶρα.** | *élabon ta dôra* | They took the gifts. |
+| **ἔγραψε τὸν λόγον.** | *égrapse ton lógon* | He wrote the speech. |
+| **ἠθελήσατε ἰδεῖν τὸν ἀγῶνα.** | *ēthelḗsate ideîn ton agôna* | You (pl.) wanted to see the contest. |
+| **ἔσπευσα εἰς τὴν πόλιν.** | *éspeusa eis tēn pólin* | I hurried to the city. |
 
 *Notice the augment (ἐ‑) and the aorist endings.*
 
 ---
 
-## 7. Usage & Context  
+## 7. Usage & Context
 
-1. **Simple past actions** – The aorist is the default tense for a single, completed event:  
-   *ἔφαγον* “I ate (once)”.  
-
-2. **Narrative sequence** – In storytelling, aorist verbs often appear in succession to move the plot forward.  
-
-3. **Future meaning** – When combined with particles like **ἄν** (potential) or **ὅπως**, the aorist can express a future action:  
-   *ἔσται* (future) vs. *ἔσται* (aorist of *εἰμί* used for future in indirect speech).  
-
-4. **Contrast with present** – The present indicates an ongoing or habitual action; the aorist indicates a punctual one.  
-   *παιδεύω* “I am teaching” vs. *ἐπαίδευσα* “I taught (once)”.  
-
-5. **Aorist of perception verbs** – Verbs of seeing, hearing, etc., often use the aorist to indicate a single perception: *ἔειδον* “I saw”.  
+1. **Simple past actions** — the aorist is the default tense for a single, complete event: *ἔφαγον* "I ate (once)."
+2. **Narrative sequence** — in storytelling, aorist verbs follow one another and move the plot forward.
+3. **Gnomic aorist** — in general truths Greek sometimes uses the aorist where English uses the present: "he who does not strive does not (ever) succeed."
+4. **Contrast with present and imperfect** — present = in progress; imperfect = in progress in the past; aorist = punctual: *ἐπαίδευον* "I was educating" vs. *ἐπαίδευσα* "I educated."
+5. **Verbs of perception** — verbs of seeing and hearing often stand in the aorist for a single perception: *εἶδον* "I saw."
 
 ---
 
-## 8. Historical Development & Etymology  
+## 8. Historical Development & Etymology
 
-- The **aorist** derives from the Proto‑Indo‑European (PIE) **aorist suffix** *‑h₁‑* (a “perfective” marker). In Greek it developed into the **‑σ‑** (first aorist) and the **‑ε‑/‑ο‑** (second aorist) augmentations.  
-
-- The **augment** (ἐ‑/ἔ‑) is a relic of the PIE **pre‑verbial augment** that marked past time in many Indo‑European languages (e.g., Sanskrit *a‑*).  
-
-- The **first‑aorist** pattern (stem + σ) reflects a **suffixal formation** that became grammaticalized in Greek.  
-
-- The **second‑aorist** preserves older **strong verb** patterns, where the aorist stem is often a **zero‑grade** or **lengthened grade** of the root, sometimes with reduplication (e.g., *ἔδωκα* from *δίδωμι*).  
-
-- Over time, the aorist lost its original aspectual nuance (simple perfective) and became the **default past tense** in
+- The name **aorist** comes from ἀόριστος "unbounded": an aspect that presents the action without internal delimitation.
+- The **augment** (ἐ‑) is a relic of the Indo-European past marker and has a parallel in Sanskrit (*a‑*).
+- The **first aorist** reflects the Indo-European *‑s‑* suffix, which was grammaticalized in Greek.
+- The **second aorist** preserves older "strong verb" patterns: the stem is usually a zero-grade or altered form of the root, occasionally with reduplication (ἤγαγον).
+- The aorist has survived into Modern Greek as the ordinary simple past (ο αόριστος) — a mark of how robust this category has been throughout the language's history.

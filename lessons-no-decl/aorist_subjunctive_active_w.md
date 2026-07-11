@@ -3,76 +3,70 @@ topic: aorist, subjunctive, active (ω)
 pos: verb
 ---
 
-# Lesson: The Aorist Subjunctive Active (‑ω)
+# Lesson: The Aorist Subjunctive Active (ω-Verbs)
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic verb stems, present‑indicative active endings.*
+*Target level: Beginner–Intermediate*
+*Prerequisites: Greek alphabet, basic verb stems, present indicative active endings.*
 
 ---
 
-## 1. What is the Aorist Subjunctive Active?
+## 1. What Is the Aorist Subjunctive Active?
 
-The **subjunctive mood** expresses a non‑realised or potential action (wish, purpose, command, condition, etc.).  
-The **aorist** aspect presents the action as a simple, undivided whole, without reference to its duration or repetition.  
+The **subjunctive mood** expresses an unrealized or potential action (purpose, condition, exhortation, prohibition, etc.).
+The **aorist** aspect presents the action as a simple, undivided whole, without reference to duration or repetition — and outside the indicative it **does not refer to the past**.
 
-When the aorist is combined with the subjunctive, we get a **potential, single‑time action** that is not asserted as factual.  
+Combining the two gives a **potential, single-time action** that is not asserted as fact.
 
-In the **active voice** the subject performs the action.  
-The characteristic ending of the aorist‑subjunctive active is **‑ω** (the same shape as the present‑subjunctive active, but the stem is the aorist stem).
+In the **active voice** the subject performs the action.
+The shape of the aorist subjunctive is the same as the present subjunctive — the long mood vowel (ω/η) — but on the **aorist stem**:
 
-> **Example:** λύ‑σ‑ω “may I/you/they free (once)”.  
-> Here **λύ‑σ‑** is the aorist stem (from λύω “to loose”), and **‑ω** marks the aorist subjunctive active.
+> **Example:** λύ-σ-ω "that I may loose (once)."
+> **λυσ‑** is the aorist stem of λύω, and the long vowels are the mark of the subjunctive.
 
 ---
 
 ## 2. Forms and Patterns
 
-### 2.1. Regular (non‑contract) verbs
+### 2.1 The Endings
 
 | Person | Singular | Plural |
 |--------|----------|--------|
-| 1st    | ‑ω       | ‑ωμεν |
-| 2nd    | ‑ῃς / ‑ῃ   | ‑ητε |
-| 3rd    | ‑ῃ      | ‑ωσι(ν) |
+| 1st | ‑ω | ‑ωμεν |
+| 2nd | ‑ῃς | ‑ητε |
+| 3rd | ‑ῃ | ‑ωσι(ν) |
 
-*The endings are the same as the present subjunctive; the difference lies in the stem.*
+*The endings are the same as those of the present subjunctive; the difference lies in the stem.*
 
-**Construction:**  
+**Construction:** `unaugmented aorist stem + ‑ω, ‑ῃς, ‑ῃ, ‑ωμεν, ‑ητε, ‑ωσι(ν)`
 
-`aorist stem + subjunctive active endings (‑ω, ‑ῃς, ‑ῃ, ‑ωμεν, ‑ητε, ‑ωσι(ν))`
+### 2.2 Paradigm of a Regular Verb: **λύω** "to loose"
 
-### 2.2. Paradigm with a regular verb: **λύω** (to loose)
-
-|          | Singular | Plural |
+| Person | Singular | Plural |
 |----------|----------|--------|
-| 1st sg.  | **λύσω** | — |
-| 2nd sg.  | **λύσῃς** | — |
-| 3rd sg.  | **λύσῃ** | — |
-| 1st pl.  | — | **λύσωμεν** |
-| 2nd pl.  | — | **λύσητε** |
-| 3rd pl.  | — | **λύσωσι(ν)** |
+| 1st | **λύσω** | **λύσωμεν** |
+| 2nd | **λύσῃς** | **λύσητε** |
+| 3rd | **λύσῃ** | **λύσωσι(ν)** |
 
-*Note:* The aorist stem of **λύω** is **λυσ‑** (the same as the aorist indicative stem).  
+*The aorist stem of λύω is the same **λυσ‑** as in the indicative — without the augment.*
 
-### 2.3. Contract verbs (‑άω, ‑έω, ‑όω)
+### 2.3 Contract and Consonant-Stem Verbs
 
-Contract verbs lose the vowel of the stem before the subjunctive ending.
-
-| Verb | Meaning | Aorist Subjunctive Active |
+| Verb | Meaning | Aorist subjunctive (1st sg.) |
 |------|---------|---------------------------|
-| **φιλέω** (to love) → aorist stem **φίλησ‑** | **φιλῆσω** (may I/you love) |
-| **πράττω** (to do) → aorist stem **πράξ‑** | **πράξω** (may I/you do) |
-| **διδάσκω** (to teach) → aorist stem **διδάξ‑** | **διδάξω** (may I/you teach) |
+| **φιλέω** (contract; aorist stem **φιλησ‑**) | to love | **φιλήσω** (lengthened vowel) |
+| **πράττω** (stem **πραξ‑**) | to do | **πράξω** |
+| **διδάσκω** (stem **διδαξ‑**) | to teach | **διδάξω** |
 
-### 2.4. Irregular verbs
+### 2.4 Irregular Forms
 
-| Verb | Aorist Stem | Aorist Subjunctive Active |
+| Verb | Aorist stem | Aorist subjunctive active |
 |------|-------------|---------------------------|
-| εἰμί (to be) | — (no aorist) | **ὦ** (1 sg.), **ᾖς**, **ᾖ**, **ὦμεν**, **ἦτε**, **ὦσι(ν)** |
-| ἔρχομαι (to come) | ἐλθ‑ | **ἐλθῶ** (1 sg.), **ἐλθῇς**, **ἐλθῇ**, **ἐλθῶμεν**, **ἐλθῆτε**, **ἐλθῶσι(ν)** |
-| δίδωμι (to give) | δώσ‑ | **δῶ** (1 sg.), **δῷς**, **δῷ**, **δῶμεν**, **δῷτε**, **δῶσι(ν)** |
+| εἰμί "to be" | — (no aorist) | present subjunctive: **ὦ, ᾖς, ᾖ, ὦμεν, ἦτε, ὦσι(ν)** |
+| ἔρχομαι "to come" | ἐλθ‑ | **ἔλθω, ἔλθῃς, ἔλθῃ, ἔλθωμεν, ἔλθητε, ἔλθωσι(ν)** |
+| λαμβάνω "to take" | λαβ‑ | **λάβω, λάβῃς, …** |
+| δίδωμι "to give" | δο‑/δω‑ | **δῶ, δῷς, δῷ, δῶμεν, δῶτε, δῶσι(ν)** |
 
-These irregular forms must be memorised.
+These forms must be memorized.
 
 ---
 
@@ -80,14 +74,14 @@ These irregular forms must be memorised.
 
 | Rule | Explanation |
 |------|-------------|
-| **1. Use the aorist stem** | Find the aorist indicative (usually ‑σα, ‑σαν, ‑σαν, ‑σαμεν, ‑σατε, ‑σαν) and drop the personal endings. The remaining part is the aorist stem. |
-| **2. Add subjunctive endings** | Attach ‑ω, ‑ῃς, ‑ῃ, ‑ωμεν, ‑ητε, ‑ωσι(ν) to the aorist stem. |
-| **3. Contract verbs** | The vowel of the stem contracts with the ending (e.g., **φιλήσω** → **φιλήσω**). |
-| **4. Verbs with a‑thematic aorist** | Some verbs have a‑thematic aorist stems ending in ‑α (e.g., **ἔλαβον** → stem **λαβ‑**). The subjunctive forms are **λάβω, λάβῃς, …** |
-| **5. Verbs with reduplication** | Verbs that reduplicate in the aorist (e.g., **δίδωμι → δώσ‑**) keep the reduplicated element in the subjunctive: **δῶ**. |
-| **6. The verb εἰμί** | Has no aorist; its “aorist‑subjunctive” is the present subjunctive **ὦ, ᾖς, …** used in the same contexts. |
-| **7. The particle **ἄν** does NOT combine with the aorist subjunctive** | **ἄν** is used with the aorist indicative (potential) or with the optative, not with the subjunctive. |
-| **8. Negative particle** | Use **μή** (or **οὐ** in indirect questions) before the aorist subjunctive: **μή λυθῇ** “that it may not be loosened”. |
+| **1. Find the aorist stem** | From the verb's third principal part: ἔλυσα → λυσ‑; ἔλαβον → λαβ‑. |
+| **2. Drop the augment** | The augment belongs to the indicative: subjunctive λύσω, not *ἐλύσω. |
+| **3. Contract verbs lengthen the vowel** | φιλέω → φιλήσω; τιμάω → τιμήσω. |
+| **4. Second aorists take the same vowels** | λάβω, ἴδω, εἴπω — on the second-aorist stem. |
+| **5. εἰμί uses its present subjunctive** | Since it has no aorist: ὦ, ᾖς, … |
+| **6. ἄν accompanies the subjunctive in subordinate clauses** | ἐάν (= εἰ + ἄν), ὅταν, ὃς ἄν + subjunctive: "if ever / whenever / whoever…" In main clauses, however, potentiality is expressed by the optative + ἄν, not the subjunctive. |
+| **7. Negation with μή** | In all subjunctive uses: **μὴ γράψῃς** "do not write!" |
+| **8. The look-alike trap** | λύσω = aorist subjunctive **or** future indicative; λύσῃ = 3rd person subjunctive **or** 2nd person future middle. Context decides. |
 
 ---
 
@@ -95,57 +89,49 @@ These irregular forms must be memorised.
 
 | Greek (aorist subjunctive active) | Transliteration | English |
 |-----------------------------------|----------------|---------|
-| **ἵνα τὸν πόλεμον νικήσωμεν.** | hína tòn pólemon nikḗsōmen. | “so that we may win the war.” |
-| **Ἐλθὼν ἂν εἰς τὴν πόλιν, ἀσφαλῶς ἔσται.** *(Note: ἂν with aorist indicative, not subjunctive – shown for contrast)* |
-| **Ἐὰν τὸν νόμον ἀντιλέγω, ἀπολογήσομαι.** *(present subjunctive – contrast)* |
-| **Ἐλθῶμεν εἰς τὸν ναόν.** | Elthômen eis tòn naón. | “Let us go into the temple.” |
-| **Μὴ λυθῇ τὸ δεσμὸς.** | Mè lythē tò desmos. | “May the bond not be loosened.” |
-| **Δῶ τὸ βιβλίον τῷ παιδὶ.** | Dô tò biblíon tôi paidì. | “May I give the book to the child.” |
+| **ἵνα τὸν πόλεμον νικήσωμεν.** | hína ton pólemon nikḗsōmen | so that we may win the war. |
+| **ἐὰν ἔλθῃ, ἀκουσόμεθα.** | eàn élthēi, akousómetha | If he comes, we shall hear. |
+| **ἔλθωμεν εἰς τὸν ναόν.** | élthōmen eis ton naón | Let us go into the temple! |
+| **μὴ λύσῃς τὸν ἵππον.** | mē lýsēis ton híppon | Do not untie the horse! |
+| **τί δῶ τῷ παιδί;** | tí dô tōi paidí? | What am I to give the child? (deliberative subjunctive) |
 
 ---
 
 ## 5. Notes on Usage & Context
 
-1. **Purpose clauses** – introduced by **ἵνα** or **ὅπως** + aorist subjunctive:  
-   *ἵνα γράψωσιν* “so that they may write”.
+1. **Purpose clauses** — with **ἵνα** or **ὅπως**: *ἵνα γράψωσιν* "so that they may write."
+2. **Future more vivid condition** — **ἐάν + subjunctive** in the protasis, future in the apodosis: *ἐὰν ἔλθῃ, ἀκουσόμεθα* "if he comes, we shall hear."
+3. **Hortatory** — 1st person plural in a main clause: *ἴωμεν* "let us go!"
+4. **Prohibition** — **μή + aorist subjunctive** is the standard one-time "don't!": *μὴ δῷς* "don't give!"
+5. **Fear clauses** — after φοβοῦμαι: *φοβοῦμαι μὴ ἔλθῃ* "I fear he may come."
+6. **Indefinite clauses** — ὃς ἄν + subjunctive: "whoever…"; ὅταν + subjunctive: "whenever…"
 
-2. **Conditional clauses** – in the protasis of a **future more vivid** condition, the aorist subjunctive can appear after **εἰ** (rare, more common with the optative).  
-   *εἰ ἔλθῃ, ἀκούσομεν* “If he comes, we will hear”.
-
-3. **Jussive/imperative** – the aorist subjunctive can express a mild command, especially in the 1st person plural:  
-   *ἴωμεν* “Let us go”.
-
-4. **After verbs of fearing, wishing, commanding** (e.g., φοβέομαι, θέλω, ἐθέλω) the aorist subjunctive expresses a desired or feared single action:  
-   *φοβοῦμαι μὴ λυθῇ* “I fear that it may be loosened”.
-
-5. **Negative particle** – **μή** is used with the aorist subjunctive in prohibitions or negative wishes: *μή δῷς* “may you not give”.
-
-6. **Indirect speech** – In subordinate clauses of indirect speech, the aorist subjunctive can replace the indicative when the original statement was an imperative or a wish.
+In all of these, choosing the aorist over the present is an **aspectual** choice: a single event versus a flow.
 
 ---
 
 ## 6. Historical Development & Etymology
 
-- **Proto‑Indo‑European roots**: The subjunctive mood derives from the *‑y‑* suffix, originally a **modal particle** indicating potentiality. The aorist aspect developed from the **aorist (perfective) stem** used for past, completed actions.
-- **Greek evolution**: Early Greek (Homeric) used the **optative** for many potential actions. By the Classical period, the **subjunctive** (especially the aorist subjunctive) became the primary means for expressing purpose, jussive, and certain conditional meanings.
-- **The ending ‑ω**: Historically the same as the present subjunctive ending, reflecting the merger of the *‑y‑* modal suffix with the vowel of the aorist stem. The similarity of forms sometimes caused confusion for later learners, which is why the stem is the crucial diagnostic element.
-- **Influence on later languages**: The Greek aorist subjunctive contributed to the development of the **future subjunctive** in Koine and Byzantine Greek, and its pattern can be seen in the **Latin perfect subjunctive** (e.g., *amaverit*), which also uses a perfect stem with a subjunctive ending.
+- The mark of the subjunctive — the **long mood vowel** — reached Greek from Proto-Indo-European.
+- In Homeric Greek the boundary between subjunctive and future was still fluid; this kinship explains the formal identity of λύσω (subjunctive/future).
+- In the Classical period the aorist subjunctive became the chief instrument of purpose clauses, vivid conditions, and prohibitions.
+- In the Koine and then Modern Greek, the subjunctive prevailed over the optative and remains alive today (with the marker να) — one of the few moods to survive three millennia.
 
 ---
 
 ### Quick Reference Table
 
-| Person | Ending | Example with **λύω** (aorist stem **λυσ‑**) |
+| Person | Ending | Example with **λύω** (stem **λυσ‑**) |
 |--------|--------|--------------------------------------------|
-| 1 sg.  | ‑ω    | **λύσω** |
-| 2 sg.  | ‑ῃς / ‑ῃ | **λύσῃς** |
-| 3 sg.  | ‑ῃ   | **λύσῃ** |
-| 1 pl.  | ‑ωμεν | **λύσωμεν** |
-| 2 pl.  | ‑ητε | **λύσητε** |
-| 3 pl.  | ‑ωσι(ν) | **λύσωσι(ν)** |
+| 1 sg. | ‑ω | **λύσω** |
+| 2 sg. | ‑ῃς | **λύσῃς** |
+| 3 sg. | ‑ῃ | **λύσῃ** |
+| 1 pl. | ‑ωμεν | **λύσωμεν** |
+| 2 pl. | ‑ητε | **λύσητε** |
+| 3 pl. | ‑ωσι(ν) | **λύσωσι(ν)** |
 
-Keep this table handy; the only thing that changes from verb to verb is the **aorist stem**.  
+Keep this table handy; the only thing that changes from verb to verb is the **aorist stem**.
 
---- 
+---
 
 *End of Lesson.*
