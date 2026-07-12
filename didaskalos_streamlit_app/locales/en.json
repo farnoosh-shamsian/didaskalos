@@ -26,6 +26,7 @@
   "treebank_col_file": "File",
   "treebank_col_title": "Title",
   "treebank_col_author": "Author",
+  "treebank_col_license": "License",
   "treebank_col_source": "Source URL",
   "untitled": "Untitled",
   "unknown_author": "Unknown author",

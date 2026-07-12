@@ -48,6 +48,11 @@ The project is implemented in Python and integrates:
 - Frequency-based linguistic analysis
 - Modular content generation and assembly
 
+Treebank collections are declared in `treebanks/registry.json` and parsed by pluggable,
+per-format adapters (currently Perseus/AGDT XML and CoNLL-U / Universal Dependencies). Adding a
+new corpus is a matter of dropping files into a folder and adding one manifest entry — see
+[Adding a treebank collection](didaskalos_streamlit_app/README.md#adding-a-treebank-collection).
+
 ## Project Status
 
 The core infrastructure is still being built! Ongoing work focuses on:

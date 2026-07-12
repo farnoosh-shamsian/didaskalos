@@ -1,0 +1,14 @@
+{
+  "corpora": [
+    {
+      "id": "perseus",
+      "name": "Perseus Ancient Greek Dependency Treebank",
+      "path": "treebanks/perseus/",
+      "format": "agdt-xml",
+      "file_glob": "*.xml",
+      "language": "grc",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://github.com/PerseusDL/treebank_data"
+    }
+  ]
+}

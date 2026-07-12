@@ -95,6 +95,10 @@ GITHUB_BRANCH = "main"
 GITHUB_TREE_API = f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/git/trees/{GITHUB_BRANCH}?recursive=1"
 GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{GITHUB_BRANCH}"
 TREEBANK_PREFIX = "treebanks/perseus/"
+# Manifest listing every treebank collection (folder + format + provenance).
+# When present it drives discovery; when missing the app falls back to the single
+# TREEBANK_PREFIX above so nothing breaks before a registry is committed.
+TREEBANK_REGISTRY_PATH = "treebanks/registry.json"
 FETCH_TIMEOUT_SECONDS = 20
 FETCH_MAX_WORKERS = 8
 # Title/author live in the XML <header>, well within the first few KB even for
@@ -323,7 +327,9 @@ def _download_url_records_to_dir(records: list[dict], suffix_dir_name: str) -> t
 
 
 @st.cache_data(show_spinner=False)
-def load_github_tree_urls(prefix: str) -> list[str]:
+def _github_tree_paths() -> list[str]:
+    # Single recursive tree call, cached and shared by every discovery helper
+    # (treebanks + lessons) so a rerun never re-hits the GitHub API.
     request = Request(GITHUB_TREE_API, headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urlopen(request, timeout=FETCH_TIMEOUT_SECONDS) as response:
@@ -335,11 +341,13 @@ def load_github_tree_urls(prefix: str) -> list[str]:
     if not isinstance(tree_nodes, list):
         return []
 
+    return [str(node.get("path", "")) for node in tree_nodes if node.get("type") == "blob"]
+
+
+@st.cache_data(show_spinner=False)
+def load_github_tree_urls(prefix: str) -> list[str]:
     urls = []
-    for node in tree_nodes:
-        path = str(node.get("path", ""))
-        if node.get("type") != "blob":
-            continue
+    for path in _github_tree_paths():
         if not path.startswith(prefix):
             continue
         if prefix == TREEBANK_PREFIX and not path.lower().endswith(".xml"):
@@ -349,6 +357,68 @@ def load_github_tree_urls(prefix: str) -> list[str]:
         urls.append(f"{GITHUB_RAW_BASE}/{path}")
 
     return sorted(urls)
+
+
+@st.cache_data(show_spinner=False)
+def load_treebank_registry() -> list[dict]:
+    # Fetch the corpus manifest from GitHub raw, falling back to the local
+    # checkout (_fetch_url_bytes handles that fallback). Returns [] when absent,
+    # which makes load_registered_treebank_urls use the legacy single-prefix scan.
+    try:
+        raw = _fetch_url_bytes(f"{GITHUB_RAW_BASE}/{TREEBANK_REGISTRY_PATH}")
+    except Exception:
+        return []
+    try:
+        payload = json.loads(raw.decode("utf-8"))
+    except (json.JSONDecodeError, UnicodeDecodeError, AttributeError):
+        return []
+    corpora = payload.get("corpora") if isinstance(payload, dict) else None
+    return [c for c in corpora if isinstance(c, dict)] if isinstance(corpora, list) else []
+
+
+def _glob_suffix(file_glob: str) -> str:
+    # Discovery only supports simple "*.ext" globs; return the ".ext" to match on.
+    if file_glob and file_glob.startswith("*."):
+        return file_glob[1:].lower()
+    return ""
+
+
+@st.cache_data(show_spinner=False)
+def load_registered_treebank_urls() -> list[dict]:
+    # One entry per discoverable treebank file, tagged with its corpus provenance
+    # and format so downstream code can pick the right parser and show attribution.
+    registry = load_treebank_registry()
+    if not registry:
+        # Back-compat: reproduce the old single-prefix behavior exactly.
+        return [
+            {"url": url, "corpus_id": "perseus", "corpus_name": None,
+             "format": "agdt-xml", "license": None, "author": None}
+            for url in load_github_tree_urls(TREEBANK_PREFIX)
+        ]
+
+    paths = _github_tree_paths()
+    entries: list[dict] = []
+    for corpus in registry:
+        prefix = corpus.get("path", "")
+        if not prefix:
+            continue
+        suffix = _glob_suffix(corpus.get("file_glob", "*.xml"))
+        for path in paths:
+            if not path.startswith(prefix):
+                continue
+            if suffix and not path.lower().endswith(suffix):
+                continue
+            entries.append(
+                {
+                    "url": f"{GITHUB_RAW_BASE}/{path}",
+                    "corpus_id": corpus.get("id"),
+                    "corpus_name": corpus.get("name"),
+                    "format": corpus.get("format", "agdt-xml"),
+                    "license": corpus.get("license"),
+                    "author": corpus.get("author"),
+                }
+            )
+    return sorted(entries, key=lambda entry: entry["url"])
 
 
 # Memoized on the URL set so a Streamlit rerun (any widget interaction) reuses
@@ -429,6 +499,56 @@ def _resolve_default_lesson_urls(syllabus_mode: str = "case", lang: str = DEFAUL
     return _dedupe_lesson_urls_by_filename(_ensure_starter_lesson_urls(merged))
 
 
+def _merge_treebank_entries(default_entries: list[dict], custom_urls: list[str]) -> list[dict]:
+    # Registry defaults first, then any user-pasted URLs that aren't already
+    # present. Custom URLs have no manifest, so their format is left None for the
+    # parser to auto-detect.
+    seen = {entry["url"] for entry in default_entries}
+    entries = list(default_entries)
+    for url in custom_urls:
+        if url in seen:
+            continue
+        seen.add(url)
+        entries.append(
+            {"url": url, "corpus_id": None, "corpus_name": None,
+             "format": None, "license": None, "author": None}
+        )
+    return entries
+
+
+def _build_treebank_records(entries: list[dict]) -> list[dict]:
+    used_names = set()
+    # Only XML files without manifest-provided author need a header range read for
+    # title/author; CoNLL-U has no such header and relies on the manifest.
+    urls_needing_meta = [
+        entry["url"]
+        for entry in entries
+        if not entry.get("author")
+        and entry.get("format") in (None, "agdt-xml")
+        and entry["url"].lower().endswith(".xml")
+    ]
+    metadata_by_url = _prefetch_xml_metadata(urls_needing_meta) if urls_needing_meta else {}
+
+    records = []
+    for i, entry in enumerate(entries, start=1):
+        url = entry["url"]
+        parsed = urlparse(url)
+        file_name = Path(parsed.path).name or f"file_{i}"
+        meta_title, meta_author = metadata_by_url.get(url, (None, None))
+        records.append(
+            {
+                "file": _unique_name(file_name, used_names),
+                "source_url": url,
+                "title": meta_title or entry.get("corpus_name"),
+                "author": meta_author or entry.get("author"),
+                "corpus": entry.get("corpus_id"),
+                "format": entry.get("format"),
+                "license": entry.get("license"),
+            }
+        )
+    return records
+
+
 def _build_records_from_uploads(uploaded_files) -> list[dict]:
     used_names = set()
     records = []
@@ -442,6 +562,10 @@ def _build_records_from_uploads(uploaded_files) -> list[dict]:
                 "source_url": "uploaded",
                 "title": title,
                 "author": author,
+                # Format left None so the dispatcher auto-detects (.xml vs .conllu).
+                "corpus": None,
+                "format": None,
+                "license": None,
             }
         )
     return records
@@ -462,7 +586,9 @@ def _build_treebank_display_table(records: list[dict]) -> pd.DataFrame:
     df = pd.DataFrame(records)
     if df.empty:
         return df
-    return df[["file", "title", "author", "source_url"]]
+    if "license" not in df.columns:
+        df["license"] = None
+    return df[["file", "title", "author", "license", "source_url"]]
 
 
 # st.fragment (stable in 1.37, experimental in 1.33) lets the treebank grid rerun
@@ -501,6 +627,8 @@ def render_treebank_selector(available_treebanks: pd.DataFrame, lang: str) -> No
     editor_df.insert(0, "selected", st.session_state["treebank_select_default"])
     editor_df["title"] = editor_df["title"].fillna(t("untitled", lang))
     editor_df["author"] = editor_df["author"].fillna(t("unknown_author", lang))
+    if "license" in editor_df.columns:
+        editor_df["license"] = editor_df["license"].fillna("")
 
     # Editor edits are stored by row position under the widget key; fingerprint
     # the row set into the key so a changed URL/upload list can never re-apply
@@ -515,12 +643,13 @@ def render_treebank_selector(available_treebanks: pd.DataFrame, lang: str) -> No
         use_container_width=True,
         height=300,
         num_rows="fixed",
-        disabled=["file", "title", "author", "source_url"],
+        disabled=["file", "title", "author", "license", "source_url"],
         column_config={
             "selected": st.column_config.CheckboxColumn(t("select_column_label", lang), default=False),
             "file": st.column_config.TextColumn(t("treebank_col_file", lang)),
             "title": st.column_config.TextColumn(t("treebank_col_title", lang)),
             "author": st.column_config.TextColumn(t("treebank_col_author", lang)),
+            "license": st.column_config.TextColumn(t("treebank_col_license", lang)),
             "source_url": st.column_config.TextColumn(t("treebank_col_source", lang)),
         },
     )
@@ -572,7 +701,7 @@ with st.sidebar:
     )
 
     if input_mode == "github":
-        default_treebank_urls = load_github_tree_urls(TREEBANK_PREFIX)
+        default_treebank_entries = load_registered_treebank_urls()
         default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode, lang)
 
         with st.expander(t("custom_treebank_urls_expander", lang), expanded=False):
@@ -584,18 +713,16 @@ with st.sidebar:
                 key="custom_treebank_urls",
             )
 
-        # Defaults first, custom URLs appended; _parse_list_input handles
-        # newline/comma splitting and order-preserving dedupe across both.
-        treebank_urls = _parse_list_input(
-            "\n".join(default_treebank_urls) + "\n" + custom_treebank_url_input
-        )
-        treebank_records = _build_records_from_urls(treebank_urls, extract_xml_metadata=True)
+        # Registry-discovered entries first, then any user-pasted URLs (deduped).
+        custom_treebank_urls = _parse_list_input(custom_treebank_url_input)
+        treebank_entries = _merge_treebank_entries(default_treebank_entries, custom_treebank_urls)
+        treebank_records = _build_treebank_records(treebank_entries)
         lesson_records = _build_records_from_urls(default_lesson_urls)
         uploaded_treebanks = []
     else:
         uploaded_treebanks = st.file_uploader(
             t("upload_label", lang),
-            type=["xml"],
+            type=["xml", "conllu", "conll"],
             accept_multiple_files=True,
             help=t("upload_help", lang),
         )
@@ -645,8 +772,21 @@ if build_clicked:
             st.error(t("error_prepare_lessons", lang))
             st.stop()
 
+    # Map each selected file to its declared format so the pipeline picks the
+    # right parser; files without a format (custom URLs, uploads) auto-detect.
+    treebank_formats = {
+        row["file"]: row.get("format")
+        for row in selected_treebank_records
+        if row["file"] in selected_treebank_files
+    }
+
     with st.spinner(t("spinner_parsing", lang)):
-        combined_df = build_combined_df(treebank_dir, selected_treebank_files, syllabus_mode=syllabus_mode)
+        combined_df = build_combined_df(
+            treebank_dir,
+            selected_treebank_files,
+            syllabus_mode=syllabus_mode,
+            formats=treebank_formats,
+        )
         frequency_syllabus = build_frequency_syllabus(combined_df)
         textbook_markdown = generate_textbook_markdown(
             frequency_syllabus=frequency_syllabus,

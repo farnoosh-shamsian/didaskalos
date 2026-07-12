@@ -17,6 +17,15 @@ try:
 except ImportError:  # imported as part of a package rather than as a flat module
     from .i18n import DEFAULT_LANG, is_rtl, t
 
+try:
+    from treebank_parsers import parse_agdt_xml, parse_treebank_file
+except ImportError:  # imported as part of a package rather than as a flat module
+    from .treebank_parsers import parse_agdt_xml, parse_treebank_file
+
+# Back-compat alias: parse_treebank_xml was the historical name for the AGDT
+# parser before formats were pluggable. Kept so external callers keep working.
+parse_treebank_xml = parse_agdt_xml
+
 
 def _force_utf8_stdio() -> None:
     os.environ.setdefault("PYTHONUTF8", "1")
@@ -109,51 +118,6 @@ def list_treebanks(folder: str | Path) -> pd.DataFrame:
         )
 
     return pd.DataFrame(rows)
-
-
-def parse_treebank_xml(file_path: str | Path) -> pd.DataFrame:
-    file_path = Path(file_path)
-    tree = ET.parse(file_path)
-    root = tree.getroot()
-
-    # Native <sentence> elements are the primary boundary; strong punctuation
-    # (including the Greek ano teleia) only sub-splits a sentence into segments.
-    end_punct = {".", "?", ";", "!", ":", "·"}
-    data = []
-    token_index = 0
-
-    for fallback_counter, sentence in enumerate(root.findall(".//sentence"), 1):
-        document_id = sentence.get("document_id")
-        subdoc = sentence.get("subdoc")
-        native_id = sentence.get("id") or f"s{fallback_counter}"
-        segment = 1
-
-        for word in sentence.findall("word"):
-            token_index += 1
-            form = word.get("form") or ""
-
-            data.append(
-                {
-                    # The file stem keeps ids unique when several treebanks are
-                    # combined into one DataFrame; without it, sentences from
-                    # different works would merge in assemble_sentences.
-                    "sentence_id": f"{file_path.stem}|{native_id}|{segment}",
-                    "document_id": document_id,
-                    "subdoc": subdoc,
-                    "word_id": word.get("id"),
-                    "token_index": token_index,
-                    "form": form,
-                    "lemma": word.get("lemma"),
-                    "postag": word.get("postag"),
-                    "relation": word.get("relation"),
-                    "head": word.get("head"),
-                }
-            )
-
-            if form in end_punct:
-                segment += 1
-
-    return pd.DataFrame(data)
 
 
 def _decode(code_map, ch: str) -> str:
@@ -503,12 +467,21 @@ def build_declension_summary(combined_df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(summary_rows, columns=columns).sort_values("tokens", ascending=False, ignore_index=True)
 
 
-def build_combined_df(folder: str | Path, selected_files: list[str], syllabus_mode: str = "case") -> pd.DataFrame:
-    xml_paths = [Path(folder) / filename for filename in selected_files]
+def build_combined_df(
+    folder: str | Path,
+    selected_files: list[str],
+    syllabus_mode: str = "case",
+    formats: Mapping[str, str | None] | None = None,
+) -> pd.DataFrame:
+    # ``formats`` maps a selected filename to its declared corpus format (from the
+    # registry). Missing/None entries let the dispatcher auto-detect by extension
+    # or content, which keeps uploads and ad-hoc URLs working.
+    formats = formats or {}
     all_dfs = []
 
-    for file_path in xml_paths:
-        df = parse_treebank_xml(file_path)
+    for filename in selected_files:
+        file_path = Path(folder) / filename
+        df = parse_treebank_file(file_path, formats.get(filename))
         df["file"] = os.path.basename(file_path)
         all_dfs.append(df)
 
