@@ -1,0 +1,17 @@
+# Keep the Cloud Build source upload small. The docker build context is
+# didaskalos_streamlit_app/, so nothing else here is needed for the build.
+.git/
+.venv/
+**/.venv/
+**/__pycache__/
+*.pyc
+.claude/
+experiments/
+treebanks/
+docs/
+grammar-module-ragbot/
+lessons-decl/
+lessons-decl-fa/
+lessons-no-decl/
+lessons-no-decl-fa/
+Didaskalos-sandbox.ipynb
