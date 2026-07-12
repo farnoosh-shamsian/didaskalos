@@ -1,5 +1,5 @@
 steps:
-  # Build the container image
+  # Build the container image (Dockerfile lives in the app subdirectory)
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'build'
@@ -7,17 +7,20 @@ steps:
       - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:latest'
       - '-t'
       - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:$SHORT_SHA'
-      - '.'
+      - 'didaskalos_streamlit_app'
 
   # Push the container image to Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'push'
+      - '--all-tags'
       - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app'
 
   # Deploy to Cloud Run
-  - name: 'gcr.io/cloud-builders/run'
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
     args:
+      - 'run'
       - 'deploy'
       - 'didaskalos-app'
       - '--image'
@@ -30,3 +33,6 @@ steps:
 images:
   - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:latest'
   - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:$SHORT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
