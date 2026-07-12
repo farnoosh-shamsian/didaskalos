@@ -8,6 +8,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any, Mapping
 
+import numpy as np
 import pandas as pd
 from markdown import markdown as markdown_to_html
 
@@ -61,6 +62,24 @@ POS_CATEGORY_MAP = {
     **SIMPLE_POS_LABELS,
 }
 
+# First postag character of the word classes whose lemmas carry lexical content
+# (noun, adjective, verb, adverb, pronoun). Everything else (article, particle,
+# conjunction, preposition, interjection, punctuation) is treated as a function
+# word for difficulty scoring and known-vocabulary coverage.
+CONTENT_POS_PREFIXES = ("n", "a", "v", "d", "p")
+
+# Sentence difficulty blends how rare the sentence's content words are on
+# average, how rare its single rarest word is (the word that gates
+# comprehension), and how long the sentence is.
+DIFFICULTY_WEIGHT_MEAN_RARITY = 0.35
+DIFFICULTY_WEIGHT_RAREST_WORD = 0.35
+DIFFICULTY_WEIGHT_LENGTH = 0.30
+
+# Stage-aware exercise selection: prefer sentences whose content lemmas are
+# mostly vocabulary already introduced in earlier lessons.
+KNOWN_LEMMA_COVERAGE_THRESHOLD = 0.70
+KNOWN_FUNCTION_LEMMA_SEED_COUNT = 50
+
 
 GREEK_MARK_RE = re.compile(r"[\u0370-\u03FF\u1F00-\u1FFF]")
 
@@ -93,18 +112,21 @@ def list_treebanks(folder: str | Path) -> pd.DataFrame:
 
 
 def parse_treebank_xml(file_path: str | Path) -> pd.DataFrame:
+    file_path = Path(file_path)
     tree = ET.parse(file_path)
     root = tree.getroot()
 
-    end_punct = {".", "?", ";", "!", ":"}
+    # Native <sentence> elements are the primary boundary; strong punctuation
+    # (including the Greek ano teleia) only sub-splits a sentence into segments.
+    end_punct = {".", "?", ";", "!", ":", "·"}
     data = []
-    sentence_counter = 1
     token_index = 0
-    current_sentence_id = f"tb_{sentence_counter}"
 
-    for sentence in root.findall(".//sentence"):
+    for fallback_counter, sentence in enumerate(root.findall(".//sentence"), 1):
         document_id = sentence.get("document_id")
         subdoc = sentence.get("subdoc")
+        native_id = sentence.get("id") or f"s{fallback_counter}"
+        segment = 1
 
         for word in sentence.findall("word"):
             token_index += 1
@@ -112,7 +134,10 @@ def parse_treebank_xml(file_path: str | Path) -> pd.DataFrame:
 
             data.append(
                 {
-                    "sentence_id": current_sentence_id,
+                    # The file stem keeps ids unique when several treebanks are
+                    # combined into one DataFrame; without it, sentences from
+                    # different works would merge in assemble_sentences.
+                    "sentence_id": f"{file_path.stem}|{native_id}|{segment}",
                     "document_id": document_id,
                     "subdoc": subdoc,
                     "word_id": word.get("id"),
@@ -126,8 +151,7 @@ def parse_treebank_xml(file_path: str | Path) -> pd.DataFrame:
             )
 
             if form in end_punct:
-                sentence_counter += 1
-                current_sentence_id = f"tb_{sentence_counter}"
+                segment += 1
 
     return pd.DataFrame(data)
 
@@ -824,12 +848,28 @@ def add_sentence_scores(sentences_df: pd.DataFrame, combined_df: pd.DataFrame) -
         counts = greek["lemma"].value_counts()
         greek["lemma_frequency"] = greek["lemma"].map(counts).astype(float)
 
-    if greek.empty:
-        out["avg_lemma_freq"] = 0.0
+    # Function words are frequent enough to drown out the words that actually
+    # gate comprehension, so lexical difficulty looks at content words only.
+    # Log frequencies tame the Zipf skew: a couple of articles no longer make a
+    # sentence full of rare words look easy.
+    content = greek[greek["postag"].astype(str).str.startswith(CONTENT_POS_PREFIXES)].copy()
+
+    stat_columns = ["avg_log_lemma_freq", "min_log_lemma_freq"]
+    out = out.drop(columns=stat_columns, errors="ignore")
+    if content.empty:
+        out["avg_log_lemma_freq"] = 0.0
+        out["min_log_lemma_freq"] = 0.0
     else:
-        sent_avg = greek.groupby("sentence_id", as_index=False).agg(avg_lemma_freq=("lemma_frequency", "mean"))
-        out = out.drop(columns=["avg_lemma_freq"], errors="ignore").merge(sent_avg, on="sentence_id", how="left")
-        out["avg_lemma_freq"] = out["avg_lemma_freq"].fillna(0.0)
+        content["log_lemma_freq"] = np.log1p(content["lemma_frequency"])
+        sent_stats = content.groupby("sentence_id", as_index=False).agg(
+            avg_log_lemma_freq=("log_lemma_freq", "mean"),
+            min_log_lemma_freq=("log_lemma_freq", "min"),
+        )
+        out = out.merge(sent_stats, on="sentence_id", how="left")
+        # Sentences with no content words carry no lexical load; score them easy.
+        for column in stat_columns:
+            max_value = out[column].max()
+            out[column] = out[column].fillna(max_value if pd.notna(max_value) else 0.0)
 
     def to_0_100(series: pd.Series) -> pd.Series:
         max_value = series.max()
@@ -837,11 +877,40 @@ def add_sentence_scores(sentences_df: pd.DataFrame, combined_df: pd.DataFrame) -
             return series / max_value * 100
         return pd.Series(0.0, index=series.index)
 
-    out["lemma_frequency_score"] = pd.to_numeric(to_0_100(out["avg_lemma_freq"]), errors="coerce").fillna(0.0)
-    out["lemma_difficulty_score"] = 100 - out["lemma_frequency_score"]
+    out["mean_rarity_score"] = 100 - to_0_100(pd.to_numeric(out["avg_log_lemma_freq"], errors="coerce").fillna(0.0))
+    out["rarest_word_score"] = 100 - to_0_100(pd.to_numeric(out["min_log_lemma_freq"], errors="coerce").fillna(0.0))
     out["sentence_length_score"] = pd.to_numeric(to_0_100(out["word_count"]), errors="coerce").fillna(0.0)
-    out["difficulty_score"] = (out["lemma_difficulty_score"] + 2 * out["sentence_length_score"]) / 3
+    out["difficulty_score"] = (
+        DIFFICULTY_WEIGHT_MEAN_RARITY * out["mean_rarity_score"]
+        + DIFFICULTY_WEIGHT_RAREST_WORD * out["rarest_word_score"]
+        + DIFFICULTY_WEIGHT_LENGTH * out["sentence_length_score"]
+    )
     return out
+
+
+def build_known_lemma_seed(
+    combined_df: pd.DataFrame,
+    top_n: int = KNOWN_FUNCTION_LEMMA_SEED_COUNT,
+) -> set[str]:
+    """Top function-word lemmas (articles, particles, conjunctions, ...) that
+    every reader meets from the first page; they seed the known-vocabulary set
+    used for stage-aware sentence selection."""
+    if combined_df is None or combined_df.empty:
+        return set()
+    greek = combined_df[combined_df["lemma"].apply(is_greek_lemma)]
+    function_rows = greek[~greek["postag"].astype(str).str.startswith(CONTENT_POS_PREFIXES)]
+    top_lemmas = function_rows["lemma"].value_counts().head(top_n).index
+    return {normalize_greek_lemma(str(lemma)) for lemma in top_lemmas}
+
+
+def _known_lemma_coverage_by_sentence(combined_df: pd.DataFrame, known_lemmas: set[str]) -> pd.Series:
+    """Fraction of content-word lemmas per sentence_index that are known."""
+    greek = combined_df[combined_df["lemma"].apply(is_greek_lemma)]
+    content = greek[greek["postag"].astype(str).str.startswith(CONTENT_POS_PREFIXES)]
+    if content.empty:
+        return pd.Series(dtype=float)
+    known = content["lemma"].astype(str).map(normalize_greek_lemma).isin(known_lemmas)
+    return known.groupby(content["sentence_index"]).mean()
 
 
 def get_topic_sentences(
@@ -849,6 +918,7 @@ def get_topic_sentences(
     combined_df: pd.DataFrame,
     sentences_df: pd.DataFrame,
     num_sentences: int = 20,
+    known_lemmas: set[str] | None = None,
 ) -> pd.DataFrame:
     matching_rows = get_topic_rows_for_label(syllabus_label, combined_df)
     if matching_rows.empty:
@@ -862,7 +932,24 @@ def get_topic_sentences(
     if topic_sentences.empty:
         return pd.DataFrame()
 
-    return topic_sentences.sort_values("difficulty_score").head(num_sentences)
+    if not known_lemmas:
+        return topic_sentences.sort_values("difficulty_score").head(num_sentences)
+
+    # The lesson's own target lemmas are being taught right now, so they count
+    # as known when judging whether a sentence fits the learner's stage.
+    effective_known = known_lemmas | {
+        normalize_greek_lemma(str(lemma)) for lemma in matching_rows["lemma"].dropna()
+    }
+    candidate_rows = combined_df[combined_df["sentence_index"].isin(matching_sentence_indices)]
+    coverage = _known_lemma_coverage_by_sentence(candidate_rows, effective_known)
+    topic_sentences["known_lemma_coverage"] = topic_sentences["sentence_index"].map(coverage).fillna(1.0)
+
+    # Stage-appropriate sentences first; if the corpus cannot fill the quota,
+    # fall back to the remaining sentences ranked by difficulty alone.
+    qualified_mask = topic_sentences["known_lemma_coverage"] >= KNOWN_LEMMA_COVERAGE_THRESHOLD
+    qualified = topic_sentences[qualified_mask].sort_values("difficulty_score")
+    remainder = topic_sentences[~qualified_mask].sort_values("difficulty_score")
+    return pd.concat([qualified, remainder]).head(num_sentences)
 
 
 def format_exercise_set1(topic_words: pd.DataFrame, lesson_pos_category: str, lang: str = DEFAULT_LANG) -> str:
@@ -1074,10 +1161,13 @@ def generate_exercises_for_topic(
     sentences_df: pd.DataFrame,
     num_sentences: int = 20,
     lang: str = DEFAULT_LANG,
+    topic_words: pd.DataFrame | None = None,
+    known_lemmas: set[str] | None = None,
 ) -> str:
     exercise_blocks = []
 
-    topic_words = get_topic_words(syllabus_label, lesson_pos_category, combined_df, num_words=15)
+    if topic_words is None:
+        topic_words = get_topic_words(syllabus_label, lesson_pos_category, combined_df, num_words=15)
     words_exercise = format_exercise_set1(topic_words, lesson_pos_category, lang=lang)
     if words_exercise:
         exercise_blocks.append(words_exercise)
@@ -1087,6 +1177,7 @@ def generate_exercises_for_topic(
         combined_df=combined_df,
         sentences_df=sentences_df,
         num_sentences=num_sentences,
+        known_lemmas=known_lemmas,
     )
 
     if not topic_sentences.empty:
@@ -1238,6 +1329,7 @@ def generate_textbook_markdown(
 
     working_combined_df = None
     working_sentences_df = None
+    known_lemmas: set[str] = set()
 
     if combined_df is not None and not combined_df.empty:
         working_combined_df = combined_df.copy()
@@ -1252,6 +1344,8 @@ def generate_textbook_markdown(
             working_sentences_df["sentence_index"] = range(len(working_sentences_df))
             working_combined_df["sentence_index"] = working_combined_df.groupby("sentence_id", sort=False).ngroup()
             working_sentences_df = add_sentence_scores(working_sentences_df, working_combined_df)
+
+        known_lemmas = build_known_lemma_seed(working_combined_df)
 
     for lesson in lesson_data:
         markdown_content.append(f"## {lesson['rank']}. {lesson['display_label']}")
@@ -1269,13 +1363,23 @@ def generate_textbook_markdown(
             markdown_content.append("")
 
             if working_combined_df is not None and working_sentences_df is not None and not working_sentences_df.empty:
+                topic_words = get_topic_words(
+                    lesson["label"], lesson["pos_category"], working_combined_df, num_words=15
+                )
                 exercises = generate_exercises_for_topic(
                     lesson["label"],
                     lesson["pos_category"],
                     working_combined_df,
                     working_sentences_df,
                     lang=lang,
+                    topic_words=topic_words,
+                    known_lemmas=known_lemmas,
                 )
+                # Vocabulary introduced here counts as known for later lessons.
+                if not topic_words.empty:
+                    known_lemmas.update(
+                        normalize_greek_lemma(str(lemma)) for lemma in topic_words["lemma"]
+                    )
                 if exercises:
                     markdown_content.append(exercises)
                 else:
@@ -1306,19 +1410,21 @@ def generate_textbook_html(
     combined_df: pd.DataFrame | None = None,
     syllabus_mode: str = "case",
     lang: str = DEFAULT_LANG,
+    markdown_content: str | None = None,
 ) -> str:
     rtl = is_rtl(lang)
     if doc_title is None:
         doc_title = t("tb_doc_title", lang)
 
-    markdown_content = generate_textbook_markdown(
-        frequency_syllabus=frequency_syllabus,
-        grammar_folder=grammar_folder,
-        lesson_count=lesson_count,
-        combined_df=combined_df,
-        syllabus_mode=syllabus_mode,
-        lang=lang,
-    )
+    if markdown_content is None:
+        markdown_content = generate_textbook_markdown(
+            frequency_syllabus=frequency_syllabus,
+            grammar_folder=grammar_folder,
+            lesson_count=lesson_count,
+            combined_df=combined_df,
+            syllabus_mode=syllabus_mode,
+            lang=lang,
+        )
     # "extra" bundles md_in_html, which keeps parsing the markdown inside the
     # <div dir="rtl" markdown="1"> document wrapper.
     body_html = markdown_to_html(markdown_content, extensions=["extra", "toc", "tables"])

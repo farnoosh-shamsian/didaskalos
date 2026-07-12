@@ -42,6 +42,7 @@
   "download_textbook_html": "Download textbook.html",
   "textbook_md_preview_header": "Textbook Markdown Preview",
   "textbook_html_preview_header": "Textbook HTML Preview",
+  "show_html_preview_label": "Show HTML preview",
   "footer_caption": "Didaskalos is an open-source project. Contributions and feedback are welcome! Visit the GitHub repository for more information.",
   "tb_doc_title": "A Frequency-Based Textbook for Ancient Greek Grammar",
   "tb_intro_case": "This syllabus organizes grammar lessons by frequency of occurrence in the selected treebanks.",

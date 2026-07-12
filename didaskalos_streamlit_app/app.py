@@ -6,6 +6,7 @@ import json
 import sys
 import tempfile
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote, urlparse, urlsplit, urlunsplit
@@ -93,6 +94,8 @@ GITHUB_BRANCH = "main"
 GITHUB_TREE_API = f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/git/trees/{GITHUB_BRANCH}?recursive=1"
 GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{GITHUB_BRANCH}"
 TREEBANK_PREFIX = "treebanks/perseus/"
+FETCH_TIMEOUT_SECONDS = 20
+FETCH_MAX_WORKERS = 8
 LESSON_PREFIX = "lessons-no-decl/"
 DECLENSION_LESSON_PREFIX = "lessons-decl/"
 # Per-language lesson folders. Files keep the same names as the English
@@ -194,6 +197,55 @@ def _normalize_url(url: str) -> str:
     return urlunsplit((parts.scheme, parts.netloc, path, query, fragment))
 
 
+# The bytes cache holds every treebank/lesson fetched from GitHub raw for the
+# lifetime of the server process, so a rerun (Streamlit re-executes the whole
+# script on each widget interaction) never re-downloads a file. Failures raise
+# instead of returning None so st.cache_data does not memoize transient errors.
+@st.cache_data(show_spinner=False, max_entries=256)
+def _fetch_url_bytes(url: str) -> bytes:
+    source_url = _normalize_url(url)
+    try:
+        request = Request(source_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urlopen(request, timeout=FETCH_TIMEOUT_SECONDS) as response:
+            return response.read()
+    except (HTTPError, URLError, TimeoutError, ValueError):
+        local_payload = _read_from_local_repo_if_available(source_url)
+        if local_payload is not None:
+            return local_payload
+        raise
+
+
+@st.cache_data(show_spinner=False)
+def _fetch_xml_metadata(url: str) -> tuple[str | None, str | None]:
+    return _extract_xml_metadata(_fetch_url_bytes(url))
+
+
+def _prefetch_xml_metadata(urls: list[str]) -> dict[str, tuple[str | None, str | None]]:
+    def fetch(url: str) -> tuple[str | None, str | None]:
+        try:
+            return _fetch_xml_metadata(url)
+        except Exception:
+            return None, None
+
+    if not urls:
+        return {}
+    with ThreadPoolExecutor(max_workers=FETCH_MAX_WORKERS) as executor:
+        return dict(zip(urls, executor.map(fetch, urls)))
+
+
+def _warm_url_cache(urls: list[str]) -> None:
+    def fetch(url: str) -> None:
+        try:
+            _fetch_url_bytes(url)
+        except Exception:
+            pass
+
+    if not urls:
+        return
+    with ThreadPoolExecutor(max_workers=FETCH_MAX_WORKERS) as executor:
+        list(executor.map(fetch, urls))
+
+
 def _download_url_records_to_dir(records: list[dict], suffix_dir_name: str) -> tuple[Path | None, list[dict]]:
     if not records:
         return None, []
@@ -202,24 +254,16 @@ def _download_url_records_to_dir(records: list[dict], suffix_dir_name: str) -> t
     enriched_records: list[dict] = []
     failed_records: list[dict] = []
 
+    _warm_url_cache([item["source_url"] for item in records])
     for item in records:
-        source_url = _normalize_url(item["source_url"])
         try:
-            request = Request(source_url, headers={"User-Agent": "Mozilla/5.0"})
-            with urlopen(request) as response:
-                payload = response.read()
-                (target_dir / item["file"]).write_bytes(payload)
-                title, author = _extract_xml_metadata(payload)
-                enriched_records.append({**item, "title": title, "author": author})
-        except (HTTPError, URLError, TimeoutError, ValueError):
-            local_payload = _read_from_local_repo_if_available(source_url)
-            if local_payload is not None:
-                (target_dir / item["file"]).write_bytes(local_payload)
-                title, author = _extract_xml_metadata(local_payload)
-                enriched_records.append({**item, "title": title, "author": author})
-            else:
-                failed_records.append(item)
-                continue
+            payload = _fetch_url_bytes(item["source_url"])
+        except Exception:
+            failed_records.append(item)
+            continue
+        (target_dir / item["file"]).write_bytes(payload)
+        title, author = _extract_xml_metadata(payload)
+        enriched_records.append({**item, "title": title, "author": author})
 
     if not enriched_records:
         return None, []
@@ -231,7 +275,7 @@ def _download_url_records_to_dir(records: list[dict], suffix_dir_name: str) -> t
 def load_github_tree_urls(prefix: str) -> list[str]:
     request = Request(GITHUB_TREE_API, headers={"User-Agent": "Mozilla/5.0"})
     try:
-        with urlopen(request) as response:
+        with urlopen(request, timeout=FETCH_TIMEOUT_SECONDS) as response:
             payload = json.loads(response.read().decode("utf-8"))
     except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
         return []
@@ -259,18 +303,11 @@ def load_github_tree_urls(prefix: str) -> list[str]:
 def _build_records_from_urls(urls: list[str], extract_xml_metadata: bool = False) -> list[dict]:
     used_names = set()
     records = []
+    metadata_by_url = _prefetch_xml_metadata(urls) if extract_xml_metadata else {}
     for i, url in enumerate(urls, start=1):
         parsed = urlparse(url)
         file_name = Path(parsed.path).name or f"file_{i}"
-        title = None
-        author = None
-        if extract_xml_metadata:
-            try:
-                request = Request(_normalize_url(url), headers={"User-Agent": "Mozilla/5.0"})
-                with urlopen(request) as response:
-                    title, author = _extract_xml_metadata(response.read())
-            except (HTTPError, URLError, TimeoutError, ET.ParseError):
-                title, author = None, None
+        title, author = metadata_by_url.get(url, (None, None))
         records.append(
             {
                 "file": _unique_name(file_name, used_names),
@@ -521,34 +558,52 @@ if build_clicked:
             combined_df=combined_df,
             syllabus_mode=syllabus_mode,
             lang=lang,
+            markdown_content=textbook_markdown,
         )
 
+    declension_summary = build_declension_summary(combined_df) if syllabus_mode == "declension" else None
+
+    # Results live in session state so later reruns (downloads, toggles, widget
+    # changes) keep them on screen without rebuilding. CSV bytes are computed
+    # once here instead of holding the full token DataFrame per session.
+    st.session_state["build_result"] = {
+        "treebank_count": len(selected_treebank_files),
+        "token_rows": int(len(combined_df)),
+        "frequency_rows": int(len(frequency_syllabus)),
+        "frequency_syllabus": frequency_syllabus,
+        "frequency_csv": frequency_syllabus.to_csv(index=False).encode("utf-8"),
+        "combined_csv": combined_df.to_csv(index=False).encode("utf-8"),
+        "declension_csv": (
+            declension_summary.to_csv(index=False).encode("utf-8")
+            if declension_summary is not None and not declension_summary.empty
+            else None
+        ),
+        "textbook_markdown": textbook_markdown,
+        "textbook_html": textbook_html,
+    }
+
+build_result = st.session_state.get("build_result")
+if build_result:
     c1, c2, c3 = st.columns(3)
-    c1.metric(t("metric_selected_treebanks", lang), len(selected_treebank_files))
-    c2.metric(t("metric_token_rows", lang), int(len(combined_df)))
-    c3.metric(t("metric_frequency_rows", lang), int(len(frequency_syllabus)))
+    c1.metric(t("metric_selected_treebanks", lang), build_result["treebank_count"])
+    c2.metric(t("metric_token_rows", lang), build_result["token_rows"])
+    c3.metric(t("metric_frequency_rows", lang), build_result["frequency_rows"])
 
     st.subheader(t("frequency_syllabus_header", lang))
-    st.dataframe(frequency_syllabus, use_container_width=True, height=420)
+    st.dataframe(build_result["frequency_syllabus"], use_container_width=True, height=420)
 
-    if syllabus_mode == "declension":
-        declension_summary = build_declension_summary(combined_df)
-        st.subheader(t("declension_categories_header", lang))
-        if declension_summary.empty:
-            st.info(t("no_classified_info", lang))
-        else:
-            st.dataframe(declension_summary, use_container_width=True, height=420)
-            st.download_button(
-                label=t("download_declension_summary", lang),
-                data=declension_summary.to_csv(index=False).encode("utf-8"),
-                file_name="declension_summary.csv",
-                mime="text/csv",
-                use_container_width=True,
-            )
+    if build_result["declension_csv"] is not None:
+        st.download_button(
+            label=t("download_declension_summary", lang),
+            data=build_result["declension_csv"],
+            file_name="declension_summary.csv",
+            mime="text/csv",
+            use_container_width=True,
+        )
 
     st.download_button(
         label=t("download_frequency_syllabus", lang),
-        data=frequency_syllabus.to_csv(index=False).encode("utf-8"),
+        data=build_result["frequency_csv"],
         file_name="frequency_syllabus.csv",
         mime="text/csv",
         use_container_width=True,
@@ -556,7 +611,7 @@ if build_clicked:
 
     st.download_button(
         label=t("download_combined_rows", lang),
-        data=combined_df.to_csv(index=False).encode("utf-8"),
+        data=build_result["combined_csv"],
         file_name="combined_treebank_rows.csv",
         mime="text/csv",
         use_container_width=True,
@@ -564,7 +619,7 @@ if build_clicked:
 
     st.download_button(
         label=t("download_textbook_md", lang),
-        data=textbook_markdown.encode("utf-8"),
+        data=build_result["textbook_markdown"].encode("utf-8"),
         file_name="textbook.md",
         mime="text/markdown",
         use_container_width=True,
@@ -572,17 +627,20 @@ if build_clicked:
 
     st.download_button(
         label=t("download_textbook_html", lang),
-        data=textbook_html.encode("utf-8"),
+        data=build_result["textbook_html"].encode("utf-8"),
         file_name="textbook.html",
         mime="text/html",
         use_container_width=True,
     )
 
     st.subheader(t("textbook_md_preview_header", lang))
-    st.code(textbook_markdown[:6000], language="markdown")
+    st.code(build_result["textbook_markdown"][:6000], language="markdown")
 
     st.subheader(t("textbook_html_preview_header", lang))
-    components.html(textbook_html, height=800, scrolling=True)
+    # The full textbook HTML can be several MB; only push it to the browser
+    # when the user asks for it.
+    if st.toggle(t("show_html_preview_label", lang), value=False, key="show_html_preview"):
+        components.html(build_result["textbook_html"], height=800, scrolling=True)
 
 st.markdown("---")
 st.caption(t("footer_caption", lang))

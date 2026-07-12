@@ -12,6 +12,12 @@
       "runtimeExecutable": ".venv\\Scripts\\streamlit.exe",
       "runtimeArgs": ["run", "didaskalos_streamlit_app/app.py", "--server.port", "8501", "--server.headless", "true"],
       "port": 8501
+    },
+    {
+      "name": "didaskalos-app-alt",
+      "runtimeExecutable": ".venv\\Scripts\\streamlit.exe",
+      "runtimeArgs": ["run", "didaskalos_streamlit_app/app.py", "--server.port", "8502", "--server.headless", "true"],
+      "port": 8502
     }
   ]
 }
