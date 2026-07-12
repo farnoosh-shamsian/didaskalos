@@ -97,6 +97,10 @@ GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REP
 TREEBANK_PREFIX = "treebanks/perseus/"
 FETCH_TIMEOUT_SECONDS = 20
 FETCH_MAX_WORKERS = 8
+# Title/author live in the XML <header>, well within the first few KB even for
+# the largest treebanks (Iliad ~20 MB), so a bounded range read is enough to
+# populate the selector table without downloading whole files.
+METADATA_HEADER_BYTES = 65536
 LESSON_PREFIX = "lessons-no-decl/"
 DECLENSION_LESSON_PREFIX = "lessons-decl/"
 # Per-language lesson folders. Files keep the same names as the English
@@ -172,6 +176,30 @@ def _extract_xml_metadata(xml_bytes: bytes) -> tuple[str | None, str | None]:
     return title, author
 
 
+def _extract_xml_metadata_from_header(header_bytes: bytes) -> tuple[str | None, str | None]:
+    # A range read gives us a truncated (unclosed) document, so ET.fromstring
+    # would raise. Feed the partial bytes to a pull parser instead and read the
+    # end events for <title>/<author>; both close inside the header long before
+    # the body, so they are fully available even from a small leading slice.
+    parser = ET.XMLPullParser(events=("end",))
+    title: str | None = None
+    author: str | None = None
+    try:
+        parser.feed(header_bytes)
+        for _event, element in parser.read_events():
+            tag = element.tag
+            local_tag = tag.rsplit("}", 1)[-1] if isinstance(tag, str) else tag
+            if local_tag == "title" and title is None:
+                title = (" ".join(element.itertext()).strip()) or None
+            elif local_tag == "author" and author is None:
+                author = (" ".join(element.itertext()).strip()) or None
+            if title is not None and author is not None:
+                break
+    except ET.ParseError:
+        pass
+    return title, author
+
+
 def _parse_list_input(text: str) -> list[str]:
     parts: list[str] = []
     for line in (text or "").splitlines():
@@ -216,9 +244,31 @@ def _fetch_url_bytes(url: str) -> bytes:
         raise
 
 
+# Only the leading header bytes are needed for title/author, so this issues an
+# HTTP Range request (raw.githubusercontent.com honors it with 206). If a server
+# ignores Range and sends the whole file, read() still caps at max_bytes. Cached
+# separately from _fetch_url_bytes so the tiny header slices never evict, and are
+# never confused with, the full payloads used at Build time.
+@st.cache_data(show_spinner=False, max_entries=256)
+def _fetch_url_header_bytes(url: str, max_bytes: int = METADATA_HEADER_BYTES) -> bytes:
+    source_url = _normalize_url(url)
+    try:
+        request = Request(
+            source_url,
+            headers={"User-Agent": "Mozilla/5.0", "Range": f"bytes=0-{max_bytes - 1}"},
+        )
+        with urlopen(request, timeout=FETCH_TIMEOUT_SECONDS) as response:
+            return response.read(max_bytes)
+    except (HTTPError, URLError, TimeoutError, ValueError):
+        local_payload = _read_from_local_repo_if_available(source_url)
+        if local_payload is not None:
+            return local_payload[:max_bytes]
+        raise
+
+
 @st.cache_data(show_spinner=False)
 def _fetch_xml_metadata(url: str) -> tuple[str | None, str | None]:
-    return _extract_xml_metadata(_fetch_url_bytes(url))
+    return _extract_xml_metadata_from_header(_fetch_url_header_bytes(url))
 
 
 def _prefetch_xml_metadata(urls: list[str]) -> dict[str, tuple[str | None, str | None]]:
@@ -301,6 +351,9 @@ def load_github_tree_urls(prefix: str) -> list[str]:
     return sorted(urls)
 
 
+# Memoized on the URL set so a Streamlit rerun (any widget interaction) reuses
+# the built records instead of re-orchestrating the parallel metadata prefetch.
+@st.cache_data(show_spinner=False)
 def _build_records_from_urls(urls: list[str], extract_xml_metadata: bool = False) -> list[dict]:
     used_names = set()
     records = []
@@ -412,6 +465,71 @@ def _build_treebank_display_table(records: list[dict]) -> pd.DataFrame:
     return df[["file", "title", "author", "source_url"]]
 
 
+# st.fragment (stable in 1.37, experimental in 1.33) lets the treebank grid rerun
+# on its own. Resolve it defensively so an older Streamlit degrades to running the
+# selector inline instead of crashing on a missing attribute.
+st_fragment = getattr(st, "fragment", None) or getattr(st, "experimental_fragment", None)
+if st_fragment is None:
+    def st_fragment(func):
+        return func
+
+
+@st_fragment
+def render_treebank_selector(available_treebanks: pd.DataFrame, lang: str) -> None:
+    # Isolated in a fragment so ticking a checkbox reruns only this grid, not the
+    # whole script (which would re-run the sidebar's metadata prefetch). The
+    # current selection is published to session state for the Build step to read.
+    st.subheader(t("available_treebanks_header", lang))
+
+    # Select all / Clear work by bumping the editor's widget key: st.data_editor
+    # edits persist per key and cannot be mutated after instantiation, so a fresh
+    # key drops stale edits and the base dataframe's "selected" default renders.
+    if "treebank_editor_version" not in st.session_state:
+        st.session_state["treebank_editor_version"] = 0
+    if "treebank_select_default" not in st.session_state:
+        st.session_state["treebank_select_default"] = False
+
+    btn_all, btn_clear = st.columns(2)
+    if btn_all.button(t("select_all_button", lang), key="treebank_select_all_btn", use_container_width=True):
+        st.session_state["treebank_editor_version"] += 1
+        st.session_state["treebank_select_default"] = True
+    if btn_clear.button(t("clear_selection_button", lang), key="treebank_clear_btn", use_container_width=True):
+        st.session_state["treebank_editor_version"] += 1
+        st.session_state["treebank_select_default"] = False
+
+    editor_df = available_treebanks.copy()
+    editor_df.insert(0, "selected", st.session_state["treebank_select_default"])
+    editor_df["title"] = editor_df["title"].fillna(t("untitled", lang))
+    editor_df["author"] = editor_df["author"].fillna(t("unknown_author", lang))
+
+    # Editor edits are stored by row position under the widget key; fingerprint
+    # the row set into the key so a changed URL/upload list can never re-apply
+    # stale checkmarks to shifted rows.
+    files_fingerprint = hashlib.md5("\n".join(editor_df["file"]).encode("utf-8")).hexdigest()[:8]
+    editor_key = f"treebank_editor_{st.session_state['treebank_editor_version']}_{files_fingerprint}"
+
+    edited_treebanks = st.data_editor(
+        editor_df,
+        key=editor_key,
+        hide_index=True,
+        use_container_width=True,
+        height=300,
+        num_rows="fixed",
+        disabled=["file", "title", "author", "source_url"],
+        column_config={
+            "selected": st.column_config.CheckboxColumn(t("select_column_label", lang), default=False),
+            "file": st.column_config.TextColumn(t("treebank_col_file", lang)),
+            "title": st.column_config.TextColumn(t("treebank_col_title", lang)),
+            "author": st.column_config.TextColumn(t("treebank_col_author", lang)),
+            "source_url": st.column_config.TextColumn(t("treebank_col_source", lang)),
+        },
+    )
+
+    st.session_state["selected_treebank_files"] = edited_treebanks.loc[
+        edited_treebanks["selected"].fillna(False), "file"
+    ].tolist()
+
+
 with st.sidebar:
     if LOGO_IMAGE_PATH.exists():
         st.image(str(LOGO_IMAGE_PATH), use_container_width=True)
@@ -493,55 +611,8 @@ if available_treebanks.empty:
     st.warning(t("no_treebanks_warning", lang))
     st.stop()
 
-st.subheader(t("available_treebanks_header", lang))
-
-# Select all / Clear work by bumping the editor's widget key: st.data_editor
-# edits persist per key and cannot be mutated after instantiation, so a fresh
-# key drops stale edits and the base dataframe's "selected" default renders.
-if "treebank_editor_version" not in st.session_state:
-    st.session_state["treebank_editor_version"] = 0
-if "treebank_select_default" not in st.session_state:
-    st.session_state["treebank_select_default"] = False
-
-btn_all, btn_clear = st.columns(2)
-if btn_all.button(t("select_all_button", lang), key="treebank_select_all_btn", use_container_width=True):
-    st.session_state["treebank_editor_version"] += 1
-    st.session_state["treebank_select_default"] = True
-if btn_clear.button(t("clear_selection_button", lang), key="treebank_clear_btn", use_container_width=True):
-    st.session_state["treebank_editor_version"] += 1
-    st.session_state["treebank_select_default"] = False
-
-editor_df = available_treebanks.copy()
-editor_df.insert(0, "selected", st.session_state["treebank_select_default"])
-editor_df["title"] = editor_df["title"].fillna(t("untitled", lang))
-editor_df["author"] = editor_df["author"].fillna(t("unknown_author", lang))
-
-# Editor edits are stored by row position under the widget key; fingerprint
-# the row set into the key so a changed URL/upload list can never re-apply
-# stale checkmarks to shifted rows.
-files_fingerprint = hashlib.md5("\n".join(editor_df["file"]).encode("utf-8")).hexdigest()[:8]
-editor_key = f"treebank_editor_{st.session_state['treebank_editor_version']}_{files_fingerprint}"
-
-edited_treebanks = st.data_editor(
-    editor_df,
-    key=editor_key,
-    hide_index=True,
-    use_container_width=True,
-    height=300,
-    num_rows="fixed",
-    disabled=["file", "title", "author", "source_url"],
-    column_config={
-        "selected": st.column_config.CheckboxColumn(t("select_column_label", lang), default=False),
-        "file": st.column_config.TextColumn(t("treebank_col_file", lang)),
-        "title": st.column_config.TextColumn(t("treebank_col_title", lang)),
-        "author": st.column_config.TextColumn(t("treebank_col_author", lang)),
-        "source_url": st.column_config.TextColumn(t("treebank_col_source", lang)),
-    },
-)
-
-selected_treebank_files = edited_treebanks.loc[
-    edited_treebanks["selected"].fillna(False), "file"
-].tolist()
+render_treebank_selector(available_treebanks, lang)
+selected_treebank_files = st.session_state.get("selected_treebank_files", [])
 
 if available_lessons.empty:
     st.warning(t("no_lessons_warning", lang))
