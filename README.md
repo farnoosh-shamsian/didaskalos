@@ -55,7 +55,7 @@ The core infrastructure is still being built! Ongoing work focuses on:
 - Details of foe the frequency-based syllabus is generated
 - Refinement of grammar modules
 - Evaluation of exercices
-- Localization and multilingual support
+- Localization and multilingual support (Persian already added)
 
 ## License
 
