@@ -1,0 +1,32 @@
+steps:
+  # Build the container image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:latest'
+      - '-t'
+      - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:$SHORT_SHA'
+      - '.'
+
+  # Push the container image to Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app'
+
+  # Deploy to Cloud Run
+  - name: 'gcr.io/cloud-builders/run'
+    args:
+      - 'deploy'
+      - 'didaskalos-app'
+      - '--image'
+      - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:$SHORT_SHA'
+      - '--region'
+      - 'europe-west1'
+      - '--platform'
+      - 'managed'
+
+images:
+  - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:latest'
+  - 'europe-west1-docker.pkg.dev/didaskalos-501609/cloud-run-repo/didaskalos-app:$SHORT_SHA'

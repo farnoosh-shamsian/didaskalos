@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import base64
+import hashlib
 import os
 import json
 import sys
@@ -411,20 +412,6 @@ def _build_treebank_display_table(records: list[dict]) -> pd.DataFrame:
     return df[["file", "title", "author", "source_url"]]
 
 
-def _format_treebank_option(file_name: str, records_df: pd.DataFrame, lang: str = DEFAULT_LANG) -> str:
-    if records_df.empty or "file" not in records_df.columns:
-        return file_name
-
-    match = records_df[records_df["file"].eq(file_name)]
-    if match.empty:
-        return file_name
-
-    row = match.iloc[0]
-    title = row.get("title") or t("untitled", lang)
-    author = row.get("author") or t("unknown_author", lang)
-    return f"{file_name} | {title} | {author}"
-
-
 with st.sidebar:
     if LOGO_IMAGE_PATH.exists():
         st.image(str(LOGO_IMAGE_PATH), use_container_width=True)
@@ -470,14 +457,21 @@ with st.sidebar:
         default_treebank_urls = load_github_tree_urls(TREEBANK_PREFIX)
         default_lesson_urls = _resolve_default_lesson_urls(syllabus_mode, lang)
 
-        treebank_url_input = st.text_area(
-            t("treebank_url_label", lang),
-            value="\n".join(default_treebank_urls),
-            height=220,
-            help=t("treebank_url_help", lang),
-        )
+        with st.expander(t("custom_treebank_urls_expander", lang), expanded=False):
+            custom_treebank_url_input = st.text_area(
+                t("custom_treebank_urls_label", lang),
+                value="",
+                height=120,
+                help=t("custom_treebank_urls_help", lang),
+                key="custom_treebank_urls",
+            )
 
-        treebank_records = _build_records_from_urls(_parse_list_input(treebank_url_input), extract_xml_metadata=True)
+        # Defaults first, custom URLs appended; _parse_list_input handles
+        # newline/comma splitting and order-preserving dedupe across both.
+        treebank_urls = _parse_list_input(
+            "\n".join(default_treebank_urls) + "\n" + custom_treebank_url_input
+        )
+        treebank_records = _build_records_from_urls(treebank_urls, extract_xml_metadata=True)
         lesson_records = _build_records_from_urls(default_lesson_urls)
         uploaded_treebanks = []
     else:
@@ -500,14 +494,54 @@ if available_treebanks.empty:
     st.stop()
 
 st.subheader(t("available_treebanks_header", lang))
-st.dataframe(available_treebanks, use_container_width=True, height=240)
 
-selected_treebank_files = st.multiselect(
-    t("select_treebank_label", lang),
-    options=available_treebanks["file"].tolist(),
-    default=[],
-    format_func=lambda file_name: _format_treebank_option(file_name, available_treebanks, lang),
+# Select all / Clear work by bumping the editor's widget key: st.data_editor
+# edits persist per key and cannot be mutated after instantiation, so a fresh
+# key drops stale edits and the base dataframe's "selected" default renders.
+if "treebank_editor_version" not in st.session_state:
+    st.session_state["treebank_editor_version"] = 0
+if "treebank_select_default" not in st.session_state:
+    st.session_state["treebank_select_default"] = False
+
+btn_all, btn_clear = st.columns(2)
+if btn_all.button(t("select_all_button", lang), key="treebank_select_all_btn", use_container_width=True):
+    st.session_state["treebank_editor_version"] += 1
+    st.session_state["treebank_select_default"] = True
+if btn_clear.button(t("clear_selection_button", lang), key="treebank_clear_btn", use_container_width=True):
+    st.session_state["treebank_editor_version"] += 1
+    st.session_state["treebank_select_default"] = False
+
+editor_df = available_treebanks.copy()
+editor_df.insert(0, "selected", st.session_state["treebank_select_default"])
+editor_df["title"] = editor_df["title"].fillna(t("untitled", lang))
+editor_df["author"] = editor_df["author"].fillna(t("unknown_author", lang))
+
+# Editor edits are stored by row position under the widget key; fingerprint
+# the row set into the key so a changed URL/upload list can never re-apply
+# stale checkmarks to shifted rows.
+files_fingerprint = hashlib.md5("\n".join(editor_df["file"]).encode("utf-8")).hexdigest()[:8]
+editor_key = f"treebank_editor_{st.session_state['treebank_editor_version']}_{files_fingerprint}"
+
+edited_treebanks = st.data_editor(
+    editor_df,
+    key=editor_key,
+    hide_index=True,
+    use_container_width=True,
+    height=300,
+    num_rows="fixed",
+    disabled=["file", "title", "author", "source_url"],
+    column_config={
+        "selected": st.column_config.CheckboxColumn(t("select_column_label", lang), default=False),
+        "file": st.column_config.TextColumn(t("treebank_col_file", lang)),
+        "title": st.column_config.TextColumn(t("treebank_col_title", lang)),
+        "author": st.column_config.TextColumn(t("treebank_col_author", lang)),
+        "source_url": st.column_config.TextColumn(t("treebank_col_source", lang)),
+    },
 )
+
+selected_treebank_files = edited_treebanks.loc[
+    edited_treebanks["selected"].fillna(False), "file"
+].tolist()
 
 if available_lessons.empty:
     st.warning(t("no_lessons_warning", lang))
