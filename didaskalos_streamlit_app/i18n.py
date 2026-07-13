@@ -61,10 +61,10 @@ def rtl_css() -> str:
     """
     return """
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
     html, body, [class*="css"], .stApp, button, input, textarea, select,
     section[data-testid="stSidebar"] {
-        font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+        font-family: 'Noto Naskh Arabic', 'B Lotus', 'Segoe UI', Tahoma, sans-serif;
     }
     .stApp, section[data-testid="stSidebar"] { direction: rtl; }
     .stApp h1, .stApp h2, .stApp h3, .stApp h4,

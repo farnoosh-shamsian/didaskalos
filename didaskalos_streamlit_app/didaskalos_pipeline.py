@@ -1411,11 +1411,11 @@ def generate_textbook_html(
     if rtl:
         rtl_font_link = (
             '\n    <link rel="stylesheet" '
-            'href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700&display=swap">'
+            'href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap">'
         )
         rtl_style = """
         body {
-            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, sans-serif;
+            font-family: 'Noto Naskh Arabic', 'B Lotus', 'Segoe UI', Tahoma, sans-serif;
         }
         /* Code blocks stay left-to-right even in an RTL document. */
         pre, code {

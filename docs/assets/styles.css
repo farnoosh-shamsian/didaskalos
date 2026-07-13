@@ -37,7 +37,8 @@ body {
 
 /* Persian panels: readable Persian font stack, generous line height. */
 [lang="fa"] {
-  font-family: "Cambria", Georgia, "Times New Roman", serif;
+  font-family: "Noto Naskh Arabic", "B Lotus", "Cambria", Georgia,
+    "Times New Roman", serif;
   line-height: 1.9;
 }
 
