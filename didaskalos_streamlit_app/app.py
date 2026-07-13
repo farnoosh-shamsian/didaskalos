@@ -53,11 +53,33 @@ st.set_page_config(
 )
 
 # Active UI language. The selector widget (rendered in the sidebar) owns the
-# "lang" session key; reading it here makes the choice available before the
-# title is drawn, so the whole page renders in the selected language.
+# "lang" session key, but session state is volatile: a websocket reconnect or a
+# fresh session (common while the several-second GitHub prefetch below blocks the
+# run) wipes it, which silently reverted the UI to English. The URL query param
+# is the durable source of truth, so the choice survives reconnects and reloads.
+# Resolution order: URL -> session_state -> default.
+qp_lang = st.query_params.get("lang")
+if qp_lang in AVAILABLE_LANGS and qp_lang != st.session_state.get("lang"):
+    # Seed the widget key *before* the selectbox is instantiated (allowed);
+    # assigning to a widget key after its widget exists would raise.
+    st.session_state["lang"] = qp_lang
 lang = st.session_state.get("lang", DEFAULT_LANG)
+# Record the active language in the URL so a fresh visit / reconnect can recover
+# it. Only write when it differs to avoid a redundant query-param update per run.
+if st.query_params.get("lang") != lang:
+    st.query_params["lang"] = lang
 if is_rtl(lang):
     st.markdown(rtl_css(), unsafe_allow_html=True)
+
+
+def _sync_lang_query_param() -> None:
+    """Selectbox ``on_change`` hook: mirror the new choice into the URL.
+
+    Streamlit has already written the picked value to ``st.session_state["lang"]``
+    by the time this fires, so copying it to the query param keeps the URL (the
+    durable store) in sync with the widget.
+    """
+    st.query_params["lang"] = st.session_state["lang"]
 
 HEADER_IMAGE_PATH = APP_DIR / "assets" / "electroplato.png"
 LOGO_IMAGE_PATHS = {
@@ -668,6 +690,7 @@ with st.sidebar:
         options=AVAILABLE_LANGS,
         format_func=lambda code: LANG_NAMES[code],
         key="lang",
+        on_change=_sync_lang_query_param,
     )
 
     st.header(t("sidebar_inputs", lang))
