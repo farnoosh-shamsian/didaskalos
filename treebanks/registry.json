@@ -9,6 +9,16 @@
       "language": "grc",
       "license": "CC BY-SA 3.0",
       "source_url": "https://github.com/PerseusDL/treebank_data"
+    },
+    {
+      "id": "gorman",
+      "name": "Gorman Ancient Greek Dependency Trees",
+      "path": "treebanks/gorman/",
+      "format": "agdt-xml",
+      "file_glob": "*.xml",
+      "language": "grc",
+      "license": "CC BY-NC-SA 4.0",
+      "source_url": "https://github.com/vgorman1/Greek-Dependency-Trees"
     }
   ]
 }

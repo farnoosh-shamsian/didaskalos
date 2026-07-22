@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import base64
-import hashlib
 import os
 import json
 import sys
@@ -41,6 +40,7 @@ from didaskalos_pipeline import (
     generate_textbook_markdown,
 )
 from i18n import AVAILABLE_LANGS, DEFAULT_LANG, LANG_NAMES, is_rtl, rtl_css, t
+from work_catalog import resolve_author_work, tlg_work_key
 
 
 APP_DIR = Path(__file__).resolve().parent
@@ -184,11 +184,11 @@ def _unique_name(name: str, used_names: set[str]) -> str:
     return candidate
 
 
-def _extract_xml_metadata(xml_bytes: bytes) -> tuple[str | None, str | None]:
+def _extract_xml_metadata(xml_bytes: bytes) -> tuple[str | None, str | None, str | None]:
     try:
         root = ET.fromstring(xml_bytes)
     except ET.ParseError:
-        return None, None
+        return None, None, None
 
     def _text_for(xpath: str) -> str | None:
         element = root.find(xpath)
@@ -199,31 +199,40 @@ def _extract_xml_metadata(xml_bytes: bytes) -> tuple[str | None, str | None]:
 
     title = _text_for(".//title")
     author = _text_for(".//author")
-    return title, author
+    sentence = root.find(".//sentence")
+    document_id = sentence.get("document_id") if sentence is not None else None
+    return title, author, document_id
 
 
-def _extract_xml_metadata_from_header(header_bytes: bytes) -> tuple[str | None, str | None]:
+def _extract_xml_metadata_from_header(header_bytes: bytes) -> tuple[str | None, str | None, str | None]:
     # A range read gives us a truncated (unclosed) document, so ET.fromstring
-    # would raise. Feed the partial bytes to a pull parser instead and read the
-    # end events for <title>/<author>; both close inside the header long before
-    # the body, so they are fully available even from a small leading slice.
-    parser = ET.XMLPullParser(events=("end",))
+    # would raise. Feed the partial bytes to a pull parser instead. <title> and
+    # <author> close inside the header (read on their end events); the first
+    # <sentence> start tag carries the CTS document_id (read on its start event)
+    # and always follows the header, so once we reach it any title/author is
+    # already captured and we can stop. Corpora with no <title>/<author> (Gorman)
+    # still yield the document_id this way.
+    parser = ET.XMLPullParser(events=("start", "end"))
     title: str | None = None
     author: str | None = None
+    document_id: str | None = None
     try:
         parser.feed(header_bytes)
-        for _event, element in parser.read_events():
+        for event, element in parser.read_events():
             tag = element.tag
             local_tag = tag.rsplit("}", 1)[-1] if isinstance(tag, str) else tag
+            if event == "start":
+                if local_tag == "sentence":
+                    document_id = element.get("document_id") or None
+                    break
+                continue
             if local_tag == "title" and title is None:
                 title = (" ".join(element.itertext()).strip()) or None
             elif local_tag == "author" and author is None:
                 author = (" ".join(element.itertext()).strip()) or None
-            if title is not None and author is not None:
-                break
     except ET.ParseError:
         pass
-    return title, author
+    return title, author, document_id
 
 
 def _parse_list_input(text: str) -> list[str]:
@@ -293,16 +302,16 @@ def _fetch_url_header_bytes(url: str, max_bytes: int = METADATA_HEADER_BYTES) ->
 
 
 @st.cache_data(show_spinner=False)
-def _fetch_xml_metadata(url: str) -> tuple[str | None, str | None]:
+def _fetch_xml_metadata(url: str) -> tuple[str | None, str | None, str | None]:
     return _extract_xml_metadata_from_header(_fetch_url_header_bytes(url))
 
 
-def _prefetch_xml_metadata(urls: list[str]) -> dict[str, tuple[str | None, str | None]]:
-    def fetch(url: str) -> tuple[str | None, str | None]:
+def _prefetch_xml_metadata(urls: list[str]) -> dict[str, tuple[str | None, str | None, str | None]]:
+    def fetch(url: str) -> tuple[str | None, str | None, str | None]:
         try:
             return _fetch_xml_metadata(url)
         except Exception:
-            return None, None
+            return None, None, None
 
     if not urls:
         return {}
@@ -339,8 +348,8 @@ def _download_url_records_to_dir(records: list[dict], suffix_dir_name: str) -> t
             failed_records.append(item)
             continue
         (target_dir / item["file"]).write_bytes(payload)
-        title, author = _extract_xml_metadata(payload)
-        enriched_records.append({**item, "title": title, "author": author})
+        title, author, document_id = _extract_xml_metadata(payload)
+        enriched_records.append({**item, "title": title, "author": author, "document_id": document_id})
 
     if not enriched_records:
         return None, []
@@ -453,13 +462,14 @@ def _build_records_from_urls(urls: list[str], extract_xml_metadata: bool = False
     for i, url in enumerate(urls, start=1):
         parsed = urlparse(url)
         file_name = Path(parsed.path).name or f"file_{i}"
-        title, author = metadata_by_url.get(url, (None, None))
+        title, author, document_id = metadata_by_url.get(url, (None, None, None))
         records.append(
             {
                 "file": _unique_name(file_name, used_names),
                 "source_url": url,
                 "title": title,
                 "author": author,
+                "document_id": document_id,
             }
         )
     return records
@@ -556,14 +566,16 @@ def _build_treebank_records(entries: list[dict]) -> list[dict]:
         url = entry["url"]
         parsed = urlparse(url)
         file_name = Path(parsed.path).name or f"file_{i}"
-        meta_title, meta_author = metadata_by_url.get(url, (None, None))
+        meta_title, meta_author, meta_document_id = metadata_by_url.get(url, (None, None, None))
         records.append(
             {
                 "file": _unique_name(file_name, used_names),
                 "source_url": url,
                 "title": meta_title or entry.get("corpus_name"),
                 "author": meta_author or entry.get("author"),
+                "document_id": meta_document_id,
                 "corpus": entry.get("corpus_id"),
+                "corpus_name": entry.get("corpus_name"),
                 "format": entry.get("format"),
                 "license": entry.get("license"),
             }
@@ -576,7 +588,9 @@ def _build_records_from_uploads(uploaded_files) -> list[dict]:
     records = []
     for i, uploaded_file in enumerate(uploaded_files or []):
         file_bytes = uploaded_file.getvalue()
-        title, author = _extract_xml_metadata(file_bytes) if uploaded_file.name.lower().endswith(".xml") else (None, None)
+        title, author, document_id = (
+            _extract_xml_metadata(file_bytes) if uploaded_file.name.lower().endswith(".xml") else (None, None, None)
+        )
         records.append(
             {
                 "file": _unique_name(uploaded_file.name, used_names),
@@ -584,8 +598,10 @@ def _build_records_from_uploads(uploaded_files) -> list[dict]:
                 "source_url": "uploaded",
                 "title": title,
                 "author": author,
+                "document_id": document_id,
                 # Format left None so the dispatcher auto-detects (.xml vs .conllu).
                 "corpus": None,
+                "corpus_name": None,
                 "format": None,
                 "license": None,
             }
@@ -608,9 +624,26 @@ def _build_treebank_display_table(records: list[dict]) -> pd.DataFrame:
     df = pd.DataFrame(records)
     if df.empty:
         return df
-    if "license" not in df.columns:
-        df["license"] = None
-    return df[["file", "title", "author", "license", "source_url"]]
+    # Resolve each file to a clean author/work label (curated catalog, falling
+    # back to a cleaned XML title). The raw TLG filename and source URL are kept
+    # off the table so the picker shows only human-readable names.
+    resolved = [
+        resolve_author_work(rec["file"], rec.get("author"), rec.get("title"), rec.get("document_id"))
+        for rec in records
+    ]
+    df["display_author"] = [author for author, _ in resolved]
+    df["display_work"] = [work for _, work in resolved]
+    # The work key groups every file of one work together, so a work split
+    # across many passage files (e.g. the Gorman texts) collapses into a single
+    # picker entry. Fall back to the file name so texts with no TLG id still
+    # form their own group.
+    df["work_key"] = [
+        tlg_work_key(rec["file"], rec.get("document_id")) or rec["file"]
+        for rec in records
+    ]
+    df["corpus_id"] = [rec.get("corpus") for rec in records]
+    df["corpus_name"] = [rec.get("corpus_name") for rec in records]
+    return df[["file", "display_author", "display_work", "work_key", "corpus_id", "corpus_name"]]
 
 
 # st.fragment (stable in 1.37, experimental in 1.33) lets the treebank grid rerun
@@ -622,63 +655,143 @@ if st_fragment is None:
         return func
 
 
+def _tb_checkbox_key(item_id: str) -> str:
+    return f"tb_cb_{item_id}"
+
+
+def _set_treebank_selection(item_ids: list[str], value: bool) -> None:
+    # Runs as a button ``on_click`` callback, i.e. before the checkboxes are
+    # re-instantiated on the ensuing rerun, so seeding each checkbox's session
+    # value here is allowed (mutating a widget's key after it exists is not).
+    for item_id in item_ids:
+        st.session_state[_tb_checkbox_key(item_id)] = value
+
+
+def _aggregate_works(available_treebanks: pd.DataFrame, lang: str) -> dict[str, dict]:
+    """Collapse the per-file table into one entry per whole work.
+
+    Files are keyed by (corpus, work_key) so a work split across many passage
+    files (the Gorman texts) becomes a single selectable entry that maps back to
+    all of its files. Returns ``item_id -> {author, work, corpus_id,
+    corpus_name, files}``.
+    """
+    items: dict[str, dict] = {}
+    for _, row in available_treebanks.iterrows():
+        corpus_id = row.get("corpus_id")
+        item_id = f"{corpus_id}|{row.get('work_key')}"
+        item = items.get(item_id)
+        if item is None:
+            raw_author = row.get("display_author")
+            author = str(raw_author).strip() if pd.notna(raw_author) else ""
+            corpus_name = row.get("corpus_name")
+            item = items[item_id] = {
+                "author": author or t("unknown_author", lang),
+                "work": str(row.get("display_work")),
+                "corpus_id": corpus_id,
+                "corpus_name": corpus_name if pd.notna(corpus_name) else None,
+                "files": [],
+            }
+        item["files"].append(row["file"])
+    return items
+
+
 @st_fragment
 def render_treebank_selector(available_treebanks: pd.DataFrame, lang: str) -> None:
-    # Isolated in a fragment so ticking a checkbox reruns only this grid, not the
-    # whole script (which would re-run the sidebar's metadata prefetch). The
-    # current selection is published to session state for the Build step to read.
+    # Isolated in a fragment so ticking a checkbox reruns only this block, not the
+    # whole script (which would re-run the sidebar's metadata prefetch). Files are
+    # aggregated into whole works, grouped by author into collapsible sections.
+    # Each checkbox is one work; ticking it selects ALL of that work's files. The
+    # union of the checked works' files is published to session state (still a
+    # flat list of ``file`` names) for the Build step to read.
     st.subheader(t("available_treebanks_header", lang))
+    st.caption(t("picker_hint", lang))
 
-    # Select all / Clear work by bumping the editor's widget key: st.data_editor
-    # edits persist per key and cannot be mutated after instantiation, so a fresh
-    # key drops stale edits and the base dataframe's "selected" default renders.
-    if "treebank_editor_version" not in st.session_state:
-        st.session_state["treebank_editor_version"] = 0
-    if "treebank_select_default" not in st.session_state:
-        st.session_state["treebank_select_default"] = False
+    items = _aggregate_works(available_treebanks, lang)
+    all_item_ids = list(items.keys())
 
+    # A work that appears in more than one corpus gets a corpus tag so the two
+    # copies are distinguishable and never silently double-counted.
+    corpora_per_work: dict[tuple, set] = {}
+    for it in items.values():
+        corpora_per_work.setdefault((it["author"], it["work"]), set()).add(it["corpus_id"])
+
+    def _work_label(it: dict) -> str:
+        if len(corpora_per_work[(it["author"], it["work"])]) > 1:
+            tag = (it["corpus_id"] or "").title() or it["corpus_name"]
+            if tag:
+                return f"{it['work']} — {tag}"
+        return it["work"]
+
+    # Group works under their author; texts with no known author fall into the
+    # "Unknown author" bucket.
+    groups: dict[str, list[str]] = {}
+    for item_id, it in items.items():
+        groups.setdefault(it["author"], []).append(item_id)
+
+    # Global select all / clear. Callbacks fire before widgets re-render.
     btn_all, btn_clear = st.columns(2)
-    if btn_all.button(t("select_all_button", lang), key="treebank_select_all_btn", use_container_width=True):
-        st.session_state["treebank_editor_version"] += 1
-        st.session_state["treebank_select_default"] = True
-    if btn_clear.button(t("clear_selection_button", lang), key="treebank_clear_btn", use_container_width=True):
-        st.session_state["treebank_editor_version"] += 1
-        st.session_state["treebank_select_default"] = False
-
-    editor_df = available_treebanks.copy()
-    editor_df.insert(0, "selected", st.session_state["treebank_select_default"])
-    editor_df["title"] = editor_df["title"].fillna(t("untitled", lang))
-    editor_df["author"] = editor_df["author"].fillna(t("unknown_author", lang))
-    if "license" in editor_df.columns:
-        editor_df["license"] = editor_df["license"].fillna("")
-
-    # Editor edits are stored by row position under the widget key; fingerprint
-    # the row set into the key so a changed URL/upload list can never re-apply
-    # stale checkmarks to shifted rows.
-    files_fingerprint = hashlib.md5("\n".join(editor_df["file"]).encode("utf-8")).hexdigest()[:8]
-    editor_key = f"treebank_editor_{st.session_state['treebank_editor_version']}_{files_fingerprint}"
-
-    edited_treebanks = st.data_editor(
-        editor_df,
-        key=editor_key,
-        hide_index=True,
+    btn_all.button(
+        t("select_all_button", lang),
+        key="tb_select_all_btn",
         use_container_width=True,
-        height=300,
-        num_rows="fixed",
-        disabled=["file", "title", "author", "license", "source_url"],
-        column_config={
-            "selected": st.column_config.CheckboxColumn(t("select_column_label", lang), default=False),
-            "file": st.column_config.TextColumn(t("treebank_col_file", lang)),
-            "title": st.column_config.TextColumn(t("treebank_col_title", lang)),
-            "author": st.column_config.TextColumn(t("treebank_col_author", lang)),
-            "license": st.column_config.TextColumn(t("treebank_col_license", lang)),
-            "source_url": st.column_config.TextColumn(t("treebank_col_source", lang)),
-        },
+        on_click=_set_treebank_selection,
+        args=(all_item_ids, True),
+    )
+    btn_clear.button(
+        t("clear_selection_button", lang),
+        key="tb_clear_btn",
+        use_container_width=True,
+        on_click=_set_treebank_selection,
+        args=(all_item_ids, False),
     )
 
-    st.session_state["selected_treebank_files"] = edited_treebanks.loc[
-        edited_treebanks["selected"].fillna(False), "file"
-    ].tolist()
+    for author in sorted(groups, key=str.casefold):
+        author_item_ids = sorted(groups[author], key=lambda iid: _work_label(items[iid]).casefold())
+        selected_here = sum(1 for iid in author_item_ids if st.session_state.get(_tb_checkbox_key(iid), False))
+
+        count_key = "author_group_count_one" if len(author_item_ids) == 1 else "author_group_count"
+        label = f"{author} — {t(count_key, lang, count=len(author_item_ids))}"
+        if selected_here:
+            label += f"  •  {t('author_selected_badge', lang, count=selected_here)}"
+
+        with st.expander(label, expanded=False):
+            st.button(
+                t("author_select_all", lang),
+                key=f"tb_author_all_{author}",
+                on_click=_set_treebank_selection,
+                args=(author_item_ids, True),
+            )
+            for iid in author_item_ids:
+                st.checkbox(_work_label(items[iid]), key=_tb_checkbox_key(iid))
+
+    selected_files: list[str] = []
+    for item_id, it in items.items():
+        if st.session_state.get(_tb_checkbox_key(item_id), False):
+            selected_files.extend(it["files"])
+    st.session_state["selected_treebank_files"] = selected_files
+
+
+def _render_sources_note(records: list[dict], lang: str) -> None:
+    # Attribution for the corpora on offer, moved out of the picker so the raw
+    # license/source-URL columns no longer clutter it. CC BY-SA requires the
+    # credit be shown, so keep it as a compact caption beneath the picker.
+    seen: set[tuple[str, str]] = set()
+    parts: list[str] = []
+    for rec in records:
+        name = (rec.get("corpus_name") or "").strip()
+        license_name = (rec.get("license") or "").strip()
+        if not name and not license_name:
+            continue
+        key = (name, license_name)
+        if key in seen:
+            continue
+        seen.add(key)
+        if name and license_name:
+            parts.append(f"{name} ({license_name})")
+        else:
+            parts.append(name or license_name)
+    if parts:
+        st.caption(t("sources_licenses_note", lang, sources="; ".join(parts)))
 
 
 with st.sidebar:
@@ -762,6 +875,7 @@ if available_treebanks.empty:
     st.stop()
 
 render_treebank_selector(available_treebanks, lang)
+_render_sources_note(treebank_records, lang)
 selected_treebank_files = st.session_state.get("selected_treebank_files", [])
 
 if available_lessons.empty:
