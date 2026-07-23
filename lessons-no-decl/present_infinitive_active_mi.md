@@ -3,82 +3,118 @@ topic: present, infinitive, active (μι)
 pos: verb
 ---
 
-# Lesson: The Present Active Infinitive in **‑μι**  
+# Lesson: The Present Active Infinitive of ‑μι Verbs
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisite knowledge: Greek alphabet, basic verb stems, present indicative endings*  
-
----
-
-## 1. What is the Present Active Infinitive?
-
-The **infinitive** is the “dictionary form” of a verb – a non‑finite verb that does not show person or number.  
-The **present active infinitive** expresses an action that is **simultaneous with, or ongoing at the same time as, the main verb** and it is **active** (the subject of the infinitive does the action).
-
-In Classical Attic Greek the ordinary present active infinitive ends in **‑ειν** (for contract verbs) or **‑ναι** (for thematic verbs).  
-
-**‑μι** is the **older, archaic ending** for the same grammatical function. It is found mainly in early Greek (Homeric, Ionic, and early Classical) and survives in a few later forms as a fossilised relic.
-
-> **Key idea:** *‑μι* = “to‑… (presently)”, just as *‑ειν* or *‑ναι* do today.
+*Level: beginner–intermediate*
+*Prerequisites: the Greek alphabet, basic verb stems, the present indicative endings*
 
 ---
 
-## 2. Forms and Patterns  
+## 1. What the Present Active Infinitive of ‑μι Verbs Is
 
-### 2.1. The Basic Construction  
+The **infinitive** is the non-finite form of the verb — it has no person or number. The **present active infinitive** expresses an action that is **simultaneous with, or in progress alongside, the main verb**, in the **active** voice (the subject of the infinitive performs the action itself).
 
-| Step | Description | Example (verb *φιλε‑* “to love”) |
-|------|-------------|-----------------------------------|
-| 1. Identify the **present stem** (the part that appears in the present indicative before the personal endings). | *φιλε‑* | *φιλε‑* |
-| 2. Add the **‑μι** ending directly to the stem. | *φιλε‑* + **‑μι** | **φιλεμι** |
-| 3. Adjust vowel length if the stem ends in a short vowel (see § 2.3). | – | – |
+‑ω verbs form the present active infinitive with **‑ειν** (λύειν). The **‑μι** verbs — the ancient, athematic group — form it with the ending **‑ναι**, which attaches directly to the **short** present stem (the same stem that appears in the plural forms):
 
-Thus the **present active infinitive** of *φιλε‑* in the archaic *‑μι* form is **φιλεμι** “to love”.  
-
-In later Greek the same verb uses the contracted infinitive **φιλεῖν**.
-
-### 2.2. Paradigm for a Regular Verb  
-
-Below is a full paradigm for a regular **‑μι**‑infinitive verb, using the verb **τιμάω** “to honor” (stem *τιμα‑*).  
-
-| Form | Ending | Full form | Gloss |
-|------|--------|-----------|-------|
-| **Present active infinitive** | **‑μι** | **τιμαμι** | “to honor” |
-| **Present middle/passive infinitive** (for completeness) | **‑σθαι** | **τιμασθαι** | “to be honored” |
-| **Aorist active infinitive** | **‑ναι** (thematic) | **τιμᾶν** | “to honor (once)” |
-| **Future active infinitive** | **‑σειν** | **τιμασειν** | “to be about to honor” |
-
-> **Note:** Only the **‑μι** form is the focus of this lesson; the other infinitives follow the regular patterns described elsewhere.
-
-### 2.3. Vowel‑Length Adjustments  
-
-When the present stem ends in a **short vowel** (α, ε, ο) the vowel often **lengthens** before *‑μι*:
-
-| Stem (short vowel) | Infinitive ‑μι | Reason |
-|--------------------|----------------|--------|
-| *διδά‑* “to teach” | **διδάμι** → **διδά̄μι** (spelled *διδά̄μι* or *διδάμι* with a long α) | The α lengthens to compensate for the loss of the original short vowel of the ending *‑μι*. |
-| *παιδε‑* “to educate” | **παιδε̄μι** | ε → η before *‑μι*. |
-
-In practice the lengthening is reflected in the spelling of the infinitive (e.g., *διδά̄μι*, *παιδε̄μι*).  
-
-### 2.4. Irregular Verbs  
-
-| Verb | Present stem | ‑μι infinitive | Remarks |
-|------|--------------|----------------|---------|
-| **εἰμί** “to be” | *εἰ‑* | **εἰν** (rare, poetic) | The regular *‑μι* ending is lost; the infinitive appears as *εἶναι* in Classical Greek. |
-| **ἔχω** “to have” | *εχ‑* | **εχμι** → **ἔχειν** (later) | Early forms like *εχμι* survive only in very early poetry. |
-| **ἔρχομαι** “to come” (middle) | *ερχ‑* | **ερχμι** (rare) | Middle‑voice infinitives normally end in *‑σθαι*; *‑μι* appears only in archaic texts. |
+> **δίδωμι "I give" → διδόναι "to give"**
+> **τίθημι "I place" → τιθέναι "to place"**
 
 ---
 
-## 3. Key Rules & Exceptions  
+## 2. Forms and Patterns
+
+### 2.1 Basic Formation
+
+| Step | Explanation | Example (δίδωμι) |
+|------|-------------|------------------|
+| 1. Find the **short present stem** (the stem of the plural forms: δίδο‑μεν). | διδο‑ | διδο‑ |
+| 2. Add the ending **‑ναι** directly to the stem. | διδο‑ + ναι | **διδόναι** |
+| 3. The accent falls on the syllable before ‑ναι. | — | διδόναι |
+
+### 2.2 Present Active Infinitives of the Main ‑μι Verbs
+
+| Verb | Meaning | Short present stem | Present active infinitive |
+|------|---------|--------------------|---------------------------|
+| **δίδωμι** | to give | διδο‑ | **διδόναι** |
+| **τίθημι** | to place | τιθε‑ | **τιθέναι** |
+| **ἵστημι** | to set up | ἱστα‑ | **ἱστάναι** |
+| **δείκνυμι** | to show | δεικνυ‑ | **δεικνύναι** |
+| **ἵημι** | to send | ἱε‑ | **ἱέναι** |
+| **εἰμί** | to be | ἐσ‑ | **εἶναι** |
+| **εἶμι** | to go | ἰ‑ | **ἰέναι** |
+| **φημί** | to say | φα‑ | **φάναι** |
+
+> **Note:** ἱέναι (from ἵημι "to send") and ἰέναι (from εἶμι "to go") are distinguished only by the initial breathing — rough in the first, smooth in the second. Do not confuse either with εἶναι "to be."
+
+### 2.3 Comparison with ‑ω Verbs
+
+| Verb type | Present indicative (1st sg.) | Present active infinitive |
+|-----------|------------------------------|---------------------------|
+| Regular ‑ω | λύω | λύειν |
+| Contract | ποιῶ | ποιεῖν |
+| **‑μι** | **δίδωμι** | **διδόναι** |
+
+---
+
+## 3. Key Rules & Exceptions
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **R1. Use the present stem** (the same stem that appears in the present indicative). | No thematic vowel is inserted. | *φιλε‑* → *φιλεμι* |
-| **R2. Attach **‑μι** directly**; no extra vowel is added. | The ending itself supplies the vowel. | *τιμα‑* → *τιμαμι* |
-| **R3. Lengthen a short vowel** at the end of the stem before *‑μι*. | Prevents a hiatus and reflects early phonology. | *διδά‑* → *διδά̄μι* |
-| **R4. Contracted verbs** (stems ending in a long vowel or diphthong) keep the long vowel and simply add *‑μι*. | *φιλε‑* (long ε) → *φιλεμι* (no change). |
-| **R5. The **‑μι** infinitive is **archaic**; in most later authors it is replaced by *‑ειν* (contract) or *‑ναι* (thematic). | Recognise the register: Homeric/Ionic vs. Classical/Attic. | Homer: *φιλεμι*; later: *φιλεῖν*. |
-| **E1. Some verbs have **no** ‑μι infinitive** (e.g., *εἰμί*). | They develop a different infinitive (*εἶναι*). | – |
-| **E2. Verbs of the **‑μι** conjugation** (e.g., *εἰμί*) use *‑μι* in the present
+| **1. The ending is ‑ναι, not ‑ειν** | The reliable mark of the ‑μι group in the infinitive. | διδόναι, τιθέναι |
+| **2. The short stem is used** | The stem of the indicative plural, not the long stem of the singular. | δίδωμι but διδόναι (not *διδωναι*) |
+| **3. Accent on the syllable before ‑ναι** | Unlike the recessive accent of the finite forms. | ἱστάναι, δεικνύναι |
+| **4. εἰμί has the infinitive εἶναι** | From the root ἐσ‑ (*ἐσ‑ναι → εἶναι). | βούλομαι σοφὸς εἶναι "I want to be wise" |
+| **5. Present reduplication is kept** | It distinguishes the present infinitive δι‑δό‑ναι from the aorist infinitive δοῦναι. | διδόναι (present) ≠ δοῦναι (aorist) |
+
+---
+
+## 4. Example Sentences
+
+| Greek | Translation |
+|-------|-------------|
+| βούλομαι **διδόναι** τὰ δῶρα. | "I want to give the gifts (continually)." |
+| δίκαιόν ἐστι **τιθέναι** νόμους καλούς. | "It is just to lay down good laws." |
+| δεῖ **ἱστάναι** τὸ τρόπαιον. | "The trophy must be set up." |
+| χαλεπόν ἐστι **δεικνύναι** τὴν ἀλήθειαν. | "It is hard to show the truth." |
+| φιλόσοφος βούλεται σοφὸς **εἶναι**. | "A philosopher wishes to be wise." |
+
+The infinitive can serve as **subject**, **object**, or **complement** — exactly as the infinitive of ‑ω verbs does.
+
+---
+
+## 5. Usage & Context
+
+1. **After verbs of wishing and being able** — βούλομαι, δύναμαι, ἐθέλω: δύναται διδόναι "he is able to give."
+2. **With impersonal verbs** — δεῖ and χρή "it is necessary": δεῖ τιθέναι "one must place."
+3. **Present aspect vs. aorist** — διδόναι = giving continuously or repeatedly; δοῦναι = giving once. The contrast is one of aspect, not of time.
+4. **Articular infinitive** — τὸ διδόναι "giving, the act of giving": a full verbal noun.
+5. **εἶναι is everywhere** — the commonest Greek infinitive, constantly found in predicate statements and in indirect discourse.
+
+---
+
+## 6. Historical Development & Etymology
+
+| Aspect | Detail |
+|--------|--------|
+| **Origin of ‑ναι** | The ending ‑ναι continues an Indo-European verbal noun and belongs to the athematic layer of the verbal system. |
+| **εἶναι** | From *ἐσ‑ναι, with loss of σ and compensatory lengthening; cognate with Sanskrit *ásti* and Latin *esse*. |
+| **Gradual erosion** | Along with the whole ‑μι system, the ‑ναι infinitives gave way to thematic forms in later Greek. |
+
+---
+
+## 7. Quick Review Table
+
+| Verb | Present active infinitive | Meaning |
+|------|---------------------------|---------|
+| δίδωμι | **διδόναι** | to give |
+| τίθημι | **τιθέναι** | to place |
+| ἵστημι | **ἱστάναι** | to set up |
+| δείκνυμι | **δεικνύναι** | to show |
+| εἰμί | **εἶναι** | to be |
+| φημί | **φάναι** | to say |
+
+Remember: **short stem + ‑ναι, with the accent on the syllable before the ending.**
+
+---
+
+*End of Lesson*

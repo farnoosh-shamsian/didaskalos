@@ -1,81 +1,117 @@
-## Introduction to the Nominative and Vocative Cases
+## The Vocative Case
 
-The nominative is the “subject” form of a noun, while the vocative is the form used when the noun is being called or addressed directly. Across the three regular declensions the two cases are built from the same lexical stem; the difference lies in the case‑ending that is attached.
+The **vocative** is the case of **direct address** — the form a noun takes when someone or something is being called, summoned, or spoken to. It is the one case that stands outside the grammar of the sentence: it is governed by no verb and no preposition, and it can be removed without leaving a gap.
+
+> **ὦ Σώκρατες, τί λέγεις;** — "Socrates, what are you saying?"
+
+Its morphology is economical. In the great majority of nouns the vocative is simply **identical to the nominative**; only a limited set of patterns has a distinct form of its own.
 
 ---
 
-### 1 st Declension (‑ᾱ/‑ᾰ/‑η stems)
+### 1st Declension (‑ᾱ/‑ᾰ/‑η stems)
 
-| Gender              | Stem + Nominative ending | Stem + Vocative ending   | Example (Nom.) | Example (Voc.) |
-| ------------------- | ------------------------ | ------------------------ | -------------- | -------------- |
-| Feminine singular   | ‑ᾱ / ‑ᾰ / ‑η             | ‑ᾱ / ‑ᾰ / ‑η (no change) | ἡ φίλη         | ὦ φίλη         |
-| Masculine singular  | ‑ᾱς / ‑ης                | ‑ᾱ / ‑η (‑ς is dropped)  | ὁ δίκαιος      | ὦ δίκαιε       |
-| Feminine plural     | ‑αι                      | ‑αι (identical)          | αἱ φίλαι       | ὦ φίλαι        |
-| Masculine plural    | ‑αι                      | ‑αι (identical)          | οἱ δίκαιοι     | ὦ δίκαιοι      |
-| Dual (both genders) | ‑ε                       | ‑ε (identical)           | ὁ φίλ‑ε        | ὦ φίλ‑ε        |
+| Gender | Nominative | Vocative | Note |
+| --- | --- | --- | --- |
+| Feminine singular | ἡ φίλη | ὦ φίλη | identical |
+| Feminine singular | ἡ χώρα | ὦ χώρα | identical |
+| Masculine singular (‑ης) | ὁ πολίτης | ὦ πολῖτα | ‑ς dropped, final vowel shortened |
+| Masculine singular (‑ᾱς) | ὁ νεανίας | ὦ νεανία | ‑ς dropped |
+| Plural (all genders) | αἱ φίλαι, οἱ πολῖται | ὦ φίλαι, ὦ πολῖται | identical |
+| Dual | τὼ φίλᾱ | ὦ φίλᾱ | identical |
 
 _Key points_
 
-- Masculine singular nouns end in **‑ς** in the nominative; the vocative drops that **‑ς**.
-- Feminine nouns keep the same ending in both cases.
-- In the plural the vocative is the same as the nominative (**‑αι**).
-- The dual uses a single **‑ε** ending for both cases; the stem may be shortened in the vocative.
+- **Feminine nouns never change**: the vocative is the nominative.
+- **Masculine singulars drop the ‑ς.** In ‑της nouns the vowel also shortens: πολίτης → πολῖτα.
+- A few common ‑της nouns take a **recessive accent** in the vocative: δεσπότης → ὦ **δέσποτα** "master."
 
 ---
 
-### 2 nd Declension (‑ο‑ stems)
+### 2nd Declension (‑ο stems)
 
-| Gender             | Stem + Nominative ending | Stem + Vocative ending | Example (Nom.) | Example (Voc.) |
-| ------------------ | ------------------------ | ---------------------- | -------------- | -------------- |
-| Masculine singular | ‑ος                      | ‑ε (‑ς lost)           | ὁ ἄνθρωπος     | ὦ ἄνθρωπε      |
-| Neuter singular    | ‑ον                      | ‑ον (unchanged)        | τὸ δῶρον       | τὸ δῶρον       |
-| Masculine plural   | ‑οι                      | ‑οι (identical)        | οἱ ἄνθρωποι    | ὦ ἄνθρωποι     |
-| Neuter plural      | ‑α                       | ‑α (identical)         | τὰ δῶρα        | ὦ δῶρα         |
+| Gender | Nominative | Vocative | Note |
+| --- | --- | --- | --- |
+| Masculine singular | ὁ ἄνθρωπος | ὦ ἄνθρωπε | ‑ος → ‑ε |
+| Masculine singular | ὁ φίλος | ὦ φίλε | ‑ος → ‑ε |
+| Neuter singular | τὸ δῶρον | ὦ δῶρον | identical |
+| Masculine plural | οἱ ἄνθρωποι | ὦ ἄνθρωποι | identical |
+| Neuter plural | τὰ δῶρα | ὦ δῶρα | identical |
 
 _Key points_
 
-- Masculine singular ends in **‑ος**; the vocative replaces **‑ς** with **‑ε**.
-- Neuter nouns keep the same form in both cases.
-- The plural vocative matches the nominative plural (**‑οι** for masc., **‑α** for neut.).
+- The masculine/feminine singular is the one really distinctive vocative in this declension: **‑ος → ‑ε**.
+- **Neuters never change**, in either number.
+- Two irregulars worth memorising: **θεός** keeps the nominative form (ὦ θεός), and **ἀδελφός** "brother" has the vocative ὦ **ἄδελφε**, with the accent thrown back.
 
 ---
 
-### 3 rd Declension (consonant‑stem nouns)
+### 3rd Declension (consonant and vowel stems)
 
-The third declension includes many stems that end in a consonant, often with a final **‑ν**. The pattern is simple: the vocative takes the same ending as the nominative; no extra ending is added.
+For most third-declension nouns the vocative is the same as the nominative. The exceptions form the bare stem, almost always with a **recessive accent**.
 
-| Number   | Nominative ending       | Vocative ending             | Example (Nom.) | Example (Voc.) |
-| -------- | ----------------------- | --------------------------- | -------------- | -------------- |
-| Singular | ‑ς, ‑ν, ‑α, …           | identical (no extra ending) | μέλᾱς          | μέλᾱς          |
-| Dual     | ‑ε                      | ‑ε (identical)              | μέλαν‑ε        | μέλαν‑ε        |
-| Plural   | various (‑α, ‑ε, ‑α, …) | same as nominative          | μέλαν‑α        | μέλαν‑α        |
+| Nominative | Vocative | Type |
+| --- | --- | --- |
+| ὁ φύλαξ "guard" | ὦ φύλαξ | identical (sigma-stem) |
+| τὸ σῶμα "body" | ὦ σῶμα | identical (neuter) |
+| ὁ πατήρ "father" | ὦ πάτερ | bare stem, recessive accent |
+| ὁ ἀνήρ "man" | ὦ ἄνερ | bare stem, recessive accent |
+| ἡ γυνή "woman" | ὦ γύναι | irregular |
+| ὁ/ἡ παῖς "child" | ὦ παῖ | bare stem |
+| ὁ δαίμων "spirit" | ὦ δαῖμον | bare stem, recessive accent |
+| ὁ ῥήτωρ "orator" | ὦ ῥῆτορ | bare stem, recessive accent |
+| ὁ Σωκράτης | ὦ Σώκρατες | ‑ης names in ‑ες, recessive accent |
+| ἡ πόλις "city" | ὦ πόλι | ι‑stem |
+| ὁ βασιλεύς "king" | ὦ βασιλεῦ | ευ‑stem |
+| Plural (all) | ὦ φύλακες, ὦ πατέρες | identical to nominative |
 
 _Key points_
 
-- For most third‑declension nouns the vocative is **identical** to the nominative.
-- When a dual form exists, the **‑ε** ending is used for both cases.
-- A frequent phonological process is **stem shortening** in the vocative (and sometimes in the plural); the written ending stays the same, but the vowel or consonant of the stem may be reduced.
+- The **plural vocative is always identical to the nominative plural**, in every declension.
+- Where a distinct singular exists, it is the **bare stem**: πάτερ, δαῖμον, ῥῆτορ.
+- Proper names in ‑ης (Σωκράτης, Δημοσθένης) take ‑ες: ὦ Σώκρατες, ὦ Δημόσθενες.
 
 ---
 
-### General Morphological Rules
+### The Particle ὦ
 
-1. **Stem + Case‑ending** – All three declensions start with the lexical stem; the appropriate case‑ending is then attached.
-2. **Vocative‑specific reduction** – In masculine singular of the first and second declensions the final **‑ς** of the nominative is omitted in the vocative. Feminine and neuter nouns retain the same ending.
-3. **Plural identity** – In the first and second declensions the vocative plural is the same as the nominative plural; the third declension shows the same identity for most nouns.
-4. **Dual forms** – The dual uses a single **‑ε** ending for both nominative and vocative across all genders; the stem may be shortened in the vocative.
-5. **Accent** – When a vocative is enclitic (a one‑syllable form attached to the preceding word), the enclitic itself carries no accent; the preceding word may receive an extra acute on its ultima, but this does not alter the morphological shape of the vocative ending.
+Attic Greek normally prefixes the particle **ὦ** to a vocative. It is far weaker than English "O" — in Plato it is simply the ordinary, polite way to address someone, and it is best left untranslated:
+
+- **ὦ Σώκρατες** — "Socrates," not "O Socrates!"
+- **ὦ ἄνδρες Ἀθηναῖοι** — "Men of Athens" (the standard opening of an Athenian speech).
+
+Omitting ὦ makes the address more abrupt or more urgent; adding it is the unmarked, neutral choice.
+
+---
+
+### General Rules
+
+1. **Default identity** — unless a specific rule applies, the vocative is the same as the nominative. This is true of all neuters, all plurals, all duals, and most third-declension nouns.
+2. **Distinct singulars** — a separate vocative exists chiefly in the 1st-declension masculine (‑ς dropped), the 2nd-declension masculine (‑ος → ‑ε), and third-declension nouns forming the bare stem.
+3. **Accent** — the vocative frequently draws its accent back toward the beginning of the word: πατήρ → πάτερ, Σωκράτης → Σώκρατες, δεσπότης → δέσποτα. The accent shift does not change the ending.
+4. **Syntactic independence** — the vocative is not the subject of the verb and takes no article. Compare ὁ ἄνθρωπος λέγει "the man speaks" (nominative, subject) with ὦ ἄνθρωπε, λέγε "man, speak!" (vocative, address).
+5. **Nominative for address** — Greek sometimes uses a nominative with the article instead of a vocative, especially in brusque or colloquial commands: ὁ παῖς, ἀκολούθει "boy, follow!"
 
 ---
 
 ### Summary of Endings
 
-| Declension | Gender | Nom. Sing.             | Voc. Sing.              | Nom./Voc. Plural                             |
-| ---------- | ------ | ---------------------- | ----------------------- | -------------------------------------------- |
-| 1st        | Fem.   | ‑ᾱ / ‑ᾰ / ‑η           | same                    | ‑αι                                          |
-| 1st        | Masc.  | ‑ᾱς / ‑ης              | ‑ᾱ / ‑η (‑ς dropped)    | ‑αι                                          |
-| 2nd        | Masc.  | ‑ος                    | ‑ε (‑ς dropped)         | ‑οι                                          |
-| 2nd        | Neut.  | ‑ον                    | ‑ον (unchanged)         | ‑α                                           |
-| 3rd        | All    | varies (‑ς, ‑ν, ‑α, …) | identical to nominative | identical to nominative (except dual **‑ε**) |
+| Declension | Gender | Nom. sing. | Voc. sing. | Voc. plural |
+| --- | --- | --- | --- | --- |
+| 1st | Fem. | ‑ᾱ / ‑ᾰ / ‑η | same as nominative | ‑αι |
+| 1st | Masc. | ‑ᾱς / ‑ης | ‑ᾱ / ‑ᾰ (‑ς dropped) | ‑αι |
+| 2nd | Masc. | ‑ος | **‑ε** | ‑οι |
+| 2nd | Neut. | ‑ον | same as nominative | ‑α |
+| 3rd | Most nouns | ‑ς, ‑ν, ‑ρ, … | same as nominative | ‑ες (neut. ‑α) |
+| 3rd | Bare-stem type | πατήρ, δαίμων | πάτερ, δαῖμον | ‑ες |
 
-These patterns give a complete picture of how the nominative and vocative forms are built across the major Greek declensions, illustrating the systematic way in which endings are added to stems and where reductions occur.
+The vocative is thus the least burdensome case to learn: recognise the handful of distinct singular patterns, remember that the plural never differs from the nominative, and watch for the accent pulling back toward the front of the word.
+
+### Example Sentences
+
+| Greek | English |
+| --- | --- |
+| **ὦ Σώκρατες, τί λέγεις;** | Socrates, what are you saying? |
+| **ὦ ἄνδρες Ἀθηναῖοι, ἀκούετέ μου.** | Men of Athens, listen to me. |
+| **ὦ πάτερ, ἐλθὲ πρὸς ἡμᾶς.** | Father, come to us. |
+| **ὦ παῖ, φέρε τὸ βιβλίον.** | Child, bring the book. |
+| **ὦ φίλε, χαῖρε.** | Friend, greetings. |

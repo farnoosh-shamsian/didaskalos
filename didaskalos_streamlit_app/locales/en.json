@@ -30,7 +30,7 @@
   "treebank_col_source": "Source URL",
   "untitled": "Untitled",
   "unknown_author": "Unknown author",
-  "picker_hint": "Choose the texts to include. Expand an author to pick individual works.",
+  "picker_hint": "Choose the texts to include in the textbook.",
   "author_group_count": "{count} works",
   "author_group_count_one": "{count} work",
   "author_selected_badge": "{count} selected",

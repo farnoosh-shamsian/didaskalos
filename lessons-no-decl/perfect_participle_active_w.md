@@ -3,67 +3,56 @@ topic: perfect, participle, active (ω)
 pos: verb
 ---
 
-# Lesson: The Perfect Active Participle – Adjectival Form **‑ω**
+# Lesson: The Perfect Active Participle (‑ώς, ‑υῖα, ‑ός)
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic verb stems, the concept of a participle.*
-
----
-
-## 1. What is the Perfect Active Participle ‑ω?
-
-In Ancient Greek the **perfect** expresses a completed action whose result still holds in the present.  
-When this perfect idea is turned into a **participle**, it can be used in two ways:
-
-| Form | Typical ending (masc. nom. sg.) | Main use |
-|------|--------------------------------|----------|
-| **‑ώς** | ‑ **ώς** | Verbal participle – can be used adverbially (e.g., “having done …”). |
-| **‑ω** | ‑ **ω** | **Adjectival** participle – behaves like a regular adjective and is most often used predicatively with *εἰμί* (“to be”). |
-
-This lesson focuses on the **‑ω** form, the *adjectival* perfect active participle.
-
-### Why does it matter?
-
-- It lets you describe a **state that results from a completed action** (e.g., “the door is opened” → *τὴν θύραν ἀνεῳγώ* “the door is opened”).  
-- It functions like any other adjective: it can agree in gender, number, and case with the noun it modifies.
+*Level: beginner–intermediate*
+*Prerequisites: the Greek alphabet, basic verb stems, the notion of the participle.*
 
 ---
 
-## 2. Formation & Full Paradigm
+## 1. What the Perfect Active Participle Is
 
-### 2.1. Building the Stem
+The **perfect** expresses a completed action whose result still holds. Its participle carries that meaning in adjectival form: "someone/something that has done a thing **and is in the resulting state**."
 
-1. **Find the perfect stem** of the verb.  
-   - For regular verbs the perfect stem is the **aorist stem + the augment** *ε‑* (or *η‑* for some verbs) plus the perfect suffix **‑κ‑**.  
-   - Example: λύω → perfect stem **λελυκ‑** (from *λελυ‑*).
+The nominative singular endings:
 
-2. **Add the participial suffix** **‑ω** (adjectival) or **‑ώς** (verbal).  
+| Gender | Ending | Example (λύω → stem λελυκ‑) |
+|--------|--------|------------------------------|
+| Masculine | **‑ώς** | **λελυκώς** "having loosed (and it stands loosed)" |
+| Feminine | **‑υῖα** | **λελυκυῖα** |
+| Neuter | **‑ός** | **λελυκός** |
 
-   - **Adjectival:** perfect stem + **‑ω** → *λελυκ‑ω* → **λέλυκώ** “having loosed / loosed”.  
-   - **Verbal:** perfect stem + **‑ώς** → *λελυκ‑ώς* → **λέλυκός** (masc. nom. sg.).
+### Why it matters
 
-### 2.2. Declension Pattern
+- It compresses **the state resulting from an action**: τεθνηκώς "dead (and now dead)."
+- Like any adjective it agrees with its noun in gender, number, and case.
+- With εἰμί it forms a periphrastic construction: λελυκὼς εἰμί ≈ λέλυκα.
 
-The **‑ω** participle declines exactly like a **first‑/second‑declension adjective** (the “‑ος/‑η/‑ον” pattern).  
-Below is the complete paradigm for the masculine/feminine/neuter of **λέλυκώ** (from *λύω* “to loose”).  
-Replace the stem **λέλυκ‑** with any other perfect stem (e.g., *πεπτωκ‑* → *πεπτωκώ* “having fallen”).
+---
+
+## 2. Formation and Full Declension
+
+### 2.1 Building the Stem
+
+1. Take the **perfect stem** from the fourth principal part: λέλυκα → **λελυκ‑**; γέγονα → **γεγον‑**.
+2. Add the endings **‑ώς / ‑υῖα / ‑ός**. In the oblique cases of the masculine/neuter the stem **‑ότ‑** appears: λελυκότος.
+
+### 2.2 Full Declension of **λελυκώς**
 
 | Case | Masculine | Feminine | Neuter |
 |------|-----------|----------|--------|
 | **Singular** | | | |
-| Nominative | λέλυκ**ω** | λέλυκ**η** | λέλυκ**ον** |
-| Genitive | λέλυκ**ου** | λέλυκ**ης** | λέλυκ**ου** |
-| Dative | λέλυκ**ῳ** | λέλυκ**ῃ** | λέλυκ**ῳ** |
-| Accusative | λέλυκ**ον** | λέλυκ**ην** | λέλυκ**ον** |
-| Vocative | λέλυκ**ω** | λέλυκ**η** | λέλυκ**ον** |
+| Nominative | λελυκώς | λελυκυῖα | λελυκός |
+| Genitive | λελυκότος | λελυκυίας | λελυκότος |
+| Dative | λελυκότι | λελυκυίᾳ | λελυκότι |
+| Accusative | λελυκότα | λελυκυῖαν | λελυκός |
 | **Plural** | | | |
-| Nominative | λέλυκ**οι** | λέλυκ**α** | λέλυκ**α** |
-| Genitive | λέλυκ**ων** | λέλυκ**ων** | λέλυκ**ων** |
-| Dative | λέλυκ**οις** | λέλυκ**αις** | λέλυκ**οις** |
-| Accusative | λέλυκ**ους** | λέλυκ**ας** | λέλυκ**α** |
-| Vocative | λέλυκ**οι** | λέλυκ**α** | λέλυκ**α** |
+| Nominative | λελυκότες | λελυκυῖαι | λελυκότα |
+| Genitive | λελυκότων | λελυκυιῶν | λελυκότων |
+| Dative | λελυκόσι(ν) | λελυκυίαις | λελυκόσι(ν) |
+| Accusative | λελυκότας | λελυκυίας | λελυκότα |
 
-> **Tip:** The neuter forms are identical in the singular and plural (‑ον / ‑α), just like regular neuter adjectives.
+> **Pattern:** masculine and neuter follow the third declension (‑οτ‑ stem), the feminine the first. Change the stem and this same table serves for any verb: πεπαιδευκώς, γεγραφώς, πεπτωκώς "fallen."
 
 ---
 
@@ -71,19 +60,35 @@ Replace the stem **λέλυκ‑** with any other perfect stem (e.g., *πεπτ
 
 | Rule | Explanation |
 |------|-------------|
-| **3.1. Use with *εἰμί*** | The adjectival perfect active participle is most often paired with *εἰμί* to express a state: <br>  *λέλυκώ εἰμι* “I have loosed / I am loosed”. |
-| **3.2. Agreement** | The participle must **agree** with the noun it modifies in gender, number, and case. |
-| **3.3. Position** | It can appear **attributively** (before or after the noun) or **predicatively** (after *εἰμί*). |
-| **3.4. Not adverbial** | Unlike the ‑ώς form, the ‑ω participle **cannot** be used adverbially (e.g., you cannot say *λέλυκώ* “having loosed, …”). Use ‑ώς for that purpose. |
-| **3.5. Limited to the perfect** | The ‑ω form exists **only** for the perfect active; there is no ‑ω form for the aorist, future, or imperfect. |
-| **3.6. Rare in early Greek** | In Homeric and Classical Attic prose the ‑ω form is **scarce**; it becomes common in Hellenistic and later Greek. |
-| **3.7. Irregular stems** | Some verbs have irregular perfect stems (e.g., *γίγνομαι* → *γέγονα* → perfect stem **γεγον‑**, participle **γεγώ**). Apply the same pattern, but watch for vowel changes. |
-| **3.8. Double‑consonant stems** | If the perfect stem ends in a double consonant, the ‑ω form may show contraction: e.g., *πράττω* → perfect *πέπραγ‑* → participle *πρᾶγ‑ω* → **πρᾶγων** (rare). |
+| **1. Reduplication is retained** | The perfect participle always keeps the reduplication: **λε**λυκώς, **γε**γραφώς. |
+| **2. Accent on the ending** | ‑ώς and ‑ός are always accented: a quick mark of recognition. |
+| **3. Feminine in ‑υῖα** | Not ‑ουσα (which belongs to the present and the second aorist): λελυκυῖα. |
+| **4. Periphrasis with εἰμί** | λελυκότες εἰσί "they have loosed"; in the perfect subjunctive and optative this construction is the standard one: λελυκὼς ᾖ. |
+| **5. Meaning of present state** | Translate with "having …" or with a state adjective: τεθνηκώς "dead," ἑστηκώς "standing." |
+| **6. Do not confuse with the aorist participle** | λύσας "having loosed (once)" but λελυκώς "having loosed and remaining in that state." |
 
 ---
 
 ## 4. Example Sentences
 
-| Greek (with gloss) | Translation |
-|--------------------|-------------|
-| **1.** Ἡ θύρα **ἀνεῳγώ** ἐστίν. | “The door is opened.” (
+| Greek | Translation |
+|-------|-------------|
+| **ὁ λελυκὼς τὸν ἵππον ἀπῆλθεν.** | The man who had loosed the horse went away. |
+| **εὗρον τὴν θύραν κεκλεισμένην, τὸν δὲ φύλακα τεθνηκότα.** | They found the door shut and the guard dead. |
+| **οἱ πεπαιδευκότες τοὺς παῖδας τιμῶνται.** | Those who have educated the children are honoured. |
+| **γεγραφὼς τὴν ἐπιστολήν, ἀνεπαύσατο.** | Having written the letter, he rested. |
+
+---
+
+## 5. Usage & Context
+
+1. **Resulting state** — describing someone or something in the condition produced by the action: τεθνηκώς, πεπτωκώς.
+2. **Substitute for a relative clause** — ὁ γεγραφώς "the one who has written."
+3. **Periphrastic construction** — with εἰμί in those moods where a simple perfect is lacking.
+4. **Anteriority with emphasis on the result** — where the aorist merely states priority, the perfect also states the standing outcome.
+
+---
+
+## 6. Historical Note
+
+The suffix of the perfect active participle (Indo-European *‑wos‑/‑us‑) gave Greek ‑ώς/‑ότος with the feminine ‑υῖα — the same suffix seen in Sanskrit (‑vāṃs‑). The ς/τ alternation in the declension (λελυκώς/λελυκότος) is a relic of that ancient layer. As the perfect declined in later Greek these participles too gave way to other constructions, but in classical texts they are everywhere.

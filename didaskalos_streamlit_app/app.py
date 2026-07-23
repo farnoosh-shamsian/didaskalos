@@ -699,34 +699,21 @@ def _aggregate_works(available_treebanks: pd.DataFrame, lang: str) -> dict[str, 
 def render_treebank_selector(available_treebanks: pd.DataFrame, lang: str) -> None:
     # Isolated in a fragment so ticking a checkbox reruns only this block, not the
     # whole script (which would re-run the sidebar's metadata prefetch). Files are
-    # aggregated into whole works, grouped by author into collapsible sections.
-    # Each checkbox is one work; ticking it selects ALL of that work's files. The
-    # union of the checked works' files is published to session state (still a
-    # flat list of ``file`` names) for the Build step to read.
+    # aggregated into whole works and listed flat, one checkbox per work labelled
+    # "Author — Work": most authors have a single work, so a collapsible section
+    # per author hid the titles behind an extra click for no benefit. Ticking a
+    # work selects ALL of its files; the union is published to session state
+    # (still a flat list of ``file`` names) for the Build step to read.
     st.subheader(t("available_treebanks_header", lang))
     st.caption(t("picker_hint", lang))
 
     items = _aggregate_works(available_treebanks, lang)
-    all_item_ids = list(items.keys())
-
-    # A work that appears in more than one corpus gets a corpus tag so the two
-    # copies are distinguishable and never silently double-counted.
-    corpora_per_work: dict[tuple, set] = {}
-    for it in items.values():
-        corpora_per_work.setdefault((it["author"], it["work"]), set()).add(it["corpus_id"])
-
-    def _work_label(it: dict) -> str:
-        if len(corpora_per_work[(it["author"], it["work"])]) > 1:
-            tag = (it["corpus_id"] or "").title() or it["corpus_name"]
-            if tag:
-                return f"{it['work']} — {tag}"
-        return it["work"]
-
-    # Group works under their author; texts with no known author fall into the
-    # "Unknown author" bucket.
-    groups: dict[str, list[str]] = {}
-    for item_id, it in items.items():
-        groups.setdefault(it["author"], []).append(item_id)
+    # Author first, then work, so an author's works sit together in the list.
+    ordered = sorted(
+        items.items(),
+        key=lambda kv: (kv[1]["author"].casefold(), kv[1]["work"].casefold()),
+    )
+    all_item_ids = [item_id for item_id, _ in ordered]
 
     # Global select all / clear. Callbacks fire before widgets re-render.
     btn_all, btn_clear = st.columns(2)
@@ -745,24 +732,8 @@ def render_treebank_selector(available_treebanks: pd.DataFrame, lang: str) -> No
         args=(all_item_ids, False),
     )
 
-    for author in sorted(groups, key=str.casefold):
-        author_item_ids = sorted(groups[author], key=lambda iid: _work_label(items[iid]).casefold())
-        selected_here = sum(1 for iid in author_item_ids if st.session_state.get(_tb_checkbox_key(iid), False))
-
-        count_key = "author_group_count_one" if len(author_item_ids) == 1 else "author_group_count"
-        label = f"{author} — {t(count_key, lang, count=len(author_item_ids))}"
-        if selected_here:
-            label += f"  •  {t('author_selected_badge', lang, count=selected_here)}"
-
-        with st.expander(label, expanded=False):
-            st.button(
-                t("author_select_all", lang),
-                key=f"tb_author_all_{author}",
-                on_click=_set_treebank_selection,
-                args=(author_item_ids, True),
-            )
-            for iid in author_item_ids:
-                st.checkbox(_work_label(items[iid]), key=_tb_checkbox_key(iid))
+    for item_id, it in ordered:
+        st.checkbox(f"{it['author']} — {it['work']}", key=_tb_checkbox_key(item_id))
 
     selected_files: list[str] = []
     for item_id, it in items.items():

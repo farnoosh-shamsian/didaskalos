@@ -3,156 +3,155 @@ topic: present, participle, active (ω)
 pos: verb
 ---
 
-# Lesson: The Present Active Participle (‑ω)  
+# Lesson: The Present Active Participle (‑ω Verbs)
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic noun declension, present‑tense verb endings*  
-
----
-
-## 1. What is the Present Active Participle?
-
-The **present active participle** is a verbal adjective that expresses an **ongoing, simultaneous action** performed by the subject of the verb.  
-- It is **active** (the subject does the action).  
-- It is **present** (the action is happening at the same time as the main verb).  
-
-In English it is often rendered with **‑ing** clauses or adjectives:
-
-| Greek | English gloss |
-|-------|---------------|
-| γράφων | “writing” (while writing) |
-| ἀκούων | “hearing” (as he hears) |
-| λυουσά | “the one who is loosening” |
-
-The participle **declines** like a regular adjective: it has gender, number, and case, and must agree with the noun it modifies.
+*Level: beginner–intermediate*
+*Prerequisites: the Greek alphabet, basic noun declension, the present-tense endings*
 
 ---
 
-## 2. Forming the Present Active Participle  
+## 1. What the Present Active Participle Is
 
-### 2.1. The Stem
+The **present active participle** is a verbal adjective expressing an action **in progress and simultaneous**, performed by the subject.
 
-1. **Take the present‑tense stem** of the verb (the part that appears before the personal endings ‑ω, ‑εις, ‑ει, …).  
-2. **Add the participial suffix** **‑ων‑** (masc./neut.) or **‑ουσα‑** (fem.).  
+- It is **active** (the subject performs the action).
+- It is **present** (the action runs alongside the main verb).
 
-The basic pattern is:
+In English it is usually rendered by an "‑ing" form or a "while …" clause:
 
-| Gender/Number | Suffix | Example (λύω “to loose”) |
+| Greek | Rendering |
+|-------|-----------|
+| γράφων | "writing, the one who is writing" |
+| ἀκούων | "hearing, the one who is listening" |
+| λύουσα | "(a woman) who is loosing" |
+
+The participle **is declined** like an adjective: it has gender, number, and case, and must agree with the noun it qualifies.
+
+---
+
+## 2. Forming the Present Active Participle
+
+### 2.1 The Stem
+
+1. Take the **present stem** of the verb (the part before the endings ‑ω, ‑εις, ‑ει…).
+2. Add the **participial suffix**: **‑ων** (masculine), **‑ουσα** (feminine), **‑ον** (neuter).
+
+The basic pattern:
+
+| Gender/Number | Suffix | Example (λύω "to loose") |
 |---------------|--------|--------------------------|
-| Masculine Singular Nominative | ‑ων | λύων |
-| Feminine Singular Nominative | ‑ουσα | λύουσα |
-| Neuter Singular Nominative/Accusative | ‑ον | λύον |
-| Masculine Plural Nominative | ‑οντες | λύοντες |
-| Feminine Plural Nominative | ‑ουσαι | λύουσαι |
-| Neuter Plural Nominative/Accusative | ‑οντα | λύοντα |
+| Masc. nom. sg. | ‑ων | λύων |
+| Fem. nom. sg. | ‑ουσα | λύουσα |
+| Neut. nom./acc. sg. | ‑ον | λῦον |
+| Masc. nom. pl. | ‑οντες | λύοντες |
+| Fem. nom. pl. | ‑ουσαι | λύουσαι |
+| Neut. nom./acc. pl. | ‑οντα | λύοντα |
 
-From this stem the full **adjective paradigm** is built by adding the regular case endings of a first‑/second‑declension adjective.
+**The masculine and neuter follow the third declension (ντ‑stem, like the adjective πᾶς); the feminine follows the first (like θάλαττα).**
 
-### 2.2. Full Declension Table (example with **λύων** “loosing”)
+### 2.2 Full Declension (model: **λύων** "loosing")
 
 | Case | Masculine | Feminine | Neuter |
 |------|-----------|----------|--------|
 | **Singular** | | | |
-| Nominative | λύων | λύουσα | λύον |
-| Genitive | λύοντος | λύουσης | λύοντος |
-| Dative | λύοντι | λύουσῃ | λύοντι |
-| Accusative | λύοντα | λύουσαν | λύον |
-| Vocative | λύων | λύουσα | λύον |
+| Nominative | λύων | λύουσα | λῦον |
+| Genitive | λύοντος | λυούσης | λύοντος |
+| Dative | λύοντι | λυούσῃ | λύοντι |
+| Accusative | λύοντα | λύουσαν | λῦον |
+| Vocative | λύων | λύουσα | λῦον |
 | **Plural** | | | |
-| Nominative | λύοντες | λύουσαι | λύοντα |
-| Genitive | λύοντων | λύουσῶν | λύοντων |
-| Dative | λύουσι(ν) | λύουσῖν | λύουσι(ν) |
-| Accusative | λύοντας | λύουσας | λύοντα |
-| Vocative | λύοντες | λύουσαι | λύοντα |
+| Nominative | λύοντες | λύουσαι | λύοντα |
+| Genitive | λυόντων | λυουσῶν | λυόντων |
+| Dative | λύουσι(ν) | λυούσαις | λύουσι(ν) |
+| Accusative | λύοντας | λυούσας | λύοντα |
+| Vocative | λύοντες | λύουσαι | λύοντα |
 
-> **Note:** The dative plural may appear with **‑σι(ν)** (older) or **‑σι** (later).  
+> **Note:** the masculine/neuter dative plural λύουσι(ν) comes from λυοντ‑ + σι (ντ drops before σ and the vowel lengthens) and is identical in shape to the 3rd plural indicative λύουσι(ν) — context decides which is which!
 
-### 2.3. Common Verb Classes & Their Particularities  
+### 2.3 Verb Classes and Their Participles
 
-| Verb class | Present stem | Participle formation | Example |
-|------------|--------------|----------------------|---------|
-| **Regular –ω verbs** (e.g., *ποιέω*) | ποιε‑ | **‑ων / ‑ουσα / ‑ον** | ποιῶν, ποιουσα, ποιον |
-| **Contract verbs –εω** (e.g., *φιλεῖν*) | φιλε‑ | **‑ων / ‑ουσα / ‑ον** (contract) | φιλῶν, φιλουσα, φιλον |
-| **Contract verbs –οω** (e.g., *διδάσκειν*) | διδασκ‑ | **‑ων / ‑ουσα / ‑ον** (no extra contraction) | διδάσκων, διδάσκουσα, διδάσκον |
-| **Verbs with a short vowel + ρ** (e.g., *βούλομαι* – deponent) | βουλ‑ | **‑ων / ‑ουσα / ‑ον** (same) | βούλων, βούλουσα, βούλον |
-| **Irregular stems** (e.g., *εἰμί* “to be”) | — | No present active participle (instead use *ὤν* from *εἰμί*) | ὤν, οὖσα, ὄν |
+| Verb class | Present stem | Participle (three genders) |
+|------------|--------------|----------------------------|
+| **Regular ‑ω** (γράφω) | γραφ‑ | γράφων, γράφουσα, γράφον |
+| **‑άω contract** (τιμάω) | τιμα‑ | τιμῶν, τιμῶσα, τιμῶν |
+| **‑έω contract** (ποιέω) | ποιε‑ | ποιῶν, ποιοῦσα, ποιοῦν |
+| **‑όω contract** (δηλόω) | δηλο‑ | δηλῶν, δηλοῦσα, δηλοῦν |
+| **εἰμί "to be"** | — | ὤν, οὖσα, ὄν (gen. ὄντος, οὔσης) |
 
-**Key point:** The participle **always ends in ‑ων / ‑ουσα / ‑ον** regardless of the verb’s ending, but the stem may contract (e.g., *φιλε‑* → *φιλ‑*).
+**Key point:** deponent verbs (such as βούλομαι) have **no** present active participle; theirs is middle: βουλόμενος (treated in a separate lesson).
 
 ---
 
-## 3. Key Rules & Common Exceptions  
+## 3. Key Rules & Common Exceptions
 
 | Rule | Explanation |
 |------|-------------|
-| **Agreement** | The participle must agree **in gender, number, and case** with the noun it modifies, just like any adjective. |
-| **Position** | It can appear **before** or **after** the noun; placement often affects emphasis. |
-| **Circumstantial use** | When the participle expresses a circumstance (e.g., “while doing X”), it is usually **in the same case as the governing verb’s subject** (often nominative). |
-| **Temporal nuance** | The present active participle denotes **simultaneity** with the main verb, not future or past. |
-| **No perfect‑active present participle** | The present active participle never expresses a completed action; for that we use the **aorist** or **perfect** participles. |
-| **Irregularities** | • **εἰμί** → *ὤν, οὖσα, ὄν* (suppletive). <br>• **ἔχω** → *ἔχων, ἔχουσα, ἔχον* (stem *ἐχ‑*). |
-| **Deponent verbs** | Deponent verbs (middle/passive in form, active in meaning) form a present active participle **identical** to the regular pattern (e.g., *βούλομαι* → *βούλων*). |
-| **Contract verbs** | When the stem ends in *‑ε* or *‑ο* before *‑ω*, the participial suffix attaches after the contraction (e.g., *φιλε‑* → *φιλ‑* → *φιλῶν*). |
+| **Agreement** | The participle must agree with its noun **in gender, number, and case**, exactly like any adjective. |
+| **Position** | It can stand **before** or **after** the noun; position often shifts the emphasis. With the article it is attributive: ὁ γράφων ἀνήρ. |
+| **Adverbial use** | When the participle describes the circumstances ("while …"), it agrees with the subject of the main verb (usually nominative). |
+| **Time reference** | The present participle expresses **simultaneity** with the main verb, not past or future time. |
+| **Aspect** | It denotes an action in progress; for a single completed action Greek uses the **aorist** participle, and for a resulting state the **perfect** participle. |
+| **Irregulars** | εἰμί → ὤν, οὖσα, ὄν; contract verbs contract before the suffix (ποιέ‑ων → ποιῶν). |
 
 ---
 
-## 4. Example Sentences  
+## 4. Example Sentences
 
 | Greek | Transliteration | English |
-|-------|----------------|---------|
-| **Ὁ ἀνὴρ τὸν λόγον γράφων ἐξέρχεται.** | Ho anēr ton logon graphōn exerchetai. | The man, **writing** the sentence, goes out. |
-| **Ἡ γυνὴ τὴν ὁδὸν ἰδούσα ἔσπευδεν.** | Hē gynē tēn hodon idousa espeuden. | The woman, **seeing** the road, hurried. |
-| **Τὰ παιδία τὰ ἐν τῇ κλίνῃ κλῶντα ἔπαιζον.** | Ta paidia ta en tē klinē klōnta epaizen. | The children, **lying** on the couch, were playing. |
-| **Ὀδυσσεύς, Ἀχαιῶν ἡγεμών, Ἀργεῖον ἀνέχων, ἐπὶ τὴν νῆσον ἦλθεν.** | Odysseus, Akhaiōn hēgemōn, Argeion anechōn, epi tēn nēson ēlthen. | Odysseus, **leading** the Achaeans, came to the island. |
+|-------|-----------------|---------|
+| **ὁ ἀνὴρ τὸν λόγον γράφων ἐξέρχεται.** | *ho anḗr ton lógon gráphōn exérkhetai* | The man goes out while writing the speech. |
+| **ἡ γυνὴ τὴν ὁδὸν ὁρῶσα ἔσπευδεν.** | *hē gynḕ tēn hodòn horôsa éspeuden* | The woman, seeing the road, hurried on. |
+| **τὰ παιδία παίζοντα μανθάνει.** | *ta paidía paízonta manthánei* | The children learn while playing. (neuter plural + singular verb!) |
+| **ὁ ἡγεμὼν τοὺς στρατιώτας ἄγων ἐπὶ τὴν νῆσον ἦλθεν.** | *ho hēgemṑn tous stratiṓtas ágōn epì tēn nêson êlthen* | The commander, leading the soldiers, came to the island. |
 
-*Notice the participle agrees with its noun (masc. nom. sg. – γράφων, fem. nom. sg. – ἰδούσα, neut. nom./acc. pl. – κλῶντα).*
-
----
-
-## 5. Usage & Context  
-
-1. **Descriptive adjective** – Often used like any adjective to give a characteristic:  
-   *ὁ **παιδεύων** διδάσκει* “the **educating** teacher teaches”.  
-
-2. **Circumstantial clause** – Provides background information, usually translated with “while” or “when”:  
-   *Ἀνὴρ **πλέων**, ἔπλευσεν* “The man, **while sailing**, set out.”  
-
-3. **Supplementary (absolute) construction** – When the participle stands with a noun in a case other than the subject, it can form a **genitive absolute** (rare with present active, more common with aorist):  
-   *Ἀνδρὸς **πλέοντος**, ἦλθον* “When the man was sailing, I came.”  
-
-4. **Epithets in poetry** – Poets frequently use the present active participle as a vivid epithet:  
-   *Ἀργεῖος **προπορεύων*** “the Argive **leading the way**”.  
-
-5. **Agreement with abstract nouns** – The participle can modify abstract nouns, turning a verb phrase into a noun phrase:  
-   *τὸ **παιδεύον** ἀγαθόν* “the **educating** good (thing)”.
+*Note how the participle agrees with its noun (masc. nom. sg. γράφων, fem. nom. sg. ὁρῶσα, neut. pl. παίζοντα).*
 
 ---
 
-## 6. Historical Development & Etymology  
+## 5. Usage & Context
 
-| Aspect | Details |
-|--------|---------|
-| **Proto‑Indo‑European origin** | The participial suffix *‑ont‑* (present active) is inherited from PIE *‑ont‑*, which also gave Latin **‑ens** (e.g., *amans* “loving”). |
-| **Greek phonological change** | PIE *‑ont‑* became Greek *‑ων* after the loss of the final *‑t* and the addition of the nasal *‑n*. The feminine *‑ουσα* reflects the earlier *‑ous‑a* formation. |
-| **Old Greek** | Already present in Homeric Greek, though often with a more lexical (noun‑like) feel. Example: *ἄγων* “leading”. |
-| **Classical period** | The participle became a fully grammaticalized adjective, used extensively in prose and poetry for both descriptive and circumstantial purposes. |
-| **Later Greek** | The form persisted unchanged through Koine and Byzantine Greek, though the frequency of circumstantial use declined in favor of finite clauses. |
-| **Etymology of the term** | *Participle* comes from Latin *participium* “a sharing, a part”. The Greek name **παράμετρον** (rare) was later replaced by the Latin term in modern scholarship. |
+1. **Attributive adjective** — it qualifies a noun like any adjective:
+   *ὁ **παιδεύων** διδάσκαλος* — "the teacher who is teaching."
+
+2. **Adverbial clause** — it supplies background and is usually translated "while / when":
+   *ταῦτα **λέγων** ἀπῆλθεν.* — "Saying this, he went away."
+
+3. **Genitive absolute** — a participle with a noun in the genitive, standing outside the sentence structure, forms a temporal or causal clause; it is very common with the present participle:
+   *ἀνδρὸς **πλέοντος**, ἦλθον.* — "While the man was at sea, I came."
+
+4. **Substantival use with the article** — article + participle = a noun:
+   *οἱ **λέγοντες*** — "the speakers"; *τὸ **συμφέρον*** — "that which is advantageous."
+
+5. **Vivid narrative in verse** — poets use the present participle to attach a living, concurrent detail to the main action:
+   *ἦλθε **φέρων** δῶρα.* — "He came bringing gifts" — a pattern you will meet constantly in epic.
 
 ---
 
-## 7. Quick Reference Summary  
+## 6. Historical Development & Etymology
 
-| Feature | Present Active Participle (‑ω) |
-|---------|------------------------------|
-| **Meaning** | Ongoing, simultaneous action performed by the subject |
+| Aspect | Detail |
+|--------|--------|
+| **Indo-European origin** | The participial suffix *‑ont‑* (present active) is an Indo-European inheritance; it gave Latin **‑ns/‑ntis** (*amans* "loving"). |
+| **Greek sound change** | The masculine ‑ων comes from the stem ‑οντ‑ (nominative without final τ); the feminine ‑ουσα from *‑ont‑ya. |
+| **Early Greek** | Attested and fully productive from Homer onwards: *ἄγων* "leading." |
+| **Classical period** | The participle becomes a pillar of Greek syntax; classical prose is unwritable without it. |
+| **Later Greek** | The form survives in Koine and Byzantine Greek, but the adverbial use gradually yields to finite clauses. |
+| **Origin of the term** | The Greek term is **μετοχή** "a sharing, participation" (the participle shares in the nature of both verb and noun); Latin *participium* is a calque of it. |
+
+---
+
+## 7. Quick Review Summary
+
+| Feature | Present active participle (‑ω) |
+|---------|-------------------------------|
+| **Meaning** | An action in progress and simultaneous, performed by the subject |
 | **Form** | Stem + **‑ων / ‑ουσα / ‑ον** (masc./fem./neut.) |
-| **Declension** | First/second‑declension adjective pattern |
-| **Agreement** | Must match noun in gender, number, case |
-| **Typical uses** | Descriptive adjective, circumstantial clause, poetic epithet |
-| **Irregularities** | *εἰμί* → *ὤν, οὖσα, ὄν*; contract verbs contract before the suffix |
-| **Historical note** | Direct descendant of PIE *‑ont‑*; attested from Homer onward |
+| **Declension** | Masc./neut.: third declension (ντ‑stem); fem.: first declension |
+| **Agreement** | With its noun in gender, number, and case |
+| **Common uses** | Attributive adjective, adverbial clause, genitive absolute, substantivised with the article |
+| **Irregulars** | εἰμί → ὤν, οὖσα, ὄν; contract verbs contract before the suffix |
+| **Historical note** | A direct continuation of Indo-European *‑ont‑*; attested from Homer onwards |
 
----  
+---
 
-**End of Lesson**. Feel free to refer back to the tables when you encounter participles in reading; the pattern is regular once you know the verb’s present stem. Happy studying!
+**End of lesson.** As you read, come back to these tables whenever you meet a participle; once you know the verb's present stem, the pattern is regular. Happy learning!

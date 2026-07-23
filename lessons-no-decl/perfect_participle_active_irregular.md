@@ -3,95 +3,109 @@ topic: perfect, participle, active (irregulars)
 pos: verb
 ---
 
-# Lesson: The Perfect Active Participle (Irregular Forms)
+# Lesson: The Perfect Active Participle — Irregular Forms
 
-**Target level:** Beginner‑Intermediate  
-**Prerequisites:** Greek alphabet, basic noun declension, present‑active participles, the perfect indicative.
-
----
-
-## 1. What is the Perfect Active Participle?
-
-The **perfect** in Ancient Greek expresses a *completed* action whose result still holds in the present.  
-The **active participle** of the perfect therefore means **“having (done) …”** or **“who/which has (done) …”**.  
-
-- **Form:** perfect‑stem + ‑ώς (masc. nom. sg.), ‑οῦσα (fem. nom. sg.), ‑όν (neut. nom. sg.)  
-- **Function:** adjective‑like; it agrees with a noun in gender, number, case and can be used attributively or predicatively.  
-
-> *ἑωρᾶς ὁ ἀνὴρ* – “the man **who has seen** (the thing)”.
-
-The perfect active participle is relatively rare compared with the perfect indicative, but it is very useful for compact, “having‑done” constructions.
+**Level:** beginner–intermediate
+**Prerequisites:** the Greek alphabet, basic noun declension, the present participle, the perfect indicative.
 
 ---
 
-## 2. Regular Formation & Paradigm
+## 1. What the Perfect Active Participle Is
 
-### 2.1. Building the Stem
+The **perfect** expresses a *completed* action whose result still holds.
+Its active participle therefore means: "**one who has done** (and is in the resulting state)."
 
-1. **Find the perfect indicative** (e.g., *ἑώρακα* “I have seen”).  
-2. **Remove the personal ending** *‑κα* → perfect stem *ἑωρα‑*.  
-3. **Add the participial suffix** *‑ώς / ‑οῦσα / ‑όν*.
+- **Regular formation:** perfect stem + **‑ώς** (masculine), **‑υῖα** (feminine), **‑ός** (neuter); masculine/neuter genitive **‑ότος**.
+- **Function:** adjectival; it agrees with its noun in gender, number, and case.
 
-> **Perfect stem** + **‑ώς** → masculine nominative singular  
-> **Perfect stem** + **‑οῦσα** → feminine nominative singular  
-> **Perfect stem** + **‑όν** → neuter nominative singular  
+> *ὁ ἑωρακὼς ἀνήρ* — "the man **who has seen**."
 
-### 2.2. Declension Pattern
-
-The perfect active participle declines like a **first‑/second‑declension adjective** (the “‑ος/‑η/‑ον” pattern).  
-
-| Case | Masculine | Feminine | Neuter |
-|------|-----------|----------|--------|
-| **Nominative** | ‑ **‑ώς** | ‑ **‑οῦσα** | ‑ **‑όν** |
-| **Genitive**   | ‑ **‑οῦ** | ‑ **‑οῦσας** | ‑ **‑οῦ** |
-| **Dative**     | ‑ **‑ῷ** | ‑ **‑οῦσῃ** | ‑ **‑ῳ** |
-| **Accusative** | ‑ **‑όν** | ‑ **‑οῦσαν** | ‑ **‑όν** |
-| **Vocative**   | ‑ **‑ώ** | ‑ **‑οῦσα** | ‑ **‑όν** |
-
-> **Example with the regular perfect stem** *λελυκ‑* (from *λύω* “to loose”):  
-
-|          | Masculine | Feminine | Neuter |
-|----------|-----------|----------|--------|
-| Nom. sg. | λελυκ‑ **‑ώς** | λελυκ‑ **‑οῦσα** | λελυκ‑ **‑όν** |
-| Gen. sg. | λελυκ‑ **‑οῦ** | λελυκ‑ **‑οῦσας** | λελυκ‑ **‑οῦ** |
-| Dat. sg. | λελυκ‑ **‑ῷ** | λελυκ‑ **‑οῦσῃ** | λελυκ‑ **‑ῳ** |
-| Acc. sg. | λελυκ‑ **‑όν** | λελυκ‑ **‑οῦσαν** | λελυκ‑ **‑όν** |
-| Voc. sg. | λελυκ‑ **‑ώ** | λελυκ‑ **‑οῦσα** | λελυκ‑ **‑όν** |
-
-*All other cases (plural, etc.) follow the regular adjective tables.*
+But the commonest perfect participles come from **irregular** verbs — the subject of this lesson.
 
 ---
 
-## 3. Irregular Perfect Active Participles
+## 2. The Regular Formation (for comparison)
 
-Some verbs have **irregular perfect stems** that affect the participle shape. Below are the most common ones you will meet in reading.
+1. Find the **perfect indicative**: *λέλυκα*.
+2. Remove the ending → stem *λελυκ‑*.
+3. Add the endings: **λελυκώς, λελυκυῖα, λελυκός** (genitive λελυκότος).
 
-| Verb (infinitive) | Perfect indicative | Perfect stem | Perfect active participle (masc. nom. sg.) |
-|-------------------|--------------------|--------------|--------------------------------------------|
-| **ὁράω** “to see” | ἑώρακα | ἑωρα‑ | **ἑωρᾶς** |
-| **διδῶ** “to give” (διδόναι) | δέδωκα | δέδωκ‑ | **δέδωκώς** |
-| **ἔρχομαι** “to come” | ἐλήλυθα | ἐληλυθ‑ | **ἐληλυθώς** |
-| **πίνω** “to drink” | πέπωκα | πεπω‑ | **πεπωκώς** |
-| **λαμβάνω** “to take” | εἴληφα | εἰληφ‑ | **εἰληφώς** |
-| **φημί** “to say” | πέφηναι (rare) | πεφ‑ | **πεφώς** (very rare) |
+The masculine/neuter decline like the third declension (‑οτ‑ stem), the feminine like the first.
 
-### 3.1. Irregular Paradigms
+---
 
-#### 3.1.1. ἑωρᾶς (from ὁράω)
+## 3. Irregular Perfect Participles
 
-| Case | Masculine | Feminine | Neuter |
-|------|-----------|----------|--------|
-| Nom. sg. | **ἑωρᾶς** | ἑωρᾶ **‑α** | ἑωρᾶ **‑ν** |
-| Gen. sg. | ἑωρᾶ **‑ς** | ἑωρᾶ **‑ς** | ἑωρᾶ **‑ς** |
-| Dat. sg. | ἑωρᾶ **‑ι** | ἑωρᾶ **‑ι** | ἑωρᾶ **‑ι** |
-| Acc. sg. | ἑωρᾶ **‑ν** | ἑωρᾶ **‑αν** | ἑωρᾶ **‑ν** |
-| Voc. sg. | ἑωρᾶ **‑** | ἑωρᾶ **‑α** | ἑωρᾶ **‑ν** |
+| Verb | Perfect | Participle (masc. nom.) | Meaning |
+|------|---------|-------------------------|---------|
+| **οἶδα** "to know" | οἶδα | **εἰδώς** (εἰδυῖα, εἰδός) | knowing, aware |
+| **ἵστημι** "to stand" | ἕστηκα | **ἑστώς** (ἑστῶσα, ἑστός); fuller: ἑστηκώς | standing |
+| **θνῄσκω** "to die" | τέθνηκα | **τεθνεώς / τεθνηκώς** | dead |
+| **γίγνομαι** "to become" | γέγονα | **γεγονώς** | having become |
+| **ἔρχομαι** "to come" | ἐλήλυθα | **ἐληλυθώς** | having come |
+| **λαμβάνω** "to take" | εἴληφα | **εἰληφώς** | having taken |
+| **ὁράω** "to see" | ἑώρακα | **ἑωρακώς** | having seen |
+| **πίνω** "to drink" | πέπωκα | **πεπωκώς** | having drunk |
 
-*The forms are essentially those of a regular adjective, but the stem is **ἑωρᾶ‑** rather than a simple *‑οῦ‑*.*
-
-#### 3.1.2. δέδωκώς (from διδῶ)
+### 3.1 Declension of **εἰδώς** "knowing" (the commonest of all!)
 
 | Case | Masculine | Feminine | Neuter |
 |------|-----------|----------|--------|
-| Nom. sg. | **δέδωκώς** | δέδωκ **‑α** | δέδωκ **‑ον** |
-| Gen. sg. | δέδωκ **‑ου** | δέδωκ **‑ας** | δέδω
+| Nom. sg. | **εἰδώς** | **εἰδυῖα** | **εἰδός** |
+| Gen. sg. | εἰδότος | εἰδυίας | εἰδότος |
+| Dat. sg. | εἰδότι | εἰδυίᾳ | εἰδότι |
+| Acc. sg. | εἰδότα | εἰδυῖαν | εἰδός |
+| Nom. pl. | εἰδότες | εἰδυῖαι | εἰδότα |
+| Gen. pl. | εἰδότων | εἰδυιῶν | εἰδότων |
+| Dat. pl. | εἰδόσι(ν) | εἰδυίαις | εἰδόσι(ν) |
+| Acc. pl. | εἰδότας | εἰδυίας | εἰδότα |
+
+### 3.2 Declension of **ἑστώς** "standing" (contracted form)
+
+| Case | Masculine | Feminine | Neuter |
+|------|-----------|----------|--------|
+| Nom. sg. | **ἑστώς** | **ἑστῶσα** | **ἑστός** |
+| Gen. sg. | ἑστῶτος | ἑστώσης | ἑστῶτος |
+| Dat. sg. | ἑστῶτι | ἑστώσῃ | ἑστῶτι |
+| Acc. sg. | ἑστῶτα | ἑστῶσαν | ἑστός |
+
+*The fuller form ἑστηκώς is also used; it declines regularly.*
+
+---
+
+## 4. Key Rules
+
+| Rule | Explanation |
+|------|-------------|
+| **1. The pattern of endings is constant** | ‑ώς/‑υῖα/‑ός and ‑ότος in every verb; only the stem is irregular. |
+| **2. Present meanings** | εἰδώς "knowing," ἑστώς "standing," τεθνεώς "dead" — all express a present condition. |
+| **3. Contracted forms** | ἑστώς and τεθνεώς are compressed versions of ἑστηκώς and τεθνηκώς; both occur in texts. |
+| **4. Learn them with the fourth principal part** | The perfect participle comes from the perfect stem: ἐλήλυθα → ἐληλυθώς. |
+| **5. Feminine in ‑υῖα** | εἰδυῖα, ἑστῶσα (contracted), γεγονυῖα. |
+
+---
+
+## 5. Example Sentences
+
+| Greek | Translation |
+|-------|-------------|
+| **ταῦτα εἰδὼς ἐσίγα.** | Knowing this, he kept silent. |
+| **ὁ στρατιώτης ἑστὼς πρὸ τῶν πυλῶν ἐφύλαττεν.** | The soldier, standing before the gates, kept watch. |
+| **εὗρον τὸν βασιλέα τεθνεῶτα.** | They found the king dead. |
+| **οἱ ἐληλυθότες ξένοι ἐξενίσθησαν.** | The strangers who had come were entertained. |
+| **γεγονὼς ἄρχων, δικαίως ἦρχεν.** | Having become ruler, he ruled justly. |
+
+---
+
+## 6. Usage & Context
+
+1. **Describing a state** — these participles function in practice as state adjectives: "knowing," "standing," "dead."
+2. **Substitute for a relative or causal clause** — εἰδὼς ταῦτα "since he knew this."
+3. **Very high frequency** — εἰδώς is everywhere in philosophical prose and oratory (οὐδὲν εἰδώς "knowing nothing"); ἑστώς and τεθνεώς in narrative and tragedy.
+4. **Periphrastic construction** — with εἰμί: τεθνηκότες εἰσί "they are dead."
+
+---
+
+## 7. Historical Note
+
+The Indo-European suffix *‑wos‑ (Sanskrit ‑vāṃs‑) became Greek ‑ώς/‑ότος, with the feminine ‑υῖα from *‑us‑ya. The contracted forms (ἑστώς, τεθνεώς) result from the loss of κ and the contraction of vowels in Attic. εἰδώς is the exact cognate of Sanskrit *vidvāṃs‑* "knowing" — one of the oldest surviving words of the Indo-European family.

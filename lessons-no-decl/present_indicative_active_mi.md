@@ -3,139 +3,124 @@ topic: present, indicative, active (μι)
 pos: verb
 ---
 
-# Lesson: The Present Indicative Active (μι) in Ancient Greek  
+# Lesson: The Present Indicative Active of ‑μι Verbs
 
-*Target level: Beginner‑Intermediate*  
-*Prerequisites: Greek alphabet, basic noun declension, concept of person & number*  
+*Level: beginner–intermediate*
+*Prerequisites: the Greek alphabet, basic noun declension, the notions of person and number*
 
 ---
 
-## 1. What the Present Indicative Active Is  
+## 1. What the Present Indicative Active of ‑μι Verbs Is
 
 | Term | Meaning |
 |------|---------|
-| **Present** | Action or state that is happening **now**, is habitual, or is generally true. |
-| **Indicative** | The “statement” mood – used for ordinary factual or neutral statements (as opposed to subjunctive, optative, imperative, etc.). |
-| **Active** | The subject **does** the action (as opposed to middle or passive). |
-| **(μι)** | The **first‑person singular** ending of the present active indicative for **contract verbs** (those whose stem ends in a vowel). It is the prototype form from which the rest of the paradigm is built. |
+| **Present** | An action or state happening **now**, habitual, or generally true. |
+| **Indicative** | The "statement" mood — for factual or neutral assertions (as opposed to subjunctive, optative, imperative). |
+| **Active** | The subject **performs** the action (as opposed to middle or passive). |
+| **(μι)** | The **1st person singular** ending of a small group of ancient, very common verbs that are conjugated **without a thematic vowel**: δίδωμι "I give," τίθημι "I place," ἵστημι "I set up," εἰμί "I am." |
 
-Thus **μι** is the simplest form you will meet: *I am, I do, I say* etc. From it we can derive the full present‑indicative‑active paradigm for any regular verb.
-
----
-
-## 2. Forms and Patterns  
-
-### 2.1 The Basic Paradigm  
-
-Ancient Greek verbs are grouped by the **type of stem** they have. The **μι‑type** (also called **contract‑type I**) includes verbs whose stem ends in **‑α, ‑ε, ‑ο** (or a diphthong ending in **‑α, ‑ε, ‑ο**) and that contract with the personal endings.  
-
-Below is the **full present indicative active** paradigm for a regular **‑α‑contract** verb, exemplified by **φιλέω** “to love”. (The same pattern, with minor vowel‑changes, applies to **‑ε‑** and **‑ο‑** contracts such as **δείκνῡμι → δείκνῡμι**, **πράττω → πράττω**.)
-
-| Person / Number | Ending | Example with **φιλέω** (stem **φιλε‑**) |
-|-----------------|--------|------------------------------------------|
-| 1st sg. | **‑μι** | **φιλέ** + **μι** → **φιλέμι** “I love” |
-| 2nd sg. | **‑ς** | **φιλέ** + **ς** → **φιλές** “you love” |
-| 3rd sg. | **‑σι(ν)** | **φιλέ** + **σι(ν)** → **φιλέσι(ν)** “he/she/it loves” |
-| 1st pl. | **‑μεν** | **φιλέ** + **μεν** → **φιλέμεν** “we love” |
-| 2nd pl. | **‑τε** | **φιλέ** + **τε** → **φιλέτε** “you (pl.) love” |
-| 3rd pl. | **‑σι(ν)** | **φιλέ** + **σι(ν)** → **φιλέσι(ν)** “they love” |
-
-> **Note:** The **‑σι(ν)** ending is the same for 3rd singular and plural; context tells you which is meant. In poetry the **‑σι** form is often used for the singular, while **‑σιν** is the more common prose plural.
-
-### 2.2 Contract‑Type Variations  
-
-| Stem ending | Example verb | Present stem | Contracted forms |
-|-------------|--------------|--------------|-----------------|
-| **‑α** (α‑contract) | **φιλέω** | **φιλε‑** | **φιλέμι, φιλές, φιλέσι(ν)** |
-| **‑ε** (ε‑contract) | **δέχομαι** (middle) – but active **δέχομαι** is middle; for active use **δέχομαι** is not typical. Better example: **πείθω** “to persuade” (ε‑contract) | **πείθ‑** | **πείθω, πείθεις, πείθει(ν)** |
-| **‑ο** (ο‑contract) | **πράττω** “to do” (ο‑contract) | **πρατ‑** | **πράττω, πράττεις, πράττει(ν)** |
-| **‑αυ** (diphthong‑contract) | **καίω** “to burn” (αυ‑contract) | **καί‑** | **καίω, καίεις, καίει(ν)** |
-| **‑ει** (diphthong‑contract) | **ἔχω** “to have” (ει‑contract) | **εχ‑** | **ἔχω, ἔχεις, ἔχει(ν)** |
-
-The **contract** occurs when the vowel of the stem meets the vowel of the ending, often resulting in a long vowel or diphthong (e.g., **φιλε‑ + μι → φιλέμι**).
-
-### 2.3 Quick Reference Table (All Persons)  
-
-| Person | Singular | Plural |
-|--------|----------|--------|
-| 1st | **‑μι** (φιλέμι) | **‑μεν** (φιλέμεν) |
-| 2nd | **‑ς** (φιλές) | **‑τε** (φιλέτε) |
-| 3rd | **‑σι(ν)** (φιλέσι(ν)) | **‑σι(ν)** (φιλέσι(ν)) |
+The ‑μι verbs are few in number but enormous in frequency: εἰμί "to be," φημί "to say," δίδωμι "to give," τίθημι "to place," ἵστημι "to set up," δείκνυμι "to show," ἵημι "to send."
 
 ---
 
-## 3. Key Rules & Common Exceptions  
+## 2. Forms and Patterns
+
+### 2.1 The Two Defining Features
+
+‑μι verbs (**athematic** verbs) differ from ‑ω verbs in two fundamental ways:
+
+1. **The endings attach directly to the stem** — there is no thematic vowel ε/ο.
+2. **The stem vowel is long in the singular and short in the plural**: δίδω‑μι but δίδο‑μεν; τίθη‑μι but τίθε‑μεν.
+
+Many of them also show **ι‑reduplication** in the present system: δί‑δω‑μι (from the root δω‑), τί‑θη‑μι (from the root θη‑), ἵ‑στη‑μι (from the root στη‑).
+
+### 2.2 Full Paradigm: δίδωμι "to give" and τίθημι "to place"
+
+| Person / Number | Ending | δίδωμι (stem διδω‑/διδο‑) | τίθημι (stem τιθη‑/τιθε‑) |
+|-----------------|--------|---------------------------|---------------------------|
+| 1st sg. | **‑μι** | **δίδωμι** "I give" | **τίθημι** "I place" |
+| 2nd sg. | **‑ς** | **δίδως** | **τίθης** |
+| 3rd sg. | **‑σι(ν)** | **δίδωσι(ν)** | **τίθησι(ν)** |
+| 1st pl. | **‑μεν** | **δίδομεν** | **τίθεμεν** |
+| 2nd pl. | **‑τε** | **δίδοτε** | **τίθετε** |
+| 3rd pl. | **‑ασι(ν)** | **διδόασι(ν)** | **τιθέασι(ν)** |
+
+> **Note:** observe the contrast between the long vowel of the singular (δίδω‑, τίθη‑) and the short vowel of the plural (δίδο‑, τίθε‑) — this is the key to recognising ‑μι verbs.
+
+### 2.3 Other Important Members of the Group
+
+| Verb | Meaning | Singular | Plural |
+|------|---------|----------|--------|
+| **ἵστημι** | to set up | ἵστημι, ἵστης, ἵστησι(ν) | ἵσταμεν, ἵστατε, ἱστᾶσι(ν) |
+| **δείκνυμι** | to show | δείκνυμι, δείκνυς, δείκνυσι(ν) | δείκνυμεν, δείκνυτε, δεικνύασι(ν) |
+| **φημί** | to say | φημί, φῄς, φησί(ν) | φαμέν, φατέ, φασί(ν) |
+| **εἰμί** | to be | εἰμί, εἶ, ἐστί(ν) | ἐσμέν, ἐστέ, εἰσί(ν) |
+
+---
+
+## 3. Key Rules & Common Exceptions
 
 | Rule | Explanation | Example / Note |
 |------|-------------|----------------|
-| **1. Contracting Vowels** | When a stem ending in **‑α, ‑ε, ‑ο** meets a vowel‑initial ending, the two vowels contract to a long vowel or diphthong. | **φιλε‑ + μι → φιλέμι** (α‑contract) |
-| **2. Lengthening of the Stem Vowel** | The vowel of the stem is **long** before the endings **‑μι, ‑ς, ‑σι(ν)**. In the 1st sg. the accent falls on the long vowel. | **φιλέμι** (accent on the long **ε**) |
-| **3. The 3rd‑Person Plural Ending** | In prose the ending is **‑σιν**; in poetry **‑σι** is common. Both are correct. | **φιλέσι(ν)** |
-| **4. No “‑ν” in 2nd‑Person Singular** | The 2nd sg. ending is simply **‑ς** (no **‑ν**). | **φιλές** |
-| **5. Verbs with a **‑ε‑** stem that become **‑ει‑** in the present** | Some verbs have a short **ε** that lengthens to **ει** before the endings (e.g., **ἔρχομαι** is middle, but **ἔρχομαι** → **ἔρχομαι**). For active **‑ε‑** contracts, the long **ει** appears: **πείθω → πείθεις**. | **πείθω** → **πείθεις** |
-| **6. Irregularities** | A few common verbs deviate from the regular pattern: **εἰμί** “to be” (present indicative active) has its own paradigm; **ἔχω** “to have” contracts to **ἔχω, ἔχεις, ἔχει** etc. | **εἰμί**: 1sg **εἰμί**, 2sg **εἶ**, 3sg **ἐστί(ν)**, etc. |
-| **7. The “‑μι” Ending is Not Used for All Persons** | Only the 1st sg. uses **‑μι**. Other persons use the regular endings shown above. | — |
+| **1. No thematic vowel** | The ending attaches straight to the stem. | δίδω‑μι (not *‑ο‑μι*) |
+| **2. Long/short stem-vowel alternation** | Long vowel in the singular, short in the plural. | τίθημι / τίθεμεν |
+| **3. 3rd plural in ‑ασι(ν)** | Not the ‑ουσι(ν) of ‑ω verbs. | διδόασι(ν), τιθέασι(ν) |
+| **4. Present reduplication with ι** | Marks the present system off from the bare root. | δί‑δωμι from the root δω‑ (aorist: ἔδωκα) |
+| **5. Movable ν** | In ‑σι(ν) and ‑ασι(ν) the ν appears before a vowel or at the end of a sentence. | δίδωσιν αὐτῷ |
+| **6. εἰμί is enclitic** | Most present forms of εἰμί (except εἶ) are unaccented and throw their accent onto the preceding word. | σοφός ἐστιν "he is wise" |
+| **7. φημί is enclitic too** | Apart from φῄς, its present indicative forms are enclitic. | — |
 
 ---
 
-## 4. Example Sentences  
+## 4. Example Sentences
 
 | Greek (present indicative active) | Transliteration | English |
-|-----------------------------------|----------------|---------|
-| **φιλέμι τὸν φίλον.** | *philémi ton phílón.* | I love the friend. |
-| **πράττω τὰ ἔργα.** | *práttō tà érga.* | I do the deeds. |
-| **πείθεις τὸν διδάσκαλον.** | *peítheis ton didáskαlon.* | You (sg.) persuade the teacher. |
-| **ἔχουσιν τὰ βιβλία.** | *ékhousin tà biblía.* | They have the books. |
-| **καίω τὸν ἀγρὸν.** | *kaíō tòn agròn.* | I burn the field. |
+|-----------------------------------|-----------------|---------|
+| **δίδωμί σοι τὸ βιβλίον.** | *dídōmí soi to biblíon* | I give you the book. |
+| **ὁ νομοθέτης τίθησι τοὺς νόμους.** | *ho nomothétēs títhēsi tous nómous* | The lawgiver lays down the laws. |
+| **οἱ θεοὶ διδόασι τὰ ἀγαθά.** | *hoi theoì didóasi ta agathá* | The gods grant good things. |
+| **δείκνυσι τὴν ὁδόν.** | *deíknusi tēn hodón* | He points out the road. |
+| **φησὶν ὁ διδάσκαλος τοῦτο.** | *phēsìn ho didáskalos toûto* | The teacher says this. |
+| **ὁ θεὸς ἵστησι τὴν πόλιν.** | *ho theòs hístēsi tēn pólin* | The god keeps the city standing. |
 
-*Notice the accent placement on the long vowel of the stem (e.g., **φιλέ**).*
-
----
-
-## 5. Usage & Context  
-
-1. **Simple Present** – Describes an action occurring **right now** or a **habitual** activity.  
-   - *Ἀγὼ ἀγῶν ἐστίν* → “I am fighting (now).”  
-
-2. **Narrative Present** – In literary prose, the present can be used to give a vivid, “historical present” feel to past events.  
-   - *Ὁ ἥρως ἀφίησι τὴν πόλιν* → “The hero leaves the city (in the story).”  
-
-3. **General Truths** – Statements that are always true.  
-   - *Ὑδωρ ὑγιάζει* → “Water lives (i.e., water is alive).”  
-
-4. **Future‑like Present** – With certain verbs (e.g., *ἔρχομαι* “to come”), the present can imply a near future.  
-   - *Ἔρχομαι αὔριον* → “I am coming tomorrow.”  
-
-5. **Interaction with Particles** – Common particles such as **δὲ**, **γάρ**, **μέν** often appear with the present indicative to give contrast or explanation.  
-   - *Ἀκούω δὲ τὸν λόγον* → “I do hear the speech, however.”  
+*Notice the endings:* **‑μι**, **‑ς**, **‑σι(ν)**, **‑μεν**, **‑τε**, **‑ασι(ν)**.
 
 ---
 
-## 6. Historical Development & Etymology  
+## 5. Usage & Context
 
-| Aspect | Details |
-|--------|---------|
-| **Proto‑Indo‑European Roots** | The present active ending **‑mi** derives from the PIE *‑mi* first‑person singular present marker (cf. Latin *‑o*, Sanskrit *‑mi*). |
-| **Old Greek** | In Mycenaean Greek the present active forms appear as **-mi** (e.g., *e-mi* “I am”). The contraction of vowel‑ending stems with personal endings developed early, giving the long vowels we see in Classical Greek. |
-| **Evolution of Contract Verbs** | The process of **vowel contraction** (α+ε → ᾱ, ε+ε → ει, ο+ο → ω) became regular by the Classical period, solidifying the **‑μι** pattern for α‑, ε‑, ο‑ contracts. |
-| **Later Greek** | In Koine and Byzantine Greek the present indicative active simplified further; many forms merged (e.g., 3rd sg. and pl. both **‑ει**). However, the Classical **‑μι** paradigm remains the foundation for all later stages. |
-| **Etymology of “μι”** | The suffix **‑μι** is cognate with Latin **‑o** (as in *amo* “I love”) and Sanskrit **‑mi** (as in *bhárāmi* “I bear”). It reflects the ancient personal ending for the first person singular present. |
+1. **Simple present** — an action happening right now or habitually: δίδωμι "I give."
+2. **Narrative (historical) present** — in literary prose the present can make a past event vivid and immediate.
+3. **General truths** — statements that are always valid: οἱ θεοὶ διδόασι τὰ ἀγαθά.
+4. **High frequency in quotation** — φημί is everywhere in reported speech, often inserted mid-sentence: ἐγὼ μέν, φησί, λέγω… "'I,' he says, 'say…'"
+5. **Combination with particles** — the particles δέ, γάρ, μέν frequently accompany the present indicative to build contrast or explanation.
 
 ---
 
-## 7. Quick Reference Cheat‑Sheet  
+## 6. Historical Development & Etymology
 
-| Person | Ending | Example (φιλέω) | Meaning |
+| Aspect | Detail |
+|--------|--------|
+| **Indo-European roots** | The ending ‑μι continues the Indo-European athematic 1st singular ending *‑mi* (compare Sanskrit *ásmi*, Latin *sum*, Greek εἰμί from *h₁és‑mi*). |
+| **Early Greek** | ‑μι forms are already attested in Mycenaean; the ‑μι class is the older layer of the Greek verbal system. |
+| **Gradual erosion** | From the classical period onwards, ‑μι verbs were progressively drawn into the thematic ‑ω pattern (e.g. δεικνύω beside δείκνυμι). |
+| **Later Greek** | In Koine and Byzantine Greek the process was completed, and Modern Greek preserves only scattered relics of the ‑μι verbs (such as εἶμαι from εἰμί). |
+
+---
+
+## 7. Quick Review Table
+
+| Person | Ending | Example (δίδωμι) | Meaning |
 |--------|--------|------------------|---------|
-| 1st sg. | **‑μι** | **φιλέμι** | I love |
-| 2nd sg. | **‑ς** | **φιλές** | you love |
-| 3rd sg. | **‑σι(ν)** | **φιλέσι(ν)** | he/she/it loves |
-| 1st pl. | **‑μεν** | **φιλέμεν** | we love |
-| 2nd pl. | **‑τε** | **φιλέτε** | you (pl.) love |
-| 3rd pl. | **‑σι(ν)** | **φιλέσι(ν)** | they love |
+| 1st sg. | **‑μι** | **δίδωμι** | I give |
+| 2nd sg. | **‑ς** | **δίδως** | you give |
+| 3rd sg. | **‑σι(ν)** | **δίδωσι(ν)** | he/she/it gives |
+| 1st pl. | **‑μεν** | **δίδομεν** | we give |
+| 2nd pl. | **‑τε** | **δίδοτε** | you (pl.) give |
+| 3rd pl. | **‑ασι(ν)** | **διδόασι(ν)** | they give |
 
-Remember: the **accent** always falls on the **long vowel of the stem** (here **έ**) in the present active indicative.
+Remember: **long vowel in the singular, short vowel in the plural** — and the endings attach to the stem with no thematic vowel.
 
----  
+---
 
-*End of Lesson*  
+*End of Lesson*
