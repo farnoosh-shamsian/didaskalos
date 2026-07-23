@@ -997,3 +997,4 @@ if build_result:
 
 st.markdown("---")
 st.caption(t("footer_caption", lang))
+st.caption(t("image_credit", lang))
