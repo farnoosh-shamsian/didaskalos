@@ -190,5 +190,21 @@
   "feat_deponent_note": "deponent — active in meaning",
   "idle_title": "Still there?",
   "idle_body": "This session will close in {seconds} seconds so the server can shut down.",
-  "idle_stay": "I'm still here"
+  "idle_stay": "I'm still here",
+  "tb_syntax_header": "Syntax Reference",
+  "tb_syntax_col_category": "Construction",
+  "tb_syntax_col_count": "Attested",
+  "tb_syntax_col_example": "Example",
+  "tb_syntax_unattested": "Not attested in the texts selected for this book.",
+  "tb_syntax_more_examples": "Further examples",
+  "syn_potential": "potential: ἄν + optative",
+  "syn_indefinite": "indefinite clause: ἄν + subjunctive",
+  "syn_contrafactual": "contrary to fact / past habitual: ἄν + past indicative",
+  "syn_simple": "simple (particular) condition",
+  "syn_present_general": "present general condition",
+  "syn_future_more_vivid": "future more vivid condition",
+  "syn_future_less_vivid": "future less vivid condition",
+  "syn_present_contrafactual": "present contrary to fact",
+  "syn_past_contrafactual": "past contrary to fact",
+  "syn_past_general": "past general condition"
 }

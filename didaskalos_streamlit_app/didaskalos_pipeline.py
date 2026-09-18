@@ -16,6 +16,8 @@ import numpy as np
 import pandas as pd
 from markdown import markdown as markdown_to_html
 
+import constructions
+
 try:
     from i18n import DEFAULT_LANG, is_rtl, t
 except ImportError:  # imported as a package rather than a flat module
@@ -1169,6 +1171,8 @@ DICTIONARY_LESSON_MODULE = "using_a_dictionary"
 # the hand-over point between the preset modules and the corpus-driven lessons.
 # Named rather than matched on position.
 DIALECTS_LESSON_MODULE = "greek_dialects"
+# The reference appendix, not a lesson: it never enters the syllabus.
+SYNTAX_REFERENCE_FILENAME = "syntax_reference.md"
 
 
 def get_topic_rows_for_label(syllabus_label: str, combined_df: pd.DataFrame) -> pd.DataFrame:
@@ -2707,6 +2711,88 @@ def _render_title_page(lang: str, source_summary: Mapping[str, Any] | None = Non
     return lines
 
 
+# Sections of the syntax reference name themselves in the lesson file, so the
+# authored prose decides what is covered and in what order; the corpus only
+# fills in what it can attest.
+SYNTAX_PLACEHOLDER_RE = re.compile(r"<!--\s*syntax:([a-z_]+)\s*-->")
+
+
+def _syntax_category_label(category: str, lang: str) -> str:
+    # Clause categories are a tense/mood pair and reuse the parsing vocabulary;
+    # named constructions carry a syn_ key of their own.
+    if "|" in category:
+        tense, mood = category.split("|", 1)
+        return f"{_feature_label(tense, lang)} {_feature_label(mood, lang)}"
+    key = f"syn_{category}"
+    value = t(key, lang)
+    return category.replace("_", " ") if value == key else value
+
+
+def _syntax_table(rows: pd.DataFrame, entry_name: str, sentence_text, lang: str) -> list[str]:
+    rtl = is_rtl(lang)
+    order = constructions.SYNTAX_ENTRIES[entry_name].get("order")
+    counts = rows["category"].value_counts()
+    if order:
+        categories = [c for c in order if c in counts] + [c for c in counts.index if c not in order]
+    else:
+        categories = list(counts.index)
+
+    lines = [
+        f"| {t('tb_syntax_col_category', lang)} | {t('tb_syntax_col_count', lang)} | {t('tb_syntax_col_example', lang)} |",
+        "| --- | --- | --- |",
+    ]
+    for category in categories:
+        subset = rows[rows["category"] == category]
+        if len(subset) < constructions.MIN_ATTESTED:
+            continue
+        # Shortest first: the briefest attested sentence is the one a reader can
+        # take in whole, and length is the gate that mattered most in testing.
+        subset = subset.sort_values("words")
+        example = ""
+        for row in subset.itertuples(index=False):
+            text = sentence_text.get(row.sentence_id)
+            if text:
+                example = _ltr_isolate(text, rtl) + _citation_suffix(row._asdict(), rtl)
+                break
+        lines.append(
+            f"| {_syntax_category_label(category, lang)} | {len(subset)} | {example} |"
+        )
+
+    if len(lines) == 2:
+        return [f"*{t('tb_syntax_unattested', lang)}*"]
+    return lines
+
+
+def format_syntax_reference(
+    body: str,
+    combined_df: pd.DataFrame | None,
+    sentences_df: pd.DataFrame | None,
+    lang: str = DEFAULT_LANG,
+    fmt: str = "agdt-xml",
+) -> str:
+    # The authored reference with each <!--syntax:name--> placeholder replaced by
+    # what the selected texts actually attest. A placeholder naming an entry that
+    # is not attested says so rather than disappearing, so the book never implies
+    # a construction is absent from Greek when it is only absent from this corpus.
+    if combined_df is None or combined_df.empty:
+        return SYNTAX_PLACEHOLDER_RE.sub("", body)
+
+    sentence_text = {}
+    if sentences_df is not None and not sentences_df.empty:
+        sentence_text = dict(zip(sentences_df["sentence_id"], sentences_df["sentence_text"]))
+
+    detected = constructions.all_reference_rows(combined_df, fmt)
+
+    def replace(match: re.Match) -> str:
+        name = match.group(1)
+        rows = detected.get(name)
+        if rows is None or rows.empty:
+            return f"*{t('tb_syntax_unattested', lang)}*"
+        return "\n".join(_syntax_table(rows, name, sentence_text, lang))
+
+    return SYNTAX_PLACEHOLDER_RE.sub(replace, body)
+
+
 def format_passage_appendix(passages: list[dict], lang: str = DEFAULT_LANG) -> str:
     # The passages themselves. Greek is LTR-isolated here rather than left to the
     # HTML export, because wrap_ltr_runs_in_html only runs on that path and the
@@ -2865,9 +2951,11 @@ def generate_textbook_markdown(
         anchor = heading_slug(f"{lesson['rank']}. {lesson['display_label']}")
         markdown_content.append(f"{lesson['rank']}. [{lesson['display_label']}](#{anchor})")
 
-    # Held open for the passage appendix, which cannot be built until known_lemmas
+    # Held open for the two appendices, which cannot be built until known_lemmas
     # is final and that only happens after the lesson loop. An unclaimed slot stays
     # an empty string at the end of the list, where it cannot split the contents.
+    syntax_toc_slot = len(markdown_content)
+    markdown_content.append("")
     passages_toc_slot = len(markdown_content)
     markdown_content.append("")
 
@@ -3042,6 +3130,28 @@ def generate_textbook_markdown(
 
         markdown_content.append("")
 
+    # Syntax closes the book rather than entering the syllabus: these
+    # constructions are built above the word, so the morphology grid the lessons
+    # are generated from has no cell for them. Placed before the passages, which
+    # are where a reader meets them running.
+    appendix_rank = len(lesson_data)
+    syntax_path = grammar_folder / SYNTAX_REFERENCE_FILENAME
+    if syntax_path.exists():
+        _, syntax_body = _split_lesson_title(syntax_path.read_text(encoding="utf-8"))
+        syntax_body = format_syntax_reference(
+            syntax_body, working_combined_df, working_sentences_df, lang=lang
+        )
+        appendix_rank += 1
+        syntax_title = t("tb_syntax_header", lang)
+        anchor = heading_slug(f"{appendix_rank}. {syntax_title}")
+        markdown_content[syntax_toc_slot] = f"{appendix_rank}. [{syntax_title}](#{anchor})"
+        markdown_content.append("---")
+        markdown_content.append("")
+        markdown_content.append(f"# {appendix_rank}. {syntax_title}")
+        markdown_content.append("")
+        markdown_content.append(syntax_body)
+        markdown_content.append("")
+
     # Continuous reading to close on, drawn from the same texts the lessons were
     # built from. known_lemmas now holds everything the book taught, which is what
     # ranks the passages.
@@ -3050,7 +3160,7 @@ def generate_textbook_markdown(
         passages = build_reading_passages(working_sentences_df, working_combined_df, known_lemmas)
 
     if passages:
-        passages_rank = len(lesson_data) + 1
+        passages_rank = appendix_rank + 1
         passages_title = t("tb_passages_header", lang)
         anchor = heading_slug(f"{passages_rank}. {passages_title}")
         markdown_content[passages_toc_slot] = f"{passages_rank}. [{passages_title}](#{anchor})"

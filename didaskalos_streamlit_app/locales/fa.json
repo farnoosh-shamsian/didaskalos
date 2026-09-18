@@ -190,5 +190,21 @@
   "feat_deponent_note": "مجهول‌نما — با معنای معلوم",
   "idle_title": "هنوز آنجا هستید؟",
   "idle_body": "این نشست تا {seconds} ثانیهٔ دیگر بسته می‌شود تا سرور خاموش شود.",
-  "idle_stay": "هنوز اینجا هستم"
+  "idle_stay": "هنوز اینجا هستم",
+  "tb_syntax_header": "مرجع نحو",
+  "tb_syntax_col_category": "ساخت",
+  "tb_syntax_col_count": "شمار گواهی‌ها",
+  "tb_syntax_col_example": "نمونه",
+  "tb_syntax_unattested": "در متن‌های برگزیده برای این کتاب گواهی نشده است.",
+  "tb_syntax_more_examples": "نمونه‌های بیشتر",
+  "syn_potential": "امکانی: ἄν + وجه تمنایی",
+  "syn_indefinite": "جملهٔ نامعین: ἄν + وجه التزامی",
+  "syn_contrafactual": "خلاف واقع / عادت گذشته: ἄν + اخباری گذشته",
+  "syn_simple": "شرط ساده (جزئی)",
+  "syn_present_general": "شرط عام حال",
+  "syn_future_more_vivid": "شرط آینده، صورت زنده‌تر",
+  "syn_future_less_vivid": "شرط آینده، صورت کم‌رنگ‌تر",
+  "syn_present_contrafactual": "خلاف واقع در حال",
+  "syn_past_contrafactual": "خلاف واقع در گذشته",
+  "syn_past_general": "شرط عام گذشته"
 }

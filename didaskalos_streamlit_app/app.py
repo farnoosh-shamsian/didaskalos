@@ -175,6 +175,9 @@ STARTER_LESSON_FILES = [
     "using_a_dictionary.md",
     "greek_dialects.md",
 ]
+# Not a lesson: the syntax reference closes the book, so it is never selected by
+# the syllabus but must always be downloaded with it.
+REFERENCE_LESSON_FILES = ["syntax_reference.md"]
 
 
 def _read_from_local_repo_if_available(source_url: str) -> bytes | None:
@@ -581,7 +584,10 @@ def _build_records_from_urls(urls: list[str], extract_xml_metadata: bool = False
 
 
 def _ensure_starter_lesson_urls(urls: list[str]) -> list[str]:
-    required_urls = [f"{GITHUB_RAW_BASE}/{LESSON_PREFIX}{filename}" for filename in STARTER_LESSON_FILES]
+    required_urls = [
+        f"{GITHUB_RAW_BASE}/{LESSON_PREFIX}{filename}"
+        for filename in STARTER_LESSON_FILES + REFERENCE_LESSON_FILES
+    ]
     combined = list(urls or []) + required_urls
 
     seen = set()
