@@ -22,7 +22,7 @@ So **aorist indicative middle** = "I did something (once) for myself / with refe
 
 ## 2. Forming the Aorist Indicative Middle
 
-### 2.1 The Sigmatic Conjugation (First Aorist)
+### 2.1 The Sigmatic Conjugation (Sigmatic Aorist)
 
 **Augment ἐ‑ + aorist stem (‑σα‑) + the secondary middle endings.**
 
@@ -49,7 +49,7 @@ That is why the second person of the aorist middle ends in ‑ω — a shape tha
 
 ## 3. Full Paradigms
 
-### 3.1 First Aorist Middle: **λύω** "to loose"
+### 3.1 Sigmatic Aorist Middle: **λύω** "to loose"
 
 | Person | Form | Gloss |
 |--------|------|-------|
@@ -62,7 +62,7 @@ That is why the second person of the aorist middle ends in ‑ω — a shape tha
 
 *In a war context λύομαι means "to ransom (a captive) for oneself" — the classic illustration of middle meaning.*
 
-### 3.2 Second Aorist Middle: **γίγνομαι** "to become"
+### 3.2 Thematic Aorist Middle: **γίγνομαι** "to become"
 
 | Person | Form | Gloss |
 |--------|------|-------|
@@ -73,7 +73,7 @@ That is why the second person of the aorist middle ends in ‑ω — a shape tha
 | 2 pl | **ἐγένεσθε** | you (pl.) became |
 | 3 pl | **ἐγένοντο** | they became |
 
-*In the second aorist the 2nd singular ends in ‑ου (ἐγένε(σ)ο → ἐγένου).*
+*In the thematic aorist the 2nd singular ends in ‑ου (ἐγένε(σ)ο → ἐγένου).*
 
 ---
 
@@ -85,7 +85,7 @@ That is why the second person of the aorist middle ends in ‑ω — a shape tha
 | **Loss of σ between vowels** | In the 2nd singular: ‑σασο → ‑σω; ‑ε(σ)ο → ‑ου. | ἐλύσω, ἐγένου |
 | **Keep the three ‑ω's apart** | λύω = present active 1st person; λύσω = future active 1st person; **ἐλύσω** = aorist middle **2nd person** (with the augment!). | The augment is the sure sign |
 | **Deponents** | Verbs without active forms take the same endings and translate actively. | ἐδεξάμην "I received" |
-| **Irregular stems** | The second aorist middle is built on the altered stem. | λαμβάνω → **ἐλαβόμην** "I took hold of" |
+| **Irregular stems** | The thematic aorist middle is built on the altered stem. | λαμβάνω → **ἐλαβόμην** "I took hold of" |
 | **Middle ≠ passive in the aorist** | The passive has its separate ‑θην formation: ἐλυσάμην "I loosed for myself" but ἐλύθην "I was loosed." | — |
 
 ---
@@ -108,3 +108,7 @@ That is why the second person of the aorist middle ends in ‑ω — a shape tha
 2. **Narrative** — the aorist middle is as fundamental to storytelling as the active: ἐγένετο "it happened" is everywhere.
 3. **The second-person trap** — any ‑ω form that carries an augment is a 2nd-person middle, not a present active; internalize this.
 4. **Versus the passive** — for "this was done to me" Greek uses ‑θην; the middle always keeps the subject as the doer.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the aorist indicative at §§33.27–33.33; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the aorist indicative at §§1923–1944.

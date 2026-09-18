@@ -76,3 +76,7 @@ Note that **ἴσθι** does double duty: "know!" from οἶδα and "be!" from 
 1. **ἴσθι and ἴστε** are extremely common in oratory: "know well that…" is a standard appeal to a jury.
 2. **Tragedy** supplies most of the τέθναθι type, where the state commanded is a final one.
 3. **Reading tip.** If you meet a perfect participle next to ἴσθι, ἔστω or ἔστε, read the two together as one imperative.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§689–701 (inflection), with the syntax of the imperative at §§1835–1844.

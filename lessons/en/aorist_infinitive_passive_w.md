@@ -105,7 +105,11 @@ A smaller group forms the passive without θ. The stem often shows a changed vow
 
 ## 6. Historical Development
 
-- The **‑θη‑** passive is a Greek innovation with no exact Indo-European parallel; it grew out of an old stative/intransitive formation, which explains why so many ‑θη‑ aorists are intransitive rather than truly passive (φανῆναι "appear," ἡσθῆναι "be pleased").
+- The **‑θη‑** passive is an innovation within Greek; it grew out of an old stative/intransitive formation, which explains why so many ‑θη‑ aorists are intransitive rather than truly passive (φανῆναι "appear," ἡσθῆναι "be pleased").
 - The **‑η‑ (second) passive** is the older layer, a bare stative suffix added to the root — the same element seen in ἐμάνην "I went mad" and ἐρρύην "I flowed."
 - Both types spread at the expense of the **aorist middle**, which in earlier Greek had carried much of the passive load; by Attic the division of labor is largely settled.
-- In Koine the ‑θη‑ type continued to expand, and its descendant is still visible in the Modern Greek passive aorist (λύθηκα).
+- In Koine the ‑θη‑ type continued to expand.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the infinitive at §§1966–2038.

@@ -19,7 +19,7 @@ For μι-verbs this tense is unusually rewarding, because two of the commonest p
 | ἵστημι | **ἕστηκα** | I have stood up | **I stand** |
 | θνῄσκω | **τέθνηκα** | I have died | **I am dead** |
 | δίδωμι | **δέδωκα** | I have given | I have given |
-| τίθημι | **τέθηκα** | I have placed | I have placed |
+| τίθημι | **τέθεικα** | I have placed | I have placed |
 
 ---
 
@@ -40,7 +40,7 @@ For μι-verbs this tense is unusually rewarding, because two of the commonest p
 | 2 pl | **δεδώκατε** | you (pl.) have given |
 | 3 pl | **δεδώκασι(ν)** | they have given |
 
-τίθημι follows exactly: τέθηκα, τέθηκας, τέθηκε(ν), τεθήκαμεν, τεθήκατε, τεθήκασι(ν).
+τίθημι follows exactly: τέθεικα, τέθεικας, τέθεικε(ν), τεθείκαμεν, τεθείκατε, τεθείκασι(ν).
 
 ### 2.3 ἵστημι: the Perfect with Present Meaning
 
@@ -67,14 +67,14 @@ Infinitive **ἑστάναι**, participle **ἑστώς, ἑστῶσα, ἑσ�
 | **2. ἕστηκα is not "I have stood up" in translation** | Render it "I stand". Likewise τέθνηκα "I am dead", not "I have died", and μέμνημαι "I remember". |
 | **3. Transitive vs. intransitive** | ἵστημι in the present is transitive ("I make stand"); its perfect ἕστηκα is intransitive ("I stand"). The aorist splits the same way: ἔστησα "I set up" vs. ἔστην "I stood". |
 | **4. No augment** | The perfect never takes one. ἐδεδώκη with augment plus reduplication is the pluperfect. |
-| **5. κ before the ending** | δέδω‑**κ**‑α, τέθη‑**κ**‑α: this κ is the mark of the first perfect and distinguishes these forms from the aorist ἔδωκα, which has the augment instead of reduplication. |
+| **5. κ before the ending** | δέδω‑**κ**‑α, τέθη‑**κ**‑α: this κ is the mark of the κ-perfect and distinguishes these forms from the aorist ἔδωκα, which has the augment instead of reduplication. |
 
 ---
 
 ## 4. Example Sentences
 
 - **δέδωκα τῷ παιδὶ τὸ βιβλίον.** — "I have given the child the book."
-- **οἱ νόμοι καλῶς τεθήκασι τὰ τῆς πόλεως.** — "The laws have set the city's affairs in good order."
+- **οἱ νόμοι καλῶς τεθείκασι τὰ τῆς πόλεως.** — "The laws have set the city's affairs in good order."
 - **ἕστηκεν ἐπὶ ταῖς θύραις.** — "He is standing at the door."
 - **τέθνηκεν ὁ ἀνήρ, ὥς φασιν.** — "The man is dead, they say."
 - **ἑστᾶσιν οἱ στρατιῶται ἐν τάξει.** — "The soldiers stand in formation."
@@ -86,3 +86,7 @@ Infinitive **ἑστάναι**, participle **ἑστώς, ἑστῶσα, ἑσ�
 1. **State, not history.** Where the aorist ἔδωκα reports the act of giving, δέδωκα says the thing is now in the recipient's hands. Greek reserves the perfect for cases where the resulting state is what matters; it is **not** the ordinary tense for reporting a completed action. That is the aorist's job.
 2. **ἕστηκα in battle narrative.** Historians use it constantly for troops holding a position, and its participle ἑστώς for whatever is standing — a monument, a wall, a man.
 3. **Reading tip.** Reduplication plus κα is the signature: δέδω‑κα, τέθη‑κα, ἕστη‑κα. Add an augment in front and you have moved to the pluperfect.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the perfect indicative at §§33.34–33.38; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§762–766 (inflection), with the syntax of the perfect indicative at §§1945–1951.

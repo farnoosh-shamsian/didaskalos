@@ -65,7 +65,7 @@ Another example, the verb **ποιέω**, "to do, make":
 ## Key Rules and Exceptions
 - The aorist imperative is built on the **unaugmented aorist stem**: ἔλυσα → stem λυσ‑ → λῦσον.
 - The endings of the first (sigmatic) aorist: 2nd singular **‑σον**, 3rd singular **‑σάτω**, 2nd plural **‑σατε**, 3rd plural **‑σάντων/‑σάτωσαν**.
-- Verbs with a **second aorist** take the present-imperative endings on the aorist stem: λαμβάνω → **λαβέ** "take!"; λέγω → **εἰπέ** "say!". Five famous imperatives accent the final syllable: εἰπέ, ἐλθέ, εὑρέ, ἰδέ, λαβέ.
+- Verbs with a **thematic aorist** take the present-imperative endings on the aorist stem: λαμβάνω → **λαβέ** "take!"; λέγω → **εἰπέ** "say!". Five famous imperatives accent the final syllable: εἰπέ, ἐλθέ, εὑρέ, ἰδέ, λαβέ.
 - The imperative has no first person; for "let us …" Greek uses the hortatory subjunctive.
 - A **prohibition of a single act** is normally expressed not by the aorist imperative but by **μή + aorist subjunctive**: μὴ λύσῃς "do not loose!"
 
@@ -78,4 +78,8 @@ Another example, the verb **ποιέω**, "to do, make":
 The aorist imperative commands a specific, single action and is very common in prayers and formal requests (prayers almost always use the aorist: "give us this day…"). Its contrast with the present imperative is one of **aspect**, not time: present imperative = "keep doing this / always do this"; aorist imperative = "do this (once)." Attending to this contrast makes the force of a command much more precise when reading texts.
 
 ## Historical Development
-The aorist is one of the oldest aspectual categories of Indo-European, and its Greek marker ‑σ(α)‑ goes back to the sigmatic suffix of the parent language. The 3rd person plural ending ‑τωσαν is a later development that replaced classical ‑ντων in Koine Greek; this is why classical Attic texts show λυσάντων while later texts (including the New Testament) show λυσάτωσαν. Knowing this development helps in reading texts from different periods.
+Of the two 3rd person plural endings, ‑τωσαν is the later. It is already in use within the classical period — in prose after Thucydides, in Euripides, and in inscriptions after 300 BCE — and it displaces ‑ντων steadily thereafter, so earlier Attic prose tends to show λυσάντων where later texts, including the New Testament, show λυσάτωσαν. Knowing this development helps in reading texts from different periods.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the imperative at §§1835–1844.

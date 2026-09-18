@@ -32,14 +32,14 @@ The aorist participle can be used:
 
 ### 2.1 Basic Morphology
 
-First aorist participle = **aorist stem (without the augment) + ‑σα‑ + the suffix ‑ντ‑ + endings**:
+Sigmatic aorist participle = **aorist stem (without the augment) + ‑σα‑ + the suffix ‑ντ‑ + endings**:
 
 | | Masculine | Feminine | Neuter |
 |---------------------|-----------|----------|--------|
 | **Singular (nom.)** | **‑σας** | **‑σασα** | **‑σαν** |
 | **Plural (nom.)** | **‑σαντες** | **‑σασαι** | **‑σαντα** |
 
-> **Note:** the endings ‑ων/‑ουσα/‑ον belong to the **present** participle (and the second aorist); the first aorist always has ‑ας/‑ασα/‑αν.
+> **Note:** the endings ‑ων/‑ουσα/‑ον belong to the **present** participle (and the thematic aorist); the sigmatic aorist always has ‑ας/‑ασα/‑αν.
 
 ### 2.2 Full Declension Table (example verb: **γράφω** "to write")
 
@@ -58,7 +58,7 @@ First aorist participle = **aorist stem (without the augment) + ‑σα‑ + the
 |-----------|------------------------|------------------|
 | **Regular** | ἔγραψα | **γράψας** |
 | **Contract** (lengthened vowel) | ἐφίλησα, ἐτίμησα | **φιλήσας**, **τιμήσας** |
-| **Second aorist** (endings in ‑ών) | ἔλαβον, εἶδον, ἦλθον | **λαβών**, **ἰδών**, **ἐλθών** (genitive: λαβόντος) |
+| **Thematic aorist** (endings in ‑ών) | ἔλαβον, εἶδον, ἦλθον | **λαβών**, **ἰδών**, **ἐλθών** (genitive: λαβόντος) |
 | **μι-Verbs** | ἔδωκα, ἔθηκα | **δούς**, **θείς** (in the μι lesson) |
 
 > **Practical tip:** for most regular verbs the pattern "stem + σας" works without trouble; for irregular verbs, find the participle from the dictionary (the third principal part).
@@ -75,7 +75,7 @@ First aorist participle = **aorist stem (without the augment) + ‑σα‑ + the
 | **Position** | With the article = attributive/relative (ὁ γράψας); without the article = circumstantial. |
 | **With verbs of perception** | After ὁρῶ, ἀκούω and the like, it expresses the perceived action: ὁρῶ αὐτὸν γράψαντα "I see that he wrote." |
 | **Temporal and causal** | "when/after he wrote" or "since he wrote" — context decides; particles such as ἅτε (cause) and καίπερ (concession) make the sense explicit. |
-| **Second aorist** | Endings ‑ών/‑οῦσα/‑όν with the accent on the ending; distinguished from the present participle by the stem: λαμβάνων (present) ≠ λαβών (aorist). |
+| **Thematic aorist** | Endings ‑ών/‑οῦσα/‑όν with the accent on the ending; distinguished from the present participle by the stem: λαμβάνων (present) ≠ λαβών (aorist). |
 
 ---
 
@@ -103,4 +103,8 @@ First aorist participle = **aorist stem (without the augment) + ‑σα‑ + the
 
 ## 6. Historical Note
 
-The suffix ‑ντ‑ (visible in γράψαντος) is the ancient Indo-European active participle suffix; combined with the sigmatic marker ‑σα‑ it produced ‑σας (from *‑σαντς). The feminine ‑σασα arose from *‑σαντ-ya by regular sound change. The same suffix appears in Latin (‑nt‑: *amans, amantis*) and in other related languages.
+The suffix ‑ντ‑ (visible in γράψαντος) is the ancient active participle suffix; combined with the sigmatic marker ‑σα‑ it produced ‑σας (from *‑σαντς). The feminine ‑σασα arose from *‑σαντ-ya by regular sound change.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the participle at §§2039–2148.

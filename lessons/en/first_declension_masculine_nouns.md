@@ -36,7 +36,7 @@ Everything else — including the entire plural — matches the feminine paradig
 ## Points to watch
 
 - **The genitive -ου is the key signal.** It distinguishes first-declension πολίτης (gen. πολίτου) from third-declension nouns that also end in -ης, like Σωκράτης (gen. Σωκράτους).
-- Nouns in -της take the vocative in -α with recessive accent: ὦ δέσποτα "O master!"
+- Nouns in -της take the vocative in -α: ὦ πολῖτα. A few of them also draw the accent back: δεσπότης → ὦ δέσποτα "O master!"
 - The article resolves any doubt about gender: **ὁ** πολίτης is masculine even though the endings look like τιμή's.
 - The genitive plural is -ῶν here too: πολιτῶν, νεανιῶν.
 
@@ -61,3 +61,7 @@ Homer's -ᾱο is the oldest of the three. Ionic -εω is what -ᾱο became whe
 - ὁ ποιητὴς λέγει — "the poet speaks"
 - οἱ τοῦ στρατιώτου ἵπποι — "the soldier's horses" (genitive)
 - ὦ πολῖτα — "citizen!" (vocative)
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.8–4.13; and in Smyth's *A Greek Grammar for Colleges* (1920), §§222–226.

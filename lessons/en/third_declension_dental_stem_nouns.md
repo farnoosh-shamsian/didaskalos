@@ -74,11 +74,8 @@ A neuter stem has no -ς in the nominative at all. It would end in the bare stem
 |---|---|
 | ποσί(ν) "to the feet" | **πόδεσσι(ν)** |
 | παισί(ν) "to the children" | **παίδεσσι(ν)** |
-| νυξί(ν) "in the nights" | **νύκτεσσι(ν)** |
 
 The advantage to a poet is obvious: -εσσι adds a syllable and sidesteps the awkward clusters that -σι produces after a dental. It is one of the clearest cases of Homeric Greek being a made language, assembled from several dialects for the convenience of verse.
-
-**Ionic** keeps vowels uncontracted where Attic runs them together, so these stems can look longer in Herodotus than in Plato.
 
 **The -μα, -ματος class expands enormously in Koine.** Neuter dental stems were always numerous, but in Hellenistic Greek they became the standard way to coin a noun meaning "the result of doing X", and the New Testament vocabulary is full of them: **πνεῦμα** "spirit", **ῥῆμα** "word", **θέλημα** "will", **βάπτισμα** "baptism", **χάρισμα** "gift", **κρίμα** "judgement", **αἷμα** "blood", beside ὄνομα and σῶμα. If you are reading Koine, no other noun pattern repays the effort as quickly.
 
@@ -89,3 +86,7 @@ The advantage to a poet is obvious: -εσσι adds a syllable and sidesteps the 
 - τὰ πράγματα χαλεπά ἐστιν — "the affairs are difficult" (neuter plural with a singular verb)
 - τῆς νυκτός — "by night" (genitive of time)
 - ἐλπίδα ἔχομεν — "we have hope"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.40–4.48; and in Smyth's *A Greek Grammar for Colleges* (1920), §257, with the neuter τ-stems at §258.

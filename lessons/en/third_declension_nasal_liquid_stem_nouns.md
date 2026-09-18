@@ -34,23 +34,21 @@ The kinship nouns in -ηρ — πατήρ "father", μήτηρ "mother", θυγ�
 - **ν drops before the dative plural -σι(ν)**: δαιμον- + σι → δαίμοσι(ν). (ρ stays: ῥήτορσι.)
 - **ἀνήρ is the most important irregular of the group.** It syncopates everywhere and inserts a δ: ἀνδρός, ἀνδρί, ἄνδρα, voc. ἄνερ; pl. ἄνδρες, ἀνδρῶν, ἀνδράσι(ν), ἄνδρας.
 - The syncopated dative plural inserts -α-: πατράσι(ν), ἀνδράσι(ν).
-- Vocatives are the bare stem with recessive accent: δαῖμον, πάτερ, ἄνερ.
+- Where a distinct vocative exists, it is the bare stem with recessive accent: δαῖμον, πάτερ, ἄνερ.
 
 ## Historical Development
 
-The kinship terms in this group — πατήρ, μήτηρ, θυγάτηρ, ἀνήρ — are among the oldest words in Greek, inherited directly from Indo-European, and their awkwardness is the awkwardness of great age. The syncopation you learned (πατρός, not πατέρος) is a shortening that had not finished happening when the epics were composed.
+The kinship terms in this group — πατήρ, μήτηρ, θυγάτηρ, ἀνήρ — are among the oldest words in Greek, and their awkwardness is the awkwardness of great age. The syncopation you learned (πατρός, not πατέρος) is a shortening that had not finished happening when the epics were composed.
 
 **Homer keeps the unsyncopated forms** alongside the short ones, and picks whichever suits the metre: θυγατέρος beside θυγατρός, πατέρι beside πατρί, ἀνέρος beside ἀνδρός. So in epic you will meet both halves of the paradigm side by side, sometimes within a few lines.
 
 | | Homer | Attic |
 |---|---|---|
 | Genitive singular | πατέρος / πατρός | πατρός |
-| Dative plural | πατράσι, ἀνδράσι; also **-εσσι** (ἄνδρεσσι) | πατράσι(ν), ἀνδράσι(ν) |
+| Dative plural | ἀνδράσι; also **-εσσι** (ἄνδρεσσι) | πατράσι(ν), ἀνδράσι(ν) |
 | ἀνήρ, stem | ἀνέρ- / ἀνδρ- | ἀνδρ- |
 
 The dative plurals πατράσι and ἀνδράσι, with their unexpected α, are themselves survivals: the α is what became of a syllabic consonant far back in the prehistory of the language, and every dialect inherited the same odd result.
-
-**Ionic** keeps forms uncontracted here as elsewhere, and Herodotus has the epic-looking ἀνέρες type in places.
 
 **In Koine** the paradigm is the Attic one and entirely stable. These are high-frequency words in every period — πατήρ and ἀνήρ are among the commonest nouns in the New Testament — so the irregularities are worth learning once and thoroughly, whatever corpus you are reading. The nouns in **-τηρ / -τωρ** naming an agent (σωτήρ "saviour", ῥήτωρ "orator", ἡγεμών "leader") also stay productive throughout.
 
@@ -58,4 +56,8 @@ The dative plurals πατράσι and ἀνδράσι, with their unexpected α,
 
 - ὁ τῶν Ἑλλήνων ἡγεμών — "the leader of the Greeks"
 - τῷ πατρὶ πείθομαι — "I obey my father" (dative)
-- ἄνδρες πολῖται — "men of the city, fellow citizens" (vocative, the classic opening of speeches)
+- ἄνδρες πολῖται — "men of the city, fellow citizens" (vocative)
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.53–4.64; and in Smyth's *A Greek Grammar for Colleges* (1920), §§259–261, with the stems in ερ varying with ρ at §262.

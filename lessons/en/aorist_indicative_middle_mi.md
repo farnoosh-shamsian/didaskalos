@@ -116,10 +116,9 @@ The verb πρίαμαι "to buy" is used only in the aorist and has a perfectly 
 
 ## 6. Historical Development
 
-- **Indo-European roots**: athematic inflection (endings attached directly to the root) is the oldest layer of the Indo-European verb; the μι aorist middles preserve it intact.
 - **Homeric Greek**: these forms abound in epic (θέτο, δόσθαι), sometimes without the augment — an old poetic liberty.
 - **The Classical period**: the forms became fixed in Attic prose, and legal idioms (νόμους θέσθαι) flourished.
-- **Later Greek**: in the Koine the athematic formations were gradually rebuilt on the analogy of ω-verbs; in Modern Greek nothing survives of them except fossilized words.
+- **Later Greek**: in the Koine the athematic formations were gradually rebuilt on the analogy of ω-verbs.
 
 ---
 
@@ -135,3 +134,7 @@ The verb πρίαμαι "to buy" is used only in the aorist and has a perfectly 
 | 3 pl. | ἐλύσαντο | ἔθεντο |
 
 **Closing tip:** whenever you meet a middle form whose ending sits directly on a short stem like θε‑ or δο‑, you are looking at the aorist middle of a μι-verb.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the aorist indicative at §§33.27–33.33; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the aorist indicative at §§1923–1944.

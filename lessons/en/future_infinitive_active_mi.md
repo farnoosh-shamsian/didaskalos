@@ -76,3 +76,7 @@ In the future, μι-verbs behave exactly like ω-verbs. The athematic stem lengt
 1. **Treaties and negotiations** run on this form: what each side undertakes to do is reported with a future infinitive after ὑπισχνέομαι or ὄμνυμι.
 2. **In indirect statement** the future infinitive preserves the tense of the original: "I will give" (δώσω) reported becomes δώσειν whatever the tense of the main verb.
 3. **Reading tip.** Long vowel + σ + ειν, and no augment: the future active infinitive, whether the verb is a μι-verb or not.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §754 (inflection), with the syntax of the infinitive at §§1966–2038.

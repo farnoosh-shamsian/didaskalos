@@ -42,7 +42,7 @@ Aorist stem in ‑σα‑ + **‑σθαι**:
 
 ### 2.2 Second (thematic) aorist — ending **‑έσθαι**
 
-Second-aorist stem + the thematic ending, always accented on the penult:
+Thematic aorist stem + the thematic ending, always accented on the penult:
 
 | Verb | Aorist middle indicative | Aorist middle infinitive | Sense |
 |---|---|---|---|
@@ -67,8 +67,8 @@ Second-aorist stem + the thematic ending, always accented on the penult:
 | Rule | Explanation | Example |
 |---|---|---|
 | **1. No augment** | The augment belongs to the indicative only. Strip it before forming the infinitive. | ἐλυσάμην → λύσασθαι (not *ἐλύσασθαι*) |
-| **2. Stem type decides the ending** | Sigmatic aorists take ‑σασθαι; second aorists take ‑έσθαι. | παύσασθαι vs. γενέσθαι |
-| **3. Accent** | ‑σασθαι infinitives accent the penult (λύσασθαι); second-aorist middle infinitives accent the penult too, on the ε: γενέσθαι, λαβέσθαι. | |
+| **2. Stem type decides the ending** | Sigmatic aorists take ‑σασθαι; thematic aorists take ‑έσθαι. | παύσασθαι vs. γενέσθαι |
+| **3. Accent** | ‑σασθαι infinitives have a recessive accent (λύσασθαι); thematic aorist middle infinitives accent the penult, on the ε: γενέσθαι, λαβέσθαι. | |
 | **4. Aspect, not time** | The aorist infinitive says nothing about past time except in indirect discourse. | βούλεται παύσασθαι "he wants to stop" |
 | **5. In indirect discourse it does mark time** | After verbs of saying/thinking, the aorist infinitive represents a past indicative. | ἔφη παύσασθαι "he said that he had ceased" |
 | **6. Middle ≠ passive** | The aorist keeps them apart: λύσασθαι (middle) vs. λυθῆναι (passive). | |
@@ -102,6 +102,9 @@ Thucydides is especially fond of γενέσθαι and πυθέσθαι in report
 ## 6. Historical Development
 
 - The middle ending **‑σθαι** is the regular infinitive marker of the middle voice throughout the Greek verb (present λύεσθαι, perfect λελύσθαι, aorist λύσασθαι) — a stable formation from Proto-Greek onwards.
-- The **‑σα‑** of the first aorist reflects the Indo-European sigmatic aorist suffix *‑s‑, seen also in Latin *dīxī* and Sanskrit *ábhārṣam*.
-- The **second aorist** infinitive ‑έσθαι shows the thematic vowel that the sigmatic type lacks.
-- In Koine the middle voice steadily lost ground to the passive, and in Modern Greek the infinitive disappeared altogether, replaced by να-clauses.
+- The **thematic aorist** infinitive ‑έσθαι shows the thematic vowel that the sigmatic type lacks.
+- In Koine the middle voice steadily lost ground to the passive.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the infinitive at §§1966–2038.

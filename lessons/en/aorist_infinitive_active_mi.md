@@ -112,6 +112,10 @@ This is the one genuine trap in the lesson:
 ## 6. Historical Development
 
 - The ending **‑ναι** is the athematic infinitive marker, the same one seen in the present διδόναι and in εἶναι. The aorist and present differ only by stem, not by ending.
-- The **root aorist** (ἔδων/ἔστην type) is the oldest aorist formation in Indo-European, preserving a bare root with secondary endings. Sanskrit *ádāt* "he gave" is the exact counterpart of Greek ἔδω‑.
+- The **root aorist** (ἔστην type) is the oldest aorist formation in Greek, preserving a bare root with secondary endings.
 - **δοῦναι** derives from *δο‑εναι with contraction; the circumflex is the trace of that lost vowel.
 - As the ‑μι class eroded in later Greek, these infinitives were among the last athematic forms to survive, precisely because the compounds (παραδοῦναι, ἀποστῆναι) were so heavily lexicalized in legal, military, and religious language.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the infinitive at §§1966–2038.

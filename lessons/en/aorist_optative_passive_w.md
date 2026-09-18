@@ -66,7 +66,6 @@ The longer plural forms in ‑ίη‑ are the older set; Attic prefers the short
 ## 4. Example Sentences
 
 - **εἴθε λυθείησαν οἱ αἰχμάλωτοι.** — "If only the prisoners might be freed!"
-- **οὐκ ἂν ῥᾳδίως ἁλωθείη ἡ πόλις.** — "The city would not easily be captured."
 - **ἐφοβεῖτο μὴ ἡ ἐπιστολὴ ἀναγνωσθείη.** — "He was afraid the letter might be read out."
 - **ἔπεμψαν ἀγγέλους ὅπως σπονδαὶ γένοιντο καὶ ἡ εἰρήνη κυρωθείη.** — "They sent messengers so that a truce might be made and the peace ratified."
 
@@ -77,3 +76,7 @@ The longer plural forms in ‑ίη‑ are the older set; Attic prefers the short
 1. **Secondary sequence** is the commonest home of this form: a purpose or fear clause depending on a past verb.
 2. **Wishes** are introduced by εἴθε or εἰ γάρ: εἴθε γραφείη "would that it were written".
 3. **Reading tip.** The optative is the rarest of the moods in later Greek but thrives in classical Attic prose — in Plato and Xenophon it is everywhere, and ‑θείη is its passive shape.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the optative at §§1814–1834.

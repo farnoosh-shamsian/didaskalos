@@ -35,9 +35,9 @@ A row tagged "middle/passive" here is usually a **deponent** — a verb whose mi
 | βουλεύω | **βουλεύσασθαι** | to deliberate |
 | ἀποκρίνομαι | **ἀποκρίνασθαι** | to answer |
 
-Second aorists take the thematic ending ‑έσθαι: **γενέσθαι** "to become", **λαβέσθαι** "to take hold of", **ἑλέσθαι** "to choose".
+Thematic aorists take the thematic ending ‑έσθαι: **γενέσθαι** "to become", **λαβέσθαι** "to take hold of", **ἑλέσθαι** "to choose".
 
-The accent is recessive in the first aorist (λύσασθαι) but fixed on the penult in the second aorist (γενέσθαι, λαβέσθαι).
+The accent is recessive in the sigmatic aorist (λύσασθαι) but fixed on the penult in the thematic aorist (γενέσθαι, λαβέσθαι).
 
 ### 2.2 The Aorist Passive Infinitive: **λυθῆναι**
 
@@ -86,4 +86,8 @@ The accent is recessive in the first aorist (λύσασθαι) but fixed on the 
 
 1. **Indirect statement** is the one place the aorist infinitive carries time: after φημί, λέγεται and similar, λυθῆναι reports "he was freed", not "he is freed".
 2. **Prose formulas.** ἔδοξεν αὐτοῖς + infinitive "they resolved to…" opens countless decrees; βουλεύσασθαι and ψηφίσασθαι are its usual completions.
-3. **Reading tip.** ‑σασθαι: middle. ‑θῆναι: passive form. ‑έσθαι with no σ: second aorist middle.
+3. **Reading tip.** ‑σασθαι: middle. ‑θῆναι: passive form. ‑έσθαι with no σ: thematic aorist middle.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64 and §§14.1–14.31, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554, 585–588, 590–596 (formation) and §§665–671, 672–678, 679–688 (inflection), with the syntax of the infinitive at §§1966–2038.

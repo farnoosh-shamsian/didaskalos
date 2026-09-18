@@ -33,7 +33,7 @@ The basic rule: aorist indicative passive = augment + stem + ‑θη‑ + ending
 
 - In contract verbs the stem vowel lengthens before ‑θη‑: φιλέω → ἐφιλήθην, τιμάω → ἐτιμήθην.
 - The final consonant of the stem may change before θ: πέμπω → ἐπέμφθην, ἄγω → ἤχθην.
-- A group of verbs has a "**second aorist passive**": instead of ‑θη‑ they take plain ‑η‑: ἐγράφην "I was written," ἐφάνην "I appeared."
+- A group of verbs has a "**η-aorist passive**": instead of ‑θη‑ they take plain ‑η‑: ἐγράφην "I was written," ἐφάνην "I appeared."
 
 ### Present Stems and Aorist Passives of ω-Verbs
 | Verb | Present stem | Aorist passive |
@@ -51,4 +51,8 @@ A few examples of the aorist indicative passive of ω-verbs in use:
 The aorist indicative passive describes completed actions that directly affected the subject. It is particularly useful in narrative and historical writing, since it reports the action without emphasizing who performed it; when the agent does matter, it is expressed with **ὑπό + genitive**: ἐπαιδεύθη ὑπὸ τοῦ διδασκάλου "he was educated by the teacher."
 
 ## Historical Development
-The ω-verbs reached Greek from Proto-Indo-European. The marker ‑θη‑, however, is an innovation within Greek itself: originally it expressed a change of state and only gradually took on the role of a full passive. The passive voice as a whole grew out of the middle — the middle, which described action in the subject's interest, came to be used also for action done to the subject, and eventually the distinct ‑θην formation arose in the aorist. Awareness of this development helps in understanding the structure and evolution of Greek.
+The marker ‑θη‑ is an innovation within Greek itself: originally it expressed a change of state and only gradually took on the role of a full passive. The passive voice as a whole grew out of the middle — the middle, which described action in the subject's interest, came to be used also for action done to the subject, and eventually the distinct ‑θην formation arose in the aorist. Awareness of this development helps in understanding the structure and evolution of Greek.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the aorist indicative at §§33.27–33.33; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the aorist indicative at §§1923–1944.

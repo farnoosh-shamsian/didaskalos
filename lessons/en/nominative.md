@@ -20,7 +20,7 @@ The nominative does three jobs.
 - **Σωκράτης φιλόσοφός ἐστιν.** — "Socrates is a philosopher."
 - **ὁ παῖς βασιλεὺς γίγνεται.** — "The child becomes king."
 
-**The dictionary form.** The nominative singular is the form under which a noun is listed in a lexicon, and it is the form from which you predict a noun's declension. It is also the one case no preposition ever governs.
+**The dictionary form.** The nominative singular is the form under which a noun is listed in a lexicon, and it is the form from which you predict a noun's declension.
 
 Anything agreeing with a nominative noun — its article, its adjectives, a participle describing it — is nominative too: **ὁ σοφὸς ἀνὴρ ἀγαθός ἐστιν** "the wise man is good."
 
@@ -127,7 +127,7 @@ _Key points_
 | Declension | Gender | Nom. sing. | Voc. sing. | Nom./voc. plural |
 | --- | --- | --- | --- | --- |
 | 1st | Fem. | ‑ᾱ / ‑ᾰ / ‑η | same as nominative | ‑αι |
-| 1st | Masc. | ‑ᾱς / ‑ης | ‑ᾱ / ‑ᾰ (‑ς dropped) | ‑αι |
+| 1st | Masc. | ‑ᾱς / ‑ης | ‑ᾱ / ‑ᾰ / ‑η (‑ς dropped) | ‑αι |
 | 2nd | Masc. | ‑ος | **‑ε** | ‑οι |
 | 2nd | Neut. | ‑ον | same as nominative | ‑α |
 | 3rd | Most nouns | ‑ς, ‑ν, ‑ρ, … | same as nominative | ‑ες (neut. ‑α) |
@@ -151,7 +151,7 @@ The nominative endings themselves are the most conservative in the noun system. 
 
 So the plain Σώκρατες-type address without ὦ, which sounds brusque in Plato, is simply the ordinary form in the New Testament. Where the NT does use ὦ — ὦ γύναι, μεγάλη σου ἡ πίστις "woman, great is your faith" — it is genuinely emphatic.
 
-**Koine addresses with the nominative.** Rule 6 in §4 above notes that Greek can use the article plus a nominative in place of a vocative. That construction, occasional and colloquial in Attic, becomes **routine in the New Testament**: ὁ πατήρ "Father!", τὸ κοράσιον, ἔγειρε "Little girl, arise!", ναί, ὁ πατήρ. Semitic influence is usually held to have encouraged it, since Hebrew and Aramaic address in much the same way. Modern Greek has gone the whole distance: the vocative survives only in the masculine singular.
+**Koine addresses with the nominative.** Rule 6 in §4 above notes that Greek can use the article plus a nominative in place of a vocative. That construction, occasional and colloquial in Attic, becomes **routine in the New Testament**: ὁ πατήρ "Father!", τὸ κοράσιον, ἔγειρε "Little girl, arise!", ναί, ὁ πατήρ. Semitic influence is usually held to have encouraged it, since Hebrew and Aramaic address in much the same way.
 
 **Homeric nominatives in -ᾰ.** Epic has a set of masculine nominatives with no -ς at all, confined to formulaic titles: ἱππότα Νέστωρ, νεφεληγερέτα Ζεύς, μητίετα Ζεύς. They look like vocatives serving as subjects, and that may be their origin.
 
@@ -166,3 +166,7 @@ So the plain Σώκρατες-type address without ὦ, which sounds brusque in 
 | **ὦ πάτερ, ἐλθὲ πρὸς ἡμᾶς.** | Father, come to us. |
 | **ὦ παῖ, φέρε τὸ βιβλίον.** | Child, bring the book. |
 | **ὦ φίλε, χαῖρε.** | Friend, greetings. |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§30.2–30.7 (nominative) and §30.55 (vocative); and in Smyth's *A Greek Grammar for Colleges* (1920), §§938–943 (nominative) and §§1283–1288 (vocative).

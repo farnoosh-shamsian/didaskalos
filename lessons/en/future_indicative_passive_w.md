@@ -99,3 +99,7 @@ Passive deponents form this future with **active meaning**:
 | 1 pl. | ‑θησόμεθα | λυθησόμεθα |
 | 2 pl. | ‑θήσεσθε | λυθήσεσθε |
 | 3 pl. | ‑θήσονται | λυθήσονται |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§16.1–16.6, with the syntax of the future indicative at §§33.43–33.45; and in Smyth's *A Greek Grammar for Colleges* (1920), §§589, 597–598 (formation) and §§663–664 (inflection), with the syntax of the future indicative at §§1910–1922.

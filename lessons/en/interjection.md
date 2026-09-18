@@ -73,3 +73,7 @@ Interjections are the most register-bound words in the language: they belong to 
 - φεῦ φεῦ, τί λέξω; — "Alas, alas — what shall I say?"
 - ὤμοι, πέπληγμαι. — "Ah me, I am struck!" (Aeschylus, the cry of Agamemnon)
 - ὢ πόποι, οἷον ἔργον εἴργασται. — "Good heavens, what a deed has been done!"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§38.46–38.51 (exclamations), with ὦ before a vocative at §30.55; and in Smyth's *A Greek Grammar for Colleges* (1920), §§2681–2687 (exclamatory sentences), with ὦ before a vocative at §§1283–1288.

@@ -77,3 +77,7 @@ Most future participles you meet belong to verbs whose future is middle in form 
 1. **With the article** it names people by what is going to happen to them: οἱ λυθησόμενοι "those about to be freed".
 2. **After verbs of motion** the future participle is the natural way to state an errand.
 3. **Reading tip.** σόμενος = future middle; θησόμενος = future passive; όμενος alone = present.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40 and §§16.1–16.6, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541, 589, 597–598 (formation) and §§658–662, 663–664 (inflection), with the syntax of the participle at §§2039–2148.

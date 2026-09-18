@@ -50,7 +50,7 @@ Same endings, same contraction — only the stem differs, and with it the aspect
 | 2 pl | **θῆτε** | **στῆτε** |
 | 3 pl | **θῶσι(ν)** | **στῶσι(ν)** |
 
-> **ἵστημι note:** these forms belong to the **intransitive root aorist ἔστην** "I stood." The transitive first aorist ἔστησα "I set up" has a sigmatic subjunctive στήσω, στήσῃς — a different verb-form with a different syntax.
+> **ἵστημι note:** these forms belong to the **intransitive root aorist ἔστην** "I stood." The transitive sigmatic aorist ἔστησα "I set up" has a sigmatic subjunctive στήσω, στήσῃς — a different verb-form with a different syntax.
 
 ### 2.3 Other Root Aorists of the Same Shape
 
@@ -112,7 +112,11 @@ Same endings, same contraction — only the stem differs, and with it the aspect
 
 ## 6. Historical Development
 
-- The **root aorist** (ἔδων, ἔθην, ἔστην type) is the oldest aorist formation in Indo-European: a bare root with personal endings and no suffix at all.
+- The **root aorist** (ἔστην type) is the oldest aorist formation in Greek: a bare root with personal endings and no suffix at all.
 - In the subjunctive these roots take the **long thematic vowel**, which then contracts with the root vowel — the reason δο‑ + ω yields δῶ and στα‑ + η yields στῶ.
-- The **contrast reduplicated/unreduplicated** is the cleanest surviving expression of the Indo-European aspect system in Greek: imperfective stems are reduplicated, aoristic stems are not.
+- The **contrast reduplicated/unreduplicated** is the cleanest expression of the aspect system in these verbs: imperfective stems are reduplicated, aoristic stems are not.
 - Because these forms were so short, they were vulnerable; later Greek gradually replaced them with regularized thematic formations, and the whole ‑μι class disappeared by the medieval period.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the subjunctive at §§1795–1813.

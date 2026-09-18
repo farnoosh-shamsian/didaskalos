@@ -68,3 +68,7 @@ pos: verb
 1. **Administrative Greek.** Lists of what is to be done, given or recorded use this participle with the article.
 2. **Compared with the verbal adjective** in ‑τέος ("must be freed"), the future participle states expectation rather than obligation.
 3. **Reading tip.** θησόμενος at the end of an adjective-shaped word: future passive participle.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§16.1–16.6, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§589, 597–598 (formation) and §§663–664 (inflection), with the syntax of the participle at §§2039–2148.

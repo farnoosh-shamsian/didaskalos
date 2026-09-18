@@ -121,8 +121,8 @@ These decline and agree like ordinary adjectives. Just as common is the plain **
 ## 9. Points to Watch
 
 - **Breathings and accents distinguish look-alikes:** αὕτη "this (f.)" vs. αὐτή "she/herself"; ἥ (relative) vs. ἡ (article); τίς; "who?" vs. τις "someone".
-- **A neuter plural subject takes a singular verb** with pronouns too: ταῦτα καλά ἐστιν "these things are beautiful."
-- The genitive of a demonstrative or of αὐτός sits in **predicate position**: ἡ γυνὴ αὐτοῦ "his wife".
+- **A neuter plural subject normally takes a singular verb** with pronouns too: ταῦτα καλά ἐστιν "these things are beautiful."
+- The genitive of αὐτός sits in **predicate position**: ἡ γυνὴ αὐτοῦ "his wife".
 
 ## 10. Historical Development
 
@@ -157,3 +157,7 @@ Pronouns are among the oldest and most-used words in any language, and heavy use
 - ὁ ἀνὴρ ὃν εἶδες φίλος ἐμός ἐστιν. — "The man whom you saw is my friend."
 - αὐτὸς ἔφη. — "He himself said it." (the famous *ipse dixit*)
 - γνῶθι σεαυτόν. — "Know yourself."
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§7.1–7.26 (forms) and §§29.1–29.52 (uses); and in Smyth's *A Greek Grammar for Colleges* (1920), §§325–340 (forms) and §§1190–1278 (uses).

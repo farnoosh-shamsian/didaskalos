@@ -117,3 +117,7 @@ When the stem ends in a consonant, that consonant assimilates to the ending — 
 ## 7. Historical Note
 
 The direct attachment of the endings to the stem makes the perfect middle/passive one of the oldest and most regular formations in Greek; the consonant assimilations (γέγραπται) transparently display the language's phonological rules, and the periphrastic third plural (γεγραμμένοι εἰσί) foreshadows the periphrastic conjugations of later Greek.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§19.1–19.9, with the syntax of the perfect indicative at §§33.34–33.38; and in Smyth's *A Greek Grammar for Colleges* (1920), §§574–579 (formation) and §§706–716 (inflection), with the syntax of the perfect indicative at §§1945–1951.

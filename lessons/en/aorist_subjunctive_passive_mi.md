@@ -69,3 +69,7 @@ The same pattern on the other stems: **τεθῶ, τεθῇς, τεθῇ**…; *
 1. **Conditions and purpose clauses** in decrees and treaties: what is to happen if something is granted or handed over.
 2. **Fear clauses** with μή are frequent in the historians, where the thing feared is usually something being surrendered.
 3. **Reading tip.** θ + circumflexed ω/η + no augment: aorist passive subjunctive, whatever the verb's conjugation.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the subjunctive at §§1795–1813.

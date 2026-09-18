@@ -82,3 +82,7 @@ Where no simple form exists, Greek uses the perfect participle with the future o
 1. **Emphatic finality.** Orators use the future perfect to say that a matter will be closed for good.
 2. **Tragedy** likes τεθνήξω "I shall be dead" for its bleak completeness.
 3. **Reading tip.** Reduplication plus σ plus a middle ending. If you see all three, you have found the rarest tense in the language.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§20.1–20.7, with the syntax of the future perfect indicative at §§33.46–33.47; and in Smyth's *A Greek Grammar for Colleges* (1920), §§580–584 (formation) and §§658–662 (inflection), with the syntax of the future perfect indicative at §§1955–1958.

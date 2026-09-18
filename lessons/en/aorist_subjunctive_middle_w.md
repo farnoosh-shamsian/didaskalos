@@ -32,7 +32,7 @@ The subjunctive is marked by the **long thematic vowel** (ω/η). No augment.
 | 2nd | **λύσῃ** | **λύσησθε** |
 | 3rd | **λύσηται** | **λύσωνται** |
 
-**Second aorist: γίγνομαι → ἐγενόμην → γένωμαι (deponent, "become"):**
+**Thematic aorist: γίγνομαι → ἐγενόμην → γένωμαι (deponent, "become"):**
 
 | Person | Singular | Plural |
 |--------|------|--------|
@@ -40,7 +40,7 @@ The subjunctive is marked by the **long thematic vowel** (ω/η). No augment.
 | 2nd | **γένῃ** | **γένησθε** |
 | 3rd | **γένηται** | **γένωνται** |
 
-*The second aorist subjunctive uses the bare aorist stem (γεν‑, λαβ‑) with the same endings: λάβωμαι, ἀφίκωμαι.*
+*The thematic aorist subjunctive uses the bare aorist stem (γεν‑, λαβ‑) with the same endings: λάβωμαι, ἀφίκωμαι.*
 
 ### 2.2 Common Deponent Aorist Subjunctives
 
@@ -97,3 +97,7 @@ The subjunctive is marked by the **long thematic vowel** (ω/η). No augment.
 | 1 pl. | λυσώμεθα | γενώμεθα |
 | 2 pl. | λύσησθε | γένησθε |
 | 3 pl. | λύσωνται | γένωνται |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the subjunctive at §§1795–1813.

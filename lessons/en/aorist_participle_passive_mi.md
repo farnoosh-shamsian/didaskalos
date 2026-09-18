@@ -81,3 +81,7 @@ The accent is on the ending in the nominative singular masculine (δοθείς) 
 1. **Attributive with the article** it names people and things by what was done to them: οἱ ἀφεθέντες "those who were released", τὰ δοθέντα "the gifts".
 2. **The genitive absolute** is very common with this participle in historians, marking a completed circumstance: σταθέντος τοῦ τροπαίου.
 3. **Reading tip.** ‑θει‑ or ‑θεν‑ inside a word ending in a third-declension case ending is an aorist passive participle nearly every time.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the participle at §§2039–2148.

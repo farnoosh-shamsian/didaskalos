@@ -110,7 +110,7 @@ The commonest participle of this group belongs to εἰμί "to be":
 
 | Aspect | Detail |
 |--------|--------|
-| **Indo-European origin** | The participial suffix *‑nt‑* is a shared Indo-European inheritance: Latin *‑ns/‑ntis* (*dans* "giving"), Sanskrit *‑ant‑*. |
+| **The suffix** | The participial suffix is ‑ντ‑, attached straight to the stem. |
 | **Early Greek** | ‑ντ‑ forms appear on every page from Homer onwards; ἰών and ὤν are among the most frequent. |
 | **Classical period** | The participle ὤν became a pillar of Greek philosophy: τὸ ὄν "that which is" in Parmenides and Plato. |
 | **Later Greek** | As the ‑μι system eroded, these participles too were drawn into the thematic patterns. |
@@ -131,3 +131,7 @@ The commonest participle of this group belongs to εἰμί "to be":
 ---
 
 *End of Lesson*
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the participle at §§2039–2148.

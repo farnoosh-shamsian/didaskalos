@@ -74,3 +74,7 @@ In real texts one verb towers over all the others here: **εἰμί "to be"**. I
 2. **Indirect discourse after past tenses:** after a main verb in a past tense, an indicative of the original speech may become optative: ἔλεγεν ὅτι χαλεπὸν εἴη "he said that it was difficult".
 3. **Wishes:** with or without εἴθε / εἰ γάρ: εἴθε φίλος ἡμῖν εἴης "if only you were our friend".
 4. In **Herodotus and Xenophon**, clauses of the type εἰ + optative ("if ever ...", "in case ...") are everywhere; εἴη and its compounds do much of that work.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the optative at §§1814–1834.

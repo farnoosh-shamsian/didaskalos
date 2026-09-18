@@ -76,3 +76,7 @@ Middle: on the first syllable of the simple form (δόσθαι, θέσθαι), n
 1. **Complementary infinitive** after βούλομαι, κελεύω, δοκεῖ and ἔφη — the great majority of the tokens in this lesson are of that kind.
 2. **δυνηθῆναι** in indirect statement is extremely common: "he said he could/could not".
 3. **Reading tip.** Short stem + σθαι means middle; short stem + θῆναι means passive form. Everything else about the two is the same.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64 and §§14.1–14.31, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554, 585–588, 590–596 (formation) and §§672–678, 755, 756–761 (inflection), with the syntax of the infinitive at §§1966–2038.

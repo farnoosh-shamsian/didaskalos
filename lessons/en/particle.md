@@ -77,10 +77,14 @@ Particles are the part of Greek that varies most sharply by period — and the o
 
 **Koine thins the system drastically.** In the New Testament the particle inventory shrinks to a small working set — καί, δέ, γάρ, οὖν, ἀλλά, μέν (much reduced) — and the fine Attic distinctions between γε, δή, τοι, μέντοι, δῆτα largely disappear. The **μέν … δέ** correlation, near-automatic in Attic, becomes optional and comparatively rare; a δέ frequently appears with no μέν to answer it.
 
-This has a practical consequence: if your corpus is Attic prose, particles repay close study, because they carry much of the argument's structure. If it is Koine, you need far fewer of them, and the ones you need are mostly the plain connectives. Modern Greek has kept almost none.
+This has a practical consequence: if your corpus is Attic prose, particles repay close study, because they carry much of the argument's structure. If it is Koine, you need far fewer of them, and the ones you need are mostly the plain connectives.
 
 ## 7. Why Particles Matter
 
 Particles are the **logical glue** of Greek. They tell you whether a sentence continues (δέ), explains (γάρ), concludes (οὖν), or contrasts (μέν … δέ) — before you have even parsed the verb. Experienced readers navigate by them; beginners who skip them lose the thread of the argument.
 
 Do not memorize dictionary translations. Instead, watch each particle in context, sentence after sentence, and let its function settle in. They are learned by exposure — and this textbook's corpus-based exercises will give you plenty.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§59.1–59.76; and in Smyth's *A Greek Grammar for Colleges* (1920), §§2769–2774 (particles in general) and §§2775–3003 (the particles one by one).

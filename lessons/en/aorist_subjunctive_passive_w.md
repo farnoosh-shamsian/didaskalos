@@ -81,7 +81,7 @@ Full paradigm of **γραφῶ**: γραφῶ, γραφῇς, γραφῇ, γρ�
 
 | Greek | Translation |
 |---|---|
-| ἐὰν ἡ πόλις **ἁλῷ**, πάντες **διαφθαρῶσιν**. | "If the city is captured, all will be destroyed." |
+| ἐὰν ἡ πόλις **ἁλῷ**, πάντες **διαφθαρήσονται**. | "If the city is captured, all will be destroyed." |
 | ἔπεμψαν πρέσβεις ἵνα αἱ σπονδαὶ **λυθῶσιν**. | "They sent envoys so that the treaty might be dissolved." |
 | φοβοῦνται μὴ ἡ ναῦς **διαφθαρῇ**. | "They fear that the ship may be destroyed." |
 | ὅταν ταῦτα **λεχθῇ**, παύσονται. | "When this has been said, they will stop." |
@@ -105,4 +105,8 @@ Full paradigm of **γραφῶ**: γραφῶ, γραφῇς, γραφῇ, γρ�
 - The **‑θη‑** passive is a Greek innovation built on an older stative/intransitive suffix, which is why its endings are active in form: originally these were intransitive verbs, not passives, and they simply took the ordinary active endings.
 - The **‑η‑ (second) passive** preserves the older bare stative suffix, seen also in ἐμάνην "I went mad."
 - Because the stem ends in a short ε, the subjunctive contraction is identical to that of ε‑contract verbs — which is why λυθῶ looks like φιλῶ.
-- The ‑θη‑ formation kept expanding through Koine and survives as the Modern Greek passive aorist (λύθηκα), making it one of the most durable innovations in the history of the Greek verb.
+- The ‑θη‑ formation kept expanding through Koine, one of the most durable innovations in the history of the Greek verb.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the subjunctive at §§1795–1813.

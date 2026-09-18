@@ -77,3 +77,7 @@ The optative expresses a wish, a possibility, or — most often in prose — wha
 1. **δύναιτο ἄν and δύναιντο ἄν** are the everyday way of saying "could" in Attic prose; learn them as vocabulary.
 2. **Purpose clauses in past narrative** take this optative after ἵνα, ὅπως and ὡς.
 3. **Reading tip.** A middle ending with οι/ει/αι in front of it and no augment is an optative. If the stem is reduplicated (διδο‑, τιθε‑, ἱστα‑), it is present.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the optative at §§1814–1834.

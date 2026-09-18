@@ -99,3 +99,7 @@ The middle‑only verbs form the same participle, translated **actively**:
 | ἵστημι | ἱστάμενος | ἱσταμένου | standing |
 | δύναμαι | δυνάμενος | δυναμένου | being able (active meaning) |
 | κεῖμαι | κείμενος | κειμένου | lying, established |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the participle at §§2039–2148.

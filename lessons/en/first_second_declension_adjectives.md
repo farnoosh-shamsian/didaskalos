@@ -45,7 +45,7 @@ This class supplies the regular comparison endings for the whole language. Drop 
 | short | σοφός | σοφώτερος | σοφώτατος |
 | short | νέος | νεώτερος | νεώτατος |
 | short | ἄξιος | ἀξιώτερος | ἀξιώτατος |
-| long | μικρός (ῑ) | μικρότερος | μικρότατος |
+| long | μικρός (κρ) | μικρότερος | μικρότατος |
 | long | δίκαιος (αι) | δικαιότερος | δικαιότατος |
 
 Both new forms are themselves ordinary first/second declension adjectives and decline exactly like ἀγαθός above. Note only that the comparative feminine has ‑ᾱ, because the stem ends in ρ: σοφωτέρα, σοφωτέρας — while the superlative feminine has ‑η: σοφωτάτη, σοφωτάτης.
@@ -100,3 +100,7 @@ Homer's χρύσεος is three syllables and Attic's χρυσοῦς is two; th
 - οἱ σοφοὶ ἄνθρωποι — "wise people"
 - τῆς δικαίας πόλεως — "of the just city" (feminine agreement with third-declension noun)
 - τὰ κακὰ κακῶς — "bad things (end) badly"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.1–5.10 (forms) and §§5.31–5.44 (comparison); and in Smyth's *A Greek Grammar for Colleges* (1920), §§286–287 (forms) and §§313–324 (comparison).

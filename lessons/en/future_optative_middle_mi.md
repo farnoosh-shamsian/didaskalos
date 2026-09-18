@@ -67,3 +67,7 @@ It is never a wish and never a purpose clause. For μι-verbs the future is enti
 1. **Classical Attic prose**, especially Xenophon, is where this form lives; Koine has effectively lost it.
 2. **Indirect questions** with εἰ are its second home.
 3. **Reading tip.** Long vowel + σοι + middle ending inside a ὅτι clause after a past verb: future optative. It reports what was going to happen, viewed from the past narrative rather than from the present.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §754 (inflection), with the syntax of the optative at §§1814–1834.

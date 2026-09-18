@@ -26,8 +26,8 @@ Greek has **two morphological families** for the aorist:
 
 | Type | Typical formation | Example verb | Meaning of the aorist |
 |------|-------------------|--------------|-----------------------|
-| **First aorist** (sigmatic, "regular") | Add **‑σ(α)‑** to the verb stem, then the aorist endings. | λύω "to loose" → stem **λυσ‑** → *ἔλυσα* "I loosed" | Simple past action |
-| **Second aorist** ("strong") | No **‑σ‑**; the aorist stem is an altered form of the root (changed vowel, different consonant, occasionally reduplication). | λαμβάνω "to take" → stem **λαβ‑** → *ἔλαβον* "I took" | Simple past action |
+| **Sigmatic aorist** ("regular") | Add **‑σ(α)‑** to the verb stem, then the aorist endings. | λύω "to loose" → stem **λυσ‑** → *ἔλυσα* "I loosed" | Simple past action |
+| **Thematic aorist** ("strong") | No **‑σ‑**; the aorist stem is an altered form of the root (changed vowel, different consonant, occasionally reduplication). | λαμβάνω "to take" → stem **λαβ‑** → *ἔλαβον* "I took" | Simple past action |
 
 The meaning is the same in both; the difference is purely formal, a matter of which stem the verb happens to use. Nothing about the aspect or the time changes.
 
@@ -35,7 +35,7 @@ The meaning is the same in both; the difference is purely formal, a matter of wh
 
 ## 3. The Endings of the Aorist Indicative Active
 
-| Person | First aorist | Second aorist |
+| Person | Sigmatic aorist | Thematic aorist |
 |--------|----------|--------|
 | 1 sg. | **‑α** | **‑ον** |
 | 2 sg. | **‑ας** | **‑ες** |
@@ -44,7 +44,7 @@ The meaning is the same in both; the difference is purely formal, a matter of wh
 | 2 pl. | **‑ατε** | **‑ετε** |
 | 3 pl. | **‑αν** | **‑ον** |
 
-> **Note:** the second-aorist endings are the same as the imperfect's; the distinction rests on the **stem**.
+> **Note:** the thematic aorist endings are the same as the imperfect's; the distinction rests on the **stem**.
 
 ### 3.1 A Quick Comparison with "‑ω"
 
@@ -59,7 +59,7 @@ The present indicative active has the ending **‑ω** in the first person singu
 
 ## 4. Full Paradigms
 
-### 4.1 First Aorist Indicative Active (λύω "to loose")
+### 4.1 Sigmatic Aorist Indicative Active (λύω "to loose")
 
 | Person | Form | Gloss |
 |--------|------|-------|
@@ -72,7 +72,7 @@ The present indicative active has the ending **‑ω** in the first person singu
 
 *The augment **ἐ‑** at the start of the indicative forms marks past time.*
 
-### 4.2 Second Aorist Indicative Active (λαμβάνω "to take")
+### 4.2 Thematic Aorist Indicative Active (λαμβάνω "to take")
 
 | Person | Form | Gloss |
 |--------|------|-------|
@@ -83,7 +83,7 @@ The present indicative active has the ending **‑ω** in the first person singu
 | 2nd pl. | **ἐλάβετε** | you (pl.) took |
 | 3rd pl. | **ἔλαβον** | they took |
 
-*(The aorist stem of λαμβάνω is the shortened form **λαβ‑** — the classic second aorist.)*
+*(The aorist stem of λαμβάνω is the shortened form **λαβ‑** — the classic thematic aorist.)*
 
 ---
 
@@ -94,8 +94,8 @@ The present indicative active has the ending **‑ω** in the first person singu
 | **Augment** | In the aorist indicative (first and second), **ἐ‑** is prefixed before a consonant; vowel-initial verbs lengthen the initial vowel instead: ἀκούω → **ἤκουσα**. |
 | **Contract verbs** | The final stem vowel lengthens before ‑σα: φιλέω → **ἐφίλησα**, τιμάω → **ἐτίμησα**, δηλόω → **ἐδήλωσα**. |
 | **Irregular stems** | Some verbs have an entirely different aorist stem and must be memorized: ἔρχομαι → **ἦλθον**, ὁράω → **εἶδον**, φέρω → **ἤνεγκα**. |
-| **Reduplication in the second aorist** | A few second aorists show reduplication: ἄγω → **ἤγαγον** (stem ἀγ-αγ‑). |
-| **1st singular and 3rd plural of the second aorist are identical** | ἔλαβον = "I took" or "they took"; context decides. |
+| **Reduplication in the thematic aorist** | A few thematic aorists show reduplication: ἄγω → **ἤγαγον** (stem ἀγ-αγ‑). |
+| **1st singular and 3rd plural of the thematic aorist are identical** | ἔλαβον = "I took" or "they took"; context decides. |
 | **Middle and passive** | The aorist middle and passive have their own endings and are treated in separate lessons; remember that many verbs are **deponent**. |
 
 ---
@@ -127,7 +127,8 @@ The present indicative active has the ending **‑ω** in the first person singu
 ## 8. Historical Development
 
 - The name **aorist** comes from ἀόριστος "unbounded": an aspect that presents the action without internal delimitation.
-- The **augment** (ἐ‑) is a relic of the Indo-European past marker and has a parallel in Sanskrit (*a‑*).
-- The **first aorist** reflects the Indo-European *‑s‑* suffix, which was grammaticalized in Greek.
-- The **second aorist** preserves older "strong verb" patterns: the stem is usually a zero-grade or altered form of the root, occasionally with reduplication (ἤγαγον).
-- The aorist has survived into Modern Greek as the ordinary simple past (ο αόριστος) — a mark of how robust this category has been throughout the language's history.
+- The **thematic aorist** preserves older "strong verb" patterns: the stem is usually a zero-grade or altered form of the root, occasionally with reduplication (ἤγαγον).
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the aorist indicative at §§33.27–33.33; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the aorist indicative at §§1923–1944.

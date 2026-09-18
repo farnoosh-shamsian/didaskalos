@@ -102,6 +102,10 @@ Stems in λ, μ, ν, ρ lose the σ and contract:
 ## 6. Historical Development
 
 - The infinitive ending **‑σθαι** is the invariable middle marker across the Greek verb; only the stem changes from tense to tense.
-- The future's **σ** continues the Indo-European desiderative *‑sye/o‑, which explains the natural fit between the future infinitive and verbs of hoping, promising, and intending.
-- The **middle-for-active futures** (ἀκούσομαι, λήψομαι, πείσομαι) are archaisms preserving a wider Indo-European use of the middle voice for verbs of perception and experience.
-- The future infinitive was one of the earliest casualties of Koine: as ὅτι-clauses replaced infinitival indirect discourse, it disappeared, leaving no trace in Modern Greek.
+- The future's **σ** goes back to an old desiderative formation, which explains the natural fit between the future infinitive and verbs of hoping, promising, and intending.
+- The **middle-for-active futures** (ἀκούσομαι, λήψομαι, πείσομαι) are archaisms preserving an older and wider use of the middle voice for verbs of perception and experience.
+- The future infinitive was one of the earliest casualties of Koine: as ὅτι-clauses replaced infinitival indirect discourse, it disappeared.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §§658–662 (inflection), with the syntax of the infinitive at §§1966–2038.

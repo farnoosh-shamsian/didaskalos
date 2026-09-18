@@ -128,12 +128,12 @@ The basic pattern:
 
 | Aspect | Detail |
 |--------|--------|
-| **Indo-European origin** | The participial suffix *‑ont‑* (present active) is an Indo-European inheritance; it gave Latin **‑ns/‑ntis** (*amans* "loving"). |
+| **The suffix** | The present active participle is built with ‑οντ‑, the thematic vowel plus the participial ‑ντ‑. |
 | **Greek sound change** | The masculine ‑ων comes from the stem ‑οντ‑ (nominative without final τ); the feminine ‑ουσα from *‑ont‑ya. |
 | **Early Greek** | Attested and fully productive from Homer onwards: *ἄγων* "leading." |
 | **Classical period** | The participle becomes a pillar of Greek syntax; classical prose is unwritable without it. |
 | **Later Greek** | The form survives in Koine and Byzantine Greek, but the adverbial use gradually yields to finite clauses. |
-| **Origin of the term** | The Greek term is **μετοχή** "a sharing, participation" (the participle shares in the nature of both verb and noun); Latin *participium* is a calque of it. |
+| **Origin of the term** | The Greek term is **μετοχή** "a sharing, participation" — the participle shares in the nature of both verb and noun. |
 
 ---
 
@@ -152,3 +152,7 @@ The basic pattern:
 ---
 
 **End of lesson.** As you read, come back to these tables whenever you meet a participle; once you know the verb's present stem, the pattern is regular. Happy learning!
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the participle at §§2039–2148.

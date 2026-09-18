@@ -120,10 +120,10 @@ In contract verbs the singular prefers the extended suffix **‑οίη‑**:
 
 | Aspect | Detail |
 |--------|--------|
-| **Indo-European origin** | The optative was formed with the suffix *‑yeh₁‑/‑ih₁‑; Greek ‑οι‑ (thematic vowel + *‑ih₁‑) and ‑ίη‑ (the full grade of the suffix) both continue it. Sanskrit *bháret* and Old Latin *siet* (later *sit*) are cognate formations. |
+| **The mood marker** | The optative is marked by ‑οι‑ in thematic forms (thematic vowel + ι) and by ‑ίη‑ in athematic ones — two grades of the same suffix. |
 | **Early Greek** | In Homer the optative is frequent and versatile. |
 | **Classical period** | Attic prose exploits the optative fully for the nuances of indirect narration and politeness. |
-| **Koine and later** | The optative dies out rapidly; in the New Testament it is rare outside formulas such as μὴ γένοιτο, and it has disappeared entirely from Modern Greek. |
+| **Koine and later** | The optative dies out rapidly; in the New Testament it is rare outside formulas such as μὴ γένοιτο. |
 
 ---
 
@@ -143,3 +143,7 @@ Remember: **‑οι‑ is the sign of the optative; wish with εἴθε, possibi
 ---
 
 *End of Lesson*
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the optative at §§1814–1834.

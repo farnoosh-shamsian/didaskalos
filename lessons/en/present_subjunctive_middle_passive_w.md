@@ -100,7 +100,10 @@ Deponent verbs use exactly these endings with active meaning:
 
 ## 6. Historical Development
 
-- The subjunctive's long thematic vowel continues the Indo-European subjunctive formation directly; Greek is unusually conservative here.
 - The middle endings **‑μαι, ‑σαι, ‑ται** are the primary middle set, shared with the indicative; the subjunctive is marked purely by the vowel that precedes them.
 - The loss of σ in ‑η‑σαι → ‑ῃ is part of a wider Greek tendency to drop intervocalic σ, the same change that produced indicative λύῃ from λύε‑σαι.
-- In Koine the subjunctive absorbed the functions of the dying optative, and the ἵνα + subjunctive construction eventually replaced the infinitive — the ancestor of Modern Greek να.
+- In Koine the subjunctive absorbed the functions of the dying optative, and the ἵνα + subjunctive construction eventually replaced the infinitive.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the subjunctive at §§1795–1813.

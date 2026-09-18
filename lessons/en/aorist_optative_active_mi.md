@@ -41,7 +41,7 @@ Root + **-ιη-** (singular) / **-ι-** (plural) + secondary endings — the sam
 | 2 pl | θεῖτε | σταῖτε | (ἀφ)εῖτε |
 | 3 pl | **θεῖεν** | σταῖεν | (ἀφ)εῖεν |
 
-> **Note on ἵστημι:** these optatives come from the **intransitive root aorist ἔστην** "I stood". The transitive first aorist ἔστησα "I set up" makes στήσαιμι, στήσειε like an ω-verb.
+> **Note on ἵστημι:** these optatives come from the **intransitive root aorist ἔστην** "I stood". The transitive sigmatic aorist ἔστησα "I set up" makes στήσαιμι, στήσειε like an ω-verb.
 
 ## 3. Key Rules & Common Exceptions
 
@@ -67,3 +67,7 @@ Root + **-ιη-** (singular) / **-ι-** (plural) + secondary endings — the sam
 2. **Potential optative with ἄν** for polite assertions: θείη τις ἄν "one might suppose/lay it down".
 3. **Past-sequence subordination:** purpose clauses and indirect petitions (ὅπως ἀφείη) take the optative after past main verbs.
 4. Recognition tip: a two-syllable optative beginning δο-, θε-, στα-, or -ει- (from ἵημι) with -ίη-/-ῖ- is almost always one of these aorists. Read the compound prefix off first: μετα-δοίη, ἐπι-θείη, κατα-σταίη, ἀφ-είη.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the optative at §§1814–1834.

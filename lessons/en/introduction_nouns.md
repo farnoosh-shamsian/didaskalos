@@ -9,7 +9,7 @@ An Ancient Greek noun changes its ending to show what it is doing in the sentenc
 - ὁ ἄνθρωπος τὸν ἵππον διώκει ⟨ho ánthrōpos tòn híppon diṓkei⟩ — "the man chases the horse"
 - τὸν ἄνθρωπον ὁ ἵππος διώκει ⟨tòn ánthrōpon ho híppos diṓkei⟩ — "the horse chases the man"
 
-The endings (-ος ⟨-os⟩ for subject, -ον ⟨-on⟩ for object), not the position, tell you who chases whom. This is why Greek word order is so free — and why learning the endings is the heart of learning Greek.
+The endings (-ος ⟨-os⟩ for subject, -ον ⟨-on⟩ for object), not the position, tell you who chases whom. This is why learning the endings is the heart of learning Greek.
 
 Every noun form combines three pieces of information: **case**, **number**, and **gender**.
 
@@ -67,9 +67,9 @@ Every noun is **masculine**, **feminine**, or **neuter** — a grammatical class
 
 Neuter nouns come with a discount and a trap, and both are worth having on day one.
 
-**The discount: a neuter's nominative and accusative are always identical.** Whatever the declension, whatever the number. That removes a third of the guesswork from every neuter noun you will ever meet — and the price is that a neuter form on its own never tells you whether it is the subject or the object. The rest of the sentence decides. The neuter plural, in every declension, ends in **-α** ⟨-a⟩: τὰ δῶρα ⟨tà dôra⟩ "the gifts", τὰ σώματα ⟨tà sṓmata⟩ "the bodies".
+**The discount: a neuter's nominative and accusative are always identical.** Whatever the declension, whatever the number. That removes a third of the guesswork from every neuter noun you will ever meet — and the price is that a neuter form on its own never tells you whether it is the subject or the object. The rest of the sentence decides.
 
-**The trap: a neuter plural subject takes a *singular* verb.** τὰ ζῷα τρέχει ⟨tà zôia tréchei⟩ — "the animals run", with the verb in the singular. In any other language this would be an error, and in Greek it is the rule; Greek treats a neuter plural as a collective. You will meet it in your first authentic sentences, so recognize it now rather than concluding that the text is corrupt.
+**The trap: a neuter plural subject normally takes a *singular* verb.** τὰ ζῷα τρέχει ⟨tà zôia tréchei⟩ — "the animals run", with the verb in the singular. In any other language this would be an error, and in Greek it is the norm; Greek treats a neuter plural as a collective. You will meet it in your first authentic sentences, so recognize it now rather than concluding that the text is corrupt.
 
 ## 6. Declensions: the Three Patterns
 
@@ -106,9 +106,9 @@ Your reading passages come from whatever texts you chose, and those may be centu
 ## Summary
 
 - Greek nouns encode **case** (role), **number**, and **gender** in their endings.
-- Word order is flexible because the endings, not the position, mark the grammar.
+- The endings, not the position, mark the grammar.
 - The **article** agrees with its noun in gender, number and case, so it announces the grammar of a noun whose own ending may give nothing away.
-- **Neuters** have the same form for nominative and accusative, and a neuter plural subject takes a singular verb.
+- **Neuters** have the same form for nominative and accusative, and a neuter plural subject normally takes a singular verb.
 - Three declension patterns supply the endings; which pattern a noun follows decides *which* endings it takes, not *what* they mean.
 - **No paradigm in this module is homework.** The forms shown here are all taught in lessons of their own; what you take away now is how declension works, not which ending goes where.
 
@@ -133,3 +133,7 @@ Give the **case, number and gender** of each phrase below. The article settles m
 4. Nominative **or** accusative singular neuter. Neuters never distinguish the two; only the sentence decides.
 5. Genitive singular feminine.
 6. Nominative singular masculine.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§2.1–2.7 (case, number and gender) and §§4.1–4.93 (the three declensions); and in Smyth's *A Greek Grammar for Colleges* (1920), §§194–204 (case, number and gender) and §§211–285 (the three declensions).

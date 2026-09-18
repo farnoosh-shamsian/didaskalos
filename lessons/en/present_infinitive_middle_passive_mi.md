@@ -76,3 +76,7 @@ The infinitive is built on the **short-vowel** form of the stem: δίδωμι bu
 1. **Complementary infinitive.** After βούλομαι, δύναμαι, ἄρχομαι, δεῖ and similar verbs, this is the form that completes the sense: ἤρξαντο ἀφίστασθαι.
 2. **Articular infinitive.** With τό it becomes a noun: τὸ δίδοσθαι "the being given", διὰ τὸ μὴ δύνασθαι "because of being unable".
 3. **Reading tip.** ‑σθαι at the end and no thematic vowel in front of it: that combination points straight at a μι-verb, and the stem you see is the one the whole present system is built on.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the infinitive at §§1966–2038.

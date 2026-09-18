@@ -11,7 +11,7 @@ The Ancient Greek alphabet has **24 letters**. Each has a name, an uppercase and
 | 3 | Γ | γ | gamma | g | /g/ |
 | 4 | Δ | δ | delta | d | /d/ |
 | 5 | Ε | ε | epsilon | e | /e/ (always short) |
-| 6 | Ζ | ζ | zeta | z | /zd/ (or /dz/) |
+| 6 | Ζ | ζ | zeta | z | /zd/ |
 | 7 | Η | η | eta | ē | /ɛː/ (long open e, always long) |
 | 8 | Θ | θ | theta | th | /tʰ/ (aspirated t) |
 | 9 | Ι | ι | iota | i | /i/, /iː/ |
@@ -73,7 +73,7 @@ A diphthong is two vowels pronounced as one syllable; the second is always **ι*
 
 The last of these is worth a glance now even though it is not Attic: **ωυ** is an Ionic spelling, and if your corpus contains Herodotus you will meet it constantly.
 
-**Long-vowel diphthongs with iota:** when ι follows a long ᾱ, η, or ω, it is written *under* the letter — the **iota subscript**: ᾳ, ῃ, ῳ ⟨āi, ēi, ōi⟩ — as in τῇ χώρᾳ ⟨têi chṓrāi⟩ "in the land". With capitals it is written on the line instead (adscript): ΤΗΙ ΧΩΡΑΙ ⟨TĒI CHŌRĀI⟩. The subscript iota was probably no longer pronounced in the Classical period, but it must always be written — it often carries grammatical information (e.g., it marks the dative).
+**Long-vowel diphthongs with iota:** when ι follows a long ᾱ, η, or ω, it is written *under* the letter — the **iota subscript**: ᾳ, ῃ, ῳ ⟨āi, ēi, ōi⟩ — as in τῇ χώρᾳ ⟨têi chṓrāi⟩ "in the land". With capitals it is written on the line instead (adscript): ΤΗΙ ΧΩΡΑΙ ⟨TĒI CHŌRĀI⟩. The subscript iota must always be written — it often carries grammatical information (e.g., it marks the dative).
 
 ## 4. Breathings
 
@@ -177,7 +177,7 @@ Sound each word out and write its transliteration before checking the key. Cover
 2. ⟨theós⟩ — "god". θ is an aspirated /t/, not English ⟨th⟩.
 3. ⟨psychḗ⟩ — "soul". ψ is a single letter, /ps/; υ standing alone is ⟨y⟩.
 4. ⟨xénos⟩ — "stranger, guest". ξ is a single letter, /ks/.
-5. ⟨ōidḗ⟩ — "song". The iota subscript under ω is written but not pronounced.
+5. ⟨ōidḗ⟩ — "song". The iota subscript under ω is transliterated ⟨i⟩ after the vowel.
 6. ⟨ángelos⟩ — "messenger". γ before γ is /ŋ/, not /g/ — hence ⟨ng⟩, not ⟨gg⟩.
 
 ### Telling Breathings Apart
@@ -208,3 +208,7 @@ Each of these is a shape you will meet in the first text you read. Name what has
 2. Elision plus aspiration: ἀπό ⟨apó⟩ "from" + ἡμῶν ⟨hēmôn⟩ "us". The π became φ because the next word carries a rough breathing.
 3. Crasis: καὶ ἐγώ ⟨kaì egṓ⟩ "and I", fused into one word and marked with a coronis.
 4. Movable nu on λέγουσι ⟨légousi⟩ "they say". Nothing has changed grammatically; the ν is there because a vowel or a pause follows.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§1.1–1.97 and, for accentuation, §§24.1–24.42; and in Smyth's *A Greek Grammar for Colleges* (1920), §§1–26 and, for accentuation, §§149–187.

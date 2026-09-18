@@ -48,7 +48,7 @@ The Attic genitive singular **-εως** of πόλις is one of the strangest en
 | βασιλεύς gen. sg. | **βασιλῆος** | βασιλέος | **βασιλέως** |
 | βασιλεύς acc. sg. | βασιλῆα | βασιλέα | βασιλέα |
 
-Read the rows left to right and you can watch one form turn into another: πόληος → πόλιος → πόλεως. The Attic ending is not an irregularity to be memorized blindly but the last stage of a regular sequence — and the odd accent is a fossil, left where it sat before the vowels swapped.
+The Attic ending is not an irregularity to be memorized blindly but the last stage of a regular sequence — and the odd accent is a fossil, left where it sat before the vowels swapped.
 
 **βασιλῆος** and its relatives (νηῦς / νηός "ship", βασιλῆι, βασιλῆας) are everywhere in Homer, and since ‑ευς nouns are mostly titles and occupations — βασιλεύς, ἱερεύς, γραμματεύς, ἁλιεύς — you meet them constantly in epic and again in the New Testament.
 
@@ -59,3 +59,7 @@ Read the rows left to right and you can watch one form turn into another: πόλ
 - ἡ τῆς πόλεως δύναμις — "the power of the city"
 - ἐν ταῖς πόλεσιν — "in the cities"
 - κατὰ φύσιν — "according to nature"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.72–4.83; and in Smyth's *A Greek Grammar for Colleges* (1920), §§268–274.

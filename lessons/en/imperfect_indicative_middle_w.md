@@ -95,3 +95,7 @@ The same rules as in the active: syllabic ἐ‑ before consonants (ἐ‑λυό
 | 1 pl. | ‑όμεθα | ἐλυόμεθα | ἐγιγνόμεθα |
 | 2 pl. | ‑εσθε | ἐλύεσθε | ἐγίγνεσθε |
 | 3 pl. | ‑οντο | ἐλύοντο | ἐγίγνοντο |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperfect indicative at §§33.22–33.26; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the imperfect indicative at §§1889–1909.

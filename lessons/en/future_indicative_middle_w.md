@@ -134,11 +134,10 @@ The middle shape (‑σομαι) is **entirely distinct** from the active (‑σ
 
 | Aspect | Details |
 |--------|---------|
-| **Origin of ‑σ‑** | From the desiderative suffix *‑s(y)e/o‑ of Proto-Indo-European (compare Sanskrit ‑sya‑). |
+| **Origin of ‑σ‑** | From an old desiderative formation, "be about to, want to". |
 | **The middle voice** | From the ancient reflexive construction; it remained a living category in Greek. |
 | **ἔσται** | The 3rd singular without a thematic vowel, a relic of the old athematic inflection of the root *h₁es‑ "to be." |
 | **Middle-shaped futures** | The ancient tendency of perception/motion verbs toward middle futures; in the Koine many were "corrected" to active shape (ἀκούσω). |
-| **Aftermath** | The inflected future disappeared in Modern Greek, replaced by θα + subjunctive. |
 
 ---
 
@@ -152,3 +151,7 @@ The middle shape (‑σομαι) is **entirely distinct** from the active (‑σ
 | 1 pl. | ‑σόμεθα | **φιλησόμεθα** |
 | 2 pl. | ‑σεσθε | **φιλήσεσθε** |
 | 3 pl. | ‑σονται | **φιλήσονται** |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the future indicative at §§33.43–33.45; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §§658–662 (inflection), with the syntax of the future indicative at §§1910–1922.

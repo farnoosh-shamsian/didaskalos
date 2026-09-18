@@ -72,3 +72,7 @@ Verbs whose future contracts show it here too:
 1. **Xenophon and Thucydides** use it freely in reported speech; it is a marker of careful classical prose.
 2. **Indirect questions** after a past verb are its second home: εἰ … μενοῖ.
 3. **Reading tip.** ‑σοι‑ with active endings in a ὅτι clause after a past verb: future optative. It reports what was going to happen, viewed from the past narrative rather than from the present.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §§658–662 (inflection), with the syntax of the optative at §§1814–1834.

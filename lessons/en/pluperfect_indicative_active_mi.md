@@ -39,7 +39,7 @@ For μι-verbs the most useful member of this tense is **εἱστήκη** "I wa
 | 2 pl | **ἐδεδώκετε** | — |
 | 3 pl | **ἐδεδώκεσαν** | — |
 
-τίθημι gives ἐτεθήκη, ἐτεθήκης, ἐτεθήκει…
+τίθημι gives ἐτεθείκη, ἐτεθείκης, ἐτεθείκει…
 
 ### 2.3 ἵστημι: **εἱστήκη** "I was standing"
 
@@ -72,7 +72,7 @@ The augment of ἕστηκα appears as the diphthong **εἱ‑**: ἑ‑ + ἐ
 
 - **ἐδεδώκει τὰ χρήματα τοῖς στρατιώταις πρὶν ἀπελθεῖν.** — "He had given the money to the soldiers before departing."
 - **εἱστήκεσαν οἱ ὁπλῖται ἐν τάξει.** — "The hoplites were standing in formation."
-- **ἐτεθήκεσαν τοὺς νόμους οἱ πρόγονοι.** — "Our ancestors had laid down the laws."
+- **ἐτεθείκεσαν τοὺς νόμους οἱ πρόγονοι.** — "Our ancestors had laid down the laws."
 - **οὐκ ᾔδη ταῦτα πρότερον.** — "I had not known this before."
 
 ---
@@ -82,3 +82,7 @@ The augment of ἕστηκα appears as the diphthong **εἱ‑**: ἑ‑ + ἐ
 1. **Battle description.** εἱστήκει and εἱστήκεσαν are the standard way to say where troops were positioned when something else happened.
 2. **Temporal clauses.** With ἐπεί and ἐπειδή the pluperfect marks one action as already finished when the next began.
 3. **Reading tip.** Look for augment + reduplication + κ. If the verb is ἵστημι, expect εἱ‑ at the front and translate as a simple past.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the pluperfect indicative at §§33.39–33.42; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§762–766 (inflection), with the syntax of the pluperfect indicative at §§1952–1954.

@@ -34,7 +34,7 @@ A "middle/passive" tag usually points at a deponent — γένοιτο, βουλ
 | 2 pl | **λύσαισθε** | may you ransom |
 | 3 pl | **λύσαιντο** | may they ransom |
 
-Second aorists drop the σ: γενοίμην, γένοιο, **γένοιτο**, γενοίμεθα, γένοισθε, γένοιντο.
+Thematic aorists drop the σ: γενοίμην, γένοιο, **γένοιτο**, γενοίμεθα, γένοισθε, γένοιντο.
 
 ### 2.2 Aorist Optative Passive: **λυθείην**
 
@@ -72,3 +72,7 @@ Second aorists drop the σ: γενοίμην, γένοιο, **γένοιτο**, 
 1. **Wishes and prayers** are introduced by εἴθε or εἰ γάρ, or stand alone as γένοιτο.
 2. **The potential optative with ἄν** is the polite register of Attic prose: "one might say", "it would not be easy".
 3. **Reading tip.** σαι + middle ending = middle; θει + ‑ην/‑η = passive. Neither takes an augment.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64 and §§14.1–14.31, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554, 585–588, 590–596 (formation) and §§665–671, 672–678, 679–688 (inflection), with the syntax of the optative at §§1814–1834.

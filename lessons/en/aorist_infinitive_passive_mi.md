@@ -71,3 +71,7 @@ The circumflex on ‑θῆ‑ never moves, however long the compound: ἀποδ�
 1. **Decrees and orders.** κελεύω, ψηφίζομαι and δοκεῖ + this infinitive is the standard way of recording what an assembly resolved should be done.
 2. **Indirect statement** is the one context where it carries past time: λέγεται δοθῆναι "it is said to have been given".
 3. **Reading tip.** ‑θῆναι with a circumflex is an aorist passive infinitive every time; strip it off and the short stem in front identifies the verb.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the infinitive at §§1966–2038.

@@ -71,3 +71,7 @@ Only the reduplication δι‑ separates them.
 1. **Attic prose in past narrative** is where the optative lives: purpose and fear clauses depending on a past verb.
 2. **The potential optative with ἄν** is a politeness as much as a probability — "one might say", "he would not do that".
 3. **Reading tip.** Short stem, οι or ει, and a middle ending: aorist optative middle. Add the reduplication and you are in the present.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the optative at §§1814–1834.

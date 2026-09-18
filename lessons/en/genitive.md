@@ -156,7 +156,7 @@ _Key points_
 
 - **τῶν is the genitive plural of all three genders** — the article tells you nothing about gender here.
 - ‑ου is both a second-declension genitive singular and a first-declension **masculine** genitive singular; both are genitive, so no harm done.
-- A genitive standing between article and noun is attributive (ἡ τῶν Ἀθηναίων πόλις); a genitive of αὐτός or a demonstrative stands **outside** it (ἡ γυνὴ αὐτοῦ "his wife").
+- A genitive standing between article and noun is attributive (ἡ τῶν Ἀθηναίων πόλις); a genitive of αὐτός stands **outside** it (ἡ γυνὴ αὐτοῦ "his wife").
 - When a genitive has no noun to attach to and no preposition, look for one of §3, §5, §6 or §7.
 
 ---
@@ -181,7 +181,7 @@ Like the dative, the Greek genitive is a merger of two older cases: the inherite
 
 **The genitive absolute** (§7), on the other hand, thrives: already common in Attic, it is used freely throughout Koine narrative.
 
-**In Koine** the genitive is the one oblique case that gains ground. As the dative recedes, the genitive absorbs some of its territory — the beginning of a process that ends in Modern Greek.
+**In Koine** the genitive is the one oblique case that gains ground. As the dative recedes, the genitive absorbs some of its territory.
 
 ## 12. Example Sentences
 
@@ -194,3 +194,7 @@ Like the dative, the Greek genitive is a merger of two older cases: the inherite
 | **ταῦτα ὑπὸ πάντων λέγεται.** | This is said by everyone. *(agent)* |
 | **ἀκούω τοῦ ἀνδρός.** | I hear the man. *(verb governing the genitive)* |
 | **τούτων λεχθέντων, ἀπῆλθον.** | When this had been said, they left. *(genitive absolute)* |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§30.20–30.36; and in Smyth's *A Greek Grammar for Colleges* (1920), §§1289–1338 (with nouns), §§1339–1387 (with verbs) and §§1388–1449 (the free uses).

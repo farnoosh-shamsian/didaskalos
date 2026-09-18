@@ -58,7 +58,6 @@ The stem vowel contracts with the theme vowel before -οι-:
 | **2. 2 sg -οιο** | From -οι-σο with loss of σ. | λύοιο, πείθοιο |
 | **3. α- and ο-contracts take ῳ** | τιμῴμην, χρῷτο — the iota goes subscript. | |
 | **4. Epic/Ionic 3 pl -οίατο** | πειθοίατο = πείθοιντο (Homer, Herodotus). | |
-| **5. φαίνοιτο ἄν is everywhere in Plato** | "it would appear" — the standard hedged assertion of philosophical prose. | |
 
 ## 4. Example Sentences
 
@@ -74,3 +73,7 @@ The stem vowel contracts with the theme vowel before -οι-:
 2. **Past general conditions:** εἰ/ὁπότε + present optative for repeated circumstances in the past.
 3. **Indirect discourse and questions in past sequence:** a present middle/passive indicative of the original words becomes a present optative.
 4. Choose **present vs. aorist** optative by aspect, not by time: present = process or repetition; aorist = single event.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the optative at §§1814–1834.

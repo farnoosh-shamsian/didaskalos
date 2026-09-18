@@ -67,7 +67,7 @@ Note that ἴσθι is ambiguous: "be!" from εἰμί and "know!" from οἶδ�
 | **1. Short stem vowel outside the 2 sg** | διδό‑τω, τιθέ‑τω, ἱστά‑τω. The long ω and η of δίδωμι, τίθημι appear only in the singular indicative. |
 | **2. No augment** | An imperative never has one. ἐδίδου (imperfect indicative, "he was giving") and δίδου (imperative, "give!") differ by exactly that ἐ. |
 | **3. Prohibitions use μή + present imperative** | μὴ δίδου "don't keep giving". To forbid a single act, use μή + aorist subjunctive: μὴ δῷς "don't give". |
-| **4. Compounds pull the accent back** | ἀπόδιδου, ἐπιτίθει, παρίστη — the accent recedes as far as the preposition allows. |
+| **4. Compounds pull the accent back** | ἀποδίδου, ἐπιτίθει, παρίστη — the accent recedes as far as the preposition allows. |
 | **5. Aspect, not politeness** | Choosing the present over the aorist says something about the shape of the action, not about how courteous the speaker is being. |
 
 ---
@@ -88,3 +88,7 @@ Note that ἴσθι is ambiguous: "be!" from εἰμί and "know!" from οἶδ�
 1. **Plato's dialogues** are full of these: ἴθι δή, φάθι, σκόπει — the conversational imperatives that keep a Socratic argument moving.
 2. **ἴσθι in both senses.** ἴσθι σοφός "be wise" and ἴσθι ὅτι… "know that…". The construction that follows usually decides which verb you are looking at.
 3. **Reading tip.** A μι-verb imperative is short and endingless-looking: δίδου, τίθει, ἵστη, ἴθι. If a form seems too small to be a verb, an imperative is a good first guess.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the imperative at §§1835–1844.

@@ -67,3 +67,7 @@ The other stems behave identically: **τεθείη**, **σταθείη**, **ἀ�
 1. **Past-tense purpose and fear clauses** in the historians are where nearly all these forms occur.
 2. **The potential with ἄν** softens an assertion: "it might be given" rather than "it will be".
 3. **Reading tip.** θει plus a personal ending and no augment: aorist passive optative.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the optative at §§1814–1834.

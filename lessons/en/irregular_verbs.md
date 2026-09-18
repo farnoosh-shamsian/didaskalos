@@ -29,7 +29,7 @@ Some verbs supply their aorist from an entirely different root. This is called *
 | φέρω "carry" | **ἤνεγκον / ἤνεγκα** | "I carried" |
 | ἐσθίω "eat" | **ἔφαγον** | "I ate" |
 
-These aorists take the **second aorist (thematic) endings** — the same endings as the imperfect. What marks them as aorist is the *stem*, not the ending:
+These aorists take the **thematic aorist (thematic) endings** — the same endings as the imperfect. What marks them as aorist is the *stem*, not the ending:
 
 | Person | εἶπον "I said" | εἶδον "I saw" |
 | --- | --- | --- |
@@ -96,7 +96,7 @@ Also common: **εἰκός (ἐστι)** "it is likely", **δοκεῖ** "it see
 | Rule | Explanation |
 | --- | --- |
 | **1. Learn the pair, not the paradigm** | For a suppletive verb, memorize present and aorist together: λέγω / εἶπον, ὁράω / εἶδον. Neither one predicts the other. |
-| **2. Second-aorist endings are imperfect endings** | εἶπον and ἐλάμβανον share their endings. The stem tells you the tense: ἔλαβον (aorist) vs. ἐλάμβανον (imperfect). |
+| **2. Thematic aorist endings are imperfect endings** | εἶπον and ἐλάμβανον share their endings. The stem tells you the tense: ἔλαβον (aorist) vs. ἐλάμβανον (imperfect). |
 | **3. οἶσθα, not οἶδας** | The 2nd singular of οἶδα is οἶσθα in Attic; οἶδας is later Greek. |
 | **4. The plural of οἶδα changes stem** | Singular οἰδ‑, plural ἰσ‑: ἴσμεν, ἴστε, ἴσασι. Do not build these from λύω endings. |
 | **5. ἴστε is ambiguous** | ἴστε = "you know" (indicative) or "know!" (imperative). Context decides. |
@@ -121,19 +121,19 @@ Also common: **εἰκός (ἐστι)** "it is likely", **δοκεῖ** "it see
 
 There is a reason the irregular verbs are also the commonest ones. **Frequency protects irregularity**: a verb used constantly is learned as a whole, form by form, and never gets levelled by analogy, while a rare verb is rebuilt on the regular pattern the moment a speaker has to guess. This is why the irregular verbs of any language tend to be its everyday ones — "be", "go", "see", "give" — and Greek is no exception: εἰμί, ἔρχομαι, ὁράω and δίδωμι are all both irregular and unavoidable.
 
-**Suppletion is inherited, not Greek.** The suppletive verbs are among the oldest material in the language: ἔρχομαι / ἦλθον / ἐλήλυθα and ὁράω / εἶδον / ὄψομαι are each built from two or three originally separate Indo-European roots that were pressed into one paradigm long before Greek existed. **οἶδα** "I know" is a genuine relic — an old perfect of the root meaning "see", so literally "I have seen, therefore I know". The same Indo-European root surfaces across the family — Latin *vīdī* "I saw", Sanskrit *véda* "I know" — and in Greek's own εἶδον.
+**Suppletion is old.** The suppletive verbs are among the oldest material in the language: ἔρχομαι / ἦλθον / ἐλήλυθα and ὁράω / εἶδον / ὄψομαι are each built from two or three originally separate roots that were pressed into one paradigm long before Greek was written down. **οἶδα** "I know" is a genuine relic — an old perfect of the root meaning "see", so literally "I have seen, therefore I know", as Greek's own εἶδον still shows.
 
 **Homer has even more variety.** Epic preserves alternative forms that Attic dropped: **ἔμμεναι, ἔμεν, ἔμμεν** beside εἶναι; **ἴδμεν** for ἴσμεν "we know"; **ἔσσομαι** for ἔσομαι. Since these are the highest-frequency verbs in the language, an unfamiliar epic form here will block a sentence more often than an unfamiliar noun would — they are worth meeting early if you are reading Homer.
 
-**Koine starts to regularize — visibly.** The clearest case is the **α-aorist**, in which the endings of the first (sigmatic) aorist are transferred onto second-aorist stems:
+**Koine starts to regularize — visibly.** The clearest case is the **α-aorist**, in which the endings of the first (sigmatic) aorist are transferred onto thematic aorist stems:
 
 | Classical | Koine / NT |
 |---|---|
-| εἶπον, εἶπες | **εἶπα, εἶπας** |
+| εἶπον, εἶπες (εἶπα rare) | **εἶπα, εἶπας** |
 | ἦλθον, ἤλθετε | **ἦλθα, ἤλθατε** |
 | εἶδον | **εἶδα** (occasionally) |
 
-Both forms coexist in the New Testament, often within a few verses. This is not corruption; it is the regular pattern winning, one verb at a time — and Modern Greek has completed the process. Several of the suppletions themselves, however, survive intact into Modern Greek, still irregular after three thousand years.
+Both forms coexist in the New Testament, often within a few verses. This is not corruption; it is the regular pattern winning, one verb at a time.
 
 ## 7. Usage Notes
 
@@ -141,3 +141,7 @@ Both forms coexist in the New Testament, often within a few verses. This is not 
 2. **οἶδα vs. γιγνώσκω.** οἶδα is knowing a fact; γιγνώσκω is coming to know, recognizing. σύνοιδα + dative = "I am conscious of, I share the knowledge with".
 3. **Indirect questions.** οἶδα is everywhere in them: οὐκ οἶδα ὅστις ἐστίν "I do not know who he is".
 4. **Reading strategy.** When a verb form resists analysis, check this list before assuming a rare paradigm. It is far more often εἶπον under a preposition than an exotic ending.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§22.1–22.9 (principal parts) and §§36.1–36.15 (impersonal constructions); and in Smyth's *A Greek Grammar for Colleges* (1920), §§768–821 (the irregular μι-verbs) and the Catalogue of Verbs (Appendix).

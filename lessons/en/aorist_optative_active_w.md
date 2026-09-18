@@ -38,9 +38,9 @@ From the **unaugmented aorist stem** + the optative marker **‑αι‑** + the 
 
 > **Note:** the alternative forms of the 2nd/3rd singular and 3rd plural (‑ειας, ‑ειε(ν), ‑ειαν) — known as the "Aeolic forms" — are very common in Attic prose.
 
-### 2.2 The Second Aorist Optative
+### 2.2 The Thematic Aorist Optative
 
-Verbs with a second aorist take the **present** optative endings (‑οιμι…) on the **aorist stem**:
+Verbs with a thematic aorist take the **present** optative endings (‑οιμι…) on the **aorist stem**:
 
 | Person | Example with **λαμβάνω** → stem **λαβ‑** |
 |--------|-----------------------------------|
@@ -63,9 +63,9 @@ Verbs with a second aorist take the **present** optative endings (‑οιμι…
 
 | Verb | Aorist stem | Optative (1st sg.) | Note |
 |------|-------------|------------------------------|---------|
-| ἔρχομαι "to come" | ἐλθ‑ | **ἔλθοιμι** | second aorist |
-| λέγω "to say" | εἰπ‑ | **εἴποιμι** | second aorist |
-| ὁράω "to see" | ἰδ‑ | **ἴδοιμι** | second aorist |
+| ἔρχομαι "to come" | ἐλθ‑ | **ἔλθοιμι** | thematic aorist |
+| λέγω "to say" | εἰπ‑ | **εἴποιμι** | thematic aorist |
+| ὁράω "to see" | ἰδ‑ | **ἴδοιμι** | thematic aorist |
 | εἰμί "to be" | — (no aorist) | εἴην (present optative) | special form |
 
 ---
@@ -75,7 +75,7 @@ Verbs with a second aorist take the **present** optative endings (‑οιμι…
 | Rule | Explanation | Example |
 |------|-------------|---------|
 | **1. Aorist stem, no augment** | The augment belongs to the indicative. | λύσαιμι, λάβοιμι |
-| **2. The mood marker: ‑αι‑ / ‑οι‑** | First aorist ‑αι‑, second aorist ‑οι‑. | λύσαιμεν; λάβοιμεν |
+| **2. The mood marker: ‑αι‑ / ‑οι‑** | Sigmatic aorist ‑αι‑, thematic aorist ‑οι‑. | λύσαιμεν; λάβοιμεν |
 | **3. Aspect, not time** | The aorist optative is a wish/possibility about a single action, not about the past. | εἴθε λάβοιμι "may I take" |
 | **4. Do not confuse with the infinitive** | λῦσαι (infinitive) and λύσαι (3rd sg. optative) differ only in accent position! | λῦσαι ≠ λύσαι |
 | **5. Learn the Aeolic forms** | ‑ειας, ‑ειε(ν), ‑ειαν are frequent in texts. | λύσειεν |
@@ -106,4 +106,8 @@ Verbs with a second aorist take the **present** optative endings (‑οιμι…
 
 ## 6. Historical Note
 
-The optative marker (‑ιη‑/‑ι‑) reached Greek from Proto-Indo-European; combined with the sigmatic stem it produced ‑σαι‑. The optative declined in Koine Greek — in the New Testament it scarcely appears outside idioms such as μὴ γένοιτο "God forbid!" — and it vanished entirely in Modern Greek; mastering it therefore matters above all for reading classical prose.
+The optative marker is ‑ιη‑/‑ι‑; combined with the sigmatic stem it produced ‑σαι‑. The optative declined in Koine Greek — in the New Testament it scarcely appears outside idioms such as μὴ γένοιτο "God forbid!" — so mastering it matters above all for reading classical prose.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the optative at §§1814–1834.

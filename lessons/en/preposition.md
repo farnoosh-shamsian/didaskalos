@@ -32,12 +32,9 @@ Notice the elegant trio for motion and rest: **εἰς + acc.** (motion toward),
 | διά | through: διὰ τῆς χώρας "through the land" | because of: διὰ τοῦτο "because of this" |
 | κατά | down from; against: κατὰ τῶν πετρῶν "down from the rocks" | according to; throughout: κατὰ τοὺς νόμους "according to the laws" |
 | μετά | with: μετὰ τῶν συμμάχων "with the allies" | after: μετὰ τὴν μάχην "after the battle" |
-| περί | about, concerning: περὶ τοῦ νόμου "about the law" | around: περὶ τὴν πόλιν "around the city" |
 | ὑπέρ | on behalf of; above: ὑπὲρ τῆς πατρίδος "for the fatherland" | beyond: ὑπὲρ δύναμιν "beyond one's power" |
 
 μετά is the classic illustration: μετὰ τῶν φίλων "**with** the friends" but μετὰ τὸν πόλεμον "**after** the war". Same word, different case, different world.
-
-**περί + genitive** is worth singling out for a different reason: it is the ordinary way to say what a speech or an argument is *about*, and in Attic oratory and Plato it is one of the commonest words on the page — περὶ τοῦ πράγματος, περὶ τῶν πραγμάτων, περὶ ἑτέρου ἀνθρώπου.
 
 ## 4. Prepositions with Three Cases
 
@@ -46,13 +43,16 @@ Notice the elegant trio for motion and rest: **εἰς + acc.** (motion toward),
 | ἐπί | on, in the time of: ἐπὶ τῆς γῆς "on the earth" | on, at, in addition to: ἐπὶ τῇ θαλάττῃ "by the sea" | onto, against: ἐπὶ τοὺς πολεμίους "against the enemy" |
 | παρά | from (a person): παρὰ τοῦ βασιλέως "from the king" | beside, at the house of: παρὰ τῷ βασιλεῖ "at the king's court" | to, alongside; contrary to: παρὰ τὸν νόμον "contrary to the law" |
 | πρός | from the side of: πρὸς θεῶν "in the gods' name!" | in addition to, near: πρὸς τούτοις "in addition to this" | toward, to: πρὸς τὴν πόλιν "toward the city" |
+| περί | about, concerning: περὶ τοῦ νόμου "about the law" | (with verbs of fearing) for: περὶ τῷ χωρίῳ "for their land" | around: περὶ τὴν πόλιν "around the city" |
 | ὑπό | by (agent); under: ὑπὸ τῶν πολεμίων "by the enemy" | under (rest): ὑπὸ τῷ δένδρῳ "under the tree" | under (motion): ὑπὸ τὸ δένδρον "(going) under the tree" |
+
+**περί + genitive** is worth singling out for a different reason: it is the ordinary way to say what a speech or an argument is *about*, and in Attic oratory and Plato it is one of the commonest words on the page — περὶ τοῦ πράγματος, περὶ τῶν πραγμάτων, περὶ ἑτέρου ἀνθρώπου.
 
 **ὑπό + genitive** deserves special attention: it marks the **agent of a passive verb** — ἐπαιδεύθη ὑπὸ τοῦ διδασκάλου "he was educated **by** the teacher". You will meet this constantly.
 
 ## 5. "Improper" Prepositions
 
-A second group began life as adverbs, never compounds with a verb, and governs the **genitive**. Grammars call them improper prepositions; they behave like ordinary ones in a sentence.
+A second group began life as adverbs, never compounds with a verb, and mostly governs the **genitive**. Grammars call them improper prepositions; they behave like ordinary ones in a sentence.
 
 | Word | Meaning | Example |
 |---|---|---|
@@ -80,7 +80,7 @@ A second group began life as adverbs, never compounds with a verb, and governs t
 
 Prepositions have the clearest life story of any word class in Greek: they begin as free adverbs, become prepositions and preverbs, and end up taking over work the case endings used to do on their own.
 
-**Homer shows the earlier stage.** In epic, what later became a preposition is often still an independent adverb, standing apart from the verb it belongs with. Grammarians call this **tmesis** ("cutting"):
+**Homer shows the earlier stage.** In epic, what later became a preposition is often still an independent adverb, standing apart from the verb it belongs with. This is traditionally called **tmesis** ("cutting"), though the name is a poor fit for Homer — it describes a later stage of the language, in which preposition and verb had already become a single word that a poet could then split:
 
 > **ἀπὸ** … **ὄλεσσε** — "he destroyed **away**", i.e. ἀπώλεσε
 
@@ -97,10 +97,12 @@ To an Attic reader this looks like a compound verb split in half; historically i
 
 **"Improper" prepositions multiply.** The class described in §5 grows: Koine freely presses further adverbs into prepositional service — **ἐνώπιον** "before", **ἔμπροσθεν**, **ὀπίσω**, **ἔξωθεν** — alongside the ἕνεκα and χάριν that Attic already had. The New Testament uses them constantly.
 
-The endpoint: Modern Greek keeps only a handful of prepositions, and nearly all of them take the accusative.
-
 ## 9. Example Sentences
 
 - οἱ στρατιῶται ἐκ τῆς πόλεως εἰς τὴν θάλατταν ἐπορεύοντο. — "The soldiers marched out of the city to the sea."
 - μετὰ τὴν μάχην οἱ σύμμαχοι σὺν τοῖς Ἀθηναίοις ἦσαν. — "After the battle the allies were with the Athenians."
 - ταῦτα ὑπὸ πάντων λέγεται. — "These things are said by everyone."
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§31.1–31.9; and in Smyth's *A Greek Grammar for Colleges* (1920), §§1636–1680, with the list of prepositions at §§1681–1698 and the improper prepositions at §§1699–1702.

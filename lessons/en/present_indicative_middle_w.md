@@ -99,3 +99,7 @@ In the present tense middle and passive **share the same forms**; this lesson ga
 | 1 pl. | ‑όμεθα | λυόμεθα | ἐρχόμεθα |
 | 2 pl. | ‑εσθε | λύεσθε | ἔρχεσθε |
 | 3 pl. | ‑ονται | λύονται | ἔρχονται |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the present indicative at §§33.14–33.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the present indicative at §§1875–1888.

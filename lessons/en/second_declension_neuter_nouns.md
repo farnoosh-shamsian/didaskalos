@@ -4,9 +4,9 @@ Second declension neuters end in **-ον** in the nominative singular: δῶρο
 
 ## The neuter rule
 
-Two facts hold for **every** neuter noun in Greek, of any declension:
+Two facts hold for these nouns:
 
-1. **Nominative, accusative, and vocative are always identical** (in both numbers).
+1. **Nominative, accusative, and vocative are always identical** (in both numbers) — this much is true of every neuter noun in Greek, in any declension.
 2. **In the plural those three cases end in -α**: δῶρα.
 
 Because subject and object forms look the same, word order and context tell you which is which.
@@ -52,7 +52,7 @@ The endings themselves barely move across the periods: δῶρον is δῶρο�
 | **Classical Attic** | The rule is at its strictest — a plural verb with a neuter plural subject is unusual |
 | **Koine and the NT** | The rule weakens considerably; plural verbs with neuter plural subjects are frequent and unremarkable |
 
-So the "strange" agreement is strongest in exactly the authors most grammars are built on, and a New Testament sentence that breaks it is not making an error — it is showing you where the language was heading. Modern Greek has no trace of the rule.
+So the "strange" agreement is strongest in exactly the authors most grammars are built on, and a New Testament sentence that breaks it is not making an error — it is showing you where the language was heading.
 
 **In Koine** the type stays fully productive, and one subgroup expands sharply: diminutives in **-ιον** (παιδίον "little child", βιβλίον "book", πλοῖον "boat"), which are common in the New Testament and often no longer diminutive in force at all.
 
@@ -61,3 +61,7 @@ So the "strange" agreement is strongest in exactly the authors most grammars are
 - τὰ τέκνα παίζει — "the children play" (neuter plural + singular verb)
 - τὸ τοῦ θεοῦ ἱερόν — "the temple of the god"
 - ἐν τοῖς βιβλίοις — "in the books"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.23–4.26; and in Smyth's *A Greek Grammar for Colleges* (1920), §§228–234.

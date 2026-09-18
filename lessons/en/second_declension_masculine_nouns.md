@@ -62,3 +62,7 @@ The second declension is the most stable pattern in the language — but two of 
 - ὁ νόμος τοὺς ἀνθρώπους παιδεύει — "the law educates people"
 - ἐν τῇ ὁδῷ — "on the road" (feminine article + dative)
 - οἱ τοῦ δήμου λόγοι — "the words of the people"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.18–4.22, with the Attic declension at §§4.27–4.30; and in Smyth's *A Greek Grammar for Colleges* (1920), §§228–234, with the contracted substantives at §§235–236 and the Attic declension at §§237–239.

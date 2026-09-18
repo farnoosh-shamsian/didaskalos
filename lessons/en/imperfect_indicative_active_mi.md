@@ -132,11 +132,11 @@ The imperfect answers the question *"What was going on?"* It is not the simple p
 
 | Aspect | Detail |
 |--------|--------|
-| **Indo-European formation** | Imperfect = augment *e‑ + present stem + secondary endings — a formation Sanskrit shares exactly. |
+| **Formation** | Imperfect = augment + present stem + secondary endings. |
 | **The augment** | The relic of an ancient past-marking particle; in Greek it survived only in the indicative of past tenses. |
 | **μι-Verbs** | The oldest layer of conjugation: endings attached directly to the stem, before the thematic vowel arose. |
 | **εἰμί** | Root *h₁es‑ "to be"; ἦν results from the fusion of augment and root (ἐ + ἐσ). |
-| **Aftermath** | Modern Greek keeps a living imperfect (παρατατικός), but the μι-verbs have migrated into the ω-pattern. |
+| **Aftermath** | In later Greek the μι-verbs migrated into the ω-pattern. |
 
 ---
 
@@ -150,3 +150,7 @@ The imperfect answers the question *"What was going on?"* It is not the simple p
 | 1 pl | ἐλύομεν | ἐδίδομεν | ἐτίθεμεν | ἔφαμεν | ἦμεν |
 | 2 pl | ἐλύετε | ἐδίδοτε | ἐτίθετε | ἔφατε | ἦτε |
 | 3 pl | ἔλυον | ἐδίδοσαν | ἐτίθεσαν | ἔφασαν | ἦσαν |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperfect indicative at §§33.22–33.26; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the imperfect indicative at §§1889–1909.

@@ -106,7 +106,11 @@ The same pattern works for any perfect stem; simply replace λελυ‑ with the
 
 | Aspect | Details |
 |--------|---------|
-| **Origin of the perfect** | In Proto-Indo-European it was a stative category ("to be in the state of …"); Greek preserved this meaning in the perfect. |
-| **The suffix ‑μένος** | The same Indo-European middle suffix seen in the present participle; in the perfect it attaches directly to the stem, without a thematic vowel, and carries a fixed accent. |
-| **Reduplication** | An ancient marker of the perfect with parallels in Sanskrit; in Greek it became an inseparable part of the stem. |
+| **Origin of the perfect** | It began as a stative category ("to be in the state of …"), and Greek preserved that meaning in the perfect. |
+| **The suffix ‑μένος** | The same middle suffix seen in the present participle; in the perfect it attaches directly to the stem, without a thematic vowel, and carries a fixed accent. |
+| **Reduplication** | The ancient marker of the perfect; in Greek it became an inseparable part of the stem. |
 | **Later period** | In the Koine and the New Testament this participle remained alive and productive: γεγραμμένος "written" is among its most frequent forms. |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§19.1–19.9, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§574–579 (formation) and §§706–716 (inflection), with the syntax of the participle at §§2039–2148.

@@ -55,7 +55,7 @@ When the stem ends in a consonant, the third plural cannot add ‑ντο (the cl
 | **1. Augment *and* reduplication** | ἐ‑δέ‑δοτο. Perfect δέδοται has the reduplication only. |
 | **2. Endings attach directly** | ἐδέδο‑το, not *ἐδεδό‑ε‑το. ω-verbs show the same: ἐλέλυ‑το. |
 | **3. εἱστάμην means "I was standing"** | ἵστημι's perfect system is intransitive, so its pluperfect is an ordinary past: "was standing", not "had been set up". |
-| **4. 2 sg keeps its σ** | ἐδέδοσο, not *ἐδέδου: after a consonant-final stem or a short vowel the σ survives, unlike in the thematic imperfect ἐλύου. |
+| **4. 2 sg keeps its σ** | ἐδέδοσο, not *ἐδέδου: the athematic forms keep ‑σο intact, where the thematic imperfect lost the σ and contracted (ἐλύου). |
 | **5. Rare, but easy once seen** | The pluperfect middle/passive is uncommon; when it appears it is nearly always 3 sg or 3 pl reporting a settled state. |
 
 ---
@@ -74,3 +74,7 @@ When the stem ends in a consonant, the third plural cannot add ‑ντο (the cl
 1. **Scene-setting in historians.** A pluperfect middle/passive tells you what had already been arranged before the events of the sentence began.
 2. **Periphrastic forms are common** even where a simple form exists; do not be surprised by participle + ἦν.
 3. **Reading tip.** Augment, reduplication, and a middle ending attached with no linking vowel: that combination is this tense and nothing else.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§19.1–19.9, with the syntax of the pluperfect indicative at §§33.39–33.42; and in Smyth's *A Greek Grammar for Colleges* (1920), §§574–579 (formation) and §767 (inflection), with the syntax of the pluperfect indicative at §§1952–1954.

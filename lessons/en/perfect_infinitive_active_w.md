@@ -37,7 +37,7 @@ In Greek the choice among these is **aspect**, not time. Only in indirect statem
 | λείπω "leave" | λέλοιπα | **λελοιπέναι** |
 | ἀκούω "hear" | ἀκήκοα | **ἀκηκοέναι** |
 
-Verbs with a first perfect keep the κ (λελυ**κ**έναι); second perfects have none (γεγραφέναι).
+Verbs with a κ-perfect keep the κ (λελυ**κ**έναι); those without κ have none (γεγραφέναι).
 
 ### 2.2 Accent
 
@@ -83,3 +83,7 @@ Like any infinitive it can be turned into a noun with the neuter article:
 1. **Indirect statement** is where it lives. After verbs of saying and thinking (φημί, λέγω, νομίζω, ὁμολογέω), the infinitive keeps the tense of the original direct speech: "he has died" (τέθνηκε → τεθνηκέναι) reported becomes the perfect infinitive.
 2. **Result and cause clauses.** With ὥστε and with the articular infinitive after διά, the perfect stresses that a state has been reached, not merely that something happened.
 3. **Reading tip.** Two syllables tell you almost everything: a reduplication at the front and ‑έναι at the back. Between them lies the verb stem.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§689–701 (inflection), with the syntax of the infinitive at §§1966–2038.

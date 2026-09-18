@@ -54,7 +54,7 @@ The expected ending was ‑θι, which would have given *λύθηθι — two as
 | **2. Deponents give active meanings** | φοβήθητι means "be afraid", not "be feared"; πορεύθητι means "go". The ‑θη‑ shape does not guarantee passive sense. |
 | **3. Prohibitions use μή + aorist subjunctive** | μὴ φοβηθῇς "do not be afraid" — there is no negative aorist imperative. |
 | **4. Distinguish 2 sg from 2 pl** | λύθητι (singular) vs. λύθητε (plural). One letter separates them. |
-| **5. Second aorist passives keep ‑θι** | φάνηθι, γράφηθι. If there is no θ in the stem, the ending has one. |
+| **5. η-aorist passives keep ‑θι** | φάνηθι, γράφηθι. If there is no θ in the stem, the ending has one. |
 
 ---
 
@@ -73,3 +73,7 @@ The expected ending was ‑θι, which would have given *λύθηθι — two as
 1. **Koine and drama.** Commands of this shape are frequent in the New Testament (ἐγέρθητι, καθαρίσθητι) and in tragedy, where a character is told to endure or be moved.
 2. **Third person as a legal formula.** λυθήτω, ἀποδοθήτω "let it be given back" is the language of decrees.
 3. **Reading tip.** ‑θητι, ‑θήτω, ‑θητε: the θη belongs to the passive stem, the endings are the ordinary imperative ones.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the imperative at §§1835–1844.

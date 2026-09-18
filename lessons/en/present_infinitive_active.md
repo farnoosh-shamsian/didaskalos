@@ -40,3 +40,7 @@ The present infinitive does not indicate the time "now"; it indicates **imperfec
 | **τὸ γράφειν τέχνη ἐστίν.** | Writing is an art. |
 
 *For fuller treatment see the lessons "The Present Active Infinitive of ‑ω Verbs" and "The Present Active Infinitive of ‑μι Verbs."*
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the infinitive at §§1966–2038.

@@ -90,3 +90,7 @@ Many common verbs have no active future at all and use these middle forms with a
 1. **Prophecy, promise and threat.** The future indicative is the mood of what is going to happen; in oratory it is the tense of both pledges and warnings.
 2. **Deponent futures are a vocabulary matter.** Learn ὄψομαι, λήψομαι, εἴσομαι and γενήσομαι as principal parts, not as rules.
 3. **Reading tip.** σομαι/σεται = future middle. θησομαι/θήσεται = future passive.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40 and §§16.1–16.6, with the syntax of the future indicative at §§33.43–33.45; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541, 589, 597–598 (formation) and §§658–662, 663–664 (inflection), with the syntax of the future indicative at §§1910–1922.

@@ -74,7 +74,7 @@ These forms must be memorized.
 | **1. Find the aorist stem** | From the verb's third principal part: ἔλυσα → λυσ‑; ἔλαβον → λαβ‑. |
 | **2. Drop the augment** | The augment belongs to the indicative: subjunctive λύσω, not *ἐλύσω. |
 | **3. Contract verbs lengthen the vowel** | φιλέω → φιλήσω; τιμάω → τιμήσω. |
-| **4. Second aorists take the same vowels** | λάβω, ἴδω, εἴπω — on the second-aorist stem. |
+| **4. Thematic aorists take the same vowels** | λάβω, ἴδω, εἴπω — on the thematic aorist stem. |
 | **5. εἰμί uses its present subjunctive** | Since it has no aorist: ὦ, ᾖς, … |
 | **6. ἄν accompanies the subjunctive in subordinate clauses** | ἐάν (= εἰ + ἄν), ὅταν, ὃς ἄν + subjunctive: "if ever / whenever / whoever…" In main clauses, however, potentiality is expressed by the optative + ἄν, not the subjunctive. |
 | **7. Negation with μή** | In all subjunctive uses: **μὴ γράψῃς** "do not write!" |
@@ -109,10 +109,9 @@ In all of these, choosing the aorist over the present is an **aspectual** choice
 
 ## 6. Historical Development
 
-- The mark of the subjunctive — the **long mood vowel** — reached Greek from Proto-Indo-European.
 - In Homeric Greek the boundary between subjunctive and future was still fluid; this kinship explains the formal identity of λύσω (subjunctive/future).
 - In the Classical period the aorist subjunctive became the chief instrument of purpose clauses, vivid conditions, and prohibitions.
-- In the Koine and then Modern Greek, the subjunctive prevailed over the optative and remains alive today (with the marker να) — one of the few moods to survive three millennia.
+- In the Koine the subjunctive prevailed over the optative and took over its functions.
 
 ---
 
@@ -132,3 +131,7 @@ Keep this table handy; the only thing that changes from verb to verb is the **ao
 ---
 
 *End of Lesson.*
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the subjunctive at §§1795–1813.

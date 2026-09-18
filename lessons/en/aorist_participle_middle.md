@@ -31,8 +31,8 @@ The aorist middle participle is built from the **aorist stem (without the augmen
 
 *Meaning: "having loosed (for oneself); having ransomed" — an action the modified noun performed for itself, prior to the main verb.*
 
-### Second Aorists
-Verbs with a second aorist take the suffix ‑όμενος on the aorist stem:
+### Thematic Aorists
+Verbs with a thematic aorist take the suffix ‑όμενος on the aorist stem:
 
 | Verb | Aorist middle | Participle |
 | --- | --- | --- |
@@ -57,4 +57,8 @@ Verbs with a second aorist take the suffix ‑όμενος on the aorist stem:
 * In high-frequency deponents (γενόμενος, πυθόμενος, δεξάμενος) you will meet this form constantly in texts.
 
 ## Historical Development
-The suffix **‑μενος** continues the middle/passive participle suffix of Proto-Indo-European (*‑m(e)no‑) and has parallels in the related languages. Combined with the sigmatic aorist stem (‑σα‑) it produced ‑σάμενος, and with the thematic stem of the second aorist, ‑όμενος. The middle voice itself arose from ancient reflexive constructions — action for oneself — and remained a living, meaningful category in Greek. Knowing this development aids in understanding the structure and evolution of the language.
+The suffix **‑μενος** is the middle/passive participle suffix. Combined with the sigmatic aorist stem (‑σα‑) it produced ‑σάμενος, and with the thematic stem of the thematic aorist, ‑όμενος. The middle voice itself arose from ancient reflexive constructions — action for oneself — and remained a living, meaningful category in Greek. Knowing this development aids in understanding the structure and evolution of the language.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the participle at §§2039–2148.

@@ -14,7 +14,7 @@ The most important member by far is **πᾶς** — one of the most frequent wor
 | Accusative | ταχύν | ταχεῖαν | ταχύ | ταχεῖς | ταχείας | ταχέα |
 | Vocative | ταχύ | ταχεῖα | ταχύ | ταχεῖς | ταχεῖαι | ταχέα |
 
-The masculine/neuter follow the υ/ε-alternating pattern (compare πόλις in the noun lessons); the feminine declines like θάλαττα (gen. -είας... note the feminine keeps its own first-declension forms throughout).
+The masculine/neuter follow the υ/ε-alternating pattern (compare πόλις in the noun lessons); the feminine declines like χώρα (gen. -είας... note the feminine keeps its own first-declension forms throughout).
 
 ## Paradigm: πᾶς "all, every" (ντ-stem)
 
@@ -76,9 +76,7 @@ These adjectives inherit the dialect features of the third-declension nouns, and
 | ἡδύς neut. pl. | ἡδέα | ἡδέα (also contracted in places) |
 | εὐρύς acc. sg. | εὐρέα | εὐρύν |
 
-**The ‑εσσι dative plural.** As with the nouns, epic has a second dative plural in **‑εσσι(ν)**: πάντεσσι for πᾶσι, ἡδέεσσι. In Homer it is used freely wherever the metre prefers the extra syllable.
-
-**πᾶς in Homer** also appears in the Ionic form πάντεσσι and, in the feminine, as πᾶσα beside the epic πᾶσα/πάσῃσι datives. The ντ-stem declension itself is unchanged.
+**The ‑εσσι dative plural.** As with the nouns, epic has a second dative plural in **‑εσσι(ν)**: πάντεσσι for πᾶσι. In Homer it is used freely wherever the metre prefers the extra syllable.
 
 **In Koine** the type is stable and heavily used. πᾶς is one of the most frequent words in the New Testament, and the ‑ής / ‑ές adjectives (ἀληθής "true", ἀσθενής "weak", πλήρης "full") remain fully productive. One small Koine habit to note: πλήρης is sometimes left **undeclined** in the New Testament, standing in the nominative form regardless of the case it should agree in — an early sign of the third declension loosening.
 
@@ -87,3 +85,7 @@ These adjectives inherit the dialect features of the third-declension nouns, and
 - πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει — "all human beings by nature desire to know" (Aristotle)
 - ἡδὺς ὁ λόγος — "the story is pleasant"
 - ἐν πάσῃ τῇ χώρᾳ — "in the whole land"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.17–5.25; and in Smyth's *A Greek Grammar for Colleges* (1920), §§291–293 (the consonant declension) and §§294–299 (consonant and vowel declension combined).

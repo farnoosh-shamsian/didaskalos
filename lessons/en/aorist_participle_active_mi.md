@@ -121,4 +121,8 @@ The active participle suffix **‑ντ‑** attaches directly to the vowel stem;
 
 ## 7. Historical Note
 
-The suffix ‑ντ‑ is the oldest Indo-European active participle suffix. In the μι-verbs it sits directly on the vowel root, and the compressed nominatives (δούς, θείς, στάς) arose from the simplification of the cluster *‑ντς — the same process you see in the aorist passive participle (λυθείς). These short shapes are among the most frequent words in Greek prose, and knowing them is a key to fluent reading.
+The suffix ‑ντ‑ is the oldest active participle suffix in Greek. In the μι-verbs it sits directly on the vowel root, and the compressed nominatives (δούς, θείς, στάς) arose from the simplification of the cluster *‑ντς — the same process you see in the aorist passive participle (λυθείς). These short shapes are among the most frequent words in Greek prose, and knowing them is a key to fluent reading.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the participle at §§2039–2148.

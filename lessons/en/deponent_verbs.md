@@ -95,9 +95,9 @@ A few deponents borrow **active‑form** tenses from other stems: ἔρχομα�
 
 Deponency looks like an irregularity, but it is better understood as a **leftover from an older system** — and the system it is left over from is visible at both ends of the period you are reading.
 
-**Greek inherited two voices, not three.** Indo-European had an active and a **middle**, and no passive. The Greek passive is a later, local invention: the θη‑aorist that marks it began as an *intransitive* or *stative* formation ("become X", "be in a state of X"), and only gradually specialized into a true passive. In the present, imperfect, perfect and pluperfect Greek never built a separate passive at all — which is exactly why those tenses have a single middle/passive form, as the voice lessons of this book keep noting.
+**Greek started with two voices, not three.** The oldest layer of the language opposes an active to a **middle**, with no passive. The Greek passive is a later, local invention: the θη‑aorist that marks it began as an *intransitive* or *stative* formation ("become X", "be in a state of X"), and only gradually specialized into a true passive. In the present, imperfect, perfect and pluperfect Greek never built a separate passive at all — which is exactly why those tenses have a single middle/passive form, as the voice lessons of this book keep noting.
 
-Seen that way, deponents are not defective. They are verbs that stayed in the older two-voice system: they never needed an active, because the middle was always the right voice for what they mean. Verbs of motion (ἔρχομαι, πορεύομαι), perception (αἰσθάνομαι), feeling (βούλομαι, φοβέομαι) and speech directed at someone (ἀποκρίνομαι) all describe the subject as personally involved — which is precisely what the middle is for. The Latin grammarians' image of a verb "laying aside" its active is misleading; nothing was laid aside.
+Seen that way, deponents are not defective. They are verbs that stayed in the older two-voice system: they never needed an active, because the middle was always the right voice for what they mean. Verbs of motion (ἔρχομαι, πορεύομαι), perception (αἰσθάνομαι), feeling (βούλομαι, φοβέομαι) and speech directed at someone (ἀποκρίνομαι) all describe the subject as personally involved — which is precisely what the middle is for. The traditional image of a verb "laying aside" its active is misleading; nothing was laid aside.
 
 **The middle is stronger in Homer.** Epic uses the middle more freely and more meaningfully than Attic, with many more verbs showing a live active/middle contrast. As Greek develops, that contrast erodes and the middle becomes less a choice than a lexical property of particular verbs — which is what makes deponency look arbitrary by the Classical period.
 
@@ -110,8 +110,6 @@ Seen that way, deponents are not defective. They are verbs that stayed in the ol
 
 The meaning does not change; only the form does. So in a Koine text a θη‑ending is weaker evidence of a true passive than it would be in Plato — check the lexicon before translating one as a passive.
 
-**The endpoint.** Modern Greek has abandoned the three-voice system entirely and has just two: active and mediopassive. In other words, the pattern that Greek grammars treat as an exception is what the language eventually settled on everywhere.
-
 ## 8. Quick Reference
 
 | Situation | Recognize by | Example | Translate |
@@ -122,3 +120,7 @@ The meaning does not change; only the form does. So in a Koine text a θη‑end
 | Suppletive active tense | active form, ‑μαι headword | ἦλθον ← ἔρχομαι | actively |
 | Meaningful middle (not deponent) | headword ‑ω exists | ἄρχομαι ← ἄρχω | by its middle sense |
 | Semi‑deponent future | active verb, middle future | ἀκούσομαι ← ἀκούω | actively |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§35.1–35.36; and in Smyth's *A Greek Grammar for Colleges* (1920), §§805–821 (forms of one voice in the sense of another), with the middle voice at §§1713–1734.

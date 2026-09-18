@@ -93,8 +93,8 @@ The infinitive can serve as **subject**, **object**, or **complement** — exact
 
 | Aspect | Detail |
 |--------|--------|
-| **Origin of ‑ναι** | The ending ‑ναι continues an Indo-European verbal noun and belongs to the athematic layer of the verbal system. |
-| **εἶναι** | From *ἐσ‑ναι, with loss of σ and compensatory lengthening; cognate with Sanskrit *ásti* and Latin *esse*. |
+| **Origin of ‑ναι** | The ending ‑ναι is an old verbal noun and belongs to the athematic layer of the verbal system. |
+| **εἶναι** | From *ἐσ‑ναι, with loss of σ and compensatory lengthening. |
 | **Gradual erosion** | Along with the whole ‑μι system, the ‑ναι infinitives gave way to thematic forms in later Greek. |
 
 ---
@@ -115,3 +115,7 @@ Remember: **short stem + ‑ναι, with the accent on the syllable before the e
 ---
 
 *End of Lesson*
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the infinitive at §§1966–2038.

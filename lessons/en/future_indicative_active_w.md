@@ -128,7 +128,10 @@ The **‑σ‑** attaches directly to the root *φη‑*; in the future, μι-ve
 
 ## 7. Historical Development
 
-* **Indo-European origin** — the future marker ‑σ‑ is connected with the desiderative suffix *‑s‑ of Proto-Indo-European (compare Sanskrit *‑sya‑*).
 * **Phonological development** — in liquid verbs the σ dropped between vowels and contraction produced the ‑ῶ future (ἀγγελῶ) — the same pattern as the contract presents.
 * **Kinship with the subjunctive** — the ancient affinity of future and subjunctive (both "not yet realized") explains the formal identity of λύσω.
-* **Later fate** — in the Koine the sigmatic future declined, and Modern Greek forms its future with the particle θα (θα λύσω) — a remnant of θέλω ἵνα "I want that."
+* **Later fate** — in the Koine the sigmatic future declined, giving way to periphrastic expressions of futurity.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the future indicative at §§33.43–33.45; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §§658–662 (inflection), with the syntax of the future indicative at §§1910–1922.

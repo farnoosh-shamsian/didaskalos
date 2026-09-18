@@ -84,3 +84,7 @@ The accent falls on the **penult** of the participle and stays there: θέμεν
 1. **Historians live on these forms.** Thucydides and Xenophon narrate campaigns with strings of aorist participles — θέμενοι, ἐπιθέμενοι, ἀποδόμενοι — where a less participle-friendly language would need a string of finite verbs joined by "and".
 2. **The genitive absolute.** With a genitive noun outside the main clause: ἐπιθεμένων τῶν πολεμίων "when the enemy attacked".
 3. **Learn them with their prepositions.** δόμενος and θέμενος on their own are much less frequent than ἀποδόμενος, ἐπιθέμενος and συνθέμενος; the compound is the word you will actually meet.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the participle at §§2039–2148.

@@ -80,3 +80,7 @@ A completed action **whose result still stands**, with the subject either acting
 1. **Formal and legal language.** δέδοται, τέθειται and δέδεικται carry the weight of "it stands established" — hence their frequency in decrees and in philosophical proof.
 2. **δέδεικται in argument.** Plato and Aristotle close a demonstration with it: "it has been shown".
 3. **Reading tip.** Reduplication with ε plus a middle ending attached to a short stem: perfect middle/passive. Add an augment and it becomes the pluperfect ἐδέδοτο.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§19.1–19.9, with the syntax of the perfect indicative at §§33.34–33.38; and in Smyth's *A Greek Grammar for Colleges* (1920), §§574–579 (formation) and §767 (inflection), with the syntax of the perfect indicative at §§1945–1951.

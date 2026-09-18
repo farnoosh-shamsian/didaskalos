@@ -38,7 +38,7 @@ A treebank tag of "middle/passive" on an aorist therefore points at one of two t
 | Nom. pl. | λυσάμενοι | λυσάμεναι | λυσάμενα |
 | Gen. pl. | λυσαμένων | λυσαμένων | λυσαμένων |
 
-Second aorists drop the ‑σα‑ and use the thematic vowel: λαβόμενος, γενόμενος, ἑλόμενος.
+Thematic aorists drop the ‑σα‑ and use the thematic vowel: λαβόμενος, γενόμενος, ἑλόμενος.
 
 ### 2.2 The Aorist Passive Participle: **λυθείς**
 
@@ -91,3 +91,7 @@ The θ is the single most useful letter here: where you see ‑θε‑, the subj
 1. **The genitive absolute** is the construction to watch: a participle plus a noun in the genitive, both outside the main clause's syntax — ἀποκριναμένου τοῦ βασιλέως.
 2. **Attributive with the article** it names a person by what they did: οἱ λυθέντες "those who were freed", ὁ βουλευσάμενος "the one who planned it".
 3. **No single equivalent.** The participle packs a whole clause into one word, so it has to be unpacked differently each time: as "having ‑ed", "after ‑ing", "when he had ‑ed", or simply as a second finite verb in sequence. Choose whatever keeps the sentence readable.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64 and §§14.1–14.31, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554, 585–588, 590–596 (formation) and §§665–671, 672–678, 679–688 (inflection), with the syntax of the participle at §§2039–2148.

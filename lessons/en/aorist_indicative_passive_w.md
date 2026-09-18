@@ -20,7 +20,7 @@ The **aorist indicative passive** therefore expresses a completed action **done 
 > **Force:** the subject undergoes the action rather than performing it — "The city **was destroyed**."
 > **Greek:** ἡ πόλις **διεφθάρη**.
 
-> **A note on "‑ω"** — the lesson title means that this formation belongs to ω-verbs (verbs whose first person present ends in ‑ω). The aorist passive itself does not end in ‑ω; its first person singular is **‑θην** (or **‑ην** in the second aorist passive).
+> **A note on "‑ω"** — the lesson title means that this formation belongs to ω-verbs (verbs whose first person present ends in ‑ω). The aorist passive itself does not end in ‑ω; its first person singular is **‑θην** (or **‑ην** in the η-aorist passive).
 
 ---
 
@@ -30,12 +30,12 @@ Greek has two main ways of forming the aorist passive:
 
 | Type | Stem formation | Indicative endings |
 |------|----------------|------------------------------|
-| **First aorist passive** | The marker **‑θη‑** after the stem (often with vowel lengthening). | ‑θην, ‑θης, ‑θη, ‑θημεν, ‑θητε, ‑θησαν |
-| **Second aorist passive** | Plain **‑η‑**, without θ. | ‑ην, ‑ης, ‑η, ‑ημεν, ‑ητε, ‑ησαν |
+| **θη-aorist passive** | The marker **‑θη‑** after the stem (often with vowel lengthening). | ‑θην, ‑θης, ‑θη, ‑θημεν, ‑θητε, ‑θησαν |
+| **η-aorist passive** | Plain **‑η‑**, without θ. | ‑ην, ‑ης, ‑η, ‑ημεν, ‑ητε, ‑ησαν |
 
 Both types take the **augment** ἐ‑ in the indicative (occasionally dropped in poetry). The endings are the secondary **active** endings — one of the surprises of this formation!
 
-### 2.1 The First Aorist Passive Paradigm
+### 2.1 The θη-Aorist Passive Paradigm
 
 **Example with λύω "to loose, set free"**
 
@@ -48,7 +48,7 @@ Both types take the **augment** ἐ‑ in the indicative (occasionally dropped i
 | 2 pl | ἐλύθητε | you (pl.) were set free |
 | 3 pl | ἐλύθησαν | they were set free |
 
-### 2.2 The Second Aorist Passive Paradigm
+### 2.2 The η-Aorist Passive Paradigm
 
 **Example with γράφω "to write" → ἐγράφην "I was written"**
 
@@ -61,7 +61,7 @@ Both types take the **augment** ἐ‑ in the indicative (occasionally dropped i
 | 2 pl | ἐγράφητε | you (pl.) were written |
 | 3 pl | ἐγράφησαν | they were written |
 
-*The second aorist passive belongs to verbs such as γράφω (ἐγράφην), φαίνω (ἐφάνην "I appeared"), and κόπτω (ἐκόπην "I was cut"); apart from the missing θ its conjugation is identical to the first type.*
+*The η-aorist passive belongs to verbs such as γράφω (ἐγράφην), φαίνω (ἐφάνην "I appeared"), and κόπτω (ἐκόπην "I was cut"); apart from the missing θ its conjugation is identical to the first type.*
 
 ---
 
@@ -106,7 +106,11 @@ Both types take the **augment** ἐ‑ in the indicative (occasionally dropped i
 
 | Aspect | Details |
 |--------|---------|
-| **Proto-Indo-European** | The marker ‑θη‑ is a Greek innovation; its likely source is the stative suffix *‑dʰeh₁‑ (cognate with τίθημι "to place"). |
+| **Origin** | The marker ‑θη‑ is an innovation within Greek, not an inherited passive formation. |
 | **Early Greek** | The ‑η‑ type (second passive) is older and originally expressed a change of state: ἐφάνην "I appeared," ἐμάνην "I went mad." |
 | **Classical period** | ‑θη‑ became productive and spread to most verbs; its active endings are a relic of that stative origin, not of a true passive. |
-| **Later Greek** | In the Koine, ‑θην swallowed the middle's territory as well (ἀπεκρίθη "he answered"), and its descendant (‑θηκα) is still alive in Modern Greek. |
+| **Later Greek** | In the Koine, ‑θην swallowed the middle's territory as well (ἀπεκρίθη "he answered"). |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the aorist indicative at §§33.27–33.33; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the aorist indicative at §§1923–1944.

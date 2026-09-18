@@ -108,7 +108,6 @@ The stem vowel merges with the thematic vowel:
 
 | Aspect | Details |
 |--------|---------|
-| **Origin** | The secondary middle endings come from Proto-Indo-European and have parallels in Sanskrit. |
 | **Loss of σ** | ‑εσο → ‑εο → ‑ου is a sound change within Greek; uncontracted forms appear in Homer. |
 | **Unity of middle and passive** | In the present system (present and imperfect) Greek never separated middle from passive; the formal distinction arose only in the aorist and future. |
 | **Link to the present** | The imperfect is in every respect "the past of the present system" — which is what makes it easy to learn. |
@@ -125,3 +124,7 @@ The stem vowel merges with the thematic vowel:
 | 1 pl. | **‑όμεθα** | ἐλυόμεθα |
 | 2 pl. | **‑εσθε** | ἐλύεσθε |
 | 3 pl. | **‑οντο** | ἐλύοντο |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperfect indicative at §§33.22–33.26; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the imperfect indicative at §§1889–1909.

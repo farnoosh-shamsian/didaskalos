@@ -17,8 +17,8 @@ The aorist infinitive **active** means that the (logical) subject of the infinit
 
 The principal forms for ω-verbs:
 
-- **First aorist (sigmatic): ‑σαι** → **λῦσαι** "to loose (once)"
-- **Second aorist (thematic): ‑εῖν** → **λαβεῖν** "to take (once)"
+- **Sigmatic aorist (sigmatic): ‑σαι** → **λῦσαι** "to loose (once)"
+- **Thematic aorist (thematic): ‑εῖν** → **λαβεῖν** "to take (once)"
 
 > **Typical meaning:** "to do (once)." The fundamental point: the aorist infinitive **has no past time**; it conveys only the **aspect** of a single event. λῦσαι means "to loose (once and done)," not "to have loosed."
 
@@ -34,9 +34,9 @@ The infinitive has **only one form** — it takes neither person nor number. All
 
 1. Find the **aorist stem** (from the verb's third principal part: ἔλυσα → λυσ‑; ἔλαβον → λαβ‑).
 2. Remove the augment.
-3. For the first aorist add **‑αι** (σα-stem → ‑σαι); for the second aorist add **‑εῖν**.
+3. For the sigmatic aorist add **‑αι** (σα-stem → ‑σαι); for the thematic aorist add **‑εῖν**.
 
-#### 2.2.1 First Aorist (Sigmatic)
+#### 2.2.1 Sigmatic Aorist (Sigmatic)
 
 | Verb (present) | Aorist stem | Aorist infinitive active |
 |----------------|-------------|---------------------------|
@@ -47,9 +47,9 @@ The infinitive has **only one form** — it takes neither person nor number. All
 | **τιμάω** "to honor" | τιμησ‑ | **τιμῆσαι** |
 | **ποιέω** "to do, make" | ποιησ‑ | **ποιῆσαι** |
 
-*The accent of the first aorist infinitive falls on the penult: παιδεῦσαι.*
+*The accent of the sigmatic aorist infinitive falls on the penult: παιδεῦσαι.*
 
-#### 2.2.2 Second Aorist (Thematic)
+#### 2.2.2 Thematic Aorist (Thematic)
 
 | Verb (present) | Aorist stem | Aorist infinitive active |
 |----------------|-------------------|---------------------------|
@@ -59,7 +59,7 @@ The infinitive has **only one form** — it takes neither person nor number. All
 | **ὁράω** "to see" | ἰδ‑ | **ἰδεῖν** |
 | **ἔχω** "to have" | σχ‑ | **σχεῖν** |
 
-*The second aorist infinitive always carries a circumflex on the final syllable: λαβεῖν — this distinguishes it from the present infinitive (λαμβάνειν).*
+*The thematic aorist infinitive always carries a circumflex on the final syllable: λαβεῖν — this distinguishes it from the present infinitive (λαμβάνειν).*
 
 #### 2.2.3 Special Cases
 
@@ -76,8 +76,8 @@ The infinitive has **only one form** — it takes neither person nor number. All
 | Rule | Explanation | Example |
 |------|-------------|---------|
 | **1. Build on the aorist stem** | The same stem as the aorist indicative, without the augment. | ἔγραψα → γραψ‑ → **γράψαι** |
-| **2. First aorist: ‑σαι** | Sigmatic stem + ‑αι; accent on the penult. | **παιδεῦσαι** |
-| **3. Second aorist: ‑εῖν** | Final circumflex — the mark that distinguishes it from the present infinitive. | **λαβεῖν** ≠ λαμβάνειν |
+| **2. Sigmatic aorist: ‑σαι** | Sigmatic stem + ‑αι; accent on the penult. | **παιδεῦσαι** |
+| **3. Thematic aorist: ‑εῖν** | Final circumflex — the mark that distinguishes it from the present infinitive. | **λαβεῖν** ≠ λαμβάνειν |
 | **4. Contract verbs lengthen the vowel** | α/ε → η, ο → ω before σ. | τιμάω → **τιμῆσαι**; δηλόω → **δηλῶσαι** |
 | **5. No augment** | The augment belongs only to the indicative. | Not *ἐλῦσαι*; correctly: λῦσαι |
 | **6. εἰμί has no aorist infinitive** | Only εἶναι (present). | βούλομαι σοφὸς εἶναι |
@@ -114,6 +114,10 @@ The infinitive has **only one form** — it takes neither person nor number. All
 ## 6. Historical Development
 
 - The ending **‑σαι** arose from the sigmatic marker ‑σ(α)‑ combined with the ancient infinitive ending *‑ai.
-- The second aorist ending **‑εῖν** developed from the contraction of the thematic vowel with old *‑εν — the same ending seen in the present infinitive (‑ειν); the difference lies only in stem and accent.
+- The thematic aorist ending **‑εῖν** developed from the contraction of the thematic vowel with old *‑εν — the same ending seen in the present infinitive (‑ειν); the difference lies only in stem and accent.
 - Infinitives were originally **verbal nouns** fossilized in locative/dative case forms; that is why they behave like nouns with the article (τὸ λῦσαι).
-- In Koine Greek the infinitive gradually yielded to ὅτι/ἵνα clauses, and in Modern Greek it has disappeared entirely — its legacy taken over by να + subjunctive constructions.
+- In Koine Greek the infinitive gradually yielded to ὅτι/ἵνα clauses.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the infinitive at §§1966–2038.

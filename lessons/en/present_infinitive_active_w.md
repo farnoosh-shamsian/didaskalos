@@ -80,7 +80,7 @@ The infinitive is the same for every person; it is listed only once.
 | **3. Contract verbs** | Contract the stem vowel with ‑ειν → ‑ᾶν, ‑εῖν, ‑οῦν. | τιμᾶν, ποιεῖν, δηλοῦν |
 | **4. Irregular infinitives** | A few very common verbs are irregular: *εἰμί* "to be" → **εἶναι**; the ‑μι verbs form the infinitive with ‑ναι (διδόναι, τιθέναι). | εἰμί → εἶναι |
 | **5. Deponent verbs** | Verbs with only middle forms in the present have no present *active* infinitive; theirs is middle: *ἔρχομαι* → ἔρχεσθαι. | — |
-| **6. Uncontracted dialect forms** | Ionic preserves uncontracted forms (τιμάειν for τιμᾶν); the classical Attic form is the contracted one. | — |
+| **6. Uncontracted dialect forms** | Ionic preserves uncontracted forms; the classical Attic form is the contracted one. | — |
 
 ---
 
@@ -120,10 +120,10 @@ Notice that the infinitive can function as the **subject**, **object**, or **com
 
 | Period | Development |
 |--------|-------------|
-| **Proto-Indo-European** | PIE had no single infinitive; the daughter languages built one from verbal nouns. Greek ‑ειν is usually derived from a formation *‑e‑(s)en. |
+| **Origins** | Greek built its infinitives out of verbal nouns; ‑ειν is usually derived from a formation *‑ε‑(σ)εν. |
 | **Mycenaean Greek** | Infinitive forms are already attested on the Linear B tablets (e.g. *e‑ke‑e* = /hekhehen/ "to have"). |
 | **Classical Attic** | The three contract patterns (‑ᾶν, ‑εῖν, ‑οῦν) become regularized; uncontracted ‑ειν dominates for regular verbs. |
-| **Koine & Byzantine** | The infinitive gradually gives way to finite clauses — a process completed in Modern Greek, where the infinitive has been lost. |
+| **Koine & Byzantine** | The infinitive gradually gives way to finite clauses. |
 
 ---
 
@@ -148,3 +148,7 @@ Notice that the infinitive can function as the **subject**, **object**, or **com
 - Use the infinitive as a noun-like element (subject, object, complement), or after particular verbs and — with the article — after prepositions.
 
 Now you have the tools to identify, form, and understand the present active infinitive in Ancient Greek.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the infinitive at §§1966–2038.

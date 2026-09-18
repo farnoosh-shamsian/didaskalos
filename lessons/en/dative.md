@@ -163,7 +163,7 @@ _Key points_
 
 Of all the cases, the dative changes most across the span of Greek — in its endings, in its jobs, and finally in whether it exists at all.
 
-**Three cases in one.** Indo-European had a dative ("to/for"), a separate **instrumental** ("by means of, together with") and a separate **locative** ("in, at"). Greek collapsed all three into one form, which is why a single case covers such an odd range of meanings. The old locative survives visibly in fossils like **Ἀθήνησι** "at Athens" and **οἴκοι** "at home", and the ‑φι(ν) ending Homer uses for both instrument and place (βίηφι "by force", ναῦφι "at the ships") is another relic of the same system.
+**Three cases in one.** The Greek dative does the work of three older cases: a dative proper ("to/for"), an **instrumental** ("by means of, together with") and a **locative** ("in, at"), which fell together into a single form. That is why one case covers such an odd range of meanings. The old locative survives visibly in fossils like **Ἀθήνησι** "at Athens" and **οἴκοι** "at home", and the ‑φι(ν) ending Homer uses for both instrument and place (βίηφι "by force", ναῦφι "at the ships") is another relic of the same system.
 
 **The endings were longer.**
 
@@ -183,7 +183,7 @@ These long datives are among the most conspicuous features of Homeric Greek; if 
 | Place where | bare dative or ἐν | almost always ἐν |
 | Goal / recipient | dative | dative, but εἰς/πρός + acc. spreading |
 
-The endpoint lies beyond our period: **Modern Greek has no dative case at all.** Its functions are shared between the genitive and prepositional phrases. So when a Koine text uses a preposition where you expected a plain dative, you are watching the beginning of that loss — not sloppiness, but the language in motion.
+So when a Koine text uses a preposition where you expected a plain dative, you are watching the beginning of a long retreat — not sloppiness, but the language in motion.
 
 ## 12. Example Sentences
 
@@ -196,3 +196,7 @@ The endpoint lies beyond our period: **Modern Greek has no dative case at all.**
 | **ταύτῃ τῇ ἡμέρᾳ ἀπῆλθον.** | On that day they departed. *(time when)* |
 | **ἐν τῇ πόλει μένουσιν.** | They remain in the city. *(after a preposition)* |
 | **τῷ λόγῳ χρῆσθαι βούλομαι.** | I wish to use the argument. *(verb governing the dative)* |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§30.37–30.54; and in Smyth's *A Greek Grammar for Colleges* (1920), §§1450–1550.

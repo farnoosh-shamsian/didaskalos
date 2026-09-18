@@ -153,7 +153,7 @@ _Key points_
 
 ## 11. Historical Development
 
-The accusative is the most stable case in Greek. Its endings barely move between Homer and the New Testament, and unlike the dative it never came under threat — it is still very much alive in Modern Greek. What changes is how much work it is asked to do, and the trend is that it takes on **more**.
+The accusative is the most stable case in Greek. Its endings barely move between Homer and the New Testament, and unlike the dative it never came under threat. What changes is how much work it is asked to do, and the trend is that it takes on **more**.
 
 **Epic uses.** Two constructions are far commoner in Homer than in later prose:
 
@@ -185,3 +185,7 @@ In the New Testament εἰς and ἐν are no longer kept rigidly apart, and ε�
 | **πολὺν χρόνον ἔμεινεν.** | He waited a long time. *(extent of time)* |
 | **τί ταῦτα λέγεις;** | Why do you say this? *(adverbial neuter, and object)* |
 | **μὰ Δία, οὐκ ἔγωγε.** | By Zeus, not I. *(oath)* |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§30.8–30.19; and in Smyth's *A Greek Grammar for Colleges* (1920), §§1551–1635.

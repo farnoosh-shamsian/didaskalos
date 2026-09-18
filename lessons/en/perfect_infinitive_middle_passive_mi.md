@@ -70,3 +70,7 @@ Both end in ‑οσθαι; the reduplication vowel (δι‑ vs. δε‑) and the
 1. **Indirect statement** after φημί, λέγεται and ὁμολογέω is where you will meet these forms.
 2. **δεδεῖχθαι in philosophy**: "it has been shown" closes a proof.
 3. **Reading tip.** Reduplication with ε, ‑σθαι, and an accent on the penult: perfect middle/passive infinitive.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§19.1–19.9, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§574–579 (formation) and §767 (inflection), with the syntax of the infinitive at §§1966–2038.

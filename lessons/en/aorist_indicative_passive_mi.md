@@ -88,3 +88,7 @@ Built on the same ‑θε‑/‑θη‑ stem, and worth recognizing:
 1. **Documents and decrees.** ἐδόθη, ἐτέθη and ἐψηφίσθη are the language of inscriptions and of Thucydides' treaty texts: the actor is often deliberately left unnamed.
 2. **The stem is worth banking.** Learn δοθ‑, τεθ‑, σταθ‑ once and the infinitive, participle, subjunctive and future passive (δοθήσομαι) all follow from it.
 3. **Reading tip.** Augment + short stem + θη is unmistakable. If you also see ‑σαν at the end, it is third plural: ἐδόθησαν.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the aorist indicative at §§33.27–33.33; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the aorist indicative at §§1923–1944.

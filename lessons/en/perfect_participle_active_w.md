@@ -59,7 +59,7 @@ The nominative singular endings:
 |------|-------------|
 | **1. Reduplication is retained** | The perfect participle always keeps the reduplication: **λε**λυκώς, **γε**γραφώς. |
 | **2. Accent on the ending** | ‑ώς and ‑ός are always accented: a quick mark of recognition. |
-| **3. Feminine in ‑υῖα** | Not ‑ουσα (which belongs to the present and the second aorist): λελυκυῖα. |
+| **3. Feminine in ‑υῖα** | Not ‑ουσα (which belongs to the present and the thematic aorist): λελυκυῖα. |
 | **4. Periphrasis with εἰμί** | λελυκότες εἰσί "they have loosed"; in the perfect subjunctive and optative this construction is the standard one: λελυκὼς ᾖ. |
 | **5. Meaning of present state** | Translate with "having …" or with a state adjective: τεθνηκώς "dead," ἑστηκώς "standing." |
 | **6. Do not confuse with the aorist participle** | λύσας "having loosed (once)" but λελυκώς "having loosed and remaining in that state." |
@@ -88,4 +88,8 @@ The nominative singular endings:
 
 ## 6. Historical Note
 
-The suffix of the perfect active participle (Indo-European *‑wos‑/‑us‑) gave Greek ‑ώς/‑ότος with the feminine ‑υῖα — the same suffix seen in Sanskrit (‑vāṃs‑). The ς/τ alternation in the declension (λελυκώς/λελυκότος) is a relic of that ancient layer. As the perfect declined in later Greek these participles too gave way to other constructions, but in classical texts they are everywhere.
+The suffix of the perfect active participle gave ‑ώς/‑ότος with the feminine ‑υῖα. The ς/τ alternation in the declension (λελυκώς/λελυκότος) is a relic of that ancient layer. As the perfect declined in later Greek these participles too gave way to other constructions, but in classical texts they are everywhere.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§689–701 (inflection), with the syntax of the participle at §§2039–2148.

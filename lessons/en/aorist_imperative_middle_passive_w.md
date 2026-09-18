@@ -25,7 +25,7 @@ A "middle/passive" tag here usually marks a **deponent**, whose middle or ‑θ�
 
 ### 2.1 Middle
 
-| Person | First aorist | Second aorist |
+| Person | Sigmatic aorist | Thematic aorist |
 | --- | --- | --- |
 | 2 sg | **λῦσαι** | **λαβοῦ**, **γενοῦ** |
 | 3 sg | **λυσάσθω** | **λαβέσθω** |
@@ -81,3 +81,7 @@ The 2 sg ending is ‑θητι, not ‑θηθι: Greek dissimilates the second o
 1. **Drama and dialogue.** Short imperatives of this kind carry the emotional register of tragedy and of Socratic conversation alike.
 2. **Third person in decrees.** λυθήτω, ἀποδόσθω "let it be sold" is administrative Greek.
 3. **Reading tip.** ‑σαι/‑οῦ = middle; ‑θητι = passive form. Then ask whether the verb has an active voice at all before deciding how to render it — a middle-only verb takes an active sense.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64 and §§14.1–14.31, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554, 585–588, 590–596 (formation) and §§665–671, 672–678, 679–688 (inflection), with the syntax of the imperative at §§1835–1844.

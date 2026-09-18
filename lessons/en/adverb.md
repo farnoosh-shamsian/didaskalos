@@ -99,11 +99,13 @@ In Homer these are a living system that can be applied to many nouns; in Attic o
 
 **In Koine** the ‑ως formation is fully productive and the adverb inventory grows, but two changes matter for reading. Adverbs are pressed into service as **prepositions** — ἐνώπιον, ἔμπροσθεν, ὀπίσω all begin as adverbs and end up governing the genitive. And comparison is increasingly made **periphrastically**, with μᾶλλον "more" plus the positive form, rather than with a comparative ending.
 
-Modern Greek has replaced the ‑ως ending with ‑α for most adverbs, though ‑ως survives in formal registers.
-
 ## 8. Example Sentences
 
 - οἱ στρατιῶται ταχέως ἐπορεύοντο. — "The soldiers marched quickly."
 - εὖ λέγεις. — "You speak well / well said."
 - μάλιστα πάντων τοῦτο θαυμάζω. — "This I wonder at most of all."
 - ὡς τάχιστα ἦλθον. — "They came as quickly as possible."
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§6.1–6.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§341–346 (forms), with the syntax at §§1094–1098.

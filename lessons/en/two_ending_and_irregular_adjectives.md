@@ -90,7 +90,7 @@ The standard of comparison behaves exactly as with ἀγαθός: genitive, or �
 
 Greek inherited two stems for "much" — a πολυ‑ stem and a πολλο‑ stem — and never fully chose between them. Attic settled on a compromise, taking the nominative and accusative singular from one (πολύς, πολύν) and everything else from the other (πολλοῦ, πολλῷ, πολλοί). Homer simply uses both stems throughout. Once you know this, the Attic paradigm looks less like a mistake and more like a treaty.
 
-**The ‑ων comparatives contract in Attic.** μείζων has both a longer and a shorter accusative: μείζονα and μείζω, μείζονας and μείζους. Attic prose uses the contracted forms freely; **Koine strongly prefers the full ones** — the New Testament writes μείζονα, not μείζω. This is part of a broader Koine tendency to keep the more transparent, fully spelled-out ending.
+**The ‑ων comparatives contract in Attic.** μείζων has both a longer and a shorter accusative: μείζονα and μείζω, μείζονας and μείζους. Attic prose uses the contracted forms freely; **Koine strongly prefers the full ones**. This is part of a broader Koine tendency to keep the more transparent, fully spelled-out ending.
 
 **In Koine** two-ending compound adjectives multiply, because compounding is one of the main ways Hellenistic Greek makes new words. The New Testament is full of them: ἄδικος, ἄπιστος, ἀκάθαρτος, αἰώνιος. All follow the pattern above, using one set of endings for both masculine and feminine.
 
@@ -99,3 +99,7 @@ Greek inherited two stems for "much" — a πολυ‑ stem and a πολλο‑ 
 - ὁ ἀληθὴς λόγος — "the true account"
 - μείζω κακά — "greater evils" (neuter pl. short form)
 - πολλοὶ ἄνθρωποι, πολὺς χρόνος — "many people, much time"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.26–5.30 (forms) and §§5.41–5.44 (comparison); and in Smyth's *A Greek Grammar for Colleges* (1920), §§288–290 (two endings), §311 (irregular) and §312 (one ending), with comparison at §§313–324.

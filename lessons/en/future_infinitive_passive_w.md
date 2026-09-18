@@ -59,7 +59,7 @@ pos: verb
 
 - **ἤλπιζον οἱ αἰχμάλωτοι λυθήσεσθαι.** — "The prisoners hoped to be released."
 - **ἔφασαν τὰ χρήματα ἀποδοθήσεσθαι.** — "They said the money would be given back."
-- **οὐκ ᾤετο ἡ πόλις ἁλώσεσθαι.** — "He did not think the city would be captured."
+- **οὐκ ᾤετο τὴν πόλιν ἁλώσεσθαι.** — "He did not think the city would be captured."
 - **ἐνόμιζον ταῦτα ἐν στήλῃ γραφήσεσθαι.** — "They believed this would be inscribed on a stele."
 
 ---
@@ -69,3 +69,7 @@ pos: verb
 1. **Diplomacy and hope.** Whatever a speaker expects will be done to him or his city takes this form.
 2. **After verbs of thinking** (οἴομαι, νομίζω) the future infinitive reports a prediction rather than a fact.
 3. **Reading tip.** θησεσθαι at the end of a word: future passive infinitive, every time.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§16.1–16.6, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§589, 597–598 (formation) and §§663–664 (inflection), with the syntax of the infinitive at §§1966–2038.

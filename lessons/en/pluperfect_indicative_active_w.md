@@ -77,8 +77,6 @@ If the perfect reduplication already begins with a vowel — because the verb do
 ## 4. Example Sentences
 
 - **ἐπεὶ δὲ ταῦτα ἐπεποιήκεσαν, ἀπῆλθον.** — "When they had done this, they departed."
-- **οἱ πολέμιοι ἤδη τὰ τείχη ἐληλύθεσαν.** — "The enemy had already come up to the walls."
-- **ἐγεγράφη ἡ ἐπιστολὴ πρὶν ἀφικέσθαι τὸν ἄγγελον.** — "The letter had been written before the messenger arrived."
 - **οὐκ ᾔδη ὅ τι λέγοι.** — "I did not know what he meant."
 
 ---
@@ -88,3 +86,7 @@ If the perfect reduplication already begins with a vowel — because the verb do
 1. **Subordinate clauses of time** — after ἐπεί, ἐπειδή, πρίν — are the pluperfect's natural home, where it fixes one action as prior to another past action.
 2. **The aorist often does the job instead.** Greek is happy to narrate with successive aorists and leave the sequence to context; do not expect a pluperfect at every point where one event precedes another.
 3. **Reading tip.** The signature is augment *plus* reduplication in one word: ἐ‑λε‑λύκ‑η. Spot both and you have the tense before you reach the ending.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the pluperfect indicative at §§33.39–33.42; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§689–701 (inflection), with the syntax of the pluperfect indicative at §§1952–1954.

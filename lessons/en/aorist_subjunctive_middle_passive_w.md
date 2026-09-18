@@ -36,7 +36,7 @@ As everywhere in the aorist, middle and passive are kept apart:
 | 2 pl | **λύσησθε** | (that) you (pl.) free |
 | 3 pl | **λύσωνται** | (that) they free |
 
-Second aorists drop the σ: γένωμαι, γένῃ, γένηται, γενώμεθα, γένησθε, γένωνται.
+Thematic aorists drop the σ: γένωμαι, γένῃ, γένηται, γενώμεθα, γένησθε, γένωνται.
 
 ### 2.2 The Aorist Subjunctive Passive: **λυθῶ**
 
@@ -92,3 +92,7 @@ These are the *active* endings on a passive stem — the same pattern as the aor
 1. **After verbs of fearing**, μή introduces what one fears may happen: φοβοῦμαι μὴ λυθῇ "I fear he may be released."
 2. **In general conditions** with ἐάν and in indefinite relative clauses with ἄν, the subjunctive is compulsory, and the aorist is chosen whenever the action is thought of as complete.
 3. **Reading tip.** A long ω/η in the ending with no augment in front means subjunctive; add ‑θ‑ before it and you have the passive.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64 and §§14.1–14.31, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554, 585–588, 590–596 (formation) and §§665–671, 672–678, 679–688 (inflection), with the syntax of the subjunctive at §§1795–1813.

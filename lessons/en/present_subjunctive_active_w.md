@@ -133,10 +133,9 @@ The subjunctive is **not** used for a simple statement of fact; that is the doma
 
 | Aspect | Detail |
 |--------|--------|
-| **Indo-European origin** | The Indo-European subjunctive was formed with a **lengthened thematic vowel**; Greek continues this directly (ω/η against ο/ε). |
+| **The mood marker** | The subjunctive is formed with a **lengthened thematic vowel** — ω/η against the indicative's ο/ε. |
 | **Development in Greek** | In Homer the subjunctive sometimes has a future-like sense; by the classical period it is the mood of purpose, probable condition, and exhortation. |
 | **Relation to the other moods** | The subjunctive (long vowel) and the optative (suffix ‑οι‑/‑ιη‑) are the two "non-factual" moods of Greek; as the optative receded in Koine, the subjunctive took over its functions. |
-| **Later fate** | In Modern Greek the constructions with να + subjunctive (from ἵνα) replaced the infinitive — a direct inheritance from this mood. |
 
 ---
 
@@ -156,3 +155,7 @@ Keep this table to hand as you meet new verbs: replace the stem **λυ‑** with
 ---
 
 **End of lesson** — you now know how to form, recognize, and use the present subjunctive active of ‑ω verbs.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the subjunctive at §§1795–1813.

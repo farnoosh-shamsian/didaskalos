@@ -38,7 +38,7 @@ A row tagged "middle/passive" in the aorist is therefore telling you something s
 
 Note 2 sg **ἐλύσω**: the σ of the ending dropped between vowels and the vowels contracted (ἐλύσα‑σο → ἐλύσω).
 
-Second aorists use the same endings without ‑σα‑: ἐγενόμην, ἐγένου, ἐγένετο; ἐλαβόμην, ἐλάβου, ἐλάβετο.
+Thematic aorists use the same endings without ‑σα‑: ἐγενόμην, ἐγένου, ἐγένετο; ἐλαβόμην, ἐλάβου, ἐλάβετο.
 
 ### 2.2 The Aorist Indicative Passive: **ἐλύθην**
 
@@ -96,4 +96,8 @@ Middle-only verbs use the middle set with active meaning, and this is where most
 
 1. **Narrative backbone.** ἐγένετο, ἀπεκρίνατο, ἐβουλήθη and their kin carry the story forward in Herodotus, Thucydides and the Gospels alike.
 2. **Check the lexicon entry.** Whether a ‑θη‑ aorist is passive or deponent is a fact about the verb, not about the form; the dictionary form (‑ομαι with no active) settles it.
-3. **Reading tip.** Augment + σα + ‑μην/‑το: middle. Augment + θη: passive form. Those two shapes cover almost every aorist token you will meet outside the second aorists.
+3. **Reading tip.** Augment + σα + ‑μην/‑το: middle. Augment + θη: passive form. Those two shapes cover almost every aorist token you will meet outside the thematic aorists.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64 and §§14.1–14.31, with the syntax of the aorist indicative at §§33.27–33.33; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554, 585–588, 590–596 (formation) and §§665–671, 672–678, 679–688 (inflection), with the syntax of the aorist indicative at §§1923–1944.

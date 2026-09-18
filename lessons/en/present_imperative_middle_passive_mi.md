@@ -78,3 +78,7 @@ The accent recedes but never past the preposition.
 1. **Military and civic orders.** τίθεσθε τὰ ὅπλα is a set phrase for "ground arms"; διδόσθω is the language of allocation.
 2. **Third-person imperatives** in ‑σθω are the standard form of impersonal instruction in decrees: "let it be done thus".
 3. **Reading tip.** ‑σο, ‑σθω, ‑σθε, ‑σθων on a reduplicated athematic stem: present middle/passive imperative, and the reduplication (δι‑, τι‑, ἱ‑) is what marks it as present rather than aorist.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the imperative at §§1835–1844.

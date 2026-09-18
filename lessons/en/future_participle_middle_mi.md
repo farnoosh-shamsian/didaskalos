@@ -69,3 +69,7 @@ A future participle after a verb of motion states the goal of the journey, and �
 1. **Historians** use it constantly with verbs of sending and coming: the participle tells you what the expedition was for.
 2. **With the article** it names an intended agent: ὁ δωσόμενος "the one who is to give".
 3. **Reading tip.** Long vowel + σ + όμενος and no augment: future middle participle. Look for ὡς just before it.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §754 (inflection), with the syntax of the participle at §§2039–2148.

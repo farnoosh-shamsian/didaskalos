@@ -28,8 +28,6 @@ Masculine nouns in -ευς name roles and professions: βασιλεύς "king", 
 | Accusative | βασιλέα | βασιλέας |
 | Vocative | βασιλεῦ | βασιλεῖς |
 
-Like πόλεως, the genitive βασιλέως keeps its unusual accent.
-
 ## Key irregulars
 
 | Case | ναῦς "ship" (f.) | Ζεύς | βοῦς "ox" (m./f.) |
@@ -73,7 +71,7 @@ The same applies to the ‑ης names: Homer and Ionic have Σωκράτεος-t
 | "Zeus" acc. | **Ζῆν(α)** beside Δία | Δία |
 | "Zeus" gen. | **Ζηνός** beside Διός | Διός |
 
-Homeric Ζῆνα and Ζηνός are built on a different form of the name than Attic Δία and Διός; both descend from the same Indo-European word, and Greek simply kept two versions of it.
+Homeric Ζῆνα and Ζηνός are built on a different form of the name than Attic Δία and Διός; Greek simply kept two versions of it. Smyth calls the Ζην‑ forms Ionic and poetic.
 
 **In Koine** the contracted Attic forms are standard, and the sigma-stem type remains productive — γένος, ἔθνος, τέλος, σκεῦος, ὄρος, πλῆθος are all common in the New Testament. ναῦς, however, largely gives way to the ordinary second-declension **πλοῖον** "boat", which is what the Gospels use.
 
@@ -82,3 +80,7 @@ Homeric Ζῆνα and Ζηνός are built on a different form of the name than 
 - τὰ τῆς πόλεως τείχη — "the walls of the city"
 - ὁ τῶν Περσῶν βασιλεύς — "the king of the Persians"
 - σὺν ταῖς ναυσίν — "with the ships"
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.65–4.71 (sigma stems), §§4.84–4.85 (-ευς) and §§4.86–4.88 (ἡ ναῦς, ὃ Ζεύς, ὁ βοῦς); and in Smyth's *A Greek Grammar for Colleges* (1920), §§263–266 (sigma stems), §§275–278 (stems in ευ, αυ, ου) and §§281–285 (irregular declension).

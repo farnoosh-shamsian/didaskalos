@@ -106,6 +106,10 @@ The reduplication is what marks the perfect off from all the others.
 ## 6. Historical Development
 
 - The infinitive ending **‑σθαι** is invariant for the middle across all tenses of the Greek verb; the tense is signalled entirely by the stem — here, by reduplication.
-- The **reduplication** of the perfect is an Indo-European inheritance, originally marking a stative formation, which is why the Greek perfect means a *state* rather than a past event.
+- The **reduplication** of the perfect originally marked a stative formation, which is why the Greek perfect means a *state* rather than a past event.
 - The **consonant assimilations** (γεγράφθαι, τετάχθαι) follow the ordinary Greek rules for stops before σ/θ and are worth learning once as a set, since they recur throughout the perfect middle system.
 - As the perfect merged with the aorist during the Koine period, this infinitive lost its distinct force and disappeared along with the infinitive itself in later Greek.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§19.1–19.9, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§574–579 (formation) and §§706–716 (inflection), with the syntax of the infinitive at §§1966–2038.

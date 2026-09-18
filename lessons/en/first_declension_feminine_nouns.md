@@ -56,7 +56,7 @@ This is the declension where dialect shows most plainly, because the singular vo
 
 **The pure-α type is an Attic feature.** The rule above — that a stem ending in ε, ι or ρ keeps α through the singular — holds for Attic. **Ionic simply uses η everywhere**, whatever precedes it. Herodotus writes χώρη, σοφίη, ἡμέρη, οἰκίη where Attic has χώρα, σοφία, ἡμέρα, οἰκία, and the goddess is Ἀθηναίη, not Ἀθηναία. Homer, whose language is largely Ionic, does the same.
 
-**θάλαττα is Attic and Attic only.** The paradigm word for the mixed type above is spelled **θάλασσα** everywhere else — in Homer, in Herodotus, and throughout Koine and the New Testament. The same holds for γλῶττα / γλῶσσα and for every other ττ word.
+**θάλαττα is the Attic spelling.** The paradigm word for the mixed type above is spelled **θάλασσα** in Homer, in Herodotus, and throughout Koine and the New Testament. Note that the ττ is not universal even within Attic: Thucydides and the tragedians write σσ, so an Attic author may give you θάλασσα. The same holds for γλῶττα / γλῶσσα and for every other ττ word.
 
 **The plural endings were once longer:**
 
@@ -74,3 +74,7 @@ The Attic -ῶν you learned is a contraction of the older -άων. When Homer's
 - ἡ ἀρχὴ τῆς σοφίας — "the beginning of wisdom" (nominative + genitive)
 - ἐν τῇ χώρᾳ — "in the land" (dative after ἐν)
 - τὴν θάλατταν ὁρῶμεν — "we see the sea" (accusative object)
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.2–4.7; and in Smyth's *A Greek Grammar for Colleges* (1920), §§211–221, with the contracts at §227.

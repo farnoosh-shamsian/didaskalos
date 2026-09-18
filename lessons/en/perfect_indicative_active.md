@@ -35,7 +35,7 @@ A contract-verb example: **ἀγαπάω** "to love" → **ἠγάπηκα** (th
 - **Reduplication**: consonant-initial verbs repeat their first consonant with ε: λύω → **λέ**λυκα; παιδεύω → **πε**παίδευκα.
 - **Vowel-initial verbs** lengthen the vowel instead of reduplicating (it looks like the augment): ἀγαπάω → **ἠ**γάπηκα.
 - **Reduplication ≠ augment**: the augment appears only in past indicatives and drops in the other moods; reduplication is part of the perfect stem and stays in every mood.
-- The **first perfect** has the marker **‑κα** (λέλυκα); the **second perfect** lacks the κ and often shows consonant/vowel changes: γράφω → **γέγραφα**, λείπω → **λέλοιπα**, πέμπω → **πέπομφα**.
+- The **κ-perfect** has the marker **‑κα** (λέλυκα); the **perfect without κ** lacks it and often shows consonant/vowel changes: γράφω → **γέγραφα**, λείπω → **λέλοιπα**, πέμπω → **πέπομφα**.
 - Verbs beginning with φ, χ, θ reduplicate with π, κ, τ: θύω → **τέ**θυκα; φαίνω → **πέ**φηνα.
 
 ### Example Sentences with Translations
@@ -47,4 +47,8 @@ A contract-verb example: **ἀγαπάω** "to love" → **ἠγάπηκα** (th
 The Greek perfect is less a "past" than a **present arising from the past**: it stresses the present result of the action. Several very common perfects have practically present meaning: **οἶδα** "I know," **ἕστηκα** "I stand," **τέθνηκα** "I am dead," **μέμνημαι** "I remember." A "have done" rendering usually works, but always ask the more important question: what is the present result?
 
 ### Historical Development
-Reduplication is an ancient Indo-European feature (compare Sanskrit). The perfect originally expressed the **state** arising from an action (λέλοιπα "I am in a state of having left"), and the κ of the first perfect is a Greek innovation. In the Koine the boundary between perfect and aorist blurred, and in Modern Greek the old perfect disappeared, replaced by the periphrasis έχω + infinitive. Knowing this development helps in reading texts of different periods.
+Reduplication is the ancient mark of the perfect. The perfect originally expressed the **state** arising from an action (λέλοιπα "I am in a state of having left"), and the κ of the κ-perfect is a Greek innovation. In the Koine the boundary between perfect and aorist blurred. Knowing this development helps in reading texts of different periods.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the perfect indicative at §§33.34–33.38; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§689–701 (inflection), with the syntax of the perfect indicative at §§1945–1951.

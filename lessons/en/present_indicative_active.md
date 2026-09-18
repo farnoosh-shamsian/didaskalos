@@ -57,4 +57,8 @@ Most forms of εἰμί are enclitic — they surrender their accent to the prec
 ω-Verbs are the most numerous class of Greek verbs, and command of their conjugation is essential for reading any text. The present indicative active is used for actions in progress ("I am writing now"), general truths ("the sun rises"), and habitual actions ("he writes every day"). Historians also frequently narrate past events in the "historical present" to make the scene more vivid.
 
 ### Historical Development
-The thematic conjugation (with its linking vowel) is part of Greek's Indo-European inheritance, and the ending ‑ω continues the old first-person-singular ending of that parent language. The ω-verb pattern remained remarkably stable throughout the history of Greek, and in later periods the μι-verbs gradually migrated into it. Many ω-verb roots have been borrowed into the technical vocabulary of languages far beyond Greek: γράφω "write" lies behind the international *graph‑* family of terms.
+The thematic conjugation, with its linking vowel, is the oldest productive pattern of the Greek verb. The ω-verb pattern remained remarkably stable throughout the history of Greek, and in later periods the μι-verbs gradually migrated into it.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the present indicative at §§33.14–33.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the present indicative at §§1875–1888.

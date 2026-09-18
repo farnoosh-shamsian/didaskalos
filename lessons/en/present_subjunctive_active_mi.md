@@ -103,6 +103,9 @@ These tiny forms are extremely common: ἐὰν σοφὸς ᾖς "if you are wi
 ## 6. Historical Development
 
 - In the subjunctive the athematic verbs adopt the **thematic long vowel**, so the ‑μι class is already partly assimilated to the ω‑verbs here — an early stage of the drift that eventually dissolved the class entirely.
-- The **ι‑reduplication** of the present system (δί‑δωμι, τί‑θημι, ἵ‑στημι) is inherited from Indo-European, where it marked the imperfective stem; its survival in the subjunctive is what keeps the aspectual contrast visible.
-- **ὦ, ᾖς, ᾖ** continue *h₁es‑ with the subjunctive vowel and the loss of intervocalic σ — the same root as εἰμί, Latin *sim/sit*, Sanskrit *ásāni*.
-- The ἵνα + subjunctive construction, so common with these verbs, is the direct ancestor of the Modern Greek να-clause.
+- The **ι‑reduplication** of the present system (δί‑δωμι, τί‑θημι, ἵ‑στημι) marks the imperfective stem; its survival in the subjunctive is what keeps the aspectual contrast visible.
+- **ὦ, ᾖς, ᾖ** are built on the root of εἰμί with the subjunctive vowel and the loss of intervocalic σ.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the subjunctive at §§1795–1813.

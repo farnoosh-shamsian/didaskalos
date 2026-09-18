@@ -9,7 +9,7 @@ pos: verb
 ω-Verbs (omega verbs) are the class of Ancient Greek verbs with clearly defined conjugation patterns. In this lesson we examine the aorist tense, the formation of the participle, and the active voice of these verbs.
 
 ### Forms and Patterns
-The conjugation of ω-verbs in the aorist follows a clear pattern: the **first aorist** is formed with the marker **‑σα‑** added to the stem (and, in the indicative mood, the augment ἐ‑ at the beginning).
+The conjugation of ω-verbs in the aorist follows a clear pattern: the **sigmatic aorist** is formed with the marker **‑σα‑** added to the stem (and, in the indicative mood, the augment ἐ‑ at the beginning).
 
 #### The Aorist Indicative Active of ω-Verbs
 The following table shows the aorist active conjugation of λύω, "to loose, to free":
@@ -30,9 +30,9 @@ The aorist participle describes an action that occurred **before** the action of
 | Neuter | λῦσαν | λύσαντα |
 
 ### Key Rules and Exceptions
-- **Rule 1:** The first aorist of ω-verbs is formed with the marker **‑σα‑**: ἔλυσα, ἔγραψα.
+- **Rule 1:** The sigmatic aorist of ω-verbs is formed with the marker **‑σα‑**: ἔλυσα, ἔγραψα.
 - **Rule 2:** The participle is built on the **unaugmented aorist stem** and agrees with its noun in gender, number, and case like an adjective: λύσας, λύσασα, λῦσαν (genitive: λύσαντος).
-- **Exception:** Verbs with a second aorist form the participle with ‑ών/‑οῦσα/‑όν: λαβών "having taken," ἐλθών "having come," ἰδών "having seen." These forms must be memorized.
+- **Exception:** Verbs with a thematic aorist form the participle with ‑ών/‑οῦσα/‑όν: λαβών "having taken," ἐλθών "having come," ἰδών "having seen." These forms must be memorized.
 
 ### Example Sentences with Translations
 1. **ἔλυσα τὴν θύραν.** — I opened the door.
@@ -43,6 +43,10 @@ The aorist participle describes an action that occurred **before** the action of
 ω-Verbs are frequent in narrative and descriptive passages for expressing completed past actions. The aorist participle is especially useful for compressing narrative: instead of two coordinate sentences, the earlier action goes into a participle while the main verb carries the following action — a pattern you will meet at every step in Greek prose.
 
 ### Historical Development
-The conjugation patterns of ω-verbs reflect Greek's development out of Proto-Indo-European: the marker ‑σα‑ continues the ancient sigmatic suffix, and the participial suffix ‑ντ‑ (visible in λύσαντος) has parallels in many related languages. The use of the aorist and its participle shows how finely Greek can express time and aspect.
+The marker ‑σα‑ is the sigmatic suffix of the sigmatic aorist, and ‑ντ‑ (visible in λύσαντος) is the active participle suffix. The use of the aorist and its participle shows how finely Greek can express time and aspect.
 
 By mastering the aorist, the participle, and the active voice of ω-verbs, students can recognize complex ideas and actions in Ancient Greek and enjoy the texts all the more.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the participle at §§2039–2148.

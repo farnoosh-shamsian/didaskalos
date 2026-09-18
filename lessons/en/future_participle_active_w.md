@@ -106,6 +106,10 @@ Verbs whose stem ends in λ, μ, ν, ρ lose the σ and contract, giving a parti
 ## 6. Historical Development
 
 - The future participle is a Greek innovation, formed by simply applying the participial suffix *‑ont‑ to the future stem — a neat piece of paradigm-building rather than an inherited category.
-- The **σ** of the future continues the Indo-European desiderative *‑sye/o‑ ("be about to, want to"), which is exactly why the participle so readily expresses intention.
+- The **σ** of the future goes back to an old desiderative formation ("be about to, want to"), which is exactly why the participle so readily expresses intention.
 - The **liquid futures** (μενῶ, ἐρῶ) lost their σ between vowels and contracted, the same sound change visible throughout the Greek verb.
-- The form declined in Koine as ἵνα- and ὥστε-clauses took over the expression of purpose, and it does not survive in Modern Greek.
+- The form declined in Koine as ἵνα- and ὥστε-clauses took over the expression of purpose.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §§658–662 (inflection), with the syntax of the participle at §§2039–2148.

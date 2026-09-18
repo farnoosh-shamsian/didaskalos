@@ -73,3 +73,7 @@ Same pattern: πείθω, 2nd aor. mid. ἐπιθόμην "I obeyed" → **πι�
 2. **Future-less-vivid conditions:** εἰ + aorist optative in the if-clause pictures a single hypothetical event.
 3. **Past-sequence subordinate clauses:** purpose (ἵνα ἕλοιντο), indirect questions (ἤροντο εἰ παύσαιντο "they asked whether they would stop").
 4. The **aspect** is what distinguishes this from the present optative: αἱροῖτο = "may he keep choosing" (process), ἕλοιτο = "may he choose" (single act).
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the optative at §§1814–1834.

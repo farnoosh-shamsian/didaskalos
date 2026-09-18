@@ -44,7 +44,7 @@ The label **(ω)** means this lesson concerns ω-verbs; the perfect itself ends 
 | 2 pl. | **λελύκατε** | you (pl.) have loosed |
 | 3 pl. | **λελύκασι(ν)** | they have loosed |
 
-### 2.3 The Second Perfect (without κ)
+### 2.3 The Perfect without κ
 
 | Verb | Perfect | Gloss |
 |------|------|-------|
@@ -102,7 +102,11 @@ The label **(ω)** means this lesson concerns ω-verbs; the perfect itself ends 
 
 ## 6. Historical Development
 
-- The Indo-European perfect originally expressed a **state**, not an act (λέλοιπα "I have left → I am without"); οἶδα (cognate with Sanskrit *véda*) is a relic of that layer.
-- **Reduplication** is the ancient mark of this formation and appears in Sanskrit and Latin as well.
-- The **κ of the first perfect** is a Greek innovation that gradually spread from a few verbs to most.
-- In the **Koine** the perfect and aorist merged, and in Modern Greek the old perfect gave way to a periphrasis (έχω γράψει "I have written").
+- The perfect originally expressed a **state**, not an act (λέλοιπα "I have left → I am without"); οἶδα is a relic of that layer.
+- **Reduplication** is the ancient mark of this formation.
+- The **κ of the κ-perfect** is a Greek innovation that gradually spread from a few verbs to most.
+- In the **Koine** the perfect and aorist merged.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the perfect indicative at §§33.34–33.38; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§689–701 (inflection), with the syntax of the perfect indicative at §§1945–1951.

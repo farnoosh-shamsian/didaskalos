@@ -78,3 +78,7 @@ When the stem ends in a consonant the ending assimilates, and the results are th
 1. **Closing formulas.** εἰρήσθω and its relatives end a section of an argument — the Greek equivalent of "so much for that".
 2. **Legal permanence.** In decrees the perfect imperative expresses that something is to remain in force, not merely to happen.
 3. **Reading tip.** Reduplication plus ‑σθω is unmistakable; if the stem ends in a consonant, expect assimilation (‑φθω, ‑χθω, ‑σθω).
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§19.1–19.9, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§574–579 (formation) and §§706–716 (inflection), with the syntax of the imperative at §§1835–1844.

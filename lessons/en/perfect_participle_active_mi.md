@@ -11,14 +11,14 @@ pos: verb
 
 The **perfect active participle** of a ‑μι verb describes someone **in the state resulting from having done** something:
 
-> **δεδωκώς** "having given" · **τεθηκώς** "having placed" · **ἑστώς** "standing"
+> **δεδωκώς** "having given" · **τεθεικώς** "having placed" · **ἑστώς** "standing"
 
 The endings are the ordinary perfect ones — **‑ώς, ‑υῖα, ‑ός**, genitive **‑ότος** — so nothing new has to be learned there. What is distinctive is the **stem**, and above all the fact that the most important member of the class, **ἵστημι**, has a **contracted** form that looks nothing like the others.
 
 | Verb | Perfect | Participle | Meaning |
 |---|---|---|---|
 | δίδωμι | δέδωκα | **δεδωκώς** | having given |
-| τίθημι | τέθηκα | **τεθηκώς** | having placed |
+| τίθημι | τέθεικα | **τεθεικώς** | having placed |
 | ἵστημι | ἕστηκα | **ἑστώς** (also ἑστηκώς) | **standing** |
 | ἵημι | εἷκα | **εἱκώς** (usually compound: ἀφεικώς) | having released |
 | δείκνυμι | δέδειχα | **δεδειχώς** | having shown |
@@ -81,7 +81,7 @@ Compounds are commoner than the simple verbs in prose:
 |---|---|---|
 | **1. Endings are the ordinary perfect ones** | ‑ώς, ‑υῖα, ‑ός; gen. ‑ότος. Same as λελυκώς. | |
 | **2. Reduplication is kept** | δέ‑δωκα → δεδωκώς; ἕ‑στηκα → ἑστώς. | |
-| **3. ‑κ‑ in δίδωμι, τίθημι, ἵστημι** | These form a κ‑perfect: δέδωκα, τέθηκα, ἕστηκα. | |
+| **3. ‑κ‑ in δίδωμι, τίθημι, ἵστημι** | These form a κ‑perfect: δέδωκα, τέθεικα, ἕστηκα. | |
 | **4. ἵστημι contracts** | ἑστώς, ἑστῶσα, ἑστός beside fuller ἑστηκώς. Learn the short form: it is the commoner. | |
 | **5. Present meaning for ἵστημι** | ἑστώς = "standing," not "having stood." | |
 | **6. Accent on the ending** | ‑ώς and ‑ός are always accented — a quick recognition cue. | |
@@ -97,7 +97,7 @@ Compounds are commoner than the simple verbs in prose:
 | οἱ φύλακες **ἑστῶτες** πρὸ τῶν πυλῶν ἐφύλαττον. | "The guards, standing before the gates, kept watch." |
 | αἱ πόλεις αἱ **ἀφεστῶσαι** οὐκ ἐπείθοντο. | "The cities in revolt would not obey." |
 | τὰ **καθεστῶτα** οὐκ ἤρεσκεν αὐτοῖς. | "The existing order did not please them." |
-| νόμους **τεθηκὼς** δικαίους ἐπῃνέθη. | "Having laid down just laws, he was praised." |
+| νόμους **τεθεικὼς** δικαίους ἐπῃνέθη. | "Having laid down just laws, he was praised." |
 
 ---
 
@@ -113,7 +113,11 @@ Compounds are commoner than the simple verbs in prose:
 
 ## 6. Historical Development
 
-- The perfect participle suffix is Indo-European *‑wos‑/‑us‑ (Sanskrit ‑vāṃs‑), which in Greek yields ‑ώς with the oblique stem ‑ότ‑ and the feminine ‑υῖα.
-- The **κ‑perfect** (δέδωκα, τέθηκα, ἕστηκα) is a Greek innovation that spread from a small group of roots ending in a vowel; the ‑μι verbs were its earliest home.
+- The perfect participle suffix yields ‑ώς with the oblique stem ‑ότ‑ and the feminine ‑υῖα.
+- The **κ‑perfect** (δέδωκα, τέθεικα, ἕστηκα) is a Greek innovation that spread from a small group of roots ending in a vowel; the ‑μι verbs were its earliest home.
 - The **contracted ἑστώς** results from the loss of κ and contraction of the vowels — a change already complete in classical Attic, which is why the short form dominates.
-- The perfect's **stative meaning** (ἑστώς "standing," τεθνηκώς "dead," εἰδώς "knowing") is the original Indo-European value of the category; the "have done" sense is a later Greek development.
+- The perfect's **stative meaning** (ἑστώς "standing," τεθνηκώς "dead," εἰδώς "knowing") is the original value of the category; the "have done" sense is a later Greek development.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§762–766 (inflection), with the syntax of the participle at §§2039–2148.

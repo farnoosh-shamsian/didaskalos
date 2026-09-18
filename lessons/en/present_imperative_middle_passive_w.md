@@ -98,3 +98,7 @@ Deponents use exactly these endings, translated **actively**:
 | 3 sg. | ‑έσθω | λυέσθω | γιγνέσθω |
 | 2 pl. | ‑εσθε | λύεσθε | γίγνεσθε |
 | 3 pl. | ‑έσθων | λυέσθων | γιγνέσθων |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the imperative at §§1835–1844.

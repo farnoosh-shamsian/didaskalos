@@ -63,7 +63,7 @@ Because so many Greek futures are middle in form, most future optatives you meet
 
 - **εἶπεν ὅτι τοὺς αἰχμαλώτους λύσοιτο.** — "He said that he would ransom the prisoners."
 - **ἠρώτησαν εἰ ἡ πόλις ἁλώσοιτο.** — "They asked whether the city would be captured."
-- **ἐνόμιζον οὐδὲν κακὸν γενήσοιτο.** — "They thought no harm would come."
+- **ἐνόμιζον ὅτι οὐδὲν κακὸν γενήσοιτο.** — "They thought no harm would come."
 - **οὐκ ᾔδει τί πείσοιτο.** — "He did not know what he would suffer."
 
 ---
@@ -73,3 +73,7 @@ Because so many Greek futures are middle in form, most future optatives you meet
 1. **Historians and orators** use it when reporting what someone said would happen — a hallmark of careful Attic style.
 2. **Xenophon** is especially fond of it; in Herodotus and later Greek it grows rarer, and Koine has all but lost it.
 3. **Reading tip.** If you see ‑σοι‑ with a middle ending in a ὅτι clause after a past verb, you are looking at a future optative: it reports what was going to happen, viewed from the past narrative rather than from the present.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §§658–662 (inflection), with the syntax of the optative at §§1814–1834.

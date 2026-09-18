@@ -32,7 +32,7 @@ The predicate pattern is a complete sentence even without the verb "to be" — G
 
 **The test depends on the article.** Everything above works because there is an article to be inside or outside of. With no article, the distinction disappears and σοφὸς ἀνήρ ⟨sophòs anḗr⟩ is genuinely ambiguous — "a wise man" or "a man is wise", and only the surrounding sentence decides. Do not go looking for a rule here; there is not one.
 
-**One pattern that looks like an exception.** Demonstratives — οὗτος ⟨hoûtos⟩ "this", ἐκεῖνος ⟨ekeînos⟩ "that" — stand in the *predicate* position while meaning something attributive: οὗτος ὁ ἀνήρ ⟨hoûtos ho anḗr⟩ is "this man", not "this is the man". A few other words behave the same way, among them πᾶς ⟨pâs⟩ "all". They are common enough that you will meet them long before their own lesson, so file the shape away now: article-hugging position is the rule, and this handful of words is the exception to it.
+**One pattern that looks like an exception.** Demonstratives — οὗτος ⟨hoûtos⟩ "this", ἐκεῖνος ⟨ekeînos⟩ "that" — stand in the *predicate* position while meaning something attributive: οὗτος ὁ ἀνήρ ⟨hoûtos ho anḗr⟩ is "this man", not "this is the man". They are common enough that you will meet them long before their own lesson, so file the shape away now: article-hugging position is the rule, and this handful of words is the exception to it.
 
 ## 4. Substantive Use
 
@@ -106,3 +106,7 @@ Translate each, and say whether the adjective is attributive or predicate.
 2. "The judge is just." **Predicate** — the adjective is outside the article phrase, and no verb is needed.
 3. "The just judge." **Attributive**, in the second of the two attributive patterns, with the article repeated before the adjective.
 4. "This judge." Predicate *position*, but attributive in sense — demonstratives are the exception noted in §3, and this is not "this is the judge."
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.1–5.44; and in Smyth's *A Greek Grammar for Colleges* (1920), §§286–299 (forms) and §§313–324 (comparison), with the syntax at §§1018–1093.

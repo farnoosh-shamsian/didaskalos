@@ -49,16 +49,16 @@ In contract verbs the final vowel of the stem lengthens before **‑σ‑** (α/
 
 *Note:* verbs with liquid stems (λ, ρ, μ, ν) form a **σ-less** aorist: ἀγγέλλω "to announce" → aorist ἤγγειλα → imperative **ἄγγειλον / ἀγγείλατε**.
 
-### 2.3 Irregular and Second-Aorist Imperatives
+### 2.3 Irregular and Thematic Aorist Imperatives
 
-Verbs with a **second aorist** take the present-imperative endings (‑ε/‑ετε) on the aorist stem:
+Verbs with a **thematic aorist** take the present-imperative endings (‑ε/‑ετε) on the aorist stem:
 
 | Verb | Aorist stem | 2nd sg. imperative | 2nd pl. imperative | Comment |
 |------|-------------|-------------------|-------------------|---------|
 | ἔρχομαι "to come" (aorist ἦλθον) | ἐλθ‑ | **ἐλθέ** | **ἔλθετε** | The singular accents the final syllable. |
 | ὁράω "to see" (aorist εἶδον) | ἰδ‑ | **ἰδέ** | **ἴδετε** | Built from a **different root** (ἰδ‑) — a lexical irregularity. |
 | λαμβάνω "to take" (aorist ἔλαβον) | λαβ‑ | **λαβέ** | **λάβετε** | One of the five famous end-accented imperatives. |
-| λέγω "to say" (aorist εἶπον) | εἰπ‑ | **εἰπέ** | **εἴπατε** | The plural usually takes the first-aorist ending. |
+| λέγω "to say" (aorist εἶπον) | εἰπ‑ | **εἰπέ** | **εἴπατε** | The plural usually takes the sigmatic aorist ending. |
 | εἰμί "to be" | — (no aorist) | **ἴσθι** | **ἔστε** | The present imperative must serve instead. |
 
 ---
@@ -68,9 +68,9 @@ Verbs with a **second aorist** take the present-imperative endings (‑ε/‑ε�
 | Rule | Explanation | Example |
 |------|-------------|---------|
 | **1. Aorist stem, without the augment** | The augment ἐ‑ belongs only to the indicative; it is dropped in the imperative. | ἔλυσα → **λῦσον** (not *ἔλυσον*) |
-| **2. Endings: ‑σον / ‑σάτω / ‑σατε / ‑σάντων** | ‑σ‑ marks the first aorist; the later 3rd plural is ‑σάτωσαν. | γράψον, γραψάτω, γράψατε |
+| **2. Endings: ‑σον / ‑σάτω / ‑σατε / ‑σάντων** | ‑σ‑ marks the sigmatic aorist; the later 3rd plural is ‑σάτωσαν. | γράψον, γραψάτω, γράψατε |
 | **3. Contract verbs lengthen the stem vowel** | α/ε → η and ο → ω before σ. | τίμησον, ποίησον, δήλωσον |
-| **4. Second aorists take the present endings** | ‑έ (sg.) and ‑ετε (pl.) on the second-aorist stem. | ἐλθέ, λαβέ, ἴδετε |
+| **4. Thematic aorists take the present endings** | ‑έ (sg.) and ‑ετε (pl.) on the thematic aorist stem. | ἐλθέ, λαβέ, ἴδετε |
 | **5. Liquid verbs lack σ** | Stems ending in λ, ρ, μ, ν form a σ-less aorist. | ἄγγειλον, ἀγγείλατε |
 | **6. Some verbs use a different root** | The aorist of ὁράω comes from the root ἰδ‑. | ἰδέ, ἴδετε |
 | **7. Prohibition** | A negative command always uses **μή**, never οὐ. A one-time prohibition is normally **μή + aorist subjunctive**, not the aorist imperative. | **μὴ γράψῃς** "do not write!" |
@@ -95,3 +95,7 @@ Verbs with a **second aorist** take the present-imperative endings (‑ε/‑ε�
 2. **Prayers and requests** — in prayers and formal petitions the aorist imperative is nearly universal.
 3. **Prohibition** — a one-time "don't!" takes μή + aorist subjunctive (μὴ γράψῃς); "stop doing…" takes μή + present imperative (μὴ γράφε).
 4. **Frequency** — aorist commands abound in narrative and oratory; knowing ‑σον/‑σατε makes them easy to spot.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the imperative at §§1835–1844.

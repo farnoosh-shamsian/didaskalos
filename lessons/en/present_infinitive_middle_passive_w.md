@@ -134,3 +134,7 @@ In μι-verbs the ending ‑σθαι attaches **directly to the stem, without th
 | **The shape ‑εσθαι** | Thematic vowel ‑ε‑ + ‑σθαι; the same σθ appears in the ending ‑εσθε (2nd person plural). |
 | **Contraction** | The forms τιμᾶσθαι, φιλεῖσθαι, and δηλοῦσθαι result from the regular Attic vowel contractions. |
 | **Continuity** | The ending survived from Homer into the Koine; ‑εσθαι infinitives abound in the New Testament as well. |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the infinitive at §§1966–2038.

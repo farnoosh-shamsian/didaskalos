@@ -68,7 +68,7 @@ There is no negative aorist imperative. To forbid a single act, Greek uses **μ�
 | **2. Short vowel, bare stem** | δο‑, θε‑, ἑ‑, στα‑. The κ of ἔδωκα and ἔθηκα belongs to the indicative singular only and never appears here. |
 | **3. δός vs. δίδου** | One letter of difference in meaning-weight: δός is a single act, δίδου an ongoing practice. Editors and translators take the distinction seriously. |
 | **4. ἄφες is everywhere in Koine** | "Forgive, let go" — ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν in the Lord's Prayer is this form. |
-| **5. στῆθι is intransitive** | ἵστημι's root aorist means "stand, halt", not "make something stand". The transitive command is στῆσον (first aorist). |
+| **5. στῆθι is intransitive** | ἵστημι's root aorist means "stand, halt", not "make something stand". The transitive command is στῆσον (sigmatic aorist). |
 
 ---
 
@@ -88,3 +88,7 @@ There is no negative aorist imperative. To forbid a single act, Greek uses **μ�
 1. **Short, sharp, and everywhere.** These are the commands of dialogue, prayer and command on the battlefield; their brevity is exactly why they are frequent.
 2. **The compound is usually the word.** ἀπόδος, παράδος, ἐπίθες, ἄφες occur far more often than the simple forms — and the retreating accent is what identifies them.
 3. **Reading tip.** A one-syllable word ending in ‑ς that will not parse as a noun is very likely one of δός, θές, ἕς, or their compounds.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the imperative at §§1835–1844.

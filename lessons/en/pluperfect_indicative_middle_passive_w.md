@@ -113,7 +113,10 @@ When the stem ends in a consonant, the ending collides with it and both adjust. 
 
 ## 6. Historical Development
 
-- The pluperfect is a **Greek innovation**: Indo-European had a perfect but no pluperfect. Greek built one by applying the past-tense apparatus (augment + secondary endings) to the existing perfect stem.
+- The pluperfect is a **Greek innovation**: the older language had a perfect but no pluperfect. Greek built one by applying the past-tense apparatus (augment + secondary endings) to the existing perfect stem.
 - The **middle/passive** pluperfect is the older and more regular half of the tense; the active pluperfect (ἐλελύκη, ‑κειν) developed its ‑κ‑ endings later and varied considerably between periods.
-- The **periphrastic** type (participle + ἦσαν) steadily expanded, and in Koine it became the dominant pattern — an early sign of the analytic drift that shaped Modern Greek.
-- The tense did not survive: Modern Greek expresses "had been done" with είχε + a non-finite form, a wholly new construction.
+- The **periphrastic** type (participle + ἦσαν) steadily expanded, and in Koine it became the dominant pattern — an early sign of the language's analytic drift.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§19.1–19.9, with the syntax of the pluperfect indicative at §§33.39–33.42; and in Smyth's *A Greek Grammar for Colleges* (1920), §§574–579 (formation) and §§706–716 (inflection), with the syntax of the pluperfect indicative at §§1952–1954.

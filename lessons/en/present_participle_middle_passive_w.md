@@ -129,7 +129,11 @@ These endings are the same for every present middle/passive participle (γραφ
 
 | Aspect | Details |
 |--------|---------|
-| **Origin of the suffix** | ‑μενος continues the middle-participle suffix of Proto-Indo-European; the same suffix appears in Sanskrit ‑māna‑ and Avestan ‑mna‑. |
+| **Origin of the suffix** | ‑μενος is the middle-participle suffix, used across every tense stem. |
 | **Thematic formation** | The vowel ‑ο‑ before ‑μενος is the thematic vowel of the present system. |
 | **Historical stability** | The formation remained unchanged from Homer to the Koine; forms like ἐρχόμενος and λεγόμενος abound in the New Testament. |
 | **Lexicalization** | Some forms became fixed expressions: τὰ λεγόμενα "sayings," and λεγόμενος in the sense "so-called." |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the participle at §§2039–2148.

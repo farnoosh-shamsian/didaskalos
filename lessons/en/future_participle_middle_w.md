@@ -109,7 +109,10 @@ Stems in λ, μ, ν, ρ drop the σ and contract:
 
 ## 6. Historical Development
 
-- The middle participle suffix **‑μενο‑** is inherited directly from Indo-European *‑mh₁no‑, the same element visible in Sanskrit *‑māna‑* and, more distantly, in Latin *alumnus*.
 - Because ‑μενο‑ makes a plain thematic adjective, the middle participle escaped the complications of the ντ‑stems, which is why it is the most regular participle in the language.
 - The **future middle for active meaning** (ἀκούσομαι, λήψομαι) is an archaism: in early Greek the middle voice was much broader, and these verbs preserve an older distribution.
-- The form faded with the rest of the future system in Koine; Modern Greek expresses futurity analytically with θα and has no future participle at all.
+- The form faded with the rest of the future system in Koine.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §§658–662 (inflection), with the syntax of the participle at §§2039–2148.

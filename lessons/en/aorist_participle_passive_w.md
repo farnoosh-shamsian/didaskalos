@@ -58,8 +58,8 @@ The aorist passive stem: **λυθε‑**.
 |------|-------------|---------|
 | **A. Stem formation** | The aorist passive stem comes from the verb's sixth principal part, without the augment: ἐλύθην → λυθε‑. | *παιδεύω* → ἐπαιδεύθην → **παιδευθείς** |
 | **B. Consonant changes before θ** | Labials → φ; velars → χ; dentals → σ. | πέμπω → **πεμφθείς**; πείθω → **πεισθείς** |
-| **C. The second aorist passive (without θ)** | Some verbs have plain ‑ε‑; the participle is ‑είς without θ. | γράφω → **γραφείς**; φαίνω → **φανείς** |
-| **D. Verbs without a passive** | ἔρχομαι and γίγνομαι have no aorist passive. | — |
+| **C. The η-aorist passive (without θ)** | Some verbs have plain ‑ε‑; the participle is ‑είς without θ. | γράφω → **γραφείς**; φαίνω → **φανείς** |
+| **D. Verbs without a passive** | ἔρχομαι has no aorist passive. | — |
 | **E. Passive deponents** | ‑θείς shape, active meaning! | **πορευθείς** "having traveled," **φοβηθείς** "having feared" |
 | **F. Agreement** | With the noun in gender, number, and case. | *ἡ λυθεῖσα γυνή* "the freed woman" |
 | **G. With the article = noun/relative** | *ὁ λυθείς* "the one who was freed." | οἱ ληφθέντες "those who were captured" |
@@ -91,3 +91,7 @@ The aorist passive stem: **λυθε‑**.
 ## 7. Historical Note
 
 The marker ‑θη‑/‑θε‑ is a Greek innovation and originally expressed a change of state; the suffix ‑ντ‑ is the same ancient active-participle suffix — which is why the aorist passive participle, unlike the other passive formations, declines with "active-looking" endings (λυθείς like θείς). The formation flourished in the Koine, where forms such as ἀποκριθείς "having answered" displaced the middle participles.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§14.1–14.31, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§585–588, 590–596 (formation) and §§672–678 (inflection), with the syntax of the participle at §§2039–2148.

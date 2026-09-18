@@ -34,7 +34,7 @@ In the present, middle and passive share **the same endings**. What distinguishe
 | 2nd pl. | **‑σθε** | ‑εσθε |
 | 3rd pl. | **‑νται** | ‑ονται |
 
-*Note the 2nd singular: because there is no thematic vowel, the σ is not between two vowels and **survives**: τίθε‑σαι, δύνα‑σαι (contrast thematic λύῃ from λύε‑σαι).*
+*Note the 2nd singular: the athematic verbs keep the σ of ‑σαι intact, where the thematic verbs lost it and contracted: τίθε‑σαι, δύνα‑σαι (contrast thematic λύῃ from λύε‑σαι).*
 
 ### 2.2 Construction: Short Present Stem + Ending
 
@@ -84,7 +84,7 @@ These middle‑only verbs conjugate exactly like the paradigms above and always 
 | Rule | Explanation | Example |
 |------|-------------|---------|
 | **1. No thematic vowel** | Endings attach straight to the stem. | δίδο‑ται, not *διδό‑ε‑ται |
-| **2. The σ of ‑σαι survives** | Unlike thematic verbs, no vowel precedes it. | τίθεσαι vs. λύῃ |
+| **2. The σ of ‑σαι survives** | The athematic verbs keep ‑σαι intact, where the thematic verbs lost the σ and contracted. | τίθεσαι vs. λύῃ |
 | **3. Short stem throughout** | The long stem (τιθη‑, διδω‑) belongs to the active singular only. | τίθεμαι, δίδομαι |
 | **4. Middle = passive in form** | Only context decides between "for oneself" and "is done to." | ἵσταται "he stands" or "is being set up" |
 | **5. Deponents translate actively** | δύναμαι, ἐπίσταμαι, κεῖμαι have no active forms. | δύναται "he can" |
@@ -100,7 +100,6 @@ These middle‑only verbs conjugate exactly like the paradigms above and always 
 | **τὰ δῶρα δίδοται τῷ θεῷ.** | The gifts are given to the god. (passive) |
 | **ὁ νόμος κεῖται τοῖς πολίταις.** | The law is laid down for the citizens. |
 | **ἐπίστασθε τὴν τέχνην.** | You (pl.) know the craft. (deponent) |
-| **ἡ πόλις ἐν τῇ νήσῳ ἵσταται.** | The city stands on the island. (middle) |
 
 ---
 
@@ -122,3 +121,7 @@ These middle‑only verbs conjugate exactly like the paradigms above and always 
 | 1 pl. | ‑μεθα | τιθέμεθα | δυνάμεθα |
 | 2 pl. | ‑σθε | τίθεσθε | δύνασθε |
 | 3 pl. | ‑νται | τίθενται | δύνανται |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the present indicative at §§33.14–33.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the present indicative at §§1875–1888.

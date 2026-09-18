@@ -52,7 +52,7 @@ The simple forms take a circumflex on the ending (δοῦ); the compounds throw 
 | **1. No augment** | ἐδόμην is indicative; δοῦ is the imperative. |
 | **2. δοῦ vs. δίδοσο** | δοῦ (aorist) commands a single act; δίδοσο (present) commands an ongoing practice. |
 | **3. δός is active, δοῦ is middle** | One letter apart in sense: "give it" vs. "give of your own / sell". |
-| **4. Prohibitions** | μή + aorist subjunctive: μὴ ἀπόδῃ "don't sell", never a negative imperative. |
+| **4. Prohibitions** | μή + aorist subjunctive: μὴ ἀποδῷ "don't sell", never a negative imperative. |
 | **5. Accent tells you it is a compound** | ἀπόδου, ἐπίθου, σύνθου: the retraction is the visible sign of the preposition. |
 
 ---
@@ -72,3 +72,7 @@ The simple forms take a circumflex on the ending (δοῦ); the compounds throw 
 1. **Commerce and diplomacy.** ἀπόδου and σύνθου are the everyday imperatives of selling and treaty-making.
 2. **Battle orders.** ἐπίθεσθε is a standard command in the historians.
 3. **Reading tip.** A one-syllable ending ‑οῦ, or ‑σθω/‑σθε on a bare short stem, with the accent thrown back if a preposition is attached: the μι-verb aorist middle imperative.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the imperative at §§1835–1844.

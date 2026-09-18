@@ -30,12 +30,12 @@ The **aorist middle participle** therefore describes a *completed* action that t
 
 ### 2.1 The Basic Shape
 
-Aorist middle participle = **aorist stem (without the augment) + ‑σάμενος** (first aorist) or **+ ‑όμενος** (second aorist):
+Aorist middle participle = **aorist stem (without the augment) + ‑σάμενος** (sigmatic aorist) or **+ ‑όμενος** (thematic aorist):
 
 | Type | Masc. nom. | Fem. nom. | Neut. nom. |
 |-------|----------------------|---------------------|-------------------|
-| **First aorist** | **‑σάμενος** (πραξάμενος) | **‑σαμένη** (πραξαμένη) | **‑σάμενον** (πραξάμενον) |
-| **Second aorist** | **‑όμενος** (γενόμενος) | **‑ομένη** (γενομένη) | **‑όμενον** (γενόμενον) |
+| **Sigmatic aorist** | **‑σάμενος** (πραξάμενος) | **‑σαμένη** (πραξαμένη) | **‑σάμενον** (πραξάμενον) |
+| **Thematic aorist** | **‑όμενος** (γενόμενος) | **‑ομένη** (γενομένη) | **‑όμενον** (γενόμενον) |
 
 ### 2.2 Full Declension Table (Masculine Example)
 
@@ -76,7 +76,7 @@ The complete paradigm of the aorist middle participle of **πράττω** "to do
 | Rule | Explanation | Example |
 |------|-------------|---------|
 | **1. The aorist stem** | The same stem as the indicative, without the augment. | ἐπραξάμην → **πραξάμενος** |
-| **2. ‑σάμενος / ‑όμενος** | First aorist with σα; second aorist with the thematic vowel. | λυσάμενος; πυθόμενος |
+| **2. ‑σάμενος / ‑όμενος** | Sigmatic aorist with σα; thematic aorist with the thematic vowel. | λυσάμενος; πυθόμενος |
 | **3. Declined like καλός** | First/second-declension adjective endings. | λυσαμένη, λυσαμένων |
 | **4. Priority in time** | Usually an action prior to the main verb. | λυσάμενος … ἀπῆλθεν |
 | **5. Present ≠ aorist** | λυόμενος (in progress) ≠ λυσάμενος (single act). | — |
@@ -106,4 +106,8 @@ The complete paradigm of the aorist middle participle of **πράττω** "to do
 
 ## 6. Historical Note
 
-The suffix **‑μενος** continues the Indo-European middle participle suffix (*‑m(e)no‑); combined with the sigmatic aorist marker it produced ‑σάμενος. The formation remained stable throughout the history of Greek, and even Modern Greek preserves its traces in passive participles.
+The suffix **‑μενος** is the middle participle suffix; combined with the sigmatic aorist marker it produced ‑σάμενος. The formation remained stable throughout the history of Greek.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the participle at §§2039–2148.

@@ -28,8 +28,8 @@ The infinitive has no person or number; each verb has just one form. The base is
 
 ## Key Rules and Exceptions
 - **No augment:** the augment ἐ‑ belongs to the indicative alone: ἐλυσάμην but λύσασθαι.
-- **First aorist: ‑σασθαι**, accented on the syllable before ‑σα: παιδεύσασθαι.
-- **Second aorist: ‑έσθαι**, accented on the ε: γενέσθαι, λαβέσθαι.
+- **Sigmatic aorist: ‑σασθαι**, accented on the syllable before ‑σα: παιδεύσασθαι.
+- **Thematic aorist: ‑έσθαι**, accented on the ε: γενέσθαι, λαβέσθαι.
 - **Middle meaning:** action for oneself or with self-involvement: λύσασθαι "to ransom (a captive for oneself)."
 - **Deponents:** verbs with no active forms have exactly this aorist infinitive, with active meaning: δέξασθαι "to receive," γενέσθαι "to become."
 - **Do not confuse with the passive:** the aorist passive infinitive is a separate formation: **λυθῆναι** "to be loosed."
@@ -48,4 +48,8 @@ The infinitive has no person or number; each verb has just one form. The base is
 - The choice between present and aorist infinitive is **aspectual**: γίγνεσθαι "to be (in the process of) becoming" vs. γενέσθαι "to become (once)." The infinitive is negated with **μή**.
 
 ## Historical Development
-The middle ending **‑σθαι** is Greek's continuation of the ancient Indo-European middle/passive infinitive ending and recurs in every tense (present ‑εσθαι, aorist ‑σασθαι/‑έσθαι, perfect ‑σθαι); what separates the tenses is the stem. The verb φιλέω, which appears throughout these lessons' vocabulary, comes from the root φιλ‑ "friendship, affection" and has cognates of similar meaning in the related languages. Attending to these infinitive formations is essential for reading classical prose, which uses the infinitive far more than modern languages do.
+The middle ending **‑σθαι** recurs in every tense (present ‑εσθαι, aorist ‑σασθαι/‑έσθαι, perfect ‑σθαι); what separates the tenses is the stem. Attending to these infinitive formations is essential for reading classical prose, which uses the infinitive far more than modern languages do.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the infinitive at §§1966–2038.

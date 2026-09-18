@@ -61,7 +61,7 @@ Because the article brackets its noun phrase, where an adjective sits relative t
 
 The predicate pattern is a complete sentence with no verb in it; Greek freely omits ἐστί.
 
-The point to take from this lesson is that **the distinction is the article's doing, not the adjective's**. Remove the article and it disappears: σοφὸς ἀνήρ is genuinely ambiguous between "a wise man" and "a man is wise", and only the surrounding sentence decides. The adjectives module treats the same distinction from the adjective's side, including the demonstratives and πᾶς, which stand in the predicate position while meaning something attributive.
+The point to take from this lesson is that **the distinction is the article's doing, not the adjective's**. Remove the article and it disappears: σοφὸς ἀνήρ is genuinely ambiguous between "a wise man" and "a man is wise", and only the surrounding sentence decides. The adjectives module treats the same distinction from the adjective's side, including the demonstratives, which stand in the predicate position while meaning something attributive.
 
 ## 5. The Article as a Noun-Maker
 
@@ -121,7 +121,6 @@ The article ends in a vowel and stands immediately before its noun, which makes 
 
 - τὸ ὄνομα → **τοὔνομα** "the name"
 - τὰ αὐτά → **ταὐτά** "the same things"
-- ὁ ἀνήρ → **ἁνήρ** "the man"
 
 These look like unfamiliar vocabulary until you learn to see the article in them.
 
@@ -134,7 +133,7 @@ Watch the article and it will tell you:
 - whether an adjective is **attributive or predicate**,
 - and, by its **absence**, that a noun is likely a predicate.
 
-Greek word order is free, but the article is a good part of what keeps it legible. A reader who parses the article without effort has already done much of the work of the sentence.
+The article is a good part of what keeps a Greek sentence legible. A reader who parses the article without effort has already done much of the work of the sentence.
 
 ## 11. Historical Development
 
@@ -151,4 +150,8 @@ The article has the most dramatic history of any word in Greek: within the span 
 
 **Homeric and Ionic forms.** Epic has **τοί** and **ταί** for the nominative plurals οἱ and αἱ, and the long datives **τοῖσι(ν)** and **τῇσι(ν)** for τοῖς and ταῖς. Herodotus uses τοῖσι and τῇσι as a matter of course.
 
-**Koine pushes the article further.** The articular infinitive of §5 becomes a workhorse of New Testament prose, and the article is used more freely still with proper names and abstract nouns. The article is the one part of the Greek nominal system that grows stronger over time — and it survives intact into Modern Greek.
+**Koine pushes the article further.** The articular infinitive of §5 becomes a workhorse of New Testament prose, and the article is used more freely still with proper names and abstract nouns. The article is the one part of the Greek nominal system that grows stronger over time.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§28.1–28.31; and in Smyth's *A Greek Grammar for Colleges* (1920), §332 (forms) and §§1099–1189 (uses).

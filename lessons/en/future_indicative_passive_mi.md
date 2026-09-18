@@ -72,3 +72,7 @@ The endings are the ordinary future middle ones; ‑θησ‑ in front of them i
 1. **Decrees and treaties** are full of these forms: what will be handed over, released or established.
 2. **Agent with ὑπό + genitive**, exactly as in the aorist passive.
 3. **Reading tip.** θησ before a middle ending, with no augment: future passive, whatever the conjugation of the verb.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§16.1–16.6, with the syntax of the future indicative at §§33.43–33.45; and in Smyth's *A Greek Grammar for Colleges* (1920), §§589, 597–598 (formation) and §§663–664 (inflection), with the syntax of the future indicative at §§1910–1922.

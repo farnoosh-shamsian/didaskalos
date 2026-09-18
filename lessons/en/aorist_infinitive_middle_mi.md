@@ -73,3 +73,7 @@ The accent sits on the first syllable of the simple form (δόσθαι, θέσθ
 1. **After verbs of wishing and deciding** — βούλομαι, ἐθέλω, ἔδοξεν αὐτοῖς — this infinitive completes the sense.
 2. **συνθέσθαι** is the standard verb of treaty-making in the historians, alongside σπονδὰς ποιήσασθαι.
 3. **Reading tip.** A short stem plus ‑σθαι with no reduplication and no augment: that is the μι-verb aorist middle infinitive, and the preposition in front will tell you what it means.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the infinitive at §§1966–2038.

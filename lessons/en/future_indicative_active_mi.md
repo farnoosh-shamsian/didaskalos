@@ -96,3 +96,7 @@ pos: verb
 | ἵστημι | ἵστησι | στήσει | he will set up |
 | δείκνυμι | δείκνυσι | δείξει | he will show |
 | εἰμί | ἐστί | ἔσται | he will be |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the future indicative at §§33.43–33.45; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §754 (inflection), with the syntax of the future indicative at §§1910–1922.

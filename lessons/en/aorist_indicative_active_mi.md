@@ -91,7 +91,7 @@ All the patterns take the **augment** ἐ‑ (or vowel lengthening) in the indic
 
 | Rule | Explanation | Example |
 |------|-------------|---------|
-| **Augment** | All aorist indicative forms take the augment; vowel-initial verbs lengthen the initial vowel. | ἵστημι → **ἔ**στησα |
+| **Augment** | All aorist indicative forms take the augment. | ἵστημι → **ἔ**στησα |
 | **Aorist stem ≠ present stem** | The present reduplication (δι‑, τι‑, ἱ‑) belongs to the present system and drops in the aorist. | δί-δω-μι → ἔ-δω-κα |
 | **‑κα only in the singular** | In the kappa aorist the plural has the short stem without κ (Koine created forms like ἐδώκαμεν). | ἔδωκα but ἔδομεν |
 | **The two aorists of ἵστημι** | Root = intransitive ("I stood"); sigmatic = transitive ("I set up"). | ἔστην / ἔστησα |
@@ -127,11 +127,10 @@ All the patterns take the **augment** ἐ‑ (or vowel lengthening) in the indic
 
 | Aspect | Details |
 |--------|---------|
-| **Proto-Indo-European origin** | The ending ‑μι continues the PIE first-person marker *‑mi*; these verbs preserve the oldest layer of Greek conjugation. |
 | **The kappa aorist** | A specifically Greek innovation, found only in δίδωμι, τίθημι, and ἵημι; the origin of its κ is still debated. |
 | **The root aorist** | The oldest aorist type: endings sit directly on the root (ἔστην, ἔβην, ἔγνων). |
 | **Lexicalization** | These verbs were so frequent that they resisted regularization; that is why their archaic forms survived. |
-| **Later Greek** | In the Koine, plural kappa forms were rebuilt on the singular (ἐδώκαμεν, ἐθήκατε), and in Modern Greek the ‑μι class has all but vanished; the classical forms remain the standard for reading. |
+| **Later Greek** | In the Koine, plural kappa forms were rebuilt on the singular (ἐδώκαμεν, ἐθήκατε); the classical forms remain the standard for reading. |
 
 ---
 
@@ -144,3 +143,7 @@ All the patterns take the **augment** ἐ‑ (or vowel lengthening) in the indic
 | ἵστημι (intrans.) | ἱστη‑/ἱστα‑ | στη‑ | ἔστην, ἔστης, ἔστη, ἔστημεν, ἔστητε, ἔστησαν |
 | ἵστημι (trans.) | ἱστη‑/ἱστα‑ | στησ‑ | ἔστησα, ἔστησας, ἔστησε(ν), ἐστήσαμεν, ἐστήσατε, ἔστησαν |
 | φημί | φη‑/φα‑ | (ἔφην; narrative past) | ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the aorist indicative at §§33.27–33.33; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§755, 756–761 (inflection), with the syntax of the aorist indicative at §§1923–1944.

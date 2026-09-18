@@ -97,7 +97,7 @@ The final vowel of the stem merges with the thematic vowel and ending:
 
 | Aspect | Details |
 |--------|---------|
-| **Proto-Indo-European origin** | The parent language opposed active to middle, not active to passive; the Greek middle directly continues that category. |
+| **Origin** | The oldest layer of the verb opposes active to middle, not active to passive; the Greek middle continues that category. |
 | **Rise of the passive** | The passive grew out of the middle within Greek itself; only the aorist and future developed a dedicated passive marker (‑θη‑). |
 | **Sound change** | The loss of intervocalic σ in ‑εσαι and the ensuing contraction produced the 2nd-singular ending ‑ῃ/‑ει. |
 | **Stability** | The set ‑ομαι, ‑εται, ‑ονται remained virtually unchanged from Homer to the Koine, and the same forms appear in the New Testament. |
@@ -114,3 +114,7 @@ The final vowel of the stem merges with the thematic vowel and ending:
 | 1 pl. | ‑όμεθα | λυόμεθα |
 | 2 pl. | ‑εσθε | λύεσθε |
 | 3 pl. | ‑ονται | λύονται |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the present indicative at §§33.14–33.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the present indicative at §§1875–1888.

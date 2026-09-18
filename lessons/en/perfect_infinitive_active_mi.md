@@ -17,7 +17,7 @@ Two shapes belong here, and the second is the one you will meet most:
 | Verb | Infinitive | Meaning |
 | --- | --- | --- |
 | δίδωμι | **δεδωκέναι** | to have given |
-| τίθημι | **τεθηκέναι** | to have placed |
+| τίθημι | **τεθεικέναι** | to have placed |
 | ἵστημι | **ἑστάναι** | **to stand** |
 
 ---
@@ -29,7 +29,7 @@ Two shapes belong here, and the second is the one you will meet most:
 **reduplication + long stem + ‑κέναι**, with the accent fixed on the ‑έ‑:
 
 - δέδωκα → **δεδωκέναι**
-- τέθηκα → **τεθηκέναι**
+- τέθεικα → **τεθεικέναι**
 - ἀποδέδωκα → **ἀποδεδωκέναι**
 
 ### 2.2 ἑστάναι: the Athematic Perfect
@@ -72,7 +72,7 @@ These are the perfects with present meaning; their infinitives translate as pres
 - **ὁμολογεῖ τὰ χρήματα δεδωκέναι.** — "He admits he has given the money."
 - **φασὶ τὸν ἄνδρα τεθνάναι.** — "They say the man is dead."
 - **λέγεται ὁ ἀνδριὰς ἐν τῇ ἀγορᾷ ἑστάναι.** — "The statue is said to stand in the marketplace."
-- **δεῖ τοὺς νόμους καλῶς τεθηκέναι.** — "The laws must have been well established."
+- **δεῖ τοὺς νόμους καλῶς τεθεικέναι.** — "The laws must have been well established."
 - **οὐδεὶς ὁμολογεῖ μηδὲν εἰδέναι.** — "No one admits to knowing nothing."
 
 ---
@@ -82,3 +82,7 @@ These are the perfects with present meaning; their infinitives translate as pres
 1. **Indirect statement** after φημί, ὁμολογέω and λέγεται is where nearly all these forms appear.
 2. **ἑστάναι and τεθνάναι** are worth learning as vocabulary — they are commoner than most regular perfect infinitives in the language.
 3. **Reading tip.** Reduplication + ‑κέναι, or the short athematic ‑άναι: both are perfect active infinitives, and the accent sits just before ‑ναι in either case.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§762–766 (inflection), with the syntax of the infinitive at §§1966–2038.

@@ -98,10 +98,10 @@ Many of them also show **ι‑reduplication** in the present system: δί‑δω
 
 | Aspect | Detail |
 |--------|--------|
-| **Indo-European roots** | The ending ‑μι continues the Indo-European athematic 1st singular ending *‑mi* (compare Sanskrit *ásmi*, Latin *sum*, Greek εἰμί from *h₁és‑mi*). |
+| **The athematic layer** | The ending ‑μι is the athematic 1st singular ending, attached straight to the stem. |
 | **Early Greek** | ‑μι forms are already attested in Mycenaean; the ‑μι class is the older layer of the Greek verbal system. |
 | **Gradual erosion** | From the classical period onwards, ‑μι verbs were progressively drawn into the thematic ‑ω pattern (e.g. δεικνύω beside δείκνυμι). |
-| **Later Greek** | In Koine and Byzantine Greek the process was completed, and Modern Greek preserves only scattered relics of the ‑μι verbs (such as εἶμαι from εἰμί). |
+| **Later Greek** | In Koine and Byzantine Greek the process was completed, and only scattered relics of the ‑μι verbs remained. |
 
 ---
 
@@ -121,3 +121,7 @@ Remember: **long vowel in the singular, short vowel in the plural** — and the 
 ---
 
 *End of Lesson*
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the present indicative at §§33.14–33.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the present indicative at §§1875–1888.

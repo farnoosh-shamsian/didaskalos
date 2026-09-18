@@ -100,4 +100,8 @@ The infinitive has no person or number; each verb has just one form:
 
 ## 7. Historical Note
 
-The future infinitive is a specifically Greek formation: the present infinitive ending (‑ειν) on the sigmatic future stem. It declined in the Koine — the New Testament has only a handful of examples — replaced by μέλλω + infinitive and later by ὅτι/ἵνα clauses; in Modern Greek the infinitive has disappeared entirely.
+The future infinitive is a specifically Greek formation: the present infinitive ending (‑ειν) on the sigmatic future stem. It declined in the Koine — the New Testament has only a handful of examples — replaced by μέλλω + infinitive and later by ὅτι/ἵνα clauses.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §§658–662 (inflection), with the syntax of the infinitive at §§1966–2038.

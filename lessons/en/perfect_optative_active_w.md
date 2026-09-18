@@ -77,3 +77,7 @@ Since οἶδα means "I know", εἰδείη is a present in force and belongs 
 1. **Indirect discourse after past verbs** accounts for nearly every occurrence of this form.
 2. **εἰδείην and its plural** are the members worth memorizing; the rest can be recognized from the periphrasis.
 3. **Reading tip.** A perfect participle sitting beside εἴη or εἶεν is a single perfect optative; read them together.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§18.1–18.32, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§555–560, 561–573 (formation) and §§689–701 (inflection), with the syntax of the optative at §§1814–1834.

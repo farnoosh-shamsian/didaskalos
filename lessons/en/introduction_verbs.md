@@ -31,7 +31,7 @@ Greek "tenses" say less about *when* than about *how the action unfolds* (its **
 |---|---|---|---|
 | Present | as going on, not bounded | now | "I am loosening" |
 | Imperfect | as going on, not bounded | past | "I was loosening" |
-| Future | simply as taking place | later | "I will loosen" |
+| Future | aspectually neutral — no view is marked | later | "I will loosen" |
 | Aorist | as a whole, without regard to duration | past (in the indicative) | "I loosened" |
 | Perfect | as finished, with its result still standing | result holds now | "I have loosened" |
 | Pluperfect | as finished, with its result standing | result held then | "I had loosened" |
@@ -107,7 +107,7 @@ Your reading passages may come from texts written centuries apart, so some forms
 
 - **The optative fades.** Common and supple in Homer and Classical Attic, it declines sharply in the Hellenistic period and is nearly gone from the New Testament, surviving mostly in the fixed phrase μὴ γένοιτο ⟨mḕ génoito⟩ "may it not be so."
 - **The perfect merges with the aorist.** Classical Greek keeps them distinct — the aorist reports an event, the perfect a state that still holds. In Koine that distinction erodes and the perfect drifts toward being a plain past tense.
-- **The infinitive gives way to ἵνα ⟨hína⟩ clauses**, the beginning of a change that Modern Greek completed.
+- **The infinitive gives way to ἵνα ⟨hína⟩ clauses.**
 
 Every verb lesson has a **Historical Development** section covering its own slot.
 
@@ -120,7 +120,6 @@ Every verb lesson has a **Historical Development** section covering its own slot
 
 ## Exercises
 ### Parsing
-
 
 Give the person, number, tense, voice and mood of each form. All of them are built from λύω ⟨lýō⟩ "loosen" or παιδεύω ⟨paideúō⟩ "educate", and all have appeared above.
 
@@ -137,3 +136,7 @@ Give the person, number, tense, voice and mood of each form. All of them are bui
 3. 3rd person singular, present, active, subjunctive — "so that he may loosen". Present here marks aspect, not time: nothing about this form says "now".
 4. 2nd person singular, present, active, imperative — "loosen!"
 5. 1st person singular, perfect, active, indicative — "I have loosened". The λε- is reduplication, not an augment.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§11.1–11.58; and in Smyth's *A Greek Grammar for Colleges* (1920), §§355–381 (stems and tense-systems) and §§455–495 (endings and tense formation).

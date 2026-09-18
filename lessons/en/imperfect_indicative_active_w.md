@@ -105,10 +105,9 @@ The secondary endings with the thematic vowel (ο before μ/ν, otherwise ε):
 
 ## 7. Historical Development
 
-- The imperfect = **augment + present stem + secondary endings** — a formation inherited directly from Proto-Indo-European, which Sanskrit shares as well.
-- The **augment** (*e‑) was originally a past-marking particle that became grammaticalized; it survives only in Greek, Indo-Iranian, Armenian, and Phrygian.
+- The imperfect = **augment + present stem + secondary endings**.
+- The **augment** was originally a separate past-marking particle that became part of the verb.
 - The **secondary endings** (‑ν, ‑ς, ‑∅, …) are shortened variants of the primary endings and recur in all past indicatives.
-- The imperfect is alive in Modern Greek (παρατατικός) — one of the most stable formations in the language.
 
 ---
 
@@ -128,3 +127,7 @@ The secondary endings with the thematic vowel (ο before μ/ν, otherwise ε):
 ---
 
 **End of Lesson** — You now know how to form and use the imperfect indicative active of regular ω-verbs in Ancient Greek!
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperfect indicative at §§33.22–33.26; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the imperfect indicative at §§1889–1909.

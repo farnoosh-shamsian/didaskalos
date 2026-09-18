@@ -74,7 +74,7 @@ How Greek joins its clauses together changes a great deal between Homer and the 
 
 Three specific Koine developments are worth watching for:
 
-- **ἵνα expands well past purpose.** In Attic ἵνα means "in order that". In Koine it also introduces plain complement clauses — "that" after verbs of wishing, commanding and even saying — taking over territory the infinitive used to hold. This is the beginning of Modern Greek **να**, which has displaced the infinitive entirely.
+- **ἵνα expands well past purpose.** In Attic ἵνα means "in order that". In Koine it also introduces plain complement clauses — "that" after verbs of wishing, commanding and even saying — taking over territory the infinitive used to hold.
 - **ὅτι does the same**, and additionally appears as **ὅτι recitativum**, standing immediately before *direct* speech, where it does the work of opening quotation marks rather than of a conjunction: εἶπεν ὅτι "ἐγώ εἰμι" — "he said, 'I am'." Such an ὅτι should not be rendered as "that" at all; it is simply the mark that a quotation follows.
 - **ὡς loses ground** to ὅτι and ἵνα.
 
@@ -86,3 +86,7 @@ So the same skill scales differently: in Attic, conjunctions tell you the archit
 - ἐὰν τοῦτο ποιῇς, χαιρήσεις. — "If you do this, you will be glad."
 - μανθάνομεν ἵνα σοφώτεροι γιγνώμεθα. — "We learn so that we may become wiser."
 - οὕτω ταχέως ἔδραμεν ὥστε πάντας νικῆσαι. — "He ran so fast that he beat everyone."
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§59.1–59.76 (connective particles); and in Smyth's *A Greek Grammar for Colleges* (1920), §§2769–2774 (particles in general) and §§2775–3003 (the particles one by one).

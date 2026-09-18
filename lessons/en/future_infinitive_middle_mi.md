@@ -97,6 +97,10 @@ Note that the present infinitive of εἰμί is **εἶναι** (athematic, ‑
 ## 6. Historical Development
 
 - The **complete thematicization of the ‑μι verbs in the future** was already accomplished in Homer; the future is the part of the verbal system where the athematic class surrendered earliest.
-- **ἔσεσθαι** is built on the root *h₁es‑ (Latin *erō*, Sanskrit *ásmi*) with the desiderative *‑s‑ and the ordinary middle infinitive ending.
+- **ἔσεσθαι** is built on the root of εἰμί with the future ‑σ‑ and the ordinary middle infinitive ending.
 - The pairing of an athematic present infinitive (εἶναι) with a thematic future infinitive (ἔσεσθαι) is a good illustration of how the Greek verb assembled its paradigms from formations of different ages.
-- With the collapse of infinitival indirect discourse in Koine, this form vanished; Modern Greek uses θα + a finite verb inside a ότι-clause instead.
+- With the collapse of infinitival indirect discourse in Koine, this form vanished.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §754 (inflection), with the syntax of the infinitive at §§1966–2038.

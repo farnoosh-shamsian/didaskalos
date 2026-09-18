@@ -46,7 +46,6 @@ The subjunctive is the mood of what may or should happen — purpose clauses, ge
 | General condition (ἐάν) | ἐὰν δύνηται "if he is able" |
 | Purpose (ἵνα, ὅπως) | ἵνα ἡ χώρα μὴ διδῶται "so that the land not be given away" |
 | Indefinite relative (ὅς ἄν) | ὃς ἂν δύνηται "whoever is able" |
-| Prohibition of a process | μὴ ἀφιστῆσθε "do not keep revolting" |
 
 ---
 
@@ -67,7 +66,6 @@ The subjunctive is the mood of what may or should happen — purpose clauses, ge
 - **ἐὰν δύνωνται, βοηθήσουσιν.** — "If they are able, they will help."
 - **ὃς ἂν ἐπίστηται, διδασκέτω.** — "Whoever knows how, let him teach."
 - **φοβοῦνται μὴ ἡ πόλις τοῖς πολεμίοις διδῶται.** — "They fear the city may be handed over to the enemy."
-- **μὴ ἀφιστῆσθε τῶν συμμάχων.** — "Do not go on deserting your allies."
 
 ---
 
@@ -76,3 +74,7 @@ The subjunctive is the mood of what may or should happen — purpose clauses, ge
 1. **ἐάν + subjunctive** is the standard general condition; with δύναμαι it is one of the commonest constructions in Attic prose.
 2. **Indefinite clauses** with ἄν — ὅταν, ὃς ἄν, ἐπειδὰν — require this mood whenever the action is thought of as repeated.
 3. **Reading tip.** A circumflexed ω or η before a middle ending, with a reduplicated athematic stem in front: present middle/passive subjunctive.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the subjunctive at §§1795–1813.

@@ -25,7 +25,7 @@ The aorist is the ordinary form for a single, definite order; the present suits 
 
 ## 2. Forms and Patterns
 
-### 2.1 First Aorist Middle: **λύω** → **λῦσαι** "free (for yourself)"
+### 2.1 Sigmatic Aorist Middle: **λύω** → **λῦσαι** "free (for yourself)"
 
 **aorist stem + ‑σα‑ + middle imperative endings** (no augment — the augment belongs to the indicative)
 
@@ -38,9 +38,9 @@ The aorist is the ordinary form for a single, definite order; the present suits 
 
 Later Greek also uses ‑σάσθωσαν for the 3rd plural.
 
-### 2.2 Second Aorist Middle: **λαμβάνω** → **λαβοῦ** "take"
+### 2.2 Thematic Aorist Middle: **λαμβάνω** → **λαβοῦ** "take"
 
-Second aorists use the thematic endings on the bare aorist stem:
+Thematic aorists use the thematic endings on the bare aorist stem:
 
 | Person | Ending | λαμβάνω | γίγνομαι |
 | --- | --- | --- | --- |
@@ -88,3 +88,7 @@ A negative command in the aorist does **not** use the imperative. Use μή + aor
 1. **Prose and drama.** Single sharp orders — παῦσαι, φύλαξαι, δέξαι — are the aorist middle's home; Attic tragedy and the orators are full of them.
 2. **Politeness is not the issue.** Greek does not soften a command by choosing the present; that is done with particles (ἄγε, δή) or with an optative of wish.
 3. **Learn the 2 sg forms as vocabulary.** λῦσαι, παῦσαι, γενοῦ, λαβοῦ, δέξαι, ἑλοῦ: these six shapes cover most of what you will meet.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the imperative at §§1835–1844.

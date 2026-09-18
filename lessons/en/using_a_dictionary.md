@@ -147,3 +147,7 @@ For each form, give the headword a lexicon would list it under, and say what you
 2. **πέμπω** ⟨pémpō⟩. Undo the augment ἐ- and the aorist marker: ἐ-πεμψ-α-μεν. The ψ is π + σ, which is why the present looks different from the aorist.
 3. **ἀποκτείνω** ⟨apokteínō⟩, not κτείνω. The augment is hiding inside the compound — ἀπ-έ-κτεινεν — so the verb has to be looked up under its prefix. The final ν is movable and can be ignored.
 4. **ποιέω** ⟨poiéō⟩. A contract verb: the contraction has to be undone, and the lexicon lists the uncontracted form.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§22.1–22.9 (principal parts); and in Smyth's *A Greek Grammar for Colleges* (1920), §§367–381 (verb-stem and tense-stems) and the Catalogue of Verbs (Appendix).

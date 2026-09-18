@@ -47,9 +47,9 @@ These five account for the large majority of "why does this look wrong" moments.
 
 | Signal | Attic | Elsewhere | Where you meet it |
 |---|---|---|---|
-| **σσ / ττ** ⟨ss / tt⟩ | θάλαττα, πράττω ⟨thálatta, práttō⟩ | θάλασσα, πράσσω ⟨thálassa, prássō⟩ | Homer, Herodotus, Koine, the NT — Attic is the odd one out here |
-| **ρρ / ρσ** ⟨rr / rs⟩ | θάρρος, ἄρρην ⟨thárros, árrēn⟩ | θάρσος, ἄρσην ⟨thársos, ársēn⟩ | Homer, Herodotus, Koine |
-| **Uncontracted vowels** | γένους, γένει, τιμᾶν ⟨génous, génei, timân⟩ | γένεος, γένεϊ, τιμάειν ⟨géneos, géneï, timáein⟩ | Homer and Herodotus keep the older uncontracted forms |
+| **σσ / ττ** ⟨ss / tt⟩ | θάλαττα, πράττω ⟨thálatta, práttō⟩ | θάλασσα, πράσσω ⟨thálassa, prássō⟩ | Homer, Herodotus, Koine, the NT — and Thucydides and the tragedians, who write σσ although their Greek is otherwise Attic |
+| **ρρ / ρσ** ⟨rr / rs⟩ | θάρρος, ἄρρην ⟨thárros, árrēn⟩ | θάρσος, ἄρσην ⟨thársos, ársēn⟩ | Homer, Herodotus, Koine; also Thucydides and the tragedians |
+| **Uncontracted vowels** | γένους, γένει ⟨génous, génei⟩ | γένεος, γένεϊ ⟨géneos, géneï⟩ | Homer and Herodotus keep the older uncontracted forms |
 | **Longer datives** | θεοῖς, τιμαῖς, ποσί ⟨theoîs, timaîs, posí⟩ | θεοῖσι(ν), τιμῇσι, πόδεσσι ⟨theoîsi(n), timêisi, pódessi⟩ | Homer above all; Herodotus for -οισι ⟨-oisi⟩ and -ῃσι ⟨-ēisi⟩ |
 | **Older genitive singulars** | πολέμου, Ἀτρεΐδου ⟨polémou, Atreḯdou⟩ | πολέμοιο, Ἀτρεΐδαο, δεσπότεω ⟨polémoio, Atreḯdao, despóteō⟩ | -οιο ⟨-oio⟩ and -ᾱο ⟨-āo⟩ in Homer; -εω ⟨-eō⟩ in Herodotus |
 
@@ -73,10 +73,14 @@ When a form surprises you, look at the citation first:
 
 - *Hom. Il.*, *Hom. Od.*, *Hes. Theog.*, *Hymn. Hom. Cer.* — epic. Expect uncontracted vowels, long datives in -οισι/-ῃσι/-εσσι ⟨-oisi/-ēisi/-essi⟩, genitives in -οιο and -ᾱο ⟨-oio, -āo⟩, and an article that is still really a demonstrative.
 - *Hdt.* — Herodotus, in Ionic. Expect η ⟨ē⟩ for Attic ᾱ ⟨ā⟩, σσ ⟨ss⟩ for ττ ⟨tt⟩, uncontracted forms, and genitives in -εω and -έων ⟨-eō, -éōn⟩.
-- *Thuc.*, *Pl. Ap.*, *Xen. Hell.*, *Arist. Pol.*, *Dem.*, *Lys.*, *Aeschin.*, *Antiph.* — Classical Attic prose. This is the paradigm as the lesson gives it.
-- *Soph. Ant.*, *Aesch. Ag.* and the other tragedies — Attic verse, whose choral odes use a Doric-flavored literary language: expect long ᾱ where Attic prose has η.
+- *Thuc.*, *Pl. Ap.*, *Xen. Hell.*, *Arist. Pol.*, *Dem.*, *Lys.*, *Aeschin.*, *Antiph.* — Classical Attic prose. This is the paradigm as the lesson gives it, except that Thucydides writes σσ and ρσ for Attic ττ and ρρ, and ἐς for εἰς.
+- *Soph. Ant.*, *Aesch. Ag.* and the other tragedies — Attic verse. The tragedians write σσ and ρσ for Attic ττ and ρρ, and their choral odes use a Doric-flavored literary language: expect long ᾱ where Attic prose has η.
 - *Polyb.*, *Diod. Sic.* — Hellenistic Koine, still close to Attic.
 - *Matt.*, *Mark*, *Luke*, *John*, *Acts*, *Rom.*, *Heb.*, *Rev.* and the other New Testament books — Koine. Expect σσ ⟨ss⟩, few optatives, prepositions doing work the dative once did, and a very productive -μα/-ματος ⟨-ma/-matos⟩ noun class.
 - *Plut.*, *Luc. VH*, *Joseph. BJ*, *App. BC*, *Ath.*, *Dion. Hal.*, *Apollod.*, *Aesop* — Imperial period. Ranges from plain Koine (Aesop, Apollodorus) to careful Atticism (Lucian, Plutarch, Dionysius) — see §3.
 
 You do not need to memorize this table. You need only the habit of glancing at the citation before deciding that a form is irregular. Nine times out of ten it is perfectly regular — for the dialect it belongs to.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§25.1–25.47; and in Smyth's *A Greek Grammar for Colleges* (1920), the lettered dialect notes throughout (§§214 D, 230 D, 250 D and the rest), with contract verbs in the dialects at §§642–657.

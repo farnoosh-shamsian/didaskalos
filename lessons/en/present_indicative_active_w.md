@@ -107,7 +107,10 @@ The final vowel of the stem merges with the ending. There are three sub-types:
 
 ## 6. Historical Development
 
-- The thematic conjugation, with its linking vowel ε/ο, is part of Greek's Indo-European inheritance; the ending ‑ω continues the old first-person-singular ending of the parent language.
+- The thematic conjugation, with its linking vowel ε/ο, is the oldest productive pattern of the Greek verb.
 - The **contract verbs** are not a separate conjugation but ordinary thematic verbs whose stems happened to end in a vowel; the contractions are a regular Attic sound change, and Homeric Greek often preserves the uncontracted forms (*ὁράω* beside Attic *ὁρῶ*).
 - The ω‑verb pattern proved remarkably stable, and in later Greek the older μι‑verbs gradually migrated into it.
-- The roots of many ω‑verbs have been borrowed into the technical vocabulary of modern languages the world over: γράφω "write" underlies the international *graph‑* family, and γίγνομαι, λέγω and φέρω have been similarly productive.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the present indicative at §§33.14–33.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the present indicative at §§1875–1888.

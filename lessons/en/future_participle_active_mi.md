@@ -72,3 +72,7 @@ With ὡς the purpose is explicit: ὡς δώσων "with the intention of givi
 1. **Historians** use it constantly for the aim of an expedition or an embassy.
 2. **With the article** it names an intended agent: ὁ δώσων "the one who will give".
 3. **Reading tip.** Long stem vowel + σ + ‑ων/‑ουσα/‑ον, no augment: future active participle.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§15.1–15.40, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§532–541 (formation) and §754 (inflection), with the syntax of the participle at §§2039–2148.

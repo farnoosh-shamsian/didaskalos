@@ -53,7 +53,7 @@ With the verb λύω, "to loose" (aorist stem λυσ‑):
 * The subjunctive always has the **long mood vowel**: ω/η instead of ο/ε.
 * **It takes no augment**: ἔλυσα but λύσω (subjunctive).
 * The 1st person singular of the aorist subjunctive (λύσω) is **identical in form to the future indicative**; context (ἐάν, ἵνα, μή) decides.
-* Verbs with a **second aorist** take the same vowels on their own stem: λαμβάνω → **λάβω, λάβῃς, λάβῃ…**; ἔρχομαι → **ἔλθω**.
+* Verbs with a **thematic aorist** take the same vowels on their own stem: λαμβάνω → **λάβω, λάβῃς, λάβῃ…**; ἔρχομαι → **ἔλθω**.
 * Contract verbs lengthen the stem vowel before σ: ποιέω → **ποιήσω, ποιήσῃς…**
 * The accent is normally recessive and stays on the stem.
 
@@ -73,4 +73,8 @@ The aorist subjunctive appears in these contexts:
 Choosing the aorist (rather than the present) in all of these is an **aspectual** choice: a single act versus an act in progress.
 
 ## Historical Development
-The long mood vowel of the subjunctive reached Greek from Proto-Indo-European and has a parallel in Sanskrit. The formal identity of the aorist subjunctive (λύσω) and the future indicative is no accident: the Greek future grew out of old subjunctive/desiderative formations. In Koine Greek the subjunctive absorbed the optative's territory, and in Modern Greek (with the marker να) it remains the backbone of the mood system — so mastering it pays off both for classical texts and for understanding the language's development.
+The mark of the subjunctive is its long mood vowel. The formal identity of the aorist subjunctive (λύσω) and the future indicative is no accident: the Greek future grew out of old subjunctive/desiderative formations. In Koine Greek the subjunctive absorbed the optative's territory — so mastering it pays off both for classical texts and for understanding the language's development.
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the subjunctive at §§34.6–34.12; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the subjunctive at §§1795–1813.

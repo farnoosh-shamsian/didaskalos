@@ -115,7 +115,10 @@ In the middle/passive imperfect, μι-verbs use the **short stem** (the same as 
 
 | Aspect | Details |
 |--------|---------|
-| **The oldest layer** | Attaching the ending directly to the stem (without a thematic vowel) is an intact inheritance from Proto-Indo-European. |
-| **The middle endings** | ‑μην, ‑σο, ‑το… have parallels in Sanskrit and the other related languages. |
+| **The oldest layer** | Attaching the ending directly to the stem, without a thematic vowel, is the oldest pattern in the Greek verb. |
 | **κεῖμαι and δύναμαι** | Among the oldest athematic verbs; κεῖμαι functions practically as the "passive" of τίθημι: ἔκειτο "it had been placed / it lay." |
-| **Development** | In the Koine these formations were rebuilt on the analogy of thematic verbs, and in Modern Greek only relics of the athematics survive. |
+| **Development** | In the Koine these formations were rebuilt on the analogy of thematic verbs. |
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperfect indicative at §§33.22–33.26; and in Smyth's *A Greek Grammar for Colleges* (1920), §§722–746 (formation) and §§747–753 (inflection), with the syntax of the imperfect indicative at §§1889–1909.

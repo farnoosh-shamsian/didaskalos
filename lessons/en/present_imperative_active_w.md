@@ -106,10 +106,7 @@ The present imperative is therefore a command with **imperfective aspect**: "kee
 
 ## 6. Historical Development
 
-- **Indo-European roots** — the 2nd singular imperative was originally the **bare stem** (Indo-European *‑e); Greek λῦε is exactly this ancient formation (compare Sanskrit *bhára* "carry!", Latin *age* "do!").
-- **The ending ‑τω** — built from the deictic element *‑tōd, also visible in Old Latin (*estōd* "let it be" = Greek ἔστω).
-- **‑έτωσαν** — a later formation that replaced classical ‑όντων in Koine (including the New Testament).
-- **Durability** — the imperative is one of the few moods to survive into Modern Greek (γράψε "write!").
+- **‑έτωσαν** — the later of the two 3rd plural endings, already found in prose after Thucydides, in Euripides and in inscriptions after 300 BCE, and steadily displacing ‑όντων thereafter.
 
 ---
 
@@ -127,3 +124,7 @@ Remember: **negate with μή; use the hortatory subjunctive for the first person
 ---
 
 *End of Lesson*
+
+---
+
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the imperative at §§34.19–34.21; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the imperative at §§1835–1844.
