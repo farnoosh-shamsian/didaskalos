@@ -141,9 +141,11 @@ Pronouns are among the oldest and most-used words in any language, and heavy use
 
 **ἄμμες** and **ὔμμες** are Aeolic forms taken into the epic language — a good illustration of Homeric Greek being assembled from more than one dialect. They are unrelated in appearance to ἡμεῖς and ὑμεῖς but descend from the same originals.
 
-**Ionic μιν.** Herodotus and Homer both use the indeclinable **μιν** "him, her, it" as an unstressed third-person object pronoun, and **σφέας, σφι** for the plural. Attic has none of these; it uses αὐτόν, αὐτούς instead. μιν is frequent enough in Herodotus that it is worth learning on sight.
+**Ionic μιν.** Herodotus and Homer both use the indeclinable **μιν** "him, her, it" as an unstressed third-person object pronoun, where Attic uses αὐτόν. This one really is absent from Attic, and it is frequent enough in Herodotus to be worth learning on sight.
 
-**Reflexives are a late arrival.** The compound reflexives ἐμαυτοῦ, σεαυτοῦ, ἑαυτοῦ are an Attic development. Homer has no such compounds and uses the plain pronouns (ἕ, οἷ) reflexively, leaving context to make the sense clear.
+Their plural **σφέας, σφι** is a different case, and it is easy to overstate. Attic has these words: it writes σφᾶς, σφῶν, σφίσι(ν), which are simply the contracted forms of the same pronoun — Ionic σφέας : Attic σφᾶς is the ordinary uncontracted/contracted pair you meet everywhere in this book. So do not read σφέας as an unfamiliar Ionic word; read it as σφᾶς with the vowels still apart.
+
+**Reflexives are a late arrival.** Homer has no compound reflexives at all: he uses the plain pronouns (ἕ, οἷ) reflexively, or sets a personal pronoun beside αὐτός with each word separately declined (σοὶ αὐτῷ), leaving context to make the sense clear. The welded compounds are a later development, and the dialects welded them differently — Attic has ἐμαυτοῦ, σεαυτοῦ, ἑαυτοῦ, while literary Ionic has **ἐμεωυτοῦ, σεωυτοῦ, ἑωυτοῦ**. The last of these is common enough in Herodotus that it is worth recognising as simply his ἑαυτοῦ.
 
 **Koine simplifies.** Three changes matter for reading the New Testament:
 

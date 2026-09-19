@@ -101,6 +101,7 @@ Many of them also show **ι‑reduplication** in the present system: δί‑δω
 | **The athematic layer** | The ending ‑μι is the athematic 1st singular ending, attached straight to the stem. |
 | **Early Greek** | ‑μι forms are already attested in Mycenaean; the ‑μι class is the older layer of the Greek verbal system. |
 | **Gradual erosion** | From the classical period onwards, ‑μι verbs were progressively drawn into the thematic ‑ω pattern (e.g. δεικνύω beside δείκνυμι). |
+| **Ionic got there first** | This is not purely a matter of date. Ionic already inflects the ‑μι verbs like contract verbs — Herodotus has **τιθεῖ, τιθεῖν** for Attic τίθησι, τιθέναι — so a Herodotus reader meets the rebuilt forms centuries before the Koine. |
 | **Later Greek** | In Koine and Byzantine Greek the process was completed, and only scattered relics of the ‑μι verbs remained. |
 
 ---

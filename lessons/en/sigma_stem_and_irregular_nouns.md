@@ -61,6 +61,8 @@ Masculine nouns in -ευς name roles and professions: βασιλεύς "king", 
 
 The σ of the stem drops between vowels; the vowels left touching then contract in Attic but stay apart in Ionic. So γένους is not an ending to memorize — it is γένεος with the work done. Herodotus writes γένεος, τείχεος, ἔτεα; Homer writes ἔπεα "words" where Attic has ἔπη.
 
+It is worth saying plainly which side is the odd one out. **Every dialect except Attic leaves these vowels uncontracted** — this is not a peculiarity of epic and Ionic but the ordinary Greek state of affairs, and the contracted paradigm you have just learned is an Athenian development.
+
 The same applies to the ‑ης names: Homer and Ionic have Σωκράτεος-type genitives against Attic Σωκράτους.
 
 **ναῦς and Ζεύς across the dialects.** The two great irregulars are irregular differently in different places:

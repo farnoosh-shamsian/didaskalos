@@ -109,6 +109,7 @@ The final vowel of the stem merges with the ending. There are three sub-types:
 
 - The thematic conjugation, with its linking vowel ε/ο, is the oldest productive pattern of the Greek verb.
 - The **contract verbs** are not a separate conjugation but ordinary thematic verbs whose stems happened to end in a vowel; the contractions are a regular Attic sound change, and Homeric Greek often preserves the uncontracted forms (*ὁράω* beside Attic *ὁρῶ*).
+- Contraction is only one of the answers Greek gave to those vowel-final stems. In Lesbian, Thessalian and Arcado-Cyprian the ε- and α-contract verbs were pulled the other way, into the athematic conjugation, and inflected as μι-verbs: Sappho writes *κάλημι* "I call" where Attic has *καλῶ*. Grammarians call this the **Aeolic inflection**. So the neat "contract verbs are just thematic verbs" applies to the dialect this book teaches, not to Greek at large.
 - The ω‑verb pattern proved remarkably stable, and in later Greek the older μι‑verbs gradually migrated into it.
 
 ---

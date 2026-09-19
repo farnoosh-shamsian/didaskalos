@@ -122,7 +122,7 @@ In contract verbs the singular prefers the extended suffix **‑οίη‑**:
 |--------|--------|
 | **The mood marker** | The optative is marked by ‑οι‑ in thematic forms (thematic vowel + ι) and by ‑ίη‑ in athematic ones — two grades of the same suffix. |
 | **Early Greek** | In Homer the optative is frequent and versatile. |
-| **Classical period** | Attic prose exploits the optative fully for the nuances of indirect narration and politeness. |
+| **Classical period** | Attic prose exploits the optative fully for the nuances of indirect narration and politeness — but this is a feature of literary prose. The inscriptions of the same period already prefer the subjunctive in conditional clauses, in Attic-Ionic and most other dialects alike. |
 | **Koine and later** | The optative dies out rapidly; in the New Testament it is rare outside formulas such as μὴ γένοιτο. |
 
 ---

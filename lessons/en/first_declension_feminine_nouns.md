@@ -54,9 +54,11 @@ Which vowel a noun keeps in the singular follows a simple rule:
 
 This is the declension where dialect shows most plainly, because the singular vowel itself differs from region to region.
 
-**The pure-α type is an Attic feature.** The rule above — that a stem ending in ε, ι or ρ keeps α through the singular — holds for Attic. **Ionic simply uses η everywhere**, whatever precedes it. Herodotus writes χώρη, σοφίη, ἡμέρη, οἰκίη where Attic has χώρα, σοφία, ἡμέρα, οἰκία, and the goddess is Ἀθηναίη, not Ἀθηναία. Homer, whose language is largely Ionic, does the same.
+**The pure-α type is an Attic feature.** The rule above — that a stem ending in ε, ι or ρ has α through the singular — holds for Attic. **Ionic simply uses η everywhere**, whatever precedes it. Herodotus writes χώρη, σοφίη, ἡμέρη, οἰκίη where Attic has χώρα, σοφία, ἡμέρα, οἰκία, and the goddess is Ἀθηναίη, not Ἀθηναία. Homer, whose language is largely Ionic, does the same.
 
-**θάλαττα is the Attic spelling.** The paradigm word for the mixed type above is spelled **θάλασσα** in Homer, in Herodotus, and throughout Koine and the New Testament. Note that the ττ is not universal even within Attic: Thucydides and the tragedians write σσ, so an Attic author may give you θάλασσα. The same holds for γλῶττα / γλῶσσα and for every other ττ word.
+It is worth being exact about what Attic is doing, because the obvious guess is wrong. Attic is not *keeping* an original α that Ionic changed. The shift of long ᾱ towards η was an Attic-Ionic change and it was universal — Attic went through it too — and only afterwards did Attic swing back to ᾱ in the one environment after ε, ι and ρ. The proof that this was a second, separate move is that it did not touch η from any other source: Attic has πράττω with the reverted ᾱ in its relatives, but ῥήτωρ keeps its inherited η. So χώρα is a return, not a survival.
+
+**θάλαττα is the Attic spelling.** The paradigm word for the mixed type above is spelled **θάλασσα** in Homer, in Herodotus, and throughout Koine and the New Testament. An Attic author may nonetheless give you θάλασσα: Thucydides and the tragedians write σσ. This is not because Attic wavered — the inscriptions have ττ from the earliest times — but because σσ was the form the rest of Greece used, and fifth-century Athenian writers borrowed it from Ionic to avoid a spelling that was felt to be a local Athenian provincialism. The same holds for γλῶττα / γλῶσσα and for every other ττ word.
 
 **The plural endings were once longer:**
 
@@ -67,7 +69,7 @@ This is the declension where dialect shows most plainly, because the singular vo
 
 The Attic -ῶν you learned is a contraction of the older -άων. When Homer's genitive plural runs to three syllables, that is the original form surviving, not a poetic licence — which is also why the ending is always accented -ῶν in Attic.
 
-**In Koine** the declension is the Attic one with σσ restored, and it stays fully productive: the New Testament is thick with first-declension feminines — ἡμέρα, ἐκκλησία, ἁμαρτία, βασιλεία, ἀγάπη.
+**In Koine** the declension is the Attic one, but with Ionic σσ rather than Attic ττ — Koine was built on an Attic that had already absorbed a good deal of Ionic, and this is one of the places it shows. It stays fully productive: the New Testament is thick with first-declension feminines — ἡμέρα, ἐκκλησία, ἁμαρτία, βασιλεία, ἀγάπη.
 
 ## Examples
 

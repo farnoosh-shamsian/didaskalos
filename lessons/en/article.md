@@ -150,6 +150,8 @@ The article has the most dramatic history of any word in Greek: within the span 
 
 **Homeric and Ionic forms.** Epic has **τοί** and **ταί** for the nominative plurals οἱ and αἱ, and the long datives **τοῖσι(ν)** and **τῇσι(ν)** for τοῖς and ταῖς. Herodotus uses τοῖσι and τῇσι as a matter of course.
 
+τοί and ταί are not confined to verse. They were the ordinary nominative plurals in the West Greek dialects and in Boeotian, and they are the older forms: Attic οἱ, αἱ were remade on the pattern of the singular ὁ, ἡ. The τ- that runs through the rest of the paradigm is the regular thing; it is the Attic nominatives that are the exception, which is worth remembering when you are tempted to treat τοί as a poetic licence.
+
 **Koine pushes the article further.** The articular infinitive of §5 becomes a workhorse of New Testament prose, and the article is used more freely still with proper names and abstract nouns. The article is the one part of the Greek nominal system that grows stronger over time.
 
 ---

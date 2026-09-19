@@ -78,7 +78,7 @@ The standard of comparison behaves exactly as with ἀγαθός: genitive, or �
 
 ## Historical Development
 
-**The σ-stems are contractions, and the older forms are visible in Ionic.** ἀληθής declines exactly like the neuter σ-stem noun γένος, so it shows the same split: Attic ἀληθοῦς is a contraction of **ἀληθέος**, which is what Herodotus and Homer write. Likewise ἀληθεῖ ← ἀληθέϊ, and the neuter plural ἀληθῆ ← ἀληθέα. If a form here looks a syllable too long, it is the original.
+**The σ-stems are contractions, and the older forms are visible in Ionic.** ἀληθής declines exactly like the neuter σ-stem noun γένος, so it shows the same split: Attic ἀληθοῦς is a contraction of **ἀληθέος**, which is what Herodotus and Homer write. Likewise ἀληθεῖ ← ἀληθέϊ, and the neuter plural ἀληθῆ ← ἀληθέα. If a form here looks a syllable too long, it is the original. And it is not only Ionic that has them: every Greek dialect except Attic leaves these vowels uncontracted, so the contracted paradigm is the local oddity here, not the norm.
 
 **πολύς is a different word in Homer.** This is the most striking irregular in the group:
 
@@ -90,7 +90,7 @@ The standard of comparison behaves exactly as with ἀγαθός: genitive, or �
 
 Greek inherited two stems for "much" — a πολυ‑ stem and a πολλο‑ stem — and never fully chose between them. Attic settled on a compromise, taking the nominative and accusative singular from one (πολύς, πολύν) and everything else from the other (πολλοῦ, πολλῷ, πολλοί). Homer simply uses both stems throughout. Once you know this, the Attic paradigm looks less like a mistake and more like a treaty.
 
-**The ‑ων comparatives contract in Attic.** μείζων has both a longer and a shorter accusative: μείζονα and μείζω, μείζονας and μείζους. Attic prose uses the contracted forms freely; **Koine strongly prefers the full ones**. This is part of a broader Koine tendency to keep the more transparent, fully spelled-out ending.
+**The ‑ων comparatives contract in Attic.** μείζων has both a longer and a shorter accusative: μείζονα and μείζω, μείζονας and μείζους. Attic prose uses the contracted forms freely; **Koine strongly prefers the full ones**. In Ionic the word itself has a different shape — Herodotus writes **μέζων** for Attic μείζων. This is part of a broader Koine tendency to keep the more transparent, fully spelled-out ending.
 
 **In Koine** two-ending compound adjectives multiply, because compounding is one of the main ways Hellenistic Greek makes new words. The New Testament is full of them: ἄδικος, ἄπιστος, ἀκάθαρτος, αἰώνιος. All follow the pattern above, using one set of endings for both masculine and feminine.
 

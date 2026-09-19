@@ -68,7 +68,7 @@ The adverbs follow the adjective, as always: ταχέως, θᾶττον, τάχ
 
 These adjectives inherit the dialect features of the third-declension nouns, and for the same reason: their stems end in a vowel or a consonant that reacts to the ending attached to it.
 
-**Contraction is the dividing line.** Where Attic runs two vowels together, Homer and Herodotus keep them apart — so the Ionic form is regularly a syllable longer:
+**Contraction is the dividing line.** Where Attic runs two vowels together, Homer and Herodotus keep them apart — so the Ionic form is regularly a syllable longer. Attic is the outlier here rather than Ionic the survivor: no other Greek dialect contracts these vowels either.
 
 | | Homer / Ionic | Attic |
 |---|---|---|

@@ -77,6 +77,8 @@ A neuter stem has no -ς in the nominative at all. It would end in the bare stem
 
 The advantage to a poet is obvious: -εσσι adds a syllable and sidesteps the awkward clusters that -σι produces after a dental. It is one of the clearest cases of Homeric Greek being a made language, assembled from several dialects for the convenience of verse.
 
+Two footnotes to that. The ending is characteristic of the Aeolic dialects — Lesbian, Thessalian, Boeotian — but not confined to them: the inscriptions show it in early Delphian, East Locrian, Elean and in several Corinthian colonies too. And it was not invented for poetry. It began as the σ-stem dative (γένεσσι, where the ε belongs to the stem) spreading by analogy to consonant stems where it had no business being. The poets found it convenient; they did not make it.
+
 **The -μα, -ματος class expands enormously in Koine.** Neuter dental stems were always numerous, but in Hellenistic Greek they became the standard way to coin a noun meaning "the result of doing X", and the New Testament vocabulary is full of them: **πνεῦμα** "spirit", **ῥῆμα** "word", **θέλημα** "will", **βάπτισμα** "baptism", **χάρισμα** "gift", **κρίμα** "judgement", **αἷμα** "blood", beside ὄνομα and σῶμα. If you are reading Koine, no other noun pattern repays the effort as quickly.
 
 **In Koine** the declension is otherwise conservative, though the pressure that eventually dissolved it is already visible: a few third declension nouns begin to pick up first declension endings, a drift that only finishes long after our period.

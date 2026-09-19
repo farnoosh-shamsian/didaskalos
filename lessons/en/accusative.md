@@ -170,7 +170,7 @@ The accusative of extent in space and time (§5) runs through every period uncha
 | Place where | ἐν + dative | ἐν + dat., but **εἰς + acc. encroaches** |
 | Goal / recipient | dative | dative, or εἰς / πρός + acc. |
 
-In the New Testament εἰς and ἐν are no longer kept rigidly apart, and εἰς sometimes appears where strict Attic would require ἐν with the dative. Greek is on its way to the modern state of affairs, in which the accusative is the ordinary case after almost every preposition.
+In the New Testament εἰς and ἐν are no longer kept rigidly apart, and εἰς sometimes appears where strict Attic would require ἐν with the dative. Worth knowing that this is less of a fall than it looks: keeping the two apart was an Attic-Ionic refinement in the first place, and several dialect groups used ἐν with the accusative for "into" throughout the classical period. Greek is on its way to the modern state of affairs, in which the accusative is the ordinary case after almost every preposition.
 
 **In Koine** the accusative is also the case that survives the general levelling best. Where third-declension nouns start drifting toward first-declension endings, it is usually the accusative plural that shows the first signs — the beginning of a merger that finishes long after the New Testament.
 

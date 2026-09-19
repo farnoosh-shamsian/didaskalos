@@ -125,6 +125,16 @@ There is a reason the irregular verbs are also the commonest ones. **Frequency p
 
 **Homer has even more variety.** Epic preserves alternative forms that Attic dropped: **ἔμμεναι, ἔμεν, ἔμμεν** beside εἶναι; **ἴδμεν** for ἴσμεν "we know"; **ἔσσομαι** for ἔσομαι. Since these are the highest-frequency verbs in the language, an unfamiliar epic form here will block a sentence more often than an unfamiliar noun would — they are worth meeting early if you are reading Homer.
 
+Those εἶναι variants are not random poetic noise; each is somebody's ordinary infinitive. Greek had three endings for the athematic infinitive and the dialects divided between them:
+
+| Ending | Where it belongs | "to be" |
+|---|---|---|
+| **-ναι** | Attic-Ionic and Arcado-Cyprian | εἶναι |
+| **-μεναι** | Lesbian — and Homer, who takes it from there | ἔμμεναι |
+| **-μεν** | Thessalian, Boeotian and nearly all West Greek | ἔμμεν, ἔμεν |
+
+So the -ναι you learned is the Attic-Ionic option rather than the Greek one, and Homer's ἔμμεναι is the Aeolic layer of epic showing through. The same three-way split runs through δοῦναι / δόμεναι / δόμεν and θεῖναι / θέμεναι / θέμεν.
+
 **Koine starts to regularize — visibly.** The clearest case is the **α-aorist**, in which the endings of the first (sigmatic) aorist are transferred onto thematic aorist stems:
 
 | Classical | Koine / NT |

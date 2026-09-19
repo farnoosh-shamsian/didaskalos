@@ -68,6 +68,16 @@ How Greek joins its clauses together changes a great deal between Homer and the 
 
 **Homer has conjunctions Attic lost.** Epic uses **αὐτάρ / ἀτάρ** "but", **ἠδέ** and **ἰδέ** "and", **ὄφρα** "until, so that", **εὖτε** "when", **ἠμέν … ἠδέ** "both … and". Most of these are gone by the Classical period.
 
+**And the everyday conjunctions vary by region.** The ones you have learned are the Attic-Ionic set, not a Greek-wide inventory. "When" is the clearest case:
+
+| | "when" |
+|---|---|
+| Attic-Ionic and Arcado-Cyprian | ὅτε, τότε, πότε |
+| Lesbian | ὅτα, πότα |
+| West Greek and Boeotian | **ὅκα**, ποκα |
+
+The same holds for "if": Attic-Ionic εἰ against **αἰ** almost everywhere else. Even **ἵνα** is an Attic-Ionic word — outside Attic-Ionic it turns up only late — which is worth bearing in mind below, where its expansion in Koine is really the spread of one dialect's conjunction along with the rest of that dialect.
+
 **Classical Attic is the peak of subordination.** Attic prose builds long, hierarchical sentences with clauses carefully nested inside one another — the *periodic* style at its most elaborate in Demosthenes and Thucydides. Conjunctions are what hold those structures up, and reading Attic means tracking them closely.
 
 **Koine returns to parataxis.** Hellenistic Greek, and the New Testament in particular, prefers to lay clauses side by side rather than subordinate them — sentence after sentence linked by a plain **καί** "and". Mark's Gospel is the extreme case; the influence of Hebrew and Aramaic narrative style is generally held to reinforce a tendency the language already had.

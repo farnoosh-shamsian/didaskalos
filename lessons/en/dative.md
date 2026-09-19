@@ -175,6 +175,8 @@ Of all the cases, the dative changes most across the span of Greek — in its en
 
 These long datives are among the most conspicuous features of Homeric Greek; if a text is full of ‑οισι and ‑ῃσι, you are reading epic or Ionic.
 
+The heading above says "were longer", and that needs one qualification. Attic wrote ‑ᾱσι and ‑οισι itself until around 420 BCE, so the short endings are a late-fifth-century Athenian development, not an ancient wearing-down. In most other dialects ‑αις and ‑οις are the only forms on record from the start. So the long datives mark epic and Ionic specifically, rather than an older stage of Greek as a whole.
+
 **Then the case recedes.** In Homer and Classical Attic the bare dative does a great deal of work with no preposition at all: **τῇ μαχαίρᾳ** "with the sword", **τῷ λόγῳ** "by the argument", **ταύτῃ τῇ ἡμέρᾳ** "on that day". Over the Hellenistic period Greek increasingly props the case up with a preposition instead — **ἐν** + dative for instrument and place — and where the dative marked a goal or recipient, **εἰς** or **πρός** + accusative starts to take over. In the New Testament ἐν is extremely frequent, doing work that Plato would have left to a bare dative.
 
 | | Classical Attic | Koine tendency |

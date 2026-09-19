@@ -105,7 +105,7 @@ Contract verbs are entirely regular once the contraction rules are known, and th
 
 Your reading passages may come from texts written centuries apart, so some forms will not match the paradigm. Three shifts affect the verb system in particular, and they are worth knowing before you start:
 
-- **The optative fades.** Common and supple in Homer and Classical Attic, it declines sharply in the Hellenistic period and is nearly gone from the New Testament, surviving mostly in the fixed phrase μὴ γένοιτο ⟨mḕ génoito⟩ "may it not be so."
+- **The optative fades.** Common and supple in Homer and in Classical Attic literature, it declines sharply in the Hellenistic period and is nearly gone from the New Testament, surviving mostly in the fixed phrase μὴ γένοιτο ⟨mḕ génoito⟩ "may it not be so." The retreat had in fact begun earlier: classical inscriptions already prefer the subjunctive where the literary language would use an optative.
 - **The perfect merges with the aorist.** Classical Greek keeps them distinct — the aorist reports an event, the perfect a state that still holds. In Koine that distinction erodes and the perfect drifts toward being a plain past tense.
 - **The infinitive gives way to ἵνα ⟨hína⟩ clauses.**
 

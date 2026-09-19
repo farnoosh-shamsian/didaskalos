@@ -84,7 +84,11 @@ Prepositions have the clearest life story of any word class in Greek: they begin
 
 > **ἀπὸ** … **ὄλεσσε** — "he destroyed **away**", i.e. ἀπώλεσε
 
-To an Attic reader this looks like a compound verb split in half; historically it is the opposite — Homer preserves the stage before the two grew together. Epic also has forms Attic lost: **ἐνί, εἰν** for ἐν, **προτί, ποτί** for πρός, and **ξύν** for σύν (which older Attic and Thucydides also use).
+To an Attic reader this looks like a compound verb split in half; historically it is the opposite — Homer preserves the stage before the two grew together.
+
+**The same preposition has different shapes in different places.** Epic has **ἐνί, εἰν** for ἐν and **προτί, ποτί** for πρός, and it is tempting to file these as poetic archaisms. They are not: ποτί was the ordinary everyday word for "to" across the whole West Greek world, and in Thessalian and Boeotian besides, while Arcado-Cyprian said πός. Lesbian, Boeotian, Arcadian, Argolic, Cretan and Theran used **πεδά** where Attic used μετά. What looks like a special epic vocabulary is often simply a word that was current somewhere other than Athens.
+
+**ξύν** is a different case again, and does not belong on that list: ξύν is the *Attic* form, used in Homer and in early Attic, with σύν everywhere else. Thucydides writing ξύν is not reaching for an epicism; he is using the older Athenian form.
 
 **Then prepositions take over from the cases.** As the bare dative recedes, prepositional phrases step in, and by the Koine period much that Attic expressed with a plain case ending is expressed with a preposition instead. Several specific shifts are worth knowing:
 
@@ -94,6 +98,8 @@ To an Attic reader this looks like a compound verb split in half; historically i
 | "with" (accompaniment) | σύν + dat., or bare dat. | **μετά + genitive**; σύν becomes uncommon |
 | "into" / "in" | εἰς vs ἐν kept distinct | the two blur; εἰς encroaches on ἐν |
 | Agent | ὑπό + gen. | ὑπό + gen., but ἀπό and διά spread |
+
+**A warning about that third row.** It is natural to read the Koine blurring of εἰς and ἐν as a distinction wearing out, and in the New Testament that is how it feels. But the distinction was never Greek-wide to begin with. The inherited construction was **ἐν with the accusative** for "into" — compare Latin *in* — and it stayed the normal usage in the Northwest Greek dialects, in Boeotian and Thessalian, and in Arcado-Cyprian (ἰν) right through the classical period. εἰς is the innovation: an extended ἐν-ς, made in the dialects that wanted the two senses kept apart, Attic-Ionic among them. So when Koine stops policing the boundary, what is giving way is a comparatively local refinement, not an ancient rule.
 
 **"Improper" prepositions multiply.** The class described in §5 grows: Koine freely presses further adverbs into prepositional service — **ἐνώπιον** "before", **ἔμπροσθεν**, **ὀπίσω**, **ἔξωθεν** — alongside the ἕνεκα and χάριν that Attic already had. The New Testament uses them constantly.
 

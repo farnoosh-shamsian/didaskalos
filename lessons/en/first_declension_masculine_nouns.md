@@ -46,11 +46,15 @@ The masculine first declension is a relative newcomer in Greek: it is the femini
 
 | | Homer | Ionic (Herodotus) | Attic |
 |---|---|---|---|
-| Genitive singular | -ᾱο: Ἀτρεΐδαο, Πηληϊάδαο | -εω: δεσπότεω, Καμβύσεω | -ου: πολίτου, δεσπότου |
+| Genitive singular | -ᾱο *and* -εω: Ἀτρεΐδαο, Πηληϊάδεω | -εω: δεσπότεω, Καμβύσεω | -ου: πολίτου, δεσπότου |
 
-Homer's -ᾱο is the oldest of the three. Ionic -εω is what -ᾱο became when the two vowels exchanged length; in verse it is normally scanned as a single syllable. The Attic -ου is not an inherited first-declension ending at all — it is borrowed outright from the second declension (λόγου), a masculine noun helping itself to the masculine ending of the other pattern.
+Homer's -ᾱο is the oldest of the three, and it is one of the Aeolic elements in his language: he has the Ionic -εω beside it and takes whichever the metre wants, so do not expect epic to use -ᾱο alone.
 
-**Homeric nominatives in -ᾰ.** Epic keeps a short-vowel nominative with no -ς whatever, chiefly in formulaic titles: ἱππότα Νέστωρ "Nestor the horseman", νεφεληγερέτα Ζεύς "cloud-gathering Zeus", μητίετα Ζεύς. It looks like a vocative doing a subject's work, and historically that may be exactly what it is. Attic has nothing of the kind.
+The route from one to the other runs through a step that is easy to miss. Long ᾱ became η throughout Attic-Ionic, so -ᾱο first became **-ηο**; only then did the two vowels exchange length, giving -εω. Homer preserves forms at that middle stage too. In verse -εω is normally scanned as a single syllable.
+
+The Attic -ου is not an inherited first-declension ending at all — it is borrowed outright from the second declension (λόγου), a masculine noun helping itself to the masculine ending of the other pattern.
+
+**Nominatives in -ᾰ with no -ς.** Epic keeps a nominative with no -ς whatever, chiefly in formulaic titles: ἱππότα Νέστωρ "Nestor the horseman", νεφεληγερέτα Ζεύς "cloud-gathering Zeus", μητίετα Ζεύς. It looks like a vocative doing a subject's work, and historically that may be exactly what it is. Attic has nothing of the kind — but this is not a poet's licence either: the ς-less nominative was ordinary usage in Boeotian and in parts of Northwest Greece, which is where the inscriptions show it living on.
 
 **The α/η split applies here too.** Where Attic has -ᾱς after ε, ι or ρ, Ionic and Homer prefer -ης: Herodotus writes νεηνίης for Attic νεανίας.
 

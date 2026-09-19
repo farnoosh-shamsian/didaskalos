@@ -108,6 +108,12 @@ Verbs with a thematic aorist take the **present** optative endings (‑οιμι�
 
 The optative marker is ‑ιη‑/‑ι‑; combined with the sigmatic stem it produced ‑σαι‑. The optative declined in Koine Greek — in the New Testament it scarcely appears outside idioms such as μὴ γένοιτο "God forbid!" — so mastering it matters above all for reading classical prose.
 
+Two things complicate that picture usefully.
+
+**There is a second set of endings**, traditionally called the *Aeolic* aorist optative, in ‑ειας, ‑ειε, ‑ειαν beside the ‑σαις, ‑σαι, ‑σαιεν above: λύσειας, λύσειε, λύσειαν. Despite the name these are thoroughly at home in Attic-Ionic, and in the 2nd and 3rd singular they are in fact the commoner forms in Attic prose. Most other dialects keep αι throughout. Expect to meet both and treat them as equivalents.
+
+**The decline began earlier than the Koine.** The supple optative belongs to classical *literature*. In the inscriptions of the same period the optative was already being replaced by the subjunctive in conditional clauses, in Attic-Ionic as in most other dialects. So what the Koine completes is a retreat that was well under way while Plato was writing.
+
 ---
 
 **Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the optative at §§34.13–34.14; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the optative at §§1814–1834.
