@@ -1,8 +1,8 @@
 # Syntax Reference
 
-The lessons of this book are organized by the forms a word can take: a tense, a mood, a case. That organization reaches everything Greek marks on the word itself, and nothing it marks across a clause. A conditional is not a form of the verb; it is a relation between two clauses, and neither clause looks unusual on its own. The same is true of purpose, result, indirect statement and the uses of ἄν.
+The lessons of this book are organized by the forms a word can take: a tense, a mood, a case. That organization reaches everything Greek marks on the word itself, and nothing it marks across a clause. A purpose clause is not a form of the verb; it is a relation between two clauses, and neither clause looks unusual on its own. The same is true of result, indirect statement and the uses of ἄν.
 
-So this section collects what the lessons cannot reach. Each entry states the rule, then shows what the texts you selected actually attest. The counts are of the constructions found in those texts, not of Greek at large, and a construction your texts do not use is marked as unattested rather than illustrated from somewhere else.
+So this section collects what the lessons cannot reach. Conditional sentences are the exception: they are common enough to teach rather than look up, so they have a lesson of their own wherever the syllabus gets far enough to support one. Each entry states the rule, then shows what the texts you selected actually attest. The counts are of the constructions found in those texts, not of Greek at large, and a construction your texts do not use is marked as unattested rather than illustrated from somewhere else. Counts and examples are drawn from prose only, since verse word order makes for poor illustrations, so a corpus of epic or drama leaves these tables empty.
 
 Two habits make this section worth returning to. The first is to read the conjunction as a signal: ἐάν and ὅταν promise a subjunctive, ἵνα promises a subjunctive or an optative, ὥστε warns that an infinitive may follow. The second is to watch for ἄν, which is small, easily missed, and changes the meaning of the clause it sits in more than any other word in the language.
 
@@ -30,37 +30,7 @@ A verb that would be a plain statement becomes a possibility with ἄν and noth
 
 ---
 
-## 2. Conditional Sentences
-
-A conditional has two halves: the **protasis**, the "if" clause, introduced by εἰ or ἐάν; and the **apodosis**, the clause that states what follows. Greek distinguishes several types, and the distinction is carried by the mood of each half together with the presence or absence of ἄν — not by the conjunction alone.
-
-ἐάν is εἰ with ἄν fused onto it, which is why ἐάν always takes the subjunctive: the ἄν inside it is doing the work described in §1. Some texts still write the two words apart.
-
-| Type | Protasis | Apodosis | Sense |
-|---|---|---|---|
-| **Simple (particular)** | εἰ + indicative | indicative | states a fact, taking no view on whether it holds |
-| **Present general** | ἐάν + subjunctive | present indicative | "whenever this happens, that happens" |
-| **Future more vivid** | ἐάν + subjunctive | future indicative | a likely future case |
-| **Future less vivid** | εἰ + optative | optative + ἄν | a remoter future case: "should … would" |
-| **Present contrary to fact** | εἰ + imperfect indicative | imperfect + ἄν | "if it were so now — but it is not" |
-| **Past contrary to fact** | εἰ + aorist indicative | aorist + ἄν | "if it had been so — but it was not" |
-
-Reading them, the useful question is not "which conjunction?" but **"is there an ἄν in the apodosis?"** Its presence marks the unreal and the remote; its absence marks the simple and the general.
-
-- εἰ ταῦτα λέγεις, ἁμαρτάνεις. — "If you say this, you are wrong." (simple)
-- ἐὰν ταῦτα λέγῃς, ἁμαρτήσει. — "If you say this, you will be wrong." (future more vivid)
-- εἰ ταῦτα λέγοις, ἁμαρτάνοις ἄν. — "If you should say this, you would be wrong." (future less vivid)
-- εἰ ταῦτα ἔλεγες, ἡμάρτανες ἄν. — "If you were saying this, you would be wrong." (present contrary to fact)
-
-The two halves need not appear in that order, and the protasis is often embedded inside the apodosis.
-
-<!--syntax:conditionals-->
-
-**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§49.1–49.24; and in Smyth's *A Greek Grammar for Colleges* (1920), §§2280–2382.
-
----
-
-## 3. Purpose Clauses
+## 2. Purpose Clauses
 
 ἵνα, ὅπως and ὡς introduce a clause stating the purpose of the action in the main clause: "in order that". The verb stands in the **subjunctive** after a primary tense, and may stand in the **optative** after a secondary (past) tense.
 
@@ -81,19 +51,19 @@ The negative is μή, not οὐ: ἵνα μὴ ἁμάρτῃ, "so that he may n
 
 ---
 
-## 4. Sequence of Moods
+## 3. Sequence of Moods
 
-The optative in §3 is not a different kind of purpose. It is the same construction shifted into the past, and the shift is systematic:
+The optative in §2 is not a different kind of purpose. It is the same construction shifted into the past, and the shift is systematic:
 
 > After a **primary** tense (present, future, perfect), a subordinate clause keeps the **subjunctive**. After a **secondary** tense (imperfect, aorist, pluperfect), it may move to the **optative**.
 
 This governs purpose clauses, fear clauses, indirect questions and indirect statements at once, which is why it is worth learning as one rule rather than four. The optative is optional, not required: Greek authors freely keep the subjunctive after a past tense for vividness, and the historians do it constantly.
 
-The same shift explains the optatives that appear in the ὅτι table in §7. An optative there is not a wish; it is an indicative that has moved back in time with its main verb.
+The same shift explains the optatives that appear in the ὅτι table in §6. An optative there is not a wish; it is an indicative that has moved back in time with its main verb.
 
 ---
 
-## 5. Result Clauses
+## 4. Result Clauses
 
 ὥστε introduces a result, and takes either the infinitive or a finite verb. The choice is not free:
 
@@ -112,7 +82,7 @@ The negative follows the construction: ὥστε μή with the infinitive, ὥσ
 
 ---
 
-## 6. Temporal Clauses
+## 5. Temporal Clauses
 
 ἐπεί and ἐπειδή ("when, after, since"), ὅτε ("when"), and ἕως and μέχρι ("while, until") introduce clauses of time, normally with the indicative when they refer to a definite occasion.
 
@@ -137,11 +107,11 @@ The rule of thumb is that a negative main clause pulls πρίν towards "until" 
 
 ---
 
-## 7. Indirect Statement
+## 6. Indirect Statement
 
 Greek reports what someone said or thought in three different ways, and which one is used depends on the reporting verb rather than on the content.
 
-**With ὅτι or ὡς and a finite verb.** Used after verbs of saying — λέγω, εἶπον, ἀγγέλλω. The tense of the original words is kept, which is where Greek and English part company: λέγει ὅτι ἥκει is "he says that he **has come**", and the past-tense version ἔλεγεν ὅτι ἥκοι keeps the same tense in the optative, by the rule in §4. English shifts the tense back; Greek shifts the mood.
+**With ὅτι or ὡς and a finite verb.** Used after verbs of saying — λέγω, εἶπον, ἀγγέλλω. The tense of the original words is kept, which is where Greek and English part company: λέγει ὅτι ἥκει is "he says that he **has come**", and the past-tense version ἔλεγεν ὅτι ἥκοι keeps the same tense in the optative, by the rule in §3. English shifts the tense back; Greek shifts the mood.
 
 **With the accusative and infinitive.** Used after verbs of thinking and believing — νομίζω, ἡγέομαι, οἴομαι, and φημί, which almost always takes this construction rather than ὅτι. The subject of the reported clause goes into the accusative: φησὶ τοὺς ἄνδρας ἥκειν, "he says that the men have come".
 
@@ -155,12 +125,12 @@ The table below counts ὅτι-clauses only. ὡς is left out of it deliberatel
 
 ---
 
-## 8. What This Section Does Not Cover
+## 7. What This Section Does Not Cover
 
 Several constructions belong in a reference like this one but cannot be counted honestly from a treebank, and are listed here so that their absence from the tables is not read as absence from Greek.
 
-- **ὡς-clauses**, for the reason given in §7.
-- **Indirect questions**, introduced by ὅστις, πότερον or εἰ after verbs of asking and knowing. They follow the rule in §4, taking the optative after a past tense. They are genuinely uncommon, and the interrogatives that introduce them are hard to tell apart from ordinary relatives.
+- **ὡς-clauses**, for the reason given in §6.
+- **Indirect questions**, introduced by ὅστις, πότερον or εἰ after verbs of asking and knowing. They follow the rule in §3, taking the optative after a past tense. They are genuinely uncommon, and the interrogatives that introduce them are hard to tell apart from ordinary relatives.
 - **Fear clauses**, with μή "that" and μὴ οὐ "that not" after verbs of fearing — φοβοῦμαι μὴ ἔλθῃ, "I am afraid that he may come". The inverted negative is the thing to remember: μή introduces what you do not want to happen.
 - **Attraction of the relative**, where a relative pronoun takes the case of its antecedent instead of the case its own clause requires — ἀπὸ τῶν ἀγαθῶν ὧν ἔχομεν for ἃ ἔχομεν.
 

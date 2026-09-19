@@ -1164,6 +1164,12 @@ def parse_form_features(postag: str, lemma: str = "") -> list[tuple[str, str]]:
 DEPONENT_LESSON_LABEL = "deponent verbs"
 DEPONENT_LESSON_FILENAME = "deponent_verbs.md"
 
+CONDITIONAL_LESSON_LABEL = "conditional sentences"
+CONDITIONAL_LESSON_FILENAME = "conditionals.md"
+
+DIDAKTA_LESSON_LABEL = "didakta"
+DIDAKTA_LESSON_FILENAME = "didakta.md"
+
 # The starter module that teaches dictionary lookup.
 DICTIONARY_LESSON_MODULE = "using_a_dictionary"
 
@@ -2542,6 +2548,116 @@ def apply_lesson_prerequisite_order(lesson_data: list[dict[str, Any]]) -> list[d
     return lesson_data
 
 
+# A concept lesson teaches what no single paradigm carries, so it has no
+# frequency row and no position of its own: it is placed against what the reader
+# has already met, and left out of a book that never gets there rather than
+# taught over forms nobody has seen. Inserted after the frequency cut is taken,
+# so it costs no lesson slot.
+#
+# "requires" is matched as a substring of the normalized label, which gates on
+# tense and mood but not on voice or conjugation: the optative is met at the
+# first optative lesson of any kind. "after" says which satisfying lesson to
+# follow — the last one for a lesson that needs all of them in hand, the first
+# for one that only contrasts with a class the reader now knows.
+#
+# "body_only" marks a lesson that is entirely its own file: no generated
+# vocabulary, no generated exercises, no coverage gauge. Nothing above the word
+# is a paradigm, so there are no forms to hand over and nothing for the
+# morphology gauge to move.
+CONCEPT_LESSONS: dict[str, dict[str, Any]] = {
+    DEPONENT_LESSON_LABEL: {
+        "filename": DEPONENT_LESSON_FILENAME,
+        "pos_category": "verb",
+        "requires": ("middle",),
+        "after": "first",
+        "frequency": "deponent_count",
+    },
+    # The seven types between them need three indicative tenses and both
+    # non-indicative moods. The future is left out although the future more
+    # vivid uses it: it is rarer than the optative in both test corpora and
+    # would delay the whole lesson for one row of the table. εἰ, ἐάν and ἄν are
+    # function words the lesson introduces itself, not lessons to wait for.
+    CONDITIONAL_LESSON_LABEL: {
+        "filename": CONDITIONAL_LESSON_FILENAME,
+        "pos_category": "verb",
+        "requires": ("present_indicative", "imperfect_indicative", "aorist", "subjunctive", "optative"),
+        "after": "last",
+        "subtitle_key": "tb_module_type_syntax",
+        "body_only": True,
+    },
+    # Four lessons of the nominal system, whatever the syllabus mode calls them.
+    # Declension mode has one per inflection class; case mode has exactly four,
+    # since vocative merges into nominative in MERGED_SYLLABUS_LABELS, so the
+    # same number reads as "once the cases are done" there.
+    DIDAKTA_LESSON_LABEL: {
+        "filename": DIDAKTA_LESSON_FILENAME,
+        "pos_category": "reference",
+        "requires_nominal_count": 4,
+        "subtitle_key": "tb_module_type_reference",
+        "body_only": True,
+    },
+}
+
+
+def _concept_lesson_position(lesson_data: list[dict[str, Any]], entry: Mapping[str, Any]) -> int | None:
+    # Where the lesson goes, or None when the book never satisfies it.
+    nominal_count = entry.get("requires_nominal_count")
+    if nominal_count:
+        nominals = [index for index, lesson in enumerate(lesson_data) if lesson["pos_category"] == "noun/adjective"]
+        if len(nominals) < nominal_count:
+            return None
+        return nominals[nominal_count - 1] + 1
+
+    positions = []
+    for requirement in entry.get("requires", ()):
+        found = next(
+            (
+                index
+                for index, lesson in enumerate(lesson_data)
+                if not lesson["is_starter"] and requirement in normalize_frequency_row_name(str(lesson["label"]))
+            ),
+            None,
+        )
+        if found is None:
+            return None
+        positions.append(found)
+
+    if not positions:
+        return None
+    return (max(positions) if entry.get("after") == "last" else min(positions)) + 1
+
+
+def insert_concept_lessons(
+    lesson_data: list[dict[str, Any]], combined_df: pd.DataFrame | None = None
+) -> list[dict[str, Any]]:
+    for label, entry in CONCEPT_LESSONS.items():
+        position = _concept_lesson_position(lesson_data, entry)
+        if position is None:
+            continue
+
+        frequency: int | str = "—"
+        if entry.get("frequency") == "deponent_count" and combined_df is not None and "is_deponent" in combined_df.columns:
+            frequency = int(combined_df["is_deponent"].sum())
+
+        lesson_data.insert(
+            position,
+            {
+                "rank": 0,
+                "label": label,
+                "pos_category": entry["pos_category"],
+                "frequency": frequency,
+                "filename": entry["filename"],
+                "is_starter": False,
+                "body_only": bool(entry.get("body_only")),
+                "subtitle_key": entry.get("subtitle_key"),
+            },
+        )
+
+    for index, lesson in enumerate(lesson_data, 1):
+        lesson["rank"] = index
+    return lesson_data
+
+
 def _split_lesson_title(lesson_text: str) -> tuple[str | None, str]:
     # (leading heading, remaining markdown). Leading YAML frontmatter is dropped
     # so its metadata does not leak into the rendered textbook.
@@ -2763,25 +2879,33 @@ def _syntax_table(rows: pd.DataFrame, entry_name: str, sentence_text, lang: str)
     return lines
 
 
-def format_syntax_reference(
-    body: str,
+def detect_syntax(
     combined_df: pd.DataFrame | None,
     sentences_df: pd.DataFrame | None,
-    lang: str = DEFAULT_LANG,
     fmt: str = "agdt-xml",
-) -> str:
-    # The authored reference with each <!--syntax:name--> placeholder replaced by
-    # what the selected texts actually attest. A placeholder naming an entry that
-    # is not attested says so rather than disappearing, so the book never implies
-    # a construction is absent from Greek when it is only absent from this corpus.
+) -> tuple[dict, dict] | None:
+    # Every construction the corpus attests, plus the sentences to quote them
+    # from. Built once and handed to each body that carries a placeholder: the
+    # ClauseIndex behind it costs more than the classification does.
     if combined_df is None or combined_df.empty:
-        return SYNTAX_PLACEHOLDER_RE.sub("", body)
+        return None
 
     sentence_text = {}
     if sentences_df is not None and not sentences_df.empty:
         sentence_text = dict(zip(sentences_df["sentence_id"], sentences_df["sentence_text"]))
 
-    detected = constructions.all_reference_rows(combined_df, fmt)
+    return constructions.all_reference_rows(combined_df, fmt), sentence_text
+
+
+def fill_syntax_placeholders(body: str, detection: tuple[dict, dict] | None, lang: str = DEFAULT_LANG) -> str:
+    # Each <!--syntax:name--> replaced by what the selected texts actually
+    # attest. A placeholder naming an entry that is not attested says so rather
+    # than disappearing, so the book never implies a construction is absent from
+    # Greek when it is only absent from this corpus.
+    if detection is None:
+        return SYNTAX_PLACEHOLDER_RE.sub("", body)
+
+    detected, sentence_text = detection
 
     def replace(match: re.Match) -> str:
         name = match.group(1)
@@ -2889,30 +3013,7 @@ def generate_textbook_markdown(
         )
 
     apply_lesson_prerequisite_order(lesson_data)
-
-    # Deponency is lexical, not a paradigm: deponent tokens are counted in the
-    # regular voice lessons, and one concept lesson follows the first middle-voice
-    # lesson. With no middle-voice lesson in the cut it is not needed either.
-    for position, lesson in enumerate(lesson_data):
-        if lesson["is_starter"] or "middle" not in normalize_frequency_row_name(str(lesson["label"])):
-            continue
-        deponent_frequency: int | str = "—"
-        if combined_df is not None and "is_deponent" in combined_df.columns:
-            deponent_frequency = int(combined_df["is_deponent"].sum())
-        lesson_data.insert(
-            position + 1,
-            {
-                "rank": 0,
-                "label": DEPONENT_LESSON_LABEL,
-                "pos_category": "verb",
-                "frequency": deponent_frequency,
-                "filename": DEPONENT_LESSON_FILENAME,
-                "is_starter": False,
-            },
-        )
-        for index, entry in enumerate(lesson_data, 1):
-            entry["rank"] = index
-        break
+    insert_concept_lessons(lesson_data, combined_df)
 
     grammar_folder = Path(grammar_folder)
 
@@ -3018,6 +3119,9 @@ def generate_textbook_markdown(
                 core_function_words["ledger_key"], counted_lemma_keys, ledger_token_counts
             )
 
+    # Shared by the concept lessons that carry a placeholder and by the appendix.
+    syntax_detection = detect_syntax(working_combined_df, working_sentences_df)
+
     for lesson in lesson_data:
         # A rule then an H1: the lesson title outranks every heading its own body
         # uses, which is what tells a reader one lesson has ended and another
@@ -3028,6 +3132,10 @@ def generate_textbook_markdown(
         markdown_content.append(f"# {lesson['rank']}. {lesson['display_label']}")
         if lesson.get("is_starter"):
             markdown_content.append(t("tb_module_type_core", lang))
+        elif lesson.get("subtitle_key"):
+            # Built above the word, so there is no part of speech to name and no
+            # form count to print.
+            markdown_content.append(t(lesson["subtitle_key"], lang))
         else:
             markdown_content.append(t("tb_pos_family", lang, pos=_pos_label(lesson["pos_category"], lang)))
             markdown_content.append(t("tb_frequency", lang, frequency=lesson["frequency"]))
@@ -3041,9 +3149,9 @@ def generate_textbook_markdown(
         markdown_content.append("")
 
         markdown_content.append("")
-        markdown_content.append(lesson["body"])
+        markdown_content.append(fill_syntax_placeholders(lesson["body"], syntax_detection, lang))
 
-        if lesson.get("is_starter"):
+        if lesson.get("is_starter") or lesson.get("body_only"):
             if lesson["label"] == DIALECTS_LESSON_MODULE:
                 core_words_table = format_core_function_words(core_function_words, lang=lang)
                 if core_words_table:
@@ -3138,9 +3246,7 @@ def generate_textbook_markdown(
     syntax_path = grammar_folder / SYNTAX_REFERENCE_FILENAME
     if syntax_path.exists():
         _, syntax_body = _split_lesson_title(syntax_path.read_text(encoding="utf-8"))
-        syntax_body = format_syntax_reference(
-            syntax_body, working_combined_df, working_sentences_df, lang=lang
-        )
+        syntax_body = fill_syntax_placeholders(syntax_body, syntax_detection, lang)
         appendix_rank += 1
         syntax_title = t("tb_syntax_header", lang)
         anchor = heading_slug(f"{appendix_rank}. {syntax_title}")
