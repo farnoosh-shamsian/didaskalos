@@ -60,9 +60,9 @@ One thing about them is worth having early, because it is not what the names sug
 
 ## 7. Historical Development
 
-The borrowing described in section 5 is a historical fact about the language: Greek never developed a separate set of adjective endings at all. A three-ending adjective is simply two noun declensions working as one word — ἀγαθός, ἀγαθή, ἀγαθόν ⟨agathós, agathḗ, agathón⟩ takes the second-declension endings of λόγος ⟨lógos⟩ in the masculine and of δῶρον ⟨dôron⟩ in the neuter, and the first-declension endings of τιμή ⟨timḗ⟩ in the feminine.
+The borrowing described in section 5 is a fact about the endings themselves: Greek did not develop a separate set of endings for adjectives, and an adjective's endings are those of the noun declensions or very close to them. ἀγαθός, ἀγαθή, ἀγαθόν ⟨agathós, agathḗ, agathón⟩ takes the second-declension endings of λόγος ⟨lógos⟩ in the masculine and of δῶρον ⟨dôron⟩ in the neuter, and the first-declension endings of τιμή ⟨timḗ⟩ in the feminine.
 
-So whatever happened to the noun endings over the centuries happened to adjectives at the same time and in the same way. Each adjective lesson has a **Historical Development** section of its own.
+So what happened to the noun endings over the centuries happened to adjectives largely at the same time and in the same way. Each adjective lesson has a **Historical Development** section of its own.
 
 ## Summary
 

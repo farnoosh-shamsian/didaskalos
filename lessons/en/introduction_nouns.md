@@ -57,7 +57,7 @@ The article has a form for every combination of gender, number and case. Here is
 
 - **Singular** — one: ὁ λόγος ⟨ho lógos⟩ "the word"
 - **Plural** — more than one: οἱ λόγοι ⟨hoi lógoi⟩ "the words"
-- **Dual** — exactly two (rare; mostly poetry and fixed pairs like "both hands"): τὼ χεῖρε ⟨tṑ cheîre⟩
+- **Dual** — exactly two (not often used, and chiefly of things that form a natural pair, like "both hands"): τὼ χεῖρε ⟨tṑ cheîre⟩
 
 ## 5. Gender
 

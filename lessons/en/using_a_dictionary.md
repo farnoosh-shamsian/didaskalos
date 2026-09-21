@@ -112,7 +112,7 @@ The right lexicon depends on the text you are reading. **Every lexicon named bel
 | Reading | Use |
 |---|---|
 | Classical prose and verse | **LSJ** (Liddell–Scott–Jones), the standard full lexicon |
-| Anything, as a beginner | **Middle Liddell** — shorter, and it gives the common sense first |
+| Anything, as a beginner | **Middle Liddell** — shorter |
 | Homer | **Autenrieth** or **Cunliffe**, both Homer-only |
 | The Greek New Testament | **Abbott-Smith** |
 

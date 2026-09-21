@@ -61,13 +61,13 @@ Two further verb forms behave like nouns and adjectives: the **infinitive** (λ�
 
 ### One encouraging fact
 
-Five components, six tenses, four moods, three voices: the arithmetic looks alarming. What keeps it manageable is that the **personal endings themselves come in only two sets** — one used by the present, future and perfect (the *primary* endings), one by the imperfect, aorist and pluperfect (the *secondary* endings), with a middle/passive version of each. Nearly everything else you will learn is a matter of what goes *in front of* those endings. You are not memorizing hundreds of endings; you are memorizing a handful, and then learning where the stems and markers slot in ahead of them.
+Five components, six tenses, four moods, three voices: the arithmetic looks alarming. What keeps it manageable is that the **personal endings themselves come in only three sets** — one used by the present, future and perfect indicative and by the subjunctive (the *primary* endings), one by the imperfect, aorist and pluperfect and by the optative (the *secondary* endings), and one used by the imperative alone, with a middle/passive version of each. Nearly everything else you will learn is a matter of what goes *in front of* those endings. You are not memorizing hundreds of endings; you are memorizing a handful, and then learning where the stems and markers slot in ahead of them.
 
 ## 3. Anatomy of a Verb Form
 
 A typical form assembles like this:
 
-**(augment or reduplication) + stem + (thematic vowel) + tense marker + ending**
+**(augment or reduplication) + stem + tense marker + (thematic vowel) + ending**
 
 - ἐ-παίδευ-σα-μεν ⟨e-paídeu-sa-men⟩ "we educated": augment ἐ- ⟨e-⟩, stem παιδευ- ⟨paideu-⟩, aorist marker -σα- ⟨-sa-⟩, ending -μεν ⟨-men⟩ (1st plural).
 - λύ-ο-μεν ⟨lý-o-men⟩ "we loosen": stem λυ- ⟨ly-⟩, thematic vowel -ο- ⟨-o-⟩, ending -μεν ⟨-men⟩. No augment, because this is not a past tense.
