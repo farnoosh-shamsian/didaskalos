@@ -84,10 +84,10 @@ The basic pattern:
 | Rule | Explanation |
 |------|-------------|
 | **Agreement** | The participle must agree with its noun **in gender, number, and case**, exactly like any adjective. |
-| **Position** | It can stand **before** or **after** the noun; position often shifts the emphasis. With the article it is attributive: ὁ γράφων ἀνήρ. |
-| **Adverbial use** | When the participle describes the circumstances ("while …"), it agrees with the subject of the main verb (usually nominative). |
+| **Position** | Position decides the job. Inside the article phrase it simply describes the noun: ὁ γράφων ἀνήρ "the writing man, the man who is writing". Outside it, it describes the circumstances instead: ὁ ἀνὴρ γράφων ἐξέρχεται "the man goes out **while writing**". |
+| **Adverbial use** | When the participle describes the circumstances ("while …"), it agrees with whichever word of the main clause is its own subject. That is often the subject of the main verb, and so nominative, but it can equally be a dative or accusative: ἀκούσαντι τῷ Κύρῳ ἔδοξεν … "when Cyrus heard this, it seemed to him …". |
 | **Time reference** | The present participle expresses **simultaneity** with the main verb, not past or future time. |
-| **Aspect** | It denotes an action in progress; for a single completed action Greek uses the **aorist** participle, and for a resulting state the **perfect** participle. |
+| **Aspect** | It denotes an action in progress, running alongside the main verb; the **aorist** participle instead places its action **before** the main verb's, and the **perfect** participle refers to a resulting state. |
 | **Irregulars** | εἰμί → ὤν, οὖσα, ὄν; contract verbs contract before the suffix (ποιέ‑ων → ποιῶν). |
 
 ---
@@ -114,13 +114,13 @@ The basic pattern:
    *ταῦτα **λέγων** ἀπῆλθεν.* — "Saying this, he went away."
 
 3. **Genitive absolute** — a participle with a noun in the genitive, standing outside the sentence structure, forms a temporal or causal clause; it is very common with the present participle:
-   *ἀνδρὸς **πλέοντος**, ἦλθον.* — "While the man was at sea, I came."
+   *ἀνδρὸς **πλέοντος**, ἦλθον.* — "While the man was sailing, I came."
 
 4. **Substantival use with the article** — article + participle = a noun:
    *οἱ **λέγοντες*** — "the speakers"; *τὸ **συμφέρον*** — "that which is advantageous."
 
-5. **Vivid narrative in verse** — poets use the present participle to attach a living, concurrent detail to the main action:
-   *ἦλθε **φέρων** δῶρα.* — "He came bringing gifts" — a pattern you will meet constantly in epic.
+5. **A concurrent detail** — the present participle attaches a second, simultaneous action to the main verb:
+   *ἦλθε **φέρων** δῶρα.* — "He came bringing gifts." This is ordinary Greek, as common in prose as in verse, and one of the things the participle does most often.
 
 ---
 
@@ -129,10 +129,9 @@ The basic pattern:
 | Aspect | Detail |
 |--------|--------|
 | **The suffix** | The present active participle is built with ‑οντ‑, the thematic vowel plus the participial ‑ντ‑. |
-| **Greek sound change** | The masculine ‑ων comes from the stem ‑οντ‑ (nominative without final τ); the feminine ‑ουσα from *‑ont‑ya. |
+| **Greek sound change** | The masculine ‑ων is a nominative formed **without ς** (like the noun γέρων), on a stem that was originally ‑ωντ‑; the neuter ‑ον is the stem with its final τ dropped; the feminine ‑ουσα is from λυοντ‑ι̯α. |
 | **Early Greek** | Attested and fully productive from Homer onwards: *ἄγων* "leading." |
 | **Classical period** | The participle becomes a pillar of Greek syntax; classical prose is unwritable without it. |
-| **Later Greek** | The form survives in Koine and Byzantine Greek, but the adverbial use gradually yields to finite clauses. |
 | **Origin of the term** | The Greek term is **μετοχή** "a sharing, participation" — the participle shares in the nature of both verb and noun. |
 
 ---
@@ -147,7 +146,7 @@ The basic pattern:
 | **Agreement** | With its noun in gender, number, and case |
 | **Common uses** | Attributive adjective, adverbial clause, genitive absolute, substantivized with the article |
 | **Irregulars** | εἰμί → ὤν, οὖσα, ὄν; contract verbs contract before the suffix |
-| **Historical note** | A direct continuation of Indo-European *‑ont‑*; attested from Homer onwards |
+| **Historical note** | Attested and fully productive from Homer onwards |
 
 ---
 
@@ -155,4 +154,4 @@ The basic pattern:
 
 ---
 
-**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the syntax of the participle at §§2039–2148.
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§12.1–12.56, with the declension of the participle at §§5.15–5.18 and its syntax at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§497–531 (formation) and §§627–641 (inflection), with the declension of participles at §§301–310 and the syntax of the participle at §§2039–2148.

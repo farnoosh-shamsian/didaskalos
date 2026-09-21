@@ -54,7 +54,7 @@ The route from one to the other runs through a step that is easy to miss. Long �
 
 The Attic -ου is not an inherited first-declension ending at all — it is borrowed outright from the second declension (λόγου), a masculine noun helping itself to the masculine ending of the other pattern.
 
-**Nominatives in -ᾰ with no -ς.** Epic keeps a nominative with no -ς whatever, chiefly in formulaic titles: ἱππότα Νέστωρ "Nestor the horseman", νεφεληγερέτα Ζεύς "cloud-gathering Zeus", μητίετα Ζεύς. It looks like a vocative doing a subject's work, and historically that may be exactly what it is. Attic has nothing of the kind — but this is not a poet's licence either: the ς-less nominative was ordinary usage in Boeotian and in parts of Northwest Greece, which is where the inscriptions show it living on.
+**Nominatives in -ᾰ with no -ς.** Epic keeps a nominative with no -ς whatever, chiefly in formulaic titles: ἱππότα Νέστωρ "Nestor the horseman", νεφεληγερέτα Ζεύς "cloud-gathering Zeus", μητίετα Ζεύς. It looks like a vocative doing a subject's work, and historically that may be exactly what it is. Attic has nothing of the kind — but this is not a poet's licence either: the ς-less nominative is attested in Boeotian and in a few places in Northwest Greece, which is where the inscriptions show it living on.
 
 **The α/η split applies here too.** Where Attic has -ᾱς after ε, ι or ρ, Ionic and Homer prefer -ης: Herodotus writes νεηνίης for Attic νεανίας.
 

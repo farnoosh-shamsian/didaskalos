@@ -74,10 +74,10 @@ The final vowel of the stem merges with the ending. There are three sub-types:
 
 | Verb | 1st sg. | Conjugation (selected) | Note |
 |------|---------|------------------------|------|
-| **εἰμί** "to be" | **εἰμί** | εἰμί, εἶ, ἐστί(ν), ἐσμέν, ἐστέ, εἰσί(ν) | Suppletive stem and irregular forms; most of its forms are enclitic. |
+| **εἰμί** "to be" | **εἰμί** | εἰμί, εἶ, ἐστί(ν), ἐσμέν, ἐστέ, εἰσί(ν) | Athematic: every form goes back to one root ἐσ-, obscured by sound change. Most of its forms are enclitic. |
 | **ἔχω** "to have" | **ἔχω** | ἔχω, ἔχεις, ἔχει, ἔχομεν, ἔχετε, ἔχουσι(ν) | The endings are perfectly regular. |
 | **ὁράω** "to see" (α‑contract) | **ὁρῶ** | ὁρῶ, ὁρᾷς, ὁρᾷ, ὁρῶμεν, ὁρᾶτε, ὁρῶσι(ν) | A contract verb; the long ω results from α + ω. |
-| **ἔρχομαι** "to come" | — | — | Middle-only (deponent); treated in the middle lessons. |
+| **ἔρχομαι** "to come" | — | — | Middle in the present system (deponent); its aorist ἦλθον and perfect ἐλήλυθα are active. |
 
 ---
 
@@ -107,8 +107,8 @@ The final vowel of the stem merges with the ending. There are three sub-types:
 
 ## 6. Historical Development
 
-- The thematic conjugation, with its linking vowel ε/ο, is the oldest productive pattern of the Greek verb.
-- The **contract verbs** are not a separate conjugation but ordinary thematic verbs whose stems happened to end in a vowel; the contractions are a regular Attic sound change, and Homeric Greek often preserves the uncontracted forms (*ὁράω* beside Attic *ὁρῶ*).
+- The thematic conjugation, with its linking vowel ε/ο, is the productive pattern of the Greek verb.
+- The **contract verbs** are not a separate conjugation but ordinary thematic verbs whose stems happened to end in a vowel; the contractions are a regular Attic sound change, and Homeric Greek often preserves the uncontracted forms (*φιλέει*, *καλέει* beside Attic *φιλεῖ*, *καλεῖ*).
 - Contraction is only one of the answers Greek gave to those vowel-final stems. In Lesbian, Thessalian and Arcado-Cyprian the ε- and α-contract verbs were pulled the other way, into the athematic conjugation, and inflected as μι-verbs: Sappho writes *κάλημι* "I call" where Attic has *καλῶ*. Grammarians call this the **Aeolic inflection**. So the neat "contract verbs are just thematic verbs" applies to the dialect this book teaches, not to Greek at large.
 - The ω‑verb pattern proved remarkably stable, and in later Greek the older μι‑verbs gradually migrated into it.
 

@@ -56,7 +56,7 @@ The two-ending types use the same -τερος / -τατος endings as ἀγαθ
 
 The ‑εσ‑ of ἀληθέστερος is the stem's own sigma (ἀληθεσ- + -τερος). σώφρων has no sigma to contribute, but borrows the pattern anyway and builds on σωφρον-, which is why the ν-stems too end up with ‑εστερος.
 
-The irregulars use the older **-ίων / -ιστος** comparison instead, built on a bare root:
+The irregulars use the **-ίων / -ιστος** comparison instead, added straight to the **root** of the positive rather than to its stem:
 
 | Positive | Comparative | Superlative |
 |---|---|---|
@@ -68,13 +68,13 @@ The irregulars use the older **-ίων / -ιστος** comparison instead, built
 
 Note the split that gives this lesson its shape: **the comparatives are two-ending third declension** adjectives, declined like σώφρων with the short forms shown in the section above (μείζω, μείζους), while **the superlatives are ordinary first/second declension** — μέγιστος, μεγίστη, μέγιστον. One system, two declensions.
 
-The standard of comparison behaves exactly as with ἀγαθός: genitive, or ἤ with the same case — μείζων τοῦ ἀδελφοῦ / μείζων ἢ ὁ ἀδελφός. Note also πλέον ἢ before a numeral, "more than": πλέον ἢ δέκα.
+The standard of comparison behaves exactly as with ἀγαθός: genitive, or ἤ with the same case — μείζων τοῦ ἀδελφοῦ / μείζων ἢ ὁ ἀδελφός. Note also that with numerals ἤ may simply be left out, and that πλέον and ἔλαττον do not change to match what follows: πέμπει οὐκ ἔλαττον δέκα "he sends not less than ten", πόλις πλέον πεντακισχιλίων ἀνδρῶν "a city of more than five thousand men".
 
 ## Points to watch
 
 - For -ης adjectives, m./f. accusative singular -ῆ and neuter plural -ῆ look identical — the noun's gender/number decides.
 - οἱ πολλοί "the many, the majority" and τὸ πολύ "the greater part" are fixed expressions.
-- Only four forms each of μέγας and πολύς are irregular (nom./acc. m. and n. sg., bolded above); everything else is plain ἀγαθός-style.
+- Only three forms each of μέγας and πολύς are irregular — μέγας, μέγαν, μέγα and πολύς, πολύν, πολύ — filling the four bolded cells above, since the neuter nominative and accusative are the same word. Everything else is plain ἀγαθός-style.
 
 ## Historical Development
 
@@ -88,11 +88,11 @@ The standard of comparison behaves exactly as with ἀγαθός: genitive, or �
 | Genitive masc. | πολέος | πολλοῦ |
 | Neuter | πουλύ, πολλόν | πολύ |
 
-Greek inherited two stems for "much" — a πολυ‑ stem and a πολλο‑ stem — and never fully chose between them. Attic settled on a compromise, taking the nominative and accusative singular from one (πολύς, πολύν) and everything else from the other (πολλοῦ, πολλῷ, πολλοί). Homer simply uses both stems throughout. Once you know this, the Attic paradigm looks less like a mistake and more like a treaty.
+The two stems are not two separate words. Smyth derives πολλο‑ from πολυ‑ itself: πολυ̯ο‑ gave πολϝο‑, and λϝ was assimilated to λλ. Greek then had both shapes available and never fully chose between them. Attic settled on a compromise, taking the nominative and accusative singular from one (πολύς, πολύν) and everything else from the other (πολλοῦ, πολλῷ, πολλοί). Homer simply uses both throughout. Once you know this, the Attic paradigm looks less like a mistake and more like a treaty.
 
-**The ‑ων comparatives contract in Attic.** μείζων has both a longer and a shorter accusative: μείζονα and μείζω, μείζονας and μείζους. Attic prose uses the contracted forms freely; **Koine strongly prefers the full ones**. In Ionic the word itself has a different shape — Herodotus writes **μέζων** for Attic μείζων. This is part of a broader Koine tendency to keep the more transparent, fully spelled-out ending.
+**The ‑ων comparatives contract in Attic.** μείζων has both a longer and a shorter accusative: μείζονα and μείζω, μείζονας and μείζους. Attic prose uses the contracted forms freely — in the treebanks behind this book they outnumber the full ones several times over — while **Koine reverses the preference**: in the New Testament it is the full forms that are the commoner ones. In Ionic the word itself has a different shape — Herodotus writes **μέζων** for Attic μείζων.
 
-**In Koine** two-ending compound adjectives multiply, because compounding is one of the main ways Hellenistic Greek makes new words. The New Testament is full of them: ἄδικος, ἄπιστος, ἀκάθαρτος, αἰώνιος. All follow the pattern above, using one set of endings for both masculine and feminine.
+**In Koine** two-ending adjectives are everywhere. The New Testament is thick with the compounded kind, most of them formed with α‑privative — ἄδικος, ἄπιστος, ἀκάθαρτος — alongside uncompounded ones built with a suffix, such as αἰώνιος "eternal". All follow the pattern above, using one set of endings for both masculine and feminine.
 
 ## Examples
 
@@ -102,4 +102,4 @@ Greek inherited two stems for "much" — a πολυ‑ stem and a πολλο‑ 
 
 ---
 
-**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.26–5.30 (forms) and §§5.41–5.44 (comparison); and in Smyth's *A Greek Grammar for Colleges* (1920), §§288–290 (two endings), §311 (irregular) and §312 (one ending), with comparison at §§313–324.
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.26–5.30 (the two-ending forms) and §§5.13–5.14 (μέγας and πολύς), with comparison at §5.39 and §§5.41–5.44; and in Smyth's *A Greek Grammar for Colleges* (1920), §288 (two endings), §§292–293 (the σ-stem and ν-stem paradigms, and the comparatives in ‑ίων), §311 (μέγας and πολύς) and §312 (one ending), with comparison at §§313–324.

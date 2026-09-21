@@ -45,7 +45,7 @@ Two patterns divide this class, and the split is worth knowing because the secon
 
 | Positive | Comparative | Superlative |
 |---|---|---|
-| ταχύς "swift" | θάττων (Ionic θάσσων) | τάχιστος |
+| ταχύς "swift" | θάττων (also θάσσων) | τάχιστος |
 | ἡδύς "sweet, pleasant" | ἡδίων | ἥδιστος |
 
 These are vocabulary, not paradigms — θάττων must simply be recognized as the comparative of ταχύς.
@@ -68,17 +68,15 @@ The adverbs follow the adjective, as always: ταχέως, θᾶττον, τάχ
 
 These adjectives inherit the dialect features of the third-declension nouns, and for the same reason: their stems end in a vowel or a consonant that reacts to the ending attached to it.
 
-**Contraction is the dividing line.** Where Attic runs two vowels together, Homer and Herodotus keep them apart — so the Ionic form is regularly a syllable longer. Attic is the outlier here rather than Ionic the survivor: no other Greek dialect contracts these vowels either.
+**Contraction is the dividing line.** Where Attic runs two vowels together, Homer and Herodotus keep them apart — so the Ionic form is regularly a syllable longer.
 
 | | Homer / Ionic | Attic |
 |---|---|---|
 | ἡδύς dat. sg. | ἡδέϊ | ἡδεῖ |
-| ἡδύς neut. pl. | ἡδέα | ἡδέα (also contracted in places) |
-| εὐρύς acc. sg. | εὐρέα | εὐρύν |
 
 **The ‑εσσι dative plural.** As with the nouns, epic has a second dative plural in **‑εσσι(ν)**: πάντεσσι for πᾶσι. In Homer it is used freely wherever the metre prefers the extra syllable.
 
-**In Koine** the type is stable and heavily used. πᾶς is one of the most frequent words in the New Testament, and the ‑ής / ‑ές adjectives (ἀληθής "true", ἀσθενής "weak", πλήρης "full") remain fully productive. One small Koine habit to note: πλήρης is sometimes left **undeclined** in the New Testament, standing in the nominative form regardless of the case it should agree in — an early sign of the third declension loosening.
+**In Koine** the type is stable and heavily used. πᾶς is one of the most frequent words in the New Testament.
 
 ## Examples
 

@@ -39,7 +39,7 @@ This class matters far beyond πόλις itself: the enormously productive abstr
 
 ## Historical Development
 
-The Attic genitive singular **-εως** of πόλις is one of the strangest endings in the language — the accent sits on a short vowel three syllables from the end, which no ordinary Greek word does. The dialects show why: **Attic got there by an exchange of vowel lengths, and the other dialects did not make the exchange.**
+The Attic genitive singular **-εως** of πόλις is one of the strangest endings in the language — the accent sits on a short vowel three syllables from the end, which no ordinary Greek word does. The dialects show why: **Attic got there by an exchange of vowel lengths that no other dialect made in this noun class.**
 
 | | Homer | Ionic (Herodotus) | Attic |
 |---|---|---|---|
@@ -52,7 +52,7 @@ The Attic ending is not an irregularity to be memorized blindly but the last sta
 
 **βασιλῆος** and its relatives (νηῦς / νηός "ship", βασιλῆι, βασιλῆας) are everywhere in Homer, and since ‑ευς nouns are mostly titles and occupations — βασιλεύς, ἱερεύς, γραμματεύς, ἁλιεύς — you meet them constantly in epic and again in the New Testament.
 
-**In Koine** the Attic forms are standard: πόλεως, βασιλέως, ἀρχιερέως. The ‑ευς type remains productive for agent nouns, and πόλις, πίστις, κρίσις, ἀνάστασις and other ‑σις abstracts are among the most frequent nouns in the New Testament — the ‑σις suffix being the standard Greek way of naming an action.
+**In Koine** the Attic forms are standard: πόλεως, βασιλέως, ἀρχιερέως. The ‑ευς type remains productive for agent nouns, and πόλις and πίστις are among the most frequent nouns in the New Testament — the ‑σις suffix being the standard Greek way of naming an action.
 
 ## Examples
 

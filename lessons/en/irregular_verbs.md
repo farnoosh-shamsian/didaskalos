@@ -12,7 +12,7 @@ There is no "irregular conjugation" to learn. What follows is three families of 
 | Family | Members | Why they stand apart |
 | --- | --- | --- |
 | Suppletive aorists | εἶπον, εἶδον, ἦλθον, ἤνεγκον | The aorist is built on a different root from the present |
-| Perfects with present meaning | οἶδα, ἔοικα, ἄνωγα, μέμαα | Perfect in form, present in force |
+| Perfects with present meaning | οἶδα, ἔοικα, ἄνωγα, μέμονα | Perfect in form, present in force |
 | Impersonals | δεῖ, χρή, ἔξεστι | Third person singular only; no personal subject |
 
 ---
@@ -29,7 +29,7 @@ Some verbs supply their aorist from an entirely different root. This is called *
 | φέρω "carry" | **ἤνεγκον / ἤνεγκα** | "I carried" |
 | ἐσθίω "eat" | **ἔφαγον** | "I ate" |
 
-These aorists take the **thematic aorist (thematic) endings** — the same endings as the imperfect. What marks them as aorist is the *stem*, not the ending:
+These aorists take the **thematic aorist endings** — the same endings as the imperfect. What marks them as aorist is the *stem*, not the ending:
 
 | Person | εἶπον "I said" | εἶδον "I saw" |
 | --- | --- | --- |
@@ -63,7 +63,7 @@ A few verbs are perfect in form but present in meaning: to *have seen* is to kno
 
 Infinitive **εἰδέναι**, participle **εἰδώς, εἰδυῖα, εἰδός**, past (pluperfect in form) **ᾔδη / ᾔδειν** "I knew", future **εἴσομαι** "I shall know".
 
-The others work the same way: **ἔοικα** "I seem, I resemble" (+ dative), **σύνοιδα** "I share knowledge, I am conscious" (+ dative), and in epic and tragedy **ἄνωγα** "I command" (3 sg ἀνώγει) and **μέμαα** "I am eager".
+The others work the same way: **ἔοικα** "I seem, I resemble" (+ dative), **σύνοιδα** "I share knowledge, I am conscious" (+ dative), and in epic and tragedy **ἄνωγα** "I command" (3 sg ἄνωγε) and **μέμονα** "I am eager".
 
 ---
 
@@ -85,7 +85,7 @@ Their small sets of forms:
 | χρή | χρή | χρῆν / ἐχρῆν | χρῆσται (rare) | χρῆναι |
 | ἔξεστι | ἔξεστι(ν) | ἐξῆν | ἐξέσται | ἐξεῖναι |
 
-> **Nuance:** δεῖ and χρή both mean "it is necessary", but χρή leans toward *moral obligation* ("one ought"), δεῖ toward *practical necessity* ("it is needful"). δεῖ + genitive means "there is need of": δεῖ χρημάτων "money is needed".
+> **Note:** δεῖ + genitive means "there is need of": δεῖ χρημάτων "money is needed".
 
 Also common: **εἰκός (ἐστι)** "it is likely", **δοκεῖ** "it seems (good)", **μέλει** "it is a concern" (+ dative).
 
@@ -125,7 +125,7 @@ There is a reason the irregular verbs are also the commonest ones. **Frequency p
 
 **Homer has even more variety.** Epic preserves alternative forms that Attic dropped: **ἔμμεναι, ἔμεν, ἔμμεν** beside εἶναι; **ἴδμεν** for ἴσμεν "we know"; **ἔσσομαι** for ἔσομαι. Since these are the highest-frequency verbs in the language, an unfamiliar epic form here will block a sentence more often than an unfamiliar noun would — they are worth meeting early if you are reading Homer.
 
-Those εἶναι variants are not random poetic noise; each is somebody's ordinary infinitive. Greek had three endings for the athematic infinitive and the dialects divided between them:
+Those εἶναι variants are not random poetic noise; each is somebody's ordinary infinitive. Greek had three main endings for the athematic infinitive and the dialects divided between them:
 
 | Ending | Where it belongs | "to be" |
 |---|---|---|
@@ -140,7 +140,7 @@ So the -ναι you learned is the Attic-Ionic option rather than the Greek one, 
 | Classical | Koine / NT |
 |---|---|
 | εἶπον, εἶπες (εἶπα rare) | **εἶπα, εἶπας** |
-| ἦλθον, ἤλθετε | **ἦλθα, ἤλθατε** |
+| ἦλθον, ἤλθετε | **ἦλθαν, ἤλθατε** |
 | εἶδον | **εἶδα** (occasionally) |
 
 Both forms coexist in the New Testament, often within a few verses. This is not corruption; it is the regular pattern winning, one verb at a time.

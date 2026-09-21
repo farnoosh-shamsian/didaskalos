@@ -97,7 +97,7 @@ The secondary endings with the thematic vowel (ο before μ/ν, otherwise ε):
 ## 6. Usage & Context
 
 1. **Background past** — the imperfect builds the setting of a story, while the aorist reports the specific event: *ἔλυον* "I was loosening" (background) vs. *ἔλυσα* "I loosed" (event).
-2. **Repeated / habitual action** — *ἔλυον τὰς θύρας ἑκάστην ἡμέραν* "I used to open the doors every day."
+2. **Repeated / habitual action** — *ἔλυον τὰς θύρας ἑκάστην ἡμέραν* "I used to unbar the doors every day."
 3. **Conative imperfect** — an unfinished attempt: *ἔπειθον αὐτόν* "I was trying to persuade him (but…)."
 4. **Contrast with other tenses** — imperfect (in progress) / aorist (single event) / perfect (completed with abiding result): ἔλυον / ἔλυσα / λέλυκα.
 
@@ -107,7 +107,7 @@ The secondary endings with the thematic vowel (ο before μ/ν, otherwise ε):
 
 - The imperfect = **augment + present stem + secondary endings**.
 - The **augment** was originally a separate past-marking particle that became part of the verb.
-- The **secondary endings** (‑ν, ‑ς, ‑∅, …) are shortened variants of the primary endings and recur in all past indicatives.
+- The **secondary endings** (‑ν, ‑ς, ‑∅, …) are shorter than the primary endings and recur in all past indicatives.
 
 ---
 

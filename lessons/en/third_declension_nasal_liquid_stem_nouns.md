@@ -48,9 +48,9 @@ The kinship terms in this group — πατήρ, μήτηρ, θυγάτηρ, ἀ�
 | Dative plural | ἀνδράσι; also **-εσσι** (ἄνδρεσσι) | πατράσι(ν), ἀνδράσι(ν) |
 | ἀνήρ, stem | ἀνέρ- / ἀνδρ- | ἀνδρ- |
 
-The dative plurals πατράσι and ἀνδράσι, with their unexpected α, are themselves survivals: the α is what became of a syllabic consonant far back in the prehistory of the language, and every dialect inherited the same odd result.
+The dative plurals πατράσι and ἀνδράσι, with their unexpected α, are themselves survivals: the α is what became of a syllabic consonant far back in the prehistory of the language.
 
-**In Koine** the paradigm is the Attic one and entirely stable. These are high-frequency words in every period — πατήρ and ἀνήρ are among the commonest nouns in the New Testament — so the irregularities are worth learning once and thoroughly, whatever corpus you are reading. The nouns in **-τηρ / -τωρ** naming an agent (σωτήρ "saviour", ῥήτωρ "orator", ἡγεμών "leader") also stay productive throughout.
+**In Koine** the paradigm is the Attic one and entirely stable. These are high-frequency words in every period — πατήρ and ἀνήρ are among the commonest nouns in the New Testament — so the irregularities are worth learning once and thoroughly, whatever corpus you are reading. The nouns in **-τηρ / -τωρ** naming an agent (σωτήρ "saviour", ῥήτωρ "orator") also stay productive throughout.
 
 ## Examples
 

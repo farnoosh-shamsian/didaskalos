@@ -63,7 +63,7 @@ A neuter stem has no -ς in the nominative at all. It would end in the bare stem
 - The neuter rule from the second declension holds here too: nominative = accusative = vocative, and the plural of all three is -α (σώματα).
 - **νύξ looks like a velar stem and is not.** The stem is νυκτ-; in the nominative the κτ meets ς and is written ξ, but the genitive νυκτός shows the dental, and the dative plural is νυξί(ν).
 - Some dental stems take -ν in the accusative singular instead of -α: χάριν from χάρις, ἔριν from ἔρις.
-- Monosyllabic stems accent the ending in the genitive and dative: νυκτός, νυκτί, νυκτῶν, νυξί(ν); ποδός, ποδί, ποσί(ν). παῖς follows this in the singular (παιδός, παιδί) but keeps παίδων in the genitive plural.
+- Monosyllabic stems accent the ending in the genitive and dative of all numbers: νυκτός, νυκτί, νυκτῶν, νυξί(ν); ποδός, ποδί, ποσί(ν). παῖς is an exception only in the genitive plural: παίδων, beside παιδός, παιδί and παισί(ν).
 - The vocative singular of the feminines in -ις is the bare stem without its dental: ἐλπί, πατρί.
 
 ## Historical Development
@@ -80,8 +80,6 @@ The advantage to a poet is obvious: -εσσι adds a syllable and sidesteps the 
 Two footnotes to that. The ending is characteristic of the Aeolic dialects — Lesbian, Thessalian, Boeotian — but not confined to them: the inscriptions show it in early Delphian, East Locrian, Elean and in several Corinthian colonies too. And it was not invented for poetry. It began as the σ-stem dative (γένεσσι, where the ε belongs to the stem) spreading by analogy to consonant stems where it had no business being. The poets found it convenient; they did not make it.
 
 **The -μα, -ματος class expands enormously in Koine.** Neuter dental stems were always numerous, but in Hellenistic Greek they became the standard way to coin a noun meaning "the result of doing X", and the New Testament vocabulary is full of them: **πνεῦμα** "spirit", **ῥῆμα** "word", **θέλημα** "will", **βάπτισμα** "baptism", **χάρισμα** "gift", **κρίμα** "judgement", **αἷμα** "blood", beside ὄνομα and σῶμα. If you are reading Koine, no other noun pattern repays the effort as quickly.
-
-**In Koine** the declension is otherwise conservative, though the pressure that eventually dissolved it is already visible: a few third declension nouns begin to pick up first declension endings, a drift that only finishes long after our period.
 
 ## Examples
 

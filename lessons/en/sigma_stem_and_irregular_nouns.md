@@ -1,6 +1,6 @@
 # Sigma-Stem, ‑ευς, and Irregular Nouns
 
-This lesson gathers the third declension types whose stems are not plain consonants. Two of them are frequent and regular once you see the pattern — sigma-stem neuters (γένος) and nouns in -ευς (βασιλεύς) — plus a handful of genuinely irregular but indispensable words (ναῦς, Ζεύς, βοῦς).
+This lesson gathers the third declension types whose stems end in a sound that drops out between vowels — the σ of γένος, the υ/ϝ of βασιλεύς — so that the endings you see are contractions rather than the stem plus a plain ending. Two of them are frequent and regular once you see the pattern — sigma-stem neuters (γένος) and nouns in -ευς (βασιλεύς) — plus a handful of genuinely irregular but indispensable words (ναῦς, Ζεύς, βοῦς).
 
 ## Sigma-stem neuters in -ος
 
@@ -18,7 +18,7 @@ Frequent members: ἔθνος "nation", ἔπος "word", ἔτος "year", μέ
 
 ## Nouns in -ευς
 
-Masculine nouns in -ευς name roles and professions: βασιλεύς "king", ἱερεύς "priest", ἱππεύς "horseman".
+Masculine nouns in -ευς name people. Many are roles and occupations — βασιλεύς "king", ἱερεύς "priest", ἱππεύς "horseman", φονεύς "murderer" — but the class also takes in γονεύς "parent", names for where someone is from (Πλαταιεύς "a Plataean", Εὐβοεύς "a Euboean"), and a great many personal names (Ἀτρεύς, Τυδεύς, Ὀδυσσεύς).
 
 | Case | Singular | Plural |
 |---|---|---|
@@ -46,7 +46,7 @@ Masculine nouns in -ευς name roles and professions: βασιλεύς "king", 
 
 - **γένους ≠ λόγου.** Whenever a neuter dictionary entry reads -ος, -ους, it is this class, not the second declension.
 - The nom./acc. plural γένη comes from contraction (γένεσ-α → γένεα → γένη); Ionic and poetry often keep the uncontracted forms (γένεα).
-- ναῦς and Ζεύς are among the most frequent irregular nouns in epic and historiography; they repay memorization as whole paradigms.
+- ναῦς and Ζεύς will not yield to a rule; learn them as whole paradigms.
 
 ## Historical Development
 
@@ -63,7 +63,7 @@ The σ of the stem drops between vowels; the vowels left touching then contract 
 
 It is worth saying plainly which side is the odd one out. **Every dialect except Attic leaves these vowels uncontracted** — this is not a peculiarity of epic and Ionic but the ordinary Greek state of affairs, and the contracted paradigm you have just learned is an Athenian development.
 
-The same applies to the ‑ης names: Homer and Ionic have Σωκράτεος-type genitives against Attic Σωκράτους.
+The same applies to the ‑ης names: the uncontracted Σωκράτεος-type genitive is what the other dialects have, against Attic Σωκράτους — Buck points out that Attic ‑κλέους is the outlier where most dialects keep ‑κλέος. Homer uses the open and the contracted forms as the verse requires.
 
 **ναῦς and Ζεύς across the dialects.** The two great irregulars are irregular differently in different places:
 
@@ -73,7 +73,7 @@ The same applies to the ‑ης names: Homer and Ionic have Σωκράτεος-t
 | "Zeus" acc. | **Ζῆν(α)** beside Δία | Δία |
 | "Zeus" gen. | **Ζηνός** beside Διός | Διός |
 
-Homeric Ζῆνα and Ζηνός are built on a different form of the name than Attic Δία and Διός; Greek simply kept two versions of it. Smyth calls the Ζην‑ forms Ionic and poetic.
+Both sets go back to a single stem: Smyth derives Ζεύς from Διευς, and Διός, Διί, Δία from Διϝ‑ — the same root, in a different grade. He labels the Ζην‑ forms Ionic and poetic.
 
 **In Koine** the contracted Attic forms are standard, and the sigma-stem type remains productive — γένος, ἔθνος, τέλος, σκεῦος, ὄρος, πλῆθος are all common in the New Testament. ναῦς, however, largely gives way to the ordinary second-declension **πλοῖον** "boat", which is what the Gospels use.
 
@@ -85,4 +85,4 @@ Homeric Ζῆνα and Ζηνός are built on a different form of the name than 
 
 ---
 
-**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.65–4.71 (sigma stems), §§4.84–4.85 (-ευς) and §§4.86–4.88 (ἡ ναῦς, ὃ Ζεύς, ὁ βοῦς); and in Smyth's *A Greek Grammar for Colleges* (1920), §§263–266 (sigma stems), §§275–278 (stems in ευ, αυ, ου) and §§281–285 (irregular declension).
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§4.65–4.71 (sigma stems), §§4.84–4.85 (-ευς) and §§4.86–4.88 (ἡ ναῦς, ὁ Ζεύς, ὁ βοῦς); and in Smyth's *A Greek Grammar for Colleges* (1920), §§263–266 (sigma stems), §§275–278 (stems in ευ, αυ, ου) and §§281–285 (irregular declension).

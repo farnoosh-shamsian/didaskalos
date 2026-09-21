@@ -33,7 +33,7 @@ The present active infinitive is built from the **present stem** + **‑ειν**
 | παιδεύω "I educate" | παιδευ‑ | παιδεύειν |
 | ἀκούω "I hear" | ἀκου‑ | ἀκούειν |
 
-*Note*: the accent of ‑ειν infinitives falls on the penult: λύειν, γράφειν, παιδεύειν.
+*Note*: infinitives are verbal nouns and do not take the verb's recessive accent as a matter of course. The **present** active infinitive in ‑ειν is accented on the penult: λύειν, γράφειν, παιδεύειν. Do not extend that to every ‑ειν infinitive — the second aorist active is perispomenon: λιπεῖν, λαβεῖν, εὑρεῖν.
 
 ---
 
@@ -48,11 +48,13 @@ In contract verbs the vowel at the end of the stem (α, ε, ο) "contracts" with
 | **ο‑contract** | ‑ο | ‑οῦν | δηλόω "I make clear" | δηλοῦν |
 
 **Why the different endings?**
-The stem vowel merges with the vowel of the infinitive ending:
+The ending is really **‑εν**, not ‑ειν: λύειν, τιμᾶν, ποιεῖν go back to **λύε‑εν, τιμάε‑εν, ποιέ‑εν**. So what the stem vowel merges with is a plain ε:
 
-* α + ει → ᾱ (written ‑ᾶν)
-* ε + ει → ει (written ‑εῖν)
-* ο + ει → ου (written ‑οῦν)
+* α + ε → ᾱ (written ‑ᾶν): τιμάε‑εν → τιμᾶν
+* ε + ε → ει (written ‑εῖν): ποιέ‑εν → ποιεῖν
+* ο + ε → ου (written ‑οῦν): δηλόε‑εν → δηλοῦν
+
+This is why τιμᾶν has no iota subscript. Had a real ει been involved, α + ει would have given ᾳ — as it does in the third person singular, τιμάει → τιμᾷ.
 
 ---
 
@@ -62,10 +64,11 @@ The stem vowel merges with the vowel of the infinitive ending:
 |---------------|---------------------------|---------------------------|
 | 1st sg. | λύω | — |
 | 2nd sg. | λύεις | — |
-| 3rd sg. | λύει | λύειν (one form for all persons) |
+| 3rd sg. | λύει | — |
 | 1st pl. | λύομεν | — |
 | 2nd pl. | λύετε | — |
 | 3rd pl. | λύουσι(ν) | — |
+| *(no person)* | — | **λύειν** |
 
 The infinitive is the same for every person; it is listed only once.
 
@@ -76,11 +79,11 @@ The infinitive is the same for every person; it is listed only once.
 | Rule | Explanation | Example |
 |------|-------------|---------|
 | **1. Use the present stem** | The infinitive is formed from the same stem that appears in the present indicative (λυ‑, γραφ‑, τιμα‑, …). | λύειν from λυ‑ |
-| **2. Accent placement** | ‑ειν infinitives are accented on the penult; contract infinitives take a circumflex on the contracted syllable. | λύειν; τιμᾶν, ποιεῖν |
+| **2. Accent placement** | The present active infinitive in ‑ειν is accented on the penult; the contract infinitives are perispomenon, taking the circumflex on the last syllable. | λύειν; τιμᾶν, ποιεῖν |
 | **3. Contract verbs** | Contract the stem vowel with ‑ειν → ‑ᾶν, ‑εῖν, ‑οῦν. | τιμᾶν, ποιεῖν, δηλοῦν |
 | **4. Irregular infinitives** | A few very common verbs are irregular: *εἰμί* "to be" → **εἶναι**; the ‑μι verbs form the infinitive with ‑ναι (διδόναι, τιθέναι). | εἰμί → εἶναι |
 | **5. Deponent verbs** | Verbs with only middle forms in the present have no present *active* infinitive; theirs is middle: *ἔρχομαι* → ἔρχεσθαι. | — |
-| **6. Uncontracted dialect forms** | Ionic preserves uncontracted forms; the classical Attic form is the contracted one. | — |
+| **6. Uncontracted dialect forms** | Ionic often leaves the ε‑contract infinitive uncontracted: Herodotus writes ποιέειν where Attic has ποιεῖν. | ποιέειν / ποιεῖν |
 
 ---
 
@@ -106,13 +109,14 @@ Notice that the infinitive can function as the **subject**, **object**, or **com
 2. **Object of a verb** — many verbs of wishing, commanding, and being able take an infinitive complement:
    *βούλομαι λύειν τὸν δεσμώτην.* — "I want to free the prisoner."
 
-3. **With impersonal verbs** — δεῖ and χρή "it is necessary" always take the infinitive:
+3. **With impersonal verbs** — δεῖ and χρή "it is necessary" regularly take the infinitive:
    *δεῖ λύειν τὸν δεσμώτην.* — "The prisoner must be freed."
+   δεῖ has a second construction as well, with a genitive of the thing needed: *οὐ πόνου πολλοῦ με δεῖ* — "I have need of no great toil."
 
 4. **Articular infinitive** — τό turns the infinitive into a full noun, which can even follow a preposition:
    *πρὸς τὸ λύειν τὸν δεσμώτην ἦλθεν.* — "He came in order to free the prisoner."
 
-5. **Verse and prose** — in epic poetry the infinitive sometimes stands in place of an imperative; in prose it is the ordinary way to express "to do …".
+5. **Verse and prose** — the infinitive can stand in place of an imperative. It is commoner in poetry than in prose, where it carries a solemn or formal force and turns up especially in the language of laws and treaties.
 
 ---
 
@@ -120,10 +124,9 @@ Notice that the infinitive can function as the **subject**, **object**, or **com
 
 | Period | Development |
 |--------|-------------|
-| **Origins** | Greek built its infinitives out of verbal nouns; ‑ειν is usually derived from a formation *‑ε‑(σ)εν. |
-| **Mycenaean Greek** | Infinitive forms are already attested on the Linear B tablets (e.g. *e‑ke‑e* = /hekhehen/ "to have"). |
-| **Classical Attic** | The three contract patterns (‑ᾶν, ‑εῖν, ‑οῦν) become regularized; uncontracted ‑ειν dominates for regular verbs. |
-| **Koine & Byzantine** | The infinitive gradually gives way to finite clauses. |
+| **Origins** | Greek built its infinitives out of old case forms of verbal nouns — those in ‑αι are datives, the rest locatives. The present active ending is ‑εν, added to the thematic vowel: λύε‑εν → λύειν. |
+| **Classical Attic** | The three contract patterns (‑ᾶν, ‑εῖν, ‑οῦν) are fully regular, and ‑ειν is the ordinary ending of every non-contract verb. |
+| **Koine & Byzantine** | The infinitive slowly loses ground to finite clauses — earliest and most clearly in reported speech, where ὅτι takes over, and later after verbs of wanting and commanding, where ἵνα does. |
 
 ---
 

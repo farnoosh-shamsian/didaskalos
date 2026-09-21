@@ -62,9 +62,9 @@ Every entry has the same four parts: the tag and title, a short description, rea
 | Section | Entries | What it answers |
 |---|---|---|
 | Nominative | 4 | Subject and predicate; the nominative standing outside the construction of its sentence; the nominative used in place of a vocative. |
-| Genitive | 17 | The largest section, because the genitive does the most jobs: possessor, part of a whole, quality, material, measure, value, subjective and objective, separation and source, comparison, time, place, cause, reference, the genitive absolute, and the verbs that take a genitive complement. |
-| Dative | 14 | The three older cases Greek folded into one — the dative proper (complement, possessor, advantage, feeling), the instrumental (instrument, means and manner, agent, accompaniment, measure of difference, cause) and the locative (place, time). |
-| Accusative | 11 | Direct object, cognate accusative, extent of space and time, respect, direction, adverbial use, oaths, double accusative, and the accusative subject of an infinitive or participle. |
+| Genitive | 17 | The largest section, because the genitive does the most jobs: possessor, part of a whole, quality, explanation, material, measure, value, subjective and objective, separation and source, comparison, time, place, cause, reference, the genitive absolute, and the verbs that take a genitive complement. |
+| Dative | 14 | The three older cases Greek folded into one — the dative proper (complement, possessor, advantage, feeling, experiencer, respect), the instrumental (instrument, means and manner, agent, accompaniment, measure of difference, cause) and the locative (place, time). |
+| Accusative | 11 | Direct object, cognate accusative, extent of space and time, respect, direction, cause or goal, adverbial use, oaths, double accusative, and the accusative subject of an infinitive or participle. |
 | Vocative | 1 | Direct address and exclamation. |
 | Present | 6 | Ongoing action, customary action, conative ("tries to"), historical present, resultative present, and the present outside the indicative. |
 | Imperfect | 6 | Continuance, customary action, conative, completed action, description of background circumstances, and consecutive action. |

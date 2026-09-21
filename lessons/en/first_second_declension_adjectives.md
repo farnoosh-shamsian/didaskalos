@@ -45,7 +45,7 @@ This class supplies the regular comparison endings for the whole language. Drop 
 | short | σοφός | σοφώτερος | σοφώτατος |
 | short | νέος | νεώτερος | νεώτατος |
 | short | ἄξιος | ἀξιώτερος | ἀξιώτατος |
-| long | μικρός (κρ) | μικρότερος | μικρότατος |
+| long | πικρός (κρ) | πικρότερος | πικρότατος |
 | long | δίκαιος (αι) | δικαιότερος | δικαιότατος |
 
 Both new forms are themselves ordinary first/second declension adjectives and decline exactly like ἀγαθός above. Note only that the comparative feminine has ‑ᾱ, because the stem ends in ρ: σοφωτέρα, σοφωτέρας — while the superlative feminine has ‑η: σοφωτάτη, σοφωτάτης.
@@ -65,7 +65,7 @@ The superlatives here are plain first/second declension, but the comparatives in
 **Using the degrees.**
 
 - The standard of comparison stands in the **genitive**, or after **ἤ** "than" in the same case as the thing compared: σοφώτερος τοῦ ἀδελφοῦ / σοφώτερος ἢ ὁ ἀδελφός "wiser than his brother".
-- A superlative takes a **partitive genitive**: σοφώτατος τῶν Ἑλλήνων "the wisest of the Greeks".
+- A superlative takes a **partitive genitive**: ὁ σοφώτατος τῶν Ἑλλήνων "the wisest of the Greeks". The article is what makes it mean "the wisest"; without it, σοφώτατος means "very wise".
 - With no standard expressed, the comparative often means "rather, too" and the superlative simply "very": νεώτερος "rather young", δεινότατος "very clever".
 - **ὡς** (or ὅτι) + superlative = "as ... as possible": ὡς σοφώτατος "as wise as can be".
 
@@ -79,9 +79,9 @@ The superlatives here are plain first/second declension, but the comparatives in
 
 Because this class borrows the first declension for its feminine and the second for its masculine and neuter, it inherits the dialect differences of both. Everything said in those two lessons applies here.
 
-**The feminine vowel is the main one.** Attic uses ‑ᾱ after ε, ι or ρ and ‑η elsewhere (ἀξία but ἀγαθή); **Ionic uses ‑η throughout**, so Herodotus writes ἀξίη, μικρή, νέη where Attic has ἀξία, μικρά, νέα. In the plural, Homer has the long feminine genitive ‑άων and the long datives ‑ῃσι and ‑οισι.
+**The feminine vowel is the main one.** Attic uses ‑ᾱ after ε, ι or ρ and ‑η elsewhere (ἀξία but ἀγαθή); **Ionic uses ‑η throughout**, so Herodotus writes ἀξίη, μικρή, νέη where Attic has ἀξία, μικρά, νέα. In the plural, Homer has the long feminine genitive ‑ά̄ων (less often ‑έων, which is the form Herodotus uses), and long dative plurals in both halves of the paradigm: ‑ῃσι in the feminine, ‑οισι in the masculine and neuter.
 
-**Contract adjectives are visibly younger in Attic.** The ‑οῦς / ‑ᾶ / ‑οῦν type is a contraction, and epic and Ionic preserve the originals:
+**Contract adjectives are visibly younger in Attic.** The ‑οῦς / ‑ῆ / ‑οῦν type — with ‑ᾶ instead of ‑ῆ in the feminine when ε, ι or ρ precedes, as in ἀργυροῦς, ἀργυρᾶ, ἀργυροῦν — is a contraction, and epic and Ionic preserve the originals:
 
 | | Homer / Ionic | Attic |
 |---|---|---|
@@ -91,16 +91,16 @@ Because this class borrows the first declension for its feminine and the second 
 
 Homer's χρύσεος is three syllables and Attic's χρυσοῦς is two; the Attic form is what happens when the ε and ο fall together. Seeing the pair side by side makes the contract paradigm much easier to hold on to.
 
-**Two endings instead of three.** Compound adjectives regularly use the masculine form for the feminine as well (ἡ ἄδικος πόλις "the unjust city"), and this is true at every period — but the habit spreads in Koine, where compounding is very productive.
+**Two endings instead of three.** Compound adjectives regularly use the masculine form for the feminine as well (ἡ ἄδικος πόλις "the unjust city"), and this is true at every period.
 
-**In Koine** the class is entirely stable and remains the default adjective pattern: ἀγαθός, καλός, πιστός, ἅγιος, δίκαιος are all ordinary first-and-second-declension adjectives.
+**In Koine** this is still the ordinary adjective pattern: ἀγαθός, καλός, πιστός, ἅγιος, δίκαιος are all ordinary first-and-second-declension adjectives.
 
 ## Examples
 
 - οἱ σοφοὶ ἄνθρωποι — "wise people"
 - τῆς δικαίας πόλεως — "of the just city" (feminine agreement with third-declension noun)
-- τὰ κακὰ κακῶς — "bad things (end) badly"
+- ὁ σοφώτατος τῶν Ἑλλήνων — "the wisest of the Greeks" (superlative + partitive genitive)
 
 ---
 
-**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.1–5.10 (forms) and §§5.31–5.44 (comparison); and in Smyth's *A Greek Grammar for Colleges* (1920), §§286–287 (forms) and §§313–324 (comparison).
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.1–5.10 (forms, including the contracted and two-ending types) and §§5.34–5.44 (comparison); and in Smyth's *A Greek Grammar for Colleges* (1920), §§286–287 (forms), §§288–290 (two endings and contraction) and §§313–324 (comparison).
