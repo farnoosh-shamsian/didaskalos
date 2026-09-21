@@ -125,13 +125,16 @@ The table below counts ὅτι-clauses only. ὡς is left out of it deliberatel
 
 ---
 
-## 7. What This Section Does Not Cover
+## 7. Four More Constructions
 
-Several constructions belong in a reference like this one but cannot be counted honestly from a treebank, and are listed here so that their absence from the tables is not read as absence from Greek.
+These four round out the section. They are described rather than counted: each turns on something a treebank tag does not record — the sense a word carries here, the direction a negative points, a case pulled out of position — so the tables above would count them wrong rather than not at all.
 
-- **ὡς-clauses**, for the reason given in §6.
-- **Indirect questions**, introduced by ὅστις, πότερον or εἰ after verbs of asking and knowing. They follow the rule in §3, taking the optative after a past tense. They are genuinely uncommon, and the interrogatives that introduce them are hard to tell apart from ordinary relatives.
-- **Fear clauses**, with μή "that" and μὴ οὐ "that not" after verbs of fearing — φοβοῦμαι μὴ ἔλθῃ, "I am afraid that he may come". The inverted negative is the thing to remember: μή introduces what you do not want to happen.
-- **Attraction of the relative**, where a relative pronoun takes the case of its antecedent instead of the case its own clause requires — ἀπὸ τῶν ἀγαθῶν ὧν ἔχομεν for ἃ ἔχομεν.
+**ὡς-clauses.** ὡς is the hardest-worked word in Greek prose. It introduces purpose, like ἵνα; comparison, "as"; time, "when"; cause, "since"; and exclamation, "how —!". With a superlative it means "as … as possible": ὡς τάχιστα, "as quickly as possible". It is also a preposition with the accusative, "to", used only of persons. Nothing in the shape of the clause separates these uses; only the sense of the passage does, which is why §6 leaves it out of the counts.
+
+**Indirect questions.** After verbs of asking and knowing, a question reported rather than quoted is introduced by ὅστις, ὁπότερος, εἰ ("whether"), or πότερον … ἤ ("whether … or"): ἠρώτησεν ὅστις εἴη, "he asked who he was". The mood follows §3 — the indicative of the direct question may shift to the optative after a past tense. The interrogatives that introduce them are the ὁ- and ὅ- series, which double as indefinite relatives, so the same word that asks a question here reports one there.
+
+**Fear clauses.** After verbs of fearing, μή introduces what you do not want to happen and μὴ οὐ what you do want and fear may not: φοβοῦμαι μὴ ἔλθῃ, "I am afraid he may come"; φοβοῦμαι μὴ οὐκ ἔλθῃ, "I am afraid he may not come". The negatives are the reverse of the English ones, and that is the whole of the difficulty. The verb is subjunctive after a primary tense and may be optative after a secondary one, by §3 again; a fear about something already the case takes the indicative instead.
+
+**Attraction of the relative.** A relative pronoun that its own clause would put in the accusative is often pulled into the case of its antecedent, usually genitive or dative: ἀπὸ τῶν ἀγαθῶν ὧν ἔχομεν for the expected ἃ ἔχομεν, "from the goods which we have". When a relative will not parse, this is the first thing to try — read it in the case its own clause requires and see whether the sentence resolves. The antecedent is sometimes dropped as well, leaving the attracted relative to stand alone.
 
 **Further reading.** These are treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§42.1–42.10 (indirect questions), §§43.1–43.8 (fear clauses) and §50.13 (attraction); and in Smyth's *A Greek Grammar for Colleges* (1920), §§2663–2680, §§2220–2239 and §§2522–2532.

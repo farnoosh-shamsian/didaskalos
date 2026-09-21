@@ -118,9 +118,17 @@ Every entry has the same four parts: the tag and title, a short description, rea
 
 ## 7. Where to Find It
 
-Didakta is available as markdown, HTML, EPUB, PDF and Word, under a Creative Commons Attribution-NonCommercial licence, and it is archived with permanent identifiers:
+Didakta is available as markdown, HTML, EPUB, PDF and Word, under a Creative Commons Attribution-NonCommercial licence.
+
+**Go to the repository first.** It holds every language and every format, it is under version control, and it is where corrections land as they are made — so it is always at least as current as anything else, and usually more so.
+
+- Repository, all languages and formats: <https://github.com/farnoosh-shamsian/Didakta>
+- English, PDF: <https://github.com/farnoosh-shamsian/Didakta/blob/main/didakta-english.pdf>
+- Persian, PDF: <https://github.com/farnoosh-shamsian/Didakta/blob/main/didakta-persian.pdf>
+- Kurdish, PDF: <https://github.com/farnoosh-shamsian/Didakta/blob/main/didakta-kurdish.pdf>
+
+Released versions are also archived on Zenodo with permanent identifiers. Cite these rather than the repository, and expect them to lag behind it:
 
 - English: <https://doi.org/10.5281/zenodo.11216456>
 - Persian: <https://doi.org/10.5281/zenodo.11216819>
-- Repository, all languages and formats: <https://github.com/farnoosh-shamsian/Didakta>
 - *Iliad* 1, aligned translations with treebank and Didakta annotations: <https://doi.org/10.5281/zenodo.8318111>

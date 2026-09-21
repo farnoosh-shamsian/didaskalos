@@ -118,9 +118,17 @@ pos: reference
 
 ## ۷. از کجا بیابیمش
 
-دیداکتا به صورت‌های markdown و HTML و EPUB و PDF و Word در دسترس است، با پروانهٔ Creative Commons Attribution-NonCommercial، و با شناسه‌های ماندگار بایگانی شده:
+دیداکتا به صورت‌های markdown و HTML و EPUB و PDF و Word در دسترس است، با پروانهٔ Creative Commons Attribution-NonCommercial.
+
+**نخست سراغ مخزن بروید.** همهٔ زبان‌ها و همهٔ صورت‌ها را در خود دارد، زیر نظارت نسخه است، و اصلاح‌ها همان‌جا می‌نشینند — پس همیشه دست‌کم به‌روزتر از هر جای دیگر است، و معمولاً بیشتر.
+
+- مخزن، همهٔ زبان‌ها و صورت‌ها: <https://github.com/farnoosh-shamsian/Didakta>
+- فارسی، PDF: <https://github.com/farnoosh-shamsian/Didakta/blob/main/didakta-persian.pdf>
+- انگلیسی، PDF: <https://github.com/farnoosh-shamsian/Didakta/blob/main/didakta-english.pdf>
+- کردی، PDF: <https://github.com/farnoosh-shamsian/Didakta/blob/main/didakta-kurdish.pdf>
+
+نسخه‌های منتشرشده در Zenodo نیز با شناسه‌های ماندگار بایگانی شده‌اند. برای ارجاع‌دادن این‌ها را بیاورید نه مخزن را، و انتظار داشته باشید که از مخزن عقب‌تر باشند:
 
 - فارسی: <https://doi.org/10.5281/zenodo.11216819>
 - انگلیسی: <https://doi.org/10.5281/zenodo.11216456>
-- مخزن، همهٔ زبان‌ها و صورت‌ها: <https://github.com/farnoosh-shamsian/Didakta>
 - دفتر یکم *ایلیاد*، ترجمه‌های هم‌ترازشده با درخت‌بانک و برچسب‌های دیداکتا: <https://doi.org/10.5281/zenodo.8318111>
