@@ -3062,8 +3062,6 @@ def generate_textbook_markdown(
     markdown_content.append("")
     passages_toc_slot = len(markdown_content)
     markdown_content.append("")
-    next_toc_slot = len(markdown_content)
-    markdown_content.append("")
 
     markdown_content.append("")
 
@@ -3270,7 +3268,6 @@ def generate_textbook_markdown(
     if working_combined_df is not None and working_sentences_df is not None and not working_sentences_df.empty:
         passages = build_reading_passages(working_sentences_df, working_combined_df, known_lemmas)
 
-    passages_rank = appendix_rank
     if passages:
         passages_rank = appendix_rank + 1
         passages_title = t("tb_passages_header", lang)
@@ -3284,14 +3281,11 @@ def generate_textbook_markdown(
         markdown_content.append("")
 
     # A book ends where its settings end, not where the language does, so the last
-    # page names those settings back and says what to change to carry on.
-    next_rank = passages_rank + 1
-    next_title = t("tb_next_header", lang)
-    anchor = heading_slug(f"{next_rank}. {next_title}")
-    markdown_content[next_toc_slot] = f"{next_rank}. [{next_title}](#{anchor})"
+    # page names those settings back and says what to change to carry on. A closing
+    # note rather than a section: unnumbered, and left out of the contents.
     markdown_content.append("---")
     markdown_content.append("")
-    markdown_content.append(f"# {next_rank}. {next_title}")
+    markdown_content.append(f"# {t('tb_next_header', lang)}")
     markdown_content.append("")
     markdown_content.append(
         t("tb_next_body", lang, lesson_count=int(lesson_count), mode=t(mode_key, lang))
@@ -3299,7 +3293,7 @@ def generate_textbook_markdown(
     markdown_content.append("")
 
     # Descending, so the indices of the slots still to check stay valid.
-    for slot in sorted([syntax_toc_slot, passages_toc_slot, next_toc_slot], reverse=True):
+    for slot in sorted([syntax_toc_slot, passages_toc_slot], reverse=True):
         if not markdown_content[slot]:
             del markdown_content[slot]
 
