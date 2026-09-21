@@ -590,6 +590,12 @@ nav ul li a:hover {
   color: var(--link-color);
 }
 
+/* A button inside the box keeps its own colours, not the link colour. */
+.cta .button-primary {
+  margin-top: 18px;
+  color: var(--on-accent);
+}
+
 /* Known limitations */
 
 /* The type scales with the column so the line stays at its current length: a
