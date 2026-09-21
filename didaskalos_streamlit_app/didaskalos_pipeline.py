@@ -2960,8 +2960,10 @@ def generate_textbook_markdown(
     rtl = is_rtl(lang)
     if syllabus_mode == "declension":
         intro_text = t("tb_intro_declension", lang)
+        mode_key = "tb_syllabus_mode_declension"
     else:
         intro_text = t("tb_intro_case", lang)
+        mode_key = "tb_syllabus_mode_case"
 
     lesson_rows = frequency_syllabus[
         frequency_syllabus["syllabus"].notna() & (frequency_syllabus["syllabus"] != "NA")
@@ -3052,12 +3054,15 @@ def generate_textbook_markdown(
         anchor = heading_slug(f"{lesson['rank']}. {lesson['display_label']}")
         markdown_content.append(f"{lesson['rank']}. [{lesson['display_label']}](#{anchor})")
 
-    # Held open for the two appendices, which cannot be built until known_lemmas
-    # is final and that only happens after the lesson loop. An unclaimed slot stays
-    # an empty string at the end of the list, where it cannot split the contents.
+    # Held open for the back matter, which cannot be built until known_lemmas is
+    # final and that only happens after the lesson loop. A slot no section claims
+    # is dropped once they have all run, so a blank line never splits the contents
+    # into two lists and restarts the numbering.
     syntax_toc_slot = len(markdown_content)
     markdown_content.append("")
     passages_toc_slot = len(markdown_content)
+    markdown_content.append("")
+    next_toc_slot = len(markdown_content)
     markdown_content.append("")
 
     markdown_content.append("")
@@ -3265,6 +3270,7 @@ def generate_textbook_markdown(
     if working_combined_df is not None and working_sentences_df is not None and not working_sentences_df.empty:
         passages = build_reading_passages(working_sentences_df, working_combined_df, known_lemmas)
 
+    passages_rank = appendix_rank
     if passages:
         passages_rank = appendix_rank + 1
         passages_title = t("tb_passages_header", lang)
@@ -3276,6 +3282,26 @@ def generate_textbook_markdown(
         markdown_content.append("")
         markdown_content.append(format_passage_appendix(passages, lang=lang))
         markdown_content.append("")
+
+    # A book ends where its settings end, not where the language does, so the last
+    # page names those settings back and says what to change to carry on.
+    next_rank = passages_rank + 1
+    next_title = t("tb_next_header", lang)
+    anchor = heading_slug(f"{next_rank}. {next_title}")
+    markdown_content[next_toc_slot] = f"{next_rank}. [{next_title}](#{anchor})"
+    markdown_content.append("---")
+    markdown_content.append("")
+    markdown_content.append(f"# {next_rank}. {next_title}")
+    markdown_content.append("")
+    markdown_content.append(
+        t("tb_next_body", lang, lesson_count=int(lesson_count), mode=t(mode_key, lang))
+    )
+    markdown_content.append("")
+
+    # Descending, so the indices of the slots still to check stay valid.
+    for slot in sorted([syntax_toc_slot, passages_toc_slot, next_toc_slot], reverse=True):
+        if not markdown_content[slot]:
+            del markdown_content[slot]
 
     document = "\n".join(markdown_content)
 
