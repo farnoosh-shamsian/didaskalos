@@ -76,7 +76,7 @@ This is the article's most productive job. Put it in front of almost anything an
 | a prepositional phrase | οἱ ἐν τῇ πόλει | "those in the city" |
 | an infinitive | τὸ λέγειν | "speaking" (as a noun) |
 
-The gender and number tell you what kind of noun you have got, and the convention is fixed: **masculine means people, neuter means things or abstractions.** οἱ ἀγαθοί is "good men, good people"; τὰ ἀγαθά is "good things, goods, blessings" — the same adjective, a different sense, decided by nothing but the article's gender.
+The gender and number tell you what kind of noun you have got, and the convention is fixed: **masculine means people, feminine women, neuter things or abstractions.** οἱ ἀγαθοί is "good men, good people"; τὰ ἀγαθά is "good things, goods, blessings" — the same adjective, a different sense, decided by nothing but the article's gender.
 
 **The articular infinitive** deserves separate notice, because it lets Greek do neatly what English manages only clumsily. Once τὸ λέγειν is a noun it declines like one, and so a preposition can govern it:
 
@@ -110,14 +110,14 @@ Greek puts an article in several places where a reader coming from English will 
 
 Its absence carries as much information as its presence.
 
-- **Predicate nouns normally lack it.** βασιλεὺς ἦν means "he was king", not "he was the king". This is also how you tell subject from predicate when both are nominative: the one with the article is the subject.
+- **Predicate nouns normally lack it.** βασιλεὺς ἦν means "he was king", not "he was the king". This usually tells you which of two nominatives is the subject: the one with the article. The test is not infallible — a predicate that names a whole class takes the article too — but it holds in the ordinary case.
 - **Fixed prepositional phrases** often drop it: κατὰ γῆν καὶ κατὰ θάλατταν "by land and sea", ἐν ἀρχῇ "in the beginning", ἐξ ἀρχῆς "from the start".
 - **The vocative takes no article.** Greek addresses with the particle ὦ instead: ὦ Σώκρατες, ὦ φίλοι.
 - **Verse and proverb** omit it freely — one reason poetry reads as more compressed than prose, and one reason Homer looks abrupt to a reader trained on Attic.
 
 ## 9. Crasis with the Article
 
-The article ends in a vowel and stands immediately before its noun, which makes it the commonest host of **crasis** — the outright merging of two words, marked by a coronis. You met the mark in the alphabet module; what is worth adding here is that a good share of the crasis you will meet has an article hiding inside it:
+Most forms of the article end in a vowel, and the article stands immediately before its noun, which makes it the commonest host of **crasis** — the outright merging of two words, marked by a coronis. You met the mark in the alphabet module; what is worth adding here is that a good share of the crasis you will meet has an article hiding inside it:
 
 - τὸ ὄνομα → **τοὔνομα** "the name"
 - τὰ αὐτά → **ταὐτά** "the same things"
@@ -150,7 +150,7 @@ The article has the most dramatic history of any word in Greek: within the span 
 
 **Homeric and Ionic forms.** Epic has **τοί** and **ταί** for the nominative plurals οἱ and αἱ, and the long datives **τοῖσι(ν)** and **τῇσι(ν)** for τοῖς and ταῖς. Herodotus uses τοῖσι and τῇσι as a matter of course.
 
-τοί and ταί are not confined to verse. They were the ordinary nominative plurals in the West Greek dialects and in Boeotian, and they are the older forms: Attic οἱ, αἱ were remade on the pattern of the singular ὁ, ἡ. The τ- that runs through the rest of the paradigm is the regular thing; it is the Attic nominatives that are the exception, which is worth remembering when you are tempted to treat τοί as a poetic licence.
+τοί and ταί are not confined to verse. They were the ordinary nominative plurals in the West Greek dialects apart from Cretan, and in Boeotian, and they are the older forms: Attic οἱ, αἱ were remade on the pattern of the singular ὁ, ἡ. The τ- that runs through the rest of the paradigm is the regular thing; it is the Attic nominatives that are the exception, which is worth remembering when you are tempted to treat τοί as a poetic licence.
 
 **Koine pushes the article further.** The articular infinitive of §5 becomes a workhorse of New Testament prose, and the article is used more freely still with proper names and abstract nouns. The article is the one part of the Greek nominal system that grows stronger over time.
 

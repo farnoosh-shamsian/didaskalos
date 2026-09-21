@@ -25,6 +25,8 @@ The case is not decoration; it is half the meaning.
 
 Notice the elegant trio for motion and rest: **εἰς + acc.** (motion toward), **ἐν + dat.** (rest in), **ἐκ + gen.** (motion away). This pattern — accusative for "whither", dative for "where", genitive for "whence" — echoes through the whole system.
 
+**σύν** is the one entry in that table to treat with care. In Attic prose it has been almost driven out by μετά + genitive, and survives chiefly in fixed phrases (σὺν θεοῖς "with the gods' help", σὺν ὅπλοις "in arms"), in poetry, and in Xenophon, who uses it freely.
+
 ## 3. Prepositions with Two Cases
 
 | Preposition | + Genitive | + Accusative |
@@ -68,7 +70,7 @@ A second group began life as adverbs, never compounds with a verb, and mostly go
 ## 6. Two Spelling Notes
 
 - ἐκ becomes **ἐξ** before a vowel: ἐξ ἀρχῆς "from the beginning".
-- Prepositions ending in a vowel elide it before a vowel: ἀπ᾿ αὐτοῦ, δι᾿ ὀλίγου, μετ᾿ ἐμοῦ (and the consonant aspirates before rough breathing: ἀφ᾿ οὗ, καθ᾿ ἡμέραν).
+- Most prepositions ending in a vowel elide it before a vowel: ἀπ᾿ αὐτοῦ, δι᾿ ὀλίγου, μετ᾿ ἐμοῦ (and the consonant aspirates before rough breathing: ἀφ᾿ οὗ, καθ᾿ ἡμέραν). Four never elide: **πρό**, **περί** (except before ι), **ἄχρι** and **μέχρι**.
 
 ## 7. Points to Watch
 
@@ -86,7 +88,7 @@ Prepositions have the clearest life story of any word class in Greek: they begin
 
 To an Attic reader this looks like a compound verb split in half; historically it is the opposite — Homer preserves the stage before the two grew together.
 
-**The same preposition has different shapes in different places.** Epic has **ἐνί, εἰν** for ἐν and **προτί, ποτί** for πρός, and it is tempting to file these as poetic archaisms. They are not: ποτί was the ordinary everyday word for "to" across the whole West Greek world, and in Thessalian and Boeotian besides, while Arcado-Cyprian said πός. Lesbian, Boeotian, Arcadian, Argolic, Cretan and Theran used **πεδά** where Attic used μετά. What looks like a special epic vocabulary is often simply a word that was current somewhere other than Athens.
+**The same preposition has different shapes in different places.** Epic has **ἐνί, εἰν** for ἐν and **προτί, ποτί** for πρός, and it is tempting to file these as poetic archaisms. They are not: ποτί was the ordinary everyday word for "to" across the West Greek world — Crete excepted, which had πορτί — and in Thessalian and Boeotian besides, while Arcado-Cyprian said πός. Lesbian, Boeotian, Arcadian, Argolic, Cretan and Theran used **πεδά** where Attic used μετά. What looks like a special epic vocabulary is often simply a word that was current somewhere other than Athens.
 
 **ξύν** is a different case again, and does not belong on that list: ξύν is the *Attic* form, used in Homer and in early Attic, with σύν everywhere else. Thucydides writing ξύν is not reaching for an epicism; he is using the older Athenian form.
 
@@ -95,13 +97,12 @@ To an Attic reader this looks like a compound verb split in half; historically i
 | | Classical Attic | Koine / NT |
 |---|---|---|
 | Instrument | bare dative | ἐν + dative |
-| "with" (accompaniment) | σύν + dat., or bare dat. | **μετά + genitive**; σύν becomes uncommon |
 | "into" / "in" | εἰς vs ἐν kept distinct | the two blur; εἰς encroaches on ἐν |
 | Agent | ὑπό + gen. | ὑπό + gen., but ἀπό and διά spread |
 
-**A warning about that third row.** It is natural to read the Koine blurring of εἰς and ἐν as a distinction wearing out, and in the New Testament that is how it feels. But the distinction was never Greek-wide to begin with. The inherited construction was **ἐν with the accusative** for "into" — compare Latin *in* — and it stayed the normal usage in the Northwest Greek dialects, in Boeotian and Thessalian, and in Arcado-Cyprian (ἰν) right through the classical period. εἰς is the innovation: an extended ἐν-ς, made in the dialects that wanted the two senses kept apart, Attic-Ionic among them. So when Koine stops policing the boundary, what is giving way is a comparatively local refinement, not an ancient rule.
+**A warning about that second row.** It is natural to read the Koine blurring of εἰς and ἐν as a distinction wearing out, and in the New Testament that is how it feels. But the distinction was never Greek-wide to begin with. The inherited construction was **ἐν with the accusative** for "into" — compare Latin *in* — and it stayed the normal usage in the Northwest Greek dialects, in Boeotian and Thessalian, and in Arcado-Cyprian (ἰν) right through the classical period. εἰς is the innovation: an extended ἐν-ς, made in the dialects that wanted the two senses kept apart, Attic-Ionic among them. So when Koine stops policing the boundary, what is giving way is a comparatively local refinement, not an ancient rule.
 
-**"Improper" prepositions multiply.** The class described in §5 grows: Koine freely presses further adverbs into prepositional service — **ἐνώπιον** "before", **ἔμπροσθεν**, **ὀπίσω**, **ἔξωθεν** — alongside the ἕνεκα and χάριν that Attic already had. The New Testament uses them constantly.
+**"Improper" prepositions multiply.** The class described in §5 grows: Koine freely presses further adverbs into prepositional service — **ἐνώπιον** "before", **ὀπίσω**, **ἔξωθεν** — alongside the ἕνεκα, ἔμπροσθεν and χάριν that Attic already had. The New Testament uses them constantly.
 
 ## 9. Example Sentences
 

@@ -19,8 +19,6 @@ Second declension nouns in **-ος** are the single most common noun type in Gre
 | Accusative | λόγον | λόγους |
 | Vocative | λόγε | λόγοι |
 
-Note the iota subscript in the dative singular (-ῳ): it is silent but always written, and it is often the only thing distinguishing dative λόγῳ from another form.
-
 ## Common vocabulary
 
 | Noun | Genitive | Meaning |
@@ -51,14 +49,14 @@ The second declension is the most stable pattern in the language — but two of 
 
 **-οιο is the single most recognizable epic ending.** It is the older genitive, and Homer uses it constantly beside the shorter -ου, choosing whichever the metre wants. Once you know it, a great deal of Homer stops looking strange: πολέμοιο is simply "of war."
 
-**-οισι** works the same way. Homer has both θεοῖσι and θεοῖς; Herodotus prefers -οισι; Attic prose has settled on -οις. Two cautions about reading that as a simple march from long to short. Attic itself wrote -οισι until late in the fifth century, so this is a difference between *fifth-century* Attic and the rest, not between Attic and its own past. And in most Greek dialects -οις is the only form there ever was, so the long ending is an Attic-Ionic and epic property rather than an inheritance the others lost.
+**-οισι** works the same way. Homer has both θεοῖσι and θεοῖς; Herodotus prefers -οισι; Attic prose has settled on -οις. Two cautions about reading that as a simple march from long to short. Attic inscriptions wrote -οισι until about 444 BCE, so this is a difference between *later fifth-century* Attic and the rest, not between Attic and its own past. And in most Greek dialects -οις is the only form there ever was, so the long ending is a property of Attic-Ionic, Lesbian and epic rather than an inheritance the others lost.
 
-**The Attic declension is a local oddity.** A small group of nouns shifts in Attic to -ως / -ων: **νεώς** "temple", **λεώς** "people", the name Μενέλεως. These forms are Attic alone, though the change that produced them — two vowels exchanging length — is Attic-Ionic. What the other dialects have depends on how far each took that change:
+**The Attic declension is a local development.** A small group of nouns shifts in Attic to -ως / -ων: **νεώς** "temple", **λεώς** "people", the name Μενέλεως. It is called *Attic* from the contrast with Koine, which has -ος throughout; the change behind it — two vowels exchanging length, the first shortening as the second lengthens — is Attic-Ionic, and Herodotus has these forms too. What the other dialects have depends on how far each took that change:
 
 | | Form |
 |---|---|
-| Attic | νεώς, λεώς |
-| Homer and Ionic | νηός — the intermediate stage, with η not yet shortened. Ionic likewise has ληός for "people" |
+| Attic and Herodotus | νεώς, λεώς |
+| Homer | νηός — the intermediate stage, with η not yet shortened |
 | Most other dialects | ναός, λαός — the original, untouched |
 | Koine | **ναός**, **λαός** |
 

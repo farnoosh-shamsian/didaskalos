@@ -49,7 +49,7 @@ The conjunction is your **advance warning** of the clause's grammar: ἵνα and
 
 Most conjunctions stand **first in their clause**: καί, ἀλλά, εἰ, ὅτι, ἐπεί, ἵνα…
 
-The postpositives — δέ, γάρ, οὖν, τε — come **second** (or attach to the first word). This mix is a feature, not a bug: a Greek clause almost always announces its logical relationship within its first two words.
+The postpositives — δέ, γάρ, οὖν, τε — come **second** (or attach to the first word). This mix is a feature, not a bug: a Greek clause usually announces its logical relationship at or near its opening.
 
 ## 5. Conjunctions vs. Particles
 
@@ -66,7 +66,7 @@ The boundary is soft. δέ, γάρ, and οὖν are traditionally counted as par
 
 How Greek joins its clauses together changes a great deal between Homer and the New Testament, and the change affects the whole texture of a text.
 
-**Homer has conjunctions Attic lost.** Epic uses **αὐτάρ / ἀτάρ** "but", **ἠδέ** and **ἰδέ** "and", **ὄφρα** "until, so that", **εὖτε** "when", **ἠμέν … ἠδέ** "both … and". Most of these are gone by the Classical period.
+**Homer has conjunctions Attic lost.** Epic uses **αὐτάρ** "but", **ἠδέ** and **ἰδέ** "and", **ὄφρα** "until, so that", **εὖτε** "when", **ἠμέν … ἠδέ** "both … and". Most of these are gone by the Classical period. The exception is αὐτάρ: its shorter form **ἀτάρ** stays in use, chiefly in poetry but also in Xenophon and Plato.
 
 **And the everyday conjunctions vary by region.** The ones you have learned are the Attic-Ionic set, not a Greek-wide inventory. "When" is the clearest case:
 
@@ -85,7 +85,7 @@ The same holds for "if": Attic-Ionic εἰ against **αἰ** almost everywhere e
 Three specific Koine developments are worth watching for:
 
 - **ἵνα expands well past purpose.** In Attic ἵνα means "in order that". In Koine it also introduces plain complement clauses — "that" after verbs of wishing, commanding and even saying — taking over territory the infinitive used to hold.
-- **ὅτι does the same**, and additionally appears as **ὅτι recitativum**, standing immediately before *direct* speech, where it does the work of opening quotation marks rather than of a conjunction: εἶπεν ὅτι "ἐγώ εἰμι" — "he said, 'I am'." Such an ὅτι should not be rendered as "that" at all; it is simply the mark that a quotation follows.
+- **ὅτι does the same**, spreading at the expense of the infinitive after verbs of saying and thinking.
 - **ὡς loses ground** to ὅτι and ἵνα.
 
 So the same skill scales differently: in Attic, conjunctions tell you the architecture of a long sentence; in Koine, they tell you mainly where one short sentence ends and the next begins.
