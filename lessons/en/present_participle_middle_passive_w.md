@@ -12,7 +12,7 @@ pos: verb
 | Term | Function |
 |------|------------|
 | **Present participle** | A verbal adjective expressing an action **in progress and simultaneous** with the main verb. |
-| **Middle/Passive voice** | Shows that the subject acts **on itself or for its own benefit** (middle) or **is acted upon** (passive). |
+| **Middle/Passive voice** | Shows that the subject is **affected by, or has an interest of its own in**, the action (middle), or **is acted upon** (passive). With one restricted group of verbs — those denoting a habitual physical treatment, the so-called **verbs of grooming** (λούομαι, κείρομαι, γυμνάζομαι) — the middle means the subject applies the action to itself. |
 
 The marker of this participle is the suffix **‑όμενος, ‑ομένη, ‑όμενον**: λυόμενος "being loosed / loosing for oneself." Typical renderings:
 
@@ -108,7 +108,6 @@ These endings are the same for every present middle/passive participle (γραφ
 | Greek | Translation |
 |----------------------|-------------|
 | **ὁ παιδευόμενος παῖς σοφὸς γίγνεται.** | The child who is being educated becomes wise. |
-| **ἡ γυνὴ λουομένη ἐν τῷ ποταμῷ ἐστιν.** | The woman is washing herself in the river. (middle) |
 | **λυόμενοι οἱ ἵπποι φεύγουσιν.** | As they are being untied, the horses run away. |
 | **ὁ ἀνὴρ ὁ παιδευόμενος ὑπὸ τῶν διδασκάλων εὐτυχής ἐστιν.** | The man who is being educated by the teachers is happy. (passive) |
 | **τὰ λεγόμενα ἀληθῆ ἐστιν.** | The things being said are true. (substantive; a neuter plural subject takes a singular verb.) |
@@ -119,8 +118,8 @@ These endings are the same for every present middle/passive participle (γραφ
 
 1. **Attributive use** — with the article, it modifies a noun: ὁ λυόμενος ἵππος "the horse that is being untied."
 2. **Circumstantial participle** — without the article, it supplies background to the main action: time ("while"), cause ("because"), manner.
-3. **Substantive use** — with the article it replaces a noun: τὰ γιγνόμενα "events," τὰ λεγόμενα "sayings."
-4. **Middle or passive?** — if the agent appears with ὑπό, it is passive; if the sense is "for/on oneself," it is middle.
+3. **Substantive use** — with the article it replaces a noun: τὰ γιγνόμενα "events," τὰ λεγόμενα "the things that are said."
+4. **Middle or passive?** — if the agent appears with ὑπό, it is passive; if the sense is that the subject has an interest of its own in the action, it is middle.
 5. **Deponents** — form very common participles: βουλόμενος "wishing," ἡγούμενος "leading."
 
 ---
@@ -131,8 +130,7 @@ These endings are the same for every present middle/passive participle (γραφ
 |--------|---------|
 | **Origin of the suffix** | ‑μενος is the middle-participle suffix, used across every tense stem. |
 | **Thematic formation** | The vowel ‑ο‑ before ‑μενος is the thematic vowel of the present system. |
-| **Historical stability** | The formation remained unchanged from Homer to the Koine; forms like ἐρχόμενος and λεγόμενος abound in the New Testament. |
-| **Lexicalization** | Some forms became fixed expressions: τὰ λεγόμενα "sayings," and λεγόμενος in the sense "so-called." |
+| **Lexicalization** | Some forms became fixed expressions: τὰ λεγόμενα "what is said," and λεγόμενος in the sense "so-called." |
 
 ---
 

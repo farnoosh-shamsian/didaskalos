@@ -13,7 +13,7 @@ pos: verb
 |------|---------|
 | **Present** | The action is happening **now** or habitually, or expresses a timeless truth. |
 | **Indicative** | The "statement" mood — for factual, neutral assertions. |
-| **Middle** | The subject performs the action **for itself or on itself**: "I wash myself." |
+| **Middle** | The subject is **affected by, or has an interest of its own in**, the action. With one restricted group of verbs — those denoting a habitual physical treatment, the **verbs of grooming** — it means the subject applies the action to itself: λούομαι "I wash myself." |
 | **Passive** | The action is **done to the subject**; the agent can be added with ὑπό + genitive: "the house is being built (by the workers)." |
 
 In the present system, middle and passive share **one common set of endings**; the distinction is semantic and is understood from context. The hallmark of this set is the first person singular in **‑ομαι**: λύομαι "I am being loosed / I loose for myself."
@@ -64,7 +64,7 @@ The final vowel of the stem merges with the thematic vowel and ending:
 |------|-------------|---------|
 | **1. One form, two meanings** | Middle and passive are identical in the present; context decides. | λύεται "is being loosed" or "looses for himself" |
 | **2. Thematic vowel** | ο before μ and ν, ε elsewhere. | λυ‑ό‑μεθα, λύ‑ο‑νται, λύ‑ε‑σθε |
-| **3. Two spellings in the 2nd sg.** | ‑ῃ is the more classical spelling; ‑ει became common in later Attic. | λύῃ / λύει |
+| **3. Two spellings in the 2nd sg.** | Both are found, and it is often impossible to settle which an author wrote. Editors print ‑ει in prose and comedy, ‑ῃ in tragedy. βούλει, οἴει and ὄψει always have ‑ει. | λύῃ / λύει |
 | **4. Agent of the passive** | Expressed with ὑπό + genitive; an inanimate instrument takes the plain dative. | γράφεται ὑπὸ τοῦ μαθητοῦ |
 | **5. Contract verbs** | The stem vowel merges with the ending. | φιλέ‑ομαι → φιλοῦμαι |
 | **6. Deponent verbs** | Have only middle/passive forms but active meaning. | ἔρχομαι "I come," βούλομαι "I want" |
@@ -88,7 +88,7 @@ The final vowel of the stem merges with the thematic vowel and ending:
 
 1. The **middle** often carries a "for one's own benefit" or reflexive nuance: λούομαι "I wash myself," παρασκευάζομαι "I prepare myself."
 2. The **passive** reports an action done to the subject objectively; it is frequent in historical and legal prose.
-3. Some verbs acquire **a new meaning** in the middle: ἄρχω "I begin / I rule" but ἄρχομαι "I begin (for myself)"; πείθω "I persuade" but πείθομαι "I obey, I believe."
+3. Some verbs acquire **a new meaning** in the middle: αἱρέω "I take" but αἱρέομαι "I choose"; γράφω "I write" but γράφομαι "I indict"; πείθω "I persuade" but πείθομαι "I obey, I believe."
 4. If a dictionary lists a verb only in ‑ομαι, it is deponent and must be translated actively.
 
 ---
@@ -98,7 +98,7 @@ The final vowel of the stem merges with the thematic vowel and ending:
 | Aspect | Details |
 |--------|---------|
 | **Origin** | The oldest layer of the verb opposes active to middle, not active to passive; the Greek middle continues that category. |
-| **Rise of the passive** | The passive grew out of the middle within Greek itself; only the aorist and future developed a dedicated passive marker (‑θη‑). |
+| **Rise of the passive** | The passive grew out of the middle within Greek itself; only the aorist and future developed a dedicated marker — ‑θη‑, and ‑η‑ in a smaller group (ἐγράφην, ἐφάνην). |
 | **Sound change** | The loss of intervocalic σ in ‑εσαι and the ensuing contraction produced the 2nd-singular ending ‑ῃ/‑ει. |
 | **Stability** | The set ‑ομαι, ‑εται, ‑ονται remained virtually unchanged from Homer to the Koine, and the same forms appear in the New Testament. |
 

@@ -10,7 +10,7 @@ pos: verb
 ## 1. What the Present Subjunctive Active Is
 
 The **subjunctive mood** expresses an action that is *potential* or *non-factual*: purpose, condition, exhortation, or indefinite clauses.
-The **present** subjunctive has imperfective aspect — a continuous or repeated action, simultaneous with or subsequent to the main verb.
+The **present** subjunctive has imperfective aspect — a continuous or repeated action, which in subordinate clauses tends to imply an action simultaneous with the main verb.
 When the verb is **active**, the subject performs the action itself.
 
 The mark of the subjunctive in Greek is the **lengthening of the thematic vowel**: ο/ε give way to **ω/η**.
@@ -57,20 +57,7 @@ The stem vowel contracts with the long vowel of the ending (ε + ω → ω; ε +
 
 In α‑contracts (τιμάω) every form is built with ᾳ/ω: τιμῶ, τιμᾷς, τιμᾷ, τιμῶμεν, τιμᾶτε, τιμῶσι(ν) — identical to the indicative; again, context decides.
 
-### 2.3 ‑μι Verbs — *δίδωμι* "to give"
-
-In the subjunctive the ‑μι verbs also take the long subjunctive vowel, built on the reduplicated stem:
-
-| Person | Present subjunctive | Note |
-|--------|---------------------|------|
-| 1st sg. | **διδῶ** | The unreduplicated form δῶ is **aorist**, not present! |
-| 2nd sg. | **διδῷς** | |
-| 3rd sg. | **διδῷ** | |
-| 1st pl. | **διδῶμεν** | |
-| 2nd pl. | **διδῶτε** | |
-| 3rd pl. | **διδῶσι(ν)** | |
-
-### 2.4 The Irregular Verb **εἰμί** "to be"
+### 2.3 The Irregular Verb **εἰμί** "to be"
 
 The present subjunctive of εἰμί is the bare set of long endings:
 
@@ -93,10 +80,8 @@ The present subjunctive of εἰμί is the bare set of long endings:
 | **No augment** | The present subjunctive never takes the augment ἐ‑. |
 | **The main sign: a long vowel** | ω/η instead of ο/ε: λύομεν (indicative) vs. λύωμεν (subjunctive). |
 | **Contract verbs** | Contraction as in the indicative, but with long vowels: φιλῶμεν, φιλῆτε. |
-| **‑μι verbs** | The present subjunctive keeps the reduplication: διδῶ (present) ≠ δῶ (aorist). |
-| **Irregulars** | εἰμί has special forms (§2.4). |
+| **Irregulars** | εἰμί has special forms (§2.3). |
 | **3rd plural** | ‑ωσι or ‑ωσιν; the ν is movable. |
-| **Iota subscript** | Always written in ‑ῃς and ‑ῃ, and a reliable sign of the subjunctive. |
 
 ---
 

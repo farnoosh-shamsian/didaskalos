@@ -66,7 +66,7 @@ active,معلوم,verb,
 middle,میانه,verb,
 passive,مجهول,verb,
 mediopassive (middle/passive),میانه/مجهول,verb,
-deponent,مجهول‌نما,verb,
+deponent,فعلِ بی‌معلوم,verb,
 finite verb form,صورت فعلی شخص‌دار,verb,
 personal ending,شناسه,verb,
 primary endings,شناسه‌های اولیه,verb,
@@ -245,11 +245,11 @@ liquid future,آیندهٔ روان,verb,not used in the Persian lessons; sugges
 contracted future,آیندهٔ ادغامی,verb,
 compound verb,فعل مرکب,verb,
 impersonal verb,فعل بی‌شخص,verb,not used in the Persian lessons; suggested equivalent
-middle deponent,مجهول‌نمای میانه,verb,
-passive deponent,مجهول‌نمای مجهول,verb,
-athematic deponent,مجهول‌نمای بدون واکهٔ میانجی,verb,not used in the Persian lessons; suggested equivalent
-semi-deponent,نیمه‌مجهول‌نما,verb,
-middle-only verb (media tantum),فعل تنها‌میانه,verb,not used in the Persian lessons; suggested equivalent
+middle deponent,بی‌معلومِ میانه,verb,
+passive deponent,بی‌معلومِ مجهول,verb,
+athematic deponent,بی‌معلومِ بدون واکهٔ میانجی,verb,not used in the Persian lessons; suggested equivalent
+semi-deponent,نیمه‌بی‌معلوم,verb,
+middle-only verb (media tantum),فعلِ میانیِ محض,verb,
 meaningful middle,میانهٔ معنادار,verb,
 imperfective aspect,نمود ناقص,verb,not used in the Persian lessons; suggested equivalent
 aoristic aspect,نمود تام,verb,not used in the Persian lessons; suggested equivalent
@@ -283,3 +283,9 @@ accent shift,جابه‌جایی تکیه,phonology & writing,not used in the Pe
 compensatory lengthening,کشش جبرانی,phonology & writing,
 headword,سرواژه,general & historical,
 dictionary form,صورت واژه‌نامه‌ای,general & historical,
+supplementary participle,وجه وصفی مکمل,syntax & usage,
+coincident aorist participle,وجه وصفی گذشتهٔ تام هم‌زمان,syntax & usage,
+pseudo-sigmatic aorist,گذشتهٔ تام شبه‌سیگمادار,verb,
+verbs of grooming,فعل‌های آرایش و شست‌وشو,verb,
+causative active,معلوم سببی,verb,
+passive-only verb (passiva tantum),فعلِ مجهولِ محض,verb,

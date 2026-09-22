@@ -81,7 +81,7 @@ The imperfect answers the question *"What was going on?"* It is not the simple p
 
 | Person | Form | Gloss |
 |--------|------|-------|
-| 1 sg | ἦν (older: ἦ) | I was |
+| 1 sg | ἦν or ἦ | I was |
 | 2 sg | ἦσθα | you were |
 | 3 sg | ἦν | he/she/it was |
 | 1 pl | ἦμεν | we were |
@@ -100,8 +100,8 @@ The imperfect answers the question *"What was going on?"* It is not the simple p
 | **2. No thematic vowel** | The endings attach directly to the stem: ἐτίθε‑σαν, not *ἐτιθέ‑ο‑σαν. | ἐδίδοσαν |
 | **3. Long singular, short plural** | ἐτίθην / ἐτίθεμεν; ἵστην / ἵσταμεν. | — |
 | **4. 3rd plural in ‑σαν** | The familiar signature of the μι-class. | ἐδίδοσαν, ἐτίθεσαν, ἦσαν |
-| **5. The singular ἐδίδουν follows the contract verbs** | ἐδίδουν, ἐδίδους, ἐδίδου are formed by analogy with ἐποίουν. | — |
-| **6. Imperfect ≠ aorist** | ἐτίθην "I was placing" but ἔθηκα "I placed"; ἵστην "I was setting up" but ἔστην "I stood." | — |
+| **5. The imperfect singular is thematic** | In δίδωμι, τίθημι and ἵημι most of the singular is built like a contract verb: ἐδίδουν like ἐδήλουν, ἐτίθεις/ἐτίθει like ἐποίεις/ἐποίει. | — |
+| **6. Imperfect ≠ aorist** | ἐτίθην "I was placing" but ἔθηκα "I placed". | — |
 | **7. The present reduplication remains** | The imperfect is built on the present stem: δι‑, τι‑, ἱ‑ are kept. | ἐδίδουν (not *ἔδουν) |
 
 ---
@@ -122,8 +122,8 @@ The imperfect answers the question *"What was going on?"* It is not the simple p
 
 1. **Narrative background** — the imperfect sets the scene: "While X was going on, Y happened."
 2. **Repeated and habitual actions** — "he used to give every day" (ἐδίδου).
-3. **Simultaneity** — two simultaneous past actions both stand in the imperfect.
-4. **Contrast with the aorist** — the aorist reports the event, the imperfect the flow: ἦν... καὶ ἐγένετο "it was so… and then it happened."
+3. **Simultaneity** — two past actions presented as running side by side often both stand in the imperfect.
+4. **Contrast with the aorist** — the aorist reports the event, the imperfect the flow.
 5. **The frequency of εἰμί and φημί** — ἦν and ἔφη occur several times on every page of narrative prose; memorize these first.
 
 ---
@@ -133,9 +133,9 @@ The imperfect answers the question *"What was going on?"* It is not the simple p
 | Aspect | Detail |
 |--------|--------|
 | **Formation** | Imperfect = augment + present stem + secondary endings. |
-| **The augment** | The relic of an ancient past-marking particle; in Greek it survived only in the indicative of past tenses. |
-| **μι-Verbs** | The oldest layer of conjugation: endings attached directly to the stem, before the thematic vowel arose. |
-| **εἰμί** | Root *h₁es‑ "to be"; ἦν results from the fusion of augment and root (ἐ + ἐσ). |
+| **The augment** | An inherited marker of past time; in Greek it appears only in the indicative of the past tenses — imperfect, aorist and pluperfect. |
+| **μι-Verbs** | The oldest layer of the Greek verb: endings attached directly to the stem, with no thematic vowel between. |
+| **εἰμί** | Built on the root ἐσ‑; ἦν results from the fusion of augment and root (ἐ + ἐσ). The 3rd singular ἦν was in origin the third **plural** — most dialects keep ἦς in the 3rd singular, and it is Attic-Ionic that replaced it with ἦν. |
 | **Aftermath** | In later Greek the μι-verbs migrated into the ω-pattern. |
 
 ---

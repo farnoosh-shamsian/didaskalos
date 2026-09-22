@@ -17,10 +17,10 @@ The aorist infinitive **active** means that the (logical) subject of the infinit
 
 The principal forms for ω-verbs:
 
-- **Sigmatic aorist (sigmatic): ‑σαι** → **λῦσαι** "to loose (once)"
-- **Thematic aorist (thematic): ‑εῖν** → **λαβεῖν** "to take (once)"
+- **First (sigmatic) aorist: ‑σαι** → **λῦσαι** "to loose (once)"
+- **Second (thematic) aorist: ‑εῖν** → **λαβεῖν** "to take (once)"
 
-> **Typical meaning:** "to do (once)." The fundamental point: the aorist infinitive **has no past time**; it conveys only the **aspect** of a single event. λῦσαι means "to loose (once and done)," not "to have loosed."
+> **Typical meaning:** "to do (once)." The fundamental point: outside indirect statement the aorist infinitive **has no past time**; it conveys only the **aspect** of a single event. λῦσαι means "to loose (once and done)," not "to have loosed."
 
 ---
 
@@ -36,7 +36,7 @@ The infinitive has **only one form** — it takes neither person nor number. All
 2. Remove the augment.
 3. For the sigmatic aorist add **‑αι** (σα-stem → ‑σαι); for the thematic aorist add **‑εῖν**.
 
-#### 2.2.1 Sigmatic Aorist (Sigmatic)
+#### 2.2.1 First (Sigmatic) Aorist
 
 | Verb (present) | Aorist stem | Aorist infinitive active |
 |----------------|-------------|---------------------------|
@@ -49,7 +49,7 @@ The infinitive has **only one form** — it takes neither person nor number. All
 
 *The accent of the sigmatic aorist infinitive falls on the penult: παιδεῦσαι.*
 
-#### 2.2.2 Thematic Aorist (Thematic)
+#### 2.2.2 Second (Thematic) Aorist
 
 | Verb (present) | Aorist stem | Aorist infinitive active |
 |----------------|-------------------|---------------------------|
@@ -120,4 +120,4 @@ The infinitive has **only one form** — it takes neither person nor number. All
 
 ---
 
-**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the infinitive at §§1966–2038.
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the infinitive at §§51.1–51.49; and in Smyth's *A Greek Grammar for Colleges* (1920), §§425, 469, 542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the infinitive at §§1966–2038.

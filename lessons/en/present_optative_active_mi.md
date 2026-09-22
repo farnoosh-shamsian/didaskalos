@@ -36,7 +36,7 @@ In real texts one verb towers over all the others here: **εἰμί "to be"**. I
 | 2 sg | **φαίης** |
 | 3 sg | **φαίη** |
 | 1 pl | **φαῖμεν** |
-| 2 pl | **φαῖτε** |
+| 2 pl | **φαίητε** |
 | 3 pl | **φαῖεν** |
 
 ### 2.3 δίδωμι "to give" (same pattern: τίθημι → τιθείην, ἵστημι → ἱσταίην)
@@ -73,7 +73,7 @@ In real texts one verb towers over all the others here: **εἰμί "to be"**. I
 1. **Potential optative:** εἴη ἄν "it would be" is the standard polite assertion in Attic prose — softer than ἐστί "it is".
 2. **Indirect discourse after past tenses:** after a main verb in a past tense, an indicative of the original speech may become optative: ἔλεγεν ὅτι χαλεπὸν εἴη "he said that it was difficult".
 3. **Wishes:** with or without εἴθε / εἰ γάρ: εἴθε φίλος ἡμῖν εἴης "if only you were our friend".
-4. In **Herodotus and Xenophon**, clauses of the type εἰ + optative ("if ever ...", "in case ...") are everywhere; εἴη and its compounds do much of that work.
+4. In **Xenophon**, clauses of the type εἰ + optative ("if ever ...", "in case ...") are everywhere; εἴη and its compounds do much of that work.
 
 ---
 

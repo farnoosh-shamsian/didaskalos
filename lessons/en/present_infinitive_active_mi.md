@@ -71,7 +71,7 @@ The **infinitive** is the non-finite form of the verb — it has no person or nu
 |-------|-------------|
 | βούλομαι **διδόναι** τὰ δῶρα. | "I want to give the gifts (continually)." |
 | δίκαιόν ἐστι **τιθέναι** νόμους καλούς. | "It is just to lay down good laws." |
-| δεῖ **ἱστάναι** τὸ τρόπαιον. | "The trophy must be set up." |
+| δεῖ **ἱστάναι** τὸ τρόπαιον. | "One must set up the trophy." |
 | χαλεπόν ἐστι **δεικνύναι** τὴν ἀλήθειαν. | "It is hard to show the truth." |
 | φιλόσοφος βούλεται σοφὸς **εἶναι**. | "A philosopher wishes to be wise." |
 
@@ -83,7 +83,7 @@ The infinitive can serve as **subject**, **object**, or **complement** — exact
 
 1. **After verbs of wishing and being able** — βούλομαι, δύναμαι, ἐθέλω: δύναται διδόναι "he is able to give."
 2. **With impersonal verbs** — δεῖ and χρή "it is necessary": δεῖ τιθέναι "one must place."
-3. **Present aspect vs. aorist** — διδόναι = giving continuously or repeatedly; δοῦναι = giving once. The contrast is one of aspect, not of time.
+3. **Present aspect vs. aorist** — διδόναι = giving continuously or repeatedly; δοῦναι = giving once. The contrast is one of aspect, not of time — except in indirect statement, where the infinitive also expresses time relative to the main verb.
 4. **Articular infinitive** — τὸ διδόναι "giving, the act of giving": a full verbal noun.
 5. **εἶναι is everywhere** — the commonest Greek infinitive, constantly found in predicate statements and in indirect discourse.
 
@@ -93,7 +93,7 @@ The infinitive can serve as **subject**, **object**, or **complement** — exact
 
 | Aspect | Detail |
 |--------|--------|
-| **Origin of ‑ναι** | The ending ‑ναι is an old verbal noun and belongs to the athematic layer of the verbal system. |
+| **Origin of ‑ναι** | Infinitives are verbal nouns, and ‑ναι is a frozen case-form of one; it belongs to the athematic layer of the verbal system. Two verbs in the table above take the variant ‑εναι: ἰ‑έναι and ἱ‑έναι. |
 | **εἶναι** | From *ἐσ‑ναι, with loss of σ and compensatory lengthening. |
 | **Gradual erosion** | Along with the whole ‑μι system, the ‑ναι infinitives gave way to thematic forms in later Greek. |
 

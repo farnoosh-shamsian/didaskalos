@@ -17,7 +17,7 @@ pos: verb
 | **Active** | The subject performs the action (as opposed to middle or passive). | "I **saw** the dog." |
 | **‑μι** | An archaic class of verbs whose first person singular present ends in **‑μι** (not ‑ω). | φη-μί, τί-θη-μι, ἵ-στη-μι, δί-δω-μι, … |
 
-The aorist indicative active of a μι-verb says that the subject **performed a single, complete action in the past**. Because μι-verbs are old and irregular, their aorists do not follow the ‑σα pattern of ω-verbs; they have their own stems and patterns.
+The aorist indicative active of a μι-verb says that the subject **performed a single, complete action in the past**. Because μι-verbs are old and irregular, their aorists do not all follow the ‑σα pattern of ω-verbs; they have their own stems and patterns.
 
 ---
 
@@ -33,7 +33,7 @@ The most important pattern is the "**kappa aorist**": the suffix **‑κα** in 
 | **2nd** | ἔδωκας | ἔδοτε |
 | **3rd** | ἔδωκε(ν) | ἔδοσαν |
 
-*Stem:* **δωκ‑** in the singular (with ‑κα), **δο‑** (short) in the plural. The present reduplication (δι‑) drops in the aorist.
+*Stem:* **δω‑** + **‑κα** in the singular, **δο‑** (short) in the plural. The present reduplication (δι‑) drops in the aorist.
 
 ### 2.2 The Verb **τίθημι** "to place" → **ἔθηκα**
 
@@ -73,7 +73,7 @@ The narrative past of φημί is **ἔφην** (strictly classed as an imperfec
 | **2nd** | ἔφησθα / ἔφης | ἔφατε |
 | **3rd** | ἔφη | ἔφασαν |
 
-For "I said" in the fully aoristic sense, Greek usually employs **εἶπον**.
+φημί also has a first aorist: **ἔφησα**, infinitive **φῆσαι**, participle **φήσᾱς**.
 
 ### 2.5 Summary of the Patterns
 
@@ -93,7 +93,7 @@ All the patterns take the **augment** ἐ‑ (or vowel lengthening) in the indic
 |------|-------------|---------|
 | **Augment** | All aorist indicative forms take the augment. | ἵστημι → **ἔ**στησα |
 | **Aorist stem ≠ present stem** | The present reduplication (δι‑, τι‑, ἱ‑) belongs to the present system and drops in the aorist. | δί-δω-μι → ἔ-δω-κα |
-| **‑κα only in the singular** | In the kappa aorist the plural has the short stem without κ (Koine created forms like ἐδώκαμεν). | ἔδωκα but ἔδομεν |
+| **‑κα mainly in the singular** | In the kappa aorist the plural usually has the short stem without κ, but kappa-plurals are already classical — commonest in the 3rd plural (ἔδωκαν beside ἔδοσαν), rarer in the 1st and 2nd (ἐδώκαμεν, ἐδώκατε). | ἔδωκα but usually ἔδομεν |
 | **The two aorists of ἵστημι** | Root = intransitive ("I stood"); sigmatic = transitive ("I set up"). | ἔστην / ἔστησα |
 | **3rd plural ‑σαν** | Root and kappa aorists take ‑σαν in the 3rd plural. | ἔδοσαν, ἔθεσαν, ἔστησαν |
 | **Middle and passive are separate** | The middle aorists of these verbs (ἐδόμην, ἐθέμην) and the ‑θη‑ passives (ἐδόθην, ἐτέθην) are treated in other lessons. | — |
@@ -108,7 +108,7 @@ All the patterns take the **augment** ἐ‑ (or vowel lengthening) in the indic
 | **ἔδωκαν τὰ δῶρα τοῖς θεοῖς.** | They gave the gifts to the gods. |
 | **ἔστησαν τὸν βωμὸν ἐν τῇ ἀγορᾷ.** | They set up the altar in the marketplace. |
 | **ἔστη πρὸ τῶν πυλῶν.** | He stood before the gates. |
-| **ἔφη ὅτι ἡ πόλις ἀσφαλής ἐστιν.** | He said that the city is safe. |
+| **ἔφη τὴν πόλιν ἀσφαλῆ εἶναι.** | He said that the city was safe. |
 
 *Note:* in every sentence the aorist marks a **single, completed action** in the past.
 
@@ -119,7 +119,6 @@ All the patterns take the **augment** ἐ‑ (or vowel lengthening) in the indic
 1. **Narrative past** — the aorist is the default storytelling tense, especially for actions that advance the plot.
 2. **Emphasis on completion** — when the speaker highlights that the act *got done*: ἔδωκα "I gave (and that was that)."
 3. **Contrast with the imperfect** — ἐδίδου "he kept giving" vs. ἔδωκε "he gave."
-4. **High frequency** — ἔδωκε, ἔθηκε, ἔστη, and ἔφη are among the most frequent verb forms in classical prose and poetry; mastering them is essential for reading.
 
 ---
 
@@ -127,10 +126,10 @@ All the patterns take the **augment** ἐ‑ (or vowel lengthening) in the indic
 
 | Aspect | Details |
 |--------|---------|
-| **The kappa aorist** | A specifically Greek innovation, found only in δίδωμι, τίθημι, and ἵημι; the origin of its κ is still debated. |
+| **The kappa aorist** | Found only in δίδωμι, τίθημι, and ἵημι; the origin of its κ is still debated. |
 | **The root aorist** | The oldest aorist type: endings sit directly on the root (ἔστην, ἔβην, ἔγνων). |
 | **Lexicalization** | These verbs were so frequent that they resisted regularization; that is why their archaic forms survived. |
-| **Later Greek** | In the Koine, plural kappa forms were rebuilt on the singular (ἐδώκαμεν, ἐθήκατε); the classical forms remain the standard for reading. |
+| **Later Greek** | The kappa-plurals, already present in classical Greek, spread further in the Koine; the short-stem forms remain the standard for reading. |
 
 ---
 
@@ -142,7 +141,7 @@ All the patterns take the **augment** ἐ‑ (or vowel lengthening) in the indic
 | τίθημι | τιθη‑/τιθε‑ | θηκ‑/θε‑ | ἔθηκα, ἔθηκας, ἔθηκε(ν), ἔθεμεν, ἔθετε, ἔθεσαν |
 | ἵστημι (intrans.) | ἱστη‑/ἱστα‑ | στη‑ | ἔστην, ἔστης, ἔστη, ἔστημεν, ἔστητε, ἔστησαν |
 | ἵστημι (trans.) | ἱστη‑/ἱστα‑ | στησ‑ | ἔστησα, ἔστησας, ἔστησε(ν), ἐστήσαμεν, ἐστήσατε, ἔστησαν |
-| φημί | φη‑/φα‑ | (ἔφην; narrative past) | ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν |
+| φημί | φη‑/φα‑ | ἔφην (narrative past); 1 aor. φησ‑ | ἔφην, ἔφησθα, ἔφη, ἔφαμεν, ἔφατε, ἔφασαν; 1 aor. ἔφησα |
 
 ---
 

@@ -77,7 +77,7 @@ The complete paradigm of the aorist middle participle of **πράττω** "to do
 |------|-------------|---------|
 | **1. The aorist stem** | The same stem as the indicative, without the augment. | ἐπραξάμην → **πραξάμενος** |
 | **2. ‑σάμενος / ‑όμενος** | Sigmatic aorist with σα; thematic aorist with the thematic vowel. | λυσάμενος; πυθόμενος |
-| **3. Declined like καλός** | First/second-declension adjective endings. | λυσαμένη, λυσαμένων |
+| **3. First/second-declension endings** | Declined with the endings of a first/second-declension adjective. | λυσαμένη, λυσαμένων |
 | **4. Priority in time** | Usually an action prior to the main verb. | λυσάμενος … ἀπῆλθεν |
 | **5. Present ≠ aorist** | λυόμενος (in progress) ≠ λυσάμενος (single act). | — |
 | **6. The middle meaning** | "For oneself"; in deponents, active. | δεξάμενος "having received" |
@@ -91,7 +91,6 @@ The complete paradigm of the aorist middle participle of **πράττω** "to do
 | **λυσάμενος τὸν αἰχμάλωτον, οἴκαδε ἦγεν αὐτόν.** | Having ransomed the captive, he led him home. |
 | **χρήματα πραξάμενος, ἀπῆλθεν.** | Having collected his money, he left. |
 | **δεξάμενοι τὰ δῶρα, ἐχάρησαν.** | Having received the gifts, they rejoiced. |
-| **ταῦτα γενόμενα ὁρῶντες, ἐθαύμαζον.** | Seeing these things happen, they marveled. |
 
 ---
 
@@ -99,15 +98,15 @@ The complete paradigm of the aorist middle participle of **πράττω** "to do
 
 1. **Circumstantial/adverbial** — a compressed clause of time or cause: "having done this for himself…"
 2. **Attributive with the article** — ὁ λυσάμενος "the one who ransomed."
-3. **In narrative** — the subject's prior action before the main verb; the prose writers' chief connective device.
+3. **In narrative** — the subject's prior action before the main verb; a central connective device in narrative prose.
 4. **The middle nuance** — the subject has a stake in the result: πραξάμενος "having collected (for his own benefit)" vs. πράξας "having done."
 
 ---
 
 ## 6. Historical Note
 
-The suffix **‑μενος** is the middle participle suffix; combined with the sigmatic aorist marker it produced ‑σάμενος. The formation remained stable throughout the history of Greek.
+The suffix **‑μενος** is the middle participle suffix; combined with the sigmatic aorist marker it produced ‑σάμενος.
 
 ---
 
-**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§13.1–13.64, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§665–671, 679–688 (inflection), with the syntax of the participle at §§2039–2148.
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§5.15–5.18 and §§13.1–13.64, with the syntax of the participle at §§52.1–52.53; and in Smyth's *A Greek Grammar for Colleges* (1920), §§542–545, 546–554 (formation) and §§301–310, 665–671, 679–688 (inflection), with the syntax of the participle at §§2039–2148.

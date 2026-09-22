@@ -12,12 +12,10 @@ pos: verb
 The **imperfect** describes an action that was **ongoing, repeated, or habitual** in the past (or a past state).
 In the **middle/passive** voice the subject either:
 
-* **Middle** — acts for itself, in its own interest, or reflexively ("he was washing himself"); or
+* **Middle** — is affected by the action, or has an interest of its own in it; with a restricted group of verbs, those denoting a habitual physical treatment, it applies the action to itself ("he was washing himself"); or
 * **Passive** — receives the action ("the house was being built").
 
 In the imperfect (as in the present) middle and passive have **identical forms**; context determines the meaning.
-
-> **Key idea:** the imperfect middle/passive says that the subject *in the past* was **in the middle of** an action or was **undergoing** one.
 
 ---
 
@@ -74,11 +72,11 @@ The stem vowel merges with the thematic vowel:
 | Rule | Explanation |
 |------|-------------|
 | **1. The augment is obligatory** | ἐ‑ before a consonant; lengthening of an initial vowel: ἀγγέλλομαι → ἠγγελλόμην. |
-| **2. Secondary middle endings** | ‑μην, ‑ου, ‑ετο, ‑μεθα, ‑εσθε, ‑ντο. |
-| **3. Loss of σ in the 2nd singular** | *‑εσο → ‑ου; poetry sometimes still shows uncontracted ‑εο. |
+| **2. Secondary middle endings** | The endings themselves are ‑μην, ‑σο, ‑το, ‑μεθα, ‑σθε, ‑ντο; with the thematic vowel in front they come out as ‑όμην, ‑ου, ‑ετο, ‑όμεθα, ‑εσθε, ‑οντο. |
+| **3. Loss of σ in the 2nd singular** | *‑εσο → ‑ου. Homer, Doric and Aeolic generally leave the form open, and in Herodotus ‑εο is open too. |
 | **4. Middle = passive in form** | ἐλύετο can bear either meaning; ὑπό + genitive is the sure sign of the passive. |
 | **5. Deponents use the same formation** | ἠρχόμην "I was coming," ἐβουλόμην "I wanted" — active in meaning. |
-| **6. εἰμί has no middle/passive** | Only ἦν and its family. |
+| **6. εἰμί has no middle/passive in the present system** | Only ἦν and its family. Its future, however, is middle in form: ἔσομαι, ἔσται, inf. ἔσεσθαι, ppl. ἐσόμενος. |
 | **7. It is the partner of the present** | Present λύομαι → imperfect ἐλυόμην; everything you know about the present middle/passive carries over with the augment and secondary endings. |
 
 ---
@@ -100,7 +98,7 @@ The stem vowel merges with the thematic vowel:
 1. **Narrative background** — "while the soldiers were arming themselves, the general was speaking": ὡπλίζοντο + ἔλεγε.
 2. **Habitual action** — "he used to wash (himself) every morning": ἐλούετο.
 3. **Continuous state** — "the city was being guarded": ἐφυλάττετο.
-4. **Telling the voices apart** — a reflexive pronoun (ἑαυτόν) or the subject's benefit → middle; ὑπό + genitive or an external agent → passive.
+4. **Telling the voices apart** — the subject's own interest or benefit → middle; ὑπό + genitive or an external agent → passive. Note that an explicit reflexive pronoun (ἑαυτόν) normally goes with the **active**: the middle expresses the reflexive on its own, and only with a small group of verbs at that.
 
 ---
 
@@ -109,7 +107,7 @@ The stem vowel merges with the thematic vowel:
 | Aspect | Details |
 |--------|---------|
 | **Loss of σ** | ‑εσο → ‑εο → ‑ου is a sound change within Greek; uncontracted forms appear in Homer. |
-| **Unity of middle and passive** | In the present system (present and imperfect) Greek never separated middle from passive; the formal distinction arose only in the aorist and future. |
+| **Unity of middle and passive** | In the present and perfect stems all the meanings of the middle/passive voice are expressed by a single set of forms; only in the aorist and future stems are they realized by different forms. |
 | **Link to the present** | The imperfect is in every respect "the past of the present system" — which is what makes it easy to learn. |
 
 ---

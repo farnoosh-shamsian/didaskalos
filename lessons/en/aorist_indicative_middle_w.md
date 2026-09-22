@@ -22,7 +22,7 @@ So **aorist indicative middle** = "I did something (once) for myself / with refe
 
 ## 2. Forming the Aorist Indicative Middle
 
-### 2.1 The Sigmatic Conjugation (Sigmatic Aorist)
+### 2.1 The First (Sigmatic) Aorist Conjugation
 
 **Augment ἐ‑ + aorist stem (‑σα‑) + the secondary middle endings.**
 
@@ -106,8 +106,7 @@ That is why the second person of the aorist middle ends in ‑ω — a shape tha
 
 1. **Self-benefit** — the middle often says the subject profits from the action: ἐπραξάμην "I exacted (for myself)."
 2. **Narrative** — the aorist middle is as fundamental to storytelling as the active: ἐγένετο "it happened" is everywhere.
-3. **The second-person trap** — any ‑ω form that carries an augment is a 2nd-person middle, not a present active; internalize this.
-4. **Versus the passive** — for "this was done to me" Greek uses ‑θην; the middle always keeps the subject as the doer.
+3. **Versus the passive** — for "this was done to me" Greek uses ‑θην; in the aorist the middle keeps the subject as the doer.
 
 ---
 

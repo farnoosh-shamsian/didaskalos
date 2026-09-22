@@ -24,17 +24,17 @@ You now know the present and imperfect indicative, the aorist, the subjunctive a
 
 Before the types, one small word.
 
-**ἄν** has no meaning of its own and no translation. It marks a verb as **conditioned** — as holding not absolutely but under some circumstance, stated or implied. It never stands first in its clause, and it attaches to the verb it qualifies.
+**ἄν** has no meaning of its own and no translation. It marks a verb as **conditioned** — as holding not absolutely but under some circumstance, stated or implied. It never stands first in its clause: it is postpositive, attaching to the preceding word, most often a negative, an interrogative or an emphatic word.
 
 | With | Force | Example |
 |---|---|---|
 | **optative** | *potential*: "would", "might" | οὐκ ἂν λέγοιμι — "I would not say" |
 | **subjunctive**, in a subordinate clause | *indefinite*: "whenever", "whoever" | ὅταν ἔλθῃ (= ὅτε + ἄν) — "whenever he comes" |
-| **past indicative** | *contrary to fact*, or *past habitual* | ἔλεγεν ἄν — "he would have said", or "he used to say" |
+| **past indicative** | *contrary to fact*, or *past habitual* | ἔλεγεν ἄν — "he would be saying", or "he used to say" |
 
 A verb that would be a plain statement becomes a possibility with ἄν and nothing else: λέγοι is "may he speak"; λέγοι ἄν is "he would speak". Its absence is equally informative — an optative without ἄν in a main clause is a wish, not a possibility.
 
-**ἐάν is εἰ with ἄν fused onto it.** That is why ἐάν always takes the subjunctive: the ἄν inside it is doing the work of the second row above. Some texts still write the two words apart, so an εἰ with a loose ἄν beside it is an ἐάν.
+**ἐάν is εἰ with ἄν fused onto it.** That is why ἐάν always takes the subjunctive: the ἄν inside it is doing the work of the second row above. Watch for its other shapes: Ionic and the older Attic writers use ἤν, and Plato and later writers often use a bare ἄ̄ν — with a long α, and not to be confused with the modal particle.
 
 ---
 
@@ -50,10 +50,12 @@ A verb that would be a plain statement becomes a possibility with ἄν and noth
 | **Present contrary to fact** | εἰ + imperfect indicative | imperfect + ἄν | "if it were so now — but it is not" |
 | **Past contrary to fact** | εἰ + aorist indicative | aorist + ἄν | "if it had been so — but it was not" |
 
+The difference between the aorist and the imperfect in the last two rows is aspectual; the present/past split shown here is a rule of thumb, and an imperfect can refer to continued past time.
+
 Reading them, the useful question is not "which conjunction?" but **"is there an ἄν in the apodosis?"** Its presence marks the unreal and the remote; its absence marks the simple and the general.
 
 - εἰ ταῦτα λέγεις, ἁμαρτάνεις. — "If you say this, you are wrong." (simple)
-- ἐὰν ταῦτα λέγῃς, ἁμαρτήσει. — "If you say this, you will be wrong." (future more vivid)
+- ἐὰν ταῦτα λέγῃς, ἁμαρτήσῃ. — "If you say this, you will be wrong." (future more vivid)
 - εἰ ταῦτα λέγοις, ἁμαρτάνοις ἄν. — "If you should say this, you would be wrong." (future less vivid)
 - εἰ ταῦτα ἔλεγες, ἡμάρτανες ἄν. — "If you were saying this, you would be wrong." (present contrary to fact)
 
@@ -93,4 +95,4 @@ Both the counts and the examples are taken from **prose only**. Verse uses condi
 
 ---
 
-**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§49.1–49.24; and in Smyth's *A Greek Grammar for Colleges* (1920), §§2280–2382.
+**Further reading.** This topic is treated in the *Cambridge Grammar of Classical Greek* (Cambridge, 2018), §§49.1–49.28; and in Smyth's *A Greek Grammar for Colleges* (1920), §§2280–2368.

@@ -49,7 +49,7 @@ The final vowel of the stem contracts with the ε of the ending:
 
 | Verb | Stem | Contraction | Middle/Passive infinitive |
 |----------------|--------------|---------|---------------------------|
-| τιμάω "to honor" | τιμα‑ | α + ε → α | **τιμᾶσθαι** |
+| τιμάω "to honor" | τιμα‑ | α + ε → ᾱ | **τιμᾶσθαι** |
 | φιλέω "to love" | φιλε‑ | ε + ε → ει | **φιλεῖσθαι** |
 | δηλόω "to show" | δηλο‑ | ο + ε → ου | **δηλοῦσθαι** |
 
@@ -89,7 +89,7 @@ In μι-verbs the ending ‑σθαι attaches **directly to the stem, without th
 | **2. Contraction before ‑εσθαι** | The stem vowel of a contract verb merges with the ε of the ending. | φιλε‑ + εσθαι → φιλεῖσθαι |
 | **3. One form, two voices** | ‑εσθαι is both middle and passive; context decides. | λύεσθαι "to be loosed" or "to loose for oneself" |
 | **4. Verbs in ‑ομαι use the same stem** | Strip ‑ομαι and add ‑εσθαι. | ἀποκρίνομαι → ἀποκρίνεσθαι |
-| **5. Accent of the infinitive** | In ‑εσθαι infinitives the accent is recessive. | παιδεύεσθαι, not *παιδευέσθαι* |
+| **5. Accent of the infinitive** | In the **present** middle/passive infinitive the accent is recessive. Not every ‑σθαι infinitive is: the second aorist middle and the perfect middle/passive accent the penult. | παιδεύεσθαι, not *παιδευέσθαι* (but γενέσθαι, λελύσθαι) |
 | **6. Articular infinitive** | The infinitive can be used with τό as a noun. | τὸ παιδεύεσθαι "being educated" |
 | **7. Negation of the infinitive** | The infinitive is normally negated with μή, not οὐ. | μὴ λύεσθαι "not to be loosed" |
 

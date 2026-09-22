@@ -78,7 +78,7 @@ Many of them also show **ι‑reduplication** in the present system: δί‑δω
 | **οἱ θεοὶ διδόασι τὰ ἀγαθά.** | The gods grant good things. |
 | **δείκνυσι τὴν ὁδόν.** | He points out the road. |
 | **φησὶν ὁ διδάσκαλος τοῦτο.** | The teacher says this. |
-| **ὁ θεὸς ἵστησι τὴν πόλιν.** | The god keeps the city standing. |
+| **ὁ στρατηγὸς ἵστησι τὸ τρόπαιον.** | The general sets up the trophy. |
 
 *Notice the endings:* **‑μι**, **‑ς**, **‑σι(ν)**, **‑μεν**, **‑τε**, **‑ασι(ν)**.
 
@@ -90,7 +90,6 @@ Many of them also show **ι‑reduplication** in the present system: δί‑δω
 2. **Narrative (historical) present** — in literary prose the present can make a past event vivid and immediate.
 3. **General truths** — statements that are always valid: οἱ θεοὶ διδόασι τὰ ἀγαθά.
 4. **High frequency in quotation** — φημί is everywhere in reported speech, often inserted mid-sentence: ἐγὼ μέν, φησί, λέγω… "'I,' he says, 'say…'"
-5. **Combination with particles** — the particles δέ, γάρ, μέν frequently accompany the present indicative to build contrast or explanation.
 
 ---
 
@@ -99,9 +98,9 @@ Many of them also show **ι‑reduplication** in the present system: δί‑δω
 | Aspect | Detail |
 |--------|--------|
 | **The athematic layer** | The ending ‑μι is the athematic 1st singular ending, attached straight to the stem. |
-| **Early Greek** | ‑μι forms are already attested in Mycenaean; the ‑μι class is the older layer of the Greek verbal system. |
+| **Early Greek** | The ‑μι class is the older layer of the Greek verbal system. |
 | **Gradual erosion** | From the classical period onwards, ‑μι verbs were progressively drawn into the thematic ‑ω pattern (e.g. δεικνύω beside δείκνυμι). |
-| **Ionic got there first** | This is not purely a matter of date. Ionic already inflects the ‑μι verbs like contract verbs — Herodotus has **τιθεῖ, τιθεῖν** for Attic τίθησι, τιθέναι — so a Herodotus reader meets the rebuilt forms centuries before the Koine. |
+| **Ionic went furthest first** | This is not purely a matter of date. Ionic already inflects ‑μι verbs like contract verbs — Herodotus has **τιθεῖ, διδοῖ, διδοῦσι** for Attic τίθησι, δίδωσι, διδόασι — so a Herodotus reader meets the rebuilt forms centuries before the Koine. Attic itself had begun: ἐτίθει and ἐδίδου are of the same kind. |
 | **Later Greek** | In Koine and Byzantine Greek the process was completed, and only scattered relics of the ‑μι verbs remained. |
 
 ---

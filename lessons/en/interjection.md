@@ -2,7 +2,7 @@
 
 ## 1. What an Interjection Is
 
-An **interjection** (ἐπιφώνημα) is an exclamation — a cry of address, grief, joy, surprise, or pain. Like adverbs, interjections are **indeclinable**: one fixed form, no endings to learn. They are especially frequent in **drama and epic**, where characters address the gods, lament the dead, and cry out in fear or triumph.
+An **interjection** is an exclamation — a cry of address, grief, joy, surprise, or pain. Like adverbs, interjections are **indeclinable**: one fixed form, no endings to learn. They are especially frequent in **drama and epic**, where characters address the gods, lament the dead, and cry out in fear or triumph.
 
 Interjections stand outside the grammar of the sentence: they modify nothing and are governed by nothing, though several of them attract a noun in a particular case (see § 3).
 
@@ -16,12 +16,11 @@ Interjections stand outside the grammar of the sentence: they modify nothing and
 | **ὢ πόποι** | dismay, indignation: "good heavens!" | Homeric; opens speeches of complaint |
 | **οἴμοι / ὤμοι** | lament: "woe is me!" | tragedy; often with a genitive or a nominative |
 | **αἰαῖ** | wail of grief: "aiai! alas!" | tragedy |
-| **εἴθε** | wish-particle: "if only ...!" | introduces wishes with the optative |
 | **ἆ** | pain or protest: "ah!" | drama |
 | **ἰού** | pain, or (context!) joyful surprise | drama |
 | **ὀτοτοῖ** | shriek of grief | tragedy |
 
-> **By far the most frequent is ὦ** — the polite companion of every vocative. In prose, addressing someone *without* ὦ can sound abrupt or cold: ὦ ἄνδρες Ἀθηναῖοι "men of Athens" is the standard opening of an Athenian speech.
+> **By far the most frequent is ὦ** — the polite companion of every vocative. In prose, a vocative *without* ὦ may carry a colouring of its own — astonishment, joy, contempt, a threat or a warning — though the distinction is not always observed: ὦ ἄνδρες Ἀθηναῖοι "men of Athens" is the standard opening of an Athenian speech.
 
 ## 3. Constructions with Interjections
 
@@ -41,9 +40,9 @@ Interjections are grammatically independent, but three patterns recur:
 
 ## 4. Points to Watch
 
-- **ὦ vs. ὢ/ὤ:** the address-particle before a vocative is usually printed ὦ (circumflex); the cry of emotion ("oh!") is often printed ὢ or ὤ. Editors differ — let the context decide.
+- **ὦ vs. ὢ/ὤ:** the address-particle before a vocative is usually printed ὦ (circumflex); the cry of emotion ("oh!") is printed ὢ or ὤ.
 - **οἴμοι** is a fused form of οἴ μοι "woe to me"; the dative μοι is baked into the word.
-- **εἴθε** shades into being a particle: it does not exclaim on its own but introduces a **wish** with the optative (εἴθε γένοιτο "may it come to pass!") or with a past indicative for unattainable wishes.
+- **εἴθε** is a particle rather than an interjection: it does not exclaim on its own but introduces a **wish** with the optative (εἴθε γένοιτο "may it come to pass!") or with a past indicative for unattainable wishes.
 - Interjections are often **doubled or piled up** for intensity: ἰὼ ἰώ, αἰαῖ αἰαῖ, οἴμοι μοι.
 - In your reading, an interjection is a strong signal of **direct speech and heightened emotion** — expect a vocative, an imperative, or a wish nearby.
 
@@ -53,14 +52,13 @@ Interjections are the most register-bound words in the language: they belong to 
 
 **ὦ before a vocative is an Attic prose habit.** Homer often omits it, and the New Testament normally omits it — so the bare address that sounds abrupt in Plato is simply the ordinary form in Koine. Where the NT does use ὦ, it is genuinely emphatic.
 
-**The great cries belong to tragedy.** αἰαῖ, ὀτοτοῖ, ἰώ, ἰού, φεῦ, οἴμοι, παπαῖ are overwhelmingly poetic. If your corpus is Aeschylus or Sophocles you will meet them constantly; in Attic prose they are rare, and in Koine narrative rarer still. Homer has its own: **ὦ πόποι** "good heavens" and **ὤ μοι** are formulaic in epic and absent from later prose.
+**The great cries belong to tragedy.** αἰαῖ, ὀτοτοῖ, ἰώ, ἰού, φεῦ, οἴμοι, παπαῖ are overwhelmingly poetic. If your corpus is Aeschylus or Sophocles you will meet them constantly; in Attic prose they are rare, and in Koine narrative rarer still. Homer has its own: **ὢ πόποι** "good heavens" and **ὤ μοι** are formulaic in epic and absent from later prose.
 
 **Koine has a distinct set of its own**, and it is one of the more recognizable features of New Testament Greek:
 
 | Word | Origin | Use |
 |---|---|---|
 | **ἰδού**, **ἴδε** | frozen imperatives of εἶδον "see" | "behold, look" — extremely frequent, often merely marking a new turn in the narrative |
-| **οὐαί** | probably echoing a Semitic cry | "woe to …", followed by the dative |
 | **ἀμήν** | Hebrew | "truly" — and in the Gospels used to *open* a solemn statement, which Hebrew does not do |
 | **ἀλληλουϊά**, **ὡσαννά**, **μαράνα θά** | Hebrew / Aramaic | liturgical exclamations, taken over untranslated |
 

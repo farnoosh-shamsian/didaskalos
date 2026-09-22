@@ -88,7 +88,7 @@ In contract verbs the singular prefers the extended suffix **‑οίη‑**:
 | **2. Add the diphthong ‑οι‑** | The present optative always has ‑οι‑ (contract verbs: ‑οίη‑ in the singular). | λύ‑οι‑μι |
 | **3. Contract verbs** | The stem vowel merges with οι: φιλε‑ + οίη → φιλοίη. | φιλοίην |
 | **4. Accent** | Final ‑οι counts as **long** in the optative: λύοι (not *λῦοι). | — |
-| **5. Irregulars** | εἰμί builds special forms from the stem εἰ‑/ἐσ‑. | εἴην |
+| **5. Irregulars** | εἰμί builds special forms from the stem ἐσ‑. | εἴην |
 | **6. Historical fate** | After the classical period the optative fades; in Koine it survives mainly in fixed expressions (μὴ γένοιτο "may it not be!"). | — |
 
 ---
@@ -122,7 +122,7 @@ In contract verbs the singular prefers the extended suffix **‑οίη‑**:
 |--------|--------|
 | **The mood marker** | The optative is marked by ‑οι‑ in thematic forms (thematic vowel + ι) and by ‑ίη‑ in athematic ones — two grades of the same suffix. |
 | **Early Greek** | In Homer the optative is frequent and versatile. |
-| **Classical period** | Attic prose exploits the optative fully for the nuances of indirect narration and politeness — but this is a feature of literary prose. The inscriptions of the same period already prefer the subjunctive in conditional clauses, in Attic-Ionic and most other dialects alike. |
+| **Classical period** | Attic prose exploits the optative fully for the nuances of indirect narration and politeness — but this is a feature of literary prose. The inscriptions of the same period already prefer the subjunctive in conditional clauses, in Attic-Ionic and most other dialects alike — Elean being the exception, where the optative is the usual form. |
 | **Koine and later** | The optative dies out rapidly; in the New Testament it is rare outside formulas such as μὴ γένοιτο. |
 
 ---
