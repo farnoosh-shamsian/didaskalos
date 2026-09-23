@@ -206,8 +206,8 @@
   "syn_contrafactual": "خلاف واقع / عادت گذشته: ἄν + اخباری گذشته",
   "syn_simple": "شرط ساده (جزئی)",
   "syn_present_general": "شرط عام حال",
-  "syn_future_more_vivid": "شرط آینده، صورت زنده‌تر",
-  "syn_future_less_vivid": "شرط آینده، صورت کم‌رنگ‌تر",
+  "syn_future_more_vivid": "شرطی آیندهٔ محتمل",
+  "syn_future_less_vivid": "شرطی آیندهٔ کمتر محتمل",
   "syn_present_contrafactual": "خلاف واقع در حال",
   "syn_past_contrafactual": "خلاف واقع در گذشته",
   "syn_past_general": "شرط عام گذشته"
