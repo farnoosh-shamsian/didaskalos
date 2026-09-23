@@ -2959,10 +2959,8 @@ def generate_textbook_markdown(
     ]
     rtl = is_rtl(lang)
     if syllabus_mode == "declension":
-        intro_text = t("tb_intro_declension", lang)
         mode_key = "tb_syllabus_mode_declension"
     else:
-        intro_text = t("tb_intro_case", lang)
         mode_key = "tb_syllabus_mode_case"
 
     lesson_rows = frequency_syllabus[
@@ -3038,8 +3036,6 @@ def generate_textbook_markdown(
 
     markdown_content = []
     markdown_content.extend(_render_title_page(lang, source_summary))
-    markdown_content.append(intro_text)
-    markdown_content.append("")
 
     if source_summary:
         markdown_content.extend(
