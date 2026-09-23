@@ -67,11 +67,11 @@ middle,میانه,verb,
 passive,مجهول,verb,
 mediopassive (middle/passive),میانه/مجهول,verb,
 deponent,فعلِ بی‌معلوم,verb,
-finite verb form,صورت فعلی شخص‌دار,verb,
+finite verb form,صورت فعلی صرف‌شده,verb,
 personal ending,شناسه,verb,
 primary endings,شناسه‌های اولیه,verb,
 secondary endings,شناسه‌های ثانویه,verb,
-tense marker,نشانهٔ زمان,verb,
+tense marker,وند زمان,verb,
 thematic,تماتیک,verb,
 thematic vowel,واکهٔ میانجی,verb,
 athematic,آتماتیک (بدون واکهٔ میانجی),verb,not used in the Persian lessons; suggested equivalent
@@ -82,7 +82,7 @@ syllabic augment,افزونهٔ هجایی,verb,
 temporal augment,افزونهٔ زمانی,verb,Persian lessons describe it as بلند شدن واکهٔ آغازین; suggested equivalent
 reduplication,مضاعف‌سازی,verb,
 principal parts,بن‌های اصلی,verb,
-lemma,بن‌واژه,verb,
+lemma,صورت مدخل,verb,در رشته‌های برنامه؛ در درس‌ها headword = مدخل
 root,ریشه,verb,
 stem,ستاک,verb,
 ending,پایانه,verb,
@@ -135,7 +135,7 @@ fear clause,بند بیان ترس,syntax & usage,
 result clause,بند بیان نتیجه,syntax & usage,not used in the Persian lessons; suggested equivalent
 conditional,شرطی,syntax & usage,
 protasis,بند شرط,syntax & usage,
-future more vivid condition,شرط آیندهٔ محتمل,syntax & usage,
+future more vivid condition,شرطی آیندهٔ محتمل,syntax & usage,
 counterfactual,خلاف واقع,syntax & usage,
 indirect statement,نقل‌قول غیرمستقیم,syntax & usage,
 genitive absolute,اضافی مستقل,syntax & usage,
@@ -167,7 +167,7 @@ wish,آرزو,syntax & usage,
 potential,بالقوه,syntax & usage,Didakta term (was امکانی)
 habitual,عادتی,syntax & usage,
 punctual (single event),رویداد واحد,syntax & usage,
-duration,دیرش,syntax & usage,
+duration,استمرار,syntax & usage,
 reflexive,انعکاسی,syntax & usage,verb lessons also use بازتابی
 reciprocal,دوسویه,syntax & usage,
 postpositive,پس‌آیند,syntax & usage,
@@ -179,7 +179,7 @@ consonant,همخوان,phonology & writing,
 diphthong,واکهٔ مرکب,phonology & writing,
 long vowel,واکهٔ بلند,phonology & writing,
 short vowel,واکهٔ کوتاه,phonology & writing,
-macron,ماکرون,phonology & writing,
+macron,نشانهٔ کمّیتِ بلند,phonology & writing,
 syllable,هجا,phonology & writing,
 ultima,هجای پایانی,phonology & writing,
 penult,هجای پیشاپایانی,phonology & writing,
@@ -207,7 +207,7 @@ consonant cluster,خوشهٔ همخوانی,phonology & writing,
 assimilation,همگونی,phonology & writing,
 movable nu (ν),ν متحرک,phonology & writing,
 vowel lengthening,بلند شدن واکه,phonology & writing,
-crasis,کرازیس (درهم‌آمیزی واکه‌ها),phonology & writing,not used in the Persian lessons; suggested equivalent
+crasis,ادغام واکه‌ها,phonology & writing,
 elision,حذف واکهٔ پایانی,phonology & writing,not used in the Persian lessons; suggested equivalent
 hiatus,التقای واکه‌ها,phonology & writing,not used in the Persian lessons; suggested equivalent
 pronunciation,تلفظ,phonology & writing,
@@ -220,7 +220,9 @@ etymology,ریشه‌شناسی,general & historical,
 cognate,هم‌ریشه,general & historical,
 dialect,گویش,general & historical,
 Attic,آتیکی,general & historical,
-Ionic,یونیایی,general & historical,
+Ionic,ایونی,general & historical,
+Aeolic,آیولی,general & historical,
+Doric,دوری,general & historical,
 Koine,کوینه,general & historical,
 Homeric,هومری,general & historical,
 Epic,حماسی,general & historical,
@@ -271,7 +273,7 @@ optative of wish,تمنایی آرزویی,syntax & usage,not used in the Persia
 deliberative subjunctive,التزامی تردیدی,syntax & usage,
 primary sequence,توالی زمان‌های اصلی,syntax & usage,not used in the Persian lessons; suggested equivalent
 secondary sequence,توالی زمان‌های فرعی,syntax & usage,not used in the Persian lessons; suggested equivalent
-apodosis,بند جزا,syntax & usage,not used in the Persian lessons; suggested equivalent
+apodosis,بند نتیجه,syntax & usage,
 temporal clause,بند زمانی,syntax & usage,
 causal clause,بند علّی,syntax & usage,not used in the Persian lessons; suggested equivalent
 indefinite clause,بند نامعین,syntax & usage,not used in the Persian lessons; suggested equivalent
@@ -281,7 +283,7 @@ verbs of motion,افعال حرکت,syntax & usage,not used in the Persian lesso
 recessive accent,تکیهٔ پس‌رو,phonology & writing,not used in the Persian lessons; suggested equivalent
 accent shift,جابه‌جایی تکیه,phonology & writing,not used in the Persian lessons; suggested equivalent
 compensatory lengthening,کشش جبرانی,phonology & writing,
-headword,سرواژه,general & historical,
+headword,مدخل,general & historical,صورتی که در متن همه‌جا به کار می‌رود؛ lemma در برنامه صورت مدخل است
 dictionary form,صورت واژه‌نامه‌ای,general & historical,
 supplementary participle,وجه وصفی مکمل,syntax & usage,
 coincident aorist participle,وجه وصفی گذشتهٔ تام هم‌زمان,syntax & usage,

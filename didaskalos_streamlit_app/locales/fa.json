@@ -112,7 +112,7 @@
   "tb_error_reading": "خطا در خواندن پرونده: {error}",
   "tb_ex_parsing_header": "تجزیهٔ واژه‌ها",
   "tb_ex_parsing_prompt": "هر صورت زیر را تجزیه کنید: بخش دستوری و همهٔ ویژگی‌های صرفی آن را بنویسید.",
-  "tb_ex_parsing_item": "{form} (بن‌واژه: {lemma})",
+  "tb_ex_parsing_item": "{form} (صورت مدخل: {lemma})",
   "tb_ex_sentences_header": "جمله‌هایی از متن‌ها",
   "tb_ex_sentences_prompt": "در هر جمله، {pos_label}‌های مربوط به این درس را مشخص کنید و هر یک را تجزیه کنید.",
   "tb_ex_sentences_identify_prompt": "در هر جمله، {pos_label}‌های مربوط به این درس را مشخص کنید.",
