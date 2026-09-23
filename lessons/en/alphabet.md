@@ -82,7 +82,7 @@ Every word that begins with a vowel (or ρ) carries a **breathing mark**:
 - **Rough breathing** ( ῾ ) = an /h/-sound before the vowel: ἵππος ⟨híppos⟩ "horse", ὁ ⟨ho⟩ "the".
 - **Smooth breathing** ( ᾿ ) = no /h/-sound: ἐγώ ⟨egṓ⟩ "I".
 - Initial ρ always takes rough breathing: ῥήτωρ ⟨rhḗtōr⟩ "orator".
-- **Initial υ always takes rough breathing** too: ὕδωρ ⟨hýdōr⟩ "water", ὑπό ⟨hypó⟩ "under", ὑμεῖς ⟨hymeîs⟩ "you (pl.)". A word beginning with υ therefore begins with /h/, without exception worth worrying about — one free piece of information every time.
+- **Initial υ always takes rough breathing** too: ὕδωρ ⟨hýdōr⟩ "water", ὑπό ⟨hypó⟩ "under", ὑμεῖς ⟨hymeîs⟩ "you (pl.)". A word beginning with υ therefore begins with /h/, without exception worth worrying about.
 - On diphthongs the breathing sits on the **second** vowel: αἱ, οὐ, εἰ ⟨hai, ou, ei⟩.
 
 The two marks look similar — read carefully: ὅρος ⟨hóros⟩ "boundary" begins with /h/, ὄρος ⟨óros⟩ "mountain" does not.
