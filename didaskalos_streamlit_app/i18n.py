@@ -1,5 +1,4 @@
-# UI strings live in locales/<lang>.json. To add a language, drop in a JSON file
-# with the same keys and register it in AVAILABLE_LANGS / LANG_NAMES.
+# UI strings live in locales/<lang>.json; to add a language, drop in a JSON file with the same keys and register it in AVAILABLE_LANGS / LANG_NAMES.
 from __future__ import annotations
 
 import functools
@@ -25,8 +24,7 @@ def _load(lang: str) -> dict:
 
 
 def t(key: str, lang: str = DEFAULT_LANG, **kwargs) -> str:
-    # Falls back to the default language, then to the key itself, so a missing
-    # translation degrades instead of crashing. kwargs go through str.format.
+    # Falls back to the default language, then to the key itself, so a missing translation degrades instead of crashing; kwargs go through str.format.
     value = _load(lang).get(key)
     if value is None and lang != DEFAULT_LANG:
         value = _load(DEFAULT_LANG).get(key)
@@ -45,8 +43,7 @@ def is_rtl(lang: str) -> bool:
 
 
 def rtl_css() -> str:
-    # Flips the app and sidebar direction and picks a Persian-friendly font,
-    # keeping tables, code and previews left-to-right.
+    # Flips the app and sidebar direction and picks a Persian-friendly font, keeping tables, code and previews left-to-right.
     return """
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');

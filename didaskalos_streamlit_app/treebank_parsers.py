@@ -1,12 +1,4 @@
-# Pluggable treebank parsers: one adapter per corpus format, registered in
-# PARSERS. Each takes a file path and returns a token DataFrame of
-#   sentence_id, document_id, subdoc, word_id, token_index,
-#   form, lemma, postag, relation, head
-# where postag is always the AGDT 9-character string, the one morphology
-# vocabulary didaskalos_pipeline.py decodes. A new format therefore only needs an
-# adapter that normalizes its own morphology into that layout:
-#   0 part-of-speech  1 person  2 number  3 tense  4 mood
-#   5 voice           6 gender  7 case    8 degree
+# Pluggable treebank parsers, one adapter per corpus format registered in PARSERS: each takes a file path and returns a token DataFrame of sentence_id, document_id, subdoc, word_id, token_index, form, lemma, postag, relation, head, where postag is always the AGDT 9-character string (0 part-of-speech, 1 person, 2 number, 3 tense, 4 mood, 5 voice, 6 gender, 7 case, 8 degree), the one morphology vocabulary didaskalos_pipeline.py decodes, so a new format only needs an adapter that normalizes its own morphology into that layout.
 from __future__ import annotations
 
 import re
@@ -16,9 +8,7 @@ from pathlib import Path
 import pandas as pd
 
 
-# Strong sentence-ending punctuation; ";" is the Greek question mark. The ano
-# teleia and colon are excluded, being mid-sentence pauses in Greek. Native
-# sentence boundaries stay primary — this only sub-splits them into segments.
+# Strong sentence-ending punctuation, ";" being the Greek question mark, with the ano teleia and colon excluded as mid-sentence pauses in Greek; native sentence boundaries stay primary, this only sub-splits them into segments.
 _END_PUNCT = {".", "?", ";", "!"}
 
 
@@ -38,8 +28,7 @@ def parse_agdt_xml(file_path: str | Path) -> pd.DataFrame:
         segment = 1
 
         for word in sentence.findall("word"):
-            # Nodes the annotators inserted for gapping/ellipsis are not part of
-            # the written text, so they would be phantom words in the counts.
+            # Nodes the annotators inserted for gapping/ellipsis are not part of the written text, so they would be phantom words in the counts.
             if word.get("artificial"):
                 continue
 
@@ -48,8 +37,7 @@ def parse_agdt_xml(file_path: str | Path) -> pd.DataFrame:
 
             data.append(
                 {
-                    # The file stem keeps ids unique across combined treebanks,
-                    # so assemble_sentences cannot merge two works' sentences.
+                    # The file stem keeps ids unique across combined treebanks, so assemble_sentences cannot merge two works' sentences.
                     "sentence_id": f"{file_path.stem}|{native_id}|{segment}",
                     "document_id": document_id,
                     "subdoc": subdoc,
@@ -69,8 +57,7 @@ def parse_agdt_xml(file_path: str | Path) -> pd.DataFrame:
     return pd.DataFrame(data)
 
 
-# CoNLL-U (Universal Dependencies / PROIEL; format id "conllu").
-# UD universal POS tag -> AGDT postag position 0.
+# CoNLL-U (Universal Dependencies / PROIEL; format id "conllu"): UD universal POS tag -> AGDT postag position 0.
 _UPOS_TO_AGDT = {
     "NOUN": "n",
     "PROPN": "n",
@@ -90,8 +77,7 @@ _UPOS_TO_AGDT = {
     "SYM": "u",
     "X": "-",
 }
-# UD FEATS value -> AGDT letter, one map per postag position. These are the
-# decode tables in didaskalos_pipeline.py, reversed.
+# UD FEATS value -> AGDT letter, one map per postag position; these are the decode tables in didaskalos_pipeline.py, reversed.
 _FEAT_CASE = {"Nom": "n", "Gen": "g", "Dat": "d", "Acc": "a", "Voc": "v"}
 _FEAT_TENSE = {"Pres": "p", "Imp": "i", "Fut": "f", "Aor": "a", "Perf": "r", "Pqp": "l", "FutPerf": "t"}
 _FEAT_MOOD = {"Ind": "i", "Sub": "s", "Opt": "o", "Imp": "m", "Inf": "n", "Part": "p"}
@@ -112,9 +98,7 @@ def _parse_feats(feats: str) -> dict[str, str]:
 
 
 def _agdt_postag_from_ud(upos: str, xpos: str, feats: dict[str, str]) -> str:
-    # Prefer the original AGDT tag where the UD source kept it in XPOS, as
-    # Perseus-UD does. PROIEL's short XPOS ("Nb", "V-") fails the length check
-    # and falls through to FEATS synthesis.
+    # Prefer the original AGDT tag where the UD source kept it in XPOS, as Perseus-UD does; PROIEL's short XPOS ("Nb", "V-") fails the length check and falls through to FEATS synthesis.
     if xpos and xpos != "_" and len(xpos) >= 8 and xpos[0].isalpha():
         return xpos
 
@@ -127,9 +111,7 @@ def _agdt_postag_from_ud(upos: str, xpos: str, feats: dict[str, str]) -> str:
     number = _FEAT_NUMBER.get(feats.get("Number", ""))
     if number:
         slots[2] = number
-    # Sources naming the Greek tense outright map directly. PROIEL splits it
-    # across Tense + Aspect, where Past+Perf is the aorist and Past+Imp the
-    # imperfect; a bare Aspect=Perf is the last-resort perfect.
+    # Sources naming the Greek tense outright map directly; PROIEL splits it across Tense + Aspect, where Past+Perf is the aorist and Past+Imp the imperfect, and a bare Aspect=Perf is the last-resort perfect.
     tense = _FEAT_TENSE.get(feats.get("Tense", ""))
     if not tense:
         if feats.get("Tense") == "Past":
@@ -184,9 +166,7 @@ def parse_conllu(file_path: str | Path) -> pd.DataFrame:
                 elif key in ("newdoc id", "newdoc"):
                     document_id = value or document_id
                 elif key == "source":
-                    # PROIEL tags each sentence with its locus ("Histories, Book
-                    # 1, chapter 1"). The work is already in the citation siglum,
-                    # so only the trailing number is kept as the passage ref.
+                    # PROIEL tags each sentence with its locus ("Histories, Book 1, chapter 1"), and the work is already in the citation siglum, so only the trailing number is kept as the passage ref.
                     match = re.search(r"(\d+)\s*$", value)
                     subdoc = match.group(1) if match else None
                 continue
@@ -196,8 +176,7 @@ def parse_conllu(file_path: str | Path) -> pd.DataFrame:
                 continue
 
             word_id = fields[0]
-            # Multiword ranges ("7-8") and empty nodes ("7.1") carry no
-            # morphology of their own; their component words do.
+            # Multiword ranges ("7-8") and empty nodes ("7.1") carry no morphology of their own; their component words do.
             if "-" in word_id or "." in word_id:
                 continue
 
@@ -242,8 +221,7 @@ PARSERS = {
 
 
 def detect_format(file_path: str | Path) -> str:
-    # For uploads and ad-hoc URLs with no manifest: extension first, then the
-    # leading bytes (XML starts with '<'; CoNLL-U is tab-separated text).
+    # For uploads and ad-hoc URLs with no manifest: extension first, then the leading bytes (XML starts with '<'; CoNLL-U is tab-separated text).
     file_path = Path(file_path)
     suffix = file_path.suffix.lower()
     if suffix in (".conllu", ".conll"):

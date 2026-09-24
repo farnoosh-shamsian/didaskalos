@@ -1,6 +1,4 @@
-## Frequency Syllabus
-#this code just generates a csv with the most frequent morph in the treebanks and calls it frequency_syllabus.csv. I use it for the smyth rag chatbot to creat lesson content. 
-# the frequency syllabus does not take into account the noun or adjective declension because there is no info on it yet in the datasets. soon to be added!
+# Frequency syllabus: generates frequency_syllabus.csv, the most frequent morph in the treebanks, for the Smyth RAG chatbot; noun and adjective declension is not counted, the datasets carry no info on it yet.
 
 import re
 import xml.etree.ElementTree as ET

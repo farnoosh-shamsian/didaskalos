@@ -32,8 +32,7 @@ function applyTheme(theme) {
   currentTheme = theme === "dark" ? "dark" : "light";
   document.documentElement.setAttribute("data-theme", currentTheme);
 
-  // The logo is one flat colour, so each theme gets its own file: the gold
-  // original on dark, the dark-ink recolour on light.
+  // The logo is one flat colour, so each theme gets its own file: the gold original on dark, the dark-ink recolour on light.
   for (const image of themedImages) {
     image.src =
       currentTheme === "dark" ? image.dataset.srcDark : image.dataset.srcLight;
@@ -65,8 +64,7 @@ function setLanguage(language) {
     node.textContent = node.dataset[language];
   }
 
-  // In-page nav targets differ per panel: the hidden panel's sections cannot be
-  // scrolled to, so each link points at the section inside the visible one.
+  // In-page nav targets differ per panel: the hidden panel's sections cannot be scrolled to, so each link points at the section inside the visible one.
   for (const link of localizedLinks) {
     const target = link.dataset[language === "fa" ? "hrefFa" : "hrefEn"];
     if (target) {

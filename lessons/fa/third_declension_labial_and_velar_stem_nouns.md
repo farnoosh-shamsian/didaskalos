@@ -79,4 +79,4 @@
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§4.35–4.39؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§240–255 (کلیات این صرف) و §256 (ستاک‌های لبی و کامی).
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§4.35–4.39؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§240–255 (کلیات این صرف) و §256 (ستاک‌های لبی و کامی).

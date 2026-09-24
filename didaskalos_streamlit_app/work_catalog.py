@@ -1,10 +1,4 @@
-# Author/work names for the treebank picker. Files are named by TLG/CTS
-# reference, and the XML <title> inside is an edition string ("Homeri Opera in
-# five volumes.") that several works by one author often share. So a curated
-# lookup maps the TLG author.work id to a clean (author, work) pair; anything
-# missing (custom URLs, uploads) falls back to a cleaned XML title. Add a work
-# with one "tlgAUTHOR.tlgWORK": ("Author", "Work") row. Names below were checked
-# against the Perseus catalog (https://catalog.perseus.org/).
+# Author/work names for the treebank picker: files are named by TLG/CTS reference and the XML <title> inside is an edition string ("Homeri Opera in five volumes.") that several works by one author often share, so a curated lookup maps the TLG author.work id to a clean (author, work) pair and anything missing (custom URLs, uploads) falls back to a cleaned XML title; add a work with one "tlgAUTHOR.tlgWORK": ("Author", "Work") row, and note that the names below were checked against the Perseus catalog (https://catalog.perseus.org/).
 from __future__ import annotations
 
 import re
@@ -102,11 +96,7 @@ WORK_CATALOG: dict[str, tuple[str, str]] = {
 }
 
 
-# Citation sigla, keyed as WORK_CATALOG is. Each value is (siglum,
-# leading_number): the LSJ-style abbreviation, and the fixed book/speech number
-# that belongs to the canonical reference but is missing from the treebank
-# subdoc (set for the orators only). format_citation composes
-# "{siglum} {leading_number}.{subdoc}", dropping empty parts.
+# Citation sigla, keyed as WORK_CATALOG is, each value being (siglum, leading_number): the LSJ-style abbreviation, and the fixed book/speech number that belongs to the canonical reference but is missing from the treebank subdoc (set for the orators only), which format_citation composes as "{siglum} {leading_number}.{subdoc}", dropping empty parts.
 WORK_CITATION: dict[str, tuple[str, str | None]] = {
     "tlg0003.tlg001": ("Thuc.", None),
     "tlg0007.tlg004": ("Plut. Lyc.", None),
@@ -204,8 +194,7 @@ def _strip_extension(file_name: str) -> str:
 
 
 def _tlg_key(file_name: str) -> str | None:
-    # The tlgAUTHOR.tlgWORK id from a filename, or None when it does not follow
-    # the TLG convention (custom URLs, arbitrary uploads).
+    # The tlgAUTHOR.tlgWORK id from a filename, or None when it does not follow the TLG convention (custom URLs, arbitrary uploads).
     parts = _strip_extension(file_name).split(".")
     if len(parts) >= 2 and parts[0].startswith("tlg") and parts[1].startswith("tlg"):
         return f"{parts[0]}.{parts[1]}"
@@ -213,10 +202,7 @@ def _tlg_key(file_name: str) -> str | None:
 
 
 def _tlg_from_document_id(document_id: str | None) -> str | None:
-    # The Gorman files are not TLG-named, but their CTS document_id identifies
-    # the work well enough to reuse the catalog.
-    # NaN (from a missing pandas category) is truthy, so check the type: a float
-    # would reach re.search and raise.
+    # The Gorman files are not TLG-named, but their CTS document_id identifies the work well enough to reuse the catalog; NaN (from a missing pandas category) is truthy, so check the type, since a float would reach re.search and raise.
     if not isinstance(document_id, str) or not document_id:
         return None
     # Newer CTS urn form: "...urn:cts:greekLit:tlg0540.tlg001.perseus-grc1".
@@ -231,13 +217,11 @@ def _tlg_from_document_id(document_id: str | None) -> str | None:
 
 
 def tlg_work_key(file_name: str, document_id: str | None = None) -> str | None:
-    # The key the picker groups on: files sharing one are one work, so a work
-    # split across passage files collapses into a single entry.
+    # The key the picker groups on: files sharing one are one work, so a work split across passage files collapses into a single entry.
     return _tlg_key(file_name) or _tlg_from_document_id(document_id)
 
 
-# Boilerplate cluttering the XML <title> of texts not in the catalog; the title
-# is cut at the first match.
+# Boilerplate cluttering the XML <title> of texts not in the catalog; the title is cut at the first match.
 _TITLE_BOILERPLATE = re.compile(
     r"(,?\s*(with an English translation|with an English Translation|"
     r"ed\.|edited by|translated by|in (two|three|four|five|twelve) volumes)\b.*)$",
@@ -259,9 +243,7 @@ def resolve_author_work(
     xml_title: str | None,
     document_id: str | None = None,
 ) -> tuple[str | None, str]:
-    # Catalog entries win, then the cleaned XML author and title, then the
-    # filename. author may be None, which the caller buckets under "Unknown
-    # author". No book/section suffix: files of one work collapse into one entry.
+    # Catalog entries win, then the cleaned XML author and title, then the filename; author may be None, which the caller buckets under "Unknown author", and there is no book/section suffix, so files of one work collapse into one entry.
     entry = WORK_CATALOG.get(tlg_work_key(file_name, document_id) or "")
     if entry:
         return entry
@@ -271,10 +253,7 @@ def resolve_author_work(
 
 
 def _clean_subdoc(subdoc: str | None) -> str:
-    # The usable passage reference, or "". subdoc is opaque (book.line, a
-    # Stephanus page, a bare section), so only whitespace and the empty /
-    # literal-"None" placeholders are rejected. A non-string (None, or the NaN a
-    # missing pandas category yields) means no reference.
+    # The usable passage reference, or "": subdoc is opaque (book.line, a Stephanus page, a bare section), so only whitespace and the empty / literal-"None" placeholders are rejected, and a non-string (None, or the NaN a missing pandas category yields) means no reference.
     if not isinstance(subdoc, str):
         return ""
     ref = subdoc.strip()
@@ -286,9 +265,7 @@ def format_citation(
     document_id: str | None,
     subdoc: str | None,
 ) -> str:
-    # A short citation: "Hdt. 1.1", "Hom. Il. 1.1-1.7", "Lys. 12.1". A work with
-    # no siglum falls back to "Author, Work", and with no passage reference the
-    # citation degrades to the work label; "" only when even that is unknown.
+    # A short citation: "Hdt. 1.1", "Hom. Il. 1.1-1.7", "Lys. 12.1"; a work with no siglum falls back to "Author, Work", with no passage reference the citation degrades to the work label, and "" only when even that is unknown.
     ref = _clean_subdoc(subdoc)
     entry = WORK_CITATION.get(tlg_work_key(file_name, document_id) or "")
     if entry:

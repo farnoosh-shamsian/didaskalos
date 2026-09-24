@@ -108,4 +108,4 @@
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§6.1–6.14؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§341–346 (صورت‌ها)، و نحو آن‌ها در §§1094–1098.
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§6.1–6.14؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§341–346 (صورت‌ها)، و نحو آن‌ها در §§1094–1098.

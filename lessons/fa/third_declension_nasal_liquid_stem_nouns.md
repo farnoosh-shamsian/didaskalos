@@ -60,4 +60,4 @@
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§4.53–4.64؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§259–261، و ستاک‌های ερ در تناوب با ρ در §262.
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§4.53–4.64؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§259–261، و ستاک‌های ερ در تناوب با ρ در §262.

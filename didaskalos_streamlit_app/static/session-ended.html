@@ -1,10 +1,5 @@
 <!DOCTYPE html>
-<!--
-  Landing page for a session closed by the idle watcher (see idle_timeout.py).
-  Static and self-contained on purpose: one plain HTTP request, no websocket and
-  no external fetches, so reaching it keeps no Cloud Run instance alive. Both
-  languages are inlined because a static file cannot read the app's locale JSON.
--->
+<!-- Landing page for a session closed by the idle watcher (see idle_timeout.py), static and self-contained on purpose: one plain HTTP request, no websocket and no external fetches, so reaching it keeps no Cloud Run instance alive, and both languages are inlined because a static file cannot read the app's locale JSON. -->
 <html lang="en">
 <head>
 <meta charset="utf-8">

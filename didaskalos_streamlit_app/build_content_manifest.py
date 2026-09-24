@@ -5,13 +5,10 @@ from pathlib import Path
 APP_DIR = Path(__file__).resolve().parent
 REPO_ROOT = APP_DIR.parent
 REGISTRY_PATH = REPO_ROOT / "treebanks" / "registry.json"
-# Written beside the app so the Docker build context carries it into the image:
-# discovery then needs no network at all, which is the only thing GitHub's rate
-# limiting cannot take away.
+# Written beside the app so the Docker build context carries it into the image: discovery then needs no network at all, which is the only thing GitHub's rate limiting cannot take away.
 MANIFEST_PATH = APP_DIR / "content_manifest.json"
 LESSON_PREFIXES = ("lessons/en/", "lessons/fa/")
-# Same slice the app used to range-request per file; enough for title/author and
-# the first <sentence> start tag, which carries the document_id.
+# Same slice the app used to range-request per file; enough for title/author and the first <sentence> start tag, which carries the document_id.
 HEADER_BYTES = 65536
 
 
@@ -67,8 +64,7 @@ def build_manifest() -> dict:
         suffix = _glob_suffix(corpus.get("file_glob", "*.xml"))
         entries = []
         for name in _files_under(prefix, suffix):
-            # Picker labels come from the manifest, so the app needs no per-file
-            # fetch; only XML carries a header to read them from.
+            # Picker labels come from the manifest, so the app needs no per-file fetch; only XML carries a header to read them from.
             title, author, document_id = (
                 _header_metadata(REPO_ROOT / prefix / name) if name.lower().endswith(".xml")
                 else (None, None, None)

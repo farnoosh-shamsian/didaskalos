@@ -1,9 +1,4 @@
-# Light/dark switch. Streamlit owns the theme: the palettes live in
-# .streamlit/config.toml and the frontend picks one from a value it caches in
-# localStorage, which no server-side API can change mid-session. So the switch
-# writes that cache key from the browser and reloads, the only thing that
-# repaints every widget. Hence the choice rides in the URL (?theme=) to survive
-# the reload, and a first visit pins light rather than following the OS.
+# Light/dark switch. Streamlit owns the theme: the palettes live in .streamlit/config.toml and the frontend picks one from a value it caches in localStorage, which no server-side API can change mid-session, so the switch writes that cache key from the browser and reloads, the only thing that repaints every widget; hence the choice rides in the URL (?theme=) to survive the reload, and a first visit pins light rather than following the OS.
 from __future__ import annotations
 
 import json
@@ -20,23 +15,17 @@ DEFAULT_THEME = "light"
 # The icon names the theme the button switches *to*.
 _THEME_ICONS = {"light": "☀", "dark": "☾"}
 
-# Containers for the two logo variants. Both are rendered and the stylesheet
-# below shows whichever suits the theme on screen, so the logo is never the
-# invisible ink-on-dark combination.
+# Containers for the two logo variants: both are rendered and the stylesheet below shows whichever suits the theme on screen, so the logo is never the invisible ink-on-dark combination.
 LOGO_CONTAINER_KEYS = {"light": "logo_light", "dark": "logo_dark"}
 
-# Streamlit internals: the frontend's names for the two palettes, and the version
-# of the key it caches the active one under (v2 as of Streamlit 1.56). If a
-# release renames either, the sync stops matching and the app opens in whatever
-# theme Streamlit picked; the reload guard keeps it from looping.
+# Streamlit internals: the frontend's names for the two palettes, and the version of the key it caches the active one under (v2 as of Streamlit 1.56); if a release renames either, the sync stops matching and the app opens in whatever theme Streamlit picked, and the reload guard keeps it from looping.
 _FRONTEND_THEME_NAMES = {"light": "Light", "dark": "Dark"}
 _ACTIVE_THEME_KEY_VERSION = 2
 
 _SCRIPT_ID = "didaskalos-theme-sync"
 _TOGGLE_SCRIPT_ID = "didaskalos-theme-toggle"
 
-# Streamlit's stylesheet exposes no custom properties, so the toggle is told its
-# colours: the text and accent of the theme it sits in.
+# Streamlit's stylesheet exposes no custom properties, so the toggle is told its colours: the text and accent of the theme it sits in.
 _TOGGLE_COLORS = {
     "light": {"ink": "#1f1c16", "hover": "#530707", "wash": "rgba(31, 28, 22, 0.10)"},
     "dark": {"ink": "#e7ded0", "hover": "#d4a87a", "wash": "rgba(231, 222, 208, 0.12)"},
@@ -86,8 +75,7 @@ _TOGGLE_CSS = """
   z-index: 999991;
 }
 
-/* Show the logo that suits the theme on screen. The script below stamps <html>
-   from the rendered background, so this holds however the theme was set. */
+/* Show the logo that suits the theme on screen: the script below stamps <html> from the rendered background, so this holds however the theme was set. */
 html[data-didaskalos-theme="light"] .st-key-%(dark_logo)s,
 html[data-didaskalos-theme="dark"] .st-key-%(light_logo)s,
 html:not([data-didaskalos-theme]) .st-key-%(unstamped_logo)s {
@@ -102,8 +90,7 @@ html:not([data-didaskalos-theme]) .st-key-%(unstamped_logo)s {
 </style>
 """
 
-# Keeps one toggle in the toolbar. The link is the app's own node, not a widget,
-# so React never reconciles it; the observer puts it back if a re-render drops it.
+# Keeps one toggle in the toolbar: the link is the app's own node, not a widget, so React never reconciles it, and the observer puts it back if a re-render drops it.
 _TOGGLE_JS = """
 (function () {
   var SETTINGS = __SETTINGS__;
@@ -197,8 +184,7 @@ _TOGGLE_JS = """
 })();
 """
 
-# Runs in the app document (see idle_timeout for why). Reloads only when the page
-# is showing the wrong theme, so the common case costs nothing.
+# Runs in the app document (see idle_timeout for why), and reloads only when the page is showing the wrong theme, so the common case costs nothing.
 _SYNC_JS = """
 (function () {
   var WANTED = __WANTED__;
@@ -246,8 +232,7 @@ _SYNC_JS = """
 })();
 """
 
-# components.html renders a sandboxed iframe whose scripts cannot navigate the
-# top-level page, so this injects the sync into the app document instead.
+# components.html renders a sandboxed iframe whose scripts cannot navigate the top-level page, so this injects the sync into the app document instead.
 _BOOTSTRAP_JS = """
 <script>
 (function () {
@@ -268,10 +253,7 @@ _BOOTSTRAP_JS = """
 
 
 def resolve_theme() -> str:
-    # The active theme, seeded into session state from the URL. Same order as the
-    # language: URL -> session state -> default. This is the intent for a page
-    # load, not what the browser is showing; anything that must match the screen
-    # (logo, toggle direction, idle overlay) reads the browser instead.
+    # The active theme, seeded into session state from the URL, in the same order as the language (URL -> session state -> default): this is the intent for a page load, not what the browser is showing, and anything that must match the screen (logo, toggle direction, idle overlay) reads the browser instead.
     requested = st.query_params.get("theme")
     if requested in THEMES and requested != st.session_state.get("theme"):
         st.session_state["theme"] = requested
@@ -297,11 +279,7 @@ def render_theme_sync(theme: str) -> None:
 
 
 def render_theme_toggle(lang: str, theme: str) -> None:
-    # The toggle goes in Streamlit's top toolbar, as a plain link rather than an
-    # st.button: switching reloads the page anyway, so a link carrying the new
-    # ?theme= does in one navigation what a widget would do in a rerun and a
-    # reload, and it is a node the app owns rather than a React-managed one.
-    # Both directions are sent over; the script picks by what is on screen.
+    # The toggle goes in Streamlit's top toolbar as a plain link rather than an st.button: switching reloads the page anyway, so a link carrying the new ?theme= does in one navigation what a widget would do in a rerun and a reload, and it is a node the app owns rather than a React-managed one; both directions are sent over and the script picks by what is on screen.
     settings = {
         "keyVersion": _ACTIVE_THEME_KEY_VERSION,
         **{

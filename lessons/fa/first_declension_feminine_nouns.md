@@ -79,4 +79,4 @@
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§4.2–4.7، با صورت‌های ایونی در §25.15؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§211–221، و اسم‌های مدغم در §227.
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§4.2–4.7، با صورت‌های ایونی در §25.15؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§211–221، و اسم‌های مدغم در §227.

@@ -68,4 +68,4 @@
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§4.8–4.13؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§222–226.
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§4.8–4.13؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§222–226.

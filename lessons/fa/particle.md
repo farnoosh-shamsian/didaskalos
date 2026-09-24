@@ -87,4 +87,4 @@
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§59.1–59.76؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§2769–2774 (کلیات ادات) و §§2775–3003 (تک‌تک ادات).
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§59.1–59.76؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§2769–2774 (کلیات ادات) و §§2775–3003 (تک‌تک ادات).

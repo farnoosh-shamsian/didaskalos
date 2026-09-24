@@ -1,5 +1,4 @@
-/* Palette taken from farnoosh-shamsian.github.io so the two sites read as one.
-   The gold is the one addition: it is the logo's own colour. */
+/* Palette taken from farnoosh-shamsian.github.io so the two sites read as one; the gold is the one addition, being the logo's own colour. */
 
 :root {
   --primary-color: #530707;
@@ -10,24 +9,18 @@
   --text-color: #1f1c16;
   --link-color: #530707;
   --accent-gold: #d4a87a;
-  /* Small filled surfaces take a brownish red, not the heading red, which reads
-     too hot against the sand. */
+  /* Small filled surfaces take a brownish red, not the heading red, which reads too hot against the sand. */
   --deep-red: #3a1712;
   /* Text sitting on one of those filled surfaces. */
   --on-accent: #cacbc4;
-  /* Rules and borders carry 3:1 against the ground they sit on, so an edge is
-     still an edge with reduced contrast sensitivity. Hence the dark hairline
-     rather than the faint one the sand would otherwise invite. */
+  /* Rules and borders carry 3:1 against the ground they sit on, so an edge is still an edge with reduced contrast sensitivity, hence the dark hairline rather than the faint one the sand would otherwise invite. */
   --rule-color: rgba(31, 28, 22, 0.55);
   --figure-tint: rgba(31, 28, 22, 0.10);
   --header-font-size: clamp(26px, 2.4vw, 38px);
   --nav--font-size: clamp(16px, 1vw, 20px);
 }
 
-/* Dark theme, applied only when the visitor asks for it — never from the OS
-   setting. A script in <head> stamps data-theme before the first paint.
-   The red inverts rather than darkens: on a dark ground a deep red button reads
-   as a hole, so filled accents become gold with dark text. */
+/* Dark theme, applied only when the visitor asks for it and never from the OS setting, a script in <head> stamping data-theme before the first paint; the red inverts rather than darkens, since on a dark ground a deep red button reads as a hole, so filled accents become gold with dark text. */
 :root[data-theme="dark"] {
   --primary-color: #d4a87a;
   --article-header-color: #e0b68a;
@@ -69,8 +62,7 @@ body {
   line-height: 1.9;
 }
 
-/* Identifiers that must survive a line break intact — model ids and the like
-   would otherwise split at their hyphens. */
+/* Identifiers that must survive a line break intact: model ids and the like would otherwise split at their hyphens. */
 .no-break {
   white-space: nowrap;
 }
@@ -86,8 +78,7 @@ header {
   border-bottom: 1px solid var(--rule-color);
 }
 
-/* The brand is the logo's wordmark, not set text: the name alone, without the
-   emblem or rule. Its height is tied to the old title's font size. */
+/* The brand is the logo's wordmark, not set text: the name alone, without the emblem or rule, its height tied to the old title's font size. */
 header h1 {
   order: 1;
   margin: 0;
@@ -400,11 +391,9 @@ nav ul li a:hover {
   font-size: 1.2em;
   border-radius: 5px;
   flex-basis: 30%;
-  /* Faded, but not so far that the card's own body text drops under 4.5:1 —
-     the hover that restores it never arrives on touch or by keyboard. */
+  /* Faded, but not so far that the card's own body text drops under 4.5:1, the hover that restores it never arriving on touch or by keyboard. */
   opacity: 0.85;
-  /* Only what the hover changes: `all` would fade the card's colours on every
-     theme switch. */
+  /* Only what the hover changes: `all` would fade the card's colours on every theme switch. */
   transition: opacity ease-in-out 0.5s, transform ease-in-out 0.5s;
 }
 
@@ -598,8 +587,7 @@ nav ul li a:hover {
 
 /* Known limitations */
 
-/* The type scales with the column so the line stays at its current length: a
-   wider measure at the old size would run past 100 characters. */
+/* The type scales with the column so the line stays at its current length: a wider measure at the old size would run past 100 characters. */
 .limits {
   max-width: 960px;
   margin: 0 auto;

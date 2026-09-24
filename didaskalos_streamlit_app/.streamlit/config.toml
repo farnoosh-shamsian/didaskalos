@@ -1,18 +1,4 @@
-# Two custom palettes rather than one. Defining [theme.light] and [theme.dark]
-# is what makes Streamlit offer an appearance choice at all: with a single
-# [theme] table the custom theme is the only theme and the switcher is empty.
-# Anything declared here is inherited by both, so every colour lives in one of
-# the two sections below.
-#
-# The colours are the project site's own (docs/assets/styles.css), so the app and
-# the page it is linked from read as one thing: sand ground and deep red on
-# light, the logo's gold on near-black brown for dark. The site's rule about the
-# red holds here too — a saturated red is only ever text or a small filled
-# surface, and on dark it gives way to the gold entirely.
-#
-# borderColor is far darker than the ground it draws on, on purpose: it is the
-# only thing marking where an input begins, and a hairline tinted to match the
-# sand disappears for anyone reading with reduced contrast sensitivity.
+# Two custom palettes rather than one, because defining [theme.light] and [theme.dark] is what makes Streamlit offer an appearance choice at all, so every colour lives in one of the two sections below; the colours are the project site's own (docs/assets/styles.css) so the app and the page it is linked from read as one thing, sand ground and deep red on light and the logo's gold on near-black brown on dark, with a saturated red only ever text or a small filled surface and giving way to the gold entirely on dark; borderColor is far darker than its ground on purpose, being the only thing marking where an input begins, and a hairline tinted to match the sand disappears for anyone reading with reduced contrast sensitivity.
 [theme]
 font = "sans-serif"
 
@@ -40,7 +26,5 @@ dataframeHeaderBackgroundColor = "#362923"
 headless = true
 port = 8080
 enableCORS = false
-# Serves ./static/ at /app/static/. The idle watcher parks timed-out tabs on
-# static/session-ended.html, which has to be reachable without opening a
-# Streamlit session — that is the whole point of sending them there.
+# Serves ./static/ at /app/static/, so the idle watcher's static/session-ended.html is reachable without opening a Streamlit session, which is the whole point of sending timed-out tabs there.
 enableStaticServing = true

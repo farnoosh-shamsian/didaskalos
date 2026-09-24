@@ -188,4 +188,4 @@ _نکته‌های کلیدی_
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§30.8–30.19؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§1551–1635.
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§30.8–30.19؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§1551–1635.

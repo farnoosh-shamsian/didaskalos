@@ -1,8 +1,4 @@
-# Run before committing a new treebank, to check it parses into the schema the
-# pipeline expects and that its morphology decodes into syllabus categories:
-#     py -3 validate_treebank.py <file> [--format agdt-xml|conllu]
-# Without --format the format is auto-detected. Exit code is non-zero when the
-# file yields no tokens.
+# Run before committing a new treebank, to check it parses into the schema the pipeline expects and that its morphology decodes into syllabus categories: py -3 validate_treebank.py <file> [--format agdt-xml|conllu], the format auto-detected without --format, and the exit code non-zero when the file yields no tokens.
 from __future__ import annotations
 
 import argparse
@@ -47,8 +43,7 @@ def main() -> int:
     missing = int((postags == "").sum())
     syllabus = postags.apply(parse_postag)
     pos_category = postags.apply(parse_pos_category)
-    # A real word whose postag yields no syllabus label. A high count means the
-    # postag map is wrong.
+    # A real word whose postag yields no syllabus label; a high count means the postag map is wrong.
     undecodable = int(((syllabus == "NA") & (pos_category != "other")).sum())
 
     print(f"Sentences:            {df['sentence_id'].nunique()}")

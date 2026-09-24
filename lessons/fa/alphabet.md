@@ -214,4 +214,4 @@
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§1.1–1.97 و، برای تکیه‌گذاری، §§24.1–24.42؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§1–26 و، برای تکیه‌گذاری، §§149–187.
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§1.1–1.97 و، برای تکیه‌گذاری، §§24.1–24.42؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§1–26 و، برای تکیه‌گذاری، §§149–187.

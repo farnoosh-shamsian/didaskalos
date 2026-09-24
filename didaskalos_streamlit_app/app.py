@@ -61,8 +61,7 @@ st.set_page_config(
     layout="wide",
 )
 
-# Active language. Session state is wiped by a websocket reconnect, so the URL
-# query param is the durable store. Order: URL -> session_state -> default.
+# Active language, read URL -> session_state -> default: a websocket reconnect wipes session state, so the query param is the durable store.
 qp_lang = st.query_params.get("lang")
 if qp_lang in AVAILABLE_LANGS and qp_lang != st.session_state.get("lang"):
     # Seeding a widget key is only allowed before its widget is instantiated.
@@ -86,9 +85,7 @@ def _sync_lang_query_param() -> None:
     # Selectbox on_change hook: mirror the new choice into the URL.
     st.query_params["lang"] = st.session_state["lang"]
 
-# Greek wordmark, in two inks: the "-ink" file is the dark red-brown recolour for
-# the light theme, the plain one the logo's own gold for the dark sidebar. Both
-# are rendered and theme.py's stylesheet hides the one that would be invisible.
+# Greek wordmark in two inks: the "-ink" file is the dark red-brown recolour for the light theme, the plain one the logo's own gold for the dark sidebar; both are rendered and theme.py's stylesheet hides the one that would be invisible.
 LOGO_IMAGE_STEM = "greek"
 
 
@@ -99,16 +96,14 @@ def _logo_image_path(theme: str) -> Path:
 LOGO_IMAGE_PATHS = {
     variant: _logo_image_path(variant) for variant in LOGO_CONTAINER_KEYS
 }
-# Cover logo for the exported textbook, inlined so a downloaded HTML file still
-# shows it offline. The markdown export keeps the plain URL instead.
+# Cover logo for the exported textbook, inlined so a downloaded HTML file still shows it offline; the markdown export keeps the plain URL instead.
 TEXTBOOK_LOGO_PATH = APP_DIR / "assets" / "textbook-logo.svg"
 textbook_logo_data_uri = ""
 if TEXTBOOK_LOGO_PATH.exists():
     encoded_logo = base64.b64encode(TEXTBOOK_LOGO_PATH.read_bytes()).decode("ascii")
     textbook_logo_data_uri = f"data:image/svg+xml;base64,{encoded_logo}"
 
-# Type scale. The prose blocks are 1.2rem, so the controls and captions that do
-# the actual work follow them up rather than sitting at Streamlit's defaults.
+# Type scale: the prose blocks are 1.2rem, so the controls and captions that do the actual work follow them up rather than sitting at Streamlit's defaults.
 st.markdown(
     """
     <style>
@@ -145,23 +140,16 @@ GITHUB_BRANCH = "main"
 GITHUB_TREE_API = f"https://api.github.com/repos/{GITHUB_OWNER}/{GITHUB_REPO}/git/trees/{GITHUB_BRANCH}?recursive=1"
 GITHUB_RAW_BASE = f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{GITHUB_BRANCH}"
 TREEBANK_PREFIX = "treebanks/perseus/"
-# Manifest of treebank collections (folder + format + provenance). Drives
-# discovery when present; falls back to TREEBANK_PREFIX when missing.
+# Manifest of treebank collections (folder + format + provenance); drives discovery when present, falls back to TREEBANK_PREFIX when missing.
 TREEBANK_REGISTRY_PATH = "treebanks/registry.json"
-# Generated file list for the treebank and lesson folders, shipped inside the
-# image. GitHub rate limits both the tree API (per IP, and Cloud Run's egress
-# address is shared) and raw.githubusercontent.com, so anything fetched at
-# startup can vanish; reading the manifest off disk cannot.
+# Generated file list for the treebank and lesson folders, shipped inside the image: GitHub rate limits both the tree API (per IP, and Cloud Run's egress address is shared) and raw.githubusercontent.com, so anything fetched at startup can vanish where reading the manifest off disk cannot.
 CONTENT_MANIFEST_PATH = "didaskalos_streamlit_app/content_manifest.json"
 LOCAL_CONTENT_MANIFEST = Path(__file__).resolve().parent / "content_manifest.json"
 FETCH_TIMEOUT_SECONDS = 20
 FETCH_MAX_WORKERS = 8
-# Title/author live in the XML header, so a bounded range read fills the selector
-# table without downloading whole files (the Iliad is ~20 MB).
+# Title/author live in the XML header, so a bounded range read fills the selector table without downloading whole files (the Iliad is ~20 MB).
 METADATA_HEADER_BYTES = 65536
-# One lesson folder per language, holding case and declension modules alike.
-# Filenames are the same across languages, so a translated file shadows its
-# English counterpart and missing ones fall back.
+# One lesson folder per language, holding case and declension modules alike; filenames are the same across languages, so a translated file shadows its English counterpart and missing ones fall back.
 LESSON_PREFIX = "lessons/en/"
 LOCALIZED_LESSON_PREFIXES = {"fa": "lessons/fa/"}
 LESSON_PREFIXES = (LESSON_PREFIX,) + tuple(LOCALIZED_LESSON_PREFIXES.values())
@@ -175,8 +163,7 @@ STARTER_LESSON_FILES = [
     "using_a_dictionary.md",
     "greek_dialects.md",
 ]
-# Not a lesson: the syntax reference closes the book, so it is never selected by
-# the syllabus but must always be downloaded with it.
+# Not a lesson: the syntax reference closes the book, so it is never selected by the syllabus but must always be downloaded with it.
 REFERENCE_LESSON_FILES = ["syntax_reference.md"]
 
 
@@ -232,10 +219,7 @@ def _extract_xml_metadata(xml_bytes: bytes) -> tuple[str | None, str | None, str
 
 
 def _extract_xml_metadata_from_header(header_bytes: bytes) -> tuple[str | None, str | None, str | None]:
-    # A range read gives a truncated document, so use a pull parser rather than
-    # ET.fromstring. <title>/<author> close inside the header; the first
-    # <sentence> start tag carries the document_id and ends the header, so
-    # reaching it means everything available has been read.
+    # A range read gives a truncated document, so use a pull parser rather than ET.fromstring: <title>/<author> close inside the header, and the first <sentence> start tag carries the document_id and ends the header, so reaching it means everything available has been read.
     parser = ET.XMLPullParser(events=("start", "end"))
     title: str | None = None
     author: str | None = None
@@ -285,9 +269,7 @@ def _normalize_url(url: str) -> str:
     return urlunsplit((parts.scheme, parts.netloc, path, query, fragment))
 
 
-# GitHub answers a burst of requests with 429 and occasionally 503. A short
-# bounded backoff clears both far more often than not, and the local and manifest
-# fallbacks still cover the case where it does not.
+# GitHub answers a burst of requests with 429 and occasionally 503; a short bounded backoff clears both far more often than not, and the local and manifest fallbacks still cover the case where it does not.
 RETRY_STATUS_CODES = (429, 503)
 FETCH_RETRIES = 2
 FETCH_RETRY_MAX_WAIT_SECONDS = 5
@@ -314,8 +296,7 @@ def _urlopen_bytes(request: Request, max_bytes: int | None = None) -> bytes:
     raise RuntimeError("unreachable")
 
 
-# Cached for the life of the process so a rerun never re-downloads a file.
-# Failures raise rather than return None, so transient errors are not memoized.
+# Cached for the life of the process so a rerun never re-downloads a file; failures raise rather than return None, so transient errors are not memoized.
 @st.cache_data(show_spinner=False, max_entries=256)
 def _fetch_url_bytes(url: str) -> bytes:
     source_url = _normalize_url(url)
@@ -329,9 +310,7 @@ def _fetch_url_bytes(url: str) -> bytes:
         raise
 
 
-# Range request for the header bytes only; read() still caps at max_bytes if a
-# server ignores Range. Cached apart from _fetch_url_bytes so header slices and
-# full payloads never evict or shadow each other.
+# Range request for the header bytes only, read() still capping at max_bytes if a server ignores Range; cached apart from _fetch_url_bytes so header slices and full payloads never evict or shadow each other.
 @st.cache_data(show_spinner=False, max_entries=256)
 def _fetch_url_header_bytes(url: str, max_bytes: int = METADATA_HEADER_BYTES) -> bytes:
     source_url = _normalize_url(url)
@@ -404,8 +383,7 @@ def _download_url_records_to_dir(records: list[dict], suffix_dir_name: str) -> t
     return target_dir, enriched_records
 
 
-# Why a discovery source came back empty, so the app can say so instead of
-# showing a bare "no treebanks" and leaving the cause to guesswork.
+# Why a discovery source came back empty, so the app can say so instead of showing a bare "no treebanks" and leaving the cause to guesswork.
 _DISCOVERY_ERRORS: dict[str, str] = {}
 
 
@@ -437,8 +415,7 @@ def _github_tree_paths() -> list[str]:
 
 @st.cache_data(show_spinner=False)
 def load_content_manifest() -> dict:
-    # Disk first: the copy in the image is the one source no rate limit can take
-    # away. The fetch is the fallback for a checkout without a generated manifest.
+    # Disk first, the copy in the image being the one source no rate limit can take away; the fetch is the fallback for a checkout without a generated manifest.
     raw: bytes | None = None
     if LOCAL_CONTENT_MANIFEST.is_file():
         try:
@@ -462,8 +439,7 @@ def load_content_manifest() -> dict:
 
 
 def _manifest_entries(section: str, prefix: str) -> dict[str, dict]:
-    # Path -> the file's manifest record. Lessons list bare names, treebanks carry
-    # the header metadata the picker labels rows with.
+    # Path -> the file's manifest record: lessons list bare names, treebanks carry the header metadata the picker labels rows with.
     folders = load_content_manifest().get(section)
     if not isinstance(folders, dict):
         return {}
@@ -481,8 +457,7 @@ def _manifest_entries(section: str, prefix: str) -> dict[str, dict]:
 
 
 def _discover_paths(section: str, prefix: str, suffix: str) -> list[str]:
-    # Manifest and live tree merged: the manifest keeps discovery working while the
-    # API is unreachable, the API picks up files pushed since the manifest was built.
+    # Manifest and live tree merged: the manifest keeps discovery working while the API is unreachable, the API picks up files pushed since the manifest was built.
     paths = set(_manifest_entries(section, prefix))
     paths.update(
         path
@@ -560,8 +535,7 @@ def load_registered_treebank_urls() -> list[dict]:
     return sorted(entries, key=lambda entry: entry["url"])
 
 
-# Memoized on the URL set so a rerun reuses the records instead of re-running
-# the parallel metadata prefetch.
+# Memoized on the URL set so a rerun reuses the records instead of re-running the parallel metadata prefetch.
 @st.cache_data(show_spinner=False)
 def _build_records_from_urls(urls: list[str], extract_xml_metadata: bool = False) -> list[dict]:
     used_names = set()
@@ -636,8 +610,7 @@ def _resolve_default_lesson_urls(lang: str = DEFAULT_LANG) -> list[str]:
 
 
 def _merge_treebank_entries(default_entries: list[dict], custom_urls: list[str]) -> list[dict]:
-    # Registry defaults first, then user-pasted URLs. The latter have no
-    # manifest, so their format is left None for the parser to auto-detect.
+    # Registry defaults first, then user-pasted URLs, which have no manifest, so their format is left None for the parser to auto-detect.
     seen = {entry["url"] for entry in default_entries}
     entries = list(default_entries)
     for url in custom_urls:
@@ -653,11 +626,7 @@ def _merge_treebank_entries(default_entries: list[dict], custom_urls: list[str])
 
 def _build_treebank_records(entries: list[dict]) -> list[dict]:
     used_names = set()
-    # The manifest already carries every listed file's header metadata, so a read
-    # over the network is left for what it cannot cover: a pasted URL, or a file
-    # pushed since the manifest was built. Reading all of them was what made the
-    # picker slow and tripped GitHub's rate limit. CoNLL-U has no header at all
-    # and takes its author from the registry.
+    # The manifest already carries every listed file's header metadata, so a read over the network is left for what it cannot cover, a pasted URL or a file pushed since the manifest was built; reading all of them was what made the picker slow and tripped GitHub's rate limit, and CoNLL-U has no header at all and takes its author from the registry.
     urls_needing_meta = [
         entry["url"]
         for entry in entries
@@ -735,16 +704,14 @@ def _build_treebank_display_table(records: list[dict]) -> pd.DataFrame:
     df = pd.DataFrame(records)
     if df.empty:
         return df
-    # Clean author/work labels from the curated catalog, so the picker never
-    # shows a raw TLG filename or source URL.
+    # Clean author/work labels from the curated catalog, so the picker never shows a raw TLG filename or source URL.
     resolved = [
         resolve_author_work(rec["file"], rec.get("author"), rec.get("title"), rec.get("document_id"))
         for rec in records
     ]
     df["display_author"] = [author for author, _ in resolved]
     df["display_work"] = [work for _, work in resolved]
-    # The work key collapses a work split across many passage files into one
-    # picker entry; texts with no TLG id fall back to their file name.
+    # The work key collapses a work split across many passage files into one picker entry; texts with no TLG id fall back to their file name.
     df["work_key"] = [
         tlg_work_key(rec["file"], rec.get("document_id")) or rec["file"]
         for rec in records
@@ -754,8 +721,7 @@ def _build_treebank_display_table(records: list[dict]) -> pd.DataFrame:
     return df[["file", "display_author", "display_work", "work_key", "corpus_id", "corpus_name"]]
 
 
-# st.fragment (stable in 1.37, experimental in 1.33) lets the treebank grid rerun
-# on its own; an older Streamlit degrades to running the selector inline.
+# st.fragment (stable in 1.37, experimental in 1.33) lets the treebank grid rerun on its own; an older Streamlit degrades to running the selector inline.
 st_fragment = getattr(st, "fragment", None) or getattr(st, "experimental_fragment", None)
 if st_fragment is None:
     def st_fragment(func):
@@ -800,8 +766,7 @@ def _tb_checkbox_key(item_id: str) -> str:
 
 
 def _aggregate_works(available_treebanks: pd.DataFrame, lang: str) -> dict[str, dict]:
-    # Collapse the per-file table into one entry per whole work, keyed on
-    # (corpus, work_key): item_id -> {author, work, corpus_id, corpus_name, files}.
+    # Collapse the per-file table into one entry per whole work, keyed on (corpus, work_key): item_id -> {author, work, corpus_id, corpus_name, files}.
     items: dict[str, dict] = {}
     for _, row in available_treebanks.iterrows():
         corpus_id = row.get("corpus_id")
@@ -824,10 +789,7 @@ def _aggregate_works(available_treebanks: pd.DataFrame, lang: str) -> dict[str, 
 
 @st_fragment
 def render_treebank_selector(available_treebanks: pd.DataFrame, lang: str) -> None:
-    # A fragment, so ticking a checkbox reruns only this block and not the
-    # sidebar's metadata prefetch. One checkbox per whole work, grouped under a
-    # single author name; ticking it selects all of that work's files, and the
-    # union goes to session state.
+    # A fragment, so ticking a checkbox reruns only this block and not the sidebar's metadata prefetch: one checkbox per whole work, grouped under a single author name, ticking it selects all of that work's files, and the union goes to session state.
     st.subheader(t("available_treebanks_header", lang))
     # Keyed so the type scale can tell this instruction from the fine print.
     with st.container(key="tbhint"):
@@ -855,8 +817,7 @@ def render_treebank_selector(available_treebanks: pd.DataFrame, lang: str) -> No
 
 
 def _render_sources_note(records: list[dict], lang: str) -> None:
-    # Corpus attribution as a caption beneath the picker; CC BY-SA requires the
-    # credit be shown somewhere.
+    # Corpus attribution as a caption beneath the picker; CC BY-SA requires the credit be shown somewhere.
     seen: set[tuple[str, str]] = set()
     parts: list[str] = []
     for rec in records:
@@ -1016,8 +977,7 @@ if build_clicked:
         )
         frequency_syllabus = build_frequency_syllabus(combined_df)
 
-        # Front-matter "About This Textbook" data. Works are deduped by TLG work
-        # key; corpora are enriched from the registry for their source links.
+        # Front-matter "About This Textbook" data: works are deduped by TLG work key, corpora are enriched from the registry for their source links.
         corpus_meta = {c["id"]: c for c in load_treebank_registry() if c.get("id")}
         summary_works: list[tuple[str | None, str]] = []
         seen_work_keys: set[str] = set()
@@ -1079,13 +1039,10 @@ if build_clicked:
             logo_data_uri=textbook_logo_data_uri or None,
         )
 
-    # is_deponent is an internal flag driving the deponent lesson, not treebank
-    # data, so it stays out of the export. Selecting columns in to_csv avoids
-    # copying the frame just to drop one column.
+    # is_deponent is an internal flag driving the deponent lesson, not treebank data, so it stays out of the export; selecting columns in to_csv avoids copying the frame just to drop one column.
     combined_csv_columns = [column for column in combined_df.columns if column != "is_deponent"]
 
-    # Kept in session state so later reruns do not rebuild. CSV bytes are made
-    # once here rather than holding the full token frame per session.
+    # Kept in session state so later reruns do not rebuild; CSV bytes are made once here rather than holding the full token frame per session.
     st.session_state["build_result"] = {
         "treebank_count": len(selected_treebank_files),
         "token_rows": int(len(combined_df)),

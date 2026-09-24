@@ -95,4 +95,4 @@ pos: syntax
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§49.1–49.28؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§2280–2368.
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§49.1–49.28؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§2280–2368.

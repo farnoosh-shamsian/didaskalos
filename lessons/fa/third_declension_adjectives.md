@@ -86,4 +86,4 @@
 
 ---
 
-**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§5.17–5.25؛ و در *A Greek Grammar for Colleges* اسمیت (1920): §§291–293 (صرف صامتی) و §§294–299 (ترکیب صرف صامتی و مصوتی).
+**خواندن بیشتر.** این موضوع در *Cambridge Grammar of Classical Greek* (Cambridge, 2018) بررسی شده است: §§5.17–5.25؛ و در *A Greek Grammar for Colleges* اسمایت (1920): §§291–293 (صرف صامتی) و §§294–299 (ترکیب صرف صامتی و مصوتی).
