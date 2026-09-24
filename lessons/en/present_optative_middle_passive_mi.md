@@ -18,7 +18,7 @@ The optative expresses a wish, a possibility, or — most often in prose — wha
 | **δύναιτο** | he might be able |
 | **ἱσταῖτο** | he might stand |
 
-δύναμαι and ἐπίσταμαι are middle-only, so this is the *only* optative they have — and δύναιτο is by a wide margin the commonest form in the whole lesson.
+δύναμαι and ἐπίσταμαι are deponent, so this is the *only* optative they have — and δύναιτο is by a wide margin the commonest form in the whole lesson.
 
 ---
 

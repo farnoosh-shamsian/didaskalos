@@ -57,7 +57,7 @@ The endings are *active* in shape — ‑ην, ‑ης, ‑η — even though th
 
 ### 2.3 Deponents
 
-Middle-only verbs use the middle set with active meaning, and this is where most "middle/passive" aorist tags come from:
+Deponents use the middle set with active meaning, and this is where most "middle/passive" aorist tags come from:
 
 | Verb | Aorist | Meaning |
 | --- | --- | --- |

@@ -52,7 +52,7 @@ Both end in ‑οσθαι; the reduplication vowel (δι‑ vs. δε‑) and the
 | **2. Accent on the penult** | δεδόσθαι, τεθεῖσθαι, δεδυνῆσθαι — fixed, unlike the recessive present. |
 | **3. No augment** | An augment would make it the pluperfect indicative ἐδέδοτο. |
 | **4. Indirect statement keeps the tense** | φησὶ δεδόσθαι "he says it has been given". |
-| **5. δεδυνῆσθαι is active in meaning** | "To have been able" — δύναμαι is middle-only. |
+| **5. δεδυνῆσθαι is active in meaning** | "To have been able" — δύναμαι is deponent. |
 
 ---
 

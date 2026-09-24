@@ -44,6 +44,7 @@ The great majority of verbs. Take the aorist passive stem in ‑θη‑ and add 
 | τιμάω "honor" | ἐτιμήθην | **τιμηθῆναι** | to be honored |
 | ποιέω "make" | ἐποιήθην | **ποιηθῆναι** | to be made |
 | λέγω "say" | ἐλέχθην | **λεχθῆναι** | to be said |
+| σῴζω "save" | ἐσώθην | **σωθῆναι** | to be saved |
 
 *Note the consonant changes before ‑θη‑: πειθ‑ → πεισ‑, ἀγ‑ → ἀχ‑, λεγ‑ → λεχ‑. These are regular and worth learning as a set.*
 
@@ -58,9 +59,6 @@ A smaller group forms the passive without θ. The stem often shows a changed vow
 | βλάπτω "harm" | ἐβλάβην | **βλαβῆναι** | to be harmed |
 | στέλλω "send" | ἐστάλην | **σταλῆναι** | to be sent |
 | φθείρω "destroy" | ἐφθάρην | **φθαρῆναι** | to be destroyed |
-| σῴζω "save" | ἐσώθην¹ | **σωθῆναι** | to be saved |
-
-¹ σῴζω is in fact a first (θη) passive — listed here because σωθῆναι is so frequent that it is worth memorizing alongside the others.
 
 > **The two types mean the same thing.** The difference is purely morphological — a matter of which stem the verb takes — and carries no difference of aspect, time or force.
 

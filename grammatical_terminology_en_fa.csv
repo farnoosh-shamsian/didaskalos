@@ -153,7 +153,7 @@ indirect object,مفعول باواسطه,syntax & usage,
 predicate,مسند,syntax & usage,
 copular verb,فعل ربطی,syntax & usage,
 complement,مکمل,syntax & usage,Didakta term (was متمم)
-agent,کنشگر,syntax & usage
+agent,کنشگر,syntax & usage,
 circumstantial participle,وجه وصفی قیدی,syntax & usage,
 possession,مالکیت,syntax & usage,
 direct address,خطاب مستقیم,syntax & usage,
@@ -264,7 +264,7 @@ primary tense,زمان اصلی,verb,
 lexicalization,واژگانی‌شدن,verb,
 sigma stem,ستاک سیگمایی,noun & case,
 genitive of time,اضافهٔ زمان,noun & case,not used in the Persian lessons; suggested equivalent
-three-ending adjective,صفت سه‌پایانه‌ای,adjective & comparison,not used in the Persian lessons; suggested equivalent
+three-ending adjective,صفت سه‌پایانه‌ای,adjective & comparison,
 indirect discourse,گفتار غیرمستقیم,syntax & usage,not used in the Persian lessons; suggested equivalent
 indirect question,پرسش غیرمستقیم,syntax & usage,
 complementary infinitive,مصدر متمّمی,syntax & usage,not used in the Persian lessons; suggested equivalent
@@ -281,7 +281,7 @@ indefinite clause,بند نامعین,syntax & usage,not used in the Persian les
 indefinite relative,موصول نامعین,syntax & usage,not used in the Persian lessons; suggested equivalent
 predicate nominative,مسند نهادی,syntax & usage,not used in the Persian lessons; suggested equivalent
 verbs of motion,افعال حرکت,syntax & usage,not used in the Persian lessons; suggested equivalent
-recessive accent,تکیهٔ پس‌رو,phonology & writing,not used in the Persian lessons; suggested equivalent
+recessive accent,تکیهٔ پس‌گرا,phonology & writing,
 accent shift,جابه‌جایی تکیه,phonology & writing,not used in the Persian lessons; suggested equivalent
 compensatory lengthening,کشش جبرانی,phonology & writing,
 headword,مدخل,general & historical,صورتی که در متن همه‌جا به کار می‌رود؛ lemma در برنامه صورت مدخل است
@@ -292,3 +292,4 @@ pseudo-sigmatic aorist,گذشتهٔ تام شبه‌سیگمادار,verb,
 verbs of grooming,افعال پیرایش و نظافت,verb,
 causative active,معلوم سببی,verb,
 passive-only verb (passiva tantum),فعلِ مجهولِ محض,verb,
+remodelled (analogical) form,صورت قیاسی,verb,

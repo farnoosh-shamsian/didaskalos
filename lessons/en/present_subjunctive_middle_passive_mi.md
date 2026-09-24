@@ -18,7 +18,7 @@ The subjunctive is the mood of what may or should happen — purpose clauses, ge
 | **δύνωμαι** | that I be able |
 | **ἱστῶμαι** | that I stand |
 
-δύναμαι and ἐπίσταμαι are middle-only, so δύνηται and δύνωνται in ἐάν-clauses are the forms you will meet most.
+δύναμαι and ἐπίσταμαι are deponent, so δύνηται and δύνωνται in ἐάν-clauses are the forms you will meet most.
 
 ---
 

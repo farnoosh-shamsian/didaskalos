@@ -17,7 +17,7 @@ In the aorist the middle and the passive are separate formations, and μι-verbs
 | Middle | bare stem + ‑σθαι | **δόσθαι** | to give of one's own |
 | Passive | stem + ‑θῆναι | **δοθῆναι** | to be given |
 
-A row tagged "middle/passive" therefore covers two shapes. In practice it usually marks a **deponent** — a middle-only verb whose meaning is active — or a form the annotation left open.
+A row tagged "middle/passive" therefore covers two shapes. In practice it usually marks a **deponent** — a verb with no active forms of its own, whose meaning is active — or a form the annotation left open.
 
 ---
 
@@ -34,7 +34,7 @@ A row tagged "middle/passive" therefore covers two shapes. In practice it usuall
 
 ### 2.2 The Deponents
 
-The μι-verbs include several middle-only verbs whose aorist infinitive is active in meaning:
+The μι-verbs include several deponents whose aorist infinitive is active in meaning:
 
 | Verb | Aorist infinitive | Meaning |
 | --- | --- | --- |
