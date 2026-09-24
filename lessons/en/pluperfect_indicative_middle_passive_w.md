@@ -71,7 +71,7 @@ When the stem ends in a consonant, the ending collides with it and both adjust. 
 | τάττω "arrange" | τέταγμαι | **ἐτέτακτο** | had been stationed |
 | ποιέω "make" | πεποίημαι | **ἐπεποίητο** | had been made |
 | τειχίζω "fortify" | τετείχισμαι | **ἐτετείχιστο** | had been walled |
-| ἄγγελλω "report" | ἤγγελμαι | **ἤγγελτο** | had been announced |
+| ἀγγέλλω "report" | ἤγγελμαι | **ἤγγελτο** | had been announced |
 
 ---
 

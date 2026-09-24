@@ -91,7 +91,7 @@ The present indicative active has the ending **‑ω** in the first person singu
 
 | Rule | Explanation |
 |------|-------------|
-| **Augment** | In the aorist indicative (first and second), **ἐ‑** is prefixed before a consonant; vowel-initial verbs lengthen the initial vowel instead: ἀκούω → **ἤκουσα**. |
+| **Augment** | In the aorist indicative (both kinds), **ἐ‑** is prefixed before a consonant; vowel-initial verbs lengthen the initial vowel instead: ἀκούω → **ἤκουσα**. |
 | **Contract verbs** | The final stem vowel lengthens before ‑σα: φιλέω → **ἐφίλησα**, τιμάω → **ἐτίμησα**, δηλόω → **ἐδήλωσα**. |
 | **Irregular stems** | Some verbs have an entirely different aorist stem and must be memorized: ἔρχομαι → **ἦλθον**, ὁράω → **εἶδον**, φέρω → **ἤνεγκα**. |
 | **Reduplication in the thematic aorist** | A few thematic aorists show reduplication: ἄγω → **ἤγαγον** (stem ἀγ-αγ‑). |
