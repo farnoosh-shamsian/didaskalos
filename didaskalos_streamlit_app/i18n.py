@@ -57,5 +57,7 @@ def rtl_css() -> str:
     /* Keep tabular/greek/latin data and code left-to-right. */
     [data-testid="stDataFrame"], [data-testid="stTable"],
     .stCode, pre, code { direction: ltr; text-align: left; }
+    /* Streamlit parks the collapsed sidebar off-screen by sliding it left, which in RTL drags it back onto the page, so clip the zero-width section instead. */
+    section[data-testid="stSidebar"][aria-expanded="false"] { overflow: hidden; }
     </style>
     """
